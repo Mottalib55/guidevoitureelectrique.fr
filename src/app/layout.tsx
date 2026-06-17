@@ -61,7 +61,7 @@ const jsonLdPerson = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Mottalib Radif",
-  jobTitle: "Fondateur et Editeur",
+  jobTitle: "Passionne d'automobile et expert en mobilite electrique",
   url: "https://guidevoitureelectrique.fr/a-propos/",
   image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
   alumniOf: {
@@ -69,7 +69,7 @@ const jsonLdPerson = {
     name: "INSEAD",
   },
   description:
-    "MBA INSEAD, fondateur de Guide Voiture Electrique. Expert en mobilite electrique et analyse du marche automobile.",
+    "Passionne par l'automobile et la mobilite electrique, diplome MBA de l'INSEAD. Specialise dans l'analyse du marche des vehicules electriques, les aides a l'achat et l'infrastructure de recharge en France.",
   worksFor: {
     "@type": "Organization",
     name: "Guide Voiture Electrique",

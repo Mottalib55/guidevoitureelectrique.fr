@@ -74,8 +74,8 @@ export function articleJsonLd({
     author: {
       "@type": "Person",
       name: "Mottalib Radif",
-      jobTitle: "Analyste automobile",
-      description: "MBA INSEAD, ingénieur de formation",
+      jobTitle: "Passionné d'automobile et expert en mobilité électrique",
+      description: "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'INSEAD. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
       url: "https://guidevoitureelectrique.fr",
     },
     publisher: {

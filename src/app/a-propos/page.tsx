@@ -64,7 +64,7 @@ export default function AProposPage() {
                 marginBottom: 4,
               }}
             >
-              Fondateur et Éditeur
+              Passionné d&apos;automobile et expert en mobilité électrique
             </p>
             <p
               style={{
@@ -73,7 +73,7 @@ export default function AProposPage() {
                 fontWeight: 500,
               }}
             >
-              MBA INSEAD &middot; Ingénieur de formation
+              MBA INSEAD &middot; Spécialisé dans l&apos;analyse du marché des véhicules électriques
             </p>
           </div>
         </div>

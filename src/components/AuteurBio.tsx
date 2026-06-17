@@ -52,11 +52,12 @@ export default function AuteurBio() {
             margin: 0,
           }}
         >
-          MBA INSEAD, ingénieur de formation et passionné d&apos;automobile.
-          Mottalib analyse le marché de la voiture électrique en France avec une
-          approche rigoureuse, croisant données constructeurs, tests indépendants
-          et retours d&apos;utilisateurs pour fournir des informations fiables et
-          objectives aux futurs acheteurs.
+          Passionné par l&apos;automobile et la mobilité électrique, diplômé MBA
+          de l&apos;INSEAD. Spécialisé dans l&apos;analyse du marché des
+          véhicules électriques, les aides à l&apos;achat et
+          l&apos;infrastructure de recharge en France. Mottalib croise données
+          constructeurs, tests indépendants et retours d&apos;utilisateurs pour
+          fournir des informations fiables et objectives.
         </p>
         <div style={{ marginTop: 8, display: "flex", gap: 12 }}>
           <Link
