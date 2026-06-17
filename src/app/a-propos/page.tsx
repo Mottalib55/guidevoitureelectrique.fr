@@ -221,6 +221,31 @@ export default function AProposPage() {
             contribuer à accélérer l&apos;adoption de la voiture électrique en
             France.
           </p>
+          <p>
+            L&apos;infrastructure de recharge en France connaît une croissance
+            remarquable. Le pays compte désormais plus de 150 000 points de
+            charge ouverts au public, avec un objectif gouvernemental de
+            400 000 bornes à l&apos;horizon 2030. Le réseau de recharge rapide
+            sur autoroute, porté par des opérateurs comme Ionity, TotalEnergies,
+            Fastned et Tesla Supercharger, rend désormais les trajets longue
+            distance en véhicule électrique aussi fluides qu&apos;en thermique
+            pour la grande majorité des itinéraires. Cette densification rapide
+            du maillage territorial est un facteur déterminant dans la
+            confiance des automobilistes français envers la mobilité électrique.
+          </p>
+          <p>
+            Sur le plan technologique, l&apos;évolution des batteries constitue
+            le moteur principal de la démocratisation du véhicule électrique.
+            Les cellules LFP (lithium fer phosphate) offrent désormais une
+            durée de vie supérieure à 3 000 cycles tout en réduisant la
+            dépendance aux matériaux critiques comme le cobalt et le nickel.
+            Les batteries sodium-ion, attendues en production de masse dans les
+            prochaines années, promettent de faire baisser encore les coûts
+            tout en améliorant la recyclabilité. Ces avancées techniques se
+            traduisent concrètement pour le consommateur par des prix en baisse,
+            des autonomies en hausse et des temps de recharge toujours plus
+            courts.
+          </p>
 
           <h2>Indépendance et transparence</h2>
           <p>
