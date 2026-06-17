@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   description:
     "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches, calculateurs LOA/LLD et guides d'achat indépendants.",
   metadataBase: new URL("https://guidevoitureelectrique.fr"),
+  authors: [{ name: "Mottalib Radif" }],
   openGraph: {
     siteName: "Guide Voiture Électrique",
     locale: "fr_FR",
@@ -34,6 +35,45 @@ export const metadata: Metadata = {
       { url: "/favicon.svg", type: "image/svg+xml" },
     ],
     apple: "/favicon.svg",
+  },
+  manifest: "/manifest.webmanifest",
+};
+
+const jsonLdOrganization = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Guide Voiture Electrique",
+  url: "https://guidevoitureelectrique.fr",
+  logo: "https://guidevoitureelectrique.fr/logo.svg",
+  founder: {
+    "@type": "Person",
+    name: "Mottalib Radif",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "contact@guidevoitureelectrique.fr",
+    contactType: "customer support",
+    availableLanguage: "French",
+  },
+};
+
+const jsonLdPerson = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Mottalib Radif",
+  jobTitle: "Fondateur et Editeur",
+  url: "https://guidevoitureelectrique.fr/a-propos/",
+  image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
+  alumniOf: {
+    "@type": "EducationalOrganization",
+    name: "INSEAD",
+  },
+  description:
+    "MBA INSEAD, fondateur de Guide Voiture Electrique. Expert en mobilite electrique et analyse du marche automobile.",
+  worksFor: {
+    "@type": "Organization",
+    name: "Guide Voiture Electrique",
+    url: "https://guidevoitureelectrique.fr",
   },
 };
 
@@ -48,6 +88,18 @@ export default function RootLayout({
       className={`${manrope.variable} ${bricolage.variable} antialiased`}
     >
       <body className="min-h-screen flex flex-col bg-white text-[var(--ink)]">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdOrganization),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdPerson),
+          }}
+        />
         {/* ─── HEADER ──────────────────────────────────────────── */}
         <header className="site-header">
           <div className="site-header-inner">
@@ -139,6 +191,14 @@ export default function RootLayout({
           <div className="site-footer-bottom">
             © {new Date().getFullYear()} guidevoitureelectrique.fr — Données
             indicatives, non contractuelles.
+            {" | "}
+            <Link href="/a-propos/" style={{ color: "var(--faint)", textDecoration: "none" }}>
+              À propos
+            </Link>
+            {" | "}
+            <Link href="/mentions-legales/" style={{ color: "var(--faint)", textDecoration: "none" }}>
+              Mentions légales
+            </Link>
           </div>
         </footer>
       </body>

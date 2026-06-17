@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AuteurBio() {
@@ -14,36 +15,35 @@ export default function AuteurBio() {
         alignItems: "flex-start",
       }}
     >
-      <div
+      <Image
+        src="/team/mottalib-radif.jpg"
+        alt="Mottalib Radif"
+        width={56}
+        height={56}
         style={{
-          width: 56,
-          height: 56,
           borderRadius: "50%",
-          background: "linear-gradient(135deg, var(--accent), var(--accent-deep))",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          objectFit: "cover",
           flexShrink: 0,
-          color: "#fff",
-          fontWeight: 800,
-          fontSize: 20,
-          fontFamily: "var(--font-display)",
+          border: "2px solid var(--accent)",
         }}
-      >
-        MR
-      </div>
+      />
       <div>
-        <h4
-          style={{
-            fontFamily: "var(--font-display)",
-            fontWeight: 800,
-            fontSize: 16,
-            marginBottom: 4,
-            color: "var(--ink)",
-          }}
+        <Link
+          href="/a-propos/"
+          style={{ textDecoration: "none" }}
         >
-          Mottalib Radif
-        </h4>
+          <h4
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 800,
+              fontSize: 16,
+              marginBottom: 4,
+              color: "var(--ink)",
+            }}
+          >
+            Mottalib Radif
+          </h4>
+        </Link>
         <p
           style={{
             fontSize: 13,
@@ -59,6 +59,17 @@ export default function AuteurBio() {
           objectives aux futurs acheteurs.
         </p>
         <div style={{ marginTop: 8, display: "flex", gap: 12 }}>
+          <Link
+            href="/a-propos/"
+            style={{
+              fontSize: 12,
+              fontWeight: 600,
+              color: "var(--accent-deep)",
+              textDecoration: "none",
+            }}
+          >
+            À propos
+          </Link>
           <Link
             href="/guides/"
             style={{
