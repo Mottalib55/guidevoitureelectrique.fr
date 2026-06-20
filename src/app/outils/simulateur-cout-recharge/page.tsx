@@ -252,7 +252,7 @@ export default function SimulateurCoutRecharge() {
               <label style={labelStyle}>Ou saisir un chiffre exact</label>
               <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                 <input
-                  type="number"
+                  type="text" inputMode="decimal"
                   value={kmJour}
                   onChange={(e) => setKmJour(Math.max(1, Number(e.target.value)))}
                   min={1}

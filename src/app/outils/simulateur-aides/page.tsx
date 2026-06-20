@@ -108,15 +108,15 @@ export default function SimulateurAides() {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
               <div>
                 <label style={labelStyle}>Prix du véhicule</label>
-                <input type="number" value={prixVehicule} onChange={(e) => setPrixVehicule(Number(e.target.value))} step={1000} style={inputStyle} />
+                <input type="text" inputMode="decimal" value={prixVehicule} onChange={(e) => setPrixVehicule(Number(e.target.value))} step={1000} style={inputStyle} />
               </div>
               <div>
                 <label style={labelStyle}>Revenu fiscal de référence</label>
-                <input type="number" value={rfr} onChange={(e) => setRfr(Number(e.target.value))} step={1000} style={inputStyle} />
+                <input type="text" inputMode="decimal" value={rfr} onChange={(e) => setRfr(Number(e.target.value))} step={1000} style={inputStyle} />
               </div>
               <div>
                 <label style={labelStyle}>Nombre de parts fiscales</label>
-                <input type="number" value={nbParts} onChange={(e) => setNbParts(Number(e.target.value))} step={0.5} min={1} style={inputStyle} />
+                <input type="text" inputMode="decimal" value={nbParts} onChange={(e) => setNbParts(Number(e.target.value))} step={0.5} min={1} style={inputStyle} />
               </div>
               <div>
                 <label style={labelStyle}>RFR par part</label>

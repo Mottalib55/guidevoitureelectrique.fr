@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
   title: "Simulateur coût de recharge voiture électrique 2026",
@@ -8,6 +9,20 @@ export const metadata: Metadata = buildMetadata({
   path: "/outils/simulateur-cout-recharge/",
 });
 
+const jsonLd = webApplicationJsonLd({
+  name: "Simulateur coût de recharge VE",
+  description: "Calculez votre budget recharge mensuel : domicile, bornes publiques ou rapides. Comparaison avec l'essence incluse.",
+  url: "https://guidevoitureelectrique.fr/outils/simulateur-cout-recharge/",
+});
+
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {children}
+    </>
+  );
 }

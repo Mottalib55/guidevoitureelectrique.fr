@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Page non trouvée — Guide Voiture Électrique",
+  robots: { index: false, follow: false },
+};
 
 export default function NotFound() {
   return (

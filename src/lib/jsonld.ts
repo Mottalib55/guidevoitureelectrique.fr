@@ -74,14 +74,19 @@ export function articleJsonLd({
     author: {
       "@type": "Person",
       name: "Mottalib Radif",
-      jobTitle: "Passionné d'automobile et expert en mobilité électrique",
+      jobTitle: "MBA INSEAD, Passionné de Finance",
       description: "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'INSEAD. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
-      url: "https://guidevoitureelectrique.fr",
+      url: "https://guidevoitureelectrique.fr/a-propos/",
+      image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
     },
     publisher: {
       "@type": "Organization",
       name: "Guide Voiture Électrique",
       url: "https://guidevoitureelectrique.fr",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://guidevoitureelectrique.fr/logo.svg",
+      },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -101,6 +106,52 @@ export function breadcrumbJsonLd(
       position: i + 1,
       name: item.name,
       item: item.url,
+    })),
+  };
+}
+
+export function webApplicationJsonLd({
+  name,
+  description,
+  url,
+}: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name,
+    description,
+    url,
+    applicationCategory: "FinanceApplication",
+    operatingSystem: "All",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "EUR",
+    },
+    author: {
+      "@type": "Organization",
+      name: "Guide Voiture Électrique",
+      url: "https://guidevoitureelectrique.fr",
+    },
+  };
+}
+
+export function definedTermSetJsonLd(
+  terms: { term: string; description: string }[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    name: "Glossaire de la voiture électrique",
+    url: "https://guidevoitureelectrique.fr/glossaire/",
+    hasDefinedTerm: terms.map((t) => ({
+      "@type": "DefinedTerm",
+      name: t.term,
+      description: t.description,
     })),
   };
 }

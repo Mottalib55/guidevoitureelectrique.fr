@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Calculateur coût voiture électrique — Guide Voiture Électrique</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Manrope',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;color:#0b1d2a;background:#fff}
+.widget{max-width:480px;margin:0 auto;border:1.5px solid #e3e9ed;border-radius:18px;overflow:hidden}
+.widget-head{padding:18px 20px;background:linear-gradient(135deg,#0b1d2a,#123042);color:#fff}
+.widget-head h2{font-size:18px;font-weight:800;margin-bottom:4px}
+.widget-head p{font-size:12px;color:#aebfc9}
+.widget-body{padding:20px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:11px;font-weight:700;color:#93a2ad;text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.field input{width:100%;padding:10px 12px;border:1.5px solid #e3e9ed;border-radius:10px;font-size:14px;font-weight:600;font-family:inherit;color:#0b1d2a;background:#fbfcfd;outline:none}
+.field input:focus{border-color:#00c074}
+.result{padding:20px;border-top:1px solid #e3e9ed;background:#f4f7f8}
+.result-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:14px;font-weight:500}
+.result-row strong{font-weight:800;color:#03894f}
+.result-row.warn strong{color:#d98a1f}
+.result-total{padding:12px;border-radius:12px;background:rgba(0,192,116,.08);text-align:center;margin-top:8px}
+.result-total .val{font-size:22px;font-weight:800;color:#03894f}
+.result-total .lbl{font-size:12px;color:#5a6b78;font-weight:600}
+.widget-foot{padding:12px 20px;text-align:center;border-top:1px solid #e3e9ed;font-size:11px;color:#93a2ad}
+.widget-foot a{color:#03894f;text-decoration:none;font-weight:700}
+.widget-foot a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="widget">
+  <div class="widget-head">
+    <h2>Calculateur coût VE</h2>
+    <p>Estimez vos économies vs essence</p>
+  </div>
+  <div class="widget-body">
+    <div class="field">
+      <label>Km par jour</label>
+      <input type="text" inputmode="decimal" id="km" value="40">
+    </div>
+    <div class="field">
+      <label>Consommation VE (kWh/100 km)</label>
+      <input type="text" inputmode="decimal" id="conso" value="15">
+    </div>
+    <div class="field">
+      <label>Prix électricité (euro/kWh)</label>
+      <input type="text" inputmode="decimal" id="prix" value="0.21">
+    </div>
+  </div>
+  <div class="result" id="results">
+    <!-- filled by JS -->
+  </div>
+  <div class="widget-foot">
+    Propulsé par <a href="https://guidevoitureelectrique.fr/outils/financement/" target="_blank" rel="noopener">Guide Voiture Électrique</a>
+  </div>
+</div>
+<script>
+(function(){
+  var km=document.getElementById('km'),
+      conso=document.getElementById('conso'),
+      prix=document.getElementById('prix'),
+      out=document.getElementById('results');
+  function calc(){
+    var k=parseFloat(km.value)||40,
+        c=parseFloat(conso.value)||15,
+        p=parseFloat(prix.value)||0.21,
+        kmAn=k*365,
+        kwhAn=(kmAn/100)*c,
+        coutElecAn=kwhAn*p,
+        coutEssAn=(kmAn/100)*7*1.75,
+        eco=coutEssAn-coutElecAn;
+    out.innerHTML=
+      '<div class="result-row"><span>Coût électrique / an</span><strong>'+Math.round(coutElecAn).toLocaleString('fr-FR')+' &euro;</strong></div>'+
+      '<div class="result-row warn"><span>Coût essence / an</span><strong>'+Math.round(coutEssAn).toLocaleString('fr-FR')+' &euro;</strong></div>'+
+      '<div class="result-total"><div class="lbl">Économie annuelle</div><div class="val">'+Math.round(eco).toLocaleString('fr-FR')+' &euro;</div></div>';
+  }
+  km.addEventListener('input',calc);
+  conso.addEventListener('input',calc);
+  prix.addEventListener('input',calc);
+  calc();
+})();
+</script>
+</body>
+</html>

@@ -109,11 +109,11 @@ export default function ComparateurElecThermique() {
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, maxWidth: 400, marginBottom: 24 }}>
           <div>
             <label style={labelStyle}>Km / an</label>
-            <input type="number" value={kmAn} onChange={(e) => setKmAn(Number(e.target.value))} step={1000} style={inputStyle} />
+            <input type="text" inputMode="decimal" value={kmAn} onChange={(e) => setKmAn(Number(e.target.value))} step={1000} style={inputStyle} />
           </div>
           <div>
             <label style={labelStyle}>Durée (années)</label>
-            <input type="number" value={duree} onChange={(e) => setDuree(Number(e.target.value))} min={1} max={10} style={inputStyle} />
+            <input type="text" inputMode="decimal" value={duree} onChange={(e) => setDuree(Number(e.target.value))} min={1} max={10} style={inputStyle} />
           </div>
         </div>
 
@@ -125,13 +125,13 @@ export default function ComparateurElecThermique() {
               Électrique
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
-              <div><label style={labelStyle}>Prix neuf</label><input type="number" value={prixElec} onChange={(e) => setPrixElec(Number(e.target.value))} step={1000} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Bonus</label><input type="number" value={bonusElec} onChange={(e) => setBonusElec(Number(e.target.value))} step={500} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Conso (kWh/100)</label><input type="number" value={consoElec} onChange={(e) => setConsoElec(Number(e.target.value))} step={0.5} style={inputStyle} /></div>
-              <div><label style={labelStyle}>€/kWh</label><input type="number" value={prixKwh} onChange={(e) => setPrixKwh(Number(e.target.value))} step={0.01} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Assurance / an</label><input type="number" value={assurElec} onChange={(e) => setAssurElec(Number(e.target.value))} step={50} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Entretien / an</label><input type="number" value={entretienElec} onChange={(e) => setEntretienElec(Number(e.target.value))} step={50} style={inputStyle} /></div>
-              <div style={{ gridColumn: "1 / -1" }}><label style={labelStyle}>Décote sur {duree} ans (%)</label><input type="number" value={decoteElec} onChange={(e) => setDecoteElec(Number(e.target.value))} step={1} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Prix neuf</label><input type="text" inputMode="decimal" value={prixElec} onChange={(e) => setPrixElec(Number(e.target.value))} step={1000} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Bonus</label><input type="text" inputMode="decimal" value={bonusElec} onChange={(e) => setBonusElec(Number(e.target.value))} step={500} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Conso (kWh/100)</label><input type="text" inputMode="decimal" value={consoElec} onChange={(e) => setConsoElec(Number(e.target.value))} step={0.5} style={inputStyle} /></div>
+              <div><label style={labelStyle}>€/kWh</label><input type="text" inputMode="decimal" value={prixKwh} onChange={(e) => setPrixKwh(Number(e.target.value))} step={0.01} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Assurance / an</label><input type="text" inputMode="decimal" value={assurElec} onChange={(e) => setAssurElec(Number(e.target.value))} step={50} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Entretien / an</label><input type="text" inputMode="decimal" value={entretienElec} onChange={(e) => setEntretienElec(Number(e.target.value))} step={50} style={inputStyle} /></div>
+              <div style={{ gridColumn: "1 / -1" }}><label style={labelStyle}>Décote sur {duree} ans (%)</label><input type="text" inputMode="decimal" value={decoteElec} onChange={(e) => setDecoteElec(Number(e.target.value))} step={1} style={inputStyle} /></div>
             </div>
           </div>
 
@@ -141,13 +141,13 @@ export default function ComparateurElecThermique() {
               Thermique
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
-              <div><label style={labelStyle}>Prix neuf</label><input type="number" value={prixTherm} onChange={(e) => setPrixTherm(Number(e.target.value))} step={1000} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Prix neuf</label><input type="text" inputMode="decimal" value={prixTherm} onChange={(e) => setPrixTherm(Number(e.target.value))} step={1000} style={inputStyle} /></div>
               <div><label style={labelStyle}>—</label><input type="text" value="Pas de bonus" disabled style={{ ...inputStyle, color: "var(--faint)", background: "var(--wash)" }} /></div>
-              <div><label style={labelStyle}>Conso (L/100)</label><input type="number" value={consoTherm} onChange={(e) => setConsoTherm(Number(e.target.value))} step={0.5} style={inputStyle} /></div>
-              <div><label style={labelStyle}>€/litre</label><input type="number" value={prixLitre} onChange={(e) => setPrixLitre(Number(e.target.value))} step={0.05} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Assurance / an</label><input type="number" value={assurTherm} onChange={(e) => setAssurTherm(Number(e.target.value))} step={50} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Entretien / an</label><input type="number" value={entretienTherm} onChange={(e) => setEntretienTherm(Number(e.target.value))} step={50} style={inputStyle} /></div>
-              <div style={{ gridColumn: "1 / -1" }}><label style={labelStyle}>Décote sur {duree} ans (%)</label><input type="number" value={decoteTherm} onChange={(e) => setDecoteTherm(Number(e.target.value))} step={1} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Conso (L/100)</label><input type="text" inputMode="decimal" value={consoTherm} onChange={(e) => setConsoTherm(Number(e.target.value))} step={0.5} style={inputStyle} /></div>
+              <div><label style={labelStyle}>€/litre</label><input type="text" inputMode="decimal" value={prixLitre} onChange={(e) => setPrixLitre(Number(e.target.value))} step={0.05} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Assurance / an</label><input type="text" inputMode="decimal" value={assurTherm} onChange={(e) => setAssurTherm(Number(e.target.value))} step={50} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Entretien / an</label><input type="text" inputMode="decimal" value={entretienTherm} onChange={(e) => setEntretienTherm(Number(e.target.value))} step={50} style={inputStyle} /></div>
+              <div style={{ gridColumn: "1 / -1" }}><label style={labelStyle}>Décote sur {duree} ans (%)</label><input type="text" inputMode="decimal" value={decoteTherm} onChange={(e) => setDecoteTherm(Number(e.target.value))} step={1} style={inputStyle} /></div>
             </div>
           </div>
         </div>

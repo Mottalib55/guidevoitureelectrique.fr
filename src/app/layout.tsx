@@ -24,19 +24,30 @@ export const metadata: Metadata = {
   description:
     "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches, calculateurs LOA/LLD et guides d'achat indépendants.",
   metadataBase: new URL("https://guidevoitureelectrique.fr"),
-  authors: [{ name: "Mottalib Radif" }],
+  authors: [{ name: "Mottalib Radif, MBA INSEAD, Passionné de Finance" }],
   openGraph: {
     siteName: "Guide Voiture Électrique",
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: "https://guidevoitureelectrique.fr/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Guide Voiture Électrique",
+      },
+    ],
   },
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     apple: "/favicon.svg",
   },
   manifest: "/manifest.webmanifest",
+  verification: {
+    other: {
+      "msvalidate.01": "GUIDEVE2026BINGVERIFY",
+    },
+  },
 };
 
 const jsonLdOrganization = {
@@ -48,6 +59,9 @@ const jsonLdOrganization = {
   founder: {
     "@type": "Person",
     name: "Mottalib Radif",
+    jobTitle: "MBA INSEAD, Passionné de Finance",
+    url: "https://guidevoitureelectrique.fr/a-propos/",
+    image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
   },
   contactPoint: {
     "@type": "ContactPoint",
@@ -61,7 +75,7 @@ const jsonLdPerson = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Mottalib Radif",
-  jobTitle: "Passionne d'automobile et expert en mobilite electrique",
+  jobTitle: "MBA INSEAD, Passionné de Finance",
   url: "https://guidevoitureelectrique.fr/a-propos/",
   image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
   alumniOf: {
@@ -69,11 +83,27 @@ const jsonLdPerson = {
     name: "INSEAD",
   },
   description:
-    "Passionne par l'automobile et la mobilite electrique, diplome MBA de l'INSEAD. Specialise dans l'analyse du marche des vehicules electriques, les aides a l'achat et l'infrastructure de recharge en France.",
+    "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'INSEAD. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
   worksFor: {
     "@type": "Organization",
     name: "Guide Voiture Electrique",
     url: "https://guidevoitureelectrique.fr",
+  },
+};
+
+const jsonLdWebSiteSearch = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Guide Voiture Électrique",
+  url: "https://guidevoitureelectrique.fr",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate:
+        "https://guidevoitureelectrique.fr/modeles/?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
   },
 };
 
@@ -87,7 +117,22 @@ export default function RootLayout({
       lang="fr"
       className={`${manrope.variable} ${bricolage.variable} antialiased`}
     >
+      <head>
+        {/* Microsoft Clarity — only in production */}
+        {process.env.NODE_ENV === "production" && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/GUIDEVE2026";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script");`,
+            }}
+          />
+        )}
+      </head>
       <body className="min-h-screen flex flex-col bg-white text-[var(--ink)]">
+        {/* Skip to content link for accessibility */}
+        <a href="#main-content" className="skip-to-content">
+          Aller au contenu
+        </a>
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -100,8 +145,14 @@ export default function RootLayout({
             __html: JSON.stringify(jsonLdPerson),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLdWebSiteSearch),
+          }}
+        />
         {/* ─── HEADER ──────────────────────────────────────────── */}
-        <header className="site-header">
+        <header className="site-header" role="banner">
           <div className="site-header-inner">
             <Link href="/" className="site-logo">
               <Image src="/logo.svg" alt="" width={28} height={28} className="site-logo-icon" />
@@ -122,10 +173,10 @@ export default function RootLayout({
         </header>
 
         {/* ─── MAIN ────────────────────────────────────────────── */}
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1" role="main">{children}</main>
 
         {/* ─── FOOTER ──────────────────────────────────────────── */}
-        <footer className="site-footer">
+        <footer className="site-footer" role="contentinfo">
           <div className="site-footer-inner">
             <div className="site-footer-brand">
               <Image src="/logo.svg" alt="" width={24} height={24} style={{ display: "inline-block", verticalAlign: "middle", marginRight: 6 }} /> Guide Voiture Électrique
@@ -160,6 +211,7 @@ export default function RootLayout({
                   Coût de recharge
                 </Link>
                 <Link href="/outils/comparateur-modeles/">Comparateur</Link>
+                <Link href="/outils/widget/">Widget calculateur</Link>
               </div>
               <div>
                 <h4><Link href="/recharge/">Recharge</Link></h4>
@@ -185,6 +237,7 @@ export default function RootLayout({
                 <Link href="/guides/recharge-pour-debutants/">
                   Recharge débutants
                 </Link>
+                <Link href="/glossaire/">Glossaire VE</Link>
               </div>
             </div>
           </div>
@@ -198,6 +251,10 @@ export default function RootLayout({
             {" | "}
             <Link href="/mentions-legales/" style={{ color: "var(--faint)", textDecoration: "none" }}>
               Mentions légales
+            </Link>
+            {" | "}
+            <Link href="/glossaire/" style={{ color: "var(--faint)", textDecoration: "none" }}>
+              Glossaire
             </Link>
           </div>
         </footer>

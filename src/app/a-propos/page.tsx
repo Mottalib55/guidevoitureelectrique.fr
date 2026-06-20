@@ -2,12 +2,23 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorByline from "@/components/AuthorByline";
+import { buildMetadata } from "@/lib/seo";
+import { articleJsonLd } from "@/lib/jsonld";
 
-export const metadata: Metadata = {
-  title: "À propos — Guide Voiture Électrique",
+export const metadata: Metadata = buildMetadata({
+  title: "À propos — Guide Voiture Électrique | Mottalib Radif",
   description:
     "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement pour vous aider à choisir la meilleure voiture électrique.",
-};
+  path: "/a-propos/",
+});
+
+const jsonLd = articleJsonLd({
+  title: "À propos — Guide Voiture Électrique",
+  description: "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement.",
+  path: "/a-propos/",
+  datePublished: "2026-05-28",
+});
 
 export default function AProposPage() {
   return (
@@ -16,6 +27,11 @@ export default function AProposPage() {
         items={[
           { name: "À propos", href: "/a-propos/" },
         ]}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
       <article className="section" style={{ paddingTop: 48, paddingBottom: 80 }}>
@@ -79,6 +95,7 @@ export default function AProposPage() {
         </div>
 
         {/* ── Content ──────────────────────────────────────────── */}
+        <AuthorByline date="Mai 2026" />
         <div className="prose">
           <h2>Notre mission</h2>
           <p>

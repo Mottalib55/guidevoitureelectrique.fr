@@ -29,6 +29,16 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
         />
       </Link>
       <div>
+        <p
+          style={{
+            fontSize: 12,
+            color: "var(--faint)",
+            margin: 0,
+            fontWeight: 500,
+          }}
+        >
+          Rédigé par
+        </p>
         <Link
           href="/a-propos/"
           style={{
@@ -49,7 +59,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
             fontWeight: 500,
           }}
         >
-          MBA INSEAD{date ? ` · ${date}` : ""}
+          MBA INSEAD, Passionné de Finance{date ? ` · ${date}` : ""}
         </p>
       </div>
     </div>

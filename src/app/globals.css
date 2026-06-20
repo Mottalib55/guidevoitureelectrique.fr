@@ -27,6 +27,26 @@ body {
   background: var(--paper);
 }
 
+/* ─── SKIP TO CONTENT (A11Y) ─────────────────────────────────────── */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 9999;
+  padding: 12px 24px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 0 0 12px 12px;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
 /* ─── HEADER ──────────────────────────────────────────────────────── */
 .site-header {
   position: sticky;

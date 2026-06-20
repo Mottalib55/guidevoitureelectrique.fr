@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
   title: "Calculateur financement voiture électrique LOA LLD",
@@ -8,6 +9,20 @@ export const metadata: Metadata = buildMetadata({
   path: "/outils/financement/",
 });
 
+const jsonLd = webApplicationJsonLd({
+  name: "Calculateur financement voiture électrique",
+  description: "Comparez comptant, crédit, LOA et LLD pour votre voiture électrique. Mensualités, coût total réel et recommandation personnalisée.",
+  url: "https://guidevoitureelectrique.fr/outils/financement/",
+});
+
 export default function Layout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {children}
+    </>
+  );
 }

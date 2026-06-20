@@ -31,6 +31,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/outils/simulateur-aides/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/outils/comparateur-modeles/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/marques/voitures-chinoises/`, lastModified: lastUpdate, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE}/glossaire/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/a-propos/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE}/mentions-legales/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE}/outils/widget/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.5 },
   ];
 
   const modelePages: MetadataRoute.Sitemap = modeles.map((m) => ({

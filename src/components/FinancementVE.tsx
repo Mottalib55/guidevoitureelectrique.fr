@@ -294,7 +294,7 @@ export default function FinancementVE({
               <label className="fve-editor-label">Bonus écologique</label>
               <input
                 className="fve-editor-input"
-                type="number"
+                type="text" inputMode="decimal"
                 min={0}
                 max={7000}
                 step={500}
@@ -307,7 +307,7 @@ export default function FinancementVE({
               <label className="fve-editor-label">Apport</label>
               <input
                 className="fve-editor-input"
-                type="number"
+                type="text" inputMode="decimal"
                 min={0}
                 max={100}
                 step={5}
@@ -320,7 +320,7 @@ export default function FinancementVE({
               <label className="fve-editor-label">Kilométrage annuel</label>
               <input
                 className="fve-editor-input"
-                type="number"
+                type="text" inputMode="decimal"
                 min={5000}
                 max={40000}
                 step={1000}
@@ -333,7 +333,7 @@ export default function FinancementVE({
               <label className="fve-editor-label">Durée</label>
               <input
                 className="fve-editor-input"
-                type="number"
+                type="text" inputMode="decimal"
                 min={12}
                 max={72}
                 step={12}
@@ -346,7 +346,7 @@ export default function FinancementVE({
               <label className="fve-editor-label">TAEG</label>
               <input
                 className="fve-editor-input"
-                type="number"
+                type="text" inputMode="decimal"
                 min={0}
                 max={15}
                 step={0.1}
