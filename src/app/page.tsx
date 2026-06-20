@@ -11,7 +11,7 @@ import AuteurBio from "@/components/AuteurBio";
 export const metadata: Metadata = buildMetadata({
   title: "Voiture électrique 2026 : comparatif, prix et autonomie",
   description:
-    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches, calculateurs LOA/LLD et guides d'achat indépendants.",
+    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
   path: "/",
 });
 

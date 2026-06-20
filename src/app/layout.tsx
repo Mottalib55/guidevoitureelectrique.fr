@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches, calculateurs LOA/LLD et guides d'achat indépendants.",
+    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
   metadataBase: new URL("https://guidevoitureelectrique.fr"),
   authors: [{ name: "Mottalib Radif, MBA INSEAD, Passionné de Finance" }],
   openGraph: {
