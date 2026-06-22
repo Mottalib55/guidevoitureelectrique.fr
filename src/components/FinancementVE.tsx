@@ -4,6 +4,7 @@ import React, { useMemo, useState } from "react";
 import { Wallet, Landmark, RefreshCw, KeyRound, Pencil, Check } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
+import { safeParseNumber } from "@/lib/parseNumericInput";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -299,7 +300,7 @@ export default function FinancementVE({
                 max={7000}
                 step={500}
                 value={draft.bonus}
-                onChange={(e) => setDraft({ ...draft, bonus: Number(e.target.value) })}
+                onChange={(e) => setDraft({ ...draft, bonus: safeParseNumber(e.target.value, draft.bonus) })}
               />
               <span className="fve-editor-suffix">€ (0 à 7 000)</span>
             </div>
@@ -312,7 +313,7 @@ export default function FinancementVE({
                 max={100}
                 step={5}
                 value={draft.apportPct}
-                onChange={(e) => setDraft({ ...draft, apportPct: Number(e.target.value) })}
+                onChange={(e) => setDraft({ ...draft, apportPct: safeParseNumber(e.target.value, draft.apportPct) })}
               />
               <span className="fve-editor-suffix">% du prix ({euro(prixBase * draft.apportPct / 100)})</span>
             </div>
@@ -325,7 +326,7 @@ export default function FinancementVE({
                 max={40000}
                 step={1000}
                 value={draft.kmAn}
-                onChange={(e) => setDraft({ ...draft, kmAn: Number(e.target.value) })}
+                onChange={(e) => setDraft({ ...draft, kmAn: safeParseNumber(e.target.value, draft.kmAn) })}
               />
               <span className="fve-editor-suffix">km/an</span>
             </div>
@@ -338,7 +339,7 @@ export default function FinancementVE({
                 max={72}
                 step={12}
                 value={draft.mois}
-                onChange={(e) => setDraft({ ...draft, mois: Number(e.target.value) })}
+                onChange={(e) => setDraft({ ...draft, mois: safeParseNumber(e.target.value, draft.mois) })}
               />
               <span className="fve-editor-suffix">mois ({draft.mois / 12} ans)</span>
             </div>
@@ -351,7 +352,7 @@ export default function FinancementVE({
                 max={15}
                 step={0.1}
                 value={draft.taeg}
-                onChange={(e) => setDraft({ ...draft, taeg: Number(e.target.value) })}
+                onChange={(e) => setDraft({ ...draft, taeg: safeParseNumber(e.target.value, draft.taeg) })}
               />
               <span className="fve-editor-suffix">%</span>
             </div>

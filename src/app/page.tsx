@@ -73,7 +73,7 @@ export default function HomePage() {
           ))}
         </div>
         <div style={{ textAlign: "center", marginTop: 32 }}>
-          <Link href="/modèles/" className="btn-secondary">
+          <Link href="/modeles/" className="btn-secondary">
             Voir tous les modèles
           </Link>
         </div>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { modeles } from "@/data/modeles";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import { safeParseNumber } from "@/lib/parseNumericInput";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -254,7 +255,7 @@ export default function SimulateurCoutRecharge() {
                 <input
                   type="text" inputMode="decimal"
                   value={kmJour}
-                  onChange={(e) => setKmJour(Math.max(1, Number(e.target.value)))}
+                  onChange={(e) => setKmJour(Math.max(1, safeParseNumber(e.target.value, kmJour)))}
                   min={1}
                   step={5}
                   style={inputStyle}

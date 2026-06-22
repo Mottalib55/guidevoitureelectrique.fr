@@ -18,7 +18,7 @@ export const pagesGuides: PageGuide[] = [
     h1: "Qu'est-ce qu'une voiture électrique ? Fonctionnement, avantages et idées reçues",
     metaDescription:
       "Comment fonctionne une voiture électrique ? Moteur, batterie, freinage régénératif, avantages et idées reçues décryptées. Le guide essentiel pour débutants.",
-    contenu: `<p>La voiture électrique est un véhicule propulsé par un ou plusieurs moteurs électriques alimentés par une batterie rechargeable. Contrairement à un véhicule thermique qui brûle du carburant dans un moteur à combustion interne, le véhicule électrique convertit directement l'énergie électrique stockée dans sa batterie en mouvement mécanique. Ce principe fondamental change radicalement l'expérience de conduite, l'entretien et le coût d'usage. En 2025, les voitures électriques représentent plus de 25 % des immatriculations neuves en France, preuve que la technologie est désormais mature et adoptée massivement par les automobilistes.</p>
+    contenu: `<p>La voiture électrique est un véhicule propulsé par un ou plusieurs moteurs électriques alimentés par une batterie rechargeable. Contrairement à un véhicule thermique qui brûle du carburant dans un moteur à combustion interne, le véhicule électrique convertit directement l'énergie électrique stockée dans sa batterie en mouvement mécanique. Ce principe fondamental change radicalement l'expérience de conduite, l'entretien et le coût d'usage. En 2026, les voitures électriques représentent plus de 25 % des immatriculations neuves en France, preuve que la technologie est désormais mature et adoptée massivement par les automobilistes.</p>
 
 <h2>Comment fonctionne une voiture électrique ?</h2>
 
@@ -42,7 +42,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h3>Les différentes chimies de batterie</h3>
 
-<p>Trois grandes familles de chimie de batterie coexistent sur le marché en 2025. Les batteries NMC (nickel manganèse cobalt) offrent la meilleure densité énergétique, idéale pour les véhicules premium à grande autonomie. Les batteries LFP (lithium fer phosphate) sont moins chères, plus durables et plus sûres, ce qui les rend populaires pour les modèles d'entrée de gamme et de milieu de gamme. Les batteries NCA (nickel cobalt aluminium), utilisées historiquement par Tesla, offrent un bon compromis entre densité et puissance. En 2026, les premières batteries sodium-ion commencent à apparaître dans des citadines, supprimant la dépendance au lithium.</p>
+<p>Trois grandes familles de chimie de batterie coexistent sur le marché en 2026. Les batteries NMC (nickel manganèse cobalt) offrent la meilleure densité énergétique, idéale pour les véhicules premium à grande autonomie. Les batteries LFP (lithium fer phosphate) sont moins chères, plus durables et plus sûres, ce qui les rend populaires pour les modèles d'entrée de gamme et de milieu de gamme. Les batteries NCA (nickel cobalt aluminium), utilisées historiquement par Tesla, offrent un bon compromis entre densité et puissance. En 2026, les premières batteries sodium-ion commencent à apparaître dans des citadines, supprimant la dépendance au lithium.</p>
 
 <h3>Capacité brute et capacité utile</h3>
 
@@ -64,7 +64,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h3>Avantage économique</h3>
 
-<p>Le premier avantage est économique : le coût de l'énergie est trois à quatre fois inférieur à celui du carburant fossile. Recharger à domicile coûte environ 3 euros pour 100 km, contre 10 à 12 euros pour un véhicule essence ou diesel en 2025. L'entretien est réduit de 30 à 50 % grâce à l'absence de nombreuses pièces d'usure (embrayage, courroie de distribution, pot d'échappement, filtre à huile, bougies). Sur une durée de détention de 10 ans et 150 000 km, l'économie cumulée peut atteindre 10 000 à 15 000 euros par rapport à un véhicule thermique équivalent, compensant largement le surcoût à l'achat.</p>
+<p>Le premier avantage est économique : le coût de l'énergie est trois à quatre fois inférieur à celui du carburant fossile. Recharger à domicile coûte environ 3 euros pour 100 km, contre 10 à 12 euros pour un véhicule essence ou diesel en 2026. L'entretien est réduit de 30 à 50 % grâce à l'absence de nombreuses pièces d'usure (embrayage, courroie de distribution, pot d'échappement, filtre à huile, bougies). Sur une durée de détention de 10 ans et 150 000 km, l'économie cumulée peut atteindre 10 000 à 15 000 euros par rapport à un véhicule thermique équivalent, compensant largement le surcoût à l'achat.</p>
 
 <h3>Avantage environnemental</h3>
 
@@ -80,7 +80,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h2>Les inconvénients et limites actuelles</h2>
 
-<p>Le prix d'achat reste supérieur à celui d'un véhicule thermique équivalent, bien que l'écart se réduise grâce aux aides et à la baisse du coût des batteries. En 2025, le coût des batteries est descendu sous la barre des 100 euros par kWh pour les chimies LFP, ce qui permet l'apparition de modèles électriques à moins de 25 000 euros comme la Citroën ë-C3 ou la Renault 5 E-Tech.</p>
+<p>Le prix d'achat reste supérieur à celui d'un véhicule thermique équivalent, bien que l'écart se réduise grâce aux aides et à la baisse du coût des batteries. En 2026, le coût des batteries est descendu sous la barre des 100 euros par kWh pour les chimies LFP, ce qui permet l'apparition de modèles électriques à moins de 25 000 euros comme la Citroën ë-C3 ou la Renault 5 E-Tech.</p>
 
 <p>L'autonomie, bien qu'en constante amélioration, peut être limitante pour les très longs trajets, surtout en hiver. Le réseau de bornes de recharge rapide se développe mais n'est pas encore aussi dense que le réseau de stations-service. Enfin, le temps de recharge reste supérieur au temps de plein d'un réservoir, même si 20 à 30 minutes sur une borne rapide suffisent pour récupérer 80 % de la batterie.</p>
 
@@ -96,11 +96,11 @@ export const pagesGuides: PageGuide[] = [
 
 <p><strong>« Le réseau électrique va s'effondrer. »</strong> Faux. Même avec 15 millions de VE, la consommation supplémentaire représenterait moins de 10 % de la production nationale d'électricité. La recharge intelligente (heures creuses, pilotage par signal tarifaire) lisse la demande.</p>
 
-<p><strong>« Il n'y a pas assez de bornes. »</strong> La France compte plus de 150 000 points de charge publics en 2025. Le réseau autoroutier est intégralement couvert, et le maillage en zone rurale se densifie rapidement grâce aux programmes d'aide ADVENIR et aux initiatives des collectivités locales.</p>
+<p><strong>« Il n'y a pas assez de bornes. »</strong> La France compte plus de 150 000 points de charge publics en 2026. Le réseau autoroutier est intégralement couvert, et le maillage en zone rurale se densifie rapidement grâce aux programmes d'aide ADVENIR et aux initiatives des collectivités locales.</p>
 
 <p><strong>« Les voitures électriques prennent feu facilement. »</strong> Les statistiques montrent que les incendies de véhicules électriques sont 20 à 60 fois moins fréquents que ceux des véhicules thermiques, rapportés au nombre de véhicules en circulation. Les systèmes de gestion thermique et les normes de sécurité des batteries sont extrêmement stricts.</p>
 
-<h2>Qui devrait passer à l'électrique en 2025 ?</h2>
+<h2>Qui devrait passer à l'électrique en 2026 ?</h2>
 
 <p>La voiture électrique convient parfaitement aux automobilistes qui parcourent moins de 300 km par jour (soit l'immense majorité), qui disposent d'une possibilité de recharge à domicile ou au travail, et qui effectuent principalement des trajets urbains et périurbains. Les longs trajets occasionnels sont parfaitement gérables grâce au réseau de bornes rapides et aux planificateurs d'itinéraire.</p>
 
@@ -169,7 +169,7 @@ export const pagesGuides: PageGuide[] = [
 
 <p>Le chargement du véhicule, la pression des pneus et l'utilisation des équipements électriques (climatisation, sièges chauffants, écran) ont un impact secondaire mais réel. Chaque passager supplémentaire ajoute environ 1 % de consommation. Des pneus sous-gonflés de 0,5 bar augmentent la consommation de 3 à 5 %. Un coffre de toit ou des barres de toit augmentent la traînée aérodynamique de 10 à 20 %, réduisant l'autonomie d'autant sur autoroute. Les pneus hiver, avec leur gomme plus tendre et leurs sculptures plus profondes, augmentent la consommation de 5 à 10 % par rapport aux pneus été.</p>
 
-<h2>Autonomie réelle par modèle : les chiffres concrets en 2025</h2>
+<h2>Autonomie réelle par modèle : les chiffres concrets en 2026</h2>
 
 <p>Voici les autonomies réelles constatées pour les modèles les plus populaires en France, mesurées en conduite mixte par temps clément (15-25 °C) :</p>
 <ul>
@@ -236,7 +236,7 @@ export const pagesGuides: PageGuide[] = [
 
 <p>Des applications comme ABRP (A Better Route Planner) permettent de planifier les arrêts recharge en fonction de la consommation réelle du véhicule, du relief, de la météo et du trafic. Ces outils prennent en compte les spécificités de chaque modèle et ajustent les prévisions selon les conditions réelles.</p>
 
-<p>La densité du réseau de bornes rapides en France s'améliore considérablement : plus de 15 000 points de charge rapide (50 kW et plus) sont disponibles fin 2025, avec un maillage qui couvre l'ensemble du réseau autoroutier. Le temps d'arrêt recharge sur un long trajet (20 à 30 minutes toutes les 2 à 3 heures) coïncide d'ailleurs avec les recommandations de sécurité routière en matière de pauses.</p>
+<p>La densité du réseau de bornes rapides en France s'améliore considérablement : plus de 15 000 points de charge rapide (50 kW et plus) sont disponibles fin 2026, avec un maillage qui couvre l'ensemble du réseau autoroutier. Le temps d'arrêt recharge sur un long trajet (20 à 30 minutes toutes les 2 à 3 heures) coïncide d'ailleurs avec les recommandations de sécurité routière en matière de pauses.</p>
 
 <h2>L'évolution de l'autonomie : quelles perspectives ?</h2>
 
@@ -318,7 +318,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h2>Coût de remplacement : le scénario du pire</h2>
 
-<p>Le coût d'une batterie neuve dépend de sa capacité et du constructeur. En 2025, le prix se situe entre 80 et 150 euros par kWh installé. Pour une batterie de 50 kWh, comptez 4 000 à 7 500 euros. Pour une batterie de 75 kWh, entre 6 000 et 11 000 euros. Ces prix incluent la main-d'oeuvre d'installation.</p>
+<p>Le coût d'une batterie neuve dépend de sa capacité et du constructeur. En 2026, le prix se situe entre 80 et 150 euros par kWh installé. Pour une batterie de 50 kWh, comptez 4 000 à 7 500 euros. Pour une batterie de 75 kWh, entre 6 000 et 11 000 euros. Ces prix incluent la main-d'oeuvre d'installation.</p>
 
 <p>Le coût des batteries baisse régulièrement d'environ 10 à 15 % par an. Bloomberg NEF estime que le prix moyen des packs batteries passera sous les 60 dollars par kWh d'ici 2030. Un remplacement dans 8 à 10 ans coûtera significativement moins cher qu'aujourd'hui.</p>
 
@@ -446,7 +446,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h2>La recharge sur le réseau public</h2>
 
-<p>Le réseau de bornes publiques en France compte plus de 150 000 points de charge en 2025, un chiffre en constante augmentation. Les principaux réseaux sont Ionity (bornes rapides 350 kW sur autoroutes), TotalEnergies (bornes rapides et accélérées), Izivia (bornes accélérées et rapides), Freshmile, Allego, Electra et de nombreux réseaux locaux.</p>
+<p>Le réseau de bornes publiques en France compte plus de 150 000 points de charge en 2026, un chiffre en constante augmentation. Les principaux réseaux sont Ionity (bornes rapides 350 kW sur autoroutes), TotalEnergies (bornes rapides et accélérées), Izivia (bornes accélérées et rapides), Freshmile, Allego, Electra et de nombreux réseaux locaux.</p>
 
 <h3>Les badges et applications de recharge</h3>
 
@@ -471,7 +471,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h2>Combien coûte la recharge à domicile ?</h2>
 
-<p>Le coût de la recharge à domicile est le principal argument économique du véhicule électrique. En 2025, avec un tarif EDF Tempo heures creuses jours bleus à 0,13 euro/kWh, recharger une batterie de 50 kWh coûte environ 6,50 euros, soit environ 2 euros pour 100 km. Avec le tarif heures creuses standard à 0,18 euro/kWh, comptez 9 euros pour une charge complète, soit 2,70 euros pour 100 km.</p>
+<p>Le coût de la recharge à domicile est le principal argument économique du véhicule électrique. En 2026, avec un tarif EDF Tempo heures creuses jours bleus à 0,13 euro/kWh, recharger une batterie de 50 kWh coûte environ 6,50 euros, soit environ 2 euros pour 100 km. Avec le tarif heures creuses standard à 0,18 euro/kWh, comptez 9 euros pour une charge complète, soit 2,70 euros pour 100 km.</p>
 
 <p>Pour un automobiliste parcourant 15 000 km par an, le budget recharge à domicile se situe entre 300 et 450 euros par an en heures creuses, contre 1 500 à 2 000 euros de carburant pour un véhicule essence équivalent. L'économie annuelle est donc de 1 000 à 1 500 euros, ce qui permet d'amortir le coût de la wallbox en moins de deux ans.</p>
 
@@ -548,13 +548,13 @@ export const pagesGuides: PageGuide[] = [
 
 <p>Chez les constructeurs premium, BMW lance le Neue Klasse, sa nouvelle plateforme dédiée à l'électrique avec des batteries cylindriques de nouvelle génération. Mercedes dévoile le CLA électrique sur la plateforme MMA, visant le cœur du marché premium avec une autonomie supérieure à 600 km. Volkswagen lance l'ID.2, sa citadine électrique à moins de 25 000 euros, pièce maîtresse de la stratégie d'accessibilité du groupe.</p>
 
-<h2>Évolution des aides et du bonus écologique en 2025</h2>
+<h2>Évolution des aides et du bonus écologique en 2026</h2>
 
 <h3>Le bonus écologique</h3>
 
 <p>Le bonus écologique a été maintenu en 2025 avec quelques ajustements. Le montant reste de 4 000 euros pour les véhicules de moins de 47 000 euros. Les ménages aux revenus les plus modestes (revenu fiscal de référence par part inférieur à 15 400 euros) bénéficient d'un bonus majoré à 7 000 euros. Le score environnemental, basé sur l'empreinte carbone de fabrication du véhicule et qui exclut de fait certains modèles fabriqués en Chine, reste en vigueur et conditionne l'éligibilité au bonus.</p>
 
-<p>Points importants à retenir pour le bonus 2025 :</p>
+<p>Points importants à retenir pour le bonus 2026 :</p>
 <ul>
 <li>Le véhicule doit coûter moins de 47 000 euros TTC</li>
 <li>Le véhicule doit peser moins de 2 400 kg</li>
@@ -569,7 +569,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h3>Le leasing social reconduit</h3>
 
-<p>Le dispositif de leasing social à 100 euros par mois a été reconduit pour 2025, avec une enveloppe de 50 000 véhicules. Ce programme, victime de son succès (les places s'écoulent en quelques semaines), permet aux ménages modestes d'accéder à un véhicule électrique neuf pour un loyer mensuel très attractif, assurance et entretien compris. Les modèles éligibles incluent la Citroën ë-C3, la Fiat 500e, la Renault Twingo E-Tech et la Peugeot e-208. Le gouvernement étudie la possibilité d'élargir le dispositif à 100 000 véhicules pour 2026.</p>
+<p>Le dispositif de leasing social à 100 euros par mois a été reconduit pour 2026, avec une enveloppe de 50 000 véhicules. Ce programme, victime de son succès (les places s'écoulent en quelques semaines), permet aux ménages modestes d'accéder à un véhicule électrique neuf pour un loyer mensuel très attractif, assurance et entretien compris. Les modèles éligibles incluent la Citroën ë-C3, la Fiat 500e, la Renault Twingo E-Tech et la Peugeot e-208. Le gouvernement étudie la possibilité d'élargir le dispositif à 100 000 véhicules pour 2026.</p>
 
 <h3>Les aides locales et régionales</h3>
 
@@ -609,7 +609,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h2>Infrastructure de recharge : le maillage s'accélère</h2>
 
-<p>La France a franchi le cap des 150 000 points de charge publics en 2025, en avance sur l'objectif initial de 100 000 points fixé par le gouvernement. Les bornes rapides (50 kW et plus) représentent 20 % du parc installé, avec une concentration croissante sur les axes autoroutiers. Les principaux acteurs du déploiement :</p>
+<p>La France a franchi le cap des 150 000 points de charge publics en 2026, en avance sur l'objectif initial de 100 000 points fixé par le gouvernement. Les bornes rapides (50 kW et plus) représentent 20 % du parc installé, avec une concentration croissante sur les axes autoroutiers. Les principaux acteurs du déploiement :</p>
 <ul>
 <li><strong>TotalEnergies :</strong> plus de 5 000 bornes rapides en Europe, réseau en forte expansion</li>
 <li><strong>Ionity :</strong> bornes 350 kW sur les autoroutes européennes, réseau cofinancé par les constructeurs européens</li>
@@ -641,7 +641,7 @@ export const pagesGuides: PageGuide[] = [
 {
     slug: "entretien-voiture-electrique",
     titre: "Entretien VE : coût et fréquence",
-    h1: "Entretien d'une voiture électrique — Coûts, fréquence et conseils pratiques",
+    h1: "Entretien d'une voiture électrique : coûts, fréquence et conseils pratiques",
     metaDescription: "Entretien voiture électrique : coût moyen (250 €/an), fréquence, pièces d'usure, freins, pneus. 30 à 50 % moins cher que le thermique, voici pourquoi.",
     contenu: `<h2>Introduction : un entretien simplifié mais pas inexistant</h2>
 <p>L'un des arguments les plus souvent avancés en faveur de la voiture électrique concerne la réduction des coûts d'entretien. Et pour cause : un moteur électrique comporte environ vingt pièces en mouvement, contre plus de deux mille pour un moteur thermique classique. Cette simplicité mécanique se traduit directement par moins de pièces d'usure, moins de vidanges et moins de passages chez le garagiste. Pourtant, affirmer qu'une voiture électrique ne nécessite aucun entretien serait une erreur. Certains composants requièrent une attention particulière et des intervalles de contrôle spécifiques. Dans ce guide complet, nous détaillons poste par poste tout ce qu'il faut savoir sur l'entretien d'un véhicule électrique en France, les coûts associés et les bonnes pratiques pour prolonger la durée de vie de votre véhicule.</p>
@@ -691,7 +691,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-hiver",
     titre: "VE en hiver : autonomie et conseils",
-    h1: "Voiture électrique en hiver — Impact sur l'autonomie et conseils pratiques",
+    h1: "Voiture électrique en hiver : impact sur l'autonomie et conseils pratiques",
     metaDescription: "Voiture électrique en hiver : perte d'autonomie (20-35 %), préchauffage batterie, pompe à chaleur, pneus hiver. Tous les conseils pour rouler sans stress.",
     contenu: `<h2>Introduction : pourquoi l'hiver est un défi pour les véhicules électriques</h2>
 <p>Chaque année, dès que les températures descendent en dessous de 5 °C, la même question revient dans les forums et les discussions entre propriétaires de véhicules électriques : quelle autonomie vais-je réellement perdre cet hiver ? La question est légitime, car le froid a un impact réel et mesurable sur les performances des batteries lithium-ion qui équipent tous les véhicules électriques du marché. Comprendre les mécanismes en jeu et adopter les bonnes pratiques permet toutefois de minimiser cet impact et de rouler sereinement même par grand froid. Ce guide détaille les phénomènes physiques responsables de la perte d'autonomie hivernale, les technologies embarquées qui limitent cet effet, et les conseils pratiques pour optimiser votre expérience hivernale en véhicule électrique.</p>
@@ -736,7 +736,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-vacances",
     titre: "Partir en vacances en VE",
-    h1: "Partir en vacances en voiture électrique — Guide complet pour les longs trajets",
+    h1: "Partir en vacances en voiture électrique : guide complet pour les longs trajets",
     metaDescription: "Vacances en voiture électrique : planifier ses arrêts recharge, meilleures applis, itinéraires testés et conseils pratiques pour partir l'esprit tranquille.",
     contenu: `<h2>Introduction : le grand voyage en véhicule électrique, mythe ou réalité ?</h2>
 <p>Partir en vacances avec sa voiture électrique suscite encore des appréhensions chez de nombreux conducteurs. L'angoisse de la panne, la crainte de ne pas trouver de borne de recharge disponible, l'inquiétude face aux temps de charge : autant de préoccupations compréhensibles mais qui, en 2024, ne correspondent plus à la réalité du terrain. Le réseau de bornes de recharge rapide en France et en Europe s'est considérablement développé, les véhicules modernes offrent des autonomies confortables et les outils de planification sont devenus très performants. Ce guide vous accompagne pas à pas dans la préparation de votre premier grand départ en véhicule électrique, du choix de l'itinéraire à la gestion des arrêts de charge, en passant par les applications indispensables et les astuces de conducteurs expérimentés.</p>
@@ -758,7 +758,7 @@ export const pagesGuides: PageGuide[] = [
 <p>Réduire sa vitesse sur autoroute a un impact considérable sur l'autonomie. La résistance aérodynamique augmente avec le carré de la vitesse : rouler à 110 km/h plutôt qu'à 130 km/h réduit la résistance aérodynamique d'environ 30 % et peut augmenter l'autonomie de 20 à 25 %. Cette réduction de vitesse n'allonge le trajet que de manière modérée : sur un parcours de 500 km, rouler à 110 km/h au lieu de 130 km/h ajoute environ 45 minutes de conduite, mais permet souvent d'économiser un arrêt de charge, ce qui compense largement le temps supplémentaire de conduite.</p>
 
 <h2>La conduite en montagne : gérer les dénivelés</h2>
-<p>Les trajets de vacances impliquent souvent de franchir des cols ou de traverser des massifs montagneux. La montée consomme beaucoup plus d'énergie qu'en terrain plat, et il est fréquent de voir l'autonomie estimée chuter rapidement lors d'une ascension prolongée. Cependant, la descente permet de récupérer une partie significative de l'énergie dépensée grâce au freinage régénératif. Sur un col alpin typique, la récupération en descente compense environ 50 à 70 % de l'énergie supplémentaire dépensée en montée. Il est important de noter que le freinage régénératif est limité lorsque la batterie est pleine : si vous abordez une longue descente avec une batterie à 100 %, le système de récupération sera désactivé ou fortement limité, et vous devrez utiliser les freins mécaniques. Planifiez votre charge pour aborder les descentes avec un niveau de batterie permettant la récupération d'énergie.</p>
+<p>Les trajets de vacances impliquent souvent de franchir des cols ou de traverser des massifs montagneux. La montée consomme beaucoup plus d'énergie qu'en terrain plat, et il est fréquent de voir l'autonomie estimée chuter rapidement lors d'une ascension prolongée. Cependant, la descente permet de récupérer une partie significative de l'énergie dépensée grâce au freinage régénératif. Sur un col alpin typique, la récupération en descente compense environ 50 à 70 % de l'énergie supplémentaire dépensée en montée. Sachez que le freinage régénératif est limité lorsque la batterie est pleine : si vous abordez une longue descente avec une batterie à 100 %, le système de récupération sera désactivé ou fortement limité, et vous devrez utiliser les freins mécaniques. Planifiez votre charge pour aborder les descentes avec un niveau de batterie permettant la récupération d'énergie.</p>
 
 <h2>Que faut-il emporter pour un voyage en VE ?</h2>
 <p>Bien que les véhicules électriques ne nécessitent pas de jerrycan de secours, quelques équipements sont recommandés pour voyager sereinement. Le câble de charge Mode 2 fourni avec le véhicule permet de se brancher sur une prise domestique standard en cas de nécessité, même si la charge sera lente (environ 2 kW sur une prise classique 10A, soit environ 10 km d'autonomie par heure de charge). Un câble de charge Mode 3 monophasé ou triphasé est utile pour se brancher sur les bornes de recharge accélérée, notamment dans les campings, les hôtels ou les parkings publics équipés. Certains propriétaires emportent également un adaptateur de prise industrielle (prise bleue CEE 16A) qui permet de charger à environ 3,7 kW sur les installations électriques que l'on trouve fréquemment dans les campings et les marinas.</p>
@@ -779,7 +779,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-copropriete",
     titre: "Recharger en copropriété",
-    h1: "Recharger sa voiture électrique en copropriété — Droits, démarches et solutions",
+    h1: "Recharger sa voiture électrique en copropriété : droits, démarches et solutions",
     metaDescription: "Borne de recharge en copropriété : droit à la prise, infrastructure collective, aide ADVENIR, démarches auprès du syndic. Guide pas à pas pour copropriétaires.",
     contenu: `<h2>Introduction : la copropriété, un frein majeur levé par la loi</h2>
 <p>En France, environ 45 % de la population vit en appartement, et la majorité des immeubles collectifs disposent d'un parking souterrain ou d'un stationnement en copropriété. Pendant longtemps, l'absence de solution de recharge à domicile pour les résidents d'immeubles collectifs a constitué un frein majeur à l'adoption du véhicule électrique. Comment recharger sa voiture la nuit si l'on ne dispose pas d'une maison individuelle avec garage ? Le législateur français a apporté une réponse claire à cette question en instaurant le droit à la prise dès 2014, puis en le renforçant à plusieurs reprises. Aujourd'hui, tout résident ou locataire d'un immeuble équipé d'un parking clos et couvert peut demander l'installation d'une borne de recharge, et le syndic ne peut pas s'y opposer sauf motif sérieux et légitime. Ce guide détaille les différentes voies pour installer une solution de recharge en copropriété, les démarches administratives, les coûts et les aides financières disponibles.</p>
@@ -804,7 +804,7 @@ export const pagesGuides: PageGuide[] = [
 <p>Pour une infrastructure collective, le coût se décompose entre la partie mutualisée (colonne électrique, tableau général, système de gestion) et la partie individuelle (raccordement et borne par emplacement). La partie mutualisée représente typiquement entre 500 et 1 500 euros par emplacement desservi, selon la taille de la copropriété et la complexité de l'installation. Avec les opérateurs clé en main, la copropriété n'a souvent rien à débourser pour l'infrastructure, le coût étant intégré dans l'abonnement mensuel des utilisateurs, généralement compris entre 40 et 80 euros par mois incluant la borne, la maintenance et une certaine quantité d'électricité.</p>
 
 <h2>Les aides financières : ADVENIR et crédit d'impôt</h2>
-<p>Le programme ADVENIR (Aide au Développement des Véhicules Électriques grâce à de Nouvelles Infrastructures de Recharge), financé par les certificats d'économies d'énergie et piloté par l'AVERE-France, propose des aides financières pour l'installation de bornes de recharge en copropriété. Pour les infrastructures collectives en copropriété, le programme ADVENIR couvre jusqu'à 50 % des coûts d'installation, plafonnés à des montants qui varient selon le type d'installation. Pour un point de recharge individuel en copropriété, l'aide peut atteindre 960 euros par point de charge. Pour l'infrastructure collective de distribution électrique, l'aide peut atteindre 8 000 euros pour les copropriétés de plus de cent emplacements. Ces montants sont régulièrement réévalués, il convient de vérifier les barèmes en vigueur sur le site du programme ADVENIR.</p>
+<p>Le programme ADVENIR (Aide au Développement des Véhicules Électriques grâce à de Nouvelles Infrastructures de Recharge), financé par les certificats d'économies d'énergie et piloté par l'AVERE-France, propose des aides financières pour l'installation de bornes de recharge en copropriété. Pour les infrastructures collectives en copropriété, le programme ADVENIR couvre jusqu'à 50 % des coûts d'installation, plafonnés à des montants qui varient selon le type d'installation. Pour un point de recharge individuel en copropriété, l'aide peut atteindre 960 euros par point de charge. Pour l'infrastructure collective de distribution électrique, l'aide peut atteindre 8 000 euros pour les copropriétés de plus de cent emplacements. Ces montants sont régulièrement réévalués, vérifiez les barèmes en vigueur sur le site du programme ADVENIR.</p>
 <p>En complément de l'aide ADVENIR, les particuliers peuvent bénéficier d'un crédit d'impôt pour l'installation d'un système de charge à domicile. Ce crédit d'impôt s'élève à 75 % du montant des dépenses, dans la limite de 500 euros par point de charge. Ce crédit d'impôt est accessible sans condition de revenus. Par ailleurs, la TVA applicable aux travaux d'installation d'une borne de recharge dans un logement de plus de deux ans est de 5,5 % au lieu de 20 %, ce qui représente une économie supplémentaire non négligeable. Certaines collectivités locales proposent également des aides complémentaires. Il est recommandé de se renseigner auprès de votre mairie, de votre conseil départemental ou de votre conseil régional pour connaître les aides disponibles sur votre territoire.</p>
 
 <h2>Les questions techniques : puissance, comptage et sécurité</h2>
@@ -823,7 +823,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "zfe-zones-faibles-emissions",
     titre: "ZFE : zones à faibles émissions",
-    h1: "ZFE en France — Zones à faibles émissions, calendrier et impact pour les automobilistes",
+    h1: "ZFE en France : zones à faibles émissions, calendrier et impact pour les automobilistes",
     metaDescription: "ZFE en France 2026 : liste des villes concernées, calendrier Crit'Air, restrictions par zone et pourquoi la voiture électrique est la meilleure solution.",
     contenu: `<h2>Introduction : comprendre les ZFE et leur raison d'être</h2>
 <p>Les Zones à Faibles Émissions mobilité, communément appelées ZFE-m ou simplement ZFE, sont des périmètres géographiques au sein desquels la circulation des véhicules les plus polluants est restreinte voire interdite. Ces zones constituent l'un des leviers majeurs de la politique française de lutte contre la pollution atmosphérique, responsable selon Santé publique France de 40 000 décès prématurés par an liés aux particules fines et de 7 000 décès liés au dioxyde d'azote. La loi d'orientation des mobilités (LOM) de 2019 et la loi Climat et Résilience de 2021 ont imposé la création de ZFE dans toutes les agglomérations de plus de 150 000 habitants dépassant régulièrement les seuils de qualité de l'air fixés par les directives européennes. Ce guide fait le point sur le dispositif, son calendrier, ses implications pratiques et les avantages qu'il procure aux conducteurs de véhicules électriques.</p>
@@ -867,7 +867,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-occasion-guide",
     titre: "Acheter un VE d'occasion",
-    h1: "Acheter une voiture électrique d'occasion — Guide complet pour faire le bon choix",
+    h1: "Acheter une voiture électrique d'occasion : guide complet pour faire le bon choix",
     metaDescription: "Voiture électrique occasion : comment vérifier la batterie (SOH), meilleurs modèles, prix du marché, garantie et pièges à éviter. Guide d'achat complet.",
     contenu: `<h2>Introduction : le marché de l'occasion électrique en plein essor</h2>
 <p>Le marché de la voiture électrique d'occasion connaît une croissance remarquable en France. Avec plus de deux millions de véhicules électriques et hybrides rechargeables en circulation, le parc de VE d'occasion disponible s'élargit chaque année. Les premiers véhicules électriques modernes ayant été commercialisés à partir de 2011-2013, on trouve désormais sur le marché un large choix de modèles à des prix très attractifs, parfois inférieurs à 10 000 euros pour les plus anciens. Acheter un véhicule électrique d'occasion peut représenter une opportunité exceptionnelle de passer à la mobilité électrique à moindre coût, à condition de savoir quoi vérifier et quels pièges éviter. Ce guide vous accompagne dans toutes les étapes de l'achat d'un VE d'occasion.</p>
@@ -901,7 +901,7 @@ export const pagesGuides: PageGuide[] = [
 <p>Lors de l'évaluation du budget d'achat d'un véhicule électrique d'occasion, prenez en compte le coût total de possession. Outre le prix d'achat, incluez le coût de l'assurance (généralement 10 à 15 % moins cher que pour un véhicule thermique équivalent), le coût de la recharge (environ 2 à 4 euros aux 100 km à domicile, soit 5 à 10 fois moins que le carburant), l'entretien réduit et les éventuels travaux à prévoir (pneus, batterie 12V). N'oubliez pas que les véhicules électriques d'occasion peuvent bénéficier d'aides à l'achat : la prime à la conversion est accessible pour l'achat d'un véhicule électrique d'occasion sous conditions de revenus, et certaines régions ou collectivités proposent des aides complémentaires. Le bonus écologique pour les véhicules d'occasion a été instauré pour favoriser l'accès des ménages modestes à la mobilité électrique.</p>
 
 <h2>Les labels et certifications pour l'occasion électrique</h2>
-<p>Le marché de l'occasion électrique se structure avec l'émergence de labels de qualité qui rassurent les acheteurs. Les programmes de véhicules d'occasion certifiés des constructeurs (Renault Factory, Peugeot Occasions du Lion, Tesla Certified Pre-Owned) proposent des véhicules inspectés, reconditionnés et garantis avec un diagnostic de batterie inclus. Les plateformes spécialisées comme Revolte ou Beev proposent également des garanties batterie étendues. En 2025, la norme ISO 23768 sur le diagnostic de l'état de santé des batteries de véhicules électriques d'occasion commence à être adoptée, offrant un cadre standardisé pour évaluer la capacité résiduelle des batteries lors des transactions. Cette standardisation est essentielle pour créer un marché de confiance et stabiliser les prix de revente des véhicules électriques d'occasion.</p>
+<p>Le marché de l'occasion électrique se structure avec l'émergence de labels de qualité qui rassurent les acheteurs. Les programmes de véhicules d'occasion certifiés des constructeurs (Renault Factory, Peugeot Occasions du Lion, Tesla Certified Pre-Owned) proposent des véhicules inspectés, reconditionnés et garantis avec un diagnostic de batterie inclus. Les plateformes spécialisées comme Revolte ou Beev proposent également des garanties batterie étendues. En 2026, la norme ISO 23768 sur le diagnostic de l'état de santé des batteries de véhicules électriques d'occasion commence à être adoptée, offrant un cadre standardisé pour évaluer la capacité résiduelle des batteries lors des transactions. Cette standardisation est essentielle pour créer un marché de confiance et stabiliser les prix de revente des véhicules électriques d'occasion.</p>
 
 <h2>Conclusion : une opportunité à saisir avec discernement</h2>
 <p>L'achat d'un véhicule électrique d'occasion est aujourd'hui une option financièrement très attractive qui permet d'accéder à la mobilité électrique pour un budget modéré. Les batteries modernes vieillissent mieux que ce que beaucoup craignaient, et de nombreux modèles d'occasion offrent une autonomie suffisante pour l'immense majorité des usages quotidiens. La clé d'un achat réussi réside dans la vérification rigoureuse de l'état de la batterie, la compréhension du régime de propriété de la batterie et la prise en compte du coût total de possession. En suivant les conseils de ce guide et en prenant le temps de faire un diagnostic complet avant l'achat, vous maximiserez vos chances de trouver le véhicule électrique d'occasion qui correspond à vos besoins et à votre budget.</p>`,
@@ -909,7 +909,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "batterie-solide-state",
     titre: "Batterie solide (solid-state)",
-    h1: "Batterie solid-state — La révolution technologique qui va transformer les véhicules électriques",
+    h1: "Batterie solid-state : la révolution technologique qui va transformer les véhicules électriques",
     metaDescription: "Batterie solide (solid-state) : principe, densité doublée, charge en 10 min. Toyota, Samsung SDI, QuantumScape : calendrier 2027-2030 et impact sur les VE.",
     contenu: `<h2>Introduction : pourquoi la batterie solide suscite tant d'espoirs</h2>
 <p>Depuis une décennie, la batterie solid-state est présentée comme le Saint Graal de l'électromobilité. Cette technologie, qui remplace l'électrolyte liquide des batteries lithium-ion actuelles par un électrolyte solide, promet des améliorations spectaculaires en termes de densité d'énergie, de vitesse de charge, de sécurité et de durée de vie. Si ces promesses se concrétisent, la batterie solide pourrait résoudre les principales limitations actuelles des véhicules électriques : autonomie insuffisante pour certains usages, temps de charge trop longs et coûts de batterie encore élevés. Cependant, entre les annonces ambitieuses des constructeurs et la réalité industrielle, l'écart reste significatif. Ce guide fait le point sur l'état actuel de la technologie, les acteurs majeurs, les défis techniques restants et le calendrier réaliste de commercialisation.</p>
@@ -950,7 +950,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "vehicule-to-grid-v2g",
     titre: "V2G : la voiture comme batterie domestique",
-    h1: "V2G (Vehicle-to-Grid) — Utiliser sa voiture électrique comme batterie domestique",
+    h1: "V2G (Vehicle-to-Grid) : utiliser sa voiture électrique comme batterie domestique",
     metaDescription: "V2G et charge bidirectionnelle : alimentez votre maison avec votre voiture électrique. Modèles compatibles (Ioniq 5, Leaf), économies réelles et perspectives.",
     contenu: `<h2>Introduction : quand la voiture électrique devient une centrale énergétique</h2>
 <p>Imaginez un monde où votre voiture électrique ne se contente pas de consommer de l'électricité pour se déplacer, mais devient une véritable batterie sur roues capable d'alimenter votre maison, votre quartier ou même de stabiliser le réseau électrique national. C'est exactement la promesse du V2G, acronyme de Vehicle-to-Grid, une technologie qui permet aux véhicules électriques de renvoyer l'énergie stockée dans leur batterie vers le réseau ou vers un bâtiment. Avec des batteries de 60 à 100 kWh embarquées dans les véhicules électriques modernes, soit l'équivalent de deux à trois jours de consommation électrique d'un foyer français moyen, le potentiel est considérable. Ce guide explore en détail le fonctionnement du V2G, ses variantes, les modèles de véhicules compatibles, les bénéfices économiques et les perspectives de développement de cette technologie.</p>
@@ -992,10 +992,10 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "eco-conduite-voiture-electrique",
     titre: "Éco-conduite : optimiser l'autonomie",
-    h1: "Éco-conduite en voiture électrique — Techniques et astuces pour maximiser l'autonomie",
+    h1: "Éco-conduite en voiture électrique : techniques et astuces pour maximiser l'autonomie",
     metaDescription: "Éco-conduite en voiture électrique : freinage régénératif, vitesse optimale, pneus, climatisation. Gagnez 20 à 30 % d'autonomie avec ces techniques simples.",
     contenu: `<h2>Introduction : pourquoi l'éco-conduite est encore plus efficace en électrique</h2>
-<p>L'éco-conduite, ou conduite économique, consiste à adapter son style de conduite pour minimiser la consommation d'énergie tout en maintenant un niveau de sécurité et de confort satisfaisant. Si les principes de l'éco-conduite s'appliquent à tous les types de véhicules, ils sont particulièrement efficaces avec un véhicule électrique. La raison est simple : un véhicule électrique offre une transparence totale sur la consommation instantanée et dispose d'un outil unique — le freinage régénératif — qui permet de récupérer une partie de l'énergie cinétique habituellement perdue lors des décélérations. Les conducteurs qui maîtrisent l'éco-conduite électrique constatent des gains d'autonomie de 20 à 30 % par rapport à une conduite classique, ce qui peut représenter 50 à 100 km supplémentaires sur un véhicule disposant de 400 km d'autonomie. Ce guide détaille les techniques éprouvées pour optimiser chaque kilowattheure embarqué dans votre batterie.</p>
+<p>L'éco-conduite, ou conduite économique, consiste à adapter son style de conduite pour minimiser la consommation d'énergie tout en maintenant un niveau de sécurité et de confort satisfaisant. Si les principes de l'éco-conduite s'appliquent à tous les types de véhicules, ils sont particulièrement efficaces avec un véhicule électrique. La raison est simple : un véhicule électrique offre une transparence totale sur la consommation instantanée et dispose d'un outil unique, le freinage régénératif, qui permet de récupérer une partie de l'énergie cinétique habituellement perdue lors des décélérations. Les conducteurs qui maîtrisent l'éco-conduite électrique constatent des gains d'autonomie de 20 à 30 % par rapport à une conduite classique, ce qui peut représenter 50 à 100 km supplémentaires sur un véhicule disposant de 400 km d'autonomie. Ce guide détaille les techniques éprouvées pour optimiser chaque kilowattheure embarqué dans votre batterie.</p>
 
 <h2>Comprendre la consommation d'un véhicule électrique</h2>
 <p>Avant de chercher à réduire sa consommation, il est utile de comprendre quelles forces s'opposent au déplacement du véhicule et consomment l'énergie de la batterie. Trois forces principales sont en jeu. La résistance au roulement est la force de frottement entre les pneus et la route. Elle est relativement constante quelle que soit la vitesse et représente la majeure partie de la résistance à basse vitesse (en dessous de 60 km/h). Elle dépend du poids du véhicule, du type et de la pression des pneumatiques, et de la nature du revêtement routier. La résistance aérodynamique est la force exercée par l'air sur le véhicule. Elle augmente avec le carré de la vitesse, ce qui signifie qu'à 130 km/h, la résistance aérodynamique est environ quatre fois supérieure à celle mesurée à 65 km/h. Au-delà de 80 km/h, la résistance aérodynamique devient la force dominante et le principal facteur de consommation. Les forces d'inertie interviennent lors des accélérations. Pour accélérer un véhicule de 2 tonnes de 0 à 100 km/h, il faut fournir une quantité d'énergie cinétique considérable. Plus les accélérations sont fréquentes et brutales, plus la consommation augmente.</p>
@@ -1034,7 +1034,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-entreprise",
     titre: "VE de fonction : avantages fiscaux",
-    h1: "Voiture électrique de fonction — Avantages fiscaux et économiques pour les entreprises",
+    h1: "Voiture électrique de fonction : avantages fiscaux et économiques pour les entreprises",
     metaDescription: "Voiture électrique de fonction : avantage en nature réduit, exonération TVS, amortissement majoré, aide ADVENIR. Guide fiscal complet pour entreprises.",
     contenu: `<h2>Introduction : le VE, un choix stratégique pour les flottes d'entreprise</h2>
 <p>L'adoption de véhicules électriques dans les flottes d'entreprise connaît une accélération sans précédent en France. Portée par un cadre fiscal particulièrement avantageux, par les obligations réglementaires liées aux Zones à Faibles Émissions et par la nécessité de réduire l'empreinte carbone des activités professionnelles, l'électrification des flottes est devenue un enjeu stratégique pour les entreprises de toutes tailles. Le législateur français a mis en place un arsenal d'incitations fiscales et financières destinées à faciliter cette transition : avantage en nature réduit pour les collaborateurs, exonération de taxes sur les véhicules de société, amortissement comptable majoré, aides à l'installation de bornes de recharge. Ce guide analyse en détail chaque dispositif fiscal applicable aux véhicules électriques d'entreprise et quantifie les économies réalisables.</p>
@@ -1082,10 +1082,10 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "comparatif-batteries-lfp-nmc-nca",
     titre: "Batteries LFP vs NMC vs NCA",
-    h1: "Batteries LFP vs NMC vs NCA — Comparatif des chimies de batteries pour véhicules électriques",
+    h1: "Batteries LFP vs NMC vs NCA : comparatif des chimies de batteries pour véhicules électriques",
     metaDescription: "LFP, NMC, NCA : comparatif des chimies de batteries VE. Densité d'énergie, durée de vie, coût, sécurité et quel constructeur utilise quelle technologie.",
     contenu: `<h2>Introduction : pourquoi la chimie de la batterie est importante</h2>
-<p>Lorsque vous choisissez un véhicule électrique, vous choisissez implicitement une chimie de batterie. Cette chimie — LFP, NMC ou NCA — détermine en grande partie les caractéristiques du véhicule : son autonomie, sa vitesse de charge, son comportement en hiver, sa durée de vie et même son prix. Pendant longtemps, le grand public n'avait pas besoin de s'intéresser à ces subtilités techniques. Mais avec la diversification de l'offre et la coexistence de différentes chimies au sein même de la gamme d'un constructeur — Tesla propose par exemple la Model 3 en version LFP ou NMC selon la finition — comprendre les différences entre ces technologies est devenu utile pour faire un choix éclairé. Ce guide propose un comparatif détaillé des trois principales chimies de batteries utilisées dans les véhicules électriques, en analysant leurs forces, leurs faiblesses et leurs applications.</p>
+<p>Lorsque vous choisissez un véhicule électrique, vous choisissez implicitement une chimie de batterie. Cette chimie (LFP, NMC ou NCA) détermine en grande partie les caractéristiques du véhicule : son autonomie, sa vitesse de charge, son comportement en hiver, sa durée de vie et même son prix. Pendant longtemps, le grand public n'avait pas besoin de s'intéresser à ces subtilités techniques. Mais avec la diversification de l'offre et la coexistence de différentes chimies au sein même de la gamme d'un constructeur (Tesla propose par exemple la Model 3 en version LFP ou NMC selon la finition) comprendre les différences entre ces technologies est devenu utile pour faire un choix éclairé. Ce guide propose un comparatif détaillé des trois principales chimies de batteries utilisées dans les véhicules électriques, en analysant leurs forces, leurs faiblesses et leurs applications.</p>
 
 <h2>NMC : la polyvalence comme atout principal</h2>
 <p>Les batteries NMC (Nickel Manganèse Cobalt) utilisent une cathode composée d'oxydes de nickel, de manganèse et de cobalt dans des proportions variables. La dénomination NMC est souvent suivie de chiffres indiquant les proportions relatives de chaque élément : NMC 111 (proportions égales), NMC 523, NMC 622, NMC 811 (80 % nickel, 10 % manganèse, 10 % cobalt). La tendance générale de l'industrie est d'augmenter la proportion de nickel et de réduire celle de cobalt, le cobalt étant un matériau coûteux, rare et dont l'extraction pose des problèmes éthiques. Les batteries NMC sont les plus répandues dans les véhicules électriques européens et offrent un excellent compromis entre densité d'énergie, puissance de charge, durabilité et coût.</p>
@@ -1122,10 +1122,10 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "recyclage-batterie-voiture-electrique",
     titre: "Recyclage des batteries",
-    h1: "Recyclage des batteries de véhicules électriques — Processus, réglementation et enjeux",
+    h1: "Recyclage des batteries de véhicules électriques : processus, réglementation et enjeux",
     metaDescription: "Recyclage batteries VE : réglementation européenne, procédé industriel, seconde vie en stockage, taux de récupération 90 % et vrai impact environnemental.",
     contenu: `<h2>Introduction : le défi du recyclage à grande échelle</h2>
-<p>Avec la croissance exponentielle du marché des véhicules électriques, la question du recyclage des batteries de traction est devenue un enjeu industriel et environnemental majeur. D'ici 2030, des centaines de milliers de batteries de véhicules électriques arriveront en fin de vie automobile en Europe, contenant des millions de tonnes de matériaux précieux — lithium, cobalt, nickel, manganèse, cuivre et aluminium — qu'il serait irresponsable de ne pas récupérer. Le recyclage des batteries n'est pas seulement une obligation environnementale, c'est aussi une nécessité stratégique pour sécuriser l'approvisionnement en matières premières et réduire la dépendance de l'Europe vis-à-vis des pays producteurs de minerais. Ce guide fait le point sur l'état actuel du recyclage des batteries, les technologies disponibles, la réglementation européenne et les perspectives d'avenir.</p>
+<p>Avec la croissance exponentielle du marché des véhicules électriques, la question du recyclage des batteries de traction est devenue un enjeu industriel et environnemental majeur. D'ici 2030, des centaines de milliers de batteries de véhicules électriques arriveront en fin de vie automobile en Europe, contenant des millions de tonnes de matériaux précieux (lithium, cobalt, nickel, manganèse, cuivre et aluminium) qu'il serait irresponsable de ne pas récupérer. Le recyclage des batteries n'est pas seulement une obligation environnementale, c'est aussi une nécessité stratégique pour sécuriser l'approvisionnement en matières premières et réduire la dépendance de l'Europe vis-à-vis des pays producteurs de minerais. Ce guide fait le point sur l'état actuel du recyclage des batteries, les technologies disponibles, la réglementation européenne et les perspectives d'avenir.</p>
 
 <h2>La réglementation européenne : des objectifs ambitieux</h2>
 <p>L'Union européenne a adopté en 2023 un nouveau règlement sur les batteries (EU Battery Regulation), qui remplace la directive batteries de 2006 et impose des exigences beaucoup plus strictes en matière de recyclage et de contenu recyclé. Ce règlement fixe des taux de récupération minimaux pour les matériaux contenus dans les batteries de véhicules électriques. D'ici 2027, les recycleurs devront récupérer au minimum 90 % du cobalt, du nickel et du cuivre, et 50 % du lithium contenus dans les batteries collectées. Ces objectifs seront relevés à 95 % pour le cobalt, le nickel et le cuivre, et 80 % pour le lithium d'ici 2031.</p>
@@ -1161,15 +1161,15 @@ export const pagesGuides: PageGuide[] = [
 <p>En tant que propriétaire d'un véhicule électrique, vous êtes un maillon essentiel de la chaîne de recyclage. Lorsque votre véhicule arrive en fin de vie ou que la batterie doit être remplacée, la batterie usagée doit être remise à un centre VHU (Véhicule Hors d'Usage) agréé ou à un professionnel habilité. Il est strictement interdit de jeter une batterie de véhicule électrique dans les ordures ménagères ou de l'abandonner dans la nature. Les concessionnaires et les garagistes agréés sont tenus de reprendre gratuitement les batteries usagées et de les orienter vers les filières de recyclage appropriées. En cas de remplacement de batterie, le professionnel qui installe la batterie neuve se charge de la reprise de l'ancienne. En contribuant au bon fonctionnement de cette filière de recyclage, chaque conducteur de véhicule électrique participe à la création d'une économie circulaire vertueuse qui réduira progressivement l'impact environnemental de la mobilité électrique.</p>
 
 <h2>Conclusion : le recyclage, pilier de l'économie circulaire des batteries</h2>
-<p>Le recyclage des batteries de véhicules électriques est en passe de devenir une industrie majeure en Europe, portée par une réglementation ambitieuse, des investissements massifs et des progrès technologiques continus. Les défis restent importants — augmentation des capacités de traitement, amélioration de la récupération du lithium, développement du recyclage direct — mais la trajectoire est claire. Le recyclage est le chaînon essentiel qui transforme la mobilité électrique en un modèle véritablement circulaire, où les matériaux des batteries en fin de vie deviennent les matières premières des batteries de demain. Pour le consommateur, cette perspective est rassurante : la batterie de son véhicule électrique ne finira pas dans une décharge, mais sera valorisée en seconde vie puis recyclée, ses matériaux précieux réintégrant la chaîne de production pour alimenter la prochaine génération de véhicules électriques.</p>`,
+<p>Le recyclage des batteries de véhicules électriques est en passe de devenir une industrie majeure en Europe, portée par une réglementation ambitieuse, des investissements massifs et des progrès technologiques continus. Les défis restent importants (augmentation des capacités de traitement, amélioration de la récupération du lithium, développement du recyclage direct), mais la trajectoire est claire. Le recyclage est le chaînon essentiel qui transforme la mobilité électrique en un modèle véritablement circulaire, où les matériaux des batteries en fin de vie deviennent les matières premières des batteries de demain. Pour le consommateur, cette perspective est rassurante : la batterie de son véhicule électrique ne finira pas dans une décharge, mais sera valorisée en seconde vie puis recyclée, ses matériaux précieux réintégrant la chaîne de production pour alimenter la prochaine génération de véhicules électriques.</p>`,
   },
   {
     slug: "pompe-a-chaleur-voiture-electrique",
     titre: "Pompe à chaleur dans les VE",
-    h1: "Pompe à chaleur dans les voitures électriques — Fonctionnement, avantages et modèles équipés",
+    h1: "Pompe à chaleur dans les voitures électriques : fonctionnement, avantages et modèles équipés",
     metaDescription: "Pompe à chaleur VE : fonctionnement, gain d'autonomie en hiver (15-20 %), modèles équipés de série et comparaison avec le chauffage résistif PTC classique.",
     contenu: `<h2>Introduction : le chauffage, talon d'Achille des véhicules électriques</h2>
-<p>Le chauffage de l'habitacle est l'un des plus grands défis techniques des véhicules électriques. Contrairement aux véhicules thermiques qui bénéficient gratuitement de la chaleur résiduelle du moteur à combustion — un moteur thermique dissipe environ 60 à 70 % de l'énergie du carburant sous forme de chaleur —, un véhicule électrique doit produire toute sa chaleur à partir de l'énergie de sa batterie. Le moteur électrique, avec un rendement de 90 à 95 %, ne produit quasiment pas de chaleur exploitable. Cette contrainte fondamentale explique pourquoi l'autonomie des véhicules électriques diminue significativement en hiver. La pompe à chaleur est la solution technologique qui permet de minimiser cet impact en produisant de la chaleur de manière beaucoup plus efficiente que les systèmes de chauffage résistif traditionnels. Ce guide explique en détail le fonctionnement de la pompe à chaleur automobile, son impact réel sur l'autonomie et les modèles qui en sont équipés.</p>
+<p>Le chauffage de l'habitacle est l'un des plus grands défis techniques des véhicules électriques. Contrairement aux véhicules thermiques qui bénéficient gratuitement de la chaleur résiduelle du moteur à combustion (un moteur thermique dissipe environ 60 à 70 % de l'énergie du carburant sous forme de chaleur), un véhicule électrique doit produire toute sa chaleur à partir de l'énergie de sa batterie. Le moteur électrique, avec un rendement de 90 à 95 %, ne produit quasiment pas de chaleur exploitable. Cette contrainte fondamentale explique pourquoi l'autonomie des véhicules électriques diminue significativement en hiver. La pompe à chaleur est la solution technologique qui permet de minimiser cet impact en produisant de la chaleur de manière beaucoup plus efficiente que les systèmes de chauffage résistif traditionnels. Ce guide explique en détail le fonctionnement de la pompe à chaleur automobile, son impact réel sur l'autonomie et les modèles qui en sont équipés.</p>
 
 <h2>Le chauffage résistif PTC : simple mais gourmand</h2>
 <p>Avant l'avènement de la pompe à chaleur dans les véhicules électriques, le chauffage de l'habitacle était assuré par un système résistif PTC (Positive Temperature Coefficient). Le principe est le même que celui d'un radiateur électrique domestique : un courant électrique traverse un matériau résistif qui s'échauffe par effet Joule. La chaleur produite est transmise à l'air de l'habitacle via un échangeur. Le chauffage PTC a l'avantage d'être simple, compact, léger, bon marché et instantané dans sa montée en température. Son inconvénient majeur est son efficacité énergétique limitée : son COP (coefficient de performance) est de 1, ce qui signifie que pour chaque kWh d'électricité consommé, il produit exactement 1 kWh de chaleur. Un système PTC typique consomme entre 3 et 6 kW en fonctionnement nominal, ce qui représente une ponction considérable sur la batterie.</p>
@@ -1207,7 +1207,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-bruit",
     titre: "Bruit et VE : AVAS et réglementation",
-    h1: "Bruit et voitures électriques — Système AVAS, réglementation et sécurité des piétons",
+    h1: "Bruit et voitures électriques : système AVAS, réglementation et sécurité des piétons",
     metaDescription: "Bruit des voitures électriques : système AVAS obligatoire, réglementation européenne, sécurité piétonne et design sonore choisi par chaque constructeur.",
     contenu: `<h2>Introduction : le silence des véhicules électriques, avantage ou danger ?</h2>
 <p>Le silence de fonctionnement est l'une des caractéristiques les plus appréciées des véhicules électriques. À l'arrêt et à basse vitesse, un véhicule électrique est quasiment inaudible : pas de vibrations de moteur au ralenti, pas de bruit d'échappement, pas de ronronnement mécanique. Ce silence contribue au confort de conduite, réduit la pollution sonore en milieu urbain et améliore la qualité de vie des riverains des axes routiers. Cependant, ce même silence pose un problème de sécurité pour les piétons, les cyclistes et les personnes malvoyantes, qui utilisent le bruit des véhicules pour détecter leur approche et évaluer leur trajectoire. Ce paradoxe a conduit les législateurs à imposer un système sonore artificiel sur les véhicules électriques. Ce guide explore la réglementation en vigueur, le fonctionnement des systèmes AVAS, les enjeux de sécurité et l'approche créative des constructeurs en matière de design sonore.</p>
@@ -1248,7 +1248,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "panneaux-solaires-et-voiture-electrique",
     titre: "Panneaux solaires + VE",
-    h1: "Panneaux solaires et voiture électrique — Synergie, dimensionnement et rentabilité",
+    h1: "Panneaux solaires et voiture électrique : synergie, dimensionnement et rentabilité",
     metaDescription: "Panneaux solaires + voiture électrique : dimensionnement, charge intelligente, autoconsommation et calcul de rentabilité. Roulez gratuitement avec le soleil.",
     contenu: `<h2>Introduction : la combinaison gagnante solaire et mobilité électrique</h2>
 <p>Installer des panneaux solaires sur son toit et rouler en voiture électrique est sans doute la combinaison la plus vertueuse que puisse réaliser un propriétaire soucieux de son empreinte carbone et de son budget énergie. L'énergie solaire produite gratuitement par les panneaux alimente directement le véhicule électrique, réduisant à la fois la facture d'électricité domestique et le coût de la recharge du véhicule. En France, un foyer équipé de panneaux solaires et d'un véhicule électrique peut couvrir entre 40 et 70 % de ses besoins de recharge avec sa propre production solaire, roulant ainsi pratiquement gratuitement une grande partie de l'année. Ce guide détaille comment dimensionner son installation solaire en fonction de ses besoins de recharge, comment optimiser l'autoconsommation grâce à la charge intelligente et comment calculer la rentabilité globale de cette combinaison.</p>
@@ -1289,13 +1289,13 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "freinage-regeneratif",
     titre: "Freinage régénératif",
-    h1: "Freinage régénératif — Fonctionnement, techniques et impact sur l'autonomie",
+    h1: "Freinage régénératif : fonctionnement, techniques et impact sur l'autonomie",
     metaDescription: "Freinage régénératif : comment ça marche, conduite à une pédale, 10-30 % d'autonomie récupérée, usure des freins réduite. Techniques pour en tirer le maximum.",
     contenu: `<h2>Introduction : transformer le freinage en énergie</h2>
 <p>Le freinage régénératif est probablement l'innovation la plus ingénieuse des véhicules électriques. Là où un véhicule thermique transforme l'énergie cinétique en chaleur inutile via ses plaquettes de frein, un véhicule électrique la convertit en électricité qui recharge la batterie. Ce principe simple mais élégant permet de récupérer entre 15 et 30 % de l'énergie de traction en conduite urbaine, d'augmenter significativement l'autonomie et de réduire l'usure des freins mécaniques au point de les rendre quasiment éternels. Le freinage régénératif transforme fondamentalement l'expérience de conduite et introduit un concept révolutionnaire : la conduite à une pédale. Ce guide explore en profondeur le fonctionnement technique du freinage régénératif, les techniques de conduite qui maximisent la récupération d'énergie, et l'impact concret sur l'autonomie et l'entretien du véhicule.</p>
 
 <h2>Le principe physique : le moteur devient générateur</h2>
-<p>Un moteur électrique est une machine réversible : il peut convertir l'énergie électrique en mouvement mécanique (mode moteur) ou, inversement, convertir le mouvement mécanique en énergie électrique (mode générateur). Le freinage régénératif exploite cette réversibilité. Lorsque le conducteur relâche la pédale d'accélérateur ou appuie légèrement sur la pédale de frein, le contrôleur du moteur modifie les signaux envoyés au moteur pour le faire basculer en mode générateur. Le moteur, entraîné par les roues en rotation, oppose une résistance électromagnétique au mouvement du véhicule — c'est cette résistance qui crée l'effet de freinage — et produit un courant électrique qui est renvoyé vers la batterie.</p>
+<p>Un moteur électrique est une machine réversible : il peut convertir l'énergie électrique en mouvement mécanique (mode moteur) ou, inversement, convertir le mouvement mécanique en énergie électrique (mode générateur). Le freinage régénératif exploite cette réversibilité. Lorsque le conducteur relâche la pédale d'accélérateur ou appuie légèrement sur la pédale de frein, le contrôleur du moteur modifie les signaux envoyés au moteur pour le faire basculer en mode générateur. Le moteur, entraîné par les roues en rotation, oppose une résistance électromagnétique au mouvement du véhicule (c'est cette résistance qui crée l'effet de freinage) et produit un courant électrique qui est renvoyé vers la batterie.</p>
 <p>La puissance de régénération est proportionnelle à la vitesse du véhicule et au couple de freinage demandé. À haute vitesse, la puissance de régénération peut atteindre des valeurs élevées : sur une Tesla Model 3, la puissance de régénération maximale est d'environ 70 à 80 kW, ce qui correspond à une décélération significative. À basse vitesse (en dessous de 10 km/h), la puissance de régénération diminue fortement car le moteur tourne lentement et ne peut pas générer un couple suffisant pour freiner efficacement le véhicule. C'est pourquoi le véhicule utilise les freins mécaniques pour l'arrêt final, même en mode de régénération maximale. Le rendement de conversion du freinage régénératif se situe entre 60 et 70 %. Cela signifie que sur 100 unités d'énergie cinétique disponibles lors d'une décélération, 60 à 70 sont effectivement reconverties en énergie électrique et stockées dans la batterie. Les 30 à 40 % restants sont perdus sous forme de chaleur dans le moteur, l'onduleur et la batterie en raison des résistances internes de ces composants.</p>
 
 <h2>Les niveaux de régénération : trouver son réglage</h2>
@@ -1330,12 +1330,12 @@ export const pagesGuides: PageGuide[] = [
 {
     slug: "long-trajet-voiture-electrique",
     titre: "Long trajet en VE : guide complet",
-    h1: "Long trajet en voiture électrique — Préparer, planifier et réussir chaque voyage",
+    h1: "Long trajet en voiture électrique : préparer, planifier et réussir chaque voyage",
     metaDescription: "Long trajet en voiture électrique : planification, bornes rapides, autonomie réelle, applis indispensables. Réussissez votre premier voyage sans stress.",
     contenu: `<h2>Introduction : le long trajet en électrique, un défi désormais accessible</h2>
 <p>Pendant longtemps, la voiture électrique a été perçue comme un véhicule exclusivement urbain, incapable d'assurer de longs déplacements. Cette perception, héritée des premiers modèles dotés de batteries de faible capacité, est aujourd'hui largement dépassée. Avec des autonomies réelles dépassant régulièrement les 400 kilomètres, des réseaux de recharge rapide couvrant l'ensemble du territoire français et européen, et des outils de planification de plus en plus performants, le voyage longue distance en véhicule électrique est devenu une réalité quotidienne pour des millions de conducteurs.</p>
 <p>Pourtant, voyager en électrique ne s'improvise pas exactement comme en thermique. La gestion de l'autonomie, le choix des arrêts de recharge, l'anticipation des conditions météorologiques et l'adaptation de sa conduite sont autant de paramètres qui méritent une attention particulière pour que chaque trajet se déroule sans stress. Ce guide complet vous accompagne étape par étape dans la préparation et la réalisation de vos longs trajets en voiture électrique, en vous fournissant des conseils pratiques, des données chiffrées et des retours d'expérience concrets.</p>
-<p>Que vous prévoyiez un Paris-Marseille, un tour de Bretagne ou un road trip à travers l'Europe, les informations contenues dans cet article vous permettront d'aborder chaque kilomètre avec sérénité et confiance. Car la vérité est simple : en 2025, un long trajet en voiture électrique n'est pas un exploit, c'est simplement un trajet qui se prépare un peu différemment.</p>
+<p>Que vous prévoyiez un Paris-Marseille, un tour de Bretagne ou un road trip à travers l'Europe, les informations contenues dans cet article vous permettront d'aborder chaque kilomètre avec sérénité et confiance. Car la vérité est simple : en 2026, un long trajet en voiture électrique n'est pas un exploit, c'est simplement un trajet qui se prépare un peu différemment.</p>
 
 <h2>Évaluer l'autonomie réelle de votre véhicule</h2>
 <p>La première étape de toute planification de long trajet consiste à connaître l'autonomie réelle de votre véhicule dans les conditions spécifiques de votre voyage. L'autonomie annoncée par les constructeurs selon le cycle WLTP est une référence utile, mais elle ne correspond que rarement à la réalité de la conduite autoroutière. En effet, le cycle WLTP intègre des portions de ville, de route et d'autoroute dans des proportions qui ne reflètent pas un trajet exclusivement autoroutier.</p>
@@ -1371,7 +1371,7 @@ export const pagesGuides: PageGuide[] = [
 
 <h2>Que faire en cas de problème pendant le trajet ?</h2>
 <p>Malgré une planification minutieuse, des imprévus peuvent survenir. Une borne en panne, un embouteillage imprévu qui augmente la consommation, ou des conditions météorologiques dégradées peuvent perturber votre plan initial. Voici comment réagir dans chaque situation.</p>
-<p>Si la borne prévue est en panne ou occupée, consultez immédiatement votre application pour identifier la borne alternative la plus proche. Sur la plupart des axes autoroutiers, une autre station de recharge se trouve à moins de 30 km. N'hésitez pas à signaler la panne sur Chargemap ou l'application de l'opérateur pour alerter les autres conducteurs.</p>
+<p>Si la borne prévue est en panne ou occupée, consultez immédiatement votre application pour identifier la borne alternative la plus proche. Sur la plupart des axes autoroutiers, une autre station de recharge se trouve à moins de 30 km. Signalez la panne sur Chargemap ou l'application de l'opérateur pour alerter les autres conducteurs.</p>
 <p>Si votre niveau de batterie est critique et qu'aucune borne rapide n'est accessible à proximité, recherchez une borne de recharge accélérée (22 kW) dans les environs. Ces bornes sont plus nombreuses et peuvent vous fournir suffisamment d'énergie pour atteindre la prochaine borne rapide. En dernier recours, de nombreux hôtels, campings et supermarchés disposent de prises renforcées ou de bornes qui peuvent dépanner.</p>
 <p>En cas de panne sèche électrique, contactez votre assistance routière. La plupart des contrats d'assurance et des garanties constructeur incluent une assistance spécifique pour les véhicules électriques, avec remorquage jusqu'à la borne de recharge la plus proche ou dépannage sur place avec un générateur mobile. Notez cependant que les pannes sèches en véhicule électrique sont extrêmement rares, les systèmes de gestion de la batterie alertant le conducteur bien avant l'épuisement complet de l'énergie et les applications de navigation recalculant automatiquement l'itinéraire en cas de consommation anormale.</p>
 
@@ -1405,11 +1405,11 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "voiture-electrique-fiabilite",
     titre: "Fiabilité des voitures électriques",
-    h1: "Fiabilité des voitures électriques — Ce que disent les données et les retours d'expérience",
+    h1: "Fiabilité des voitures électriques : ce que disent les données et les retours d'expérience",
     metaDescription: "Fiabilité voiture électrique : données réelles, pannes fréquentes, durée de vie des composants, classements par marque et comparatif avec le thermique.",
     contenu: `<h2>Introduction : la fiabilité, un critère décisif pour l'achat</h2>
 <p>La fiabilité constitue l'un des critères les plus importants dans le choix d'un véhicule, et les voitures électriques ne font pas exception à cette règle. Alors que le parc de véhicules électriques en circulation dépasse désormais les deux millions d'unités en France, les données sur la fiabilité commencent à s'accumuler et permettent de dresser un portrait objectif de la situation. Les premiers véhicules électriques modernes, comme la Nissan Leaf de 2011 ou la Tesla Model S de 2012, cumulent désormais plus de dix ans d'utilisation, offrant un recul précieux pour évaluer la durabilité de cette technologie.</p>
-<p>Contrairement aux idées reçues, la question de la fiabilité d'un véhicule électrique ne se résume pas à la seule durée de vie de la batterie. L'électronique de puissance, les logiciels embarqués, les systèmes de gestion thermique, la qualité de fabrication et la résistance à la corrosion sont autant de facteurs qui influencent la fiabilité globale du véhicule. Ce guide analyse chaque composant, s'appuie sur les études disponibles et les retours d'expérience des propriétaires pour vous donner une vision complète et honnête de la fiabilité des voitures électriques en 2025.</p>
+<p>Contrairement aux idées reçues, la question de la fiabilité d'un véhicule électrique ne se résume pas à la seule durée de vie de la batterie. L'électronique de puissance, les logiciels embarqués, les systèmes de gestion thermique, la qualité de fabrication et la résistance à la corrosion sont autant de facteurs qui influencent la fiabilité globale du véhicule. Ce guide analyse chaque composant, s'appuie sur les études disponibles et les retours d'expérience des propriétaires pour vous donner une vision complète et honnête de la fiabilité des voitures électriques en 2026.</p>
 
 <h2>La mécanique simplifiée : un avantage structurel</h2>
 <p>L'architecture mécanique d'un véhicule électrique est fondamentalement plus simple que celle d'un véhicule thermique. Un moteur électrique comporte environ vingt pièces en mouvement, contre plus de deux mille pour un moteur à combustion interne. Cette simplicité mécanique se traduit par une réduction drastique du nombre de composants susceptibles de tomber en panne. Pas de distribution à remplacer, pas d'injection à régler, pas d'embrayage à user, pas d'échappement à corroder.</p>
@@ -1458,7 +1458,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "histoire-voiture-electrique",
     titre: "Histoire de la voiture électrique",
-    h1: "Histoire de la voiture électrique — Des origines au XXIe siècle",
+    h1: "Histoire de la voiture électrique : des origines au XXIe siècle",
     metaDescription: "Histoire de la voiture électrique de 1830 à 2026 : inventeurs pionniers, records de vitesse, déclin face au pétrole, renaissance Tesla et avenir du secteur.",
     contenu: `<h2>Introduction : une histoire plus ancienne qu'on ne le croit</h2>
 <p>Beaucoup considèrent la voiture électrique comme une invention récente, née de la prise de conscience écologique du XXIe siècle. La réalité est tout autre. L'histoire de la voiture électrique est bien plus ancienne que celle de la voiture à essence, et les premiers véhicules automobiles à parcourir les routes étaient alimentés par des batteries, non par du pétrole. Des ingénieurs visionnaires du XIXe siècle aux pionniers de la Silicon Valley, en passant par un siècle d'oubli quasi total, l'histoire de la voiture électrique est un récit fascinant de progrès technologique, de choix industriels et de rebondissements inattendus.</p>
@@ -1500,7 +1500,7 @@ export const pagesGuides: PageGuide[] = [
 <h2>L'accélération : 2020 à aujourd'hui</h2>
 <p>Depuis 2020, l'électrification de l'automobile s'est considérablement accélérée sous l'effet conjugué de réglementations plus strictes, de la baisse continue des coûts des batteries et de l'élargissement de l'offre de véhicules. L'Union européenne a fixé l'objectif de zéro émission pour les véhicules neufs à partir de 2035, ce qui implique de facto la fin de la vente de véhicules à moteur à combustion interne à cette date. La Norvège, pionnière de la mobilité électrique, a déjà atteint plus de 80 % de part de marché pour les véhicules électriques en 2024.</p>
 <p>L'arrivée des constructeurs chinois sur le marché mondial bouleverse le paysage. BYD, fondé en 1995 comme fabricant de batteries, est devenu le premier constructeur mondial de véhicules électriques en volume. Ses modèles, comme la Seal, l'Atto 3 et la Dolphin, offrent un rapport qualité-prix remarquable qui met la pression sur les constructeurs européens et américains. D'autres marques chinoises comme MG (propriété de SAIC), NIO, XPeng et Li Auto arrivent en Europe avec des véhicules compétitifs.</p>
-<p>La diversification de l'offre est spectaculaire. En 2020, une trentaine de modèles électriques étaient disponibles en France. En 2025, ce chiffre dépasse la centaine, couvrant tous les segments : citadines (Fiat 500e, Renault 5 E-Tech), berlines compactes (Tesla Model 3, MG4), SUV compacts (Peugeot e-2008, Volvo EX30), SUV familiaux (Tesla Model Y, Skoda Enyaq), berlines de luxe (Mercedes EQS, BMW i7) et même utilitaires (Renault Kangoo E-Tech, Citroën ë-Berlingo). Cette diversité permet à chaque conducteur de trouver un véhicule électrique correspondant à ses besoins et à son budget.</p>
+<p>La diversification de l'offre est spectaculaire. En 2020, une trentaine de modèles électriques étaient disponibles en France. En 2026, ce chiffre dépasse la centaine, couvrant tous les segments : citadines (Fiat 500e, Renault 5 E-Tech), berlines compactes (Tesla Model 3, MG4), SUV compacts (Peugeot e-2008, Volvo EX30), SUV familiaux (Tesla Model Y, Skoda Enyaq), berlines de luxe (Mercedes EQS, BMW i7) et même utilitaires (Renault Kangoo E-Tech, Citroën ë-Berlingo). Cette diversité permet à chaque conducteur de trouver un véhicule électrique correspondant à ses besoins et à son budget.</p>
 <p>Les technologies de batteries continuent de progresser rapidement. Les batteries LFP (Lithium-Fer-Phosphate) gagnent des parts de marché grâce à leur coût réduit, leur longévité et leur sécurité accrue. Les batteries à l'état solide, promises par Toyota, Samsung SDI et plusieurs startups pour 2027-2028, devraient offrir une densité énergétique doublée, des temps de charge réduits à quelques minutes et une sécurité intrinsèque contre les risques d'incendie. Le sodium-ion, technologie n'utilisant aucun matériau critique, commence à être intégré dans des véhicules d'entrée de gamme en Chine.</p>
 
 <h2>Les grandes figures de l'histoire de la voiture électrique</h2>
@@ -1516,7 +1516,7 @@ export const pagesGuides: PageGuide[] = [
   {
     slug: "glossaire-voiture-electrique",
     titre: "Glossaire VE : tous les termes",
-    h1: "Glossaire de la voiture électrique — Tous les termes techniques expliqués",
+    h1: "Glossaire de la voiture électrique : tous les termes techniques expliqués",
     metaDescription: "Glossaire voiture électrique : kWh, CCS, WLTP, BMS, SOC, V2G, LFP, NMC et 80+ termes techniques expliqués simplement. Le dictionnaire du conducteur VE.",
     contenu: `<h2>Introduction : comprendre le vocabulaire de la mobilité électrique</h2>
 <p>Le monde de la voiture électrique possède son propre vocabulaire, un mélange de termes techniques, d'acronymes anglo-saxons et de concepts nouveaux qui peuvent dérouter le néophyte. Que signifie kWh ? Quelle est la différence entre un connecteur CCS et un connecteur Type 2 ? Que mesure le cycle WLTP ? Qu'est-ce que le SOC ou le BMS ? Ce glossaire complet a pour vocation de démystifier l'ensemble du jargon de la mobilité électrique, en expliquant chaque terme de manière claire, accessible et illustrée par des exemples concrets.</p>
@@ -1570,7 +1570,7 @@ export const pagesGuides: PageGuide[] = [
 <p><strong>V2L (Vehicle-to-Load)</strong> : fonction permettant d'utiliser la batterie du véhicule pour alimenter des appareils électriques externes via une prise standard. Le V2L est disponible sur plusieurs modèles (Hyundai Ioniq 5, Kia EV6, MG4) et permet d'alimenter des appareils de 230 V jusqu'à 3,6 kW. Utile pour le camping, les chantiers ou les événements en plein air.</p>
 <p><strong>ZFE (Zone à Faibles Émissions)</strong> : périmètre géographique dans lequel la circulation des véhicules les plus polluants est restreinte ou interdite. Les véhicules électriques, classés Crit'Air zéro, bénéficient d'un accès permanent et illimité à toutes les ZFE. En France, plusieurs métropoles ont mis en place des ZFE : Paris, Lyon, Marseille, Toulouse, Strasbourg, Rouen, entre autres.</p>
 <p><strong>Crit'Air</strong> : système de classification des véhicules selon leur niveau d'émissions polluantes, matérialisé par une vignette apposée sur le pare-brise. Les véhicules électriques reçoivent la vignette Crit'Air 0 (verte), qui leur accorde les conditions de circulation les plus favorables dans les ZFE.</p>
-<p><strong>Bonus écologique</strong> : aide financière de l'État à l'achat ou la location longue durée d'un véhicule électrique neuf. Le montant du bonus dépend du prix du véhicule et des revenus du ménage. En 2025, le bonus peut atteindre 4 000 euros pour un véhicule de moins de 47 000 euros. Un bonus supplémentaire est prévu pour les ménages les plus modestes.</p>
+<p><strong>Bonus écologique</strong> : aide financière de l'État à l'achat ou la location longue durée d'un véhicule électrique neuf. Le montant du bonus dépend du prix du véhicule et des revenus du ménage. En 2026, le bonus peut atteindre 4 000 euros pour un véhicule de moins de 47 000 euros. Un bonus supplémentaire est prévu pour les ménages les plus modestes.</p>
 <p><strong>Prime à la conversion</strong> : aide financière complémentaire au bonus écologique, conditionnée à la mise au rebut d'un ancien véhicule polluant (diesel avant 2011 ou essence avant 2006). La prime à la conversion peut atteindre 6 000 euros pour l'achat d'un véhicule électrique, cumulable avec le bonus écologique.</p>
 
 <h2>Moteur et transmission</h2>

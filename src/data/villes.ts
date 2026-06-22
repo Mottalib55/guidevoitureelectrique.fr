@@ -38,7 +38,7 @@ Paris se distingue aussi par son engagement écologique global. La ville a consi
 Les taxis parisiens participent également à cette transition. La compagnie G7 a électrifié une part importante de sa flotte, et les bornes de recharge rapide dédiées aux taxis se multiplient dans la capitale. Les VTC suivent la même tendance, contribuant à améliorer la qualité de l'air parisien.
 
 En résumé, Paris offre aux conducteurs de véhicules électriques un environnement particulièrement favorable, combinant une infrastructure de recharge dense, des avantages financiers significatifs et une politique de mobilité résolument tournée vers l'avenir.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "boulogne-billancourt",
@@ -65,7 +65,7 @@ Pour les visiteurs, le parking du parc de Billancourt constitue un bon point de 
 Historiquement liée à l'industrie automobile avec les usines Renault, Boulogne-Billancourt poursuit son lien avec le secteur en embrassant la mobilité du futur. Le groupe Renault, pionnier de l'électrique avec la Zoé, a laissé une empreinte durable dans l'identité de la ville. Aujourd'hui, cette tradition se perpétue à travers un réseau de recharge performant et une population sensibilisée aux enjeux de la transition énergétique.
 
 Les conducteurs résidant à Boulogne-Billancourt bénéficient d'un accès privilégié aux autoroutes A13 et au périphérique parisien, où des stations de recharge rapide jalonnent les itinéraires. Cette position stratégique facilite les déplacements en véhicule électrique tant pour les trajets quotidiens que pour les escapades du week-end.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "saint-denis",
@@ -94,7 +94,7 @@ Saint-Denis se distingue par son engagement en faveur du développement durable.
 Pour les visiteurs du patrimoine historique, notamment la basilique où reposent les rois de France, des bornes sont disponibles à proximité immédiate. Le parc de la Légion d'honneur offre aussi des possibilités de recharge pour ceux qui souhaitent combiner visite culturelle et recharge.
 
 La desserte en transports en commun exceptionnelle de Saint-Denis, avec le RER B et D, le métro et bientôt le Grand Paris Express, complète l'offre de mobilité électrique pour une intermodalité optimale.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "montreuil",
@@ -125,7 +125,7 @@ Montreuil se distingue par sa culture du vélo et des mobilités alternatives. L
 Pour les visiteurs, la station de métro Croix de Chavaux (ligne 9) constitue un repère pratique : plusieurs bornes sont installées dans les rues adjacentes. Le marché de Montreuil, célèbre marché aux puces, est également desservi par des bornes à proximité.
 
 L'identité montreuilloise, mêlant diversité culturelle et conscience environnementale, fait de la ville un territoire naturellement favorable à l'essor du véhicule électrique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "argenteuil",
@@ -154,7 +154,7 @@ La municipalité propose un accompagnement pour l'installation de bornes dans le
 Argenteuil est célèbre dans le monde de l'art pour avoir inspiré les impressionnistes, notamment Claude Monet qui y a peint de nombreuses toiles. Aujourd'hui, la ville poursuit cette tradition d'innovation en s'engageant dans la mobilité du futur. Les rives de Seine qui ont inspiré les peintres sont désormais bordées de bornes de recharge.
 
 Pour les conducteurs en transit, la gare d'Argenteuil (ligne J du Transilien) dispose de bornes dans le parking de la gare, permettant une recharge pendant un trajet en train vers Paris. Cette intermodalité représente un atout majeur pour les pendulaires.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "versailles",
@@ -183,7 +183,7 @@ Versailles se distingue par son patrimoine exceptionnel et son cadre de vie verd
 Le quartier de Montreuil, à l'est de la ville, et le quartier de Porchefontaine bénéficient aussi de bornes en voirie. La gare de Versailles-Chantiers, important nœud ferroviaire, dispose de bornes dans son parking, facilitant l'intermodalité train-voiture électrique.
 
 Pour les visiteurs du domaine de Versailles, il est recommandé d'arriver tôt le matin pour bénéficier des bornes les moins sollicitées. Les week-ends et jours fériés, l'affluence peut rendre les bornes plus difficiles d'accès, et une planification via les applications dédiées est conseillée.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "nanterre",
@@ -212,7 +212,7 @@ La ville propose un Plan Climat ambitieux incluant le développement de la mobil
 Nanterre accueille chaque année le championnat de France de natation à la piscine olympique, attirant des visiteurs qui peuvent profiter des bornes de la ville. Le Mont-Valérien, haut lieu de mémoire, est aussi accessible avec des points de recharge à proximité.
 
 Pour les conducteurs, il est conseillé d'utiliser les bornes du centre-ville en journée et celles de La Défense le soir et le week-end, inversant les flux de charge pour optimiser la disponibilité. Les applications de recharge en temps réel sont indispensables dans ce secteur très fréquenté.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "creteil",
@@ -241,7 +241,7 @@ Le conseil départemental du Val-de-Marne soutient l'installation de bornes dans
 L'hôpital Henri-Mondor, centre hospitalier majeur, dispose de bornes dans son parking visiteurs. Le personnel soignant bénéficie aussi de bornes réservées, reconnaissant les contraintes horaires particulières des professions de santé.
 
 Créteil, souvent pionnière en urbanisme avec ses innovations architecturales des années 1970, continue d'innover en faisant de la mobilité électrique un axe central de son développement. La ville prouve que les grands ensembles urbains peuvent s'adapter efficacement aux nouvelles formes de mobilité.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "evry-courcouronnes",
@@ -270,7 +270,7 @@ La commune est concernée par la ZFE du Grand Paris dans son périmètre le plus
 Pour les visiteurs, les bords de Seine à Courcouronnes offrent des bornes dans un cadre naturel préservé. Le parc du Lac de Courcouronnes dispose de points de charge accessibles, combinant détente et recharge.
 
 La ville travaille à l'installation de bornes dans les quartiers résidentiels les moins bien desservis, avec un objectif d'équité territoriale dans l'accès à la recharge. Ce souci d'inclusion fait d'Évry-Courcouronnes un modèle pour les villes nouvelles en transition énergétique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "meaux",
@@ -299,7 +299,7 @@ La communauté d'agglomération du Pays de Meaux a lancé un plan de déploiemen
 La ville de Meaux est engagée dans un programme de végétalisation et de réduction de son empreinte carbone. Le développement des bornes de recharge s'inscrit dans cette stratégie globale, aux côtés du développement des pistes cyclables et de l'amélioration des transports en commun.
 
 Pour les amateurs de gastronomie, le marché de Meaux, où l'on peut déguster le célèbre Brie de Meaux, est accessible avec des bornes à proximité. Un détour gourmand qui se combine parfaitement avec une session de recharge.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "pontoise",
@@ -328,7 +328,7 @@ La communauté d'agglomération de Cergy-Pontoise propose des aides pour l'insta
 Pontoise est une ville verte avec ses parcs, ses jardins et sa proximité avec le Vexin français. La mobilité électrique s'inscrit naturellement dans cette identité, prolongeant l'engagement de la ville pour la qualité de vie et la préservation de l'environnement.
 
 Pour les visiteurs du Vexin, Pontoise constitue un point de départ idéal avec ses bornes de recharge. Les villages pittoresques du parc naturel régional sont accessibles avec une charge complète, et des bornes complémentaires apparaissent dans les bourgs du Vexin.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "melun",
@@ -357,7 +357,7 @@ La ville accueille l'École nationale de gendarmerie, et les installations milit
 Pour les amoureux de nature, la forêt de Fontainebleau et ses célèbres rochers d'escalade sont à portée de charge depuis Melun. Le réseau de bornes rural en Seine-et-Marne se développe pour permettre aux randonneurs et grimpeurs de recharger près des sites naturels.
 
 Melun se positionne comme une ville à taille humaine où la mobilité électrique améliore concrètement le cadre de vie. Le silence des véhicules électriques dans les ruelles de l'île Saint-Étienne illustre parfaitement les bénéfices quotidiens de cette transition.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "cergy",
@@ -386,7 +386,7 @@ La diversité architecturale de Cergy, des immeubles organiques de Ricardo Bofil
 Cergy accueille le site de l'ESSEC, grande école de commerce, dont les étudiants et professeurs sont souvent précurseurs dans l'adoption de nouvelles technologies de mobilité. Le campus dispose de bornes qui participent au réseau de recharge local.
 
 Pour les cyclistes qui combinent vélo électrique et voiture électrique, Cergy offre un réseau de pistes cyclables exceptionnel le long de l'Oise, permettant une mobilité entièrement décarbonée sur le territoire.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "mantes-la-jolie",
@@ -415,7 +415,7 @@ La communauté urbaine Grand Paris Seine et Oise, dont Mantes est le centre, a a
 Mantes-la-Jolie est engagée dans un ambitieux projet de rénovation urbaine qui transforme progressivement la ville. L'intégration de bornes de recharge dans chaque nouveau projet immobilier garantit un développement harmonieux de l'infrastructure.
 
 Pour les visiteurs, la proximité du château de La Roche-Guyon et de Giverny, village de Claude Monet, fait de Mantes un excellent point de départ pour des excursions culturelles en véhicule électrique dans la vallée de la Seine.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "bobigny",
@@ -444,7 +444,7 @@ La ville accueille plusieurs marchés importants, dont le marché de Bobigny-Lib
 Le campus Condorcet, grand équipement universitaire en sciences humaines, s'implante à proximité et ses parkings intègreront des bornes. Ce projet structurant amène avec lui de nouvelles infrastructures de recharge pour les chercheurs et étudiants.
 
 Bobigny se réinvente à travers de grands projets urbains qui font de la mobilité électrique un standard. Le prolongement de lignes de transport en commun et l'arrivée du Grand Paris Express complètent un écosystème de mobilité durable où le véhicule électrique a toute sa place.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "lyon",
@@ -473,7 +473,7 @@ La Métropole de Lyon propose des aides pour l'installation de bornes dans les c
 Lyon se distingue par son innovation en matière de mobilité. La ville accueille des start-ups spécialisées dans la recharge intelligente et les véhicules autonomes. Le pôle de compétitivité Lyon Urban Truck & Bus travaille sur l'électrification des transports lourds.
 
 Pour les visiteurs, les parkings relais TCL (Transports en Commun Lyonnais) sont souvent équipés de bornes. Les parcs de la Tête d'Or et de Gerland disposent aussi de points de charge. Il est recommandé d'utiliser l'application Freshmile, opérateur local très présent, pour localiser et réserver les bornes.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "grenoble",
@@ -502,7 +502,7 @@ La métropole grenobloise est pionnière en matière de mobilité durable. Le r�
 Grenoble propose des aides spécifiques aux ménages modestes pour l'achat de véhicules électriques, en complément du bonus national. La métropole subventionne aussi l'installation de bornes dans les copropriétés avec des montants parmi les plus élevés de France.
 
 Pour les visiteurs, les bornes du parking du Musée de Grenoble et celles à proximité du fort de la Bastille sont les plus pratiques. L'application GEG e-mobilité permet de localiser facilement les bornes du réseau local.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "saint-etienne",
@@ -531,7 +531,7 @@ La métropole stéphanoise aide les particuliers et les copropriétés dans l'in
 Le parc naturel régional du Pilat, aux portes de Saint-Étienne, offre des randonnées magnifiques accessibles en voiture électrique. Des bornes sont installées dans les villages du Pilat, permettant de combiner nature et mobilité propre.
 
 Saint-Étienne, ville de labeur et de passion, trouve dans la mobilité électrique une continuité de son histoire industrielle tournée vers l'avenir. La ville qui a forgé l'acier et les armes fabrique désormais un futur durable, une borne à la fois.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "clermont-ferrand",
@@ -560,7 +560,7 @@ La chaîne des Puys, à quelques kilomètres du centre-ville, est accessible en 
 La métropole clermontoise et le département du Puy-de-Dôme proposent des aides complémentaires pour l'acquisition de véhicules électriques et l'installation de bornes. Le tissu de PME industrielles locales adopte progressivement l'électrique pour ses flottes.
 
 Pour les amateurs de thermalisme, les villes d'eau voisines comme Royat et Châtel-Guyon disposent de bornes. La tradition thermale auvergnate se marie parfaitement avec la mobilité électrique silencieuse et non polluante.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "villeurbanne",
@@ -589,7 +589,7 @@ La ville de Villeurbanne a voté un plan climat ambitieux incluant un volet mobi
 Le festival des Invites de Villeurbanne et les événements culturels du Rize, centre mémoires et société, attirent un public qui trouve des bornes à proximité des lieux de spectacle. La ville culturelle et la ville électrique se conjuguent harmonieusement.
 
 Villeurbanne se distingue par sa tradition d'innovation sociale et son engagement citoyen. Le passage au véhicule électrique y est vécu comme un acte collectif de responsabilité environnementale, porté par une population jeune et sensibilisée.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "annecy",
@@ -618,7 +618,7 @@ Le Grand Annecy propose des aides pour l'installation de bornes, et la Haute-Sav
 Pour les visiteurs, Annecy est un point de départ idéal pour des excursions en véhicule électrique vers Chamonix, Megève ou le col des Aravis. Le réseau de bornes haut-savoyard se densifie rapidement, rendant ces trajets montagnards accessibles en électrique.
 
 Annecy prouve qu'une ville touristique peut allier attractivité et responsabilité environnementale. La mobilité électrique y est un choix naturel, en harmonie avec un environnement dont la préservation est au cœur de l'identité locale.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "valence",
@@ -647,7 +647,7 @@ La Drôme est un département attractif pour les véhicules électriques, avec d
 Le marché de Valence, réputé pour ses produits locaux et ses ravioles, est accessible avec des bornes à proximité. La gastronomie drômoise se déguste sans culpabilité environnementale quand on roule en électrique.
 
 Valence, ville à taille humaine et agréable à vivre, fait de la mobilité électrique un atout pour son attractivité. Sa position sur l'axe rhodanien en fait aussi un point de passage incontournable pour les voyageurs en véhicule électrique entre le nord et le sud de la France.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "chambery",
@@ -676,7 +676,7 @@ Le département de la Savoie et Grand Chambéry proposent des aides pour la mobi
 Les Bauges et la Chartreuse, parcs naturels régionaux accessibles depuis Chambéry, développent aussi leurs bornes. Les randonneurs et amoureux de la nature trouvent des points de recharge dans les villages de montagne.
 
 Chambéry, ville où l'histoire rencontre les Alpes, fait de la mobilité électrique un pilier de sa transition énergétique. La préservation de l'environnement montagnard passe par des transports décarbonés, et la capitale savoyarde montre l'exemple.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "bourg-en-bresse",
@@ -705,7 +705,7 @@ La communauté d'agglomération du Bassin de Bourg-en-Bresse accompagne les part
 La Bresse, terroir gastronomique d'exception, se découvre idéalement en véhicule électrique. Les fermes productrices de volailles de Bresse, les fromageries et les vignobles du Bugey jalonnent des itinéraires que les bornes rurales rendent accessibles en mobilité propre.
 
 Bourg-en-Bresse prouve qu'une ville moyenne peut offrir un réseau de recharge satisfaisant, combinant bornes urbaines et maillage rural pour une mobilité électrique accessible à tous les habitants du territoire.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "roanne",
@@ -734,7 +734,7 @@ Le Roannais est un territoire de contrastes entre plaine et montagne, industrie 
 La côte roannaise, vignoble AOC de la Loire, se découvre en circuits de dégustation accessibles en voiture électrique. Les viticulteurs installent des bornes dans leurs domaines, alliant tradition viticole et modernité écologique.
 
 Roanne montre qu'une ville de taille moyenne peut s'engager dans la mobilité électrique avec pragmatisme. Le réseau de bornes, bien que plus modeste que dans les grandes métropoles, couvre les besoins quotidiens et touristiques du territoire.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "vienne",
@@ -763,7 +763,7 @@ Vienne bénéficie de l'ensoleillement de la vallée du Rhône, favorable aux in
 Les marchés de Vienne, réputés pour les produits de la vallée du Rhône, sont accessibles avec des bornes à proximité. La cuisine locale, héritière de la tradition gastronomique lyonnaise, se savoure sans empreinte carbone quand on roule en électrique.
 
 Vienne, où l'histoire antique côtoie la modernité, fait de la mobilité électrique un pont entre son passé prestigieux et son avenir durable. La ville prouve que patrimoine et innovation peuvent s'enrichir mutuellement.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "thonon-les-bains",
@@ -792,7 +792,7 @@ Le domaine skiable des Portes du Soleil, accessible depuis Thonon, développe se
 Le Chablais, pays de montagnes et de lacs, offre des itinéraires touristiques en véhicule électrique entre le Léman, les Dents du Midi et la vallée d'Abondance. Les fromageries d'Abondance et les fermes du Chablais installent des bornes pour les visiteurs gourmands.
 
 Thonon-les-Bains, ville d'eau par excellence, fait naturellement le lien entre la pureté de ses sources et la propreté de la mobilité électrique. L'air pur des Alpes mérite des véhicules qui le respectent.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "aurillac",
@@ -821,7 +821,7 @@ La ville propose des aides pour l'installation de bornes dans les copropriétés
 Le Cantal offre des paysages exceptionnels pour les conducteurs de véhicules électriques : le puy Mary, le viaduc de Garabit, la vallée de la Jordanne et les burons de montagne se découvrent dans le silence du moteur électrique. C'est une expérience de conduite unique dans ces paysages volcaniques.
 
 Aurillac, ville attachante et authentique, montre que la mobilité électrique n'est pas réservée aux métropoles. Le Cantal prouve que la ruralité et l'innovation technologique peuvent parfaitement cohabiter.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "le-puy-en-velay",
@@ -850,7 +850,7 @@ Le Puy-en-Velay accueille chaque année des milliers de pèlerins partant vers C
 Le festival Le Puy de Lumières, spectacle nocturne de mapping vidéo sur les monuments, attire des visiteurs en été. Les soirées de spectacle offrent un créneau parfait pour recharger, le spectacle durant environ deux heures.
 
 Le Puy-en-Velay, cité de foi et de beauté, intègre la mobilité électrique dans sa quête d'un avenir respectueux de son environnement exceptionnel. Les pitons volcaniques qui font sa renommée méritent un air pur que les véhicules électriques contribuent à préserver.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "moulins",
@@ -879,7 +879,7 @@ Moulins propose un cadre de vie paisible que la mobilité électrique contribue 
 Le Bourbonnais offre des circuits touristiques en voiture électrique : la forêt de Tronçais, plus belle futaie de chênes d'Europe, le château de Lapalisse et les vignobles de Saint-Pourçain sont accessibles avec le réseau de bornes existant.
 
 Moulins, ville discrète mais riche de patrimoine, aborde la mobilité électrique avec la mesure qui la caractérise, équipant son territoire pas à pas pour un avenir plus propre.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "bordeaux",
@@ -908,7 +908,7 @@ La métropole bordelaise propose des aides à l'installation de bornes dans les 
 Les vignobles bordelais, du Médoc à Saint-Émilion, développent leurs bornes de recharge. Les châteaux accueillant des visiteurs installent des bornes, mêlant tradition viticole millénaire et modernité écologique. La route des vins en véhicule électrique est une expérience en plein développement.
 
 Bordeaux, ville de pierre blonde et de grands espaces, fait de la mobilité électrique un vecteur de qualité de vie. Le tramway, le vélo et le véhicule électrique composent un triptyque de mobilité durable qui sied à cette métropole élégante.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "limoges",
@@ -937,7 +937,7 @@ Le Limousin, territoire de verdure et de bocages, offre un cadre idéal pour le 
 Limoges est aussi connue pour ses émaux et ses vitraux. Les ateliers d'artisans du feu qui perpétuent ces traditions séculaires sont dispersés dans la ville et les campagnes environnantes, accessibles en véhicule électrique.
 
 Pour les visiteurs, les jardins de l'Évêché, les bords de Vienne et le parc Victor Thuillat offrent des cadres agréables à proximité de bornes. Limoges, ville discrète et authentique, mérite le détour en véhicule électrique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "poitiers",
@@ -966,7 +966,7 @@ Le parc de Blossac, jardin à la française surplombant la vallée du Clain, est
 La technopole du Futuroscope, au nord de Poitiers, accueille des entreprises innovantes dont les parkings sont équipés. L'écosystème technologique poitevin est naturellement porté vers la mobilité du futur.
 
 Poitiers, où se sont jouées des batailles décisives de l'histoire de France, livre aujourd'hui une bataille plus pacifique pour la transition énergétique. La ville prouve que le patrimoine millénaire et l'innovation ne sont pas incompatibles.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "pau",
@@ -995,7 +995,7 @@ Les vallées pyrénéennes, béarnaises et basques, offrent des excursions en v�
 Le circuit automobile de Pau-Arnos, qui accueille des compétitions de véhicules électriques, témoigne du lien entre Pau et le sport automobile, désormais tourné vers l'électrique. Le Grand Prix de Pau historique s'est aussi ouvert à des catégories électriques.
 
 Pau, ville de caractère entre montagne et plaine, fait de la mobilité électrique un vecteur de son attractivité. La douceur de son climat et la beauté de ses panoramas se savourent encore mieux dans le silence d'un moteur électrique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "la-rochelle",
@@ -1024,7 +1024,7 @@ La communauté d'agglomération de La Rochelle a un objectif de neutralité carb
 Les Francofolies, festival de musique francophone, et le Grand Pavois, salon nautique international, attirent des dizaines de milliers de visiteurs. Les bornes de La Rochelle sont alors très sollicitées, et une planification anticipée est recommandée.
 
 La Rochelle, ville maritime et écologique par nature, fait de la mobilité électrique une évidence. Son histoire pionnière dans ce domaine lui donne une légitimité unique parmi les villes françaises engagées dans la transition énergétique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "angouleme",
@@ -1053,7 +1053,7 @@ La vallée de la Charente, fleuve tranquille serpentant à travers les vignobles
 Le circuit d'Angoulême, qui accueille le Circuit des Remparts, course automobile historique, s'ouvre aussi à des catégories électriques. Cette évolution symbolise la transition de la passion automobile angoumoisine vers un avenir plus vert.
 
 Angoulême, ville de créativité et d'imagination, dessine son avenir en mobilité électrique avec la même inventivité que ses auteurs de BD dessinent leurs histoires.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "bayonne",
@@ -1082,7 +1082,7 @@ Les Fêtes de Bayonne, plus grand festival populaire de France en juillet, attir
 La côte basque, de Biarritz à Hendaye, développe rapidement ses bornes de recharge. Les surfeurs et baigneurs trouvent des bornes près des plages, combinant glisse et mobilité propre. Le Pays basque intérieur, avec ses villages comme Espelette, Ainhoa et Saint-Jean-Pied-de-Port, s'équipe aussi.
 
 Bayonne, ville de traditions vivantes et de culture vibrante, fait de la mobilité électrique un nouveau chapitre de son histoire millénaire. Le respect de l'environnement fait partie de l'identité basque, et le véhicule électrique s'y intègre naturellement.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "perigueux",
@@ -1111,7 +1111,7 @@ Le département propose des aides pour l'installation de bornes, conscient que l
 La vallée de l'Isle, qui traverse Périgueux, offre une voie verte prisée des cyclistes. Les bornes le long de cette voie permettent aux conducteurs de véhicules électriques de combiner balade à vélo et recharge.
 
 Périgueux, ville gourmande et patrimoniale, intègre la mobilité électrique dans un art de vivre périgourdin où la qualité prime sur la quantité. Le silence du véhicule électrique dans les ruelles médiévales prolonge le charme intemporel de cette cité.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "agen",
@@ -1140,7 +1140,7 @@ Agen accueille le rugby avec le SU Agen, et les jours de match au stade Armandie
 La communauté d'agglomération d'Agen propose des aides pour l'installation de bornes dans les copropriétés. Le parc de logements agenais, composé de maisons individuelles et de petits immeubles, s'adapte progressivement à la mobilité électrique.
 
 Agen, ville de saveurs et de convivialité, fait de la mobilité électrique un ingrédient de son art de vivre. Entre pruneaux et Garonne, la transition énergétique avance au rythme tranquille mais déterminé du sud-ouest.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "niort",
@@ -1169,7 +1169,7 @@ Le Marais poitevin, deuxième zone humide de France, est un écosystème sensibl
 Niort accueille chaque année le festival Niort Numérique et d'autres événements liés à l'innovation. Le tissu économique local, tourné vers les services et le numérique, est un terreau favorable à l'adoption du véhicule électrique.
 
 Niort, ville d'assurance et de solidarité, assure aussi la transition vers une mobilité plus propre. Son dynamisme économique et sa conscience environnementale en font un territoire modèle pour la mobilité électrique des villes moyennes.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "mont-de-marsan",
@@ -1198,7 +1198,7 @@ Les fêtes de la Madeleine, corridas et festivités qui animent Mont-de-Marsan e
 Le département des Landes, avec ses plages océanes, ses lacs et sa forêt, est une destination touristique qui s'équipe en bornes. Hossegor, Capbreton, Biscarrosse et Dax développent leurs infrastructures de recharge pour les vacanciers.
 
 Mont-de-Marsan, ville de nature et de fête, intègre la mobilité électrique dans son mode de vie landais. Le respect de la forêt, de l'océan et des rivières passe aussi par des véhicules propres qui préservent l'environnement.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "gueret",
@@ -1227,7 +1227,7 @@ La Creuse attire de plus en plus de néo-ruraux et de télétravailleurs séduit
 Les tapisseries d'Aubusson, inscrites au patrimoine immatériel de l'UNESCO, se découvrent à la Cité internationale de la tapisserie, à 40 km de Guéret. Des bornes permettent de faire ce trajet en véhicule électrique.
 
 Guéret prouve que même les plus petites préfectures de France s'engagent dans la mobilité électrique. La taille modeste du réseau est compensée par la détermination à offrir une couverture territoriale adaptée aux besoins locaux.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "tulle",
@@ -1256,7 +1256,7 @@ Le département de la Corrèze, entre le plateau de Millevaches et le bassin de 
 Pour les randonneurs, le sentier de grande randonnée qui longe la vallée de la Corrèze est accessible depuis des points de recharge en ville. Le GR480 offre des étapes combinant marche et recharge.
 
 Tulle, ville discrète de la France profonde, montre que la mobilité électrique concerne tous les territoires, des métropoles aux petites préfectures de montagne. Chaque borne installée rapproche la ruralité de la modernité.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "toulouse",
@@ -1285,7 +1285,7 @@ La ville propose des aides spécifiques pour la mobilité électrique, en compl�
 Le marché Victor Hugo, les halles gourmandes de Toulouse, sont entourées de bornes. La cuisine toulousaine, du cassoulet à la saucisse de Toulouse, se déguste sans empreinte carbone quand on roule en électrique. Les vignobles de Fronton, à quelques kilomètres, s'ouvrent aussi aux visiteurs en véhicule électrique.
 
 Toulouse, ville d'Ariane et d'Airbus, construit les avions du futur et emprunte les voitures du futur. Sa tradition d'innovation fait naturellement de la mobilité électrique un prolongement de son identité technologique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "montpellier",
@@ -1314,7 +1314,7 @@ La région Occitanie et la métropole de Montpellier proposent des aides cumulab
 Le domaine d'O, espace culturel et de spectacles, et le zoo de Lunaret, plus grand zoo gratuit de France, disposent de bornes. La feria de Montpellier et le Festival de Radio France attirent des publics qui trouvent des bornes dans la ville.
 
 Montpellier, ville jeune et solaire, fait de la mobilité électrique un marqueur de sa modernité. L'énergie du soleil méditerranéen alimente les projets d'ombrières solaires couplées à des bornes, fermant la boucle de la mobilité durable.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "nimes",
@@ -1343,7 +1343,7 @@ La Feria de Nîmes, en Pentecôte et en septembre, attire un million de festival
 La Camargue, aux portes de Nîmes, offre des paysages uniques de marais, de chevaux blancs et de flamants roses. Le véhicule électrique, silencieux, est idéal pour observer la faune sans la déranger.
 
 Nîmes, où les gladiateurs ont combattu et où les taureaux courent encore, ajoute la mobilité électrique à son répertoire de traditions réinventées. La cité antique prouve qu'on peut honorer deux millénaires d'histoire tout en préparant l'avenir.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "perpignan",
@@ -1372,7 +1372,7 @@ La communauté urbaine Perpignan Méditerranée Métropole soutient l'installati
 Les Pyrénées catalanes, avec les stations de Font-Romeu et des Angles, développent leurs bornes en altitude. Le train jaune, patrimoine ferroviaire unique, traverse un paysage de montagne que le véhicule électrique peut aussi parcourir via les routes panoramiques.
 
 Perpignan, vibrante cité catalane, intègre la mobilité électrique dans sa culture méditerranéenne où le soleil est une ressource et l'air pur un héritage à protéger.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "beziers",
@@ -1401,7 +1401,7 @@ Le Biterrois offre aussi un accès à la mer, avec les plages de Valras et Séri
 La ville de Béziers, engagée dans un programme de revitalisation de son centre ancien, intègre des bornes dans les projets de réhabilitation. Chaque rue rénovée inclut des points de recharge.
 
 Béziers, ville de Pierre-Paul Riquet qui a construit le canal du Midi, poursuit cet esprit d'innovation en embrassant la mobilité électrique. Le génie du XVIIe siècle inspire celui du XXIe.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "narbonne",
@@ -1430,7 +1430,7 @@ Le Massif des Corbières, pays du vin et des châteaux cathares, offre des circu
 La ville de Narbonne accueille des festivals estivaux qui animent le palais des Archevêques et le bord du canal. Les bornes du centre sont alors plus sollicitées, et les bornes périphériques offrent une alternative.
 
 Narbonne, qui fut la première grande ville romaine hors d'Italie, continue d'écrire l'histoire en adoptant la mobilité du futur. La cité antique avance résolument vers un avenir électrique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "carcassonne",
@@ -1459,7 +1459,7 @@ Le vignoble de la Malepère et de Cabardès, aux portes de Carcassonne, accueill
 Carcassonne bénéficie du climat méditerranéen avec des influences atlantiques, et l'ensoleillement favorable encourage les projets solaires couplés à la recharge.
 
 Carcassonne, sentinelle de pierre dominant le Midi, garde désormais aussi l'avenir. La cité qui a résisté aux sièges médiévaux embrasse la mobilité électrique avec la même détermination.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "albi",
@@ -1488,7 +1488,7 @@ Le vignoble de Gaillac, l'un des plus anciens de France, entoure Albi. Les domai
 La communauté d'agglomération de l'Albigeois aide les particuliers et entreprises dans l'installation de bornes. Le tissu économique local, marqué par l'agroalimentaire et le tourisme, adopte progressivement la mobilité électrique.
 
 Albi, ville de Toulouse-Lautrec et de La Pérouse, conjugue arts, aventure et transition énergétique. La beauté de sa brique rouge mérite un air pur que les véhicules électriques contribuent à maintenir.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "tarbes",
@@ -1517,7 +1517,7 @@ Le Pic du Midi de Bigorre, observatoire astronomique accessible par téléphéri
 Tarbes accueille des événements équestres au Haras National et des compétitions sportives. Le rugby tarbais, avec le Stado Tarbes Pyrénées Rugby, anime aussi la vie sportive locale, et les bornes du stade facilitent les déplacements des supporters.
 
 Tarbes, ville des chevaux et des sommets, galope vers la mobilité électrique avec l'énergie des Pyrénées. La montagne inspire le dépassement, y compris dans la transition vers des transports plus propres.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "auch",
@@ -1546,7 +1546,7 @@ Le Gers, département le plus rural d'Occitanie, est un territoire où la mobili
 Auch se distingue par son art de vivre gascon, mélange de gastronomie, de rugby et de convivialité. Le foie gras se déguste mieux quand on sait que son véhicule ne pollue pas l'air pur de la campagne gersoise.
 
 Auch, cité de d'Artagnan, mène sa propre quête : celle de la mobilité propre dans un territoire rural qui mérite les mêmes avancées que les grandes villes.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "cahors",
@@ -1575,7 +1575,7 @@ Le festival de blues de Cahors anime la ville chaque été, attirant un public q
 Le Quercy, pays de causses calcaires et de vallées verdoyantes, se prête parfaitement à la découverte en véhicule électrique. Le silence du moteur permet d'apprécier le chant des oiseaux et le murmure du Lot.
 
 Cahors, ville de vin et de pierre, écrit un nouveau chapitre de son histoire avec la mobilité électrique. Le Malbec vieillit en barrique pendant que les batteries se rechargent : deux processus de maturation vers l'excellence.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "rodez",
@@ -1604,7 +1604,7 @@ Le viaduc de Millau, plus haut pont du monde (343 mètres), est à 60 km de Rode
 L'Aveyron est aussi un territoire gastronomique avec l'aligot, le Roquefort et les tripoux. Les marchés et fermes-auberges du département accueillent les visiteurs en véhicule électrique dans un esprit d'authenticité.
 
 Rodez, ville de Soulages et de lumière noire, illumine aussi son territoire par ses bornes de recharge. L'art contemporain et la mobilité du futur partagent une même audace : celle de réinventer les conventions.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "mende",
@@ -1633,7 +1633,7 @@ La Lozère, avec sa densité de population la plus faible de France, est un labo
 Le Mont Lozère, point culminant des Cévennes, offre des randonnées exceptionnelles. Le chemin de Stevenson (GR70), qui traverse la Lozère, est accessible depuis des bourgs équipés de bornes pour les accompagnateurs motorisés.
 
 Mende, petite par la taille mais grande par ses paysages, prouve que la mobilité électrique n'a pas de frontière de population. La Lozère mérite la même attention que les grandes métropoles dans la transition énergétique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "strasbourg",
@@ -1662,7 +1662,7 @@ La route des vins d'Alsace, de Marlenheim à Thann, se parcourt en véhicule él
 Le marché de Noël de Strasbourg, le plus ancien et le plus célèbre de France, attire 2 millions de visiteurs chaque hiver. Les bornes sont alors très sollicitées, et les parkings relais avec bornes en périphérie sont recommandés.
 
 Strasbourg, ville rhénane et européenne, fait de la mobilité électrique un pont entre ses traditions alsaciennes et sa vocation d'avenir. La ville du vin chaud et des kugelhopf roule de plus en plus à l'électricité.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "metz",
@@ -1691,7 +1691,7 @@ L'Eurométropole de Metz encourage la mobilité électrique avec des aides local
 Le festival Constellations, qui illumine les monuments de Metz par des projections artistiques en été, attire un public qui profite des bornes du centre. Les soirées de mapping vidéo sont un créneau idéal pour recharger.
 
 Metz, ville de lumière dorée par la pierre de Jaumont, brille aussi par son engagement dans la mobilité durable. La ville qui maîtrise l'art du vitrail éclaire désormais la voie vers un transport décarboné.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "nancy",
@@ -1720,7 +1720,7 @@ Nancy accueille chaque année le Festival International de Chant Choral et le Bo
 La gastronomie nancéienne, avec les bergamotes, les macarons de Nancy et la quiche lorraine, se savoure dans les bouchons et restaurants du centre, accessibles depuis les bornes. Le marché central, rénové avec panache, est un lieu incontournable.
 
 Nancy, ville de Stanislas et de l'Art nouveau, dessine l'avenir de sa mobilité avec la même créativité artistique qui a fait sa renommée. L'élégance lorraine se conjugue désormais au futur électrique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "reims",
@@ -1749,7 +1749,7 @@ La route touristique du Champagne traverse les grands crus (Montagne de Reims, V
 Les Fêtes Johanniques, qui célèbrent le sacre de Charles VII par Jeanne d'Arc, et les Flâneries Musicales de Reims animent l'été rémois. Les bornes du centre facilitent l'accès à ces événements culturels.
 
 Reims, ville du sacre et du champagne, couronne aussi la mobilité du futur. Les bulles de champagne et les bornes de recharge partagent une même promesse : l'effervescence de l'innovation au service du plaisir.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "mulhouse",
@@ -1778,7 +1778,7 @@ Mulhouse a une tradition industrielle forte (textile, mécanique, chimie) qui é
 Le Zoo de Mulhouse, l'un des plus beaux d'Europe installé dans un parc botanique, dispose de bornes. Les familles peuvent recharger pendant la visite de ce zoo réputé pour ses programmes de conservation.
 
 Mulhouse, ville de l'automobile et du train, ajoute naturellement la mobilité électrique à son identité de capitale des transports. Le passé industriel inspire un futur durable.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "troyes",
@@ -1807,7 +1807,7 @@ Le festival Nuits de Champagne, consacré à la chanson française, anime Troyes
 La campagne champenoise autour de Troyes, avec ses églises à pans de bois et ses villages de la route du vitrail, se découvre en véhicule électrique. Le patrimoine religieux de l'Aube est d'une richesse exceptionnelle.
 
 Troyes, ville de l'élégance textile et du patrimoine verrier, tisse désormais le fil de la mobilité électrique dans la trame de son développement urbain.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "colmar",
@@ -1836,7 +1836,7 @@ Le marché de Noël de Colmar, l'un des plus féeriques d'Alsace, attire 1,5 mil
 La Foire aux Vins de Colmar, en août, est le plus grand festival d'Alsace combinant musique et œnologie. Les concerts et les stands de dégustation créent un événement unique où la mobilité électrique est bienvenue.
 
 Colmar, ville de Bartholdi (créateur de la Statue de la Liberté), illumine la route des vins d'Alsace avec ses bornes de recharge. Le voyage en véhicule électrique à travers le vignoble est une liberté moderne que le sculpteur aurait sans doute appréciée.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "charleville-mezieres",
@@ -1865,7 +1865,7 @@ La ville est engagée dans un programme de revitalisation de son centre-ville, i
 La gastronomie ardennaise, avec le boudin blanc, la galette au sucre et les bières artisanales, se découvre dans les restaurants et brasseries du centre, accessibles depuis les bornes de la place Ducale.
 
 Charleville-Mézières, ville de Rimbaud et des marionnettes, anime ses rues de poésie et de créativité. La mobilité électrique y est un voyage aussi silencieux que les vers du poète illuminé.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "epinal",
@@ -1894,7 +1894,7 @@ Vittel et Contrexéville, villes d'eau voisines d'Épinal, disposent de bornes. 
 Le festival des Imaginales, dédié aux littératures de l'imaginaire, anime Épinal chaque printemps. Les bornes du parc du Cours permettent aux visiteurs du festival de recharger dans le cadre verdoyant de l'événement.
 
 Épinal, ville d'images et de nature, colorie son avenir en vert avec la mobilité électrique. Les estampes colorées de l'imagerie font désormais place à un nouveau tableau : celui d'une ville engagée dans la transition énergétique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "bar-le-duc",
@@ -1923,7 +1923,7 @@ Bar-le-Duc accueille le festival RenaissanceS chaque été, célébrant son patr
 La ville, engagée dans la revitalisation de son centre-ville, intègre systématiquement des bornes dans ses projets d'aménagement. Chaque rénovation de rue est l'occasion d'ajouter un point de charge.
 
 Bar-le-Duc, petite ville au grand patrimoine, prouve que la taille n'empêche pas l'ambition en matière de mobilité électrique. La ville Renaissance écrit un nouveau chapitre de son histoire avec les bornes de recharge.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "chaumont",
@@ -1952,7 +1952,7 @@ Langres, ville fortifiée à 35 km de Chaumont et patrie de Diderot, dispose de 
 Le lac de la Liez et le lac du Der-Chantecoq (plus grand lac artificiel de France), accessibles depuis Chaumont, offrent des destinations de nature avec des bornes dans les villages riverains.
 
 Chaumont, ville de graphisme et de pierre, dessine sa mobilité du futur avec la même créativité qui anime son festival. L'affiche de la mobilité électrique se compose ici avec originalité et détermination.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "verdun",
@@ -1981,7 +1981,7 @@ Le Centre Mondial de la Paix, installé dans le palais épiscopal, propose des e
 La Meuse, fleuve tranquille traversant la ville, offre des promenades le long de ses berges. Le marché couvert et les brasseries du centre permettent de goûter à la gastronomie lorraine pendant la recharge.
 
 Verdun, ville où la mémoire de la guerre nourrit un idéal de paix, ajoute la mobilité propre à son engagement pour un monde meilleur. Le silence des véhicules électriques sur les champs de bataille honore la mémoire des combattants.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "lille",
@@ -2010,7 +2010,7 @@ La braderie de Lille, plus grande braderie d'Europe le premier week-end de septe
 Les estaminets lillois, tavernes flamandes traditionnelles servant welsh, carbonade et waterzooï, sont le cœur de la gastronomie ch'ti. Ces lieux de convivialité sont accessibles en véhicule électrique depuis les bornes du centre.
 
 Lille, ville de Flandre au cœur grand, fait de la mobilité électrique une expression de sa générosité. La ville qui a su se réinventer de capitale industrielle en métropole européenne ajoute le véhicule électrique à son palmarès de transformations réussies.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "amiens",
@@ -2039,7 +2039,7 @@ Le marché de Noël d'Amiens et le spectacle Chroma, qui illumine la cathédrale
 Le parc Saint-Pierre, poumon vert au cœur de la ville, et le zoo d'Amiens disposent de bornes à proximité. Les familles amiénoises combinent loisirs et recharge avec facilité.
 
 Amiens, ville de Jules Verne et de la cathédrale, navigue vers l'avenir en véhicule électrique. Le père de Vingt mille lieues sous les mers serait fier de cette ville qui embrasse les technologies du futur avec l'imagination dont il a montré l'exemple.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "dunkerque",
@@ -2068,7 +2068,7 @@ La communauté urbaine de Dunkerque accompagne l'installation de bornes dans les
 Le musée Dunkerque 1940 – Opération Dynamo rappelle l'évacuation héroïque des troupes alliées. Ce lieu de mémoire, que le film de Christopher Nolan a fait connaître mondialement, dispose de bornes à proximité.
 
 Dunkerque, ville de corsaires et de carnavaleux, navigue vers un avenir électrique avec la même audace que Jean Bart face aux flottes ennemies. La ville du Nord brave les vents du changement avec détermination.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "roubaix",
@@ -2097,7 +2097,7 @@ Paris-Roubaix, « l'enfer du Nord » cycliste, arrive chaque année au vélodrom
 Roubaix est engagée dans le mouvement « Zéro déchet » et le commerce solidaire. Cette conscience environnementale se prolonge dans l'adoption de la mobilité électrique par une population sensibilisée.
 
 Roubaix, ville de fil et d'aiguille, tisse maintenant les fils de sa mobilité électrique. L'ancienne reine du textile réinvente son identité avec la même créativité qui a fait sa prospérité industrielle.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "tourcoing",
@@ -2126,7 +2126,7 @@ Le marché de Tourcoing, l'un des plus grands du Nord, anime la ville chaque sem
 La communauté urbaine encourage l'installation de bornes dans les copropriétés, nombreuses dans le parc de logements tourquennois. Les anciens bâtiments industriels reconvertis en logements intègrent des bornes dans leurs parkings.
 
 Tourcoing, ville de textile et de frontière, traverse les fils du temps vers une mobilité plus verte. La proximité de la Belgique et de ses pratiques avancées en véhicule électrique crée une dynamique transfrontalière positive.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "calais",
@@ -2155,7 +2155,7 @@ La Côte d'Opale offre des paysages de dunes, de falaises et de plages sauvages.
 La dentelle de Calais, savoir-faire artisanal perpétué depuis le XIXe siècle, se découvre à la Cité de la Dentelle. Cette industrie de précision résonne avec la technologie fine des véhicules électriques.
 
 Calais, porte de la France face à l'Angleterre, ouvre aussi la porte de la mobilité électrique transfrontalière. La ville du détroit est un pont entre deux réseaux de recharge, deux pays et deux traditions de mobilité.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "boulogne-sur-mer",
@@ -2184,7 +2184,7 @@ La colonne de la Grande Armée, à quelques kilomètres, rappelle le camp de Nap
 Le festival de la Côte d'Opale et les événements estivaux animent la ville. Les bornes du centre permettent aux festivaliers de profiter des animations sans souci de recharge.
 
 Boulogne-sur-Mer, ville de pêcheurs et d'aventuriers maritimes, jette l'ancre dans la mobilité électrique. Le premier port de pêche de France montre que la mer et la modernité font bon ménage.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "valenciennes",
@@ -2213,7 +2213,7 @@ L'Escaut, fleuve traversant la ville, offre des promenades le long de ses berges
 Le hockey sur glace (Diables Rouges de Valenciennes) et le football animent la vie sportive. Les parkings des installations sportives disposent de bornes pour les spectateurs.
 
 Valenciennes, de Watteau à Toyota, peint sa mobilité du futur avec les couleurs de l'innovation. La ville qui a donné naissance au style rococo en peinture compose désormais un tableau de mobilité durable.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "arras",
@@ -2242,7 +2242,7 @@ Le Main Square Festival, l'un des plus grands festivals de musique du nord de la
 L'andouillette d'Arras, le cœur d'Arras (gâteau au chocolat) et les bières artisanales de l'Artois composent une gastronomie généreuse accessible depuis les bornes du centre.
 
 Arras, ville de places et de mémoire, ajoute la mobilité électrique à ses nombreux atouts. Les arcades flamandes abritent désormais une modernité silencieuse et respectueuse de ce patrimoine exceptionnel.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "beauvais",
@@ -2271,7 +2271,7 @@ Beauvais accueille chaque année un festival Jeanne Hachette et des événements
 Le marché de Beauvais et les commerces du centre offrent des produits locaux de l'Oise dans un cadre agréable. Les bords du Thérain permettent une promenade pendant la recharge.
 
 Beauvais, ville du gothique le plus audacieux, regarde vers le haut et vers l'avenir. La cathédrale inachevée rappelle qu'il faut viser haut, même en mobilité électrique.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "laon",
@@ -2300,7 +2300,7 @@ La gastronomie picarde, avec le maroilles, la ficelle picarde et les tartes au s
 Laon accueille des festivals de musique dans sa cathédrale et ses monuments historiques. L'acoustique exceptionnelle de la cathédrale attire des mélomanes que les bornes de la ville haute accueillent.
 
 Laon, sentinelle médiévale sur sa butte, observe la plaine et l'avenir avec la même sérénité. La ville qui a vu les rois carolingiens accueille maintenant les véhicules du futur.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "compiegne",
@@ -2329,7 +2329,7 @@ Le festival de musique dans la forêt de Compiègne et les spectacles au théât
 Compiègne est un point de départ pour les activités de plein air : randonnée, équitation, VTT dans la forêt, et navigation sur l'Oise et l'Aisne. Le véhicule électrique s'intègre naturellement dans cette vocation nature.
 
 Compiègne, ville de l'histoire et de la forêt, avance vers l'avenir en véhicule électrique avec la majesté qui sied à une cité impériale. Le palais de Napoléon III aurait sans doute accueilli avec enthousiasme ces carrosses silencieux du XXIe siècle.`,
-    dateMAJ: "2025-05-01"
+    dateMAJ: "2026-06-22"
   },
   {
     slug: "marseille",
@@ -2362,7 +2362,7 @@ Le port autonome de Marseille, premier port de France, participe à la transitio
 Les startups marseillaises du secteur de la mobilité, installées dans le quartier de la French Tech Aix-Marseille, contribuent à l'innovation dans le domaine de la recharge. Des applications locales facilitent la recherche de bornes disponibles et le paiement.
 
 Marseille avance résolument vers une mobilité plus propre, portée par son climat favorable, son dynamisme économique et la volonté de ses habitants de préserver la qualité de vie méditerranéenne.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "nice",
@@ -2393,7 +2393,7 @@ Le tramway de Nice, dont la ligne 2 relie l'aéroport au port, illustre l'engage
 L'arrière-pays niçois, avec ses villages perchés comme Saint-Paul-de-Vence, Tourrettes-sur-Loup et Gourdon, voit apparaître des bornes dans les parkings communaux. Ces installations facilitent le tourisme vert dans des villages où le silence du moteur électrique est particulièrement bienvenu.
 
 Nice, ville de lumière et de douceur de vivre, trace sa voie vers une mobilité respectueuse de l'environnement méditerranéen exceptionnel qui fait sa renommée mondiale.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "toulon",
@@ -2424,7 +2424,7 @@ Le Syndicat départemental d'énergie du Var déploie des bornes dans les commun
 La ville investit dans la mobilité douce et les transports collectifs propres. Le réseau Mistral, qui gère les bus et le bateau-bus de la rade, s'électrifie progressivement. Cette dynamique globale fait de Toulon une ville engagée dans la transition énergétique.
 
 Toulon, entre mer et montagne, offre aux conducteurs de véhicules électriques un cadre de vie exceptionnel et une infrastructure de recharge en constante amélioration.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "aix-en-provence",
@@ -2455,7 +2455,7 @@ L'autoroute A8 qui relie Aix à Nice et l'A7 vers Lyon disposent de nombreuses s
 Le marché provençal de la place Richelme et le marché aux fleurs de la place de l'Hôtel de Ville animent le quotidien aixois. Les bornes à proximité permettent de combiner courses au marché et recharge du véhicule.
 
 Aix-en-Provence, entre patrimoine historique et modernité, conjugue art de vivre provençal et transition vers une mobilité électrique exemplaire.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "avignon",
@@ -2484,7 +2484,7 @@ Le mistral, vent caractéristique de la vallée du Rhône, souffle régulièreme
 Le marché des Halles, les antiquaires de la rue des Teinturiers et les boutiques du centre-ville animent le quotidien avignonnais. Les bornes de proximité facilitent l'accès à ces commerces pour les conducteurs de véhicules électriques.
 
 Avignon, ville de culture et de patrimoine, écrit un nouveau chapitre de son histoire en accueillant la mobilité électrique dans ses murs millénaires.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "cannes",
@@ -2513,7 +2513,7 @@ L'autoroute A8 qui traverse l'arrière-pays cannois offre des stations de rechar
 Le marché Forville, cœur gastronomique de Cannes, et le marché de la Bocca animent les matinées cannoises. Les bornes à proximité permettent de combiner recharge et approvisionnement en produits frais provençaux.
 
 Cannes, étoile de la Côte d'Azur, illumine désormais son avenir avec l'énergie propre du véhicule électrique, ajoutant une touche verte à son glamour légendaire.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "antibes",
@@ -2542,7 +2542,7 @@ La communauté d'agglomération de Sophia Antipolis, qui regroupe 24 communes, c
 Le Fort Carré, monument historique dominant le port, et les jardins de la villa Thuret, jardin botanique dédié à l'acclimatation des plantes exotiques, témoignent de la richesse patrimoniale d'Antibes. Des bornes à proximité de ces sites facilitent les visites culturelles.
 
 Antibes, entre art, technologie et mer, offre aux conducteurs de véhicules électriques un territoire riche et bien équipé sur la Riviera française.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "gap",
@@ -2571,7 +2571,7 @@ Le marché de Gap, les commerces du centre-ville et les zones commerciales péri
 L'autoroute n'atteint pas Gap, qui est desservie par les routes nationales 85 (route Napoléon) et 94. Ces routes de montagne offrent des paysages grandioses mais nécessitent une planification de la recharge. Les bornes de Gap constituent donc un relais indispensable sur ces itinéraires.
 
 Gap, sentinelle alpine, prouve que la mobilité électrique est compatible avec la montagne et offre aux conducteurs un accueil chaleureux au cœur des Alpes du Sud.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "digne-les-bains",
@@ -2600,7 +2600,7 @@ Alexandra David-Néel, exploratrice et orientaliste, vécut à Digne où sa mais
 La route Napoléon, empruntée par l'Empereur lors de son retour de l'île d'Elbe en 1815, traverse Digne. Cette route historique est jalonnée de bornes, permettant de suivre les traces de Napoléon en véhicule électrique.
 
 Digne-les-Bains, entre lavande et montagne, accueille la mobilité électrique avec la sérénité qui caractérise cette cité provençale d'altitude.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "frejus",
@@ -2629,7 +2629,7 @@ L'autoroute A8 passe à proximité de Fréjus, avec une aire de service équipé
 Les festivals de Fréjus, dont les spectacles dans l'amphithéâtre romain en été, attirent des visiteurs de toute la région. Le théâtre antique retrouve sa vocation première en accueillant des concerts et des représentations théâtrales. Les bornes à proximité facilitent l'accès à ces événements culturels.
 
 Fréjus, entre héritage romain et Méditerranée, offre aux conducteurs de véhicules électriques un voyage dans le temps enrichi par le confort d'une infrastructure de recharge moderne.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "nantes",
@@ -2660,7 +2660,7 @@ Nantes a été désignée Capitale verte de l'Europe en 2013, une distinction qu
 L'aéroport Nantes Atlantique, situé au sud de la ville, propose des bornes dans ses parkings. La gare TGV, qui relie Nantes à Paris en 2h15, est également équipée. Ces infrastructures de transport multimodal font de Nantes un carrefour accessible en véhicule électrique.
 
 Nantes, ville inventive et tournée vers l'avenir, fait de la mobilité électrique un pilier de son développement durable.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "angers",
@@ -2691,7 +2691,7 @@ Les châteaux de la Loire sont accessibles depuis Angers : Saumur, Villandry, Az
 Le marché couvert du boulevard Foch et les commerces de la rue piétonne Saint-Laud animent le centre-ville. La gastronomie angevine, avec ses rillauds, son cointreau et ses fouées, accompagne agréablement une pause recharge.
 
 Angers, ville verte par excellence, fait de la mobilité électrique un prolongement naturel de son engagement pour le végétal et le cadre de vie.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "le-mans",
@@ -2722,7 +2722,7 @@ Le jardin des Plantes du Mans, parc urbain de style anglais, et l'Arche de la Na
 La gare TGV du Mans, qui relie la ville à Paris en 55 minutes seulement, dispose de bornes dans son parking. Cette rapidité de liaison fait du Mans une ville attractive pour les actifs travaillant dans la capitale.
 
 Le Mans, ville où la vitesse est une tradition, embrasse désormais la vitesse de la transition électrique avec la passion qui la caractérise.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "saint-nazaire",
@@ -2751,7 +2751,7 @@ La côte d'Amour, qui s'étend de Saint-Nazaire à La Baule, est l'un des littor
 Le parc régional de Brière, deuxième plus grande zone humide de France après la Camargue, est accessible depuis Saint-Nazaire. Les marais, les chaumières et les promenades en chaland font de la Brière un territoire naturel exceptionnel. Des bornes aux entrées du parc permettent de le découvrir en mode propre.
 
 Saint-Nazaire, ville de constructeurs et d'horizons maritimes, navigue résolument vers la mobilité électrique avec l'audace qui a toujours caractérisé ses bâtisseurs de paquebots.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "cholet",
@@ -2780,7 +2780,7 @@ Le Puy du Fou, parc à thème historique de renommée mondiale, est situé à un
 Le marché de Cholet, les halles couvertes et les zones commerciales périphériques animent la vie économique locale. La gastronomie des Mauges, avec ses mogettes, son bœuf et ses vins du Layon, accompagne agréablement les pauses recharge.
 
 Cholet, ville de caractère au cœur des Mauges, tisse avec détermination la trame d'une mobilité électrique accessible à tous ses habitants.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "laval",
@@ -2809,7 +2809,7 @@ Les gorges de la Mayenne, au nord de Laval, offrent des paysages escarpés inhab
 Le marché de Laval, la gastronomie mayennaise avec son entrammes (fromage) et son cidre fermier, et les commerces du centre-ville animent la vie locale. Le centre commercial Les Grands Prés, en périphérie, dispose de bornes dans son parking.
 
 Laval, entre patrimoine médiéval et innovation numérique, fait de la mobilité électrique un pont entre tradition et modernité dans ce cœur rural de la France de l'Ouest.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "la-roche-sur-yon",
@@ -2840,7 +2840,7 @@ Le marché couvert de La Roche-sur-Yon propose des produits vendéens de qualit�
 Le jardin d'Orbigny, parc public au cœur de la ville, offre un espace de verdure et de détente. La promenade le long de l'Yon, rivière qui a donné son nom à la ville, est agréable à toute saison. Des bornes à proximité de ces espaces verts facilitent les sorties familiales.
 
 La Roche-sur-Yon, création napoléonienne tournée vers l'avenir, avance méthodiquement vers la mobilité électrique avec la rigueur géométrique qui caractérise son urbanisme impérial.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "saumur",
@@ -2869,7 +2869,7 @@ Le marché de Saumur, les restaurants des bords de Loire et les guinguettes esti
 Le GR 3, sentier de grande randonnée qui longe la Loire, traverse Saumur. Les randonneurs en itinérance peuvent recharger leur véhicule aux bornes de Saumur avant de poursuivre leur périple.
 
 Saumur, ville d'élégance équestre et de traditions viticoles, accueille la mobilité électrique avec la grâce et la noblesse qui caractérisent ses écuyers et ses crus.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "les-sables-d-olonne",
@@ -2898,7 +2898,7 @@ Le zoo des Sables, l'un des plus anciens de la côte vendéenne, a été moderni
 Le littoral vendéen, de Saint-Gilles-Croix-de-Vie à La Tranche-sur-Mer, est jalonné de bornes permettant de longer la côte en véhicule électrique. L'île d'Yeu, accessible en ferry depuis Fromentine, est un prolongement naturel de ce circuit côtier.
 
 Les Sables-d'Olonne, port d'attache des aventuriers des mers, accueille la mobilité électrique comme une nouvelle escale vers un avenir plus durable.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "fontenay-le-comte",
@@ -2927,7 +2927,7 @@ Les forêts de Mervent et de Vouvant, au nord de Fontenay, offrent des espaces d
 Le sud Vendée, entre Marais poitevin et plaine céréalière, est un territoire rural où la voiture reste indispensable. Le déploiement des bornes dans les bourgs et les hameaux facilite l'adoption du véhicule électrique par les habitants de cette campagne française authentique.
 
 Fontenay-le-Comte, fontaine des beaux esprits, accueille la mobilité électrique comme une nouvelle expression de l'intelligence et de la modernité dans un cadre Renaissance préservé.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "rennes",
@@ -2958,7 +2958,7 @@ Les bords de la Vilaine, rivière qui traverse Rennes, sont aménagés en promen
 La gare TGV de Rennes, qui relie la ville à Paris en 1h25, dispose de bornes dans ses parkings. Cette connexion rapide fait de Rennes une métropole attractive pour les actifs franciliens.
 
 Rennes, ville jeune et innovante, fait de la mobilité électrique un pilier de sa croissance durable et de son rayonnement en Bretagne.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "brest",
@@ -2987,7 +2987,7 @@ La rade de Brest, l'une des plus grandes du monde, offre un plan d'eau exception
 Le jardin botanique du Stang-Alar, le conservatoire botanique national et les parcs urbains brestois offrent des espaces verts généreux. Les bornes à proximité permettent de profiter de ces poumons verts dans une ville qui se réinvente constamment.
 
 Brest, ville de marins et d'aventuriers, navigue vers la mobilité électrique avec la détermination et l'audace qui ont toujours caractérisé les Brestois.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "quimper",
@@ -3016,7 +3016,7 @@ Le marché couvert de Quimper, les crêperies traditionnelles et les cidreries o
 La pointe du Raz, le cap Sizun et la baie de Douarnenez sont accessibles depuis Quimper en moins d'une heure. Le réseau de bornes dans le sud Finistère permet d'explorer ces paysages côtiers spectaculaires en véhicule électrique. Concarneau, ville close et port de pêche, est également à portée de batterie.
 
 Quimper, gardienne de la culture cornouaillaise, accueille la mobilité électrique comme une expression moderne de son identité bretonne fièrement tournée vers l'avenir.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "lorient",
@@ -3045,7 +3045,7 @@ Le port de plaisance de Lorient, marina moderne au cœur de la ville, accueille 
 Les plages de Larmor-Plage et de Guidel, à quelques kilomètres de Lorient, offrent des espaces balnéaires de qualité. Les parkings côtiers sont équipés de bornes pour les estivants.
 
 Lorient, ville née de la mer et tournée vers le large, accueille la mobilité électrique avec l'esprit d'aventure et d'ouverture qui caractérise les cités portuaires bretonnes.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "vannes",
@@ -3074,7 +3074,7 @@ L'Aquarium de Vannes, situé au cœur de la ville, présente la faune aquatique 
 Les mégalithes de Carnac, alignements de pierres néolithiques parmi les plus célèbres au monde, sont à une trentaine de kilomètres de Vannes. Le réseau de bornes entre Vannes et Carnac permet cette excursion en véhicule électrique. La presqu'île de Quiberon et Belle-Île-en-Mer sont également accessibles.
 
 Vannes, joyau médiéval au bord de la petite mer intérieure, fait de la mobilité électrique un atout pour préserver la beauté naturelle et patrimoniale du golfe du Morbihan.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "saint-brieuc",
@@ -3105,7 +3105,7 @@ Le cap Fréhel et le fort La Latte, à une quarantaine de kilomètres de Saint-B
 Les vallées encaissées qui traversent Saint-Brieuc, le Gouédic et le Gouët, créent une topographie unique pour une ville bretonne. Les parcs et jardins aménagés dans ces vallées sont des havres de tranquillité.
 
 Saint-Brieuc, entre baie grandiose et vallées verdoyantes, accueille la mobilité électrique comme un prolongement naturel de sa sensibilité environnementale bretonne.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "saint-malo",
@@ -3136,7 +3136,7 @@ Le barrage de la Rance, première usine marémotrice au monde mise en service en
 Les plages du Sillon, du Môle et de Bon Secours offrent des espaces balnéaires variés. Les parkings côtiers sont équipés de bornes pour les estivants.
 
 Saint-Malo, cité des corsaires et des grands départs, lance la mobilité électrique sur les mers de l'avenir avec la bravoure qui a toujours animé ses habitants.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "lannion",
@@ -3165,7 +3165,7 @@ L'île de Bréhat, jardin fleuri accessible depuis Paimpol, est une excursion d'
 Le festival des Hortensias de Perros-Guirec et les concerts d'été au château de Tonquédec animent la saison estivale. Les bornes facilitent l'accès à ces événements culturels dans un cadre naturel exceptionnel.
 
 Lannion, entre innovation technologique et granite rose millénaire, illustre parfaitement la compatibilité entre modernité et préservation d'un patrimoine naturel unique au monde.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "fougeres",
@@ -3194,7 +3194,7 @@ Le marché de Fougères, les galettes complètes et le cidre du pays de Fougère
 La Couesnon, rivière frontière entre la Bretagne et la Normandie, coule à proximité de Fougères. Ce territoire de marches, entre deux provinces historiques, a toujours été un lieu de passage et d'échanges. Les bornes de recharge facilitent ces traversées.
 
 Fougères, sentinelle de granit aux confins de la Bretagne, monte la garde sur la transition vers une mobilité plus propre avec la fierté et la solidité qui caractérisent cette cité fortifiée.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "morlaix",
@@ -3223,7 +3223,7 @@ Le marché de Morlaix, les crêperies de la Grand Rue et les spécialités local
 Les monts d'Arrée, collines sauvages couvertes de landes qui forment l'épine dorsale de la Bretagne, sont accessibles depuis Morlaix. Le Roc'h Trévezel, le lac de Brennilis et les tourbières du Yeun Elez offrent des paysages d'une beauté austère. Les bornes aux entrées de ces sites facilitent les randonnées.
 
 Morlaix, ville du viaduc et de la baie, accueille la mobilité électrique sous l'arche majestueuse de son pont de pierre, symbole d'un progrès qui respecte l'héritage du passé.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "rouen",
@@ -3254,7 +3254,7 @@ Les communes de l'agglomération comme Mont-Saint-Aignan, Bois-Guillaume et Peti
 Le marché du Vieux-Marché et la rue du Gros-Horloge, avec ses boutiques et ses restaurants, animent le quotidien rouennais. La gastronomie normande, avec sa crème, son camembert et son cidre, s'apprécie dans les nombreux restaurants du centre.
 
 Rouen, ville d'art et d'histoire impressionniste, écrit un nouveau chapitre de sa riche histoire avec la mobilité électrique.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "caen",
@@ -3285,7 +3285,7 @@ L'université de Caen, fondée en 1432 et reconstruite après 1944, accueille pl
 La prairie de Caen, vaste espace vert au bord de l'Orne, accueille chaque année le festival Beauregard, rendez-vous musical majeur de l'été normand.
 
 Caen, ville de mémoire et d'avenir, fait de la mobilité électrique un pont entre son passé héroïque et son futur durable.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "le-havre",
@@ -3316,7 +3316,7 @@ Le tramway du Havre, moderne et design, dessert les principaux quartiers. Les pa
 Le container, symbole du Havre portuaire, a été réinventé en œuvres d'art et en espaces éphémères par l'événement Un Été au Havre, festival d'art contemporain qui anime la ville chaque été.
 
 Le Havre, ville de béton, de mer et de lumière, fait de la mobilité électrique un nouveau chapitre de son histoire d'innovation architecturale et portuaire.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "cherbourg",
@@ -3345,7 +3345,7 @@ Le marché de Cherbourg et les restaurants du quai de Caligny proposent les prod
 Les plages du Débarquement de Utah Beach sont accessibles depuis Cherbourg en une quarantaine de minutes. Le réseau de bornes relie Cherbourg à Sainte-Mère-Église et aux sites mémoriels du D-Day.
 
 Cherbourg-en-Cotentin, sentinelle maritime face à la Manche, accueille la mobilité électrique avec l'hospitalité normande qui caractérise cette ville de marins et de voyageurs.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "evreux",
@@ -3376,7 +3376,7 @@ La forêt d'Évreux, les châteaux de l'Eure comme Harcourt et Beaumesnil, et la
 Le marché d'Évreux, les commerces de la rue de la Harpe et la gastronomie normande avec ses fromages, sa crème et ses pommes font d'Évreux une ville agréable à vivre et à visiter.
 
 Évreux, cité de la normandie intérieure, avance discrètement mais sûrement vers une mobilité propre au service de ses habitants et de son patrimoine.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "dieppe",
@@ -3405,7 +3405,7 @@ Le quartier du Pollet, ancien quartier des pêcheurs sur la falaise est, conserv
 Les environs de Dieppe offrent des sites remarquables : le château de Miromesnil, lieu de naissance de Maupassant, les jardins de Varengeville et le bois des Moutiers sont accessibles en véhicule électrique grâce au réseau de bornes.
 
 Dieppe, ville des premiers bains de mer et des derniers pêcheurs, accueille la mobilité électrique comme une brise marine vivifiante et porteuse d'avenir.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "alencon",
@@ -3434,7 +3434,7 @@ Les Alpes Mancelles, paysage de gorges et de collines au sud d'Alençon, offrent
 Le marché d'Alençon, la gastronomie normande avec ses pommes, son cidre et ses fromages, et la campagne ornaise constituent un cadre de vie authentique. La proximité du Perche, territoire bocager recherché par les Parisiens, ajoute au charme de la région.
 
 Alençon, ville de la dentelle et de la finesse, applique la même délicatesse à sa transition vers une mobilité électrique respectueuse de son environnement bocager et de son patrimoine artisanal.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "lisieux",
@@ -3465,7 +3465,7 @@ Les haras du Pin, le plus beau haras national de France surnommé le Versailles 
 Le bocage augeron, avec ses pommiers en fleurs au printemps et ses vaches normandes dans les herbages, est un paysage emblématique de la France rurale. Le silence du véhicule électrique s'harmonise parfaitement avec la quiétude de ces campagnes.
 
 Lisieux, ville de prière et de terroir, accueille la mobilité électrique avec la simplicité et la douceur qui caractérisent l'esprit thérésien.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "bayeux",
@@ -3494,7 +3494,7 @@ Le jardin botanique de Bayeux, l'arbre de la Liberté planté en 1797 et les bor
 La forêt de Cerisy, entre Bayeux et Saint-Lô, est une hêtraie séculaire propice aux randonnées. Les bornes aux entrées de la forêt permettent des excursions en véhicule électrique.
 
 Bayeux, gardienne de mille ans d'histoire de la Normandie, fait de la mobilité électrique un hommage silencieux à ceux qui libérèrent ses plages en juin 1944.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "deauville",
@@ -3525,7 +3525,7 @@ Le marché aux poissons de Trouville, les restaurants gastronomiques de Deauvill
 Honfleur, port pittoresque et cité des impressionnistes, est à une quinzaine de kilomètres. Le réseau de bornes de la côte Fleurie permet de relier Deauville à Honfleur en véhicule électrique pour découvrir le Vieux Bassin et les galeries d'art.
 
 Deauville, perle de la côte normande, accueille la mobilité électrique avec le raffinement et l'élégance qui sont sa signature depuis plus d'un siècle.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "orleans",
@@ -3556,7 +3556,7 @@ La forêt d'Orléans, plus grande forêt domaniale de France, s'étend au nord-e
 La gare d'Orléans, reliée à Paris en une heure, dispose de bornes dans ses parkings. Le cosmopôle technologique et le pôle de compétitivité Cosmetic Valley illustrent le dynamisme économique de la ville.
 
 Orléans, ville de la Pucelle et du fleuve royal, fait de la mobilité électrique un étendard moderne au service de son rayonnement historique.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "tours",
@@ -3587,7 +3587,7 @@ Le Prieuré de Saint-Cosme, dernière demeure du poète Ronsard, et le château 
 La gare TGV de Saint-Pierre-des-Corps, qui relie Tours à Paris en 55 minutes, dispose de bornes dans ses parkings. L'aéroport Tours Val de Loire propose également des bornes.
 
 Tours, jardin de la France et berceau du français le plus pur, cultive la mobilité électrique avec l'art de vivre et la douceur qui font la réputation de la Touraine.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "bourges",
@@ -3618,7 +3618,7 @@ La Nuit Lumière, spectacle de lumière projeté sur les monuments de Bourges en
 Le marché couvert de Bourges et les restaurants du centre proposent la gastronomie berrichonne : lentilles vertes du Berry, crottin de Chavignol et galette aux pommes de terre.
 
 Bourges, cœur de la France et joyau gothique, fait de la mobilité électrique un lien entre son passé médiéval glorieux et son avenir durable.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "chartres",
@@ -3647,7 +3647,7 @@ La Beauce chartraine, vaste plaine céréalière, est le paysage emblématique d
 Le marché de Chartres, la gastronomie beauceronne et les commerces de la rue piétonne animent la vie locale. La proximité de Paris (90 km) fait de Chartres une destination d'excursion populaire pour les Parisiens.
 
 Chartres, ville de lumière divine à travers ses vitraux, illumine désormais ses rues de la lueur silencieuse des véhicules électriques, prolongeant huit siècles de tradition lumineuse.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "blois",
@@ -3678,7 +3678,7 @@ Les bords de Loire à Blois sont aménagés en promenade. Le pont Jacques Gabrie
 Le marché de Blois, les vins de Cheverny et de Cour-Cheverny, et la gastronomie solognote font partie des plaisirs locaux. La tarte Tatin, inventée dans la Sologne voisine, est un dessert emblématique de la région.
 
 Blois, ville des rois et de la magie, enchante la mobilité électrique d'un sortilège de patrimoine et de douceur ligérienne.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "chateauroux",
@@ -3709,7 +3709,7 @@ Le marché de Châteauroux, les restaurants du centre et les spécialités berri
 L'A20, autoroute gratuite reliant Paris à Toulouse, traverse Châteauroux et dispose de bornes aux aires de repos. Cette desserte fait de Châteauroux une étape idéale sur l'axe nord-sud.
 
 Châteauroux, ville de George Sand et du Berry profond, tisse les fils de la mobilité électrique avec la patience et l'authenticité qui caractérisent ce terroir du centre de la France.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "dreux",
@@ -3740,7 +3740,7 @@ Le marché de Dreux, les commerces du centre-ville et les zones commerciales pé
 La proximité de Paris (80 km) et la desserte ferroviaire vers Montparnasse font de Dreux une ville attractive pour les actifs travaillant dans la capitale. Les bornes à la gare facilitent la multimodalité train-voiture électrique.
 
 Dreux, ville royale au carrefour des chemins, accueille la mobilité électrique avec la pragmatisme et l'ouverture qui caractérisent les cités de passage.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "montargis",
@@ -3769,7 +3769,7 @@ Le marché de Montargis, les restaurants du bord de canal et les commerces du ce
 L'A77, autoroute reliant Paris à Nevers, passe à proximité de Montargis et dispose de bornes aux aires de repos. Montargis est une étape idéale sur cet axe, à mi-chemin entre Paris et le Massif Central.
 
 Montargis, Venise du Gâtinais, laisse couler l'énergie électrique dans ses canaux de mobilité avec le charme tranquille qui fait le sel de cette petite ville française attachante.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "dijon",
@@ -3800,7 +3800,7 @@ Le jardin Darcy, premier jardin public de Dijon avec son bassin orné de l'ours 
 La gare TGV de Dijon, qui relie la ville à Paris en 1h35 et à Lyon en 1h40, dispose de bornes dans ses parkings. Dijon est un carrefour ferroviaire qui connecte le nord et le sud, l'est et l'ouest de la France.
 
 Dijon, ville de la moutarde, du vin et des ducs, assaisonne la mobilité électrique d'un zeste de gastronomie et d'une larme de grand cru bourguignon.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "besancon",
@@ -3831,7 +3831,7 @@ Les forêts et les plateaux du Jura sont accessibles depuis Besançon. Le saut d
 La maison natale de Victor Hugo, rue Charles Nodier, rappelle que le plus grand écrivain français est né à Besançon en 1802. Les Lumière, inventeurs du cinéma, sont également natifs de la ville.
 
 Besançon, ville de précision horlogère et de nature jurassienne, avance vers la mobilité électrique avec la rigueur et l'authenticité qui caractérisent la Franche-Comté.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "belfort",
@@ -3860,7 +3860,7 @@ Le Territoire de Belfort, plus petit département de France métropolitaine, est
 Le ballon d'Alsace, sommet des Vosges du Sud culminant à 1247 mètres, est accessible depuis Belfort. La route du ballon d'Alsace, empruntée par le Tour de France, offre des panoramas exceptionnels. Des bornes au sommet permettent de recharger après l'ascension.
 
 Belfort, ville du Lion et de la résistance, rugit désormais au son silencieux des moteurs électriques, portant haut la tradition d'innovation industrielle qui l'a toujours caractérisée.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "auxerre",
@@ -3889,7 +3889,7 @@ Le canal du Nivernais, l'un des plus beaux canaux de France, relie Auxerre à De
 Le marché couvert d'Auxerre et les commerces du centre-ville proposent les produits du terroir icaunais. La gougère, choux au fromage typiquement bourguignon, et les escargots de Bourgogne sont des spécialités incontournables.
 
 Auxerre, ville des clochers et du chablis, fait de la mobilité électrique un cru prometteur dans son vignoble de modernité bourguignonne.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "macon",
@@ -3920,7 +3920,7 @@ Le concours des Grands Vins de France de Mâcon, fondé en 1954, est l'un des pl
 Le marché de Mâcon, les restaurants de bouchons mâconnais et les spécialités locales comme la pochouse (matelote de poissons d'eau douce) et les fromages de chèvre composent une gastronomie généreuse.
 
 Mâcon, entre Saône et vignobles, verse la mobilité électrique dans le calice de sa tradition viticole avec la mesure et l'élégance d'un grand cru mâconnais.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "chalon-sur-saone",
@@ -3951,7 +3951,7 @@ La Maison des Vins de la Côte Chalonnaise, à Chalon, propose des dégustations
 L'autoroute A6 Paris-Lyon dessert Chalon avec des stations de recharge rapide. La ville est également un nœud ferroviaire sur la ligne Paris-Lyon.
 
 Chalon-sur-Saône, ville de l'image et du carnaval, développe la mobilité électrique avec la créativité et la convivialité qui animent cette cité bourguignonne des bords de Saône.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "nevers",
@@ -3980,7 +3980,7 @@ Le canal latéral à la Loire et le canal du Nivernais offrent des itinéraires 
 Le marché de Nevers et la gastronomie nivernaise, avec sa nougatine, ses charolaises et ses vins des coteaux du Giennois, composent un art de vivre simple et authentique.
 
 Nevers, cité de la faïence et du fleuve royal, façonne la mobilité électrique avec la patience et l'art du feu qui caractérisent ses maîtres faïenciers.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "lons-le-saunier",
@@ -4009,7 +4009,7 @@ Les lacs du Jura, dont le lac de Vouglans avec ses eaux turquoise, offrent des e
 Le marché de Lons-le-Saunier et les commerces du centre proposent les produits du terroir jurassien : comté, morbier, bleu de Gex, saucisse de Morteau et vin du Jura.
 
 Lons-le-Saunier, ville de La Marseillaise et du Jura, entonne l'hymne de la mobilité électrique avec la fierté et l'authenticité franc-comtoises.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "ajaccio",
@@ -4040,7 +4040,7 @@ La route des Sanguinaires, qui longe la côte au sud d'Ajaccio, offre des panora
 L'aéroport d'Ajaccio Napoléon Bonaparte, principal aéroport de Corse, dispose de bornes dans ses parkings. Les liaisons aériennes avec le continent complètent les ferries pour l'accès à l'île.
 
 Ajaccio, cité impériale baignée de soleil, conquiert la mobilité électrique avec la fierté et la détermination corses qui firent la grandeur de son enfant le plus célèbre.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "bastia",
@@ -4071,7 +4071,7 @@ La plage de l'Arinella, au sud de Bastia, et les plages de la côte orientale of
 L'aéroport de Bastia Poretta dispose de bornes dans ses parkings. La desserte aérienne vers le continent et la desserte maritime vers l'Italie font de Bastia un carrefour méditerranéen.
 
 Bastia, cité génoise et porte de la Corse, ouvre grand ses bras à la mobilité électrique pour préserver la beauté fragile de l'île de Beauté.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "porto-vecchio",
@@ -4100,7 +4100,7 @@ Le golfe de Porto-Vecchio, ancien lieu d'extraction du sel, est aujourd'hui un s
 Le marché de Porto-Vecchio, les fromages de brebis corses, la charcuterie artisanale et les vins de Figari accompagnent les longues soirées d'été. La gastronomie corse est généreuse et authentique.
 
 Porto-Vecchio, entre plages paradisiaques et montagnes sauvages, fait de la mobilité électrique un allié précieux pour préserver la beauté intacte de cette perle de la Corse du Sud.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "corte",
@@ -4129,7 +4129,7 @@ Le centre-ville de Corte, avec la place Paoli, les ruelles de la haute ville et 
 Les forêts de châtaigniers de la Castagniccia et les villages perchés du Bozio sont accessibles depuis Corte. Ces territoires de l'intérieur corse, peu touristiques mais profondément authentiques, méritent le détour en véhicule électrique silencieux.
 
 Corte, cœur battant de la Corse des montagnes, accueille la mobilité électrique avec l'esprit d'indépendance et la fierté montagnarde qui fondent l'identité corse.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "fort-de-france",
@@ -4158,7 +4158,7 @@ Les plages du sud de la Martinique, comme l'Anse Dufour, les Anses d'Arlet et la
 Le marché aux épices de Fort-de-France, les accras de morue, le colombo de poulet et le ti-punch au rhum agricole composent une gastronomie créole colorée et savoureuse. Les distilleries de rhum de l'île, comme Clément et Trois Rivières, proposent des visites.
 
 Fort-de-France, cœur créole de la Martinique, accueille la mobilité électrique comme une brise tropicale porteuse d'un avenir plus propre pour l'île aux fleurs.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "pointe-a-pitre",
@@ -4187,7 +4187,7 @@ Les plages de la Grande-Terre, comme la plage de Sainte-Anne, du Gosier et de Sa
 Les îles de l'archipel guadeloupéen, Marie-Galante, les Saintes et la Désirade, sont accessibles en ferry depuis Pointe-à-Pitre ou Saint-François. Les bornes au port permettent de recharger avant ou après les traversées.
 
 Pointe-à-Pitre, carrefour commercial et culturel de la Guadeloupe, trace sa route vers la mobilité électrique sous le soleil des Antilles.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "saint-denis-reunion",
@@ -4216,7 +4216,7 @@ Le cari réunionnais, le rougail saucisse, le samoussa et le bonbon piment compo
 L'aéroport Roland Garros de Saint-Denis dispose de bornes dans ses parkings. La desserte aérienne vers la métropole (11 heures de vol) et vers les îles voisines (Maurice, Madagascar) fait de Saint-Denis la porte de l'océan Indien français.
 
 Saint-Denis de La Réunion, métropole créole au cœur de l'océan Indien, avance vers la mobilité électrique avec l'énergie volcanique et la diversité culturelle qui font la force de l'île intense.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "cayenne",
@@ -4245,7 +4245,7 @@ Le carnaval de Cayenne, l'un des plus longs du monde (de janvier à mars), anime
 La Guyane bénéficie de ressources hydroélectriques importantes avec le barrage de Petit-Saut, qui produit la majorité de l'électricité du département. Cette énergie renouvelable donne un sens particulier à la recharge électrique.
 
 Cayenne, entre forêt amazonienne et technologies spatiales, fait de la mobilité électrique un trait d'union entre nature préservée et modernité dans ce territoire unique de l'outre-mer français.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "noumea",
@@ -4276,7 +4276,7 @@ L'île des Pins, surnommée la plus proche du paradis, est accessible en avion o
 Le Phare Amédée, phare métallique de 56 mètres au milieu du lagon, est un site de plongée et d'excursion prisé. Les bornes au port permettent de recharger avant l'excursion.
 
 Nouméa, perle du Pacifique, navigue vers la mobilité électrique avec l'esprit océanien d'harmonie entre l'homme et la nature qui caractérise la Nouvelle-Calédonie.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "chamonix",
@@ -4305,7 +4305,7 @@ En été, le Tour du Mont-Blanc, randonnée mythique de 170 kilomètres traversa
 Le marché de Chamonix, les restaurants savoyards avec leur fondue, leur raclette et leur tartiflette, et les bars après-ski animent la vie chamoniarde. La gastronomie montagnarde se savoure après une journée d'activités en altitude.
 
 Chamonix-Mont-Blanc, cathédrale de granit et de glace, fait de la mobilité électrique un hommage silencieux à la beauté fragile de ses glaciers et de ses sommets.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "biarritz",
@@ -4334,7 +4334,7 @@ Le marché couvert des Halles de Biarritz, les pintxos des bars du Port Vieux et
 Bayonne, capitale du Pays Basque français, et Saint-Jean-de-Luz, port de pêche pittoresque, sont à quelques kilomètres. Le réseau de bornes de la côte basque permet de parcourir ce littoral en véhicule électrique. L'Espagne et Saint-Sébastien sont à portée de batterie.
 
 Biarritz, entre vagues atlantiques et tradition basque, surfe sur la mobilité électrique avec l'élégance et l'audace qui ont toujours caractérisé cette reine des plages.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "saint-tropez",
@@ -4363,7 +4363,7 @@ Le massif des Maures, forêt de chênes-lièges et de châtaigniers qui protège
 Le marché de Saint-Tropez, les restaurants du port et la gastronomie provençale animent les jours et les nuits tropéziens. La tarte tropézienne, brioche fourrée à la crème inventée par un pâtissier polonais en 1955, est la spécialité sucrée locale.
 
 Saint-Tropez, mythe vivant de la Côte d'Azur, ajoute à son glamour légendaire une touche de responsabilité environnementale avec la mobilité électrique.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "megeve",
@@ -4394,7 +4394,7 @@ Les Contamines-Montjoie, village voisin porte du parc naturel des Contamines, of
 La route des Grandes Alpes, itinéraire mythique reliant le lac Léman à la Méditerranée, passe par Megève. Ce parcours de cols alpins est un rêve pour les conducteurs de véhicules électriques aventureux, avec des bornes jalonnant la route.
 
 Megève, diamant des Alpes posé entre les sapins et les sommets, fait scintiller la mobilité électrique avec l'éclat du luxe et la pureté de l'air montagnard.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "arcachon",
@@ -4425,7 +4425,7 @@ La forêt de pins des Landes, plus grande forêt artificielle d'Europe, entoure 
 Le marché d'Arcachon, les restaurants de fruits de mer et les glaciers du front de mer animent la vie arcachonnaise. La gastronomie du bassin, centrée sur l'huître et le poisson, est un art de vivre à part entière.
 
 Arcachon, entre bassin d'argent et dune dorée, fait de la mobilité électrique une brise marine porteuse d'un avenir préservé pour cet écosystème fragile et magnifique.`,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
 ];
 

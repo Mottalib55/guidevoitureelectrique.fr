@@ -10,11 +10,11 @@ export const pagesAcheter: PageAcheter[] = [
   // ─── GUIDE D'ACHAT (PILLAR PAGE) ──────────────────────────────────
   {
     slug: "guide-achat",
-    titre: "Guide d'achat voiture électrique 2025",
-    h1: "Guide d'achat voiture électrique 2025 : tout savoir avant de se lancer",
+    titre: "Guide d'achat voiture électrique 2026",
+    h1: "Guide d'achat voiture électrique 2026 : tout savoir avant de se lancer",
     metaDescription:
       "Guide d'achat voiture électrique 2026 : critères essentiels, autonomie, recharge, budget, aides cumulables et financement LOA/LLD. Tout pour bien choisir.",
-    contenu: `<p>Acheter une voiture électrique en 2025, c'est faire un choix à la fois économique et écologique qui transformera durablement votre quotidien d'automobiliste. Mais contrairement à l'achat d'un véhicule thermique où les paramètres sont bien connus de tous, le passage à l'électrique introduit des variables nouvelles : autonomie réelle versus annoncée, modes et coûts de recharge, santé de la batterie, score environnemental pour les aides, types de prises et de connecteurs. Ce guide complet a pour vocation de vous accompagner dans chaque étape de votre réflexion, depuis la définition précise de vos besoins jusqu'à la signature du contrat de financement, en passant par le décryptage des aides, la comparaison des modèles et le choix de votre solution de recharge.</p>
+    contenu: `<p>Acheter une voiture électrique en 2026, c'est faire un choix à la fois économique et écologique qui transformera durablement votre quotidien d'automobiliste. Mais contrairement à l'achat d'un véhicule thermique où les paramètres sont bien connus de tous, le passage à l'électrique introduit des variables nouvelles : autonomie réelle versus annoncée, modes et coûts de recharge, santé de la batterie, score environnemental pour les aides, types de prises et de connecteurs. Ce guide complet a pour vocation de vous accompagner dans chaque étape de votre réflexion, depuis la définition précise de vos besoins jusqu'à la signature du contrat de financement, en passant par le décryptage des aides, la comparaison des modèles et le choix de votre solution de recharge.</p>
 
 <p>Le marché français de la voiture électrique a franchi un cap historique : plus de 26 % des voitures neuves vendues en France au premier semestre 2025 sont 100 % électriques, contre 17 % un an plus tôt. L'offre s'est considérablement élargie avec plus de 85 modèles disponibles couvrant tous les segments, de la micro-citadine Citroën Ami à 7 990 euros au SUV premium BMW iX à plus de 80 000 euros. Cette diversité est une excellente nouvelle pour les acheteurs, mais elle rend le choix infiniment plus complexe qu'il y a trois ans, lorsque le marché se résumait essentiellement à la Renault Zoe, la Tesla Model 3 et quelques rares alternatives.</p>
 
@@ -31,7 +31,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h3>Avez-vous la possibilité de recharger à domicile ?</h3>
 <p>C'est le critère le plus déterminant dans l'expérience quotidien. Un propriétaire de maison individuelle qui installe une wallbox (borne murale de 7 à 22 kW) bénéficie d'un confort incomparable : la voiture se recharge chaque nuit pendant votre sommeil, comme un smartphone, et vous partez chaque matin avec un « plein ». Le coût est de 2 à 4 euros pour 200 km, soit 15 à 30 fois moins qu'un passage à la pompe. L'installation d'une wallbox coûte 800 à 1 800 euros (matériel + pose par un électricien IRVE), partiellement compensée par un crédit d'impôt de 300 euros.</p>
 <p>En copropriété, le « droit à la prise » vous permet de demander l'installation d'une borne sur votre place de parking, et le syndic ne peut s'y opposer sans motif sérieux. Les aides ADVENIR couvrent jusqu'à 50 % du coût en copropriété. Les délais d'installation varient de 2 à 6 mois selon la complexité du raccordement électrique.</p>
-<p>Si vous n'avez aucune possibilité de recharge à domicile ni au travail (pas de garage, pas de parking, stationnement sur voirie), l'électrique reste possible mais moins confortable. Vous dépendrez des bornes publiques, qui sont de plus en plus nombreuses (plus de 135 000 points de charge en France en 2025) mais dont la disponibilité et les tarifs varient. Évaluez la densité de bornes autour de votre domicile via l'application ChargeMap avant de vous décider.</p>
+<p>Si vous n'avez aucune possibilité de recharge à domicile ni au travail (pas de garage, pas de parking, stationnement sur voirie), l'électrique reste possible mais moins confortable. Vous dépendrez des bornes publiques, qui sont de plus en plus nombreuses (plus de 135 000 points de charge en France en 2026) mais dont la disponibilité et les tarifs varient. Évaluez la densité de bornes autour de votre domicile via l'application ChargeMap avant de vous décider.</p>
 
 <h3>Quel est votre budget ?</h3>
 <p>Le budget est évidemment un paramètre essentiel, mais il faut le penser différemment pour un VE. Le prix d'achat est certes plus élevé qu'un thermique équivalent (3 000 à 12 000 euros de plus avant aides), mais les économies d'usage (énergie, entretien, fiscalité) compensent ce surcoût en 2 à 4 ans pour la majorité des conducteurs. Raisonnez en coût total de possession (TCO) sur 4 à 5 ans plutôt qu'en prix d'achat brut. Un VE à 25 000 euros peut revenir moins cher qu'un thermique à 20 000 euros sur cette période.</p>
@@ -43,7 +43,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>Le prix catalogue d'une voiture électrique reste supérieur à celui d'un modèle thermique équivalent, mais l'écart se réduit chaque année et les aides le compensent souvent intégralement pour les ménages modestes.</p>
 
-<h3>Les gammes de prix par segment en 2025</h3>
+<h3>Les gammes de prix par segment en 2026</h3>
 <ul>
 <li><strong>Micro-citadines et quadricycles</strong> (moins de 20 000 euros) : Citroën Ami (7 990 euros), Dacia Spring (18 900 euros), Leapmotor T03 (18 900 euros).</li>
 <li><strong>Citadines</strong> (20 000 à 30 000 euros) : Citroën e-C3 (23 300 euros), Renault 5 E-Tech (25 000 euros), Fiat Grande Panda (25 000 euros), Peugeot e-208 (33 470 euros).</li>
@@ -80,7 +80,7 @@ export const pagesAcheter: PageAcheter[] = [
 <ul>
 <li><strong>Prise domestique classique (2,3 kW)</strong> : la solution la plus lente, comptez 20 à 35 heures pour une charge complète d'une batterie de 50 kWh. Elle dépanne mais ne convient pas comme solution principale. Utilisez-la uniquement en dernier recours et avec un câble de recharge renforcé (Green'Up ou équivalent).</li>
 <li><strong>Wallbox domestique (7,4 à 22 kW)</strong> : la solution recommandée pour 80 % de vos besoins. Une wallbox monophasée de 7,4 kW recharge une batterie de 50 kWh en 7 heures (une nuit). Une wallbox triphasée de 11 kW le fait en 5 heures, et une 22 kW en 2,5 heures. L'installation bénéficie d'un crédit d'impôt de 300 euros et coûte 800 à 1 800 euros tout compris. C'est l'investissement le plus rentable de tout l'écosystème VE.</li>
-<li><strong>Borne rapide publique DC (50 à 350 kW)</strong> : la solution pour les longs trajets et les conducteurs sans borne à domicile. Un arrêt de 20 à 40 minutes suffit pour récupérer 80 % de la batterie sur les bornes les plus rapides. Le coût est plus élevé (0,40 à 0,70 euros/kWh) mais reste inférieur au carburant. Le réseau français compte plus de 135 000 points de charge en 2025, avec un objectif de 400 000 en 2030.</li>
+<li><strong>Borne rapide publique DC (50 à 350 kW)</strong> : la solution pour les longs trajets et les conducteurs sans borne à domicile. Un arrêt de 20 à 40 minutes suffit pour récupérer 80 % de la batterie sur les bornes les plus rapides. Le coût est plus élevé (0,40 à 0,70 euros/kWh) mais reste inférieur au carburant. Le réseau français compte plus de 135 000 points de charge en 2026, avec un objectif de 400 000 en 2030.</li>
 </ul>
 
 <h3>Les opérateurs et les badges de recharge</h3>
@@ -88,7 +88,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Les aides financières : le levier indispensable</h2>
 
-<p>En 2025, le cumul des aides peut représenter 7 000 à 19 000 euros de réduction sur le prix d'achat :</p>
+<p>En 2026, le cumul des aides peut représenter 7 000 à 19 000 euros de réduction sur le prix d'achat :</p>
 <ul>
 <li><strong>Bonus écologique</strong> : 4 000 euros (7 000 euros pour les ménages modestes) pour les véhicules de moins de 47 000 euros avec un score environnemental suffisant.</li>
 <li><strong>Prime à la conversion</strong> : jusqu'à 6 000 euros si vous mettez au rebut un véhicule polluant ancien (Crit'Air 3 et plus).</li>
@@ -103,7 +103,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Quatre formules de financement coexistent, chacune avec ses avantages selon votre situation :</p>
 <ul>
 <li><strong>Achat comptant</strong> : liberté totale, pas d'intérêts à payer, mais immobilisation d'un capital important (20 000 à 50 000 euros). Pertinent si vous avez l'épargne et prévoyez de garder le véhicule plus de 5 ans.</li>
-<li><strong>Crédit auto classique</strong> : étalement du paiement sur 3 à 7 ans avec un taux fixe (4 à 7 % en 2025). Vous êtes propriétaire dès le premier jour. Le coût total est généralement inférieur au leasing.</li>
+<li><strong>Crédit auto classique</strong> : étalement du paiement sur 3 à 7 ans avec un taux fixe (4 à 7 % en 2026). Vous êtes propriétaire dès le premier jour. Le coût total est généralement inférieur au leasing.</li>
 <li><strong>LOA (location avec option d'achat)</strong> : la formule la plus populaire (55 % des VE neufs). Mensualités maîtrisées, flexibilité en fin de contrat (acheter ou rendre), et protection contre le risque de décote technologique.</li>
 <li><strong>LLD (location longue durée)</strong> : location pure sans option d'achat, avec entretien et assistance souvent inclus. Budget mensuel fixe tout compris, idéal pour les entreprises et ceux qui changent de voiture tous les 3 ans.</li>
 </ul>
@@ -140,9 +140,9 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Le <strong>Kia EV6</strong> (47 990 euros) avec son architecture 800V recharge de 10 à 80 % en 18 minutes, offre 528 km WLTP et bénéficie d'une garantie 7 ans transférable. Alternative : la <strong>Tesla Model 3 Grande Autonomie</strong> (49 990 euros) avec 629 km WLTP et le réseau Supercharger.</p>
 
 <h3>Pour le meilleur rapport qualité-prix</h3>
-<p>La <strong>MG4</strong> (27 990 euros) offre des prestations de segment supérieur à un prix imbattable. Attention toutefois : son assemblage chinois la rend non éligible au bonus écologique en 2025, ce qui réduit son avantage prix effectif pour les ménages qui pourraient bénéficier du bonus sur un modèle concurrent.</p>
+<p>La <strong>MG4</strong> (27 990 euros) offre des prestations de segment supérieur à un prix imbattable. Attention toutefois : son assemblage chinois la rend non éligible au bonus écologique en 2026, ce qui réduit son avantage prix effectif pour les ménages qui pourraient bénéficier du bonus sur un modèle concurrent.</p>
 
-<p>Consultez notre classement complet des meilleures voitures électriques 2025 pour des fiches détaillées de chaque modèle et notre outil de comparaison interactif.</p>`,
+<p>Consultez notre classement complet des meilleures voitures électriques 2026 pour des fiches détaillées de chaque modèle et notre outil de comparaison interactif.</p>`,
   },
 
   // ─── PRIX ET COÛT RÉEL ─────────────────────────────────────────────
@@ -152,9 +152,9 @@ export const pagesAcheter: PageAcheter[] = [
     h1: "Prix et coût réel d'une voiture électrique : le TCO expliqué",
     metaDescription:
       "Prix voiture électrique et coût réel (TCO) sur 4 ans : achat, recharge, entretien, assurance, décote. Calculateur intégré pour estimer votre budget total.",
-    contenu: `Le prix d'achat d'une voiture électrique n'est que la partie émergée de l'iceberg financier. Pour comparer objectivement avec un véhicule thermique, il faut raisonner en coût total de possession, ou TCO (Total Cost of Ownership). Ce calcul intègre l'ensemble des dépenses sur la durée de détention : prix d'achat, aides déduites, coût de l'énergie, assurance, entretien, pneumatiques, contrôle technique et décote à la revente. En 2025, cette approche globale est devenue incontournable tant les paramètres financiers se sont complexifiés avec la multiplication des offres, des aides et des modes de financement. Ce guide vous propose une analyse exhaustive de chaque poste de dépense pour vous permettre de budgéter précisément votre passage à l'électrique.
+    contenu: `Le prix d'achat d'une voiture électrique n'est que la partie émergée de l'iceberg financier. Pour comparer objectivement avec un véhicule thermique, il faut raisonner en coût total de possession, ou TCO (Total Cost of Ownership). Ce calcul intègre l'ensemble des dépenses sur la durée de détention : prix d'achat, aides déduites, coût de l'énergie, assurance, entretien, pneumatiques, contrôle technique et décote à la revente. En 2026, cette approche globale est devenue incontournable tant les paramètres financiers se sont complexifiés avec la multiplication des offres, des aides et des modes de financement. Ce guide vous propose une analyse exhaustive de chaque poste de dépense pour vous permettre de budgéter précisément votre passage à l'électrique.
 
-<h2>Les prix du marché en 2025 : un panorama complet par segment</h2>
+<h2>Les prix du marché en 2026 : un panorama complet par segment</h2>
 
 <p>Le marché de la voiture électrique en France s'étend aujourd'hui de 7 990 euros (Citroën Ami, quadricycle sans permis) à plus de 100 000 euros (Tesla Model S, Porsche Taycan, Mercedes EQS). Les segments les plus dynamiques se concentrent entre 20 000 et 45 000 euros, où se trouvent les modèles les plus populaires et les plus vendus.</p>
 
@@ -176,7 +176,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h3>La recharge à domicile : le scénario optimal</h3>
 
-<p>En recharge domestique au tarif réglementé EDF en heures creuses (environ 0,18 à 0,20 euro/kWh en 2025), un véhicule consommant 15 kWh/100 km coûte seulement 2,70 à 3,00 euros pour 100 km parcourus. Pour un conducteur parcourant 15 000 km par an, la facture annuelle d'électricité s'élève à 405 à 450 euros. En comparaison, le même trajet en voiture essence consommant 7 litres/100 km à 1,80 euro/litre revient à 1 890 euros par an. L'économie annuelle est donc de 1 440 euros, soit 120 euros par mois. Sur quatre ans, cela représente 5 760 euros d'économies en carburant uniquement.</p>
+<p>En recharge domestique au tarif réglementé EDF en heures creuses (environ 0,18 à 0,20 euro/kWh en 2026), un véhicule consommant 15 kWh/100 km coûte seulement 2,70 à 3,00 euros pour 100 km parcourus. Pour un conducteur parcourant 15 000 km par an, la facture annuelle d'électricité s'élève à 405 à 450 euros. En comparaison, le même trajet en voiture essence consommant 7 litres/100 km à 1,80 euro/litre revient à 1 890 euros par an. L'économie annuelle est donc de 1 440 euros, soit 120 euros par mois. Sur quatre ans, cela représente 5 760 euros d'économies en carburant uniquement.</p>
 
 <p>Pour maximiser cette économie, l'installation d'une wallbox avec un contrat d'électricité heures pleines/heures creuses est recommandée. La plupart des wallbox modernes permettent de programmer la recharge automatiquement pendant les heures creuses (généralement entre 22h et 6h), garantissant le tarif le plus bas sans intervention manuelle. Certaines offres d'énergie spécifiques pour les véhicules électriques proposent des tarifs encore plus avantageux : EDF Vert Electrique Auto à 0,16 euro/kWh la nuit, TotalEnergies Charge à 0,15 euro/kWh sur certaines plages horaires. Avec ces offres, le coût descend à 2,25 euros pour 100 km, soit 338 euros par an pour 15 000 km.</p>
 
@@ -231,7 +231,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>La décote des voitures électriques est historiquement plus élevée que celle des thermiques, principalement en raison de l'évolution technologique rapide et de la perception du marché. Toutefois, cet écart se réduit considérablement à mesure que le marché de l'occasion se structure et que la confiance dans la durabilité des batteries se confirme.</p>
 
-<p>En 2025, la décote moyenne d'un VE sur 4 ans se situe entre 45 et 55 %, contre 35 à 45 % pour un thermique équivalent. Les disparités entre modèles sont cependant très importantes. Les Tesla conservent la meilleure valeur résiduelle parmi les VE (38 à 42 % de décote sur 4 ans), suivies des modèles Hyundai-Kia (42 à 48 %), puis des marques françaises éligibles au bonus. Les modèles chinois de première génération (MG ZS EV 2021, Aiways) et les anciennes Renault Zoe subissent les plus fortes décotes (55 à 65 %).</p>
+<p>En 2026, la décote moyenne d'un VE sur 4 ans se situe entre 45 et 55 %, contre 35 à 45 % pour un thermique équivalent. Les disparités entre modèles sont cependant très importantes. Les Tesla conservent la meilleure valeur résiduelle parmi les VE (38 à 42 % de décote sur 4 ans), suivies des modèles Hyundai-Kia (42 à 48 %), puis des marques françaises éligibles au bonus. Les modèles chinois de première génération (MG ZS EV 2021, Aiways) et les anciennes Renault Zoe subissent les plus fortes décotes (55 à 65 %).</p>
 
 <p>Plusieurs facteurs influencent directement la valeur résiduelle de votre VE : la santé de la batterie (un certificat SoH attestant de plus de 90 % de capacité rassure les acheteurs), la taille de la batterie (les versions grande autonomie décotent moins), la marque et le réseau SAV, et l'éligibilité du modèle au bonus d'occasion (1 000 euros pour les véhicules de moins de 47 000 euros).</p>
 
@@ -241,7 +241,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p><strong>La carte grise</strong> : gratuite dans quasiment toutes les régions pour les véhicules électriques (coût résiduel de 13,76 euros seulement), contre 200 à 600 euros pour un thermique selon la puissance fiscale et la région. Sur la durée de vie du véhicule, si vous le revendez, l'économie se répète à chaque changement de propriétaire.</p>
 
-<p><strong>Le malus écologique</strong> : nul pour les VE (0 g/km de CO2). En 2025, le malus peut atteindre 60 000 euros pour les modèles thermiques les plus émetteurs. Même un modèle thermique modeste de 120 g/km paie un malus de 50 euros, et à 150 g/km le malus grimpe à 1 504 euros.</p>
+<p><strong>Le malus écologique</strong> : nul pour les VE (0 g/km de CO2). En 2026, le malus peut atteindre 60 000 euros pour les modèles thermiques les plus émetteurs. Même un modèle thermique modeste de 120 g/km paie un malus de 50 euros, et à 150 g/km le malus grimpe à 1 504 euros.</p>
 
 <p><strong>Le malus au poids</strong> : les VE bénéficient d'un abattement de 200 kg et sont totalement exemptés jusqu'à fin 2025. Un SUV thermique de 1 900 kg paie un malus au poids de 1 000 euros ; son équivalent électrique de 2 100 kg ne paie rien.</p>
 
@@ -249,21 +249,21 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Exemples de TCO comparatif sur 4 ans : trois scénarios</h2>
 
-<h3>Scénario 1 : citadines — Renault 5 E-Tech vs Renault Clio TCe 100</h3>
+<h3>Scénario 1 : citadines, Renault 5 E-Tech vs Renault Clio TCe 100</h3>
 
 <p>Pour 15 000 km par an sur 4 ans. <strong>Renault 5 E-Tech</strong> (25 000 euros, 15 kWh/100 km) : prix après bonus de 21 000 euros, recharge domestique de 1 800 euros sur 4 ans, assurance de 2 600 euros, entretien de 1 000 euros, carte grise 14 euros, malus 0 euro, décote 11 500 euros. <strong>TCO total : 36 914 euros, soit 0,62 euro/km</strong>. <strong>Renault Clio TCe 100</strong> (20 000 euros, 6 L/100 km) : carburant de 6 480 euros, assurance de 3 000 euros, entretien de 3 600 euros, carte grise 250 euros, malus 0 euro, décote 8 500 euros. <strong>TCO total : 41 830 euros, soit 0,70 euro/km</strong>. Avantage VE : 4 916 euros sur 4 ans.</p>
 
-<h3>Scénario 2 : SUV compacts — Tesla Model Y vs Peugeot 3008 PureTech 130</h3>
+<h3>Scénario 2 : SUV compacts, Tesla Model Y vs Peugeot 3008 PureTech 130</h3>
 
 <p>Pour 20 000 km par an sur 4 ans. <strong>Tesla Model Y</strong> (44 990 euros, 16 kWh/100 km) : prix après bonus 40 990 euros, recharge (70 % domicile, 30 % public) de 3 200 euros, assurance 3 400 euros, entretien 1 200 euros, carte grise 14 euros, malus 0 euro, décote 17 000 euros. <strong>TCO total : 65 804 euros, soit 0,82 euro/km</strong>. <strong>Peugeot 3008</strong> (35 000 euros, 7 L/100 km) : carburant 10 080 euros, assurance 3 800 euros, entretien 4 800 euros, carte grise 400 euros, malus 170 euros, décote 15 000 euros. <strong>TCO total : 69 250 euros, soit 0,87 euro/km</strong>. Avantage VE : 3 446 euros sur 4 ans, malgré un prix d'achat supérieur de 6 000 euros.</p>
 
-<h3>Scénario 3 : petit rouleur urbain — Citroën e-C3 vs Citroën C3 PureTech 83</h3>
+<h3>Scénario 3 : petit rouleur urbain, Citroën e-C3 vs Citroën C3 PureTech 83</h3>
 
 <p>Pour 8 000 km par an sur 4 ans. <strong>Citroën e-C3</strong> (23 300 euros, 16 kWh/100 km) : prix après bonus 19 300 euros, recharge domestique 770 euros, assurance 2 200 euros, entretien 600 euros, carte grise 14 euros, décote 10 000 euros. <strong>TCO total : 32 884 euros, soit 1,03 euro/km</strong>. <strong>Citroën C3 PureTech</strong> (17 500 euros, 5,5 L/100 km) : carburant 3 168 euros, assurance 2 500 euros, entretien 2 400 euros, carte grise 200 euros, décote 7 000 euros. <strong>TCO total : 32 768 euros, soit 1,02 euro/km</strong>. Résultat quasi identique : à faible kilométrage, l'avantage TCO de l'électrique est neutralisé par le surcoût d'achat. Le seuil de rentabilité se situe autour de 10 000 km/an.</p>
 
 <h2>Le seuil de rentabilité : à partir de combien de kilomètres l'électrique est-il rentable ?</h2>
 
-<p>Le seuil de rentabilité TCO dépend de trois variables principales : l'écart de prix à l'achat (après aides), le mode de recharge principal, et le kilométrage annuel. Voici les seuils moyens constatés en 2025 :</p>
+<p>Le seuil de rentabilité TCO dépend de trois variables principales : l'écart de prix à l'achat (après aides), le mode de recharge principal, et le kilométrage annuel. Voici les seuils moyens constatés en 2026 :</p>
 <ul>
 <li><strong>Recharge 100 % domicile</strong> : rentabilité à partir de 8 000 à 10 000 km/an</li>
 <li><strong>Recharge mixte (70 % domicile, 30 % public)</strong> : rentabilité à partir de 11 000 à 13 000 km/an</li>
@@ -290,25 +290,25 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Le financement et son impact sur le TCO</h2>
 
-<p>Le mode de financement choisi influence significativement le coût total. En achat comptant, vous économisez les intérêts mais immobilisez un capital important. En crédit auto classique (taux moyen de 5 à 7 % en 2025), les intérêts ajoutent 2 000 à 5 000 euros au coût total sur 4 ans. En LOA, le coût financier est légèrement plus élevé mais la flexibilité en fin de contrat peut compenser si la technologie évolue rapidement.</p>
+<p>Le mode de financement choisi influence significativement le coût total. En achat comptant, vous économisez les intérêts mais immobilisez un capital important. En crédit auto classique (taux moyen de 5 à 7 % en 2026), les intérêts ajoutent 2 000 à 5 000 euros au coût total sur 4 ans. En LOA, le coût financier est légèrement plus élevé mais la flexibilité en fin de contrat peut compenser si la technologie évolue rapidement.</p>
 
 <p>Le leasing social à 100 euros par mois pour les ménages éligibles reste l'option la plus avantageuse en TCO absolu : sur 3 ans, le coût total (loyers + assurance + recharge) se situe entre 6 500 et 9 000 euros pour un véhicule neuf, soit un coût comparable à celui d'une voiture thermique d'occasion vieillissante et coûteuse en entretien.</p>
 
 <h2>Conclusion : un calcul qui tourne à l'avantage de l'électrique</h2>
 
-<p>En 2025, le TCO d'une voiture électrique est inférieur à celui d'un véhicule thermique équivalent dans la grande majorité des scénarios d'utilisation. L'écart se creuse avec le kilométrage : plus vous roulez, plus l'électrique est économique. Pour un conducteur moyen parcourant 12 000 à 15 000 km par an avec une recharge à domicile, l'économie cumulée sur 4 ans se situe entre 4 000 et 7 000 euros par rapport à un thermique équivalent. Cette économie augmente chaque année avec la hausse tendancielle des prix du carburant et la baisse des prix des véhicules électriques neufs et de l'électricité en heures creuses. Le passage à l'électrique n'est plus seulement un choix écologique : c'est devenu un choix financièrement rationnel pour la majorité des automobilistes français.</p>`,
+<p>En 2026, le TCO d'une voiture électrique est inférieur à celui d'un véhicule thermique équivalent dans la grande majorité des scénarios d'utilisation. L'écart se creuse avec le kilométrage : plus vous roulez, plus l'électrique est économique. Pour un conducteur moyen parcourant 12 000 à 15 000 km par an avec une recharge à domicile, l'économie cumulée sur 4 ans se situe entre 4 000 et 7 000 euros par rapport à un thermique équivalent. Cette économie augmente chaque année avec la hausse tendancielle des prix du carburant et la baisse des prix des véhicules électriques neufs et de l'électricité en heures creuses. Le passage à l'électrique n'est plus seulement un choix écologique : c'est devenu un choix financièrement rationnel pour la majorité des automobilistes français.</p>`,
   },
 
   // ─── AIDES ET BONUS ────────────────────────────────────────────────
   {
     slug: "aides-et-bonus",
-    titre: "Aides et bonus écologique voiture électrique 2025",
-    h1: "Aides et bonus écologique voiture électrique 2025 : le guide complet",
+    titre: "Aides et bonus écologique voiture électrique 2026",
+    h1: "Aides et bonus écologique voiture électrique 2026 : le guide complet",
     metaDescription:
       "Aides voiture électrique 2026 : bonus 4 000 euros, leasing social 100 euros/mois, prime conversion 5 000 euros. Conditions, cumul et démarches détaillées.",
-    contenu: `<p>L'achat d'une voiture électrique en France bénéficie d'un ensemble d'aides financières publiques et privées qui peuvent représenter jusqu'à 13 000 euros de réduction sur le prix d'achat, voire davantage dans certaines régions. En 2025, le paysage des aides s'est enrichi et complexifié avec la coexistence de dispositifs nationaux, régionaux et locaux, chacun ayant ses propres critères d'éligibilité. Connaître et cumuler ces dispositifs est indispensable pour optimiser votre budget et rendre la voiture électrique accessible, y compris aux ménages les plus modestes. Ce guide détaille chaque aide disponible, ses conditions d'éligibilité précises, les montants actualisés et les démarches pas à pas pour en bénéficier sans rien oublier.</p>
+    contenu: `<p>L'achat d'une voiture électrique en France bénéficie d'un ensemble d'aides financières publiques et privées qui peuvent représenter jusqu'à 13 000 euros de réduction sur le prix d'achat, voire davantage dans certaines régions. En 2026, le paysage des aides s'est enrichi et complexifié avec la coexistence de dispositifs nationaux, régionaux et locaux, chacun ayant ses propres critères d'éligibilité. Connaître et cumuler ces dispositifs est indispensable pour optimiser votre budget et rendre la voiture électrique accessible, y compris aux ménages les plus modestes. Ce guide détaille chaque aide disponible, ses conditions d'éligibilité précises, les montants actualisés et les démarches pas à pas pour en bénéficier sans rien oublier.</p>
 
-<h2>Le bonus écologique 2025 : jusqu'à 7 000 euros pour les plus modestes</h2>
+<h2>Le bonus écologique 2026 : jusqu'à 7 000 euros pour les plus modestes</h2>
 
 <p>Le bonus écologique est la pierre angulaire du dispositif d'aide à l'achat d'un véhicule électrique neuf en France. Son montant a évolué au fil des années, passant de 6 000 euros en 2022 à 5 000 euros en 2023-2024, puis à 4 000 euros en 2025 pour les particuliers dont le revenu fiscal de référence par part (RFR/part) dépasse 15 400 euros. Pour les ménages les plus modestes (RFR/part inférieur ou égal à 15 400 euros), le bonus est majoré à 7 000 euros, reconnaissant la nécessité de rendre l'électrique accessible à tous.</p>
 
@@ -323,11 +323,11 @@ export const pagesAcheter: PageAcheter[] = [
 <li><strong>Conservation minimale</strong> : l'acheteur doit conserver le véhicule au moins un an ou parcourir au moins 6 000 km avant toute revente. Un remboursement intégral du bonus est exigé en cas de cession anticipée.</li>
 </ul>
 
-<h3>Quels modèles sont éligibles au bonus en 2025 ?</h3>
+<h3>Quels modèles sont éligibles au bonus en 2026 ?</h3>
 
 <p>Le score environnemental a considérablement modifié la liste des véhicules éligibles. En pratique :</p>
 <ul>
-<li><strong>Modèles éligibles</strong> : Renault 5 E-Tech (Douai, France), Renault Scenic E-Tech (Douai), Renault Megane E-Tech (Douai), Citroën e-C3 (Trnava, Slovaquie), Peugeot e-208 (Kenitra, Maroc — éligible malgré la fabrication hors UE car le score est suffisant), Peugeot e-2008, Fiat 500e (Turin, Italie), Fiat Grande Panda (Kragujevac, Serbie), Skoda Elroq (Mlada Boleslav, Tchéquie), Volkswagen ID.3 et ID.4 (Zwickau, Allemagne), Tesla Model 3 (Berlin, Allemagne), Tesla Model Y (Berlin), BMW iX1 (Regensburg, Allemagne), BMW i4, Kia EV3 et EV6 (Hwaseong, Corée du Sud — éligibles grâce au mix énergétique coréen et aux efforts logistiques), Hyundai Ioniq 5 et Kona Electric.</li>
+<li><strong>Modèles éligibles</strong> : Renault 5 E-Tech (Douai, France), Renault Scenic E-Tech (Douai), Renault Megane E-Tech (Douai), Citroën e-C3 (Trnava, Slovaquie), Peugeot e-208 (Kenitra, Maroc, éligible malgré la fabrication hors UE car le score est suffisant), Peugeot e-2008, Fiat 500e (Turin, Italie), Fiat Grande Panda (Kragujevac, Serbie), Skoda Elroq (Mlada Boleslav, Tchéquie), Volkswagen ID.3 et ID.4 (Zwickau, Allemagne), Tesla Model 3 (Berlin, Allemagne), Tesla Model Y (Berlin), BMW iX1 (Regensburg, Allemagne), BMW i4, Kia EV3 et EV6 (Hwaseong, Corée du Sud, éligibles grâce au mix énergétique coréen et aux efforts logistiques), Hyundai Ioniq 5 et Kona Electric.</li>
 <li><strong>Modèles NON éligibles</strong> : la plupart des modèles assemblés en Chine continentale. Sont concernés : BYD Seal, BYD Atto 3, BYD Dolphin, MG4, MG ZS EV, Xpeng G6, Zeekr 001, Smart #1 et #3 (fabriqués par Geely en Chine), Volvo EX30 (Chine), Dacia Spring (Chine). L'exception notable est Tesla dont la production européenne à Berlin rend ses modèles éligibles.</li>
 </ul>
 
@@ -339,7 +339,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Le leasing social à 100 euros par mois : la révolution de l'accès à l'électrique</h2>
 
-<p>Le dispositif de leasing social, lancé en janvier 2024 et reconduit en 2025, est une initiative unique en Europe qui permet aux ménages modestes de louer une voiture électrique neuve à partir de 54 euros par mois pour les modèles les plus accessibles (Citroën e-C3), et autour de 100 euros par mois pour les modèles comme la Renault 5 E-Tech ou la Peugeot e-208.</p>
+<p>Le dispositif de leasing social, lancé en janvier 2024 et reconduit en 2026, est une initiative unique en Europe qui permet aux ménages modestes de louer une voiture électrique neuve à partir de 54 euros par mois pour les modèles les plus accessibles (Citroën e-C3), et autour de 100 euros par mois pour les modèles comme la Renault 5 E-Tech ou la Peugeot e-208.</p>
 
 <h3>Conditions d'accès au leasing social</h3>
 
@@ -361,7 +361,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>La prime à la conversion est une aide supplémentaire versée en cas de mise au rebut (destruction définitive) d'un ancien véhicule polluant. Cette prime est cumulable avec le bonus écologique, créant un effet de levier considérable.</p>
 
-<h3>Montants de la prime en 2025</h3>
+<h3>Montants de la prime en 2026</h3>
 
 <ul>
 <li><strong>Ménages très modestes (RFR/part inférieur ou égal à 7 100 euros)</strong> : 5 000 euros pour l'achat d'un VE, plus 1 000 euros de surprime si le demandeur habite ou travaille en ZFE, soit 6 000 euros au total.</li>
@@ -540,19 +540,19 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Perspectives : évolution des aides en 2026</h2>
 
-<p>Le gouvernement a annoncé une revue du dispositif d'aides pour 2026, avec plusieurs tendances probables : un recentrage du bonus sur les ménages modestes et intermédiaires (les ménages aisés resteraient exclus), une possible baisse du montant du bonus standard à 3 000 euros si les objectifs de ventes sont atteints, un renforcement du leasing social avec un objectif de 100 000 dossiers par an, et un durcissement des critères de score environnemental pour favoriser davantage la production européenne. Anticiper votre achat en 2025, tant que les aides sont à leur niveau actuel, peut vous faire économiser 1 000 à 2 000 euros par rapport à un achat reporté en 2026.</p>`,
+<p>Le gouvernement a annoncé une revue du dispositif d'aides pour 2026, avec plusieurs tendances probables : un recentrage du bonus sur les ménages modestes et intermédiaires (les ménages aisés resteraient exclus), une possible baisse du montant du bonus standard à 3 000 euros si les objectifs de ventes sont atteints, un renforcement du leasing social avec un objectif de 100 000 dossiers par an, et un durcissement des critères de score environnemental pour favoriser davantage la production européenne. Anticiper votre achat en 2026, tant que les aides sont à leur niveau actuel, peut vous faire économiser 1 000 à 2 000 euros par rapport à un achat reporté en 2026.</p>`,
   },
 
   // ─── LOA / LEASING (MONÉTISATION) ─────────────────────────────────
   {
     slug: "loa-leasing",
     titre: "LOA et LLD voiture électrique : guide du leasing",
-    h1: "LOA et LLD voiture électrique : le guide complet du leasing en 2025",
+    h1: "LOA et LLD voiture électrique : le guide complet du leasing en 2026",
     metaDescription:
       "LOA vs LLD voiture électrique : comparatif leasing, mensualités, durée, apport, option d'achat. Comment trouver l'offre la moins chère pour votre VE en 2026.",
-    contenu: `<p>Le leasing est devenu le mode de financement privilégié pour l'acquisition d'une voiture électrique en France. En 2025, plus de 55 % des voitures électriques neuves sont financées en LOA (location avec option d'achat) ou en LLD (location longue durée), contre seulement 35 % pour les véhicules thermiques. Ce succès s'explique par les spécificités de l'électrique : un prix d'achat élevé qui freine l'achat comptant, une technologie en évolution rapide qui rend la flexibilité précieuse, et des offres promotionnelles agressives des constructeurs cherchant à accélérer la transition. Ce guide complet détaille les deux formules, compare leurs avantages et inconvénients, et vous donne toutes les clés pour négocier le meilleur contrat de leasing pour votre voiture électrique.</p>
+    contenu: `<p>Le leasing est devenu le mode de financement privilégié pour l'acquisition d'une voiture électrique en France. En 2026, plus de 55 % des voitures électriques neuves sont financées en LOA (location avec option d'achat) ou en LLD (location longue durée), contre seulement 35 % pour les véhicules thermiques. Ce succès s'explique par les spécificités de l'électrique : un prix d'achat élevé qui freine l'achat comptant, une technologie en évolution rapide qui rend la flexibilité précieuse, et des offres promotionnelles agressives des constructeurs cherchant à accélérer la transition. Ce guide complet détaille les deux formules, compare leurs avantages et inconvénients, et vous donne toutes les clés pour négocier le meilleur contrat de leasing pour votre voiture électrique.</p>
 
-<h2>LOA : la location avec option d'achat — le leasing préféré des Français</h2>
+<h2>LOA : la location avec option d'achat, le leasing préféré des Français</h2>
 
 <p>La LOA (location avec option d'achat), aussi appelée leasing avec option d'achat, est un contrat de location d'une durée de 24 à 60 mois avec la possibilité d'acquérir le véhicule en fin de contrat en payant la valeur résiduelle (VR). C'est la formule la plus populaire auprès des particuliers car elle combine la flexibilité d'une location avec la liberté de devenir propriétaire.</p>
 
@@ -572,13 +572,13 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>Pour une voiture électrique, la LOA présente des avantages spécifiques qui la rendent encore plus pertinente que pour un thermique :</p>
 <ul>
-<li><strong>Protection contre l'obsolescence technologique</strong> : la technologie des batteries évolue rapidement. Un véhicule acheté en 2025 pourrait être significativement surpassé en autonomie et en vitesse de recharge par un modèle de 2028. Avec une LOA de 36 mois, vous pouvez passer au nouveau modèle sans être prisonnier d'un véhicule dépassé.</li>
+<li><strong>Protection contre l'obsolescence technologique</strong> : la technologie des batteries évolue rapidement. Un véhicule acheté en 2026 pourrait être significativement surpassé en autonomie et en vitesse de recharge par un modèle de 2028. Avec une LOA de 36 mois, vous pouvez passer au nouveau modèle sans être prisonnier d'un véhicule dépassé.</li>
 <li><strong>Gestion du risque de décote</strong> : la décote des VE est plus incertaine que celle des thermiques. Si un concurrent lance un modèle révolutionnaire ou si les prix du neuf baissent fortement, la valeur de marché de votre véhicule peut chuter en dessous de la VR prévue. En LOA, c'est le loueur qui assume ce risque, pas vous.</li>
 <li><strong>Accès à un véhicule plus cher</strong> : les mensualités LOA permettent de rouler dans un véhicule dont le prix d'achat total dépasserait votre capacité d'emprunt en crédit classique.</li>
 <li><strong>Le bonus écologique réduit l'apport</strong> : le bonus de 4 000 à 7 000 euros est déduit du premier loyer majoré, réduisant considérablement l'effort financier initial.</li>
 </ul>
 
-<h2>LLD : la location longue durée — la simplicité absolue</h2>
+<h2>LLD : la location longue durée, la simplicité absolue</h2>
 
 <p>La LLD (location longue durée) est un contrat de location pure, sans option d'achat. Vous louez le véhicule pour une durée (24 à 60 mois) et un kilométrage définis, et vous le restituez en fin de contrat. Point final.</p>
 
@@ -641,7 +641,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h3>Le TAEG : la seule mesure fiable du coût financier</h3>
 
-<p>Ne comparez jamais les offres de leasing uniquement sur la mensualité. Une mensualité basse avec un apport élevé peut masquer un taux d'intérêt prohibitif. Le seul indicateur fiable est le TAEG (Taux Annuel Effectif Global), que le loueur est obligé de mentionner dans le contrat. En 2025, les TAEG de leasing VE se situent entre 3 % et 8 % selon les constructeurs et les établissements financiers. Un TAEG supérieur à 6 % est élevé et mérite une négociation ou une mise en concurrence.</p>
+<p>Ne comparez jamais les offres de leasing uniquement sur la mensualité. Une mensualité basse avec un apport élevé peut masquer un taux d'intérêt prohibitif. Le seul indicateur fiable est le TAEG (Taux Annuel Effectif Global), que le loueur est obligé de mentionner dans le contrat. En 2026, les TAEG de leasing VE se situent entre 3 % et 8 % selon les constructeurs et les établissements financiers. Un TAEG supérieur à 6 % est élevé et mérite une négociation ou une mise en concurrence.</p>
 
 <p>Pour comparer correctement, calculez le coût total de chaque offre : (premier loyer majoré) + (mensualité x nombre de mois) + (option d'achat si LOA et si vous prévoyez de lever l'option). Comparez ce total au prix d'achat du véhicule : la différence représente le coût financier du leasing.</p>
 
@@ -650,7 +650,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Utilisez notre calculateur pour simuler vos mensualités LOA et LLD et trouver l'offre la plus avantageuse pour votre véhicule électrique.</p>
 </div>
 
-<h2>Les meilleures offres de leasing VE en 2025</h2>
+<h2>Les meilleures offres de leasing VE en 2026</h2>
 
 <p>Les constructeurs et les captives financières (RCI Banque pour Renault, Stellantis Financial Services pour Peugeot/Citroën, BMW Financial Services, Hyundai Capital, etc.) proposent régulièrement des offres promotionnelles de leasing sur les voitures électriques, avec des mensualités particulièrement attractives pour accélérer les ventes.</p>
 
@@ -677,7 +677,7 @@ export const pagesAcheter: PageAcheter[] = [
 <li><strong>Kia EV6</strong> : dès 400 à 500 euros/mois en LOA sur 48 mois. Architecture 800V et recharge ultra-rapide.</li>
 </ul>
 
-<p>Les courtiers en leasing (JMFinance, Club Auto, LeasePlan pour particuliers) et les mandataires automobiles peuvent proposer des conditions encore plus avantageuses que les offres constructeur, en négociant les remises flotte auprès de plusieurs établissements financiers. N'hésitez pas à demander au moins 3 devis avant de vous engager.</p>
+<p>Les courtiers en leasing (JMFinance, Club Auto, LeasePlan pour particuliers) et les mandataires automobiles peuvent proposer des conditions encore plus avantageuses que les offres constructeur, en négociant les remises flotte auprès de plusieurs établissements financiers. Demandez au moins 3 devis avant de vous engager.</p>
 
 <h2>Le leasing social : 100 euros par mois</h2>
 
@@ -748,13 +748,13 @@ export const pagesAcheter: PageAcheter[] = [
     h1: "Assurance voiture électrique : comparatif, tarifs et devis en ligne",
     metaDescription:
       "Assurance voiture électrique : comparatif contrats, tarifs moyens par modèle, garanties batterie et borne de recharge. Économisez 10 à 15 % vs thermique.",
-    contenu: `L'assurance est un poste de dépense incontournable pour tout propriétaire de voiture électrique, et pourtant c'est l'un des sujets les moins bien compris par les futurs acheteurs. Bonne nouvelle : les conducteurs de VE bénéficient généralement de tarifs plus avantageux que leurs homologues en thermique, avec des économies pouvant atteindre 15 à 20 % selon les profils. Cependant, toutes les offres ne se valent pas, et certaines garanties spécifiques aux véhicules électriques — couverture de la batterie, protection de la borne de recharge, assistance en cas de panne de charge — méritent une attention particulière. Ce guide exhaustif vous aide à comprendre les spécificités de l'assurance VE, à choisir les garanties adaptées et à obtenir le meilleur tarif en 2025.
+    contenu: `L'assurance est un poste de dépense incontournable pour tout propriétaire de voiture électrique, et pourtant c'est l'un des sujets les moins bien compris par les futurs acheteurs. Bonne nouvelle : les conducteurs de VE bénéficient généralement de tarifs plus avantageux que leurs homologues en thermique, avec des économies pouvant atteindre 15 à 20 % selon les profils. Cependant, toutes les offres ne se valent pas, et certaines garanties spécifiques aux véhicules électriques (couverture de la batterie, protection de la borne de recharge, assistance en cas de panne de charge) méritent une attention particulière. Ce guide exhaustif vous aide à comprendre les spécificités de l'assurance VE, à choisir les garanties adaptées et à obtenir le meilleur tarif en 2026.
 
-<h2>Combien coûte l'assurance d'une voiture électrique en 2025 ?</h2>
+<h2>Combien coûte l'assurance d'une voiture électrique en 2026 ?</h2>
 
 <p>En moyenne, l'assurance d'une voiture électrique coûte 10 à 15 % moins cher que celle d'un véhicule thermique de puissance et de gamme équivalentes. Cette différence s'explique par plusieurs facteurs convergents : les conducteurs de VE présentent un profil statistiquement moins risqué (moins d'accidents graves, conduite plus souple liée au freinage régénératif), la vitesse de pointe est souvent limitée par rapport aux modèles thermiques sportifs, et le risque de vol est plus faible (marché noir des pièces électriques encore peu développé, géolocalisation permanente des véhicules connectés).</p>
 
-<p>Pour donner des ordres de grandeur en formule tous risques, voici les tarifs moyens constatés en 2025 pour un conducteur de 35 ans avec 10 ans de permis et un bonus maximal de 0,50 :</p>
+<p>Pour donner des ordres de grandeur en formule tous risques, voici les tarifs moyens constatés en 2026 pour un conducteur de 35 ans avec 10 ans de permis et un bonus maximal de 0,50 :</p>
 
 <ul>
 <li><strong>Dacia Spring</strong> : 320 à 420 euros par an. Le modèle le moins cher à assurer grâce à sa faible valeur et sa puissance modeste.</li>
@@ -830,7 +830,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>Le câble de recharge fourni avec le véhicule (câble Type 2, souvent 6 à 7 mètres) coûte entre 200 et 500 euros à remplacer. Un câble de recharge portable avec prise domestique vaut 250 à 400 euros supplémentaires. Vérifiez que votre contrat couvre le vol du câble (risque réel, surtout en recharge publique la nuit) et les dommages accidentels (câble écrasé par un autre véhicule, détérioré par les intempéries).</p>
 
-<h2>Les meilleurs assureurs pour voiture électrique en 2025</h2>
+<h2>Les meilleurs assureurs pour voiture électrique en 2026</h2>
 
 <p>Plusieurs assureurs se distinguent par leurs offres spécialisées VE en France. Voici notre analyse par catégorie :</p>
 
@@ -927,7 +927,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>L'assurance en leasing (LOA/LLD) : ce qu'il faut savoir</h2>
 
-<p>Si votre véhicule est en leasing, le loueur exige une assurance tous risques pendant toute la durée du contrat. C'est une obligation contractuelle non négociable. Toutefois, vous êtes libre de choisir votre assureur — le loueur ne peut pas vous imposer sa propre assurance, même s'il en propose une. Comparez systématiquement l'offre du loueur avec 3-4 devis extérieurs.</p>
+<p>Si votre véhicule est en leasing, le loueur exige une assurance tous risques pendant toute la durée du contrat. C'est une obligation contractuelle non négociable. Toutefois, vous êtes libre de choisir votre assureur : le loueur ne peut pas vous imposer sa propre assurance, même s'il en propose une. Comparez systématiquement l'offre du loueur avec 3-4 devis extérieurs.</p>
 
 <p>En LLD, le loueur propose souvent une assurance intégrée dans la mensualité (50 à 80 euros de plus par mois). L'avantage est la simplicité (un seul prélèvement). L'inconvénient est le coût souvent supérieur à un contrat souscrit individuellement, et l'impossibilité de personnaliser les garanties. Vérifiez notamment le montant de la franchise (souvent élevée dans les contrats loueur : 500 à 1 000 euros) et les exclusions.</p>
 
@@ -944,11 +944,11 @@ export const pagesAcheter: PageAcheter[] = [
     h1: "Voiture électrique vs thermique : le comparatif qui tranche le débat",
     metaDescription:
       "Électrique vs thermique : comparatif objectif sur le prix, le coût au km, l'entretien, l'écologie et la revente. Résultat chiffré pour trancher le débat.",
-    contenu: `<p>Faut-il passer à l'électrique ou rester en thermique ? Cette question, des millions de Français se la posent en 2025, et la réponse a profondément évolué en l'espace de quelques années seulement. Les prix des véhicules électriques baissent, l'autonomie augmente, le réseau de recharge se densifie, et la fiscalité pénalise de plus en plus les motorisations fossiles. Mais le thermique conserve des atouts indéniables dans certaines situations. Plutôt que de trancher de façon dogmatique, ce comparatif exhaustif analyse objectivement chaque critère pour vous aider à prendre la décision la plus adaptée à votre situation personnelle, à votre kilométrage, à votre budget et à votre mode de vie.</p>
+    contenu: `<p>Faut-il passer à l'électrique ou rester en thermique ? Cette question, des millions de Français se la posent en 2026, et la réponse a profondément évolué en l'espace de quelques années seulement. Les prix des véhicules électriques baissent, l'autonomie augmente, le réseau de recharge se densifie, et la fiscalité pénalise de plus en plus les motorisations fossiles. Mais le thermique conserve des atouts indéniables dans certaines situations. Plutôt que de trancher de façon dogmatique, ce comparatif exhaustif analyse objectivement chaque critère pour vous aider à prendre la décision la plus adaptée à votre situation personnelle, à votre kilométrage, à votre budget et à votre mode de vie.</p>
 
 <h2>Le prix d'achat : un écart qui fond à vue d'oeil</h2>
 
-<p>À modèle et finition équivalents, une voiture électrique coûte encore 3 000 à 12 000 euros de plus qu'une version thermique en 2025. L'écart varie considérablement selon le segment :</p>
+<p>À modèle et finition équivalents, une voiture électrique coûte encore 3 000 à 12 000 euros de plus qu'une version thermique en 2026. L'écart varie considérablement selon le segment :</p>
 
 <h3>Segment citadines</h3>
 <p>La Citroën C3 PureTech 83 démarre à 17 490 euros ; la Citroën e-C3 est à 23 300 euros. Écart brut : 5 810 euros. Après déduction du bonus écologique de 4 000 euros (voire 7 000 euros pour les ménages modestes), l'écart tombe à 1 810 euros, voire disparaît. La Renault Clio TCe 90 est à 19 400 euros ; la Renault 5 E-Tech est à 25 000 euros. Écart brut : 5 600 euros, réduit à 1 600 euros après bonus standard. Dans ce segment, la parité de prix avant bonus est attendue d'ici 2026-2027 grâce à la baisse continue du coût des batteries.</p>
@@ -987,7 +987,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>L'autonomie et la recharge : la révolution silencieuse</h2>
 
-<p>L'autonomie reste le frein psychologique numéro un au passage à l'électrique. Mais les données de 2025 montrent que ce frein est de moins en moins justifié par la réalité quotidienne de l'immense majorité des conducteurs français.</p>
+<p>L'autonomie reste le frein psychologique numéro un au passage à l'électrique. Mais les données de 2026 montrent que ce frein est de moins en moins justifié par la réalité quotidienne de l'immense majorité des conducteurs français.</p>
 
 <h3>La réalité des trajets quotidiens</h3>
 
@@ -1003,7 +1003,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h3>Les cas où le thermique reste objectivement plus pratique</h3>
 
-<p>Le thermique conserve un avantage net dans trois situations précises : les professionnels itinérants parcourant plus de 400 km par jour sans point de recharge fixe, les conducteurs sans aucune possibilité de recharge à domicile ni au travail (pas de garage, pas de parking, pas de prise accessible), et les besoins de tractage lourd (remorque, caravane) sur de longues distances, où l'autonomie du VE chute de 40 à 50 %. L'infrastructure de recharge publique progresse rapidement (plus de 130 000 points de charge en France en 2025, objectif 400 000 en 2030), mais la couverture reste inégale entre zones urbaines et rurales profondes.</p>
+<p>Le thermique conserve un avantage net dans trois situations précises : les professionnels itinérants parcourant plus de 400 km par jour sans point de recharge fixe, les conducteurs sans aucune possibilité de recharge à domicile ni au travail (pas de garage, pas de parking, pas de prise accessible), et les besoins de tractage lourd (remorque, caravane) sur de longues distances, où l'autonomie du VE chute de 40 à 50 %. L'infrastructure de recharge publique progresse rapidement (plus de 130 000 points de charge en France en 2026, objectif 400 000 en 2030), mais la couverture reste inégale entre zones urbaines et rurales profondes.</p>
 
 <h2>L'impact écologique : le VE gagne sur tous les terrains en France</h2>
 
@@ -1044,7 +1044,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>La revente : un écart qui se réduit rapidement</h2>
 
-<p>Historiquement, les voitures électriques décotent plus vite que les thermiques. En 2025, la décote moyenne sur 4 ans est d'environ 48 % pour un VE contre 40 % pour un thermique. Mais cette moyenne masque des disparités importantes :</p>
+<p>Historiquement, les voitures électriques décotent plus vite que les thermiques. En 2026, la décote moyenne sur 4 ans est d'environ 48 % pour un VE contre 40 % pour un thermique. Mais cette moyenne masque des disparités importantes :</p>
 <ul>
 <li><strong>Tesla Model 3/Y</strong> : 38 à 42 % de décote sur 4 ans, comparable aux thermiques premium.</li>
 <li><strong>Hyundai-Kia</strong> : 42 à 48 %, soutenues par la garantie 5-7 ans transférable.</li>
@@ -1078,7 +1078,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Notre verdict : l'électrique est le choix rationnel pour 85 % des Français</h2>
 
-<p>En 2025, la voiture électrique est objectivement le choix le plus rationnel pour la grande majorité des conducteurs français : ceux qui parcourent plus de 8 000 km par an, qui ont accès à la recharge à domicile, au travail ou à proximité, et qui n'effectuent pas quotidiennement de très longs trajets dépassant 400 km. Le surcoût à l'achat est compensé en 2 à 4 ans par les économies d'usage, l'agrément de conduite est supérieur au quotidien, l'impact écologique est radicalement meilleur, et la fiscalité est massivement favorable.</p>
+<p>En 2026, la voiture électrique est objectivement le choix le plus rationnel pour la grande majorité des conducteurs français : ceux qui parcourent plus de 8 000 km par an, qui ont accès à la recharge à domicile, au travail ou à proximité, et qui n'effectuent pas quotidiennement de très longs trajets dépassant 400 km. Le surcoût à l'achat est compensé en 2 à 4 ans par les économies d'usage, l'agrément de conduite est supérieur au quotidien, l'impact écologique est radicalement meilleur, et la fiscalité est massivement favorable.</p>
 
 <p>Le thermique reste pertinent dans des cas de plus en plus spécifiques : très gros rouleurs professionnels (plus de 60 000 km/an) sans accès à la recharge, résidence en zone rurale très isolée sans borne publique à moins de 30 km, budget d'achat extrêmement contraint (moins de 10 000 euros) sans éligibilité aux aides, besoin de tracter régulièrement des charges lourdes sur de longues distances, ou passion assumée pour la mécanique thermique (un choix émotionnel, pas rationnel).</p>
 
@@ -1087,7 +1087,7 @@ export const pagesAcheter: PageAcheter[] = [
 {
     slug: "mandataire-voiture-electrique",
     titre: "Mandataire VE : économies et pièges",
-    h1: "Mandataire voiture électrique — guide complet 2025",
+    h1: "Mandataire voiture électrique : guide complet 2026",
     metaDescription: "Mandataire voiture électrique : économisez 10 à 30 % sur le prix neuf. Fonctionnement, risques, vérifications et classement des meilleurs mandataires VE.",
     contenu: `<h2>Qu'est-ce qu'un mandataire automobile ?</h2>
 <p>Un mandataire automobile est un intermédiaire commercial qui achète des véhicules neufs ou récents pour le compte de particuliers, en négociant des remises importantes auprès de concessionnaires, souvent à l'étranger ou en volume. Contrairement au concessionnaire classique qui représente une seule marque et applique les tarifs catalogue, le mandataire fonctionne comme un courtier : il cherche la meilleure offre disponible sur le marché européen pour le modèle souhaité par son client.</p>
@@ -1114,12 +1114,12 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Comment vérifier la fiabilité d'un mandataire</h2>
 <p>Plusieurs vérifications s'imposent avant de confier votre argent à un mandataire. Premièrement, vérifiez son existence légale : numéro SIRET actif sur societe.com ou infogreffe.fr, ancienneté de l'entreprise (méfiez-vous des structures créées il y a moins de 2 ans), capital social (un capital de 1 000 € pour une activité brassant des millions est un signal d'alerte).</p>
-<p>Deuxièmement, recherchez les avis clients sur des plateformes indépendantes : Trustpilot, Google Reviews, forums spécialisés (Automobile Propre, forums marques). Méfiez-vous des sites qui n'affichent que des avis 5 étoiles sans aucun commentaire négatif — c'est statistiquement improbable pour un commerce actif.</p>
+<p>Deuxièmement, recherchez les avis clients sur des plateformes indépendantes : Trustpilot, Google Reviews, forums spécialisés (Automobile Propre, forums marques). Méfiez-vous des sites qui n'affichent que des avis 5 étoiles sans aucun commentaire négatif : c'est statistiquement improbable pour un commerce actif.</p>
 <p>Troisièmement, vérifiez les garanties financières. Un mandataire sérieux dispose d'une garantie financière professionnelle (obligation légale pour les agents commerciaux automobiles) qui protège les acomptes des clients en cas de défaillance. Demandez le numéro de cette garantie et l'organisme garant.</p>
 <p>Quatrièmement, analysez le contrat proposé : il doit mentionner précisément le modèle, la motorisation, les options, le prix ferme TTC, le délai de livraison estimé, les conditions d'annulation, et le montant de l'acompte (qui ne devrait jamais dépasser 10 à 15 % du prix total pour un véhicule à commander).</p>
 <p>Enfin, privilégiez les mandataires ayant une adresse physique visitable, un showroom même modeste, ou au minimum une activité vérifiable sur le terrain (photos de livraisons récentes avec dates, témoignages vidéo de clients).</p>
 
-<h2>Les meilleurs mandataires pour voitures électriques en 2025</h2>
+<h2>Les meilleurs mandataires pour voitures électriques en 2026</h2>
 <p>Parmi les mandataires reconnus pour les véhicules électriques en France, plusieurs se distinguent par leur fiabilité et leur expertise spécifique sur l'électrique.</p>
 <p><strong>AutoJM</strong> est l'un des plus anciens mandataires en ligne français (depuis 2004). Il propose un large catalogue de véhicules électriques neufs avec des remises de 10 à 25 %. Son avantage : un stock important de véhicules déjà disponibles en France, réduisant les délais. Il gère l'immatriculation et propose des financements.</p>
 <p><strong>Elite Auto</strong> se positionne sur le segment premium et les électriques haut de gamme (Tesla, BMW, Mercedes EQ). Les remises sont généralement de 8 à 18 %, avec un service de conciergerie apprécié pour les clients exigeants.</p>
@@ -1129,7 +1129,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Conseils de négociation avec un mandataire</h2>
 <p>Même avec un mandataire, la négociation reste possible. Voici les leviers à utiliser :</p>
-<p>Comparez systématiquement 3 à 4 mandataires pour le même modèle dans la même configuration. Les écarts peuvent atteindre 1 000 à 2 000 € entre mandataires pour un véhicule identique. N'hésitez pas à faire jouer la concurrence en montrant les devis concurrents.</p>
+<p>Comparez systématiquement 3 à 4 mandataires pour le même modèle dans la même configuration. Les écarts peuvent atteindre 1 000 à 2 000 € entre mandataires pour un véhicule identique. Faites jouer la concurrence en montrant les devis concurrents.</p>
 <p>Soyez flexible sur la couleur et les options : un mandataire aura plus de marge de négociation sur un véhicule disponible en stock (couleur standard, pack d'options fréquent) que sur une commande spécifique avec des options rares qui limitent ses sources d'approvisionnement.</p>
 <p>Négociez le package complet : au-delà du prix du véhicule, demandez la livraison gratuite, les plaques d'immatriculation offertes, ou un accessoire (câble de recharge supplémentaire, tapis). Ces extras coûtent peu au mandataire mais représentent 200 à 500 € d'économie pour vous.</p>
 <p>Achetez en fin de trimestre (mars, juin, septembre, décembre) : les mandataires, comme les concessionnaires, ont des objectifs trimestriels. Les remises sont maximales dans les dernières semaines du trimestre.</p>
@@ -1139,7 +1139,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>L'achat d'un véhicule électrique via mandataire comporte des particularités qui n'existent pas pour les véhicules thermiques. Voici les points de vigilance propres aux VE.</p>
 <p><strong>Le score environnemental et l'éligibilité au bonus :</strong> Depuis 2024, seuls les véhicules obtenant un score environnemental suffisant (calculé par l'ADEME sur la base du lieu de production, des matériaux utilisés et de l'empreinte carbone de la fabrication) sont éligibles au bonus écologique de 4 000 a 7 000 euros. Un véhicule importé par un mandataire est éligible au bonus SI le modèle exact (version, taille de batterie) figure sur la liste officielle publiée par l'ADEME. Exigez du mandataire une confirmation écrite de l'éligibilité au bonus avant toute commande, avec référence au numéro de la liste ADEME.</p>
 <p><strong>Le certificat de conformité européen (COC) :</strong> Tout véhicule neuf vendu dans l'UE est accompagné d'un Certificat de Conformité (COC) qui atteste sa conformité aux normes européennes. Pour un VE importé d'un autre pays UE, le COC est indispensable pour l'immatriculation en France. Certains constructeurs facturent le COC séparément (100 a 300 euros) lorsque le véhicule est acheté hors du pays de commercialisation prévu. Vérifiez avec le mandataire que le COC est inclus dans le prix ou demandez-en le coût exact.</p>
-<p><strong>La garantie du câble de recharge et des accessoires :</strong> Selon le pays d'achat, le câble de recharge fourni peut avoir un connecteur ou une longueur différente. En Europe, la norme est le Type 2 (Mennekes) pour la recharge AC et le CCS Combo 2 pour la recharge DC. Vérifiez que le véhicule importé est livré avec un câble Type 2 compatible avec les bornes françaises. Certains mandataires importent des véhicules du Royaume-Uni (post-Brexit) dont les prises domestiques sont différentes — assurez-vous que le câble de recharge domestique est au format français.</p>
+<p><strong>La garantie du câble de recharge et des accessoires :</strong> Selon le pays d'achat, le câble de recharge fourni peut avoir un connecteur ou une longueur différente. En Europe, la norme est le Type 2 (Mennekes) pour la recharge AC et le CCS Combo 2 pour la recharge DC. Vérifiez que le véhicule importé est livré avec un câble Type 2 compatible avec les bornes françaises. Certains mandataires importent des véhicules du Royaume-Uni (post-Brexit) dont les prises domestiques sont différentes. Assurez-vous que le câble de recharge domestique est au format français.</p>
 <p><strong>Les mises à jour logicielles et la connectivité :</strong> Certains constructeurs (Tesla, BMW, Mercedes) lient les services connectés (navigation en temps réel, mises à jour OTA, applications) au pays d'achat initial. Un véhicule acheté en Allemagne via mandataire pourrait avoir son interface en allemand à la livraison, nécessitant une mise à jour en concession pour passer en français. De même, les abonnements de connectivité premium (Tesla Premium Connectivity, BMW Connected Drive) peuvent nécessiter un transfert de compte entre pays. Vérifiez ces points avec le mandataire avant l'achat.</p>
 
 <h2>Le processus complet d'achat via mandataire : chronologie type</h2>
@@ -1161,21 +1161,21 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "prime-conversion",
-    titre: "Prime à la conversion 2025",
-    h1: "Prime à la conversion 2025 — guide complet",
+    titre: "Prime à la conversion 2026",
+    h1: "Prime à la conversion 2026 : guide complet",
     metaDescription: "Prime à la conversion 2026 : conditions d'éligibilité, montants jusqu'à 5 000 euros, véhicules éligibles, cumul bonus écologique. Démarches pas à pas.",
     contenu: `<h2>Qu'est-ce que la prime à la conversion ?</h2>
 <p>La prime à la conversion est une aide financière versée par l'État français pour encourager le remplacement d'un ancien véhicule polluant par un véhicule plus propre, notamment électrique. Créée en 2015 sous le nom de « prime à la casse », elle a été rebaptisée et renforcée au fil des années pour accompagner la transition écologique du parc automobile français.</p>
 <p>Son principe est simple : vous mettez à la casse (destruction définitive) un véhicule ancien répondant à certains critères, et en contrepartie, l'État vous verse une aide pouvant atteindre 5 000 € pour l'achat ou la location longue durée d'un véhicule peu polluant. Cette prime est cumulable avec le bonus écologique, ce qui peut représenter jusqu'à 11 000 € d'aides au total pour l'acquisition d'une voiture électrique.</p>
-<p>En 2025, le dispositif a été recalibré pour cibler plus efficacement les ménages modestes et les zones à faibles émissions (ZFE), tout en maintenant une enveloppe budgétaire maîtrisée. Les montants et conditions ont évolué par rapport à 2024, rendant indispensable une mise à jour des informations pour tout acheteur potentiel.</p>
+<p>En 2026, le dispositif a été recalibré pour cibler plus efficacement les ménages modestes et les zones à faibles émissions (ZFE), tout en maintenant une enveloppe budgétaire maîtrisée. Les montants et conditions ont évolué par rapport à 2024, rendant indispensable une mise à jour des informations pour tout acheteur potentiel.</p>
 
-<h2>Conditions d'éligibilité en 2025</h2>
-<p>Pour bénéficier de la prime à la conversion en 2025, plusieurs conditions doivent être réunies simultanément, concernant à la fois l'acheteur, le véhicule mis au rebut et le véhicule acquis.</p>
+<h2>Conditions d'éligibilité en 2026</h2>
+<p>Pour bénéficier de la prime à la conversion en 2026, plusieurs conditions doivent être réunies simultanément, concernant à la fois l'acheteur, le véhicule mis au rebut et le véhicule acquis.</p>
 <p><strong>Conditions relatives à l'acheteur :</strong> Être une personne physique majeure domiciliée en France, ou une personne morale (entreprise, association) justifiant d'un établissement en France. Le revenu fiscal de référence par part (RFR/part) détermine le montant de la prime : les ménages les plus modestes (RFR/part ≤ 7 100 €) bénéficient des montants maximaux, tandis que les ménages aisés (RFR/part > 24 900 €) sont exclus du dispositif depuis 2024.</p>
 <p><strong>Conditions relatives au véhicule mis au rebut :</strong> Le véhicule à détruire doit être un véhicule particulier (VP) ou un utilitaire léger (VUL). Il doit être immatriculé en France depuis au moins un an au nom du demandeur (ou d'un membre du foyer fiscal). Il doit s'agir d'un véhicule essence immatriculé avant le 1er janvier 2006 (Crit'Air 3 et plus) ou d'un véhicule diesel immatriculé avant le 1er janvier 2011 (Crit'Air 3 et plus). Le véhicule ne doit pas être gagé, ne doit pas être déclaré sinistré, et doit être en état de rouler (assuré au moment de la demande).</p>
 <p><strong>Conditions relatives au véhicule acquis :</strong> Pour bénéficier du montant maximal, le véhicule acquis doit être électrique ou hydrogène, avec un prix d'achat ne dépassant pas 47 000 € TTC et un poids inférieur à 2 400 kg. Il doit obtenir un score environnemental suffisant (liste ADEME). L'acquisition peut être un achat ou une location de 2 ans minimum (LOA ou LLD).</p>
 
-<h2>Montants de la prime en 2025</h2>
+<h2>Montants de la prime en 2026</h2>
 <p>Les montants de la prime à la conversion varient selon le revenu fiscal de référence par part du demandeur et le type de véhicule acquis :</p>
 <p><strong>Pour un véhicule 100 % électrique ou hydrogène :</strong></p>
 <p>Ménages très modestes (RFR/part ≤ 7 100 €) : 5 000 €. Si le demandeur habite ou travaille dans une ZFE, un surprime de 1 000 € supplémentaire peut s'appliquer, portant le total à 6 000 €.</p>
@@ -1186,22 +1186,22 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Pour un véhicule thermique Crit'Air 1 :</strong> Une prime réduite de 1 500 € maximum subsiste pour les ménages très modestes qui remplacent un véhicule Crit'Air 5 par un véhicule essence Crit'Air 1 récent, mais cette option disparaîtra progressivement.</p>
 
 <h2>Cumul avec le bonus écologique</h2>
-<p>L'un des intérêts majeurs de la prime à la conversion est sa cumulabilité avec le bonus écologique. En 2025, le bonus écologique pour une voiture électrique neuve est de 4 000 € (et jusqu'à 7 000 € pour les ménages les plus modestes). Le cumul des deux aides peut donc atteindre :</p>
+<p>L'un des intérêts majeurs de la prime à la conversion est sa cumulabilité avec le bonus écologique. En 2026, le bonus écologique pour une voiture électrique neuve est de 4 000 € (et jusqu'à 7 000 € pour les ménages les plus modestes). Le cumul des deux aides peut donc atteindre :</p>
 <p>Pour un ménage très modeste : 7 000 € (bonus) + 5 000 € (prime conversion) + 1 000 € (ZFE) = <strong>13 000 €</strong> d'aides totales.</p>
 <p>Pour un ménage modeste : 4 000 € (bonus) + 4 000 € (prime conversion) = <strong>8 000 €</strong>.</p>
 <p>Pour un ménage intermédiaire : 4 000 € (bonus) + 2 500 € (prime conversion) = <strong>6 500 €</strong>.</p>
 <p>À noter que certaines collectivités locales proposent des aides complémentaires : la Métropole du Grand Paris offre jusqu'à 6 000 € pour les professionnels, la Région Île-de-France propose jusqu'à 6 000 € pour les particuliers sous conditions de ressources. Ces aides locales sont cumulables avec les aides nationales, sous réserve que le total des aides ne dépasse pas 80 % du coût d'acquisition.</p>
 
 <h2>Démarches pas à pas pour obtenir la prime</h2>
-<p><strong>Étape 1 — Vérifier son éligibilité :</strong> Consultez votre dernier avis d'imposition pour connaître votre RFR/part. Vérifiez que votre véhicule actuel remplit les critères d'ancienneté (date de première immatriculation sur la carte grise, champ B). Utilisez le simulateur officiel sur primealaconversion.gouv.fr.</p>
-<p><strong>Étape 2 — Choisir le véhicule neuf :</strong> Vérifiez que le modèle convoité figure sur la liste des véhicules éligibles au bonus écologique (liste ADEME mise à jour trimestriellement). Assurez-vous que le prix ne dépasse pas 47 000 € TTC et le poids 2 400 kg.</p>
-<p><strong>Étape 3 — Faire appel à un centre VHU agréé :</strong> Pour la destruction du véhicule ancien, vous devez obligatoirement passer par un centre VHU (Véhicules Hors d'Usage) agréé par la préfecture. Le centre vous remettra un certificat de destruction, document indispensable pour la demande de prime. Important : la destruction doit intervenir dans les 3 mois précédant ou les 6 mois suivant la facturation du nouveau véhicule.</p>
-<p><strong>Étape 4 — Commander le véhicule :</strong> Passez commande auprès du concessionnaire ou du mandataire. La prime peut être avancée par le vendeur (qui la déduit du prix de vente) ou demandée directement par l'acheteur après la transaction. La première option est plus simple mais tous les vendeurs ne la proposent pas.</p>
-<p><strong>Étape 5 — Constituer le dossier :</strong> Rassemblez : copie de la carte grise du véhicule détruit, certificat de destruction VHU, copie de la facture d'achat ou du contrat de location du véhicule neuf, dernier avis d'imposition, RIB, copie de la carte grise du véhicule neuf, justificatif de domicile.</p>
-<p><strong>Étape 6 — Déposer la demande en ligne :</strong> Rendez-vous sur primealaconversion.gouv.fr et créez votre compte. Téléversez tous les documents. Le délai de traitement est de 2 à 4 mois en moyenne. Le versement est effectué par virement bancaire sur le compte indiqué.</p>
+<p><strong>Étape 1 : vérifier son éligibilité :</strong> Consultez votre dernier avis d'imposition pour connaître votre RFR/part. Vérifiez que votre véhicule actuel remplit les critères d'ancienneté (date de première immatriculation sur la carte grise, champ B). Utilisez le simulateur officiel sur primealaconversion.gouv.fr.</p>
+<p><strong>Étape 2 : choisir le véhicule neuf :</strong> Vérifiez que le modèle convoité figure sur la liste des véhicules éligibles au bonus écologique (liste ADEME mise à jour trimestriellement). Assurez-vous que le prix ne dépasse pas 47 000 € TTC et le poids 2 400 kg.</p>
+<p><strong>Étape 3 : faire appel à un centre VHU agréé :</strong> Pour la destruction du véhicule ancien, vous devez obligatoirement passer par un centre VHU (Véhicules Hors d'Usage) agréé par la préfecture. Le centre vous remettra un certificat de destruction, document indispensable pour la demande de prime. Important : la destruction doit intervenir dans les 3 mois précédant ou les 6 mois suivant la facturation du nouveau véhicule.</p>
+<p><strong>Étape 4 : commander le véhicule :</strong> Passez commande auprès du concessionnaire ou du mandataire. La prime peut être avancée par le vendeur (qui la déduit du prix de vente) ou demandée directement par l'acheteur après la transaction. La première option est plus simple mais tous les vendeurs ne la proposent pas.</p>
+<p><strong>Étape 5 : constituer le dossier :</strong> Rassemblez : copie de la carte grise du véhicule détruit, certificat de destruction VHU, copie de la facture d'achat ou du contrat de location du véhicule neuf, dernier avis d'imposition, RIB, copie de la carte grise du véhicule neuf, justificatif de domicile.</p>
+<p><strong>Étape 6 : déposer la demande en ligne :</strong> Rendez-vous sur primealaconversion.gouv.fr et créez votre compte. Téléversez tous les documents. Le délai de traitement est de 2 à 4 mois en moyenne. Le versement est effectué par virement bancaire sur le compte indiqué.</p>
 
 <h2>Délais et points de vigilance</h2>
-<p>Le budget annuel de la prime à la conversion est plafonné par la loi de finances. En 2024, l'enveloppe a été consommée à 85 % dès le mois d'octobre, entraînant un resserrement des critères en fin d'année. Pour 2025, il est conseillé de déposer sa demande le plus tôt possible dans l'année pour éviter un éventuel coup de rabot budgétaire. Les premiers mois de l'année (janvier à avril) offrent la meilleure probabilité de validation dans les conditions initiales.</p>
+<p>Le budget annuel de la prime à la conversion est plafonné par la loi de finances. En 2024, l'enveloppe a été consommée à 85 % dès le mois d'octobre, entraînant un resserrement des critères en fin d'année. Pour 2026, il est conseillé de déposer sa demande le plus tôt possible dans l'année pour éviter un éventuel coup de rabot budgétaire. Les premiers mois de l'année (janvier à avril) offrent la meilleure probabilité de validation dans les conditions initiales.</p>
 <p>Le délai entre la facturation du véhicule neuf et la mise à la casse est strictement encadré : maximum 3 mois avant ou 6 mois après la date de facturation. Un dépassement de ce délai, même d'un seul jour, entraîne le rejet automatique et irrévocable du dossier. Pour sécuriser votre chronologie, nous recommandons de commander le véhicule neuf en premier, puis de faire détruire l'ancien véhicule dans les semaines suivant la livraison du nouveau, pour avoir une marge de manoeuvre maximale.</p>
 <p>Attention aux véhicules importés : si vous achetez via un mandataire, assurez-vous que le modèle exact (version, motorisation, taille de batterie) figure sur la liste des véhicules éligibles au bonus écologique publiée par l'ADEME. Un modèle produit hors d'Europe peut ne pas obtenir le score environnemental requis, ce qui ferait perdre à la fois le bonus ET la prime à la conversion. Vérifiez la liste officielle à jour sur le site ecologie.gouv.fr avant tout engagement financier.</p>
 <p>Conservez impérativement votre véhicule neuf au moins un an (ou 6 000 km, c'est le premier des deux critères atteint qui s'applique) après son acquisition. Une revente avant ce délai oblige au remboursement intégral de la prime. Cette condition est vérifiable par l'administration via le fichier des cartes grises.</p>
@@ -1251,20 +1251,20 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Oui, sous réserve que le véhicule soit éligible au bonus écologique (score environnemental ADEME) et que toutes les conditions de prix, de poids et de motorisation soient remplies. Le mandataire doit fournir une facture conforme au droit français. Le quitus fiscal (preuve de paiement de la TVA en France) est indispensable pour les véhicules importés.</p>
 
 <h3>Combien de temps faut-il pour recevoir la prime ?</h3>
-<p>Si le concessionnaire avance la prime (déduction directe sur la facture), vous n'attendez rien — l'aide est appliquée immédiatement. Si vous faites la demande en ligne vous-même, le délai moyen de traitement est de 2 à 4 mois entre le dépôt du dossier complet et le virement bancaire. En période de forte affluence (janvier à mars), les délais peuvent s'allonger à 5-6 mois.</p>
+<p>Si le concessionnaire avance la prime (déduction directe sur la facture), vous n'attendez rien : l'aide est appliquée immédiatement. Si vous faites la demande en ligne vous-même, le délai moyen de traitement est de 2 à 4 mois entre le dépôt du dossier complet et le virement bancaire. En période de forte affluence (janvier à mars), les délais peuvent s'allonger à 5-6 mois.</p>
 
 <h2>Perspectives : l'avenir de la prime à la conversion</h2>
-<p>Le gouvernement a confirmé la pérennisation de la prime à la conversion au-delà de 2025, mais avec des ajustements possibles. Les tendances anticipées pour 2026 incluent : un recentrage encore plus marqué sur les ménages modestes et très modestes, une possible suppression de la prime pour les ménages intermédiaires (RFR/part supérieur à 15 400 euros), un durcissement des critères d'ancienneté des véhicules à détruire (potentiellement diesel avant 2014 et essence avant 2009 pour cibler les Crit'Air 4 et 5 uniquement), et un renforcement de la surprime ZFE à mesure que les restrictions de circulation se durcissent. Si vous êtes éligible, 2025 reste une année particulièrement favorable pour bénéficier de la prime dans ses conditions actuelles.</p>`,
+<p>Le gouvernement a confirmé la pérennisation de la prime à la conversion au-delà de 2025, mais avec des ajustements possibles. Les tendances anticipées pour 2026 incluent : un recentrage encore plus marqué sur les ménages modestes et très modestes, une possible suppression de la prime pour les ménages intermédiaires (RFR/part supérieur à 15 400 euros), un durcissement des critères d'ancienneté des véhicules à détruire (potentiellement diesel avant 2014 et essence avant 2009 pour cibler les Crit'Air 4 et 5 uniquement), et un renforcement de la surprime ZFE à mesure que les restrictions de circulation se durcissent. Si vous êtes éligible, 2026 reste une année particulièrement favorable pour bénéficier de la prime dans ses conditions actuelles.</p>`,
   },
   {
     slug: "leasing-social-100-euros",
     titre: "Leasing social à 100 €/mois",
-    h1: "Leasing social à 100 €/mois — guide complet 2025",
+    h1: "Leasing social à 100 €/mois : guide complet 2026",
     metaDescription: "Leasing social voiture électrique à 100 euros/mois : critères d'éligibilité, modèles disponibles, démarches en ligne et comparaison avec la LOA classique.",
     contenu: `<h2>Le leasing social : un dispositif unique au monde</h2>
 <p>Le leasing social est un dispositif gouvernemental français lancé en janvier 2024 qui permet aux ménages modestes de louer une voiture électrique neuve pour environ 100 euros par mois, sans apport initial ou avec un premier loyer très réduit. Ce programme, officiellement appelé « location longue durée à tarif social pour les véhicules à très faibles émissions », est une initiative sans précédent en Europe et dans le monde par son ampleur, son accessibilité et son impact social. Il constitue la réponse politique la plus ambitieuse au défi de la transition juste vers la mobilité électrique.</p>
 <p>Le contexte qui a motivé sa création est double. D'un côté, la transition vers l'électrique s'accélère avec plus de 25 % des véhicules neufs vendus en France en 2025 qui sont électriques, mais les prix restent prohibitifs pour une large partie de la population. De l'autre, les Zones à Faibles Émissions (ZFE) interdisent progressivement l'accès aux centres-villes aux véhicules les plus polluants (Crit'Air 3 et plus), pénalisant de facto les ménages les moins aisés qui roulent dans des véhicules anciens faute de moyens pour les remplacer. Le leasing social vise à résoudre cette équation impossible : permettre aux Français modestes de rouler en électrique sans s'endetter au-delà de leurs moyens.</p>
-<p>Le succès de la première édition (janvier 2024) a été spectaculaire et inattendu : les 50 000 dossiers prévus ont été réservés en seulement 6 semaines, avec un afflux de 90 000 candidatures éligibles, démontrant une demande bien supérieure aux prévisions gouvernementales. Ce succès a confirmé que le frein principal à l'adoption de l'électrique par les ménages modestes n'est pas culturel mais financier. Pour 2025, le gouvernement a reconduit le dispositif avec un objectif de 50 000 à 60 000 véhicules, des ajustements dans les critères d'éligibilité et un catalogue de modèles élargi.</p>
+<p>Le succès de la première édition (janvier 2024) a été spectaculaire et inattendu : les 50 000 dossiers prévus ont été réservés en seulement 6 semaines, avec un afflux de 90 000 candidatures éligibles, démontrant une demande bien supérieure aux prévisions gouvernementales. Ce succès a confirmé que le frein principal à l'adoption de l'électrique par les ménages modestes n'est pas culturel mais financier. Pour 2026, le gouvernement a reconduit le dispositif avec un objectif de 50 000 à 60 000 véhicules, des ajustements dans les critères d'éligibilité et un catalogue de modèles élargi.</p>
 
 <h2>Critères d'éligibilité détaillés : qui peut en bénéficier ?</h2>
 
@@ -1295,7 +1295,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h3>Autres conditions</h3>
 <p><strong>Résidence :</strong> Le demandeur doit résider en France métropolitaine. Les DOM-TOM bénéficient d'un dispositif adapté. <strong>Permis :</strong> Permis B valide obligatoire. <strong>Assurance :</strong> Capacité à souscrire une assurance automobile (non incluse dans le loyer). <strong>Pas de condition de véhicule ancien :</strong> Contrairement à la prime à la conversion, aucune obligation de posséder un véhicule à mettre à la casse. Les primo-accédants à la mobilité automobile sont pleinement éligibles.</p>
 
-<h2>Les modèles disponibles en leasing social en 2025</h2>
+<h2>Les modèles disponibles en leasing social en 2026</h2>
 
 <p>Les véhicules proposés sont sélectionnés par l'État en concertation avec les constructeurs partenaires. Pour figurer au catalogue, un modèle doit être 100 % électrique, obtenir un score environnemental ADEME suffisant (fabrication en Europe), et afficher un prix catalogue inférieur à 47 000 euros TTC. Les constructeurs s'engagent sur des volumes dédiés et des marges réduites dans le cadre de ce partenariat public-privé.</p>
 
@@ -1309,7 +1309,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Déjà proposée lors de la première édition 2024, la Peugeot e-208 reste au catalogue. Comptez environ 100 à 120 euros par mois pour la version 50 kWh offrant 400 km WLTP. Produite à Kenitra (Maroc), son score environnemental est validé par l'ADEME. Ses atouts : une puissance de 156 ch offrant un vrai punch en conduite, un design attractif, un intérieur premium avec le i-Cockpit Peugeot, et le réseau SAV Peugeot le plus dense de France. Ses limites : un coffre compact de 265 litres et un prix avant subvention plus élevé que la e-C3.</p>
 
 <h3>Fiat Grande Panda : la nouveauté familiale</h3>
-<p>Nouveauté 2025, la Fiat Grande Panda (4,07 m) est une citadine compacte au design sympathique inspiré de la Panda historique. Son prix d'environ 25 000 euros et son autonomie de 320 km WLTP en font une alternative intéressante à la e-C3. Produite à Kragujevac (Serbie), son éligibilité au score environnemental est confirmée. Loyer social estimé autour de 80 à 100 euros par mois. Son atout distinctif : un espace intérieur étonnamment généreux pour sa catégorie, avec 5 vraies places et un coffre de 361 litres, supérieur à tous ses concurrents directs.</p>
+<p>Nouveauté 2026, la Fiat Grande Panda (4,07 m) est une citadine compacte au design sympathique inspiré de la Panda historique. Son prix d'environ 25 000 euros et son autonomie de 320 km WLTP en font une alternative intéressante à la e-C3. Produite à Kragujevac (Serbie), son éligibilité au score environnemental est confirmée. Loyer social estimé autour de 80 à 100 euros par mois. Son atout distinctif : un espace intérieur étonnamment généreux pour sa catégorie, avec 5 vraies places et un coffre de 361 litres, supérieur à tous ses concurrents directs.</p>
 
 <h3>Autres modèles potentiels</h3>
 <p>Le Skoda Elroq (33 900 euros, 370 à 560 km WLTP) pourrait rejoindre le catalogue si le gouvernement élargit le dispositif. La Dacia Spring (18 900 euros) figure au catalogue avec un loyer ultra-bas (environ 40 euros par mois), mais son autonomie limitée (225 km WLTP) et son assemblage chinois (éligibilité au score environnemental incertaine) la rendent moins attractive. La MG4, malgré son excellent rapport prestations/prix, reste incertaine en raison de son assemblage en Chine qui pourrait la disqualifier au score environnemental.</p>
@@ -1323,7 +1323,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>La plateforme officielle ouvre à une date annoncée par le gouvernement, généralement en janvier. L'ouverture est communiquée plusieurs semaines à l'avance via les médias et le site du ministère de la Transition écologique. Lors de la pré-inscription, vous renseignez votre numéro fiscal, votre situation professionnelle, votre département de résidence et vos préférences de modèle (1er et 2e choix). Un numéro de dossier vous est attribué instantanément. Conseil crucial : inscrivez-vous dans les premières heures de l'ouverture. Lors de la campagne 2024, les dossiers ont été saturés en quelques semaines. Préparez tous vos documents à l'avance.</p>
 
 <h3>Étape 3 : vérification automatique</h3>
-<p>L'ASP vérifie automatiquement votre RFR via un croisement avec les bases de données de la DGFIP (Direction Générale des Finances Publiques). Pas besoin d'envoyer votre avis d'imposition — tout est dématérialisé. Vous recevez une confirmation d'éligibilité par email sous 48 à 72 heures. En cas de rejet, le motif est indiqué (RFR trop élevé, condition de mobilité non remplie, etc.).</p>
+<p>L'ASP vérifie automatiquement votre RFR via un croisement avec les bases de données de la DGFIP (Direction Générale des Finances Publiques). Pas besoin d'envoyer votre avis d'imposition : tout est dématérialisé. Vous recevez une confirmation d'éligibilité par email sous 48 à 72 heures. En cas de rejet, le motif est indiqué (RFR trop élevé, condition de mobilité non remplie, etc.).</p>
 
 <h3>Étape 4 : choix du véhicule et du concessionnaire</h3>
 <p>Une fois éligible, vous accédez à la liste des concessionnaires partenaires dans votre département. Vous choisissez un modèle parmi ceux disponibles (la disponibilité dépend du stock et du constructeur) et prenez rendez-vous avec le concessionnaire. Celui-ci vérifie votre permis, vous présente le véhicule, et prépare le contrat de location. Vous pouvez demander un essai avant de signer.</p>
@@ -1415,9 +1415,9 @@ export const pagesAcheter: PageAcheter[] = [
 </ul>`,
   },
   {
-    slug: "meilleure-voiture-electrique-2025",
-    titre: "Meilleure VE 2025 : classement",
-    h1: "Meilleure voiture électrique 2025 — classement complet",
+    slug: "meilleure-voiture-electrique-2026",
+    titre: "Meilleure VE 2026 : classement",
+    h1: "Meilleure voiture électrique 2026 : classement complet",
     metaDescription: "Meilleures voitures électriques 2026 : top citadine, meilleur rapport qualité-prix, SUV familial et premium. Classement indépendant avec prix et autonomie.",
     contenu: `<h2>Méthodologie de notre classement</h2>
 <p>Établir un classement des meilleures voitures électriques est un exercice délicat tant les critères varient selon les profils d'acheteurs. Un célibataire urbain n'a pas les mêmes besoins qu'une famille de quatre personnes parcourant 50 000 km par an. C'est pourquoi nous avons adopté une approche par catégorie, en distinguant les usages et les budgets.</p>
@@ -1425,28 +1425,28 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Ce classement est mis à jour trimestriellement pour intégrer les nouveaux modèles, les baisses de prix et les retours d'expérience des propriétaires.</p>
 
 <h2>Meilleure voiture électrique polyvalente : Tesla Model Y</h2>
-<p>Le Tesla Model Y conserve la première place du classement général en 2025, et ce n'est pas un hasard. Le SUV compact américain combine une autonomie réelle de 420 à 480 km selon la version (Grande Autonomie ou Performance), une recharge rapide parmi les plus efficaces du marché (15 minutes pour récupérer 200 km sur Supercharger V3), un espace intérieur remarquable pour sa catégorie, et un coût total de possession imbattable grâce à sa faible décote et ses coûts d'entretien quasi nuls.</p>
+<p>Le Tesla Model Y conserve la première place du classement général en 2026, et ce n'est pas un hasard. Le SUV compact américain combine une autonomie réelle de 420 à 480 km selon la version (Grande Autonomie ou Performance), une recharge rapide parmi les plus efficaces du marché (15 minutes pour récupérer 200 km sur Supercharger V3), un espace intérieur remarquable pour sa catégorie, et un coût total de possession imbattable grâce à sa faible décote et ses coûts d'entretien quasi nuls.</p>
 <p>La version restylée (« Juniper ») arrivée début 2025 a corrigé les principaux défauts du modèle précédent : nouveau design intérieur plus qualitatif, meilleure insonorisation, suspension recalibrée pour le confort, et écran arrière pour les passagers. Le prix d'entrée à 44 990 € (version Propulsion) reste compétitif face à une concurrence européenne souvent plus chère pour des prestations équivalentes.</p>
 <p>Points forts : réseau Supercharger le plus étendu d'Europe (15 000+ bornes), mises à jour logicielles régulières améliorant les fonctionnalités, excellente valeur résiduelle. Points faibles : qualité d'assemblage encore perfectible selon les lots, absence de CarPlay/Android Auto, SAV parfois aléatoire.</p>
 
 <h2>Meilleure citadine électrique : Renault 5 E-Tech</h2>
-<p>La Renault 5 E-Tech est la révélation de 2024-2025. Ce n'est pas seulement une voiture électrique compétente — c'est un modèle qui donne envie de passer à l'électrique. Son design néo-rétro irrésistible, son habitacle coloré et bien pensé, et son comportement routier vif en font la citadine électrique la plus désirable du marché.</p>
+<p>La Renault 5 E-Tech est la révélation de 2024-2025. Ce n'est pas seulement une voiture électrique compétente : c'est un modèle qui donne envie de passer à l'électrique. Son design néo-rétro irrésistible, son habitacle coloré et bien pensé, et son comportement routier vif en font la citadine électrique la plus désirable du marché.</p>
 <p>Au-delà du style, les fondamentaux sont excellents : 400 km d'autonomie WLTP en version 52 kWh (environ 320-350 km réels en ville/périphérie), recharge rapide de 15 à 80 % en 30 minutes (100 kW), et un prix d'entrée à 25 000 € (version Évolution 40 kWh) qui la place en concurrence directe avec une Peugeot 208 thermique bien équipée.</p>
 <p>Produite à Douai dans le nord de la France, elle bénéficie du score environnemental maximal et de toutes les aides (bonus + prime conversion). Pour un ménage modeste utilisant le leasing social, c'est le choix optimal en termes de rapport plaisir/coût. Sa valeur résiduelle devrait être excellente grâce à son statut iconique.</p>
 
 <h2>Meilleur budget : Citroën ë-C3</h2>
 <p>Avec un prix de lancement à 23 300 € (avant bonus), la Citroën ë-C3 est la voiture électrique neuve la moins chère du marché français qui offre un espace et une autonomie véritablement utilisables au quotidien. Ses 320 km WLTP (environ 250-280 km réels) suffisent pour 95 % des trajets quotidiens des Français, et sa recharge rapide en courant continu (100 kW, 20 à 80 % en 26 minutes) la rend capable d'effectuer des trajets plus longs occasionnellement.</p>
-<p>Le confort est étonnamment bon pour ce prix grâce à la suspension Progressive Hydraulic Cushions héritée de Citroën, et l'habitacle est spacieux (4,01 m de long, 310 litres de coffre). Les finitions sont modestes mais honnêtes — Citroën assume un positionnement de voiture essentielle plutôt que technologique.</p>
+<p>Le confort est étonnamment bon pour ce prix grâce à la suspension Progressive Hydraulic Cushions héritée de Citroën, et l'habitacle est spacieux (4,01 m de long, 310 litres de coffre). Les finitions sont modestes mais honnêtes. Citroën assume un positionnement de voiture essentielle plutôt que technologique.</p>
 <p>Après déduction du bonus (4 000 € pour les ménages modestes à 7 000 € pour les très modestes), la ë-C3 descend à 16 300 - 19 300 €, un prix historiquement bas pour une voiture électrique neuve avec garantie 8 ans sur la batterie.</p>
 
 <h2>Meilleur SUV familial : Renault Scenic E-Tech</h2>
 <p>Le Renault Scenic E-Tech electric a surpris tout le monde en 2024 en offrant une combinaison rarement vue : un espace de monospace familial (coffre de 545 litres, espace aux jambes arrière de référence), une autonomie XXL de 625 km WLTP en version Grande Autonomie (87 kWh, environ 500-530 km réels sur autoroute), et un confort de conduite exemplaire avec un châssis parfaitement calibré.</p>
-<p>Sa plateforme CMF-EV de nouvelle génération lui permet d'accepter la recharge rapide jusqu'à 150 kW (version 87 kWh), soit un 15-80 % en 37 minutes. Pour une famille parcourant 1 000 km de vacances, cela signifie seulement deux arrêts recharge de 30-35 minutes — parfaitement compatible avec les pauses enfants.</p>
+<p>Sa plateforme CMF-EV de nouvelle génération lui permet d'accepter la recharge rapide jusqu'à 150 kW (version 87 kWh), soit un 15-80 % en 37 minutes. Pour une famille parcourant 1 000 km de vacances, cela signifie seulement deux arrêts recharge de 30-35 minutes, parfaitement compatible avec les pauses enfants.</p>
 <p>À 41 700 € en version de base (Techno, 60 kWh, 420 km), il est certes plus cher qu'un Scenic thermique, mais le bonus écologique et l'économie de carburant (environ 2 000 €/an pour 15 000 km) rééquilibrent le TCO sur 5 ans. C'est notre recommandation numéro un pour les familles.</p>
 
 <h2>Meilleure berline premium : BMW i4</h2>
-<p>La BMW i4 est la meilleure berline électrique de son segment en 2025, surpassant la Tesla Model 3 en qualité de fabrication et en agrément de conduite. Sa version eDrive40 (340 ch, 590 km WLTP) offre un équilibre parfait entre performance, autonomie et prix (à partir de 58 600 €), tandis que la M50 (544 ch) satisfait les amateurs de sensations fortes.</p>
-<p>L'i4 brille par son chassis exceptionnel — c'est avant tout une BMW de la série 4 et elle hérite de la précision de direction et du dynamisme caractéristiques de la marque. L'intérieur iDrive 8.5 est le meilleur système d'infodivertissement du marché (réactivité, graphismes, intégration CarPlay/Android Auto), et la qualité des matériaux justifie le positionnement premium.</p>
+<p>La BMW i4 est la meilleure berline électrique de son segment en 2026, surpassant la Tesla Model 3 en qualité de fabrication et en agrément de conduite. Sa version eDrive40 (340 ch, 590 km WLTP) offre un équilibre parfait entre performance, autonomie et prix (à partir de 58 600 €), tandis que la M50 (544 ch) satisfait les amateurs de sensations fortes.</p>
+<p>L'i4 brille par son chassis exceptionnel : c'est avant tout une BMW de la série 4 et elle hérite de la précision de direction et du dynamisme caractéristiques de la marque. L'intérieur iDrive 8.5 est le meilleur système d'infodivertissement du marché (réactivité, graphismes, intégration CarPlay/Android Auto), et la qualité des matériaux justifie le positionnement premium.</p>
 <p>La recharge rapide atteint 205 kW en pic, autorisant un 10-80 % en 31 minutes sur les bornes les plus rapides. Son seul défaut : un coffre limité par la forme berline (470 litres) et un poids conséquent (2 125 kg) qui se ressent en consommation autoroutière.</p>
 
 <h2>Meilleure autonomie : Renault Scenic E-Tech 87 kWh</h2>
@@ -1460,14 +1460,14 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Son principal défi reste le réseau après-vente encore limité en France (une vingtaine de points de service) et une valeur résiduelle incertaine pour une marque encore méconnue du grand public français. Mais pour les acheteurs rationnels focalisés sur les prestations plutôt que sur le badge, la BYD Seal est un choix remarquable.</p>
 
 <h2>Meilleur rapport qualité-prix : MG4</h2>
-<p>La MG4 reste en 2025 l'électrique offrant le meilleur ratio prestations/prix du marché. À partir de 29 990 € (version Standard 51 kWh, 350 km WLTP), elle propose une plateforme moderne dédiée à l'électrique, une architecture arrière motrice procurant un plaisir de conduite réel, et un équipement complet dès la version de base (écran 10,25", caméra de recul, aide au stationnement, régulateur adaptatif).</p>
+<p>La MG4 reste en 2026 l'électrique offrant le meilleur ratio prestations/prix du marché. À partir de 29 990 € (version Standard 51 kWh, 350 km WLTP), elle propose une plateforme moderne dédiée à l'électrique, une architecture arrière motrice procurant un plaisir de conduite réel, et un équipement complet dès la version de base (écran 10,25", caméra de recul, aide au stationnement, régulateur adaptatif).</p>
 <p>La version Extended Range (64 kWh, 450 km WLTP) à 33 990 € est le sweet spot de la gamme : elle offre une autonomie suffisante pour la quasi-totalité des usages sans exploser le budget. Et la version Trophy Long Range (77 kWh, 520 km, 245 ch) à 37 990 € rivalise avec des modèles vendus 10 000 € plus cher.</p>
 <p>Les compromis de la MG4 sont connus : finitions intérieures correctes sans plus, insonorisation perfectible à haute vitesse, et recharge rapide plafonnée à 135 kW (30 minutes de 10 à 80 %). Mais à ce niveau de prix, aucune concurrente européenne ne peut aligner autant d'arguments. C'est le choix rationnel par excellence pour le budget-conscious.</p>
 
 <h2>Tableau récapitulatif</h2>
 <p>Pour vous aider à choisir rapidement, voici un résumé de nos recommandations :</p>
 <p>Usage urbain quotidien et petit budget → Citroën ë-C3 (à partir de 23 300 €). Usage urbain avec plaisir de conduite → Renault 5 E-Tech (à partir de 25 000 €). Usage familial et longs trajets → Renault Scenic E-Tech (à partir de 41 700 €). Polyvalence maximale → Tesla Model Y (à partir de 44 990 €). Performance et premium → BMW i4 (à partir de 58 600 €). Budget serré, polyvalence → MG4 (à partir de 29 990 €). Technologie chinoise haut de gamme → BYD Seal (à partir de 46 990 €).</p>
-<p>Quel que soit votre choix, 2025 est probablement la meilleure année pour passer à l'électrique : les prix baissent, l'autonomie augmente, le réseau de recharge s'étoffe (100 000 points de charge en France), et les aides restent généreuses. La prochaine étape ? Essayer les modèles qui vous intéressent chez un concessionnaire ou via un service de location courte durée.</p>
+<p>Quel que soit votre choix, 2026 est probablement la meilleure année pour passer à l'électrique : les prix baissent, l'autonomie augmente, le réseau de recharge s'étoffe (100 000 points de charge en France), et les aides restent généreuses. La prochaine étape ? Essayer les modèles qui vous intéressent chez un concessionnaire ou via un service de location courte durée.</p>
 
 <h2>Les modèles les plus attendus en 2025-2026</h2>
 <p>Le marché de la voiture électrique évolue à un rythme soutenu et plusieurs nouveaux modèles prometteurs vont bouleverser le classement dans les mois à venir. Voici les lancements les plus significatifs à surveiller.</p>
@@ -1475,36 +1475,36 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Volkswagen ID.2all (fin 2025/début 2026) :</strong> La citadine abordable de Volkswagen vise un prix d'entrée sous les 25 000 euros avec 450 km d'autonomie WLTP. Si VW tient ses promesses, l'ID.2 pourrait devenir la référence du segment des citadines électriques grâce à la puissance industrielle et au réseau SAV du groupe. Conception allemande, finitions VW, et le système d'infodivertissement corrigé par rapport aux ID.3/ID.4 initiaux.</p>
 <p><strong>Skoda Epiq (2026) :</strong> Le petit SUV urbain de Skoda promet un positionnement agressif sous les 25 000 euros avec un format compact (4,10 m) et l'ADN pratique de la marque (coffre optimisé, rangements astucieux). Construit sur la plateforme MEB Entry du groupe Volkswagen, il devrait offrir 380 à 400 km d'autonomie.</p>
 <p><strong>Hyundai Inster (fin 2025) :</strong> Le micro-SUV électrique de Hyundai (3,83 m) vise le segment des citadines compactes à prix contenu (environ 25 000 euros). Avec 355 km d'autonomie WLTP et un espace intérieur étonnamment modulable, il pourrait séduire les urbains cherchant un véhicule compact mais polyvalent.</p>
-<p><strong>Tesla Model Y restylé « Juniper » :</strong> Déjà disponible depuis début 2025, le restylage du best-seller mondial corrige les défauts principaux (design intérieur, insonorisation, suspension) tout en améliorant l'autonomie de 5 à 10 %. C'est le modèle à acheter si vous hésitez entre un Model Y occasion et un neuf — le Juniper vaut la différence de prix.</p>
+<p><strong>Tesla Model Y restylé « Juniper » :</strong> Déjà disponible depuis début 2025, le restylage du best-seller mondial corrige les défauts principaux (design intérieur, insonorisation, suspension) tout en améliorant l'autonomie de 5 à 10 %. C'est le modèle à acheter si vous hésitez entre un Model Y occasion et un neuf : le Juniper vaut la différence de prix.</p>
 
 <h2>Nos conseils avant l'achat</h2>
 <p>Avant de vous décider, nous recommandons de suivre ces étapes dans l'ordre. Premièrement, définissez votre budget réel en intégrant les aides disponibles (bonus écologique, prime à la conversion, aides régionales) et les économies d'usage sur 5 ans (carburant, entretien, stationnement, péages). Un VE à 35 000 euros avec 7 000 euros d'aides et 2 000 euros par an d'économies de carburant revient effectivement au même prix qu'un thermique à 18 000 euros sur 5 ans.</p>
 <p>Deuxièmement, identifiez votre solution de recharge : borne à domicile (idéal), recharge au travail (très bien), ou bornes publiques exclusivement (faisable mais plus contraignant et plus coûteux). Si vous êtes locataire en copropriété, renseignez-vous sur le droit à la prise avant de vous engager.</p>
 <p>Troisièmement, essayez au minimum 2 à 3 modèles concurrents dans votre budget. Ne vous arrêtez pas à un essai concessionnaire de 15 minutes : louez le modèle qui vous attire le plus pour un week-end complet via Getaround, Virtuo ou un loueur classique. Deux jours de vie réelle avec un VE valent mieux que tous les articles et toutes les vidéos du monde.</p>
-<p>Enfin, ne précipitez pas votre achat par peur de voir les aides diminuer. Les bonus évoluent mais n'ont jamais été supprimés du jour au lendemain. Prenez le temps de faire le bon choix — une voiture que vous garderez 5 à 8 ans mérite quelques semaines de réflexion supplémentaires.</p>`,
+<p>Enfin, ne précipitez pas votre achat par peur de voir les aides diminuer. Les bonus évoluent mais n'ont jamais été supprimés du jour au lendemain. Prenez le temps de faire le bon choix : une voiture que vous garderez 5 à 8 ans mérite quelques semaines de réflexion supplémentaires.</p>`,
   },
   {
     slug: "immatriculation-carte-grise-ve",
     titre: "Carte grise VE : coût et démarches",
-    h1: "Carte grise voiture électrique — guide complet 2025",
+    h1: "Carte grise voiture électrique : guide complet 2026",
     metaDescription: "Carte grise voiture électrique : gratuite dans la plupart des régions. Démarches ANTS, documents nécessaires, délais et tableau des exonérations par région.",
     contenu: `<h2>La carte grise d'un véhicule électrique : un avantage fiscal méconnu</h2>
-<p>L'un des avantages les plus concrets mais souvent ignoré de la voiture électrique est l'exonération totale ou partielle de la taxe régionale sur le certificat d'immatriculation — autrement dit, la carte grise est gratuite ou quasi gratuite pour un véhicule électrique dans la majorité des régions françaises. Cette économie peut représenter plusieurs centaines d'euros par rapport à un véhicule thermique équivalent.</p>
-<p>Le certificat d'immatriculation (communément appelé carte grise) est le document administratif obligatoire pour tout véhicule circulant sur la voie publique. Il est délivré par le Système d'Immatriculation des Véhicules (SIV) géré par l'Agence Nationale des Titres Sécurisés (ANTS). Depuis 2017, toutes les démarches se font exclusivement en ligne — plus aucun guichet physique en préfecture n'accepte les demandes de carte grise.</p>
+<p>L'un des avantages les plus concrets mais souvent ignoré de la voiture électrique est l'exonération totale ou partielle de la taxe régionale sur le certificat d'immatriculation, autrement dit, la carte grise est gratuite ou quasi gratuite pour un véhicule électrique dans la majorité des régions françaises. Cette économie peut représenter plusieurs centaines d'euros par rapport à un véhicule thermique équivalent.</p>
+<p>Le certificat d'immatriculation (communément appelé carte grise) est le document administratif obligatoire pour tout véhicule circulant sur la voie publique. Il est délivré par le Système d'Immatriculation des Véhicules (SIV) géré par l'Agence Nationale des Titres Sécurisés (ANTS). Depuis 2017, toutes les démarches se font exclusivement en ligne : plus aucun guichet physique en préfecture n'accepte les demandes de carte grise.</p>
 <p>Le coût d'une carte grise est composé de plusieurs taxes : la taxe régionale (Y1), la taxe de gestion (Y4), la taxe sur les émissions de CO₂ (malus, Y3), la redevance d'acheminement (Y5), et éventuellement la taxe sur les véhicules de forte puissance (Y6). Pour un véhicule électrique, plusieurs de ces taxes sont nulles ou exonérées.</p>
 
 <h2>Exonération de la taxe régionale : la situation par région</h2>
-<p>La taxe régionale (ligne Y1 du certificat d'immatriculation) est calculée en multipliant la puissance fiscale du véhicule (en chevaux fiscaux, CV) par le tarif unitaire fixé annuellement par chaque conseil régional. En 2025, ce tarif varie de 27 € (Corse) à 55 € (Île-de-France, Centre-Val de Loire, PACA) par cheval fiscal.</p>
+<p>La taxe régionale (ligne Y1 du certificat d'immatriculation) est calculée en multipliant la puissance fiscale du véhicule (en chevaux fiscaux, CV) par le tarif unitaire fixé annuellement par chaque conseil régional. En 2026, ce tarif varie de 27 € (Corse) à 55 € (Île-de-France, Centre-Val de Loire, PACA) par cheval fiscal.</p>
 <p>Pour les véhicules à énergie électrique (type EL sur la carte grise) ou hydrogène (type H2), la quasi-totalité des régions accordent une exonération totale (100 %) de cette taxe :</p>
 <p><strong>Exonération totale (100 %) :</strong> Auvergne-Rhône-Alpes, Bourgogne-Franche-Comté, Bretagne, Centre-Val de Loire, Corse, Grand Est, Hauts-de-France, Île-de-France, Normandie, Nouvelle-Aquitaine, Occitanie, Pays de la Loire, Provence-Alpes-Côte d'Azur.</p>
-<p><strong>Exonération partielle (50 %) :</strong> Aucune région en 2025 — toutes sont passées à l'exonération totale.</p>
-<p>Concrètement, pour un Tesla Model Y (9 CV fiscaux) en Île-de-France, la taxe régionale qui serait de 9 × 55 = 495 € pour un véhicule thermique est réduite à 0 € pour la version électrique. Cette économie s'applique à chaque changement de propriétaire — un avantage supplémentaire à la revente.</p>
+<p><strong>Exonération partielle (50 %) :</strong> Aucune région en 2026 : toutes sont passées à l'exonération totale.</p>
+<p>Concrètement, pour un Tesla Model Y (9 CV fiscaux) en Île-de-France, la taxe régionale qui serait de 9 × 55 = 495 € pour un véhicule thermique est réduite à 0 € pour la version électrique. Cette économie s'applique à chaque changement de propriétaire, un avantage supplémentaire à la revente.</p>
 
 <h2>Autres exonérations pour les VE</h2>
-<p><strong>Malus écologique (taxe CO₂) :</strong> Les véhicules 100 % électriques émettant 0 g/km de CO₂ sont naturellement exemptés du malus écologique. En 2025, le malus peut atteindre 60 000 € pour les véhicules les plus émetteurs (à partir de 118 g/km), ce qui rend l'exonération particulièrement significative pour les véhicules puissants comme les SUV électriques qui auraient été lourdement taxés en version thermique.</p>
+<p><strong>Malus écologique (taxe CO₂) :</strong> Les véhicules 100 % électriques émettant 0 g/km de CO₂ sont naturellement exemptés du malus écologique. En 2026, le malus peut atteindre 60 000 € pour les véhicules les plus émetteurs (à partir de 118 g/km), ce qui rend l'exonération particulièrement significative pour les véhicules puissants comme les SUV électriques qui auraient été lourdement taxés en version thermique.</p>
 <p><strong>Malus au poids :</strong> Depuis 2022, un malus au poids s'applique aux véhicules dépassant 1 800 kg. Bonne nouvelle : les véhicules électriques bénéficient d'un abattement de 200 kg dans le calcul. Un véhicule électrique de 2 000 kg est donc considéré comme pesant 1 800 kg, soit juste au seuil. De plus, jusqu'à fin 2025, les véhicules électriques sont totalement exemptés de ce malus au poids.</p>
 <p><strong>Taxe de gestion et redevance d'acheminement :</strong> La taxe fixe de gestion de 11 € et la redevance d'acheminement de 2,76 € restent dues quel que soit le type de motorisation. Ce sont les seuls frais incompressibles pour une carte grise de véhicule électrique.</p>
-<p>Au total, le coût d'une carte grise pour un véhicule électrique neuf se résume donc à <strong>13,76 €</strong> (11 € + 2,76 €) dans les régions avec exonération totale — contre 500 à 1 500 € pour un véhicule thermique équivalent.</p>
+<p>Au total, le coût d'une carte grise pour un véhicule électrique neuf se résume donc à <strong>13,76 €</strong> (11 € + 2,76 €) dans les régions avec exonération totale, contre 500 à 1 500 € pour un véhicule thermique équivalent.</p>
 
 <h2>Procédure en ligne sur le site ANTS</h2>
 <p>Depuis 2017, toutes les demandes de certificat d'immatriculation se font exclusivement sur le site de l'ANTS (Agence Nationale des Titres Sécurisés) à l'adresse immatriculation.ants.gouv.fr. Voici la procédure détaillée :</p>
@@ -1519,16 +1519,16 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Pour un véhicule neuf acheté en France :</strong></p>
 <p>• Demande de certificat d'immatriculation (formulaire Cerfa 13750*07, pré-rempli en ligne) • Justificatif d'identité en cours de validité (CNI, passeport) • Justificatif de domicile de moins de 6 mois (facture EDF, quittance de loyer, avis d'imposition) • Certificat de vente (ou facture) du véhicule mentionnant le prix, le modèle exact, et les caractéristiques techniques • Certificat de conformité européen (COC) délivré par le constructeur</p>
 <p><strong>Pour un véhicule importé (mandataire UE) :</strong></p>
-<p>• Les mêmes documents que ci-dessus, plus : • Quitus fiscal délivré par le service des impôts (preuve que la TVA a été acquittée en France) • Certificat de conformité européen (COC) — si le véhicule est vendu hors du pays d'origine, un COC individuel est nécessaire • Ancienne carte grise étrangère barrée avec mention « vendu le » ou « cédé le »</p>
+<p>• Les mêmes documents que ci-dessus, plus : • Quitus fiscal délivré par le service des impôts (preuve que la TVA a été acquittée en France) • Certificat de conformité européen (COC). Si le véhicule est vendu hors du pays d'origine, un COC individuel est nécessaire • Ancienne carte grise étrangère barrée avec mention « vendu le » ou « cédé le »</p>
 <p><strong>Pour un véhicule d'occasion :</strong></p>
 <p>• Ancienne carte grise barrée, signée et datée par le vendeur • Certificat de cession (Cerfa 15776*02) signé par les deux parties • Certificat de situation administrative (non-gage) de moins de 15 jours • Contrôle technique de moins de 6 mois (ATTENTION : les véhicules 100 % électriques de moins de 4 ans en sont dispensés au premier contrôle)</p>
 
 <h2>Délais de traitement et cas particuliers</h2>
 <p>Le délai moyen de réception de la carte grise définitive est de 7 à 15 jours ouvrés après validation du dossier. Toutefois, des retards de 3 à 6 semaines sont fréquemment signalés lors des périodes de forte affluence (janvier, septembre). Le CPI vous permet de circuler légalement pendant ce délai.</p>
 <p>En cas de dossier incomplet, l'ANTS vous envoie un message demandant les pièces manquantes. Le dossier est mis en attente et le délai redémarre à zéro une fois les compléments fournis. D'où l'importance de constituer un dossier complet dès le départ.</p>
-<p><strong>Cas particulier — Véhicule de société :</strong> Pour un véhicule immatriculé au nom d'une personne morale, ajoutez un extrait Kbis de moins de 6 mois et une pièce d'identité du représentant légal.</p>
-<p><strong>Cas particulier — Leasing (LOA/LLD) :</strong> Le véhicule est immatriculé au nom du loueur (banque, constructeur). C'est le loueur qui effectue les démarches d'immatriculation. Le locataire n'a aucune démarche à faire — la carte grise arrive directement chez le loueur qui vous la transmet.</p>
-<p><strong>Cas particulier — Véhicule électrique d'occasion importé hors UE :</strong> Un véhicule importé hors UE (Tesla importée des États-Unis par exemple) nécessite une homologation individuelle par la DREAL (Direction Régionale de l'Environnement) ou un RTI (Réception à Titre Isolé). Cette procédure est coûteuse (500 à 2 000 €) et longue (1 à 3 mois). Elle est à éviter sauf pour des modèles non commercialisés en Europe.</p>
+<p><strong>Cas particulier, véhicule de société :</strong> Pour un véhicule immatriculé au nom d'une personne morale, ajoutez un extrait Kbis de moins de 6 mois et une pièce d'identité du représentant légal.</p>
+<p><strong>Cas particulier, leasing (LOA/LLD) :</strong> Le véhicule est immatriculé au nom du loueur (banque, constructeur). C'est le loueur qui effectue les démarches d'immatriculation. Le locataire n'a aucune démarche à faire : la carte grise arrive directement chez le loueur qui vous la transmet.</p>
+<p><strong>Cas particulier, véhicule électrique d'occasion importé hors UE :</strong> Un véhicule importé hors UE (Tesla importée des États-Unis par exemple) nécessite une homologation individuelle par la DREAL (Direction Régionale de l'Environnement) ou un RTI (Réception à Titre Isolé). Cette procédure est coûteuse (500 à 2 000 €) et longue (1 à 3 mois). Elle est à éviter sauf pour des modèles non commercialisés en Europe.</p>
 
 <h2>Lien avec le bonus écologique et les aides</h2>
 <p>La carte grise est le document qui prouve officiellement que vous êtes propriétaire du véhicule. Elle est donc indispensable pour finaliser votre demande de bonus écologique et de prime à la conversion. Sans carte grise définitive à votre nom, votre dossier d'aide sera rejeté.</p>
@@ -1547,7 +1547,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Plaque d'immatriculation verte : réglementation et avantages</h2>
 <p>Depuis 2020, les véhicules à très faibles émissions (100 % électrique et hydrogène) peuvent arborer une plaque d'immatriculation avec un bandeau latéral vert à gauche, en remplacement du bandeau bleu standard européen. Cette plaque verte n'est pas obligatoire mais offre des avantages pratiques dans certaines villes : stationnement gratuit ou à tarif réduit (Paris, Lyon, Bordeaux, Strasbourg, Nice et une trentaine d'autres municipalités), accès facilité aux ZFE sans vérification de vignette Crit'Air, et identification visuelle rapide par les forces de l'ordre.</p>
-<p>Le coût d'une paire de plaques vertes est identique à celui des plaques standard (environ 20 à 30 euros chez un fabricant agréé SIV). Vous pouvez remplacer vos plaques bleues par des plaques vertes à tout moment sans démarche administrative — la plaque ne modifie pas l'immatriculation, seule la couleur du bandeau change. En revanche, vous devez toujours apposer la vignette Crit'Air 0 sur le pare-brise, même avec des plaques vertes.</p>
+<p>Le coût d'une paire de plaques vertes est identique à celui des plaques standard (environ 20 à 30 euros chez un fabricant agréé SIV). Vous pouvez remplacer vos plaques bleues par des plaques vertes à tout moment sans démarche administrative : la plaque ne modifie pas l'immatriculation, seule la couleur du bandeau change. En revanche, vous devez toujours apposer la vignette Crit'Air 0 sur le pare-brise, même avec des plaques vertes.</p>
 
 <h2>FAQ : les questions fréquentes sur la carte grise VE</h2>
 <p><strong>Mon véhicule hybride rechargeable bénéficie-t-il de l'exonération ?</strong> Les véhicules hybrides rechargeables (PHEV) bénéficient de l'exonération à 50 % de la taxe régionale dans la plupart des régions, et non de l'exonération totale réservée aux véhicules 100 % électriques (EL) et hydrogène (H2). Vérifiez le champ P3 de la carte grise : la source d'énergie doit être « EL » pour l'exonération totale.</p>
@@ -1558,7 +1558,7 @@ export const pagesAcheter: PageAcheter[] = [
   {
     slug: "garantie-voiture-electrique",
     titre: "Garantie VE : ce que couvre le constructeur",
-    h1: "Garantie voiture électrique — guide complet 2025",
+    h1: "Garantie voiture électrique : guide complet 2026",
     metaDescription: "Garantie voiture électrique : durée par marque (8 ans batterie), couverture, exclusions et extensions. Comparatif constructeur par constructeur en tableau.",
     contenu: `<h2>La garantie constructeur : deux composantes distinctes</h2>
 <p>La garantie d'une voiture électrique se décompose en deux éléments fondamentaux qui obéissent à des durées et des conditions différentes : la garantie véhicule (carrosserie, châssis, électronique, habitacle) et la garantie batterie de traction (le composant le plus coûteux, représentant 30 à 40 % du prix du véhicule).</p>
@@ -1566,10 +1566,10 @@ export const pagesAcheter: PageAcheter[] = [
 <p>La garantie batterie est spécifique aux véhicules électriques et hybrides rechargeables. Elle protège contre la dégradation excessive de la capacité de stockage et contre les défaillances techniques du pack batterie. La norme du marché s'est établie à 8 ans ou 160 000 km, mais les conditions exactes varient considérablement d'un constructeur à l'autre.</p>
 
 <h2>Garantie véhicule par marque : durées et conditions</h2>
-<p><strong>Tesla :</strong> 4 ans ou 80 000 km (ce qui survient en premier). Couvre tous les défauts de matériaux et de fabrication. Les pièces d'usure (plaquettes, essuie-glaces, pneus) sont exclues. La peinture est garantie séparément : 4 ans anticorrosion, mais seulement 1 an pour les défauts de peinture cosmétiques — un point souvent critiqué par les propriétaires.</p>
+<p><strong>Tesla :</strong> 4 ans ou 80 000 km (ce qui survient en premier). Couvre tous les défauts de matériaux et de fabrication. Les pièces d'usure (plaquettes, essuie-glaces, pneus) sont exclues. La peinture est garantie séparément : 4 ans anticorrosion, mais seulement 1 an pour les défauts de peinture cosmétiques, un point souvent critiqué par les propriétaires.</p>
 <p><strong>Renault :</strong> 2 ans kilométrage illimité + extension possible à 3, 4 ou 5 ans via le contrat Renault Extension de Garantie (payant, environ 500 à 900 €/an). La garantie anticorrosion de perforation est de 12 ans.</p>
-<p><strong>Hyundai :</strong> 5 ans ou 100 000 km — l'une des meilleures du marché européen. Couvre l'intégralité du véhicule y compris le système électrique haute tension. Garantie anticorrosion de 12 ans.</p>
-<p><strong>Kia :</strong> 7 ans ou 150 000 km — la garantie constructeur la plus longue d'Europe. Transferable au second propriétaire (ce qui soutient la valeur résiduelle). Une référence dans l'industrie.</p>
+<p><strong>Hyundai :</strong> 5 ans ou 100 000 km, l'une des meilleures du marché européen. Couvre l'intégralité du véhicule y compris le système électrique haute tension. Garantie anticorrosion de 12 ans.</p>
+<p><strong>Kia :</strong> 7 ans ou 150 000 km, la garantie constructeur la plus longue d'Europe. Transferable au second propriétaire (ce qui soutient la valeur résiduelle). Une référence dans l'industrie.</p>
 <p><strong>BMW :</strong> 2 ans kilométrage illimité. Extension possible jusqu'à 5 ans avec BMW Extend. La garantie de base est courte mais le programme BSI (Battery State Information) assure un suivi transparent de l'état de la batterie.</p>
 <p><strong>Mercedes :</strong> 2 ans kilométrage illimité + extension possible. Programme Mercedes me avec suivi de l'état de la batterie via l'application.</p>
 <p><strong>Volkswagen (ID.) :</strong> 2 ans kilométrage illimité + extension possible à 3 ou 4 ans. La garantie anticorrosion est de 12 ans.</p>
@@ -1582,7 +1582,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Renault :</strong> 8 ans ou 160 000 km avec garantie de 70 % de capacité. Avant 2020, Renault proposait la location de batterie (séparée du véhicule) avec remplacement gratuit en cas de dégradation sous 75 %. Ce système a été abandonné pour les nouveaux modèles.</p>
 <p><strong>Hyundai/Kia :</strong> 8 ans ou 160 000 km avec garantie de 70 %. Le groupe Hyundai-Kia est reconnu pour la fiabilité exceptionnelle de ses batteries (chimie CATL et SK On) avec des taux de remplacement sous garantie inférieurs à 0,5 %.</p>
 <p><strong>BMW :</strong> 8 ans ou 160 000 km avec garantie de 70 %. BMW propose en complément le programme Battery Guard qui surveille en continu l'état de santé de la batterie via l'application My BMW et alerte en cas d'anomalie.</p>
-<p><strong>Mercedes :</strong> 10 ans ou 250 000 km sur les modèles EQ récents — l'une des garanties batterie les plus longues du marché. Seuil : 70 %.</p>
+<p><strong>Mercedes :</strong> 10 ans ou 250 000 km sur les modèles EQ récents, l'une des garanties batterie les plus longues du marché. Seuil : 70 %.</p>
 <p><strong>Volkswagen :</strong> 8 ans ou 160 000 km avec garantie de 70 %. VW s'engage par écrit à ce que ses batteries ID. conservent au minimum 70 % après 8 ans dans des conditions d'utilisation normales.</p>
 
 <h2>Ce qui est couvert et ce qui ne l'est pas</h2>
@@ -1598,8 +1598,8 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Transfert de garantie et marché de l'occasion</h2>
 <p>La transferabilité de la garantie au second propriétaire est un critère important pour la valeur résiduelle d'un véhicule électrique. Les politiques varient selon les constructeurs :</p>
-<p><strong>Garantie entièrement transférable :</strong> Kia (7 ans transférables), Hyundai (5 ans), BYD (6 ans), MG (7 ans). Ces marques ne conditionnent pas la garantie au propriétaire initial — l'acheteur d'occasion bénéficie du solde de garantie restant.</p>
-<p><strong>Garantie partiellement transférable :</strong> Tesla (la garantie suit le véhicule, pas le propriétaire — entièrement transférable), BMW, Mercedes, Volkswagen. La garantie de base est transférable, mais les extensions de garantie souscrites ne le sont généralement pas.</p>
+<p><strong>Garantie entièrement transférable :</strong> Kia (7 ans transférables), Hyundai (5 ans), BYD (6 ans), MG (7 ans). Ces marques ne conditionnent pas la garantie au propriétaire initial : l'acheteur d'occasion bénéficie du solde de garantie restant.</p>
+<p><strong>Garantie partiellement transférable :</strong> Tesla (la garantie suit le véhicule, pas le propriétaire, entièrement transférable), BMW, Mercedes, Volkswagen. La garantie de base est transférable, mais les extensions de garantie souscrites ne le sont généralement pas.</p>
 <p><strong>Garantie avec conditions :</strong> Renault exige que l'entretien ait été réalisé dans le réseau agréé pour maintenir la garantie. Un défaut d'entretien documenté peut entraîner le refus de prise en charge.</p>
 <p>Pour l'acheteur d'occasion, vérifiez toujours : la date de première immatriculation (début de la garantie), le kilométrage actuel (vs le plafond), et l'historique d'entretien (carnet d'entretien tamponné ou historique numérique dans l'application constructeur).</p>
 
@@ -1636,23 +1636,23 @@ export const pagesAcheter: PageAcheter[] = [
   {
     slug: "decote-voiture-electrique",
     titre: "Décote VE : valeur résiduelle",
-    h1: "Décote voiture électrique — guide complet 2025",
+    h1: "Décote voiture électrique : guide complet 2026",
     metaDescription: "Décote voiture électrique : 45-55 % en 4 ans en moyenne. Quels modèles résistent le mieux ? Facteurs clés et 7 conseils pour maximiser votre prix de revente.",
-    contenu: `<h2>La décote des véhicules électriques : état des lieux 2025</h2>
-<p>La décote — la perte de valeur d'un véhicule entre son prix d'achat et sa valeur de revente — est l'une des préoccupations majeures des acheteurs de voitures électriques, et à juste titre : dans les premières années du marché, les VE pouvaient perdre jusqu'à 60 à 70 % de leur valeur en seulement quatre ans, un rythme de dépréciation bien supérieur à celui des thermiques. Ces chiffres alarmants s'expliquaient par l'obsolescence technologique rapide (des batteries de 24 kWh rendues dérisoires par des modèles à 60 kWh quelques années plus tard), par l'absence d'un véritable marché de l'occasion structuré, et par la méfiance généralisée quant à la durabilité des batteries.</p>
-<p>En 2025, le paysage a radicalement changé. La décote moyenne d'un véhicule électrique sur 4 ans se situe désormais entre 45 et 52 %, contre 38 à 46 % pour un véhicule thermique équivalent. L'écart, qui était de 15 à 20 points en 2020, s'est réduit à 5 à 8 points en 2025. Cette convergence s'accélère grâce à trois facteurs structurels : la maturation du marché de l'occasion électrique (plus de 200 000 VE d'occasion vendus en France en 2024), la démonstration empirique de la durabilité des batteries (les craintes initiales de dégradation rapide se sont avérées largement infondées, avec des batteries conservant 85 à 92 % de capacité après 5 ans), et la hausse tendancielle des prix du carburant qui rend l'occasion électrique financièrement très attractive pour les acheteurs.</p>
-<p>Cependant, des disparités considérables persistent entre marques, modèles et configurations. Un Tesla Model 3 de 2021 conserve environ 58 à 62 % de sa valeur en 2025, tandis qu'une Renault Zoe de même millésime n'en conserve que 32 à 40 %. Un Kia EV6 tient sa cote à 55 %, quand une MG ZS EV première génération ne vaut plus que 35 % de son prix d'achat. Comprendre les facteurs qui déterminent la décote est indispensable pour faire un choix d'achat éclairé et protéger votre investissement.</p>
+    contenu: `<h2>La décote des véhicules électriques : état des lieux 2026</h2>
+<p>La décote (la perte de valeur d'un véhicule entre son prix d'achat et sa valeur de revente) est l'une des préoccupations majeures des acheteurs de voitures électriques, et à juste titre : dans les premières années du marché, les VE pouvaient perdre jusqu'à 60 à 70 % de leur valeur en seulement quatre ans, un rythme de dépréciation bien supérieur à celui des thermiques. Ces chiffres alarmants s'expliquaient par l'obsolescence technologique rapide (des batteries de 24 kWh rendues dérisoires par des modèles à 60 kWh quelques années plus tard), par l'absence d'un véritable marché de l'occasion structuré, et par la méfiance généralisée quant à la durabilité des batteries.</p>
+<p>En 2026, le paysage a radicalement changé. La décote moyenne d'un véhicule électrique sur 4 ans se situe désormais entre 45 et 52 %, contre 38 à 46 % pour un véhicule thermique équivalent. L'écart, qui était de 15 à 20 points en 2020, s'est réduit à 5 à 8 points en 2026. Cette convergence s'accélère grâce à trois facteurs structurels : la maturation du marché de l'occasion électrique (plus de 200 000 VE d'occasion vendus en France en 2024), la démonstration empirique de la durabilité des batteries (les craintes initiales de dégradation rapide se sont avérées largement infondées, avec des batteries conservant 85 à 92 % de capacité après 5 ans), et la hausse tendancielle des prix du carburant qui rend l'occasion électrique financièrement très attractive pour les acheteurs.</p>
+<p>Cependant, des disparités considérables persistent entre marques, modèles et configurations. Un Tesla Model 3 de 2021 conserve environ 58 à 62 % de sa valeur en 2026, tandis qu'une Renault Zoe de même millésime n'en conserve que 32 à 40 %. Un Kia EV6 tient sa cote à 55 %, quand une MG ZS EV première génération ne vaut plus que 35 % de son prix d'achat. Comprendre les facteurs qui déterminent la décote est indispensable pour faire un choix d'achat éclairé et protéger votre investissement.</p>
 
 <h2>Les 8 facteurs qui déterminent la valeur résiduelle d'un VE</h2>
 
 <p>La valeur résiduelle d'un véhicule électrique dépend d'un ensemble de facteurs interconnectés. Les connaître en amont vous permet d'anticiper et d'optimiser votre investissement, que ce soit au moment de l'achat (en choisissant un modèle qui décote peu) ou pendant la détention (en adoptant les bonnes pratiques de préservation).</p>
 
-<p><strong>1. La santé de la batterie (State of Health — SoH)</strong></p>
+<p><strong>1. La santé de la batterie (State of Health, SoH)</strong></p>
 <p>C'est le facteur numéro un, le plus déterminant de tous pour l'acheteur d'occasion. Le SoH exprime le pourcentage de capacité restante de la batterie par rapport à sa capacité d'origine. Un véhicule dont la batterie affiche 95 % de SoH après 4 ans et 60 000 km se vendra 2 000 à 4 000 euros de plus qu'un exemplaire strictement identique dont le SoH est à 82 %. Les acheteurs avertis demandent systématiquement un diagnostic batterie avant l'achat, et cette pratique se généralise via des outils comme Recurrent, Aviloo, ou les diagnostics constructeur.</p>
 <p>Comment préserver votre SoH : maintenez votre charge quotidienne entre 20 et 80 % (la plage optimale pour la longévité chimique des cellules lithium-ion), évitez les recharges rapides DC quotidiennes (1 à 2 fois par semaine maximum), ne laissez pas le véhicule stationner à 100 % ou à 0 % pendant des jours, et garez en intérieur si possible car la chaleur extrême (plus de 35 degrés) est le pire ennemi des batteries. Les batteries LFP (utilisées par Tesla, BYD, certains modèles Renault) supportent mieux les charges à 100 % que les batteries NMC, mais la prudence reste recommandée.</p>
 
 <p><strong>2. L'autonomie originale et la taille de la batterie</strong></p>
-<p>Les modèles à grande autonomie (400+ km WLTP) conservent systématiquement mieux leur valeur que les versions à petite batterie. L'explication est simple : un acheteur d'occasion en 2025 hésitera à investir dans un véhicule offrant 200 km d'autonomie réelle quand les modèles neufs en proposent 350 à 500 pour un prix parfois comparable après aides. Les versions « Short Range » ou « Standard Range » subissent une décote accélérée, souvent 5 à 10 points de plus que la version « Long Range » du même modèle. Le surcoût de 2 000 à 5 000 euros à l'achat pour la grande batterie est quasi systématiquement récupéré à la revente.</p>
+<p>Les modèles à grande autonomie (400+ km WLTP) conservent systématiquement mieux leur valeur que les versions à petite batterie. L'explication est simple : un acheteur d'occasion en 2026 hésitera à investir dans un véhicule offrant 200 km d'autonomie réelle quand les modèles neufs en proposent 350 à 500 pour un prix parfois comparable après aides. Les versions « Short Range » ou « Standard Range » subissent une décote accélérée, souvent 5 à 10 points de plus que la version « Long Range » du même modèle. Le surcoût de 2 000 à 5 000 euros à l'achat pour la grande batterie est quasi systématiquement récupéré à la revente.</p>
 
 <p><strong>3. La marque, la notoriété et le réseau SAV</strong></p>
 <p>Les marques disposant d'un réseau de vente et de service après-vente étendu, d'une notoriété établie dans l'électrique et d'un historique de fiabilité constaté conservent mieux leur valeur. Tesla bénéficie de l'effet « marque technologique premium » comparable à Apple dans la téléphonie. Hyundai-Kia capitalise sur la fiabilité reconnue du groupe et sur la garantie la plus longue du marché (7 ans chez Kia). BMW et Mercedes profitent du prestige séculaire de la marque. À l'inverse, les marques chinoises récemment arrivées en Europe (BYD, MG, Xpeng, Aiways, Seres) souffrent d'un déficit de confiance qui se traduit par une décote accélérée, malgré des produits parfois techniquement excellents.</p>
@@ -1672,7 +1672,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>8. La disponibilité de pièces et la couverture SAV</strong></p>
 <p>Un véhicule dont les pièces détachées sont facilement disponibles et dont le réseau SAV est dense rassure l'acheteur d'occasion. Les marques établies (Renault, Peugeot, Volkswagen, BMW) bénéficient de réseaux de milliers de concessionnaires et garagistes formés en Europe. Les marques chinoises émergentes (Aiways, Seres, Skyworth) dont le réseau est encore embryonnaire voient leur cote pénalisée par le risque d'orphelinat (impossibilité de faire entretenir ou réparer le véhicule si le constructeur se retire du marché européen).</p>
 
-<h2>Classement complet des marques par valeur résiduelle en 2025</h2>
+<h2>Classement complet des marques par valeur résiduelle en 2026</h2>
 
 <h3>Excellente tenue de valeur (perte inférieure à 42 % sur 4 ans)</h3>
 
@@ -1730,11 +1730,11 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p><strong>10. Vendez au bon endroit</strong> : les plateformes spécialisées dans l'électrique (La Centrale avec filtre VE, Automobile Propre Occasions) attirent un public ciblé prêt à payer le juste prix. Les forums de communautés de propriétaires (Tesla Owners Club France, Renault ZE Fans) sont aussi d'excellents canaux de vente entre passionnés. Évitez les reprises en concession qui sous-évaluent systématiquement les VE d'occasion de 10 à 15 % par rapport au prix de marché entre particuliers.</p>
 
-<h2>Le marché de l'occasion électrique en 2025 : tendances et chiffres</h2>
+<h2>Le marché de l'occasion électrique en 2026 : tendances et chiffres</h2>
 
 <p>Le marché de l'occasion électrique connaît une croissance exponentielle en France. En 2024, plus de 200 000 VE d'occasion ont changé de mains, soit une hausse de 45 % par rapport à 2023. Les modèles les plus échangés sont la Renault Zoe (en perte de vitesse mais encore très présente par le volume historique), la Tesla Model 3, la Peugeot e-208, et la Nissan Leaf.</p>
 
-<p>Le prix moyen d'un VE d'occasion en France est de 22 500 euros en 2025, contre 17 800 euros pour un thermique d'occasion. Cet écart reflète le parc plus récent de VE d'occasion (âge moyen de 3,2 ans contre 6,5 ans pour les thermiques) et la valeur intrinsèque de la technologie électrique. Les délais de vente moyen d'un VE d'occasion (25 à 35 jours) sont comparables à ceux des thermiques, signe que le marché est fluide et la demande soutenue.</p>
+<p>Le prix moyen d'un VE d'occasion en France est de 22 500 euros en 2026, contre 17 800 euros pour un thermique d'occasion. Cet écart reflète le parc plus récent de VE d'occasion (âge moyen de 3,2 ans contre 6,5 ans pour les thermiques) et la valeur intrinsèque de la technologie électrique. Les délais de vente moyen d'un VE d'occasion (25 à 35 jours) sont comparables à ceux des thermiques, signe que le marché est fluide et la demande soutenue.</p>
 
 <p>Le profil type de l'acheteur de VE d'occasion a évolué : il ne s'agit plus uniquement d'early adopters technophiles, mais de plus en plus de conducteurs pragmatiques attirés par les économies de carburant et contraints par les ZFE. Cette démocratisation de la demande soutient les cotes et réduit progressivement l'écart de décote avec les thermiques.</p>
 
@@ -1762,17 +1762,17 @@ export const pagesAcheter: PageAcheter[] = [
   {
     slug: "essai-voiture-electrique",
     titre: "Essayer un VE : où et comment",
-    h1: "Essayer une voiture électrique — guide complet 2025",
+    h1: "Essayer une voiture électrique : guide complet 2026",
     metaDescription: "Essayer une voiture électrique en France : concessionnaires, événements, location courte durée et abonnement. Où tester et quoi vérifier lors de l'essai.",
     contenu: `<h2>Pourquoi essayer avant d'acheter est encore plus important pour un VE</h2>
-<p>Passer d'un véhicule thermique à un véhicule électrique n'est pas un simple changement de motorisation — c'est un changement de paradigme. La conduite est fondamentalement différente : silence quasi total, couple instantané, freinage régénératif, absence de boîte de vitesses. Les habitudes de « ravitaillement » changent radicalement : on ne « fait le plein » plus jamais, on branche chez soi le soir. L'expérience est tellement différente qu'un essai de quelques minutes ne suffit souvent pas à en mesurer toutes les implications.</p>
+<p>Passer d'un véhicule thermique à un véhicule électrique n'est pas un simple changement de motorisation : c'est un changement de paradigme. La conduite est fondamentalement différente : silence quasi total, couple instantané, freinage régénératif, absence de boîte de vitesses. Les habitudes de « ravitaillement » changent radicalement : on ne « fait le plein » plus jamais, on branche chez soi le soir. L'expérience est tellement différente qu'un essai de quelques minutes ne suffit souvent pas à en mesurer toutes les implications.</p>
 <p>De nombreux acheteurs qui hésitent entre électrique et thermique changent d'avis après un essai prolongé (2-3 jours). Le confort de conduite, la douceur de la transmission, et la praticité de la recharge à domicile convainquent la majorité des essayeurs. À l'inverse, certains découvrent que le freinage régénératif les déroute, que le silence les met mal à l'aise, ou que leur situation de recharge (pas de prise à domicile, pas de garage) rend le quotidien compliqué.</p>
-<p>Avant d'investir 25 000 à 50 000 € dans un véhicule que vous garderez 5 à 8 ans, un essai approfondi est indispensable. Voici toutes les options à votre disposition en France en 2025.</p>
+<p>Avant d'investir 25 000 à 50 000 € dans un véhicule que vous garderez 5 à 8 ans, un essai approfondi est indispensable. Voici toutes les options à votre disposition en France en 2026.</p>
 
 <h2>L'essai chez le concessionnaire : le classique</h2>
 <p>L'essai chez un concessionnaire reste la méthode la plus accessible et la plus répandue. Tous les concessionnaires de marques proposant des modèles électriques disposent d'au moins un véhicule d'essai (démonstration). L'essai est gratuit, dure généralement 15 à 45 minutes, et se fait sur un parcours prédéfini combinant ville et voie rapide.</p>
 <p><strong>Comment maximiser l'essai concessionnaire :</strong></p>
-<p>Prenez rendez-vous à l'avance (évitez le samedi sans rendez-vous — le vendeur sera pressé). Demandez explicitement un essai d'au moins 30 minutes incluant de la voie rapide. Demandez à essayer le freinage régénératif à son maximum (mode « One Pedal Driving » ou « B » selon les marques). Testez le système d'infodivertissement à l'arrêt : navigation avec planificateur d'itinéraire, caméras, applications embarquées.</p>
+<p>Prenez rendez-vous à l'avance (évitez le samedi sans rendez-vous, le vendeur sera pressé). Demandez explicitement un essai d'au moins 30 minutes incluant de la voie rapide. Demandez à essayer le freinage régénératif à son maximum (mode « One Pedal Driving » ou « B » selon les marques). Testez le système d'infodivertissement à l'arrêt : navigation avec planificateur d'itinéraire, caméras, applications embarquées.</p>
 <p><strong>Ce que le concessionnaire ne vous montrera pas spontanément :</strong> Le bruit à 130 km/h (roulements et vent, plus perceptibles sans moteur thermique), la consommation réelle sur autoroute (souvent 20-40 % supérieure au WLTP mixte), le temps de pré-conditionnement de la batterie avant une recharge rapide, et le comportement par temps froid (autonomie réduite, dégivrage).</p>
 <p><strong>Marques avec des programmes d'essai prolongé :</strong> Tesla propose des essais de 24h à 48h dans certaines villes via son programme « Essayez Tesla ». Hyundai propose le programme « Click to Drive » avec des essais de 48h à domicile. BMW propose des essais week-end via certains concessionnaires partenaires. Renault permet souvent des essais prolongés de 2-3 jours sur la Megane E-Tech et le Scenic dans les concessions participantes.</p>
 
@@ -1798,8 +1798,8 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Avantage décisif de l'abonnement :</strong> Si le véhicule ne vous convient pas après 1 mois, vous rendez les clés sans frais ni engagement. Impossible avec un achat ou un leasing 3 ans. C'est la solution la moins risquée pour les hésitants.</p>
 
 <h2>Ce qu'il faut absolument tester lors d'un essai</h2>
-<p><strong>Le freinage régénératif :</strong> C'est LA spécificité de la conduite électrique. En levant le pied de l'accélérateur, le moteur se transforme en générateur et freine le véhicule tout en rechargeant la batterie. Les premiers kilomètres sont déroutants — on a l'impression que la voiture freine toute seule. Après quelques dizaines de kilomètres, on ne peut plus s'en passer. Testez les différents niveaux de régénération proposés par le véhicule.</p>
-<p><strong>Le silence :</strong> Le silence d'un véhicule électrique est frappant. À basse vitesse (< 30 km/h), seul l'AVAS (Acoustic Vehicle Alerting System, le bruit artificiel obligatoire) est audible. À vitesse moyenne (50-90 km/h), le roulement des pneus domine. À haute vitesse (130 km/h), le bruit aérodynamique et de roulement peut être important selon les modèles — testez sur autoroute pour évaluer.</p>
+<p><strong>Le freinage régénératif :</strong> C'est LA spécificité de la conduite électrique. En levant le pied de l'accélérateur, le moteur se transforme en générateur et freine le véhicule tout en rechargeant la batterie. Les premiers kilomètres sont déroutants : on a l'impression que la voiture freine toute seule. Après quelques dizaines de kilomètres, on ne peut plus s'en passer. Testez les différents niveaux de régénération proposés par le véhicule.</p>
+<p><strong>Le silence :</strong> Le silence d'un véhicule électrique est frappant. À basse vitesse (< 30 km/h), seul l'AVAS (Acoustic Vehicle Alerting System, le bruit artificiel obligatoire) est audible. À vitesse moyenne (50-90 km/h), le roulement des pneus domine. À haute vitesse (130 km/h), le bruit aérodynamique et de roulement peut être important selon les modèles. Testez sur autoroute pour évaluer.</p>
 <p><strong>L'accélération :</strong> Le couple instantané d'un moteur électrique offre des reprises impressionnantes, même sur des modèles « ordinaires ». Une Renault 5 E-Tech de 150 ch offre des sensations comparables à un 2.0 turbo thermique de 250 ch en termes de réactivité. Testez un démarrage arrêté et une reprise de 50 à 90 km/h (dépassement).</p>
 <p><strong>Le planificateur d'itinéraire intégré :</strong> Vérifiez que le véhicule dispose d'un planificateur d'itinéraire intégré qui calcule les arrêts recharge nécessaires, préchauffe la batterie avant l'arrivée à la borne, et estime le temps total de trajet. Tesla, BMW, Mercedes et Hyundai-Kia proposent les meilleurs systèmes. Renault et VW ont rattrapé leur retard en 2024-2025.</p>
 <p><strong>La recharge réelle :</strong> Si possible, testez une session de recharge rapide pendant votre essai. Observez le processus : branchement du câble, authentification (badge, application), courbe de puissance, confort de l'arrêt (y a-t-il un auvent, des toilettes à proximité ?). C'est un aspect souvent sous-estimé qui fait partie intégrante de l'expérience VE.</p>
@@ -1808,8 +1808,8 @@ export const pagesAcheter: PageAcheter[] = [
 <p>De nombreux essayeurs commettent des erreurs qui faussent leur perception du véhicule électrique et les conduisent à des conclusions erronées. Voici les pièges les plus courants et comment les éviter.</p>
 <p><strong>Juger l'autonomie sur un seul trajet :</strong> Un essai de 30 minutes en ville ou sur voie rapide ne donne aucune indication fiable sur l'autonomie réelle. La consommation varie considérablement selon le type de trajet (ville, route, autoroute), la température extérieure, l'utilisation du chauffage ou de la climatisation, le style de conduite et le relief. Pour évaluer l'autonomie, louez le véhicule au moins 2 jours et réalisez un mélange de trajets correspondant à votre usage réel. Consultez également les forums de propriétaires (Automobile Propre, Tesla Owners France) pour des retours sur l'autonomie en conditions hivernales, souvent 20 à 35 % inférieure au WLTP.</p>
 <p><strong>Ne pas tester le confort thermique hivernal :</strong> Si vous essayez en été, vous ne découvrirez pas l'un des points les plus débattus des VE : le chauffage. Les modèles équipés d'une pompe à chaleur (Tesla, Hyundai, Kia, Renault 5, Scenic) chauffent efficacement avec un impact modéré sur l'autonomie (10-15 %). Les modèles à résistance électrique seule (certains Volkswagen ID., anciens modèles) consomment davantage pour chauffer et l'impact peut atteindre 25-35 % d'autonomie en moins. Renseignez-vous sur le type de chauffage du modèle essayé.</p>
-<p><strong>Ignorer la position de conduite et l'ergonomie :</strong> Un véhicule que vous garderez 5 à 8 ans doit être parfaitement confortable pour votre morphologie. Réglez le siège, le volant, les rétroviseurs. Vérifiez la visibilité arrière (souvent réduite sur les SUV électriques). Testez l'accès aux commandes principales : certains modèles ont supprimé les boutons physiques au profit d'écrans tactiles, ce qui divise les utilisateurs. Essayez de régler la climatisation, les rétroviseurs et les essuie-glaces en conduisant — si c'est frustrant ou dangereux, ce le sera pendant 5 ans.</p>
-<p><strong>Oublier de tester avec passagers et bagages :</strong> Si vous avez une famille, essayez impérativement avec les enfants et les sièges auto. Vérifiez que le coffre accueille la poussette, les courses de la semaine ou les valises de vacances. Certains VE ont un frunk (coffre avant) qui compense un coffre arrière modeste — pensez à le vérifier. Les places arrière de certaines citadines électriques (Fiat 500e, Mini Electric) sont étroites pour des adultes : testez-les avant de vous engager.</p>
+<p><strong>Ignorer la position de conduite et l'ergonomie :</strong> Un véhicule que vous garderez 5 à 8 ans doit être parfaitement confortable pour votre morphologie. Réglez le siège, le volant, les rétroviseurs. Vérifiez la visibilité arrière (souvent réduite sur les SUV électriques). Testez l'accès aux commandes principales : certains modèles ont supprimé les boutons physiques au profit d'écrans tactiles, ce qui divise les utilisateurs. Essayez de régler la climatisation, les rétroviseurs et les essuie-glaces en conduisant : si c'est frustrant ou dangereux, ce le sera pendant 5 ans.</p>
+<p><strong>Oublier de tester avec passagers et bagages :</strong> Si vous avez une famille, essayez impérativement avec les enfants et les sièges auto. Vérifiez que le coffre accueille la poussette, les courses de la semaine ou les valises de vacances. Certains VE ont un frunk (coffre avant) qui compense un coffre arrière modeste. Pensez à le vérifier. Les places arrière de certaines citadines électriques (Fiat 500e, Mini Electric) sont étroites pour des adultes : testez-les avant de vous engager.</p>
 
 <h2>Essayer un VE quand on habite en zone rurale</h2>
 <p>Les habitants de zones rurales ont souvent le sentiment que l'essai en ville ne représente pas leur usage. Ils ont raison. Voici comment adapter l'essai à un profil rural.</p>
@@ -1839,7 +1839,7 @@ export const pagesAcheter: PageAcheter[] = [
   {
     slug: "voiture-electrique-vs-hybride",
     titre: "Électrique vs hybride rechargeable",
-    h1: "Voiture électrique vs hybride rechargeable — guide complet 2025",
+    h1: "Voiture électrique vs hybride rechargeable : guide complet 2026",
     metaDescription: "100 % électrique vs hybride rechargeable : différences techniques, consommation réelle, coût total, usage idéal et réglementation 2035. Le comparatif objectif.",
     contenu: `<h2>BEV et PHEV : deux technologies fondamentalement différentes</h2>
 <p>Le véhicule 100 % électrique (BEV, Battery Electric Vehicle) et l'hybride rechargeable (PHEV, Plug-in Hybrid Electric Vehicle) sont souvent confondus par le grand public car les deux se branchent sur une prise et roulent à l'électricité. Pourtant, ce sont deux approches radicalement différentes de la mobilité, avec des philosophies, des coûts et des usages distincts.</p>
@@ -1848,9 +1848,9 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Cette différence fondamentale entraîne des conséquences majeures en termes de coût d'usage, d'entretien, d'impact environnemental et de pertinence selon votre profil de conducteur.</p>
 
 <h2>La consommation réelle des hybrides rechargeables : le grand écart</h2>
-<p>Les chiffres de consommation officiels (WLTP) des PHEV sont trompeurs car ils supposent que le véhicule roule une partie significative du temps en mode électrique. Le cycle WLTP attribue aux PHEV des consommations de 1 à 2 L/100 km et des émissions de 20 à 50 g/km de CO₂ — des chiffres séduisants sur le papier.</p>
+<p>Les chiffres de consommation officiels (WLTP) des PHEV sont trompeurs car ils supposent que le véhicule roule une partie significative du temps en mode électrique. Le cycle WLTP attribue aux PHEV des consommations de 1 à 2 L/100 km et des émissions de 20 à 50 g/km de CO₂, des chiffres séduisants sur le papier.</p>
 <p>La réalité est tout autre. Plusieurs études indépendantes (ICCT 2023, Transport & Environment 2024, Fraunhofer Institute) ont démontré que la consommation réelle des PHEV est 2 à 4 fois supérieure aux valeurs officielles :</p>
-<p>Un PHEV rechargé quotidiennement (usage optimal) consomme en moyenne 4 à 5 L/100 km sur un trajet mixte. Un PHEV qui n'est jamais ou rarement rechargé (usage fréquent en flottes d'entreprise) consomme 7 à 9 L/100 km — parfois PLUS qu'un véhicule thermique équivalent, car il transporte le poids supplémentaire de la batterie et du moteur électrique sans en tirer de bénéfice.</p>
+<p>Un PHEV rechargé quotidiennement (usage optimal) consomme en moyenne 4 à 5 L/100 km sur un trajet mixte. Un PHEV qui n'est jamais ou rarement rechargé (usage fréquent en flottes d'entreprise) consomme 7 à 9 L/100 km, parfois PLUS qu'un véhicule thermique équivalent, car il transporte le poids supplémentaire de la batterie et du moteur électrique sans en tirer de bénéfice.</p>
 <p>L'explication est simple : dès que la petite batterie est vide (après 40-60 km réels), le PHEV devient un véhicule thermique alourdis de 200 à 300 kg par sa batterie et son moteur électrique. Sur autoroute, le moteur électrique contribue peu et la batterie est vidée en 30 minutes. Le véhicule fonctionne alors uniquement sur son moteur essence, avec un rendement dégradé par le surpoids.</p>
 <p>Pour un BEV, pas d'ambiguïté : la consommation est de 14 à 22 kWh/100 km selon le modèle et les conditions. Le coût au kilomètre est stable et prévisible : 3 à 5 €/100 km à domicile (tarif heures creuses), 8 à 15 €/100 km en recharge rapide publique.</p>
 
@@ -1859,7 +1859,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>BEV (exemple : Renault Megane E-Tech, 40 000 € après bonus) :</strong></p>
 <p>Achat net : 36 000 € (après bonus 4 000 €). Électricité (80 % domicile à 0,18 €/kWh, 20 % public à 0,45 €/kWh, 17 kWh/100 km) : environ 2 500 € sur 5 ans. Entretien : environ 1 500 € sur 5 ans (pneus, freins, liquide, filtre habitacle). Assurance : environ 4 000 € sur 5 ans. Décote : environ 18 000 € (50 % sur 5 ans). <strong>TCO total : environ 62 000 €, soit 0,83 €/km.</strong></p>
 <p><strong>PHEV (exemple : Peugeot 3008 Hybrid 225, 42 000 €) :</strong></p>
-<p>Achat : 42 000 € (pas de bonus en 2025). Carburant + électricité (50/50 si rechargé : 5 L/100 km essence + 15 kWh/100 km électrique, 50 % des km) : environ 5 500 € sur 5 ans. Entretien : environ 3 500 € sur 5 ans (vidanges, courroie, bougies, freins, filtres). Assurance : environ 4 500 € sur 5 ans. Décote : environ 23 000 € (55 % sur 5 ans). <strong>TCO total : environ 78 500 €, soit 1,05 €/km.</strong></p>
+<p>Achat : 42 000 € (pas de bonus en 2026). Carburant + électricité (50/50 si rechargé : 5 L/100 km essence + 15 kWh/100 km électrique, 50 % des km) : environ 5 500 € sur 5 ans. Entretien : environ 3 500 € sur 5 ans (vidanges, courroie, bougies, freins, filtres). Assurance : environ 4 500 € sur 5 ans. Décote : environ 23 000 € (55 % sur 5 ans). <strong>TCO total : environ 78 500 €, soit 1,05 €/km.</strong></p>
 <p><strong>Thermique (exemple : Peugeot 3008 PureTech 130, 35 000 €) :</strong></p>
 <p>Achat : 35 000 €. Carburant (7 L/100 km, SP95 à 1,80 €/L) : environ 9 450 € sur 5 ans. Entretien : environ 4 000 € sur 5 ans. Assurance : environ 4 200 € sur 5 ans. Décote : environ 16 000 € (46 % sur 5 ans). <strong>TCO total : environ 68 650 €, soit 0,92 €/km.</strong></p>
 <p>Le BEV est le plus économique sur 5 ans malgré un prix d'achat supérieur. Le PHEV est le plus coûteux des trois solutions en TCO, principalement à cause de sa décote élevée, de sa double motorisation coûteuse en entretien, et de son prix d'achat élevé sans subvention.</p>
@@ -1868,14 +1868,14 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Le BEV est idéal si :</strong></p>
 <p>Vous disposez d'une solution de recharge à domicile (garage, parking avec prise) ou au travail. Vos trajets quotidiens font moins de 200 km (ce qui couvre 95 % des Français). Vous effectuez des longs trajets occasionnels (vacances) et acceptez des pauses recharge de 20-30 minutes tous les 250-300 km. Vous recherchez le coût d'usage le plus bas et le meilleur confort de conduite. Vous voulez contribuer à la réduction des émissions locales (zéro émission en roulant).</p>
 <p><strong>Le PHEV peut être pertinent si :</strong></p>
-<p>Vous n'avez AUCUNE solution de recharge à domicile et ne pouvez pas en installer (cas très spécifique). Vous effectuez régulièrement de très longs trajets (500+ km) sans possibilité de recharge intermédiaire (rare en 2025 avec le maillage actuel). Vous avez besoin d'un véhicule de transition psychologique avant de passer au 100 % électrique. Vous êtes commercial avec 50 000+ km/an dont une majorité d'autoroute (cas de niche).</p>
+<p>Vous n'avez AUCUNE solution de recharge à domicile et ne pouvez pas en installer (cas très spécifique). Vous effectuez régulièrement de très longs trajets (500+ km) sans possibilité de recharge intermédiaire (rare en 2026 avec le maillage actuel). Vous avez besoin d'un véhicule de transition psychologique avant de passer au 100 % électrique. Vous êtes commercial avec 50 000+ km/an dont une majorité d'autoroute (cas de niche).</p>
 <p><strong>Attention :</strong> Un PHEV non rechargé quotidiennement (cas de 50 % des utilisateurs selon les études) est la PIRE solution financière et écologique. Il cumule le surcoût d'achat d'une double motorisation, le poids supplémentaire qui augmente la consommation thermique, et aucun bénéfice de la partie électrique. Si vous ne pouvez pas ou ne voulez pas brancher votre voiture tous les jours, un PHEV n'a aucun intérêt : prenez un bon diesel ou passez directement au BEV.</p>
 
 <h2>Réglementation future : l'horizon 2035</h2>
 <p>L'Union européenne a voté l'interdiction de la vente de véhicules neufs à moteur thermique (essence, diesel, ET hybride) à partir de 2035. Cette réglementation inclut explicitement les PHEV : un véhicule disposant d'un moteur à combustion interne, même couplé à un moteur électrique, ne pourra plus être vendu neuf après cette date.</p>
-<p>Conséquence pour les acheteurs 2025 : un PHEV acheté en 2025 sera encore en circulation en 2035 et au-delà, mais sa valeur résiduelle sera impactée par la fin programmée de sa technologie. Les stations-service, le réseau de pièces détachées thermiques, et le savoir-faire mécanique resteront disponibles pendant encore 15-20 ans après 2035, mais la tendance baissière est inéluctable.</p>
-<p>Pour un BEV acheté en 2025, la perspective est inverse : la technologie est celle de l'avenir, le réseau de recharge s'étend chaque mois (objectif 400 000 points de charge en France en 2030), et la revente sera facilitée par une demande croissante d'électriques d'occasion.</p>
-<p>Au niveau national, les ZFE (Zones à Faibles Émissions) de plus en plus restrictives vont progressivement exclure même les PHEV en mode thermique des centres-villes. Paris, Lyon, Marseille et 40 autres agglomérations restreignent déjà la circulation des Crit'Air 3 et supérieurs. À terme (2030), seuls les Crit'Air 0 et 1 seront autorisés — les PHEV sont Crit'Air 1, mais les BEV sont Crit'Air 0, offrant une liberté de circulation absolue.</p>
+<p>Conséquence pour les acheteurs 2026 : un PHEV acheté en 2026 sera encore en circulation en 2035 et au-delà, mais sa valeur résiduelle sera impactée par la fin programmée de sa technologie. Les stations-service, le réseau de pièces détachées thermiques, et le savoir-faire mécanique resteront disponibles pendant encore 15-20 ans après 2035, mais la tendance baissière est inéluctable.</p>
+<p>Pour un BEV acheté en 2026, la perspective est inverse : la technologie est celle de l'avenir, le réseau de recharge s'étend chaque mois (objectif 400 000 points de charge en France en 2030), et la revente sera facilitée par une demande croissante d'électriques d'occasion.</p>
+<p>Au niveau national, les ZFE (Zones à Faibles Émissions) de plus en plus restrictives vont progressivement exclure même les PHEV en mode thermique des centres-villes. Paris, Lyon, Marseille et 40 autres agglomérations restreignent déjà la circulation des Crit'Air 3 et supérieurs. À terme (2030), seuls les Crit'Air 0 et 1 seront autorisés. Les PHEV sont Crit'Air 1, mais les BEV sont Crit'Air 0, offrant une liberté de circulation absolue.</p>
 
 <h2>Impact environnemental réel</h2>
 <p>Du berceau à la tombe (analyse du cycle de vie, ACV), le BEV émet significativement moins de CO₂ qu'un PHEV :</p>
@@ -1883,15 +1883,15 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>PHEV :</strong> Production (batterie + deux motorisations) : environ 9-10 tonnes. Usage sur 200 000 km (5 L/100 km réels) : environ 23 tonnes. Fin de vie : -0,3 tonne. <strong>Total ACV : environ 32-33 tonnes de CO₂.</strong></p>
 <p><strong>Thermique :</strong> Production : environ 6-7 tonnes. Usage sur 200 000 km (7 L/100 km) : environ 32 tonnes. Fin de vie : 0 tonne. <strong>Total ACV : environ 38-39 tonnes de CO₂.</strong></p>
 <p>Le BEV émet environ 2,5 fois moins de CO₂ sur son cycle de vie complet qu'un PHEV, et 3 fois moins qu'un thermique. Cet écart est encore plus favorable en France grâce au mix électrique décarboné (nucléaire + renouvelables). Dans un pays au mix fortement carboné (Pologne, Allemagne avec charbon), l'avantage du BEV est réduit mais reste positif.</p>
-<p>Au-delà du CO₂, le BEV supprime totalement les émissions locales de polluants (NOx, particules fines d'échappement, CO, hydrocarbures imbrûlés) qui affectent directement la santé des citadins. Le PHEV, lorsqu'il fonctionne en mode thermique, émet ces polluants comme tout véhicule à combustion — souvent plus qu'un thermique optimisé, car son moteur est dimensionné plus petit et tourne plus souvent à haut régime pour compenser le poids.</p>
+<p>Au-delà du CO₂, le BEV supprime totalement les émissions locales de polluants (NOx, particules fines d'échappement, CO, hydrocarbures imbrûlés) qui affectent directement la santé des citadins. Le PHEV, lorsqu'il fonctionne en mode thermique, émet ces polluants comme tout véhicule à combustion, souvent plus qu'un thermique optimisé, car son moteur est dimensionné plus petit et tourne plus souvent à haut régime pour compenser le poids.</p>
 
 <h2>Notre verdict : le PHEV est une impasse technologique</h2>
-<p>En 2025, avec un réseau de recharge dépassant les 130 000 points en France, des autonomies de 400 à 600 km sur les modèles courants, et des prix en baisse constante, le véhicule 100 % électrique est la solution rationnelle pour la majorité des conducteurs français. Le PHEV, qui avait sa pertinence en 2018-2020 comme technologie de transition lorsque l'infrastructure de recharge était embryonnaire, est devenu une solution de compromis qui cumule les inconvénients des deux mondes : complexité mécanique du thermique ET contrainte de recharge de l'électrique, sans les avantages pleins de l'un ni de l'autre.</p>
-<p>Les seuls cas où le PHEV reste défendable en 2025 sont extrêmement niches : un professionnel itinérant sans aucune possibilité de recharge nocturne effectuant systématiquement 500+ km/jour, ou un habitant de zone rurale très isolée sans recharge à domicile ni borne publique à moins de 50 km. Pour tous les autres profils — soit 95 % des acheteurs — le BEV est supérieur en coût, en confort, en impact environnemental et en valeur résiduelle.</p>
+<p>En 2026, avec un réseau de recharge dépassant les 130 000 points en France, des autonomies de 400 à 600 km sur les modèles courants, et des prix en baisse constante, le véhicule 100 % électrique est la solution rationnelle pour la majorité des conducteurs français. Le PHEV, qui avait sa pertinence en 2018-2020 comme technologie de transition lorsque l'infrastructure de recharge était embryonnaire, est devenu une solution de compromis qui cumule les inconvénients des deux mondes : complexité mécanique du thermique ET contrainte de recharge de l'électrique, sans les avantages pleins de l'un ni de l'autre.</p>
+<p>Les seuls cas où le PHEV reste défendable en 2026 sont extrêmement niches : un professionnel itinérant sans aucune possibilité de recharge nocturne effectuant systématiquement 500+ km/jour, ou un habitant de zone rurale très isolée sans recharge à domicile ni borne publique à moins de 50 km. Pour tous les autres profils (soit 95 % des acheteurs), le BEV est supérieur en coût, en confort, en impact environnemental et en valeur résiduelle.</p>
 
 <h2>L'entretien comparé : deux mondes différents</h2>
 <p>L'entretien est un aspect souvent sous-estimé dans la comparaison BEV/PHEV. Un véhicule 100 % électrique supprime la quasi-totalité des opérations d'entretien liées au moteur thermique : pas de vidange moteur, pas de filtre à huile, pas de filtre à air moteur, pas de bougies d'allumage, pas de courroie de distribution ou chaîne de distribution, pas de liquide de refroidissement moteur (le circuit de refroidissement de la batterie est scellé et ne nécessite aucun entretien), pas d'embrayage ni de boîte de vitesses à entretenir.</p>
-<p>Les seuls postes d'entretien d'un BEV sont : le liquide de frein (remplacement tous les 2 à 4 ans selon les marques), le filtre d'habitacle (tous les ans ou 15 000 km), les pneus (usure légèrement plus rapide en raison du couple élevé et du poids, remplacement tous les 25 000 à 35 000 km), les plaquettes de frein (usure très réduite grâce au freinage régénératif — certains propriétaires ne les remplacent pas avant 100 000 km), et la vérification des éléments de suspension et de direction lors des contrôles techniques.</p>
+<p>Les seuls postes d'entretien d'un BEV sont : le liquide de frein (remplacement tous les 2 à 4 ans selon les marques), le filtre d'habitacle (tous les ans ou 15 000 km), les pneus (usure légèrement plus rapide en raison du couple élevé et du poids, remplacement tous les 25 000 à 35 000 km), les plaquettes de frein (usure très réduite grâce au freinage régénératif, certains propriétaires ne les remplacent pas avant 100 000 km), et la vérification des éléments de suspension et de direction lors des contrôles techniques.</p>
 <p>Le PHEV, en revanche, cumule les deux types d'entretien. Il possède un moteur thermique complet qui nécessite vidanges, filtres, bougies, courroie, et un système de dépollution (catalyseur, filtre à particules sur les derniers modèles). Il possède également un moteur électrique, un onduleur, une batterie de traction (plus petite qu'un BEV mais qui nécessite tout de même une surveillance), et un système de gestion thermique dédié. La double motorisation implique une complexité accrue et des coûts d'entretien cumulés : comptez 500 à 800 euros par an pour un PHEV, contre 150 à 300 euros par an pour un BEV.</p>
 <p>Un risque spécifique au PHEV mérite d'être signalé : lorsque le moteur thermique est rarement sollicité (usage majoritairement électrique en ville), l'huile moteur peut se dégrader par manque de montée en température, le système d'échappement peut se corroder par condensation, et les plaquettes de frein peuvent se gripper par manque d'utilisation (le freinage régénératif couvrant la majorité du ralentissement). Paradoxalement, un PHEV utilisé de manière optimale (principalement en mode électrique) peut connaître plus de problèmes mécaniques côté thermique qu'un véhicule thermique pur utilisé normalement.</p>
 

@@ -91,7 +91,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Renault occupe une position de leader naturel sur le marché français de la voiture électrique, porté par la production nationale, les aides gouvernementales et la force du réseau de concessionnaires. La Renault 5 E-Tech est en passe de devenir la voiture électrique la plus vendue en France en 2025, bénéficiant d'un engouement populaire comparable à celui de la ZOE lors de son lancement. L'éligibilité au leasing social (à partir de 100 à 150 €/mois pour les ménages modestes) constitue un levier de démocratisation puissant.</p>
+<p>Renault occupe une position de leader naturel sur le marché français de la voiture électrique, porté par la production nationale, les aides gouvernementales et la force du réseau de concessionnaires. La Renault 5 E-Tech est en passe de devenir la voiture électrique la plus vendue en France en 2026, bénéficiant d'un engouement populaire comparable à celui de la ZOE lors de son lancement. L'éligibilité au leasing social (à partir de 100 à 150 €/mois pour les ménages modestes) constitue un levier de démocratisation puissant.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <p>Renault prépare activement la prochaine phase de son offensive électrique :</p>
@@ -105,7 +105,7 @@ export const marques: Marque[] = [
 <p>Avec sa stratégie d'électrification accessible, sa production française et son design émotionnel, Renault est le mieux placé des constructeurs français pour réussir la démocratisation de la voiture électrique en France. Le losange a su transformer le défi de l'électrification en opportunité industrielle et commerciale, avec un ancrage territorial fort et une vision claire de la mobilité de demain.</p>`,
     siteOfficiel: "https://www.renault.fr",
     anneeCreation: 1899,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "peugeot",
@@ -195,7 +195,7 @@ export const marques: Marque[] = [
 <p>Avec sa gamme complète, son design attractif et sa production française, Peugeot dispose de solides atouts pour accompagner les automobilistes français dans la transition vers la mobilité électrique. Le défi sera de maintenir l'accessibilité tarifaire tout en poursuivant la montée en gamme qui fait aujourd'hui le succès de la marque au lion.</p>`,
     siteOfficiel: "https://www.peugeot.fr",
     anneeCreation: 1810,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "citroen",
@@ -292,7 +292,7 @@ export const marques: Marque[] = [
 <p>Citroën joue un rôle crucial dans la démocratisation de la voiture électrique en France. En proposant des véhicules accessibles, confortables et pratiques, la marque aux chevrons contribue à rendre la transition énergétique inclusive, en ne laissant personne sur le bord de la route. Si les autonomies et les performances de charge restent en retrait par rapport à la concurrence plus haut de gamme, Citroën répond à un besoin fondamental du marché : celui d'une voiture électrique abordable pour les trajets du quotidien.</p>`,
     siteOfficiel: "https://www.citroen.fr",
     anneeCreation: 1919,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "dacia",
@@ -387,7 +387,7 @@ export const marques: Marque[] = [
 <p>Le défi de Dacia est de maintenir sa promesse de prix le plus bas tout en s'adaptant aux nouvelles réglementations européennes (droits de douane, score environnemental) et à la concurrence croissante des constructeurs chinois et européens sur le segment des voitures électriques abordables. La marque roumaine devra trouver le bon équilibre entre coût de production, lieu de fabrication et accès aux aides pour préserver sa pertinence dans l'écosystème de la mobilité électrique française.</p>`,
     siteOfficiel: "https://www.dacia.fr",
     anneeCreation: 1966,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "tesla",
@@ -478,7 +478,7 @@ export const marques: Marque[] = [
 <p>Tesla reste le constructeur de référence dans l'univers de la voiture électrique, celui qui a rendu le segment désirable et qui continue de définir les standards en matière de technologie, de performance et de réseau de recharge. Si la concurrence s'est considérablement intensifiée, la marque conserve des avantages structurels (Supercharger, OTA, efficience) qui lui assurent une position de premier plan sur le marché français.</p>`,
     siteOfficiel: "https://www.tesla.com/fr_fr",
     anneeCreation: 2003,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "volkswagen",
@@ -551,7 +551,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>En France, Volkswagen occupe une position solide sur le marché des véhicules électriques grâce à la notoriété de la marque et à la densité de son réseau de concessionnaires. L'ID.3 et l'ID.4 figurent régulièrement parmi les 10 véhicules électriques les plus vendus en France. La marque bénéficie de la production européenne de l'ensemble de sa gamme ID., ce qui garantit l'éligibilité au bonus écologique français (jusqu'à 4 000 € en 2025) et au leasing social (à partir de 150 €/mois pour les ménages modestes).</p>
+<p>En France, Volkswagen occupe une position solide sur le marché des véhicules électriques grâce à la notoriété de la marque et à la densité de son réseau de concessionnaires. L'ID.3 et l'ID.4 figurent régulièrement parmi les 10 véhicules électriques les plus vendus en France. La marque bénéficie de la production européenne de l'ensemble de sa gamme ID., ce qui garantit l'éligibilité au bonus écologique français (jusqu'à 4 000 € en 2026) et au leasing social (à partir de 150 €/mois pour les ménages modestes).</p>
 <p>Volkswagen se positionne comme une alternative rassurante pour les automobilistes français qui souhaitent passer à l'électrique sans prendre de risque sur la fiabilité, le réseau de service après-vente ou la valeur résiduelle. La marque fait face à une concurrence accrue des constructeurs chinois sur le segment des prix, mais conserve un avantage en termes de perception de qualité et de réseau.</p>
 
 <h3>Perspectives et modèles à venir</h3>
@@ -566,7 +566,7 @@ export const marques: Marque[] = [
 <p>Volkswagen continue également de développer son offre de services numériques, avec des abonnements à des fonctions activables à distance (sièges chauffants, assistance à la conduite avancée) et un écosystème connecté toujours plus riche. La marque de Wolfsburg reste déterminée à jouer un rôle de premier plan dans la mobilité électrique européenne, forte de ses investissements massifs et de sa capacité industrielle sans équivalent.</p>`,
     siteOfficiel: "https://www.volkswagen.fr",
     anneeCreation: 1937,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "skoda",
@@ -654,7 +654,7 @@ export const marques: Marque[] = [
 <p>Skoda a également confirmé que 70 % de ses ventes européennes seront des véhicules 100 % électriques d'ici 2030. La marque continuera de miser sur sa recette qui fait son succès : plus d'espace, plus d'équipements et plus de valeur que la concurrence, le tout enveloppé dans la fiabilité d'un grand groupe automobile européen. Avec l'arrivée de l'Epiq, Skoda ambitionne de démocratiser la voiture électrique en Europe et de devenir un acteur incontournable de la mobilité zéro émission accessible.</p>`,
     siteOfficiel: "https://www.skoda.fr",
     anneeCreation: 1895,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "kia",
@@ -731,7 +731,7 @@ export const marques: Marque[] = [
 <p>Kia est aujourd'hui l'un des constructeurs les mieux positionnés pour réussir la transition électrique, grâce à une combinaison unique de technologie avancée (800V, V2L), de qualité de fabrication, de design distinctif et de garantie rassurante. Le défi pour Kia sera de maintenir cet équilibre prix-prestations alors que la marque continue sa montée en gamme et que la concurrence européenne et chinoise s'intensifie.</p>`,
     siteOfficiel: "https://www.kia.com/fr",
     anneeCreation: 1944,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "bmw",
@@ -813,7 +813,7 @@ export const marques: Marque[] = [
 <p>BMW aborde la transition électrique avec la confiance d'un constructeur qui a su préserver son identité tout en embrassant le changement. La Neue Klasse représente un pari technologique et industriel majeur, mais si elle tient ses promesses, BMW disposera d'une base technique au niveau des meilleurs standards mondiaux pour affronter la prochaine décennie de l'automobile électrique.</p>`,
     siteOfficiel: "https://www.bmw.fr",
     anneeCreation: 1916,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "audi",
@@ -902,7 +902,7 @@ export const marques: Marque[] = [
 <p>Avec sa triple expertise en ingénierie, en technologie et en finition premium, Audi dispose de tous les atouts pour réussir sa transition électrique. La plateforme PPE, partagée avec Porsche, offre des performances de charge et d'autonomie au niveau des meilleurs standards mondiaux. Le défi pour Audi sera de maintenir sa compétitivité tarifaire face à la pression des constructeurs chinois qui ciblent désormais directement le segment premium européen avec des véhicules technologiquement aboutis et significativement moins chers.</p>`,
     siteOfficiel: "https://www.audi.fr",
     anneeCreation: 1909,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "mercedes",
@@ -979,7 +979,7 @@ export const marques: Marque[] = [
 <p>Mercedes-Benz aborde la transition électrique avec les moyens et l'ambition d'un constructeur qui a toujours été à la pointe de l'innovation automobile. Si les prix élevés limitent naturellement la diffusion de ses modèles, l'arrivée de la plateforme MMA avec architecture 800V devrait permettre à Mercedes de proposer des véhicules électriques plus accessibles et technologiquement à la pointe, renforçant ainsi sa position de leader du luxe automobile dans l'ère de l'électrique.</p>`,
     siteOfficiel: "https://www.mercedes-benz.fr",
     anneeCreation: 1926,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "byd",
@@ -1057,7 +1057,7 @@ export const marques: Marque[] = [
 <p>BYD représente sans doute le défi le plus sérieux pour les constructeurs européens dans la bataille de l'électrification. Sa maîtrise de la chaîne de valeur, ses économies d'échelle et sa capacité d'innovation rapide en font un concurrent redoutable. L'implantation d'usines en Europe renforcera encore la compétitivité de BYD en contournant les barrières douanières. Pour les consommateurs français, BYD offre une promesse simple mais puissante : des voitures électriques fiables, bien équipées et significativement moins chères que les alternatives européennes.</p>`,
     siteOfficiel: "https://www.byd.com/fr",
     anneeCreation: 1995,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "mg",
@@ -1125,7 +1125,7 @@ export const marques: Marque[] = [
 <p>MG a profondément transformé le paysage du véhicule électrique en Europe en prouvant que l'électrique pouvait être accessible au plus grand nombre. Si les tensions commerciales entre l'Europe et la Chine compliquent la stratégie de la marque, l'appétit des consommateurs pour des véhicules électriques abordables reste intact. L'avenir de MG en France dépendra de sa capacité à maintenir son avantage prix malgré les obstacles réglementaires et douaniers, et éventuellement de sa décision d'investir dans une production européenne.</p>`,
     siteOfficiel: "https://www.mgmotor.fr",
     anneeCreation: 1924,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "leapmotor",
@@ -1144,7 +1144,7 @@ export const marques: Marque[] = [
 <h3>L'assemblage européen : un avantage stratégique décisif</h3>
 <p>L'un des atouts majeurs de Leapmotor sur le marché européen est l'assemblage de ses véhicules en Europe. Grâce au partenariat avec Stellantis, certains modèles Leapmotor sont assemblés à l'usine Stellantis de Tychy en Pologne. Cette localisation européenne de la production offre plusieurs avantages considérables :</p>
 <ul>
-<li><strong>Contournement des droits de douane</strong> : les véhicules assemblés en Europe ne sont pas soumis aux droits de douane additionnels imposés par l'Union européenne sur les véhicules électriques importés de Chine (jusqu'à 35,3 % en 2025).</li>
+<li><strong>Contournement des droits de douane</strong> : les véhicules assemblés en Europe ne sont pas soumis aux droits de douane additionnels imposés par l'Union européenne sur les véhicules électriques importés de Chine (jusqu'à 35,3 % en 2026).</li>
 <li><strong>Éligibilité aux aides nationales</strong> : l'assemblage européen permet de répondre aux critères du score environnemental français, ouvrant la voie à l'éligibilité au bonus écologique.</li>
 <li><strong>Réduction des délais de livraison</strong> : la production locale réduit les délais logistiques par rapport à une importation directe depuis la Chine.</li>
 <li><strong>Image de marque</strong> : le « Made in Europe » rassure les consommateurs européens parfois méfiants envers les produits automobiles chinois.</li>
@@ -1211,7 +1211,7 @@ export const marques: Marque[] = [
 <p>Le partenariat avec Stellantis donne à Leapmotor un avantage structurel considérable pour pénétrer le marché européen. Là où d'autres constructeurs chinois doivent construire leur réseau de distribution et de service après-vente de zéro, Leapmotor bénéficie immédiatement de l'infrastructure la plus dense d'Europe. Si la marque parvient à maintenir ses prix compétitifs tout en améliorant la qualité perçue et la vitesse de recharge de ses véhicules, elle pourrait devenir un acteur significatif du marché français de la voiture électrique abordable dans les années à venir.</p>`,
     siteOfficiel: "https://www.leapmotor.eu",
     anneeCreation: 2015,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "xpeng",
@@ -1253,7 +1253,7 @@ export const marques: Marque[] = [
 <li><strong>Vision pure</strong> : Xpeng a opéré une transition vers un système basé principalement sur les caméras (vision pure), réduisant la dépendance aux lidars coûteux tout en maintenant un niveau de sécurité élevé.</li>
 <li><strong>Apprentissage continu</strong> : le système s'améliore en continu grâce aux données collectées par la flotte de véhicules Xpeng en circulation, selon un modèle similaire à celui de Tesla.</li>
 </ul>
-<p>Il convient de noter que les fonctionnalités XNGP les plus avancées (conduite autonome urbaine) ne sont pas encore disponibles en Europe en raison des réglementations locales. Les versions européennes proposent néanmoins un système ADAS de niveau 2+ avec assistance au maintien de voie, régulateur de vitesse adaptatif, freinage d'urgence autonome et aide au stationnement automatique.</p>
+<p>Les fonctionnalités XNGP les plus avancées (conduite autonome urbaine) ne sont pas encore disponibles en Europe en raison des réglementations locales. Les versions européennes proposent néanmoins un système ADAS de niveau 2+ avec assistance au maintien de voie, régulateur de vitesse adaptatif, freinage d'urgence autonome et aide au stationnement automatique.</p>
 
 <h3>Technologies propriétaires</h3>
 <p>Xpeng développe en interne la majorité de ses technologies clés :</p>
@@ -1299,7 +1299,7 @@ export const marques: Marque[] = [
 <p>Si Xpeng parvient à résoudre les problèmes de distribution, de service après-vente et d'éligibilité aux aides en France, la marque dispose de tous les atouts technologiques pour devenir un concurrent sérieux de Tesla sur le marché européen. L'architecture 800V, la conduite autonome avancée et le partenariat avec Volkswagen constituent des avantages différenciants significatifs dans un marché de plus en plus concurrentiel.</p>`,
     siteOfficiel: "https://www.xpeng.com",
     anneeCreation: 2014,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "zeekr",
@@ -1399,7 +1399,7 @@ export const marques: Marque[] = [
 <p>Zeekr incarne la montée en puissance de l'industrie automobile chinoise dans le segment premium. Adossée à l'empire Geely et armée de technologies de pointe (architecture 800V, batteries CATL Qilin, plateforme SEA), la marque dispose de tous les atouts pour bousculer l'ordre établi par les constructeurs premium européens. Son principal défi sera de construire la confiance et la notoriété nécessaires pour convaincre les acheteurs français de choisir une marque chinoise de trois ans d'âge plutôt qu'un constructeur centenaire comme BMW ou Porsche.</p>`,
     siteOfficiel: "https://www.zeekr.com",
     anneeCreation: 2021,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "nio",
@@ -1473,7 +1473,7 @@ export const marques: Marque[] = [
 <p>Nio représente l'avant-garde de l'industrie automobile chinoise sur le marché premium européen. Sa technologie Battery Swap, si elle parvient à être déployée à grande échelle en Europe, pourrait transformer radicalement la perception de la voiture électrique en éliminant le temps d'attente à la recharge. Pour les consommateurs français, Nio promet une alternative premium crédible aux marques allemandes, avec une technologie plus avancée et un modèle d'achat innovant.</p>`,
     siteOfficiel: "https://www.nio.com",
     anneeCreation: 2014,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "alpine",
@@ -1546,7 +1546,7 @@ export const marques: Marque[] = [
 <p>Alpine incarne un pari audacieux : celui de créer une marque sportive française d'envergure mondiale à l'ère de l'électrique. Si le défi est immense, les premiers modèles électriques démontrent qu'Alpine possède le savoir-faire pour produire des voitures électriques véritablement sportives et désirables. L'A390, modèle clé pour les volumes et la rentabilité, déterminera en grande partie l'avenir de la marque à la flèche.</p>`,
     siteOfficiel: "https://www.alpinecars.fr",
     anneeCreation: 1955,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "fiat",
@@ -1621,7 +1621,7 @@ export const marques: Marque[] = [
 <p>Fiat démontre que l'électrification ne doit pas rimer avec austérité. En capitalisant sur son héritage de design, son talent pour les voitures populaires et l'émotion qu'elles suscitent, la marque turinoise propose une vision joyeuse et colorée de la mobilité électrique. Le défi pour Fiat sera d'élargir sa gamme au-delà des citadines pour couvrir des segments plus porteurs en volume et en marge, tout en maintenant l'accessibilité tarifaire qui est sa raison d'être.</p>`,
     siteOfficiel: "https://www.fiat.fr",
     anneeCreation: 1899,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "hyundai",
@@ -1708,7 +1708,7 @@ export const marques: Marque[] = [
 <p>Hyundai est sans doute le constructeur qui a le plus impressionné l'industrie automobile au cours de la dernière décennie. Sa transformation d'un constructeur économique en un leader technologique du véhicule électrique est un cas d'école de réussite industrielle. Avec l'architecture 800V, le V2L, le design primé et désormais les performances de la division N, Hyundai propose une expérience électrique complète qui rivalise avec les meilleurs constructeurs du monde. Pour les acheteurs français, Hyundai offre une combinaison rare de technologie avancée, de design distinctif et de valeur, le tout soutenu par une garantie rassurante et une production européenne qui garantit l'éligibilité aux aides.</p>`,
     siteOfficiel: "https://www.hyundai.com/fr",
     anneeCreation: 1967,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "volvo",
@@ -1792,7 +1792,7 @@ export const marques: Marque[] = [
 <p>Volvo incarne la vision la plus cohérente et la plus holistique de la mobilité électrique parmi les constructeurs établis. En combinant sécurité de référence, engagement environnemental crédible, design scandinave épuré et technologie de pointe, Volvo propose une expérience automobile qui va bien au-delà du simple choix d'un véhicule. Pour les acheteurs qui considèrent que la responsabilité, la sécurité et la durabilité sont aussi importants que les performances et le design, Volvo est un choix naturel.</p>`,
     siteOfficiel: "https://www.volvocars.com/fr",
     anneeCreation: 1927,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "polestar",
@@ -1865,7 +1865,7 @@ export const marques: Marque[] = [
 <p>Polestar incarne une vision ambitieuse et cohérente de la voiture électrique premium : design scandinave épuré, performances sportives, transparence environnementale radicale et technologie de pointe. Le défi pour Polestar est de transformer cette vision en succès commercial à grande échelle, en développant sa notoriété, en diversifiant sa production et en atteignant la rentabilité financière nécessaire à sa pérennité.</p>`,
     siteOfficiel: "https://www.polestar.com/fr",
     anneeCreation: 2017,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "cupra",
@@ -1937,7 +1937,7 @@ export const marques: Marque[] = [
 <p>Cupra est l'une des réussites les plus surprenantes de l'industrie automobile européenne récente. En créant une marque sportive et émotionnelle à partir de SEAT, le groupe Volkswagen a trouvé une formule qui résonne puissamment auprès d'une clientèle jeune et expressive. Avec l'arrivée de la Raval et l'évolution vers des plateformes plus performantes, Cupra a tous les atouts pour confirmer sa place parmi les marques électriques les plus désirables d'Europe.</p>`,
     siteOfficiel: "https://www.cupraofficial.fr",
     anneeCreation: 2018,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "smart",
@@ -2011,7 +2011,7 @@ export const marques: Marque[] = [
 <p>La nouvelle Smart est un pari audacieux : transformer une marque de micro-citadine en marque de SUV premium électrique est un exercice périlleux qui peut aliéner la clientèle historique sans garantir la conquête d'une nouvelle. Pourtant, les premiers résultats sont encourageants, et la combinaison du design Mercedes avec l'efficacité industrielle de Geely produit des véhicules séduisants et compétitifs. Le succès à long terme dépendra de la capacité de Smart à résoudre l'équation de la production chinoise face aux barrières commerciales européennes.</p>`,
     siteOfficiel: "https://www.smart.com/fr",
     anneeCreation: 1994,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "mini",
@@ -2084,7 +2084,7 @@ export const marques: Marque[] = [
 <p>Mini démontre qu'une voiture électrique peut être joyeuse, expressive et fun sans sacrifier les aspects pratiques de la mobilité quotidienne. Dans un marché de plus en plus dominé par les SUV rationnels et les berlines anonymes, Mini propose une alternative rafraîchissante pour les conducteurs qui considèrent leur voiture comme une extension de leur personnalité.</p>`,
     siteOfficiel: "https://www.mini.fr",
     anneeCreation: 1959,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "opel",
@@ -2159,7 +2159,7 @@ export const marques: Marque[] = [
 <p>Opel traverse l'une des périodes les plus excitantes de son histoire, avec un design renouvelé, une stratégie électrique claire et l'objectif ambitieux de devenir la première marque Stellantis 100 % électrique. Pour les consommateurs français, Opel offre une alternative germanique crédible et souvent plus abordable aux marques françaises, avec des véhicules bien construits, bien équipés et dotés d'une identité visuelle désormais affirmée.</p>`,
     siteOfficiel: "https://www.opel.fr",
     anneeCreation: 1862,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "ds",
@@ -2234,7 +2234,7 @@ export const marques: Marque[] = [
 <p>DS Automobiles porte la promesse d'un luxe automobile à la française dans l'ère de l'électrique. Si la marque peine encore à conquérir la notoriété et les volumes nécessaires à sa pérennité, elle propose une expérience véritablement différente de celle des constructeurs premium allemands, fondée sur l'artisanat, le confort et l'élégance. Le DS N°8, avec son autonomie record et son design spectaculaire, sera le test de vérité pour les ambitions de la marque.</p>`,
     siteOfficiel: "https://www.dsautomobiles.fr",
     anneeCreation: 2009,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "ford",
@@ -2308,7 +2308,7 @@ export const marques: Marque[] = [
 <p>Ford aborde la transition électrique en Europe avec un pragmatisme salutaire : plutôt que d'investir des milliards dans une plateforme propriétaire aux volumes incertains, la marque s'appuie sur la technologie éprouvée de Volkswagen tout en apportant son propre design, son propre système d'infodivertissement et sa propre vision de l'expérience client. Le résultat est convaincant, avec des véhicules bien positionnés en prix qui méritent d'être considérés par les acheteurs français à la recherche d'un SUV électrique familial compétitif.</p>`,
     siteOfficiel: "https://www.ford.fr",
     anneeCreation: 1903,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "porsche",
@@ -2383,7 +2383,7 @@ export const marques: Marque[] = [
 <p>Porsche a magistralement prouvé que la voiture de sport et l'électrification ne sont pas antinomiques. Le Taycan est devenu une référence absolue dans le monde des véhicules électriques hautes performances, tandis que le Macan Electric applique la même philosophie à un format plus polyvalent. Pour les amateurs de conduite qui refusent tout compromis sur la performance et les sensations, Porsche est la marque électrique qui ne déçoit jamais.</p>`,
     siteOfficiel: "https://www.porsche.com/france",
     anneeCreation: 1931,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "toyota",
@@ -2467,7 +2467,7 @@ export const marques: Marque[] = [
 <p>Toyota est le constructeur qui divise le plus les observateurs dans la course à l'électrification. Ses détracteurs pointent le retard dans l'offre BEV et l'ambiguïté de sa communication. Ses partisans soulignent l'expérience inégalée en électrification hybride, les investissements massifs dans les batteries solid-state et la légendaire fiabilité Toyota. Si les batteries solid-state tiennent leurs promesses, Toyota pourrait transformer son retard apparent en avantage technologique décisif dans la deuxième moitié de la décennie.</p>`,
     siteOfficiel: "https://www.toyota.fr",
     anneeCreation: 1937,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "honda",
@@ -2546,7 +2546,7 @@ export const marques: Marque[] = [
 <p>Honda est le constructeur japonais qui a le plus de potentiel technologique inexploité dans l'électrique. Sa maîtrise de l'ingénierie mécanique, son expertise en robotique, ses avancées en batteries solid-state et son partenariat avec Sony constituent un arsenal formidable. Le défi est de traduire ce potentiel en véhicules concrets et compétitifs avant que le marché ne soit saturé par les concurrents plus rapides à dégainer. La gamme 0 Series sera le test de vérité pour Honda dans la bataille de l'électrique.</p>`,
     siteOfficiel: "https://www.honda.fr",
     anneeCreation: 1948,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "nissan",
@@ -2619,7 +2619,7 @@ export const marques: Marque[] = [
 <p>Nissan a ouvert la voie de l'électromobilité grand public avec la Leaf et dispose d'une expérience inestimable dans ce domaine. Le défi actuel est de convertir cet héritage de pionnier en une gamme moderne et compétitive face à des concurrents qui ont comblé leur retard initial. L'Ariya est un pas dans la bonne direction, mais Nissan doit accélérer significativement le renouvellement de sa gamme pour rester pertinente dans un marché en pleine effervescence.</p>`,
     siteOfficiel: "https://www.nissan.fr",
     anneeCreation: 1933,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
   {
     slug: "ferrari",
@@ -2779,7 +2779,7 @@ export const marques: Marque[] = [
 <p>Seres ne prétend pas révolutionner l'automobile ni proposer une expérience de conduite transcendante. Sa mission est plus modeste mais socialement pertinente : rendre le SUV électrique financièrement accessible au plus grand nombre. Pour les acheteurs qui privilégient le budget sur la marque et qui acceptent des compromis sur la finition et la vitesse de charge, Seres offre un point d'entrée réel dans la mobilité électrique. Le défi pour la marque sera de progresser en qualité et en réseau de distribution pour fidéliser ses premiers clients et construire une réputation durable.</p>`,
     siteOfficiel: "https://www.sfrench-seres.fr",
     anneeCreation: 2016,
-    dateMAJ: "2025-05-01",
+    dateMAJ: "2026-06-22",
   },
 ];
 

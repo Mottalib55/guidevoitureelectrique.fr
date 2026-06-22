@@ -19,6 +19,7 @@ ErrorDocument 404 /404.html
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 </IfModule>
 
 # ── Caching ──
@@ -31,6 +32,7 @@ ErrorDocument 404 /404.html
   ExpiresByType image/jpeg                "access plus 1 year"
   ExpiresByType image/png                 "access plus 1 year"
   ExpiresByType image/webp                "access plus 1 year"
+  ExpiresByType image/avif                "access plus 1 year"
   ExpiresByType image/x-icon              "access plus 1 month"
   ExpiresByType application/json          "access plus 1 hour"
   ExpiresByType application/manifest+json "access plus 1 week"

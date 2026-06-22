@@ -13,7 +13,7 @@ export const dynamic = "force-static";
 const BASE = "https://guidevoitureelectrique.fr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastUpdate = "2026-05-28";
+  const lastUpdate = "2026-06-22";
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, lastModified: lastUpdate, changeFrequency: "weekly", priority: 1 },

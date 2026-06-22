@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import { safeParseNumber } from "@/lib/parseNumericInput";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -26,7 +27,7 @@ export default function SimulateurAides() {
     let leasingSocial = false;
     let primeConversion = 0;
 
-    // Bonus écologique 2025
+    // Bonus écologique 2026
     if (eligible && prixVehicule <= 47000) {
       if (rfrParPart <= 15400) {
         bonus = 7000; // ménages très modestes
@@ -108,15 +109,15 @@ export default function SimulateurAides() {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
               <div>
                 <label style={labelStyle}>Prix du véhicule</label>
-                <input type="text" inputMode="decimal" value={prixVehicule} onChange={(e) => setPrixVehicule(Number(e.target.value))} step={1000} style={inputStyle} />
+                <input type="text" inputMode="decimal" value={prixVehicule} onChange={(e) => setPrixVehicule(safeParseNumber(e.target.value, prixVehicule))} step={1000} style={inputStyle} />
               </div>
               <div>
                 <label style={labelStyle}>Revenu fiscal de référence</label>
-                <input type="text" inputMode="decimal" value={rfr} onChange={(e) => setRfr(Number(e.target.value))} step={1000} style={inputStyle} />
+                <input type="text" inputMode="decimal" value={rfr} onChange={(e) => setRfr(safeParseNumber(e.target.value, rfr))} step={1000} style={inputStyle} />
               </div>
               <div>
                 <label style={labelStyle}>Nombre de parts fiscales</label>
-                <input type="text" inputMode="decimal" value={nbParts} onChange={(e) => setNbParts(Number(e.target.value))} step={0.5} min={1} style={inputStyle} />
+                <input type="text" inputMode="decimal" value={nbParts} onChange={(e) => setNbParts(safeParseNumber(e.target.value, nbParts))} step={0.5} min={1} style={inputStyle} />
               </div>
               <div>
                 <label style={labelStyle}>RFR par part</label>
@@ -195,7 +196,7 @@ export default function SimulateurAides() {
             </div>
 
             <p style={{ fontSize: 12, color: "var(--faint)", marginTop: 12, lineHeight: 1.5 }}>
-              Estimations basées sur les barèmes 2025. Le bonus écologique est soumis au
+              Estimations basées sur les barèmes 2026. Le bonus écologique est soumis au
               score environnemental du véhicule. La prime à la conversion et le leasing
               social sont soumis à conditions. Vérifiez sur{" "}
               <a href="https://www.service-public.fr/particuliers/vosdroits/F34014" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent-deep)" }}>

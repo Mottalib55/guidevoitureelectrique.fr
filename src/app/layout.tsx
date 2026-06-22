@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Manrope, Bricolage_Grotesque } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import NavDropdown from "@/components/NavDropdown";
+import MobileNav from "@/components/MobileNav";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -160,15 +162,8 @@ export default function RootLayout({
                 Guide<strong>VoitureÉlectrique</strong>
               </span>
             </Link>
-            <nav className="site-nav" aria-label="Navigation principale">
-              <Link href="/modeles/">Modèles</Link>
-              <Link href="/marques/">Marques</Link>
-              <Link href="/comparatifs/">Comparatifs</Link>
-              <Link href="/guides/">Guides</Link>
-              <Link href="/recharge/">Recharge</Link>
-              <Link href="/acheter/">Acheter</Link>
-              <Link href="/outils/financement/">Outils</Link>
-            </nav>
+            <NavDropdown />
+            <MobileNav />
           </div>
         </header>
 

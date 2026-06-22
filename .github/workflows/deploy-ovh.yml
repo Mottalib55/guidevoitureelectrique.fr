@@ -34,10 +34,19 @@ jobs:
           server-dir: ./www/
           dangerous-clean-slate: false
 
-      - name: Submit to Bing IndexNow
+      - name: Submit all URLs to IndexNow
         if: success()
         run: |
-          curl -s -X POST "https://api.indexnow.org/IndexNow" \
-            -H "Content-Type: application/json; charset=utf-8" \
-            -d "{\"host\":\"guidevoitureelectrique.fr\",\"key\":\"${{ secrets.BING_API_KEY }}\",\"keyLocation\":\"https://guidevoitureelectrique.fr/${{ secrets.BING_API_KEY }}.txt\",\"urlList\":[\"https://guidevoitureelectrique.fr/\"]}" \
-            || true
+          # Extract all URLs from the generated sitemap.xml
+          URLS=$(grep -oP '(?<=<loc>)[^<]+' ./out/sitemap.xml | head -500)
+          # Build JSON array of URLs
+          URL_JSON=$(echo "$URLS" | jq -R -s 'split("\n") | map(select(length > 0))')
+          # Submit in batches of 100 (IndexNow limit)
+          echo "$URL_JSON" | jq -c '[.[]] | _nwise(100)' | while read -r BATCH; do
+            curl -s -X POST "https://api.indexnow.org/IndexNow" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              -d "{\"host\":\"guidevoitureelectrique.fr\",\"key\":\"${{ secrets.BING_API_KEY }}\",\"keyLocation\":\"https://guidevoitureelectrique.fr/${{ secrets.BING_API_KEY }}.txt\",\"urlList\":$BATCH}" \
+              || true
+            sleep 1
+          done
+          echo "Submitted $(echo "$URLS" | wc -l | tr -d ' ') URLs to IndexNow"

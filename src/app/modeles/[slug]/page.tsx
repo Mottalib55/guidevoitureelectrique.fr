@@ -80,7 +80,7 @@ function getFaqs(m: ReturnType<typeof getModeleBySlug>) {
     {
       question: `La ${m.modele} est-elle éligible au bonus écologique ?`,
       answer: m.aidesEligible
-        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € (2025). Le bonus est conditionné au score environnemental du véhicule et à un prix catalogue inférieur à 47 000 €.`
+        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € (2026). Le bonus est conditionné au score environnemental du véhicule et à un prix catalogue inférieur à 47 000 €.`
         : `Non, la ${m.modele} n'est actuellement pas éligible au bonus écologique, principalement en raison de son lieu de fabrication (${m.origine === "Chine" ? "Chine" : "hors conditions d'éligibilité"}).`,
     },
     {
@@ -267,7 +267,7 @@ export default async function PageModele({ params }: Props) {
             )}
             {m.prixOccasion && (
               <> Sur le marché de l&apos;occasion, les premiers exemplaires se trouvent à
-                partir de <strong>{euro(m.prixOccasion)}</strong> (prix constaté en mai 2025,
+                partir de <strong>{euro(m.prixOccasion)}</strong> (prix constaté en juin 2026,
                 variable selon kilométrage et état).</>
             )}
           </p>
@@ -516,7 +516,7 @@ export default async function PageModele({ params }: Props) {
             {m.aidesEligible ? (
               <>
                 La {m.modele} est <strong>éligible au bonus écologique</strong> de 4 000 €
-                (barème 2025). Elle peut également être éligible au leasing social à
+                (barème 2026). Elle peut également être éligible au leasing social à
                 100 €/mois (sous conditions de revenus) et à la prime à la conversion si
                 vous mettez au rebut un ancien véhicule thermique Crit&apos;Air 3 ou plus.
               </>
