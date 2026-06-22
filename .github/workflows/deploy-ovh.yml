@@ -24,6 +24,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Remove RSC prefetch files to reduce size
+        run: find ./out/ -name "*.txt" ! -name "robots.txt" ! -name "sitemap.xml" -delete
+
       - name: Deploy to OVH via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
