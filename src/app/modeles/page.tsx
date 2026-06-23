@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { modeles } from "@/data/modeles";
 import { buildMetadata } from "@/lib/seo";
 import ModelesFiltres from "@/components/ModelesFiltres";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -15,6 +16,7 @@ export const metadata: Metadata = buildMetadata({
 export default function ModèlesIndexPage() {
   return (
     <>
+      <Breadcrumb items={[{ name: "Modèles", href: "/modeles/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">
           Tous les modèles électriques ({modeles.length})
@@ -137,15 +139,15 @@ export default function ModèlesIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>UTAC / WLTP — Protocole de mesure d&apos;autonomie et de consommation selon le cycle WLTP</li>
-              <li>Automobile Propre — Base de données des fiches techniques de véhicules électriques, 2024-2026</li>
-              <li>ADAC — Tests de consommation réelle et d&apos;autonomie en conditions standardisées</li>
-              <li>Bjørn Nyland — Tests indépendants de recharge rapide et courbes de charge par modèle</li>
-              <li>Avere-France — Top des ventes de véhicules électriques par modèle, données mensuelles 2025-2026</li>
-              <li>BloombergNEF — Évolution des coûts de batteries et impact sur les prix des véhicules, 2025-2026</li>
-              <li>Euro NCAP — Résultats de sécurité par modèle, protocole de test 2023-2025</li>
-              <li>Green NCAP — Évaluations d&apos;efficience énergétique et d&apos;empreinte carbone par véhicule</li>
-              <li>Données constructeurs — Fiches techniques officielles, prix catalogue et configurateurs (Renault, Peugeot, Citroën, Tesla, BYD, Hyundai-Kia, Volkswagen, BMW, Mercedes)</li>
+              <li>UTAC / WLTP : Protocole de mesure d&apos;autonomie et de consommation selon le cycle WLTP</li>
+              <li>Automobile Propre : Base de données des fiches techniques de véhicules électriques, 2024-2026</li>
+              <li>ADAC : Tests de consommation réelle et d&apos;autonomie en conditions standardisées</li>
+              <li>Bjørn Nyland : Tests indépendants de recharge rapide et courbes de charge par modèle</li>
+              <li>Avere-France : Top des ventes de véhicules électriques par modèle, données mensuelles 2025-2026</li>
+              <li>BloombergNEF : Évolution des coûts de batteries et impact sur les prix des véhicules, 2025-2026</li>
+              <li>Euro NCAP : Résultats de sécurité par modèle, protocole de test 2023-2025</li>
+              <li>Green NCAP : Évaluations d&apos;efficience énergétique et d&apos;empreinte carbone par véhicule</li>
+              <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs (Renault, Peugeot, Citroën, Tesla, BYD, Hyundai-Kia, Volkswagen, BMW, Mercedes)</li>
             </ul>
           </div>
         </div>

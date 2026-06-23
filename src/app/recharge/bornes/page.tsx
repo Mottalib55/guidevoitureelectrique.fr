@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { villes } from "@/data/villes";
 import { buildMetadata } from "@/lib/seo";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -18,6 +19,7 @@ export default function BornesIndexPage() {
 
   return (
     <>
+      <Breadcrumb items={[{ name: "Recharge", href: "/recharge/" }, { name: "Bornes", href: "/recharge/bornes/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">
           Bornes de recharge par ville ({villes.length})
@@ -246,15 +248,15 @@ export default function BornesIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>GIREVE — Fichier consolidé des infrastructures de recharge (open data), mise à jour trimestrielle 2026</li>
-              <li>data.gouv.fr — Jeu de données « Fichier consolidé des Bornes de Recharge pour Véhicules Électriques »</li>
-              <li>Avere-France — Carte interactive des bornes de recharge et statistiques par département</li>
-              <li>Chargemap — Base de données collaborative : emplacements, avis utilisateurs et disponibilité temps réel</li>
-              <li>Règlement européen AFIR (2023/1804) — Obligations de déploiement des bornes et paiement par carte bancaire</li>
-              <li>TotalEnergies, Ionity, Tesla, Fastned, Electra — Conditions tarifaires et cartes du réseau, 2026</li>
-              <li>Loi LOM (Loi d&apos;Orientation des Mobilités) — Obligations d&apos;équipement des parkings en bornes de recharge</li>
-              <li>Sociétés d&apos;autoroutes (VINCI, Sanef, APRR) — Plans de déploiement IRVE sur le réseau autoroutier</li>
-              <li>Syndicats d&apos;énergie départementaux — Données de déploiement des réseaux publics locaux</li>
+              <li>GIREVE : Fichier consolidé des infrastructures de recharge (open data), mise à jour trimestrielle 2026</li>
+              <li>data.gouv.fr : Jeu de données « Fichier consolidé des Bornes de Recharge pour Véhicules Électriques »</li>
+              <li>Avere-France : Carte interactive des bornes de recharge et statistiques par département</li>
+              <li>Chargemap : Base de données collaborative : emplacements, avis utilisateurs et disponibilité temps réel</li>
+              <li>Règlement européen AFIR (2023/1804) : Obligations de déploiement des bornes et paiement par carte bancaire</li>
+              <li>TotalEnergies, Ionity, Tesla, Fastned, Electra : Conditions tarifaires et cartes du réseau, 2026</li>
+              <li>Loi LOM (Loi d&apos;Orientation des Mobilités) : Obligations d&apos;équipement des parkings en bornes de recharge</li>
+              <li>Sociétés d&apos;autoroutes (VINCI, Sanef, APRR) : Plans de déploiement IRVE sur le réseau autoroutier</li>
+              <li>Syndicats d&apos;énergie départementaux : Données de déploiement des réseaux publics locaux</li>
             </ul>
           </div>
         </div>

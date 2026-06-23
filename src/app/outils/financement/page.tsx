@@ -75,7 +75,7 @@ export default function PageFinancement() {
               .sort((a, b) => a.modele.localeCompare(b.modele))
               .map((m) => (
                 <option key={m.slug} value={m.slug}>
-                  {m.modele} — {new Intl.NumberFormat("fr-FR", {
+                  {m.modele}, {new Intl.NumberFormat("fr-FR", {
                     style: "currency",
                     currency: "EUR",
                     maximumFractionDigits: 0,
@@ -258,12 +258,12 @@ export default function PageFinancement() {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>Banque de France — Taux effectifs moyens des crédits auto, T1 2026</li>
-            <li>Ministère de la Transition écologique — Barème du bonus écologique 2026</li>
-            <li>Argus — Valeurs résiduelles et décotes des véhicules électriques, barème 2026</li>
-            <li>ASP (Agence de Services et de Paiement) — Conditions d&apos;attribution du bonus et de la prime à la conversion</li>
-            <li>Fédération Bancaire Française — Statistiques des crédits auto et LOA, 2025</li>
-            <li>Données constructeurs — Grilles tarifaires LOA/LLD officielles</li>
+            <li>Banque de France : Taux effectifs moyens des crédits auto, T1 2026</li>
+            <li>Ministère de la Transition écologique : Barème du bonus écologique 2026</li>
+            <li>Argus : Valeurs résiduelles et décotes des véhicules électriques, barème 2026</li>
+            <li>ASP (Agence de Services et de Paiement) : Conditions d&apos;attribution du bonus et de la prime à la conversion</li>
+            <li>Fédération Bancaire Française : Statistiques des crédits auto et LOA, 2025</li>
+            <li>Données constructeurs : Grilles tarifaires LOA/LLD officielles</li>
           </ul>
         </div>
       </article>

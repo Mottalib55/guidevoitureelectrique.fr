@@ -3,6 +3,7 @@ import Link from "next/link";
 import { marques } from "@/data/marques";
 import { modeles } from "@/data/modeles";
 import { buildMetadata } from "@/lib/seo";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -29,6 +30,7 @@ export default function MarquesIndexPage() {
 
   return (
     <>
+      <Breadcrumb items={[{ name: "Marques", href: "/marques/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">
           Toutes les marques électriques ({marques.length})
@@ -73,7 +75,7 @@ export default function MarquesIndexPage() {
                         margin: 0,
                       }}
                     >
-                      {m.pays} — {m.nbModeles} modèle
+                      {m.pays}, {m.nbModeles} modèle
                       {m.nbModeles > 1 ? "s" : ""}
                     </p>
                   </Link>
@@ -110,7 +112,7 @@ export default function MarquesIndexPage() {
 
           <h3>Citroen : la democratisation de l&apos;électrique</h3>
           <p>
-            Citroen a choisi le positionnement de la mobilité accessible et inclusive. La e-C3, lancee a moins de 24 000 euros (avant bonus), est l&apos;un des véhicules électriques les plus abordables du marché tout en offrant une autonomie et un espace interieur très compétitifs pour le segment. La philosophie Citroen — confort, simplicite, accessibilite — se traduit par des véhicules électriques pensés pour le plus grand nombre, sans concession sur le confort de suspension (grace au système Advanced Comfort) ni sur la praticite quotidienne.
+            Citroen a choisi le positionnement de la mobilité accessible et inclusive. La e-C3, lancee a moins de 24 000 euros (avant bonus), est l&apos;un des véhicules électriques les plus abordables du marché tout en offrant une autonomie et un espace interieur très compétitifs pour le segment. La philosophie Citroën (confort, simplicité, accessibilité) se traduit par des véhicules électriques pensés pour le plus grand nombre, sans concession sur le confort de suspension (grace au système Advanced Comfort) ni sur la praticite quotidienne.
           </p>
 
           <h3>Dacia : l&apos;électrique au prix plancher</h3>
@@ -195,15 +197,15 @@ export default function MarquesIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>Renault Group — Communiqués de presse et stratégie « Renaulution », plan électrique 2025-2030</li>
-              <li>Stellantis — Plan stratégique « Dare Forward 2030 », électrification des marques Peugeot, Citroën, DS</li>
-              <li>Volkswagen Group — Rapport annuel 2025, stratégie plateforme MEB et SSP</li>
-              <li>Hyundai Motor Group — Feuille de route électrique E-GMP et architecture 800V</li>
-              <li>BYD — Rapports financiers et volumes de ventes mondiaux, données CPCA (China Passenger Car Association)</li>
-              <li>SAIC Motor / MG — Historique de la marque et stratégie de déploiement européen</li>
-              <li>Tesla — Rapports trimestriels (10-Q SEC filings) et données de production, 2024-2026</li>
-              <li>ACEA — Statistiques d&apos;immatriculations par constructeur en Europe, 2025-2026</li>
-              <li>Données constructeurs — Sites officiels, configurateurs et dossiers de presse</li>
+              <li>Renault Group : Communiqués de presse et stratégie « Renaulution », plan électrique 2025-2030</li>
+              <li>Stellantis : Plan stratégique « Dare Forward 2030 », électrification des marques Peugeot, Citroën, DS</li>
+              <li>Volkswagen Group : Rapport annuel 2025, stratégie plateforme MEB et SSP</li>
+              <li>Hyundai Motor Group : Feuille de route électrique E-GMP et architecture 800V</li>
+              <li>BYD : Rapports financiers et volumes de ventes mondiaux, données CPCA (China Passenger Car Association)</li>
+              <li>SAIC Motor / MG : Historique de la marque et stratégie de déploiement européen</li>
+              <li>Tesla : Rapports trimestriels (10-Q SEC filings) et données de production, 2024-2026</li>
+              <li>ACEA : Statistiques d&apos;immatriculations par constructeur en Europe, 2025-2026</li>
+              <li>Données constructeurs : Sites officiels, configurateurs et dossiers de presse</li>
             </ul>
           </div>
         </div>

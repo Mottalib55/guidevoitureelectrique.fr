@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pagesAcheter } from "@/data/acheter";
 import { buildMetadata } from "@/lib/seo";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -16,6 +17,7 @@ export const metadata: Metadata = buildMetadata({
 export default function AcheterIndexPage() {
   return (
     <>
+      <Breadcrumb items={[{ name: "Acheter", href: "/acheter/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">
           Acheter une voiture électrique ({pagesAcheter.length} guides)
@@ -76,12 +78,12 @@ export default function AcheterIndexPage() {
             Le marché français de la voiture électrique n&apos;a jamais ete aussi riche qu&apos;en 2026. Plus de 120 modèles sont desormais disponibles a la vente, couvrant l&apos;intégralite du spectre automobile : des micro-citadines sans permis aux SUV familiaux sept places, en passant par les berlines compactes, les breaks, les monospaces électriques et meme les utilitaires transformes en véhicules particuliers. Cette diversité signifie que, quel que soit votre profil, vos besoins ou votre budget, il existe un véhicule électrique fait pour vous.
           </p>
           <p>
-            Les constructeurs français sont particulièrement actifs dans cette transition. Renault, avec sa gamme E-Tech comprenant la R5 et la R4, Peugeot avec les e-208, e-308 et e-3008, Citroen avec la e-C3 et la e-C4, et Dacia avec la Spring proposent des véhicules concus pour le marché européen et adaptes aux attentes des automobilistes français. En parallele, les constructeurs chinois — BYD, MG, Leapmotor, Xpeng — enrichissent l&apos;offre avec des véhicules souvent très compétitifs en termes de rapport qualité-prix, contribuant a une saine pression concurrentielle qui bénéficie au consommateur.
+            Les constructeurs français sont particulièrement actifs dans cette transition. Renault, avec sa gamme E-Tech comprenant la R5 et la R4, Peugeot avec les e-208, e-308 et e-3008, Citroen avec la e-C3 et la e-C4, et Dacia avec la Spring proposent des véhicules concus pour le marché européen et adaptes aux attentes des automobilistes français. En parallele, les constructeurs chinois (BYD, MG, Leapmotor, Xpeng) enrichissent l&apos;offre avec des véhicules souvent très compétitifs en termes de rapport qualité-prix, contribuant a une saine pression concurrentielle qui bénéficie au consommateur.
           </p>
 
           <h3>Des prix en baisse constante</h3>
           <p>
-            L&apos;un des freins historiques a l&apos;adoption de la voiture électrique — le prix d&apos;achat eleve — s&apos;estompe progressivement. La baisse du cout des batteries (qui représentent 30 a 40 % du prix du véhicule) se repercute sur les tarifs. Entre 2022 et 2026, le prix moyen d&apos;une voiture électrique neuve en France a diminue d&apos;environ 18 %, passant de 38 000 euros a environ 31 000 euros. Et ce prix moyen masque la réalité des modèles d&apos;entree de gamme : plusieurs véhicules neufs sont desormais accessibles sous la barre des 20 000 euros apres bonus écologique.
+            L&apos;un des freins historiques a l&apos;adoption de la voiture électrique (le prix d&apos;achat élevé) s&apos;estompe progressivement. La baisse du cout des batteries (qui représentent 30 a 40 % du prix du véhicule) se repercute sur les tarifs. Entre 2022 et 2026, le prix moyen d&apos;une voiture électrique neuve en France a diminue d&apos;environ 18 %, passant de 38 000 euros a environ 31 000 euros. Et ce prix moyen masque la réalité des modèles d&apos;entree de gamme : plusieurs véhicules neufs sont desormais accessibles sous la barre des 20 000 euros apres bonus écologique.
           </p>
           <p>
             Cette tendance a la baisse devrait se poursuivre dans les années a venir, portee par les économies d&apos;echelle des gigafactories européennes, l&apos;adoption de chimies de batteries moins couteuses (LFP, sodium-ion) et l&apos;intensification de la concurrence. Les analystes prevoient que la parite de prix entre véhicules électriques et thermiques sera atteinte d&apos;ici 2027-2028 pour la plupart des segments.
@@ -182,15 +184,15 @@ export default function AcheterIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>Ministère de la Transition écologique — Conditions et barème du bonus écologique 2026</li>
-              <li>Service-Public.fr — Prime à la conversion : conditions d&apos;éligibilité et montants, mise à jour 2026</li>
-              <li>Région Île-de-France — Dispositif d&apos;aide à l&apos;achat de véhicules propres 2026</li>
-              <li>Avere-France — Guide du financement d&apos;un véhicule électrique : LOA, LLD, crédit</li>
-              <li>Fédération Française de l&apos;Assurance — Étude comparative des primes d&apos;assurance VE vs thermique, 2025</li>
-              <li>Argus — Cotes et valeurs résiduelles des véhicules électriques d&apos;occasion, baromètre 2026</li>
-              <li>UFC-Que Choisir — Comparatif des coûts totaux de possession VE vs thermique sur 5 ans, 2025</li>
-              <li>BloombergNEF — Battery Price Survey 2025 : évolution du coût des cellules lithium-ion</li>
-              <li>Données constructeurs — Grilles tarifaires et configurateurs officiels Renault, Peugeot, Citroën, Tesla, Dacia</li>
+              <li>Ministère de la Transition écologique : Conditions et barème du bonus écologique 2026</li>
+              <li>Service-Public.fr : Prime à la conversion : conditions d&apos;éligibilité et montants, mise à jour 2026</li>
+              <li>Région Île-de-France : Dispositif d&apos;aide à l&apos;achat de véhicules propres 2026</li>
+              <li>Avere-France : Guide du financement d&apos;un véhicule électrique : LOA, LLD, crédit</li>
+              <li>Fédération Française de l&apos;Assurance : Étude comparative des primes d&apos;assurance VE vs thermique, 2025</li>
+              <li>Argus : Cotes et valeurs résiduelles des véhicules électriques d&apos;occasion, baromètre 2026</li>
+              <li>UFC-Que Choisir : Comparatif des coûts totaux de possession VE vs thermique sur 5 ans, 2025</li>
+              <li>BloombergNEF : Battery Price Survey 2025 : évolution du coût des cellules lithium-ion</li>
+              <li>Données constructeurs : Grilles tarifaires et configurateurs officiels Renault, Peugeot, Citroën, Tesla, Dacia</li>
             </ul>
           </div>
         </div>

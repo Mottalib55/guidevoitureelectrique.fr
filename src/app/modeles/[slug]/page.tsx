@@ -145,7 +145,7 @@ export default async function PageModele({ params }: Props) {
               marginBottom: 4,
             }}
           >
-            {m.marque} — {m.segment}
+            {m.marque}, {m.segment}
           </p>
           <h1
             style={{
@@ -166,8 +166,8 @@ export default async function PageModele({ params }: Props) {
               lineHeight: 1.5,
             }}
           >
-            À partir de <strong>{euro(m.prixBase)}</strong> — {m.autonomieReelle} km
-            d&apos;autonomie réelle — Batterie {m.batterieKwh} kWh — Note{" "}
+            À partir de <strong>{euro(m.prixBase)}</strong>, {m.autonomieReelle} km
+            d&apos;autonomie réelle, batterie {m.batterieKwh} kWh, note{" "}
             <strong>{m.note}/10</strong>
           </p>
         </header>
@@ -189,7 +189,7 @@ export default async function PageModele({ params }: Props) {
             <span style={{ fontSize: 22, lineHeight: 1 }}>&#128338;</span>
             <div>
               <strong style={{ color: "#8a6d00", fontSize: 15 }}>
-                Modèle à venir — Sortie prévue {m.sortiePrevue ?? m.annee}
+                Modèle à venir, sortie prévue {m.sortiePrevue ?? m.annee}
               </strong>
               <p
                 style={{
@@ -302,7 +302,7 @@ export default async function PageModele({ params }: Props) {
             {euro(Math.round((12000 / 100) * m.conso * 0.45))}/an.
           </p>
 
-          <h3>Temps de recharge estimé — {m.modele}</h3>
+          <h3>Temps de recharge estimé : {m.modele}</h3>
           <div className="table-wrap table-recharge">
             <table>
               <thead>
@@ -315,7 +315,7 @@ export default async function PageModele({ params }: Props) {
               </thead>
               <tbody>
                 <tr>
-                  <td colSpan={4} className="table-section-header">Recharge à domicile (AC) — 0 à 100 %</td>
+                  <td colSpan={4} className="table-section-header">Recharge à domicile (AC), 0 à 100 %</td>
                 </tr>
                 <tr>
                   <td>Prise domestique</td>
@@ -348,7 +348,7 @@ export default async function PageModele({ params }: Props) {
                   <td>Si le véhicule accepte 22 kW AC</td>
                 </tr>
                 <tr>
-                  <td colSpan={4} className="table-section-header">Charge rapide (DC) — 10 à 80 %</td>
+                  <td colSpan={4} className="table-section-header">Charge rapide (DC), 10 à 80 %</td>
                 </tr>
                 <tr>
                   <td>Borne publique</td>
@@ -578,7 +578,7 @@ export default async function PageModele({ params }: Props) {
                 <tr><td>Batterie</td><td>{m.batterieKwh} kWh</td></tr>
                 <tr><td>Consommation</td><td>{m.conso} kWh/100 km</td></tr>
                 <tr><td>Puissance</td><td>{m.puissanceCh} ch ({m.puissanceKw} kW)</td></tr>
-                <tr><td>Charge rapide DC</td><td>{m.chargeRapideKw} kW — {m.tempsChargeRapide}</td></tr>
+                <tr><td>Charge rapide DC</td><td>{m.chargeRapideKw} kW, {m.tempsChargeRapide}</td></tr>
                 <tr><td>Charge AC</td><td>{m.tempsChargeAC}</td></tr>
                 <tr><td>Coffre</td><td>{m.coffre} litres</td></tr>
                 <tr><td>Poids</td><td>{m.poids} kg</td></tr>
@@ -653,7 +653,7 @@ export default async function PageModele({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Questions fréquentes — {m.modele}
+            Questions fréquentes : {m.modele}
           </h2>
           {faqs.map((f, i) => (
             <div key={i} className="faq-item">
@@ -675,7 +675,7 @@ export default async function PageModele({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Fiche officielle {m.marque} — {m.modele}
+                Fiche officielle {m.marque} : {m.modele}
               </a>
             </li>
             <li>
@@ -684,7 +684,7 @@ export default async function PageModele({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique — service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
             <li>
@@ -693,7 +693,7 @@ export default async function PageModele({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France — données immatriculations VE
+                Avere-France : données immatriculations VE
               </a>
             </li>
             {marque && (

@@ -102,7 +102,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 4,
             }}
           >
-            Bornes de recharge — {ville.region}
+            Bornes de recharge, {ville.region}
           </p>
           <h1
             style={{
@@ -113,7 +113,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Bornes de recharge à {ville.nom} — Guide complet
+            Bornes de recharge à {ville.nom} : Guide complet
           </h1>
           <p
             style={{
@@ -138,7 +138,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 16,
             }}
           >
-            Chiffres clés — {ville.nom}
+            Chiffres clés : {ville.nom}
           </h2>
           <div className="encadre-verdict">
             <div className="encadre-verdict-grid">
@@ -279,7 +279,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Questions fréquentes — Recharge à {ville.nom}
+            Questions fréquentes : Recharge à {ville.nom}
           </h2>
           {faqs.map((f, i) => (
             <div key={i} className="faq-item">
@@ -314,7 +314,7 @@ export default async function PageVille({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                data.gouv.fr — Données IRVE consolidées
+                data.gouv.fr : Données IRVE consolidées
               </a>
             </li>
             <li>
@@ -323,7 +323,7 @@ export default async function PageVille({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France — Baromètre des bornes
+                Avere-France : Baromètre des bornes
               </a>
             </li>
           </ul>

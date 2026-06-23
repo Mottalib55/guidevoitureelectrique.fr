@@ -3,6 +3,7 @@ import Link from "next/link";
 import { comparatifs } from "@/data/comparatifs";
 import { buildMetadata } from "@/lib/seo";
 import ComparateurRapide from "@/components/ComparateurRapide";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -16,6 +17,7 @@ export const metadata: Metadata = buildMetadata({
 export default function ComparatifsIndexPage() {
   return (
     <>
+      <Breadcrumb items={[{ name: "Comparatifs", href: "/comparatifs/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">Comparatifs voitures électriques</h1>
         <p className="section-sub">
@@ -173,14 +175,14 @@ export default function ComparatifsIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>UTAC / WLTP — Protocole de mesure d&apos;autonomie WLTP et méthodologie de test</li>
-              <li>Automobile Propre — Tests d&apos;autonomie réelle sur route ouverte, protocole standardisé 2024-2026</li>
-              <li>Bjørn Nyland — Tests indépendants de recharge rapide (1000 km challenge), base de données publique</li>
-              <li>Fastned — Données de courbes de charge réelles par modèle, publiées en open data</li>
-              <li>ADAC — Tests comparatifs de véhicules électriques, consommation et autonomie mesurées</li>
-              <li>Green NCAP — Évaluations d&apos;efficience énergétique et d&apos;empreinte environnementale des VE</li>
-              <li>Argus — Valeurs résiduelles et décotes des véhicules électriques par modèle, 2026</li>
-              <li>Données constructeurs — Fiches techniques officielles, prix catalogue et configurateurs en ligne</li>
+              <li>UTAC / WLTP : Protocole de mesure d&apos;autonomie WLTP et méthodologie de test</li>
+              <li>Automobile Propre : Tests d&apos;autonomie réelle sur route ouverte, protocole standardisé 2024-2026</li>
+              <li>Bjørn Nyland : Tests indépendants de recharge rapide (1000 km challenge), base de données publique</li>
+              <li>Fastned : Données de courbes de charge réelles par modèle, publiées en open data</li>
+              <li>ADAC : Tests comparatifs de véhicules électriques, consommation et autonomie mesurées</li>
+              <li>Green NCAP : Évaluations d&apos;efficience énergétique et d&apos;empreinte environnementale des VE</li>
+              <li>Argus : Valeurs résiduelles et décotes des véhicules électriques par modèle, 2026</li>
+              <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs en ligne</li>
             </ul>
           </div>
         </div>

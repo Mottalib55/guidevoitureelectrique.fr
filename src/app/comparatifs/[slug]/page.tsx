@@ -56,7 +56,7 @@ function getFaqs(
     },
     {
       question: `Laquelle se recharge le plus vite ?`,
-      answer: `La ${chargeRapide.modele} accepte la charge rapide la plus élevée à ${chargeRapide.chargeRapideKw} kW. Temps de charge rapide : ${m1.modele} — ${m1.tempsChargeRapide} ; ${m2.modele} — ${m2.tempsChargeRapide}.`,
+      answer: `La ${chargeRapide.modele} accepte la charge rapide la plus élevée à ${chargeRapide.chargeRapideKw} kW. Temps de charge rapide : ${m1.modele} : ${m1.tempsChargeRapide} ; ${m2.modele} : ${m2.tempsChargeRapide}.`,
     },
     {
       question: `Laquelle a le plus grand coffre ?`,
@@ -196,7 +196,7 @@ export default async function PageComparatif({ params }: Props) {
             }}
           >
             {m1.modele} ({euro(m1.prixBase)}, {m1.autonomieReelle} km réels) vs{" "}
-            {m2.modele} ({euro(m2.prixBase)}, {m2.autonomieReelle} km réels) —
+            {m2.modele} ({euro(m2.prixBase)}, {m2.autonomieReelle} km réels),
             Comparaison complète des prix, autonomie, recharge et coût de possession.
           </p>
         </header>
@@ -288,7 +288,7 @@ export default async function PageComparatif({ params }: Props) {
               marginBottom: 16,
             }}
           >
-            Financement — {m1.modele}
+            Financement : {m1.modele}
           </h2>
           <FinancementVE modele={m1.modele} prixBase={m1.prixBase} />
         </section>
@@ -302,7 +302,7 @@ export default async function PageComparatif({ params }: Props) {
               marginBottom: 16,
             }}
           >
-            Financement — {m2.modele}
+            Financement : {m2.modele}
           </h2>
           <FinancementVE modele={m2.modele} prixBase={m2.prixBase} />
         </section>
@@ -329,7 +329,7 @@ export default async function PageComparatif({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Questions fréquentes — {c.titre}
+            Questions fréquentes : {c.titre}
           </h2>
           {faqs.map((f, i) => (
             <div key={i} className="faq-item">
@@ -361,7 +361,7 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site officiel {m1.marque} — {m1.modele}
+                Site officiel {m1.marque} : {m1.modele}
               </a>
             </li>
             <li>
@@ -370,7 +370,7 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site officiel {m2.marque} — {m2.modele}
+                Site officiel {m2.marque} : {m2.modele}
               </a>
             </li>
             <li>
@@ -379,7 +379,7 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique — service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
           </ul>

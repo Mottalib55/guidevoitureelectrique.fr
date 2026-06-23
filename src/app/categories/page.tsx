@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { categories } from "@/data/categories";
 import { buildMetadata } from "@/lib/seo";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -16,6 +17,7 @@ export const metadata: Metadata = buildMetadata({
 export default function CategoriesIndexPage() {
   return (
     <>
+      <Breadcrumb items={[{ name: "Catégories", href: "/categories/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">
           Explorer par catégorie ({categories.length})
@@ -129,7 +131,7 @@ export default function CategoriesIndexPage() {
 
           <h3>Pour qui ?</h3>
           <p>
-            Les citadines et compactes électriques sont le segment le plus populaire en France, et pour cause : elles correspondent parfaitement au profil de conduite de la majorite des automobilistes français — trajets domicile-travail courts, stationnement en ville, deplacements periurbains reguliers. Leur encombrement reduit facilite le stationnement, leur consommation moderee minimise le cout d&apos;utilisation, et leur agilite en ville est un plaisir quotidien.
+            Les citadines et compactes électriques sont le segment le plus populaire en France, et pour cause : elles correspondent parfaitement au profil de conduite de la majorite des automobilistes français : trajets domicile-travail courts, stationnement en ville, deplacements periurbains reguliers. Leur encombrement reduit facilite le stationnement, leur consommation moderee minimise le cout d&apos;utilisation, et leur agilite en ville est un plaisir quotidien.
           </p>
 
           <h3>Le dynamisme du segment en 2026</h3>
@@ -144,7 +146,7 @@ export default function CategoriesIndexPage() {
 
           <h3>Pour qui ?</h3>
           <p>
-            Les véhicules électriques familiaux — principalement des SUV et crossover — s&apos;adressent aux familles ayant besoin d&apos;espace, de polyvalence et de confort. Le segment des SUV électriques est le plus dynamique du marché en termes de nouveaux modeles, car il combine la tendance forte du SUV avec la transition électrique. Les acheteurs recherchent un volume de coffre genereux (minimum 500 litres), un espace arriere confortable pour les enfants, des équipements de sécurité et de confort avances, et une autonomie suffisante pour les deplacements en vacances.
+            Les véhicules électriques familiaux (principalement des SUV et crossover) s&apos;adressent aux familles ayant besoin d&apos;espace, de polyvalence et de confort. Le segment des SUV électriques est le plus dynamique du marché en termes de nouveaux modeles, car il combine la tendance forte du SUV avec la transition électrique. Les acheteurs recherchent un volume de coffre genereux (minimum 500 litres), un espace arriere confortable pour les enfants, des équipements de sécurité et de confort avances, et une autonomie suffisante pour les deplacements en vacances.
           </p>
 
           <h3>Les options en 2026</h3>
@@ -176,13 +178,13 @@ export default function CategoriesIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>AAA Data — Segmentation et parts de marché des véhicules électriques par catégorie, France 2025-2026</li>
-              <li>CCFA (Comité des Constructeurs Français d&apos;Automobiles) — Immatriculations par segment, bilan annuel 2025</li>
-              <li>Ministère de la Transition écologique — Réglementation des quadricycles légers électriques (L6e)</li>
-              <li>Automobile Propre — Tests et classements des voitures électriques par catégorie, 2024-2026</li>
-              <li>Euro NCAP — Résultats de sécurité des véhicules électriques par segment, 2024-2025</li>
-              <li>JATO Dynamics — Analyse des prix et positionnements des VE par segment en Europe, 2025</li>
-              <li>Données constructeurs — Fiches techniques et tarifs officiels par modèle et finition</li>
+              <li>AAA Data : Segmentation et parts de marché des véhicules électriques par catégorie, France 2025-2026</li>
+              <li>CCFA (Comité des Constructeurs Français d&apos;Automobiles) : Immatriculations par segment, bilan annuel 2025</li>
+              <li>Ministère de la Transition écologique : Réglementation des quadricycles légers électriques (L6e)</li>
+              <li>Automobile Propre : Tests et classements des voitures électriques par catégorie, 2024-2026</li>
+              <li>Euro NCAP : Résultats de sécurité des véhicules électriques par segment, 2024-2025</li>
+              <li>JATO Dynamics : Analyse des prix et positionnements des VE par segment en Europe, 2025</li>
+              <li>Données constructeurs : Fiches techniques et tarifs officiels par modèle et finition</li>
             </ul>
           </div>
         </div>

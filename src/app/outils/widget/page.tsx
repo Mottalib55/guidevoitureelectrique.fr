@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Widget calculateur VE gratuit — Intégrez sur votre site",
+  title: "Widget calculateur VE gratuit | Intégrez sur votre site",
   description:
     "Intégrez gratuitement notre calculateur de coût de voiture électrique sur votre site web. Widget responsive, léger et sans publicité.",
   path: "/outils/widget/",

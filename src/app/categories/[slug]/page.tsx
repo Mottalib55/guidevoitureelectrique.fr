@@ -134,11 +134,11 @@ export default async function PageCategorie({ params }: Props) {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>Avere-France — Baromètre des immatriculations de véhicules électriques par segment</li>
-            <li>AAA Data — Parts de marché par catégorie de véhicule en France, 2025-2026</li>
-            <li>Ministère de la Transition écologique — Barème du bonus écologique et score environnemental 2026</li>
-            <li>Euro NCAP — Résultats de sécurité par modèle, protocole 2024-2025</li>
-            <li>Données constructeurs — Fiches techniques officielles, prix catalogue et configurateurs</li>
+            <li>Avere-France : Baromètre des immatriculations de véhicules électriques par segment</li>
+            <li>AAA Data : Parts de marché par catégorie de véhicule en France, 2025-2026</li>
+            <li>Ministère de la Transition écologique : Barème du bonus écologique et score environnemental 2026</li>
+            <li>Euro NCAP : Résultats de sécurité par modèle, protocole 2024-2025</li>
+            <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs</li>
           </ul>
         </div>
       </article>

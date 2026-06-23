@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pagesGuides } from "@/data/guides";
 import { buildMetadata } from "@/lib/seo";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 
 export const metadata: Metadata = buildMetadata({
@@ -16,6 +17,7 @@ export const metadata: Metadata = buildMetadata({
 export default function GuidesIndexPage() {
   return (
     <>
+      <Breadcrumb items={[{ name: "Guides", href: "/guides/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">
           Guides voiture électrique ({pagesGuides.length})
@@ -157,15 +159,15 @@ export default function GuidesIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>ADEME — Guide pratique « La voiture électrique au quotidien », édition 2025</li>
-              <li>Automobile Propre — Tests d&apos;autonomie réelle en conditions hivernales et estivales, 2024-2026</li>
-              <li>WLTP Facts — Méthodologie du cycle WLTP et écarts avec la conduite réelle</li>
-              <li>Transport &amp; Environment — Rapport « From dirty oil to clean batteries », 2024</li>
-              <li>Battery University — Cycle de vie et dégradation des batteries lithium-ion NMC et LFP</li>
-              <li>Avere-France — Guide de la recharge : wallbox, bornes publiques et droit à la prise</li>
-              <li>CGDD (Commissariat général au développement durable) — Chiffres clés du transport, édition 2025</li>
-              <li>ACEA (Association des constructeurs européens) — Statistiques d&apos;immatriculations EV en Europe, 2025-2026</li>
-              <li>Données constructeurs — Manuels d&apos;utilisation et fiches techniques Renault, Peugeot, Tesla, Hyundai, Volkswagen</li>
+              <li>ADEME : Guide pratique « La voiture électrique au quotidien », édition 2025</li>
+              <li>Automobile Propre : Tests d&apos;autonomie réelle en conditions hivernales et estivales, 2024-2026</li>
+              <li>WLTP Facts : Méthodologie du cycle WLTP et écarts avec la conduite réelle</li>
+              <li>Transport &amp; Environment : Rapport « From dirty oil to clean batteries », 2024</li>
+              <li>Battery University : Cycle de vie et dégradation des batteries lithium-ion NMC et LFP</li>
+              <li>Avere-France : Guide de la recharge : wallbox, bornes publiques et droit à la prise</li>
+              <li>CGDD (Commissariat général au développement durable) : Chiffres clés du transport, édition 2025</li>
+              <li>ACEA (Association des constructeurs européens) : Statistiques d&apos;immatriculations EV en Europe, 2025-2026</li>
+              <li>Données constructeurs : Manuels d&apos;utilisation et fiches techniques Renault, Peugeot, Tesla, Hyundai, Volkswagen</li>
             </ul>
           </div>
         </div>

@@ -74,13 +74,13 @@ export default async function PageRecharge({ params }: Props) {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>Avere-France — Guides techniques de la recharge pour véhicules électriques</li>
-            <li>GIREVE — Données du réseau de recharge public en France, 2026</li>
-            <li>ADEME — Guide pratique « Installer une borne de recharge », édition 2025</li>
-            <li>Enedis — Normes d&apos;installation IRVE et raccordement électrique</li>
-            <li>Programme ADVENIR — Conditions de subvention pour bornes résidentielles et professionnelles</li>
-            <li>EDF — Grille tarifaire réglementée et options heures creuses, 2026</li>
-            <li>Données constructeurs — Spécifications de recharge par modèle</li>
+            <li>Avere-France : Guides techniques de la recharge pour véhicules électriques</li>
+            <li>GIREVE : Données du réseau de recharge public en France, 2026</li>
+            <li>ADEME : Guide pratique « Installer une borne de recharge », édition 2025</li>
+            <li>Enedis : Normes d&apos;installation IRVE et raccordement électrique</li>
+            <li>Programme ADVENIR : Conditions de subvention pour bornes résidentielles et professionnelles</li>
+            <li>EDF : Grille tarifaire réglementée et options heures creuses, 2026</li>
+            <li>Données constructeurs : Spécifications de recharge par modèle</li>
           </ul>
         </div>
       </article>

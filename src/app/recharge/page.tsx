@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pagesRecharge } from "@/data/recharge";
 import { villes } from "@/data/villes";
+import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { buildMetadata } from "@/lib/seo";
 
@@ -23,6 +24,7 @@ export default function RechargeIndexPage() {
 
   return (
     <>
+      <Breadcrumb items={[{ name: "Recharge", href: "/recharge/" }]} />
       <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
         <h1 className="section-title">Recharge voiture électrique</h1>
         <p className="section-sub">
@@ -99,7 +101,7 @@ export default function RechargeIndexPage() {
                   margin: 0,
                 }}
               >
-                {v.nombreBornes} bornes — {v.region}
+                {v.nombreBornes} bornes, {v.region}
               </p>
             </Link>
           ))}
@@ -250,16 +252,16 @@ export default function RechargeIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>GIREVE — Tableau de bord des infrastructures de recharge ouvertes au public, T1 2026</li>
-              <li>Avere-France — Baromètre de la recharge publique, données mensuelles 2025-2026</li>
-              <li>Enedis — Guide technique raccordement IRVE et normes d&apos;installation</li>
-              <li>Programme ADVENIR — Conditions de subvention pour bornes en copropriété et entreprise, 2026</li>
-              <li>Code de l&apos;énergie, art. L353-12 — Droit à la prise en copropriété</li>
-              <li>EDF — Grille tarifaire réglementée (tarif bleu) heures pleines / heures creuses, 2026</li>
-              <li>Ionity, TotalEnergies, Electra, Tesla, Fastned — Grilles tarifaires publiques et conditions d&apos;abonnement</li>
-              <li>Norme ISO 15118 — Spécification technique Plug &amp; Charge pour la recharge automatisée</li>
-              <li>ADEME — Guide pratique « Installer une borne de recharge chez soi », édition 2025</li>
-              <li>RTE — Perspectives V2G et flexibilité du réseau électrique, rapport 2025</li>
+              <li>GIREVE : Tableau de bord des infrastructures de recharge ouvertes au public, T1 2026</li>
+              <li>Avere-France : Baromètre de la recharge publique, données mensuelles 2025-2026</li>
+              <li>Enedis : Guide technique raccordement IRVE et normes d&apos;installation</li>
+              <li>Programme ADVENIR : Conditions de subvention pour bornes en copropriété et entreprise, 2026</li>
+              <li>Code de l&apos;énergie, art. L353-12 : Droit à la prise en copropriété</li>
+              <li>EDF : Grille tarifaire réglementée (tarif bleu) heures pleines / heures creuses, 2026</li>
+              <li>Ionity, TotalEnergies, Electra, Tesla, Fastned : Grilles tarifaires publiques et conditions d&apos;abonnement</li>
+              <li>Norme ISO 15118 : Spécification technique Plug &amp; Charge pour la recharge automatisée</li>
+              <li>ADEME : Guide pratique « Installer une borne de recharge chez soi », édition 2025</li>
+              <li>RTE : Perspectives V2G et flexibilité du réseau électrique, rapport 2025</li>
             </ul>
           </div>
         </div>

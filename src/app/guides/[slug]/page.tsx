@@ -90,7 +90,7 @@ export default async function PageGuide({ params }: Props) {
               marginBottom: 4,
             }}
           >
-            Guide — Voiture électrique
+            Guide : Voiture électrique
           </p>
           <h1
             style={{
@@ -228,7 +228,7 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France — données marché VE
+                Avere-France : données marché VE
               </a>
             </li>
             <li>
@@ -237,7 +237,7 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ADEME — analyses de cycle de vie
+                ADEME : analyses de cycle de vie
               </a>
             </li>
             <li>
@@ -246,7 +246,7 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique — service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
             <li>

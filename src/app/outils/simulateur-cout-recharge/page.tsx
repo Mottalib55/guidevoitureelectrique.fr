@@ -187,8 +187,8 @@ export default function SimulateurCoutRecharge() {
             </select>
             {vehicule && (
               <p style={{ fontSize: 13, color: "var(--faint)", marginTop: 6 }}>
-                Batterie {vehicule.batterieKwh} kWh — {vehicule.autonomieReelle} km
-                d&apos;autonomie réelle — {vehicule.conso} kWh/100 km
+                Batterie {vehicule.batterieKwh} kWh, {vehicule.autonomieReelle} km
+                d&apos;autonomie réelle, {vehicule.conso} kWh/100 km
               </p>
             )}
           </div>
@@ -244,7 +244,7 @@ export default function SimulateurCoutRecharge() {
                 >
                   <div>{p.label}</div>
                   <div style={{ fontSize: 12, color: "var(--faint)", fontWeight: 500 }}>
-                    ~{p.kmJour} km/jour — {p.desc}
+                    ~{p.kmJour} km/jour, {p.desc}
                   </div>
                 </button>
               ))}
@@ -571,7 +571,7 @@ export default function SimulateurCoutRecharge() {
                   marginBottom: 14,
                 }}
               >
-                Temps de recharge — {vehicule.marque} {vehicule.modele}
+                Temps de recharge : {vehicule.marque} {vehicule.modele}
               </h3>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
                 <div>
@@ -633,7 +633,7 @@ export default function SimulateurCoutRecharge() {
             <div style={{ display: "grid", gap: 10, fontSize: 14, fontWeight: 500 }}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span>
-                  <strong>Meilleur cas</strong> — 100 % domicile (heures creuses)
+                  <strong>Meilleur cas</strong> : 100 % domicile (heures creuses)
                 </span>
                 <strong style={{ color: "var(--accent-deep)" }}>
                   {euro(calc.coutDomicile100)}/an
@@ -662,14 +662,14 @@ export default function SimulateurCoutRecharge() {
               </div>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span>
-                  <strong>Votre estimation</strong> —{" "}
+                  <strong>Votre estimation</strong> :{" "}
                   {hasHomeCharging ? "80 % domicile + bornes" : "bornes publiques"}
                 </span>
                 <strong style={{ color: "var(--ink)" }}>{euro(calc.coutElecAn)}/an</strong>
               </div>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <span>
-                  <strong>Pire cas</strong> — 100 % bornes rapides
+                  <strong>Pire cas</strong> : 100 % bornes rapides
                 </span>
                 <strong style={{ color: "var(--warn)" }}>{euro(calc.coutRapide100)}/an</strong>
               </div>
@@ -683,7 +683,7 @@ export default function SimulateurCoutRecharge() {
                 }}
               >
                 <span>
-                  <strong>Essence équivalente</strong> — 7 L/100 km
+                  <strong>Essence équivalente</strong> : 7 L/100 km
                 </span>
                 <strong style={{ color: "var(--warn)" }}>{euro(calc.coutThermiqueAn)}/an</strong>
               </div>
@@ -765,9 +765,9 @@ export default function SimulateurCoutRecharge() {
               L&apos;option Tempo d&apos;EDF est la plus complexe mais potentiellement la plus avantageuse. Elle divise l&apos;annee en trois types de jours :
             </p>
             <ul>
-              <li><strong>Jours Bleus (300 jours/an) :</strong> environ 0,15 euro/kWh en heures creuses — le tarif le plus bas du marche</li>
+              <li><strong>Jours Bleus (300 jours/an) :</strong> environ 0,15 euro/kWh en heures creuses, le tarif le plus bas du marche</li>
               <li><strong>Jours Blancs (43 jours/an) :</strong> environ 0,17 euro/kWh en heures creuses</li>
-              <li><strong>Jours Rouges (22 jours/an) :</strong> environ 0,76 euro/kWh en heures pleines — tres cher, a eviter absolument pour la recharge</li>
+              <li><strong>Jours Rouges (22 jours/an) :</strong> environ 0,76 euro/kWh en heures pleines, tres cher, a eviter absolument pour la recharge</li>
             </ul>
             <p>
               En evitant de recharger les jours rouges en heures pleines (ce qui est tout a fait faisable avec un minimum d&apos;organisation et les alertes Tempo disponibles via l&apos;application EDF ou les notifications de votre wallbox), le cout moyen peut descendre a environ <strong>0,16 euro/kWh</strong>. Sur notre exemple : (15 000 / 100) x 15 x 0,16 = <strong>360 euros par an</strong>, soit seulement 30 euros par mois. C&apos;est <strong>cinq fois moins cher que l&apos;essence</strong>.
@@ -846,7 +846,7 @@ export default function SimulateurCoutRecharge() {
               <li>90 % a domicile (HC) : 1 080 kWh x 0,21 euro = 227 euros</li>
               <li>10 % borne publique AC : 120 kWh x 0,35 euro = 42 euros</li>
               <li><strong>Total annuel : 269 euros, soit 22 euros par mois</strong></li>
-              <li>Equivalent essence (6 L/100 km, urbain) : 840 euros/an — <strong>economie de 571 euros/an</strong></li>
+              <li>Equivalent essence (6 L/100 km, urbain) : 840 euros/an, <strong>economie de 571 euros/an</strong></li>
             </ul>
 
             <h3>Profil 2 : Le pendulaire (15 000 km/an)</h3>
@@ -859,7 +859,7 @@ export default function SimulateurCoutRecharge() {
               <li>15 % borne publique AC : 337 kWh x 0,35 euro = 118 euros</li>
               <li>5 % borne rapide DC : 113 kWh x 0,45 euro = 51 euros</li>
               <li><strong>Total annuel : 547 euros, soit 46 euros par mois</strong></li>
-              <li>Equivalent essence (7 L/100 km) : 1 838 euros/an — <strong>economie de 1 291 euros/an</strong></li>
+              <li>Equivalent essence (7 L/100 km) : 1 838 euros/an, <strong>economie de 1 291 euros/an</strong></li>
             </ul>
 
             <h3>Profil 3 : Le grand rouleur (30 000 km/an)</h3>
@@ -872,7 +872,7 @@ export default function SimulateurCoutRecharge() {
               <li>20 % borne publique AC : 960 kWh x 0,35 euro = 336 euros</li>
               <li>20 % borne rapide DC : 960 kWh x 0,45 euro = 432 euros</li>
               <li><strong>Total annuel : 1 373 euros, soit 114 euros par mois</strong></li>
-              <li>Equivalent essence (7,5 L/100 km, autoroute) : 3 938 euros/an — <strong>economie de 2 565 euros/an</strong></li>
+              <li>Equivalent essence (7,5 L/100 km, autoroute) : 3 938 euros/an, <strong>economie de 2 565 euros/an</strong></li>
             </ul>
 
             <h2>L&apos;impact de la saison sur la consommation et le cout</h2>
@@ -924,12 +924,12 @@ export default function SimulateurCoutRecharge() {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>EDF — Grille tarifaire réglementée (tarif bleu, Tempo, heures creuses), mai 2026</li>
-            <li>CRE (Commission de Régulation de l&apos;Énergie) — Évolution des tarifs réglementés de l&apos;électricité</li>
-            <li>ADEME — Consommation réelle des véhicules électriques par modèle et conditions d&apos;usage</li>
-            <li>GIREVE — Tarifs moyens de recharge publique par puissance et par opérateur, 2026</li>
-            <li>Programme ADVENIR — Aides à l&apos;installation de bornes en copropriété et entreprise</li>
-            <li>Données constructeurs — Consommation WLTP et capacités de recharge par modèle</li>
+            <li>EDF : Grille tarifaire réglementée (tarif bleu, Tempo, heures creuses), mai 2026</li>
+            <li>CRE (Commission de Régulation de l&apos;Énergie) : Évolution des tarifs réglementés de l&apos;électricité</li>
+            <li>ADEME : Consommation réelle des véhicules électriques par modèle et conditions d&apos;usage</li>
+            <li>GIREVE : Tarifs moyens de recharge publique par puissance et par opérateur, 2026</li>
+            <li>Programme ADVENIR : Aides à l&apos;installation de bornes en copropriété et entreprise</li>
+            <li>Données constructeurs : Consommation WLTP et capacités de recharge par modèle</li>
           </ul>
         </div>
       </article>

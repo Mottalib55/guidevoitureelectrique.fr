@@ -250,7 +250,7 @@ export default function HomePage() {
 
           <h3>L&apos;offre de modèles : une diversité sans précédent</h3>
           <p>
-            En 2026, plus de 120 modèles de voitures 100 % électriques sont commercialises en France, couvrant tous les segments du marché. Des citadines compactes comme la Citroen e-C3 ou la Renault 5 E-Tech aux SUV familiaux comme le Tesla Model Y ou le Peugeot e-3008, en passant par les berlines premium et les utilitaires, l&apos;acheteur dispose d&apos;un choix comparable a celui du thermique. Les constructeurs chinois — BYD, MG, Leapmotor, Xpeng — jouent un role croissant dans cette diversification, proposant des véhicules compétitifs a des tarifs souvent inférieurs de 15 a 25 % par rapport aux marques européennes équivalentes.
+            En 2026, plus de 120 modèles de voitures 100 % électriques sont commercialises en France, couvrant tous les segments du marché. Des citadines compactes comme la Citroen e-C3 ou la Renault 5 E-Tech aux SUV familiaux comme le Tesla Model Y ou le Peugeot e-3008, en passant par les berlines premium et les utilitaires, l&apos;acheteur dispose d&apos;un choix comparable a celui du thermique. Les constructeurs chinois (BYD, MG, Leapmotor, Xpeng) jouent un role croissant dans cette diversification, proposant des véhicules compétitifs a des tarifs souvent inférieurs de 15 a 25 % par rapport aux marques européennes équivalentes.
           </p>
           <p>
             Fait marquant de 2026 : le seuil psychologique des 20 000 euros est desormais accessible avec des modèles neufs comme la Dacia Spring, la Citroen e-C3 (apres bonus écologique) ou la Leapmotor T03. Cette democratisation par le prix constitue le principal moteur de la croissance du marché.
@@ -370,7 +370,7 @@ export default function HomePage() {
             Les zones a faibles émissions (ZFE) constituent un levier reglementaire majeur dans la transition vers la mobilité électrique. En 2026, 43 agglomerations françaises de plus de 150 000 habitants appliquent des restrictions de circulation basees sur les vignettes Crit&apos;Air. Dans les metropoles les plus avancees comme Paris, Lyon, Grenoble ou Strasbourg, les véhicules Crit&apos;Air 3 et plus sont déjà interdits de circulation. Les véhicules Crit&apos;Air 2 seront progressivement exclus dans les années a venir.
           </p>
           <p>
-            Cette évolution reglementaire rend la voiture électrique — classee Crit&apos;Air 0 — non seulement un choix écologique mais aussi un investissement pragmatique. Les proprietaires de véhicules électriques bénéficient d&apos;un acces garanti et perenne a toutes les zones de circulation, sans risque de restriction future. A cela s&apos;ajoutent des avantages concrets : stationnement gratuit ou a tarif reduit, acces aux voies de bus dans certaines agglomerations, et exemption des peages urbains la ou ils existent.
+            Cette évolution reglementaire rend la voiture électrique (classée Crit&apos;Air 0) non seulement un choix écologique mais aussi un investissement pragmatique. Les proprietaires de véhicules électriques bénéficient d&apos;un acces garanti et perenne a toutes les zones de circulation, sans risque de restriction future. A cela s&apos;ajoutent des avantages concrets : stationnement gratuit ou a tarif reduit, acces aux voies de bus dans certaines agglomerations, et exemption des peages urbains la ou ils existent.
           </p>
 
           <h2>L&apos;avenir de la voiture électrique : perspectives 2026-2030</h2>
@@ -412,16 +412,16 @@ export default function HomePage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>Avere-France — Baromètre mensuel des immatriculations de véhicules électriques, 2025-2026</li>
-              <li>Plateforme Automobile (PFA) — Tableaux de bord du marché automobile français, 2024-2026</li>
-              <li>Ministère de la Transition écologique — Barème du bonus écologique 2026 et conditions d&apos;éligibilité</li>
-              <li>ADEME — Avis technique sur les émissions de CO₂ des véhicules électriques sur le cycle de vie, 2023</li>
-              <li>RTE — Bilan électrique de la France 2025, mix énergétique et facteur d&apos;émission</li>
-              <li>Commission européenne — Règlement (UE) 2023/851 sur les normes CO₂ des véhicules neufs</li>
-              <li>BloombergNEF — Electric Vehicle Outlook 2026, prix des batteries lithium-ion</li>
-              <li>Enedis / GIREVE — Statistiques du réseau de bornes de recharge publiques en France, T1 2026</li>
-              <li>EDF — Grille tarifaire réglementée heures pleines / heures creuses, mai 2026</li>
-              <li>Données constructeurs — Fiches techniques officielles Renault, Peugeot, Citroën, Tesla, BYD, Hyundai-Kia, Volkswagen</li>
+              <li>Avere-France : Baromètre mensuel des immatriculations de véhicules électriques, 2025-2026</li>
+              <li>Plateforme Automobile (PFA) : Tableaux de bord du marché automobile français, 2024-2026</li>
+              <li>Ministère de la Transition écologique : Barème du bonus écologique 2026 et conditions d&apos;éligibilité</li>
+              <li>ADEME : Avis technique sur les émissions de CO₂ des véhicules électriques sur le cycle de vie, 2023</li>
+              <li>RTE : Bilan électrique de la France 2025, mix énergétique et facteur d&apos;émission</li>
+              <li>Commission européenne : Règlement (UE) 2023/851 sur les normes CO₂ des véhicules neufs</li>
+              <li>BloombergNEF : Electric Vehicle Outlook 2026, prix des batteries lithium-ion</li>
+              <li>Enedis / GIREVE : Statistiques du réseau de bornes de recharge publiques en France, T1 2026</li>
+              <li>EDF : Grille tarifaire réglementée heures pleines / heures creuses, mai 2026</li>
+              <li>Données constructeurs : Fiches techniques officielles Renault, Peugeot, Citroën, Tesla, BYD, Hyundai-Kia, Volkswagen</li>
             </ul>
           </div>
         </div>

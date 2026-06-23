@@ -48,11 +48,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.webmanifest",
-  verification: {
-    other: {
-      "msvalidate.01": "GUIDEVE2026BINGVERIFY",
-    },
-  },
+  // verification: Bing msvalidate.01 to be added once real ID is obtained from Bing Webmaster Tools
 };
 
 const jsonLdOrganization = {
@@ -131,13 +127,6 @@ export default function RootLayout({
             }}
           />
         )}
-      </head>
-      <body className="min-h-screen flex flex-col bg-white text-[var(--ink)]">
-        {/* Skip to content link for accessibility */}
-        <a href="#main-content" className="skip-to-content">
-          Aller au contenu
-        </a>
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -156,6 +145,12 @@ export default function RootLayout({
             __html: JSON.stringify(jsonLdWebSiteSearch),
           }}
         />
+      </head>
+      <body className="min-h-screen flex flex-col bg-white text-[var(--ink)]">
+        {/* Skip to content link for accessibility */}
+        <a href="#main-content" className="skip-to-content">
+          Aller au contenu
+        </a>
         {/* ─── HEADER ──────────────────────────────────────────── */}
         <header className="site-header" role="banner">
           <div className="site-header-inner">

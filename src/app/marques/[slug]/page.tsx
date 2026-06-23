@@ -62,7 +62,7 @@ export default async function PageMarque({ params }: Props) {
               marginBottom: 4,
             }}
           >
-            {marque.pays} — {marque.origine === "Chine" ? "Constructeur chinois" : "Constructeur"} depuis{" "}
+            {marque.pays}, {marque.origine === "Chine" ? "Constructeur chinois" : "Constructeur"} depuis{" "}
             {marque.anneeCreation}
           </p>
           <h1
@@ -86,7 +86,7 @@ export default async function PageMarque({ params }: Props) {
           >
             {modelesMarque.length} modèle{modelesMarque.length > 1 ? "s" : ""}{" "}
             électrique{modelesMarque.length > 1 ? "s" : ""} référencé
-            {modelesMarque.length > 1 ? "s" : ""} — à partir de{" "}
+            {modelesMarque.length > 1 ? "s" : ""}, à partir de{" "}
             {euro(Math.min(...modelesMarque.map((m) => m.prixBase)))}
           </p>
         </header>
@@ -185,7 +185,7 @@ export default async function PageMarque({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France — données immatriculations VE
+                Avere-France : données immatriculations VE
               </a>
             </li>
           </ul>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — Guide Voiture Électrique",
+  title: "Mentions légales | Guide Voiture Électrique",
   description:
     "Mentions légales, politique de confidentialité et conditions d'utilisation du site Guide Voiture Électrique.",
 };
@@ -120,7 +120,7 @@ export default function MentionsLegalesPage() {
             Le site guidevoitureelectrique.fr s&apos;engage à respecter la
             confidentialité des données personnelles de ses utilisateurs,
             conformément au Règlement Général sur la Protection des Données
-            (RGPD — Règlement UE 2016/679) et à la loi Informatique et Libertés
+            (RGPD, Règlement UE 2016/679) et à la loi Informatique et Libertés
             du 6 janvier 1978 modifiée.
           </p>
 
@@ -176,11 +176,11 @@ export default function MentionsLegalesPage() {
           </p>
           <ul>
             <li>
-              <strong>Intérêt légitime</strong> (Art. 6(1)(f)) — pour l&apos;analyse
+              <strong>Intérêt légitime</strong> (Art. 6(1)(f)) : pour l&apos;analyse
               anonyme de la fréquentation et les fichiers journaux du serveur.
             </li>
             <li>
-              <strong>Consentement</strong> (Art. 6(1)(a)) — pour les cookies
+              <strong>Consentement</strong> (Art. 6(1)(a)) : pour les cookies
               d&apos;analyse, le cas échéant.
             </li>
           </ul>
@@ -266,7 +266,7 @@ export default function MentionsLegalesPage() {
           </p>
           <ul>
             <li>
-              <strong>Vercel Inc.</strong> — Hébergement du site (États-Unis, clauses
+              <strong>Vercel Inc.</strong> : Hébergement du site (États-Unis, clauses
               contractuelles types UE)
             </li>
           </ul>

@@ -105,7 +105,7 @@ export default function PageMarquesChinoises() {
           <h2>Qualité et fiabilité : où en est-on ?</h2>
           <p>
             La qualité des voitures chinoises a considérablement progressé. Les batteries Blade
-            de BYD (technologie LFP — lithium-fer-phosphate) sont reconnues pour leur sécurité
+            de BYD (technologie LFP, lithium-fer-phosphate) sont reconnues pour leur sécurité
             exceptionnelle : elles résistent au test de pénétration par clou sans s&apos;enflammer,
             contrairement aux batteries NMC traditionnelles. La technologie LFP offre également
             une durée de vie supérieure (plus de 3 000 cycles de charge complets).
@@ -233,7 +233,7 @@ export default function PageMarquesChinoises() {
 
           <h2>BYD : le geant qui defie Tesla</h2>
           <p>
-            <strong>Build Your Dreams</strong> — c&apos;est le nom complet de BYD, fonde en 1995 a Shenzhen par Wang Chuanfu, un chimiste devenu industriel. Initialement fabricant de batteries rechargeables pour telephones portables, BYD est devenu en 2024 le <strong>premier constructeur mondial de vehicules electriques</strong> en volume de ventes, depassant Tesla pour la premiere fois sur les ventes de vehicules 100 % electriques.
+            <strong>Build Your Dreams</strong>, c&apos;est le nom complet de BYD, fonde en 1995 a Shenzhen par Wang Chuanfu, un chimiste devenu industriel. Initialement fabricant de batteries rechargeables pour telephones portables, BYD est devenu en 2024 le <strong>premier constructeur mondial de vehicules electriques</strong> en volume de ventes, depassant Tesla pour la premiere fois sur les ventes de vehicules 100 % electriques.
           </p>
           <p>
             L&apos;avantage strategique de BYD est son <strong>integration verticale</strong> unique dans l&apos;industrie. L&apos;entreprise fabrique elle-meme ses cellules de batterie, ses moteurs electriques, ses semi-conducteurs de puissance et meme les systemes electroniques embarques. Cette maitrise de l&apos;ensemble de la chaine de valeur lui permet de maitriser les couts et d&apos;innover plus rapidement que ses concurrents qui dependent de fournisseurs externes.
@@ -321,12 +321,12 @@ export default function PageMarquesChinoises() {
             La securite est naturellement une preoccupation majeure des acheteurs. Les vehicules chinois se sont remarquablement bien comportes aux tests Euro NCAP, l&apos;organisme independant de reference pour la securite automobile en Europe :
           </p>
           <ul>
-            <li><strong>BYD Atto 3 :</strong> 5 etoiles Euro NCAP (2023) — protection adultes 91 %, enfants 89 %, pietons 69 %, aide a la conduite 73 %</li>
-            <li><strong>BYD Seal :</strong> 5 etoiles Euro NCAP (2023) — protection adultes 91 %, enfants 89 %, pietons 74 %, aide a la conduite 77 %</li>
-            <li><strong>MG4 :</strong> 4 etoiles Euro NCAP (2022) — note penalisee par l&apos;absence de certaines aides a la conduite dans la version de base</li>
-            <li><strong>Xpeng G9 :</strong> 5 etoiles Euro NCAP (2023) — parmi les meilleurs resultats de l&apos;annee</li>
-            <li><strong>Leapmotor T03 :</strong> 3 etoiles Euro NCAP (2023) — note coherente avec le positionnement entry-level du vehicule</li>
-            <li><strong>Zeekr 001 :</strong> 5 etoiles Euro NCAP (2023) — scores excellents dans toutes les categories</li>
+            <li><strong>BYD Atto 3 :</strong> 5 etoiles Euro NCAP (2023) : protection adultes 91 %, enfants 89 %, pietons 69 %, aide a la conduite 73 %</li>
+            <li><strong>BYD Seal :</strong> 5 etoiles Euro NCAP (2023) : protection adultes 91 %, enfants 89 %, pietons 74 %, aide a la conduite 77 %</li>
+            <li><strong>MG4 :</strong> 4 etoiles Euro NCAP (2022) : note penalisee par l&apos;absence de certaines aides a la conduite dans la version de base</li>
+            <li><strong>Xpeng G9 :</strong> 5 etoiles Euro NCAP (2023) : parmi les meilleurs resultats de l&apos;annee</li>
+            <li><strong>Leapmotor T03 :</strong> 3 etoiles Euro NCAP (2023) : note coherente avec le positionnement entry-level du vehicule</li>
+            <li><strong>Zeekr 001 :</strong> 5 etoiles Euro NCAP (2023) : scores excellents dans toutes les categories</li>
           </ul>
           <p>
             Ces resultats demontrent que les vehicules chinois sont desormais au niveau des meilleurs standards europeens en matiere de securite passive et active. La preoccupation historique sur la &quot;qualite chinoise&quot; n&apos;a plus de fondement objectif pour les modeles distribues officiellement en Europe.
@@ -376,12 +376,12 @@ export default function PageMarquesChinoises() {
             ))}
             <li>
               <a href="https://www.avere-france.org" target="_blank" rel="noopener noreferrer">
-                Avere-France — immatriculations VE
+                Avere-France : immatriculations VE
               </a>
             </li>
             <li>
               <a href="https://www.service-public.fr/particuliers/vosdroits/F34014" target="_blank" rel="noopener noreferrer">
-                Bonus écologique — service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
           </ul>

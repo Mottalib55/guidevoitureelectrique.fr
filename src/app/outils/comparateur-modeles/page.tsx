@@ -301,11 +301,11 @@ export default function ComparateurModeles() {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>UTAC / WLTP — Protocole de mesure d&apos;autonomie et de consommation normalisée</li>
-            <li>Automobile Propre — Tests d&apos;autonomie réelle en conditions standardisées, 2024-2026</li>
-            <li>Euro NCAP — Résultats de sécurité par modèle</li>
-            <li>Bjørn Nyland — Tests indépendants de recharge rapide et courbes de charge</li>
-            <li>Données constructeurs — Fiches techniques officielles et prix catalogue</li>
+            <li>UTAC / WLTP : Protocole de mesure d&apos;autonomie et de consommation normalisée</li>
+            <li>Automobile Propre : Tests d&apos;autonomie réelle en conditions standardisées, 2024-2026</li>
+            <li>Euro NCAP : Résultats de sécurité par modèle</li>
+            <li>Bjørn Nyland : Tests indépendants de recharge rapide et courbes de charge</li>
+            <li>Données constructeurs : Fiches techniques officielles et prix catalogue</li>
           </ul>
         </div>
       </article>

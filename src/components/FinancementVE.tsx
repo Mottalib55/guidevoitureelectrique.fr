@@ -267,7 +267,7 @@ export default function FinancementVE({
       <div className="fve-head">
         <div className="fve-kicker">Acheter ou louer ?</div>
         <div className="fve-title">
-          {modele} — comparatif de financement
+          {modele} : comparatif de financement
         </div>
         <div className="fve-sub">
           Comptant, crédit, LOA et LLD comparés sur {annees} ans, tous frais inclus.

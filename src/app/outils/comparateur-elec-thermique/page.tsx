@@ -203,7 +203,7 @@ export default function ComparateurElecThermique() {
         <div className="prose" style={{ marginTop: 48 }}>
           <h2>Voiture electrique vs thermique : le grand duel du cout total de possession en 2026</h2>
           <p>
-            Le debat entre voiture electrique et voiture thermique se cristallise souvent autour du prix d&apos;achat. &quot;C&apos;est trop cher&quot;, entend-on frequemment. Mais ce raisonnement est incomplet et parfois trompeur. Le prix d&apos;achat ne represente qu&apos;une fraction du cout total de possession (TCO — Total Cost of Ownership), qui englobe l&apos;ensemble des depenses sur toute la duree de vie du vehicule : acquisition, energie, entretien, assurance, decote et meme les eventuels avantages fiscaux. Notre comparateur ci-dessus vous permet de visualiser ces couts en detail, mais ce guide approfondi va demystifier chaque poste de depense et combattre les idees recues avec des donnees concretes.
+            Le debat entre voiture electrique et voiture thermique se cristallise souvent autour du prix d&apos;achat. &quot;C&apos;est trop cher&quot;, entend-on frequemment. Mais ce raisonnement est incomplet et parfois trompeur. Le prix d&apos;achat ne represente qu&apos;une fraction du cout total de possession (TCO, Total Cost of Ownership), qui englobe l&apos;ensemble des depenses sur toute la duree de vie du vehicule : acquisition, energie, entretien, assurance, decote et meme les eventuels avantages fiscaux. Notre comparateur ci-dessus vous permet de visualiser ces couts en detail, mais ce guide approfondi va demystifier chaque poste de depense et combattre les idees recues avec des donnees concretes.
           </p>
 
           <h2>Mythe n°1 : &quot;L&apos;electrique coute beaucoup plus cher a l&apos;achat&quot;</h2>
@@ -370,12 +370,12 @@ export default function ComparateurElecThermique() {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>UFC-Que Choisir — Étude comparative du coût total de possession VE vs thermique, 2025</li>
-            <li>ADEME — Analyse du cycle de vie comparée véhicules électriques et thermiques, 2024</li>
-            <li>Argus — Données de décote et valeurs résiduelles par type de motorisation, 2026</li>
-            <li>EDF — Tarifs d&apos;électricité résidentiels et professionnels, 2026</li>
-            <li>Ministère de la Transition écologique — Prix moyens des carburants en France</li>
-            <li>Données constructeurs — Consommation WLTP, coûts d&apos;entretien prévisionnels</li>
+            <li>UFC-Que Choisir : Étude comparative du coût total de possession VE vs thermique, 2025</li>
+            <li>ADEME : Analyse du cycle de vie comparée véhicules électriques et thermiques, 2024</li>
+            <li>Argus : Données de décote et valeurs résiduelles par type de motorisation, 2026</li>
+            <li>EDF : Tarifs d&apos;électricité résidentiels et professionnels, 2026</li>
+            <li>Ministère de la Transition écologique : Prix moyens des carburants en France</li>
+            <li>Données constructeurs : Consommation WLTP, coûts d&apos;entretien prévisionnels</li>
           </ul>
         </div>
       </article>

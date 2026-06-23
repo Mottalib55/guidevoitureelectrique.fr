@@ -222,7 +222,7 @@ export default function SimulateurAides() {
             L&apos;Etat francais et les collectivites locales proposent un ensemble d&apos;aides financieres pour encourager l&apos;achat de vehicules electriques. Cumulees, ces aides peuvent representer <strong>5 000 a 14 000 euros de reduction</strong> sur le prix d&apos;un vehicule neuf, voire davantage dans certaines configurations. Mais le systeme est complexe, avec des conditions d&apos;eligibilite specifiques a chaque dispositif. Ce guide vous accompagne pas a pas pour identifier toutes les aides auxquelles vous avez droit et maximiser votre soutien financier.
           </p>
 
-          <h2>Etape 1 : Le bonus ecologique — l&apos;aide principale</h2>
+          <h2>Etape 1 : Le bonus écologique : l&apos;aide principale</h2>
           <p>
             Le bonus ecologique est la pierre angulaire du dispositif de soutien a l&apos;achat de vehicules electriques en France. Mis en place en 2008, il a ete profondement reforme en 2024 avec l&apos;introduction du <strong>score environnemental</strong>, et ses montants ont ete revises pour 2026.
           </p>
@@ -277,7 +277,7 @@ export default function SimulateurAides() {
             Avant tout achat, verifiez l&apos;eligibilite du vehicule sur le site officiel <strong>service-public.fr</strong> ou sur le site de l&apos;ADEME. Les concessionnaires sont tenus de vous informer de l&apos;eligibilite au bonus, mais les erreurs sont possibles, notamment pour les modeles dont le lieu d&apos;assemblage varie selon les versions. Demandez toujours le <strong>numero de version</strong> (version specifique du modele) et verifiez-le sur la liste officielle.
           </p>
 
-          <h2>Etape 2 : La prime a la conversion — cumul possible avec le bonus</h2>
+          <h2>Etape 2 : La prime à la conversion : cumul possible avec le bonus</h2>
           <p>
             La prime a la conversion est une aide supplementaire accordee lorsque vous mettez au rebut un ancien vehicule polluant pour acheter un vehicule propre. Elle est <strong>cumulable avec le bonus ecologique</strong>, ce qui peut significativement reduire le cout d&apos;acquisition.
           </p>
@@ -306,7 +306,7 @@ export default function SimulateurAides() {
             <strong>Exemple cumul maximal :</strong> Un menage avec un RFR/part de 12 000 euros, mettant au rebut un vehicule Crit&apos;Air 4, et achetant une Renault 5 E-Tech a 25 000 euros, peut cumuler : bonus ecologique de 4 000 euros + prime a la conversion de 3 000 euros = <strong>7 000 euros d&apos;aides</strong>, soit un prix net de 18 000 euros.
           </p>
 
-          <h2>Etape 3 : Le leasing social — pour les menages modestes</h2>
+          <h2>Etape 3 : Le leasing social : pour les ménages modestes</h2>
           <p>
             Le <strong>leasing social</strong> est un dispositif lance fin 2023 et reconduit en 2025-2026, permettant aux menages les plus modestes de louer une voiture electrique neuve a partir de <strong>100 euros par mois</strong>. C&apos;est une revolution en termes d&apos;accessibilite a la mobilite electrique.
           </p>
@@ -326,7 +326,7 @@ export default function SimulateurAides() {
             En 2026, les modeles disponibles en leasing social incluent typiquement : la Citroen e-C3 (des 100 euros/mois), la Renault 5 E-Tech (des 120 euros/mois), la Fiat 500e (des 130 euros/mois) et la Peugeot e-208 (des 140 euros/mois). Les lots sont attribues par vagues, avec un nombre de vehicules limite a chaque session. Il est conseille de se pre-inscrire des l&apos;ouverture des candidatures.
           </p>
 
-          <h2>Etape 4 : Les aides regionales et locales — un complement souvent meconnu</h2>
+          <h2>Etape 4 : Les aides régionales et locales : un complément souvent meconnu</h2>
           <p>
             En plus des aides nationales, de nombreuses regions, departements et metropoles proposent des aides complementaires. Ces aides sont cumulables avec le bonus ecologique et la prime a la conversion, ce qui peut porter le total des aides a des niveaux tres significatifs.
           </p>
@@ -432,12 +432,12 @@ export default function SimulateurAides() {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>Ministère de la Transition écologique — Décret n° 2024-102 relatif au bonus écologique, modifié 2026</li>
-            <li>Service-Public.fr — Fiche pratique « Bonus écologique pour un véhicule électrique »</li>
-            <li>ASP — Conditions de la prime à la conversion et formulaire de demande en ligne</li>
-            <li>Régions de France — Dispositifs d&apos;aide à l&apos;achat de véhicules propres par région</li>
-            <li>Code général des impôts, art. 200 quater C — Crédit d&apos;impôt borne de recharge</li>
-            <li>ADEME — Simulateur national des aides à la mobilité propre</li>
+            <li>Ministère de la Transition écologique : Décret n° 2024-102 relatif au bonus écologique, modifié 2026</li>
+            <li>Service-Public.fr : Fiche pratique « Bonus écologique pour un véhicule électrique »</li>
+            <li>ASP : Conditions de la prime à la conversion et formulaire de demande en ligne</li>
+            <li>Régions de France : Dispositifs d&apos;aide à l&apos;achat de véhicules propres par région</li>
+            <li>Code général des impôts, art. 200 quater C : Crédit d&apos;impôt borne de recharge</li>
+            <li>ADEME : Simulateur national des aides à la mobilité propre</li>
           </ul>
         </div>
       </article>

@@ -7,14 +7,14 @@ import { buildMetadata } from "@/lib/seo";
 import { articleJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "À propos — Guide Voiture Électrique | Mottalib Radif",
+  title: "À propos | Guide Voiture Électrique | Mottalib Radif",
   description:
     "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement pour vous aider à choisir la meilleure voiture électrique.",
   path: "/a-propos/",
 });
 
 const jsonLd = articleJsonLd({
-  title: "À propos — Guide Voiture Électrique",
+  title: "À propos | Guide Voiture Électrique",
   description: "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement.",
   path: "/a-propos/",
   datePublished: "2026-05-28",
@@ -129,8 +129,8 @@ export default function AProposPage() {
             l&apos;avenir de la mobilité individuelle en Europe et au-delà.
           </p>
           <p>
-            Son parcours multiculturel — ayant vécu et travaillé en France, en
-            Asie et au Moyen-Orient — lui confère une vision globale du marché
+            Son parcours multiculturel (ayant vécu et travaillé en France, en
+            Asie et au Moyen-Orient) lui confère une vision globale du marché
             automobile qui enrichit chaque analyse publiée sur le site. Il suit
             de près les innovations des constructeurs européens, asiatiques et
             américains pour offrir une perspective complète et nuancée.
