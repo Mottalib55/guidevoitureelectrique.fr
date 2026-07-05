@@ -127,6 +127,22 @@ export default function RootLayout({
             }}
           />
         )}
+        {/* Google Analytics 4 */}
+        {process.env.NODE_ENV === "production" && (
+          <>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-7VRNV419X2" />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-7VRNV419X2');
+                `,
+              }}
+            />
+          </>
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
