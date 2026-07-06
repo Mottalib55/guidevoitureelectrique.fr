@@ -53,7 +53,7 @@ export default function ComparateurModeles() {
     { label: "Charge AC", render: (m) => m.tempsChargeAC },
     { label: "Coffre", render: (m) => `${m.coffre} L` },
     { label: "Poids", render: (m) => `${m.poids} kg` },
-    { label: "Longueur", render: (m) => `${(m.longueur / 1000).toFixed(2)} m` },
+    { label: "Longueur", render: (m) => `${(m.longueur / 1000).toFixed(2).replace('.', ',')} m` },
     { label: "Segment", render: (m) => m.segment },
     { label: "Origine", render: (m) => m.origine },
     { label: "Bonus écologique", render: (m) => m.aidesEligible ? "Éligible" : "Non éligible" },

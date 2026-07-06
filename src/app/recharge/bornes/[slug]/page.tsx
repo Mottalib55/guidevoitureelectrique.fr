@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 function getFaqs(ville: NonNullable<ReturnType<typeof getVilleBySlug>>) {
-  const ratio = (ville.nombreBornes / ville.population * 10000).toFixed(1);
+  const ratio = (ville.nombreBornes / ville.population * 10000).toFixed(1).replace('.', ',');
   return [
     {
       question: `Où recharger sa voiture électrique à ${ville.nom} ?`,
@@ -52,7 +52,7 @@ export default async function PageVille({ params }: Props) {
   if (!ville) notFound();
 
   const faqs = getFaqs(ville);
-  const ratio = (ville.nombreBornes / ville.population * 10000).toFixed(1);
+  const ratio = (ville.nombreBornes / ville.population * 10000).toFixed(1).replace('.', ',');
 
   const renderContenu = (contenu: string) => {
     const blocks = contenu.split("\n\n");

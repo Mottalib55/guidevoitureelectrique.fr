@@ -54,7 +54,7 @@ export const metadata: Metadata = {
 const jsonLdOrganization = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Guide Voiture Electrique",
+  name: "Guide Voiture Électrique",
   url: "https://guidevoitureelectrique.fr",
   logo: "https://guidevoitureelectrique.fr/logo.svg",
   founder: {
@@ -87,7 +87,7 @@ const jsonLdPerson = {
     "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'INSEAD. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
   worksFor: {
     "@type": "Organization",
-    name: "Guide Voiture Electrique",
+    name: "Guide Voiture Électrique",
     url: "https://guidevoitureelectrique.fr",
   },
 };

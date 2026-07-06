@@ -131,8 +131,8 @@ export default async function PageComparatif({ params }: Props) {
     { label: "Poids", v1: `${m1.poids} kg`, v2: `${m2.poids} kg` },
     {
       label: "Longueur",
-      v1: `${(m1.longueur / 1000).toFixed(2)} m`,
-      v2: `${(m2.longueur / 1000).toFixed(2)} m`,
+      v1: `${(m1.longueur / 1000).toFixed(2).replace('.', ',')} m`,
+      v2: `${(m2.longueur / 1000).toFixed(2).replace('.', ',')} m`,
     },
     { label: "Segment", v1: m1.segment, v2: m2.segment },
     { label: "Origine", v1: m1.origine, v2: m2.origine },

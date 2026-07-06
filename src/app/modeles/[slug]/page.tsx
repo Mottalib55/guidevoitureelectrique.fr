@@ -394,7 +394,7 @@ export default async function PageModele({ params }: Props) {
             La {m.modele} embarque une batterie de <strong>{m.batterieKwh} kWh</strong>{" "}
             alimentant un moteur de <strong>{m.puissanceCh} ch ({m.puissanceKw} kW)</strong>.
             Le poids total du véhicule atteint {m.poids} kg pour une longueur de{" "}
-            {(m.longueur / 1000).toFixed(2)} m. Le coffre offre{" "}
+            {(m.longueur / 1000).toFixed(2).replace('.', ',')} m. Le coffre offre{" "}
             <strong>{m.coffre} litres</strong> de volume de chargement.
           </p>
 
@@ -423,7 +423,7 @@ export default async function PageModele({ params }: Props) {
           </p>
           <p>
             Le coffre de {m.coffre} litres {m.coffre >= 450 ? "est généreux et permet de partir en week-end ou en vacances sans compromis sur les bagages" : m.coffre >= 300 ? "offre un volume correct pour un usage quotidien et les courses hebdomadaires" : "reste compact et convient à un usage essentiellement urbain"}.
-            Avec un poids de {m.poids} kg pour une longueur de {(m.longueur / 1000).toFixed(2)} m,
+            Avec un poids de {m.poids} kg pour une longueur de {(m.longueur / 1000).toFixed(2).replace('.', ',')} m,
             {m.longueur <= 4100
               ? " ce gabarit compact facilite les manœuvres en ville et le stationnement"
               : m.longueur <= 4500
@@ -582,7 +582,7 @@ export default async function PageModele({ params }: Props) {
                 <tr><td>Charge AC</td><td>{m.tempsChargeAC}</td></tr>
                 <tr><td>Coffre</td><td>{m.coffre} litres</td></tr>
                 <tr><td>Poids</td><td>{m.poids} kg</td></tr>
-                <tr><td>Longueur</td><td>{(m.longueur / 1000).toFixed(2)} m</td></tr>
+                <tr><td>Longueur</td><td>{(m.longueur / 1000).toFixed(2).replace('.', ',')} m</td></tr>
                 <tr><td>Bonus écologique</td><td>{m.aidesEligible ? "Éligible (4 000 €)" : "Non éligible"}</td></tr>
                 <tr><td>Note</td><td><strong>{m.note}/10</strong></td></tr>
               </tbody>

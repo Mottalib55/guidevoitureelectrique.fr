@@ -30,7 +30,7 @@ const siloLinks = [
   { slug: "aides-et-bonus", label: "Aides & bonus" },
   { slug: "loa-leasing", label: "LOA / LLD" },
   { slug: "assurance", label: "Assurance" },
-  { slug: "electrique-vs-thermique", label: "Electrique vs thermique" },
+  { slug: "electrique-vs-thermique", label: "Électrique vs thermique" },
 ];
 
 export default async function PageAcheter({ params }: Props) {
