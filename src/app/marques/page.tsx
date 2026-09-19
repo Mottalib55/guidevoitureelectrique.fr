@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   title: "Marques de voitures électriques : toutes les fiches",
   description:
     marques.length +
-    " marques de voitures électriques en France : Renault, Tesla, BYD, Peugeot, Kia... Fiches constructeurs, modèles disponibles et origine.",
+    " marques de voitures électriques en France : Renault, Tesla, BYD, Peugeot, Kia et d'autres. Fiches constructeurs, modèles disponibles et pays d'origine.",
   path: "/marques/",
 });
 

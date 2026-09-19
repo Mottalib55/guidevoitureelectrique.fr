@@ -9,8 +9,8 @@ export const metadata: Metadata = buildMetadata({
   title: "Voitures électriques 2026 : tous les modèles en France",
   description:
     modeles.length +
-    " modèles de voitures électriques : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches techniques et comparatif gratuit.",
-  path: "/modèles/",
+    " modèles de voitures électriques vendus en France : prix, autonomie réelle, recharge rapide et aides. Fiches techniques et comparatif gratuit en 2026.",
+  path: "/modeles/",
 });
 
 export default function ModèlesIndexPage() {

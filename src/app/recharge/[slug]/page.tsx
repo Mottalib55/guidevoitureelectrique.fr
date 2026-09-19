@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = getPageRechargeBySlug(slug);
   if (!page) return {};
   return buildMetadata({
-    title: page.titre,
+    title: page.titreSeo ?? page.titre,
     description: page.metaDescription,
     path: `/recharge/${page.slug}/`,
   });

@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cat = getCategorieBySlug(slug);
   if (!cat) return {};
   return buildMetadata({
-    title: cat.titre,
+    title: cat.titreSeo ?? cat.titre,
     description: cat.metaDescription,
     path: `/categories/${cat.slug}/`,
   });

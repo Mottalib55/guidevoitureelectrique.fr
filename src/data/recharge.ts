@@ -1,6 +1,8 @@
 export interface PageRecharge {
   slug: string;
   titre: string;
+  /** Balise <title> : 50–60 caractères, terme-clé d'abord (RECETTE §11). `titre` reste le libellé court des liens. */
+  titreSeo?: string;
   h1: string;
   metaDescription: string;
   contenu: string; // long editorial content
@@ -9,6 +11,7 @@ export interface PageRecharge {
 export const pagesRecharge: PageRecharge[] = [
   {
     slug: "borne-de-recharge",
+    titreSeo: "Borne de recharge électrique 2026 : types, prix, pose",
     titre: "Borne de recharge électrique : guide complet",
     h1: "Borne de recharge électrique : le guide complet pour tout comprendre",
     metaDescription:
@@ -96,6 +99,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "borne-voiture-electrique",
+    titreSeo: "Borne de recharge voiture électrique : prix et pose 2026",
     titre: "Borne recharge voiture électrique",
     h1: "Borne de recharge pour voiture électrique : tout savoir avant d'en installer une",
     metaDescription:
@@ -284,6 +288,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "recharge-sur-autoroute",
+    titreSeo: "Recharge sur autoroute 2026 : réseaux, tarifs et temps",
     titre: "Recharge sur autoroute : réseau et tarifs",
     h1: "Recharge sur autoroute : réseaux, tarifs et conseils pour les longs trajets",
     metaDescription:
@@ -367,6 +372,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "temps-de-recharge",
+    titreSeo: "Temps de recharge voiture électrique 2026 : par modèle",
     titre: "Temps de recharge voiture électrique",
     h1: "Temps de recharge d'une voiture électrique : tout comprendre en détail",
     metaDescription:
@@ -487,6 +493,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "cout-de-recharge",
+    titreSeo: "Coût de recharge voiture électrique 2026 : domicile et borne",
     titre: "Coût de recharge voiture électrique",
     h1: "Coût de recharge d'une voiture électrique : tarifs et comparatifs détaillés",
     metaDescription:
@@ -567,6 +574,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
 {
     slug: "carte-bornes-de-recharge",
+    titreSeo: "Carte des bornes de recharge en France 2026 : où recharger",
     titre: "Carte des bornes en France",
     h1: "Carte des bornes de recharge en France : trouvez une borne près de chez vous",
     metaDescription: "Carte des bornes de recharge en France : 150 000+ points de charge publics. Filtrez par puissance, réseau (Ionity, Total, Tesla) et planifiez vos trajets VE.",
@@ -627,6 +635,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "borne-copropriete",
+    titreSeo: "Borne de recharge en copropriété : démarches et coût 2026",
     titre: "Borne en copropriété",
     h1: "Borne de recharge en copropriété : guide complet pour installer une borne dans votre immeuble",
     metaDescription: "Borne de recharge en copropriété : démarches syndic, coûts réels, aide ADVENIR jusqu'à 960 euros, infrastructure collective vs individuelle. Guide complet.",
@@ -682,6 +691,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "droit-a-la-prise",
+    titreSeo: "Droit à la prise : installer une borne en copropriété",
     titre: "Droit à la prise",
     h1: "Droit à la prise : votre droit légal d'installer une borne de recharge en copropriété",
     metaDescription: "Droit à la prise en copropriété : cadre légal, procédure pas à pas, lettre au syndic, délais (3 mois), coûts et recours si le syndic refuse l'installation.",
@@ -737,6 +747,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "badge-recharge-electrique",
+    titreSeo: "Badge de recharge électrique 2026 : comparatif des offres",
     titre: "Badge de recharge : comparatif",
     h1: "Badge de recharge électrique : comparatif complet des cartes et pass de recharge",
     metaDescription: "Comparatif badges recharge VE : Chargemap, Freshmile, Shell Recharge, Electropass. Tarifs au kWh, couverture réseau, frais mensuels et meilleur choix 2026.",
@@ -798,6 +809,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "ionity-tarifs-stations",
+    titreSeo: "Ionity 2026 : tarifs, abonnements et stations en France",
     titre: "Ionity : tarifs et stations",
     h1: "Ionity : tarifs, abonnement Passport et réseau de stations en France",
     metaDescription: "Ionity en France : tarifs (0,39 vs 0,29 euros/kWh avec Passport), localisation des stations 350 kW, couverture autoroute et astuces pour payer moins cher.",
@@ -854,6 +866,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "tesla-supercharger-guide",
+    titreSeo: "Tesla Supercharger 2026 : tarifs, accès et fonctionnement",
     titre: "Tesla Supercharger : tarifs et accès",
     h1: "Tesla Supercharger : tarifs, accès non-Tesla et couverture en France",
     metaDescription: "Tesla Supercharger : tarifs au kWh, accès ouvert à tous les VE, bornes V3 et V4 jusqu'à 250 kW, carte France et conseils pour recharger au meilleur prix.",
@@ -908,6 +921,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "totalenergies-recharge",
+    titreSeo: "TotalEnergies recharge 2026 : tarifs, badge et stations",
     titre: "TotalEnergies recharge",
     h1: "TotalEnergies recharge : réseau, tarifs et Pass pour recharger votre VE",
     metaDescription: "TotalEnergies recharge VE : réseau de bornes en France, tarifs au kWh (AC et DC), Pass TotalEnergies, puissances disponibles et localisation des stations.",
@@ -964,6 +978,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "recharge-gratuite",
+    titreSeo: "Recharge gratuite voiture électrique : où la trouver en 2026",
     titre: "Recharge gratuite : où trouver",
     h1: "Recharge gratuite : où recharger votre voiture électrique gratuitement en France",
     metaDescription: "Bornes de recharge gratuites en France : supermarchés (Lidl, IKEA), parkings publics, initiatives locales. Liste des emplacements et astuces pour en profiter.",
@@ -1014,6 +1029,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "wallbox-comparatif",
+    titreSeo: "Comparatif wallbox 2026 : meilleures bornes à domicile",
     titre: "Comparatif wallbox 2026",
     h1: "Comparatif wallbox 2026 : les meilleures bornes de recharge domestiques",
     metaDescription: "Meilleures wallbox 2026 : Wallbox Pulsar Plus, Schneider EVlink, Legrand Green'up, Tesla Wall Connector, Easee. Comparatif prix, puissance, appli et avis.",
@@ -1067,6 +1083,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "recharge-travail-entreprise",
+    titreSeo: "Recharge au travail : borne en entreprise et fiscalité",
     titre: "Recharge au travail",
     h1: "Recharge au travail : guide pour les salariés et les employeurs",
     metaDescription: "Recharge VE au travail : obligations employeur, avantages fiscaux (exonération avantage en nature), installation IRVE, aide ADVENIR pro et bonnes pratiques.",
@@ -1115,6 +1132,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "prise-type-2-ccs",
+    titreSeo: "Prise Type 2 et CCS : les connecteurs de recharge expliqués",
     titre: "Prise Type 2 et CCS",
     h1: "Prise Type 2 et CCS Combo 2 : comprendre les connecteurs de recharge",
     metaDescription: "Prises de recharge VE : Type 2 (AC), CCS Combo 2 (DC), CHAdeMO. Compatibilité par véhicule, puissances max et quel connecteur choisir selon votre voiture.",
@@ -1161,6 +1179,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
 {
     slug: "recharge-vehicule-electrique-nuit",
+    titreSeo: "Recharger sa voiture électrique la nuit : heures creuses",
     titre: "Recharger la nuit : avantages et conseils",
     h1: "Recharge de nuit pour véhicule électrique : tarifs, programmation et bonnes pratiques",
     metaDescription: "Recharge nocturne VE : profitez des heures creuses (0,15 euros/kWh), programmez votre wallbox et économisez 40 % vs tarif jour. Guide pratique et astuces.",
@@ -1213,6 +1232,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "application-recharge-electrique",
+    titreSeo: "Application de recharge électrique 2026 : les meilleures",
     titre: "Les meilleures apps de recharge",
     h1: "Applications de recharge pour voiture électrique : comparatif des meilleures apps en 2026",
     metaDescription: "Meilleures applis recharge VE : Chargemap, ABRP, ChargePoint, Shell Recharge, Electra. Comparatif fonctionnalités, prix et avis pour trouver la borne idéale.",
@@ -1273,6 +1293,7 @@ export const pagesRecharge: PageRecharge[] = [
   },
   {
     slug: "installateur-irve",
+    titreSeo: "Installateur IRVE : bien le choisir et prix de pose 2026",
     titre: "Installateur IRVE : guide de choix",
     h1: "Installateur IRVE : comment choisir un professionnel qualifié pour votre borne de recharge",
     metaDescription: "Installateur IRVE : comment choisir un électricien qualifié pour votre borne. Certifications, prix moyen, demande de devis et aides financières disponibles.",

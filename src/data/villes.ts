@@ -18,7 +18,7 @@ export const villes: Ville[] = [
     region: "Île-de-France",
     population: 2161000,
     nombreBornes: 2800,
-    metaDescription: "Découvrez les 2800 bornes de recharge pour véhicules électriques à Paris : emplacements, réseaux disponibles, tarifs et conseils pratiques pour recharger.",
+    metaDescription: "Découvrez les 2 800 bornes de recharge pour véhicules électriques à Paris : emplacements, réseaux disponibles, tarifs et conseils pratiques pour recharger.",
     contenu: `Paris, capitale de la France, est également la ville la mieux équipée du pays en matière de bornes de recharge pour véhicules électriques. Avec environ 2800 points de charge répartis dans les vingt arrondissements, la Ville Lumière offre un maillage dense et accessible aux conducteurs de voitures électriques.
 
 Le réseau Belib', géré par TotalEnergies, constitue l'ossature principale de l'infrastructure de recharge parisienne. Plus de 2300 bornes Belib' sont installées sur la voie publique, offrant des puissances allant de 7 kW en charge normale à 50 kW en charge rapide. Ces bornes sont reconnaissables à leur design épuré et se trouvent dans chaque quartier, des Champs-Élysées au Marais, de Montmartre à Bercy.
@@ -453,7 +453,7 @@ Bobigny se réinvente à travers de grands projets urbains qui font de la mobili
     region: "Auvergne-Rhône-Alpes",
     population: 522969,
     nombreBornes: 1200,
-    metaDescription: "Découvrez les 1200 bornes de recharge à Lyon : Presqu'île, Part-Dieu, Confluence et plus. Guide complet pour recharger votre véhicule électrique.",
+    metaDescription: "Découvrez les 1 200 bornes de recharge à Lyon : Presqu'île, Part-Dieu, Confluence et plus. Guide complet pour recharger votre véhicule électrique.",
     contenu: `Lyon, troisième ville de France et capitale de la région Auvergne-Rhône-Alpes, se positionne comme un leader de la mobilité électrique avec environ 1200 bornes de recharge. La capitale des Gaules offre un réseau dense couvrant ses neuf arrondissements et sa métropole.
 
 La Presqu'île, cœur historique de Lyon entre Rhône et Saône, dispose de nombreuses bornes dans ses parkings souterrains. Le parking Bellecour, sous la plus grande place piétonne d'Europe, offre des bornes de recharge. Le parking des Cordeliers et celui de la République complètent le maillage de ce quartier commerçant et touristique.

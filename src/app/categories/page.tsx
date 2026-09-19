@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Explorez " +
     categories.length +
-    " catégories de voitures électriques : pas chère, chinoise, sans permis, grande autonomie, familiale, SUV. Trouvez le modèle adapté.",
+    " catégories de voitures électriques : pas chère, chinoise, sans permis, grande autonomie, familiale, SUV. Trouvez le modèle adapté en 2026.",
   path: "/categories/",
 });
 

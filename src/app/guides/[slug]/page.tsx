@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = getGuideBySlug(slug);
   if (!page) return {};
   return buildMetadata({
-    title: page.titre,
+    title: page.titreSeo ?? page.titre,
     description: page.metaDescription,
     path: `/guides/${page.slug}/`,
   });

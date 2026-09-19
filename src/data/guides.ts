@@ -1,6 +1,8 @@
 export interface PageGuide {
   slug: string;
   titre: string;
+  /** Balise <title> : 50–60 caractères, terme-clé d'abord (RECETTE §11). `titre` reste le libellé court des liens. */
+  titreSeo?: string;
   h1: string;
   metaDescription: string;
   contenu: string;
@@ -14,6 +16,7 @@ export const pagesGuides: PageGuide[] = [
   // ─── QU'EST-CE QU'UNE VOITURE ÉLECTRIQUE ────────────────────────
   {
     slug: "quest-ce-quune-voiture-electrique",
+    titreSeo: "Voiture électrique : définition, fonctionnement, types",
     titre: "Qu'est-ce qu'une voiture électrique ?",
     h1: "Qu'est-ce qu'une voiture électrique ? Fonctionnement, avantages et idées reçues",
     metaDescription:
@@ -116,6 +119,7 @@ export const pagesGuides: PageGuide[] = [
   // ─── AUTONOMIE RÉELLE EXPLIQUÉE ──────────────────────────────────
   {
     slug: "autonomie-reelle-expliquee",
+    titreSeo: "Autonomie réelle d'une voiture électrique : WLTP et hiver",
     titre: "Autonomie réelle d'une voiture électrique",
     h1: "Autonomie réelle vs WLTP : ce que vous pouvez vraiment attendre de votre voiture électrique",
     metaDescription:
@@ -377,6 +381,7 @@ export const pagesGuides: PageGuide[] = [
   // ─── RECHARGE POUR DÉBUTANTS ─────────────────────────────────────
   {
     slug: "recharge-pour-debutants",
+    titreSeo: "Recharge voiture électrique pour débutants : guide complet",
     titre: "Guide de la recharge pour débutants",
     h1: "Recharger sa voiture électrique : le guide complet pour débutants",
     metaDescription:
@@ -521,6 +526,7 @@ export const pagesGuides: PageGuide[] = [
   // ─── ACTUALITÉS VE 2025 ──────────────────────────────────────────
   {
     slug: "actualites",
+    titreSeo: "Marché de la voiture électrique 2025-2026 : le bilan chiffré",
     titre: "Bilan du marché électrique 2025-2026",
     h1: "Bilan du marché électrique 2025-2026 : nouveautés, tendances et chiffres clés",
     metaDescription: "Bilan complet du marché électrique 2025-2026 : nouveaux modèles, évolution des prix, aides, infrastructure de recharge et tendances du secteur en France.",
@@ -640,6 +646,7 @@ export const pagesGuides: PageGuide[] = [
   },
 {
     slug: "entretien-voiture-electrique",
+    titreSeo: "Entretien voiture électrique : coût, fréquence et contrôles",
     titre: "Entretien VE : coût et fréquence",
     h1: "Entretien d'une voiture électrique : coûts, fréquence et conseils pratiques",
     metaDescription: "Entretien voiture électrique : coût moyen (250 €/an), fréquence, pièces d'usure, freins, pneus. 30 à 50 % moins cher que le thermique, voici pourquoi.",
@@ -690,6 +697,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-hiver",
+    titreSeo: "Voiture électrique en hiver : autonomie réelle et conseils",
     titre: "VE en hiver : autonomie et conseils",
     h1: "Voiture électrique en hiver : impact sur l'autonomie et conseils pratiques",
     metaDescription: "Voiture électrique en hiver : perte d'autonomie (20-35 %), préchauffage batterie, pompe à chaleur, pneus hiver. Tous les conseils pour rouler sans stress.",
@@ -735,6 +743,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-vacances",
+    titreSeo: "Vacances en voiture électrique : trajet, recharge, budget",
     titre: "Partir en vacances en VE",
     h1: "Partir en vacances en voiture électrique : guide complet pour les longs trajets",
     metaDescription: "Vacances en voiture électrique : planifier ses arrêts recharge, meilleures applis, itinéraires testés et conseils pratiques pour partir l'esprit tranquille.",
@@ -778,6 +787,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-copropriete",
+    titreSeo: "Voiture électrique en copropriété : recharger chez soi",
     titre: "Recharger en copropriété",
     h1: "Recharger sa voiture électrique en copropriété : droits, démarches et solutions",
     metaDescription: "Borne de recharge en copropriété : droit à la prise, infrastructure collective, aide ADVENIR, démarches auprès du syndic. Guide pas à pas pour copropriétaires.",
@@ -822,6 +832,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "zfe-zones-faibles-emissions",
+    titreSeo: "ZFE : zones à faibles émissions et vignettes Crit'Air",
     titre: "ZFE : zones à faibles émissions",
     h1: "ZFE en France : zones à faibles émissions, calendrier et impact pour les automobilistes",
     metaDescription: "ZFE en France 2026 : liste des villes concernées, calendrier Crit'Air, restrictions par zone et pourquoi la voiture électrique est la meilleure solution.",
@@ -866,6 +877,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-occasion-guide",
+    titreSeo: "Voiture électrique d'occasion : guide d'achat et pièges",
     titre: "Acheter un VE d'occasion",
     h1: "Acheter une voiture électrique d'occasion : guide complet pour faire le bon choix",
     metaDescription: "Voiture électrique occasion : comment vérifier la batterie (SOH), meilleurs modèles, prix du marché, garantie et pièges à éviter. Guide d'achat complet.",
@@ -908,6 +920,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "batterie-solide-state",
+    titreSeo: "Batterie solide (solid-state) : fonctionnement et calendrier",
     titre: "Batterie solide (solid-state)",
     h1: "Batterie solid-state : la révolution technologique qui va transformer les véhicules électriques",
     metaDescription: "Batterie solide (solid-state) : principe, densité doublée, charge en 10 min. Toyota, Samsung SDI, QuantumScape : calendrier 2027-2030 et impact sur les VE.",
@@ -949,6 +962,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "vehicule-to-grid-v2g",
+    titreSeo: "V2G (vehicle-to-grid) : la voiture comme batterie domestique",
     titre: "V2G : la voiture comme batterie domestique",
     h1: "V2G (Vehicle-to-Grid) : utiliser sa voiture électrique comme batterie domestique",
     metaDescription: "V2G et charge bidirectionnelle : alimentez votre maison avec votre voiture électrique. Modèles compatibles (Ioniq 5, Leaf), économies réelles et perspectives.",
@@ -991,6 +1005,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "eco-conduite-voiture-electrique",
+    titreSeo: "Éco-conduite en voiture électrique : gagner en autonomie",
     titre: "Éco-conduite : optimiser l'autonomie",
     h1: "Éco-conduite en voiture électrique : techniques et astuces pour maximiser l'autonomie",
     metaDescription: "Éco-conduite en voiture électrique : freinage régénératif, vitesse optimale, pneus, climatisation. Gagnez 20 à 30 % d'autonomie avec ces techniques simples.",
@@ -1033,6 +1048,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-entreprise",
+    titreSeo: "Voiture électrique de fonction : avantages fiscaux 2026",
     titre: "VE de fonction : avantages fiscaux",
     h1: "Voiture électrique de fonction : avantages fiscaux et économiques pour les entreprises",
     metaDescription: "Voiture électrique de fonction : avantage en nature réduit, exonération TVS, amortissement majoré, aide ADVENIR. Guide fiscal complet pour entreprises.",
@@ -1081,6 +1097,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "comparatif-batteries-lfp-nmc-nca",
+    titreSeo: "Batterie LFP, NMC ou NCA : comparatif des chimies en 2026",
     titre: "Batteries LFP vs NMC vs NCA",
     h1: "Batteries LFP vs NMC vs NCA : comparatif des chimies de batteries pour véhicules électriques",
     metaDescription: "LFP, NMC, NCA : comparatif des chimies de batteries VE. Densité d'énergie, durée de vie, coût, sécurité et quel constructeur utilise quelle technologie.",
@@ -1121,6 +1138,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "recyclage-batterie-voiture-electrique",
+    titreSeo: "Recyclage des batteries de voiture électrique en 2026",
     titre: "Recyclage des batteries",
     h1: "Recyclage des batteries de véhicules électriques : processus, réglementation et enjeux",
     metaDescription: "Recyclage batteries VE : réglementation européenne, procédé industriel, seconde vie en stockage, taux de récupération 90 % et vrai impact environnemental.",
@@ -1165,6 +1183,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "pompe-a-chaleur-voiture-electrique",
+    titreSeo: "Pompe à chaleur en voiture électrique : utile ou pas ?",
     titre: "Pompe à chaleur dans les VE",
     h1: "Pompe à chaleur dans les voitures électriques : fonctionnement, avantages et modèles équipés",
     metaDescription: "Pompe à chaleur VE : fonctionnement, gain d'autonomie en hiver (15-20 %), modèles équipés de série et comparaison avec le chauffage résistif PTC classique.",
@@ -1206,6 +1225,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-bruit",
+    titreSeo: "Bruit des voitures électriques : AVAS et réglementation",
     titre: "Bruit et VE : AVAS et réglementation",
     h1: "Bruit et voitures électriques : système AVAS, réglementation et sécurité des piétons",
     metaDescription: "Bruit des voitures électriques : système AVAS obligatoire, réglementation européenne, sécurité piétonne et design sonore choisi par chaque constructeur.",
@@ -1247,6 +1267,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "panneaux-solaires-et-voiture-electrique",
+    titreSeo: "Panneaux solaires et voiture électrique : recharger solaire",
     titre: "Panneaux solaires + VE",
     h1: "Panneaux solaires et voiture électrique : synergie, dimensionnement et rentabilité",
     metaDescription: "Panneaux solaires + voiture électrique : dimensionnement, charge intelligente, autoconsommation et calcul de rentabilité. Roulez gratuitement avec le soleil.",
@@ -1288,6 +1309,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "freinage-regeneratif",
+    titreSeo: "Freinage régénératif : fonctionnement et gain d'autonomie",
     titre: "Freinage régénératif",
     h1: "Freinage régénératif : fonctionnement, techniques et impact sur l'autonomie",
     metaDescription: "Freinage régénératif : comment ça marche, conduite à une pédale, 10-30 % d'autonomie récupérée, usure des freins réduite. Techniques pour en tirer le maximum.",
@@ -1329,6 +1351,7 @@ export const pagesGuides: PageGuide[] = [
   },
 {
     slug: "long-trajet-voiture-electrique",
+    titreSeo: "Long trajet en voiture électrique : planifier ses recharges",
     titre: "Long trajet en VE : guide complet",
     h1: "Long trajet en voiture électrique : préparer, planifier et réussir chaque voyage",
     metaDescription: "Long trajet en voiture électrique : planification, bornes rapides, autonomie réelle, applis indispensables. Réussissez votre premier voyage sans stress.",
@@ -1404,6 +1427,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "voiture-electrique-fiabilite",
+    titreSeo: "Fiabilité des voitures électriques : pannes et batteries",
     titre: "Fiabilité des voitures électriques",
     h1: "Fiabilité des voitures électriques : ce que disent les données et les retours d'expérience",
     metaDescription: "Fiabilité voiture électrique : données réelles, pannes fréquentes, durée de vie des composants, classements par marque et comparatif avec le thermique.",
@@ -1457,6 +1481,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "histoire-voiture-electrique",
+    titreSeo: "Histoire de la voiture électrique : des débuts à nos jours",
     titre: "Histoire de la voiture électrique",
     h1: "Histoire de la voiture électrique : des origines au XXIe siècle",
     metaDescription: "Histoire de la voiture électrique de 1830 à 2026 : inventeurs pionniers, records de vitesse, déclin face au pétrole, renaissance Tesla et avenir du secteur.",
@@ -1515,6 +1540,7 @@ export const pagesGuides: PageGuide[] = [
   },
   {
     slug: "glossaire-voiture-electrique",
+    titreSeo: "Glossaire voiture électrique : tous les termes expliqués",
     titre: "Glossaire VE : tous les termes",
     h1: "Glossaire de la voiture électrique : tous les termes techniques expliqués",
     metaDescription: "Glossaire voiture électrique : kWh, CCS, WLTP, BMS, SOC, V2G, LFP, NMC et 80+ termes techniques expliqués simplement. Le dictionnaire du conducteur VE.",

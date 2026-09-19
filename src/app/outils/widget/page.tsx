@@ -6,7 +6,7 @@ import { webApplicationJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Widget calculateur VE gratuit | Intégrez sur votre site",
   description:
-    "Intégrez gratuitement notre calculateur de coût de voiture électrique sur votre site web. Widget responsive, léger et sans publicité.",
+    "Intégrez gratuitement notre calculateur de coût de voiture électrique sur votre site : widget adapté au mobile, léger, sans publicité ni collecte de données.",
   path: "/outils/widget/",
 });
 

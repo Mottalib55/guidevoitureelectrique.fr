@@ -1,3 +1,4 @@
+import { assertSnippet } from "./snippet";
 import type { Metadata } from "next";
 
 const SITE_NAME = "Guide Voiture Électrique";
@@ -14,6 +15,7 @@ export function buildMetadata({
   path: string;
   ogImage?: string;
 }): Metadata {
+  assertSnippet(title, description, path);
   const url = `${SITE_URL}${path}`;
   const image = ogImage || `${SITE_URL}/og-default.jpg`;
 

@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Simulateur aides voiture électrique 2026 : bonus et primes",
+  title: "Aides voiture électrique 2026 : simulateur des primes",
   description:
     "Estimez vos aides pour l'achat d'une voiture électrique : bonus écologique, prime à la conversion, leasing social. Calculez le prix après aides en 30 secondes.",
   path: "/outils/simulateur-aides/",

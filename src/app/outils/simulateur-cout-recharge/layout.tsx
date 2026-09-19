@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Simulateur coût de recharge voiture électrique 2026",
+  title: "Coût de recharge voiture électrique 2026 : simulateur",
   description:
     "Calculez le coût de recharge de votre voiture électrique : domicile vs borne publique vs rapide. Budget mensuel, comparaison essence et économies estimées.",
   path: "/outils/simulateur-cout-recharge/",

@@ -1,3 +1,4 @@
+import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -20,8 +21,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!m) return {};
 
   return buildMetadata({
-    title: `${m.nom} électrique ${new Date().getFullYear()} : modèles et prix`,
-    description: `Tous les véhicules électriques ${m.nom} disponibles en France : prix, autonomie réelle, charge rapide. Fiches techniques, comparatif et financement LOA/LLD.`,
+    title: fit(`${m.nom} électrique ${new Date().getFullYear()}`, [
+      " : modèles, prix et autonomie réelle",
+      " : tous les modèles, prix et autonomie",
+      " : modèles, prix et autonomie",
+      " : modèles, prix, autonomie",
+      " : modèles et prix",
+    ], TITLE_RANGE, "titre"),
+    description: fit(`Tous les véhicules électriques ${m.nom} disponibles en France : prix, autonomie réelle, charge rapide.`, [
+      " Fiches techniques, comparatif et financement LOA/LLD.",
+      " Fiches techniques, comparatif et LOA/LLD.",
+      " Fiches, comparatif et financement LOA/LLD.",
+      " Fiches, comparatif et LOA/LLD.",
+      " Fiches et comparatif.",
+    ], DESC_RANGE, "description"),
     path: `/marques/${m.slug}/`,
   });
 }

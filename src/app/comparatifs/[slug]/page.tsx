@@ -1,3 +1,4 @@
+import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -28,8 +29,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
 
   return buildMetadata({
-    title: c.titre,
-    description: c.metaDescription,
+    title: fit(c.titre, [
+      " : comparatif 2026 prix, autonomie, recharge",
+      " : comparatif 2026 prix et autonomie",
+      " : comparatif prix et autonomie 2026",
+      " : lequel choisir en 2026 ?",
+      " : comparatif 2026",
+      " en 2026 : lequel choisir ?",
+      " en 2026",
+      "",
+    ], TITLE_RANGE, "titre"),
+    description: fit(c.metaDescription, [
+      "",
+      " Prix, autonomie réelle, recharge et coût d'usage comparés.",
+      " Prix, autonomie, recharge et coût d'usage comparés.",
+      " Prix, autonomie et recharge comparés.",
+      " Prix et autonomie comparés.",
+      " Notre verdict chiffré et détaillé.",
+      " Avec notre verdict chiffré.",
+      " Notre verdict détaillé.",
+      " Avec notre verdict.",
+      " Notre verdict.",
+      " Verdict.",
+    ], DESC_RANGE, "description"),
     path: `/comparatifs/${c.slug}/`,
   });
 }

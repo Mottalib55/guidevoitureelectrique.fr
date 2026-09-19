@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Mentions légales | Guide Voiture Électrique",
+  title: "Mentions légales du Guide Voiture Électrique : éditeur",
   description:
-    "Mentions légales, politique de confidentialité et conditions d'utilisation du site Guide Voiture Électrique.",
+    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, politique de confidentialité, cookies et conditions générales d'utilisation du site.",
 };
 
 export default function MentionsLegalesPage() {

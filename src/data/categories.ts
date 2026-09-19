@@ -1,6 +1,8 @@
 export interface Categorie {
   slug: string;
   titre: string;
+  /** Balise <title> : 50–60 caractères, terme-clé d'abord (RECETTE §11). `titre` reste le libellé court des liens. */
+  titreSeo?: string;
   h1: string;
   description: string;
   metaDescription: string;
@@ -12,6 +14,7 @@ export interface Categorie {
 export const categories: Categorie[] = [
   {
     slug: "pas-cher",
+    titreSeo: "Voiture électrique pas chère 2026 : les modèles dès 18 900 €",
     titre: "Voiture électrique pas cher",
     h1: "Les voitures électriques les moins chères en 2026",
     description: "Comparatif des voitures électriques les moins chères du marché français. Prix, autonomie, aides et financement.",
@@ -86,6 +89,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "petite-voiture",
+    titreSeo: "Petite voiture électrique 2026 : citadines, prix, autonomie",
     titre: "Petite voiture électrique",
     h1: "Les meilleures petites voitures électriques en 2026",
     description: "Comparatif des citadines et mini-citadines électriques. Compactes, agiles, idéales pour la ville.",
@@ -141,6 +145,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "sans-permis",
+    titreSeo: "Voiture sans permis électrique 2026 : modèles et prix",
     titre: "Voiture sans permis électrique",
     h1: "Voitures sans permis électriques : guide complet 2026",
     description: "Les voitures sans permis électriques accessibles dès 14 ans. Prix, autonomie, réglementation.",
@@ -215,6 +220,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "chinoise",
+    titreSeo: "Voiture électrique chinoise 2026 : modèles, prix, fiabilité",
     titre: "Voiture électrique chinoise",
     h1: "Voitures électriques chinoises : le guide complet 2026",
     description: "BYD, MG, Leapmotor, Xpeng, Zeekr : comparatif complet des voitures électriques chinoises disponibles en France.",
@@ -286,6 +292,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "occasion",
+    titreSeo: "Voiture électrique d'occasion 2026 : prix, modèles, conseils",
     titre: "Voiture électrique occasion",
     h1: "Voitures électriques d'occasion : le guide pour bien acheter",
     description: "Guide d'achat voiture électrique d'occasion. Prix, état de la batterie, points de contrôle, meilleures affaires.",
@@ -385,6 +392,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "familiale",
+    titreSeo: "Voiture électrique familiale 2026 : 5 places, coffre et prix",
     titre: "Voiture électrique familiale",
     h1: "Les meilleures voitures électriques familiales en 2026",
     description: "SUV et berlines électriques familiaux : grands coffres, 5-7 places, grande autonomie. Comparatif complet.",
@@ -464,6 +472,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "grande-autonomie",
+    titreSeo: "Voiture électrique grande autonomie 2026 : le classement",
     titre: "Voiture électrique grande autonomie",
     h1: "Voitures électriques grande autonomie (+500 km) en 2026",
     description: "Les véhicules électriques offrant plus de 500 km d'autonomie WLTP. Comparatif des champions de l'endurance.",
@@ -572,6 +581,7 @@ export const categories: Categorie[] = [
   },
 {
     slug: "suv-electrique",
+    titreSeo: "SUV électrique 2026 : modèles, prix et autonomie réelle",
     titre: "SUV électriques",
     h1: "SUV électriques : les meilleurs modèles en 2026",
     description: "Comparatif des SUV 100 % électriques disponibles en France.",
@@ -630,6 +640,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "berline-electrique",
+    titreSeo: "Berline électrique 2026 : modèles, prix et autonomie réelle",
     titre: "Berlines électriques",
     h1: "Berlines électriques : les meilleurs modèles en 2026",
     description: "Comparatif des berlines 100 % électriques disponibles en France.",
@@ -684,6 +695,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "premium",
+    titreSeo: "Voiture électrique premium et de luxe 2026 : les modèles",
     titre: "VE premium et luxe",
     h1: "Voitures électriques premium et luxe : le guide complet en 2026",
     description: "Comparatif des véhicules électriques premium et de luxe disponibles en France.",
@@ -742,6 +754,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "made-in-france",
+    titreSeo: "Voiture électrique fabriquée en France 2026 : les modèles",
     titre: "VE fabriquées en France",
     h1: "Voitures électriques fabriquées en France : guide complet des modèles produits sur le territoire",
     description: "Guide des véhicules électriques fabriqués en France : usines, modèles, emplois et enjeux industriels.",
@@ -803,6 +816,7 @@ export const categories: Categorie[] = [
   },
   {
     slug: "7-places",
+    titreSeo: "Voiture électrique 7 places 2026 : modèles, prix, autonomie",
     titre: "VE 7 places",
     h1: "Voitures électriques 7 places : les meilleurs modèles familiaux en 2026",
     description: "Comparatif des véhicules électriques 7 places disponibles en France pour les grandes familles.",

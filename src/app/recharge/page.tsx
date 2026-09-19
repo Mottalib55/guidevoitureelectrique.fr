@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Recharge voiture électrique : bornes, coûts et temps",
   description:
-    "Recharge VE : wallbox, bornes publiques, tarifs au kWh, temps de charge par modèle. " +
+    "Recharge voiture électrique : wallbox, bornes publiques, prix du kWh et temps de charge par modèle. " +
     pagesRecharge.length +
     " guides + carte des bornes dans " +
     villes.length +

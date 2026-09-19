@@ -8,9 +8,9 @@ import AuteurBio from "@/components/AuteurBio";
 export const metadata: Metadata = buildMetadata({
   title: "Acheter une voiture électrique en 2026 : nos guides",
   description:
-    "Guide d'achat voiture électrique : bonus écologique, LOA/LLD, assurance, occasion, financement. " +
+    "Guide d'achat voiture électrique 2026 : aides, LOA/LLD, assurance, occasion et financement. " +
     pagesAcheter.length +
-    " conseils concrets pour acheter au meilleur prix.",
+    " conseils concrets pour acheter au meilleur prix, sans surprise.",
   path: "/acheter/",
 });
 

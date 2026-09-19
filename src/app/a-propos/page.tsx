@@ -7,9 +7,9 @@ import { buildMetadata } from "@/lib/seo";
 import { articleJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "À propos | Guide Voiture Électrique | Mottalib Radif",
+  title: "Guide Voiture Électrique : qui sommes-nous, notre méthode",
   description:
-    "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement pour vous aider à choisir la meilleure voiture électrique.",
+    "L'équipe derrière Guide Voiture Électrique : notre mission, nos sources et notre méthode pour vous aider à choisir la bonne voiture électrique en 2026.",
   path: "/a-propos/",
 });
 

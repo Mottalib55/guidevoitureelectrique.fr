@@ -7,7 +7,7 @@ import { definedTermSetJsonLd } from "@/lib/jsonld";
 export const metadata: Metadata = buildMetadata({
   title: "Glossaire voiture électrique : 30+ termes expliqués",
   description:
-    "Glossaire complet de la voiture électrique : bonus écologique, kWh, WLTP, ZFE, borne de recharge, prime à la conversion et plus. Tous les termes expliqués simplement.",
+    "Glossaire de la voiture électrique : kWh, WLTP, ZFE, borne de recharge, bonus écologique, prime à la conversion et plus. Tous les termes expliqués simplement.",
   path: "/glossaire/",
 });
 

@@ -1,3 +1,4 @@
+import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -38,13 +39,50 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const isAVenir = m.statut === "a-venir";
 
+  const km = `${m.autonomieReelle} km`;
+  const title = isAVenir
+    ? fit(`${m.modele} ${m.sortiePrevue ?? m.annee}`, [
+        ` : prix estimé ${euro}, date de sortie et fiche`,
+        ` : prix estimé ${euro}, sortie et fiche`,
+        ` : prix estimé, date de sortie et fiche`,
+        ` : prix estimé, sortie et fiche`,
+        ` : prix et date de sortie`,
+        ` : prix estimé`,
+      ], TITLE_RANGE, "titre")
+    : fit(m.modele, [
+        ` : prix dès ${euro}, autonomie réelle et avis 2026`,
+        ` : prix dès ${euro}, autonomie et avis 2026`,
+        ` : prix dès ${euro}, fiche et avis 2026`,
+        ` : prix ${euro}, autonomie et avis 2026`,
+        ` 2026 : prix dès ${euro} et autonomie`,
+        ` 2026 : prix, autonomie et avis`,
+        ` 2026 : prix dès ${euro}`,
+        ` 2026 : prix et autonomie`,
+        ` : prix et avis 2026`,
+      ], TITLE_RANGE, "titre");
+  const description = isAVenir
+    ? fit(`${m.modele} : prix estimé ${euro}, ${km} d'autonomie réelle, sortie ${m.sortiePrevue ?? m.annee}.`, [
+        ` Fiche technique, alternatives déjà disponibles et financement en LOA ou LLD.`,
+        ` Fiche technique, alternatives disponibles et financement LOA ou LLD.`,
+        ` Fiche technique, alternatives et financement en LOA ou LLD.`,
+        ` Fiche technique, alternatives et financement LOA/LLD.`,
+        ` Fiche technique et alternatives.`,
+      ], DESC_RANGE, "description")
+    : fit(`${m.modele} dès ${euro} : ${km} réels, batterie ${m.batterieKwh} kWh, charge rapide ${m.chargeRapideKw} kW.`, [
+        ` Fiche technique complète, calculateur LOA/LLD et meilleures alternatives du marché.`,
+        ` Fiche technique complète, calculateur LOA/LLD et meilleures alternatives en 2026.`,
+        ` Fiche technique complète, simulateur LOA/LLD et les meilleures alternatives.`,
+        ` Fiche technique complète, calculateur LOA/LLD et meilleures alternatives.`,
+        ` Fiche technique, calculateur LOA/LLD et meilleures alternatives.`,
+        ` Fiche technique, calculateur LOA/LLD et alternatives.`,
+        ` Fiche technique, LOA/LLD et alternatives.`,
+        ` Fiche, LOA/LLD et alternatives.`,
+        ` Fiche et alternatives.`,
+      ], DESC_RANGE, "description");
+
   return buildMetadata({
-    title: isAVenir
-      ? `${m.modele} ${m.sortiePrevue ?? m.annee} : prix estimé, date et fiche`
-      : `${m.modele} : prix dès ${euro}, fiche et avis ${m.annee}`,
-    description: isAVenir
-      ? `${m.modele} : prix estimé ${euro}, ${m.autonomieReelle} km d'autonomie réelle, sortie ${m.sortiePrevue ?? m.annee}. Fiche technique, alternatives et financement LOA/LLD.`
-      : `${m.modele} dès ${euro}. ${m.autonomieReelle} km réels, batterie ${m.batterieKwh} kWh, charge rapide ${m.chargeRapideKw} kW. Fiche technique, calculateur LOA/LLD et alternatives.`,
+    title,
+    description,
     path: `/modeles/${m.slug}/`,
   });
 }

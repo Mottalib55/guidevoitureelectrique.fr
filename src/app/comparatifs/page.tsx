@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   title: "Comparatif voiture électrique 2026 : duels détaillés",
   description:
     comparatifs.length +
-    " comparatifs voitures électriques : prix, autonomie réelle, recharge, coffre et verdict. Comparez deux modèles côte à côte.",
+    " comparatifs de voitures électriques : prix, autonomie réelle, recharge, coffre et verdict. Comparez deux modèles côte à côte avant d'acheter en 2026.",
   path: "/comparatifs/",
 });
 

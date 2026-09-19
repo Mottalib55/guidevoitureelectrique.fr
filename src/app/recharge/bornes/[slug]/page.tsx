@@ -1,3 +1,4 @@
+import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -18,8 +19,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ville = getVilleBySlug(slug);
   if (!ville) return {};
   return buildMetadata({
-    title: `Bornes de recharge ${ville.nom} : carte et tarifs 2026`,
-    description: ville.metaDescription,
+    title: fit(`Bornes de recharge ${ville.nom}`, [
+      " : carte, réseaux et tarifs 2026",
+      " : carte et tarifs 2026",
+      " 2026 : carte et tarifs",
+      " : carte, tarifs 2026",
+      " : tarifs 2026",
+      " 2026",
+    ], TITLE_RANGE, "titre"),
+    description: fit(ville.metaDescription, [
+      "",
+      " Carte.",
+      " Tarifs 2026.",
+      " À jour en 2026.",
+      " Mis à jour en 2026.",
+      " Carte et prix du kWh 2026.",
+      " Prix du kWh à jour en 2026.",
+      " Réseaux et prix du kWh à jour en 2026.",
+      " Carte et prix du kWh mis à jour en 2026.",
+      " Carte, réseaux et prix du kWh à jour en 2026.",
+      " Carte, réseaux et prix du kWh mis à jour en 2026.",
+    ], DESC_RANGE, "description"),
     path: `/recharge/bornes/${ville.slug}/`,
   });
 }

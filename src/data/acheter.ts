@@ -1,6 +1,8 @@
 export interface PageAcheter {
   slug: string;
   titre: string;
+  /** Balise <title> : 50–60 caractères, terme-clé d'abord (RECETTE §11). `titre` reste le libellé court des liens. */
+  titreSeo?: string;
   h1: string;
   metaDescription: string;
   contenu: string; // long editorial content
@@ -10,6 +12,7 @@ export const pagesAcheter: PageAcheter[] = [
   // ─── GUIDE D'ACHAT (PILLAR PAGE) ──────────────────────────────────
   {
     slug: "guide-achat",
+    titreSeo: "Guide d'achat voiture électrique 2026 : bien choisir",
     titre: "Guide d'achat voiture électrique 2026",
     h1: "Guide d'achat voiture électrique 2026 : tout savoir avant de se lancer",
     metaDescription:
@@ -148,6 +151,7 @@ export const pagesAcheter: PageAcheter[] = [
   // ─── PRIX ET COÛT RÉEL ─────────────────────────────────────────────
   {
     slug: "prix-et-cout-reel",
+    titreSeo: "Prix d'une voiture électrique 2026 : coût réel sur 5 ans",
     titre: "Prix et coût réel d'une voiture électrique (TCO)",
     h1: "Prix et coût réel d'une voiture électrique : le TCO expliqué",
     metaDescription:
@@ -302,6 +306,7 @@ export const pagesAcheter: PageAcheter[] = [
   // ─── AIDES ET BONUS ────────────────────────────────────────────────
   {
     slug: "aides-et-bonus",
+    titreSeo: "Aides voiture électrique 2026 : montants et conditions",
     titre: "Aides et bonus écologique voiture électrique 2026",
     h1: "Aides et bonus écologique voiture électrique 2026 : le guide complet",
     metaDescription:
@@ -546,6 +551,7 @@ export const pagesAcheter: PageAcheter[] = [
   // ─── LOA / LEASING (MONÉTISATION) ─────────────────────────────────
   {
     slug: "loa-leasing",
+    titreSeo: "LOA et LLD voiture électrique 2026 : le guide du leasing",
     titre: "LOA et LLD voiture électrique : guide du leasing",
     h1: "LOA et LLD voiture électrique : le guide complet du leasing en 2026",
     metaDescription:
@@ -1086,6 +1092,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
 {
     slug: "mandataire-voiture-electrique",
+    titreSeo: "Mandataire voiture électrique 2026 : économies et pièges",
     titre: "Mandataire VE : économies et pièges",
     h1: "Mandataire voiture électrique : guide complet 2026",
     metaDescription: "Mandataire voiture électrique : économisez 10 à 30 % sur le prix neuf. Fonctionnement, risques, vérifications et classement des meilleurs mandataires VE.",
@@ -1161,6 +1168,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "prime-conversion",
+    titreSeo: "Prime à la conversion voiture : conditions et historique",
     titre: "Prime à la conversion 2026",
     h1: "Prime à la conversion 2026 : guide complet",
     metaDescription: "Prime à la conversion 2026 : conditions d'éligibilité, montants jusqu'à 5 000 euros, véhicules éligibles, cumul bonus écologique. Démarches pas à pas.",
@@ -1258,6 +1266,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "leasing-social-100-euros",
+    titreSeo: "Leasing social voiture électrique : l'offre à 100 € par mois",
     titre: "Leasing social à 100 €/mois",
     h1: "Leasing social à 100 €/mois : guide complet 2026",
     metaDescription: "Leasing social voiture électrique à 100 euros/mois : critères d'éligibilité, modèles disponibles, démarches en ligne et comparaison avec la LOA classique.",
@@ -1416,6 +1425,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "meilleure-voiture-electrique-2026",
+    titreSeo: "Meilleure voiture électrique 2026 : notre classement complet",
     titre: "Meilleure VE 2026 : classement",
     h1: "Meilleure voiture électrique 2026 : classement complet",
     metaDescription: "Meilleures voitures électriques 2026 : top citadine, meilleur rapport qualité-prix, SUV familial et premium. Classement indépendant avec prix et autonomie.",
@@ -1485,6 +1495,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "immatriculation-carte-grise-ve",
+    titreSeo: "Carte grise voiture électrique 2026 : coût et démarches",
     titre: "Carte grise VE : coût et démarches",
     h1: "Carte grise voiture électrique : guide complet 2026",
     metaDescription: "Carte grise voiture électrique : gratuite dans la plupart des régions. Démarches ANTS, documents nécessaires, délais et tableau des exonérations par région.",
@@ -1557,6 +1568,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "garantie-voiture-electrique",
+    titreSeo: "Garantie voiture électrique : batterie et constructeur 2026",
     titre: "Garantie VE : ce que couvre le constructeur",
     h1: "Garantie voiture électrique : guide complet 2026",
     metaDescription: "Garantie voiture électrique : durée par marque (8 ans batterie), couverture, exclusions et extensions. Comparatif constructeur par constructeur en tableau.",
@@ -1635,6 +1647,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "decote-voiture-electrique",
+    titreSeo: "Décote voiture électrique : valeur de revente par modèle",
     titre: "Décote VE : valeur résiduelle",
     h1: "Décote voiture électrique : guide complet 2026",
     metaDescription: "Décote voiture électrique : 45-55 % en 4 ans en moyenne. Quels modèles résistent le mieux ? Facteurs clés et 7 conseils pour maximiser votre prix de revente.",
@@ -1761,6 +1774,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "essai-voiture-electrique",
+    titreSeo: "Essai voiture électrique 2026 : où et comment l'essayer",
     titre: "Essayer un VE : où et comment",
     h1: "Essayer une voiture électrique : guide complet 2026",
     metaDescription: "Essayer une voiture électrique en France : concessionnaires, événements, location courte durée et abonnement. Où tester et quoi vérifier lors de l'essai.",
@@ -1838,6 +1852,7 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "voiture-electrique-vs-hybride",
+    titreSeo: "Électrique ou hybride rechargeable en 2026 : que choisir ?",
     titre: "Électrique vs hybride rechargeable",
     h1: "Voiture électrique vs hybride rechargeable : guide complet 2026",
     metaDescription: "100 % électrique vs hybride rechargeable : différences techniques, consommation réelle, coût total, usage idéal et réglementation 2035. Le comparatif objectif.",

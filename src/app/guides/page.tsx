@@ -10,7 +10,7 @@ export const metadata: Metadata = buildMetadata({
   description:
     "Autonomie réelle, recharge, batterie, entretien, aides : " +
     pagesGuides.length +
-    " guides détaillés pour tout comprendre sur la voiture électrique avant d'acheter.",
+    " guides détaillés pour tout comprendre sur la voiture électrique avant de l'acheter en 2026.",
   path: "/guides/",
 });
 
