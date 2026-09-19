@@ -3,9 +3,9 @@ import { buildMetadata } from "@/lib/seo";
 import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Financement voiture électrique 2026 : calculateur LOA et LLD",
+  title: "Financement voiture électrique 2026 : calculateur LOA et LLD",
   description:
-    "Calculez votre financement voiture électrique : comparez comptant, crédit, LOA et LLD sur la même durée. Mensualités, coût total et meilleure formule en 1 clic.",
+    "Calculez votre financement voiture électrique : comparez comptant, crédit, LOA et LLD sur la même durée. Mensualités, coût total et meilleure formule en 1 clic.",
   path: "/outils/financement/",
 });
 

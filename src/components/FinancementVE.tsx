@@ -5,6 +5,7 @@ import { Wallet, Landmark, RefreshCw, KeyRound, Pencil, Check } from "lucide-rea
 import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { safeParseNumber } from "@/lib/parseNumericInput";
+import { dec } from "@/lib/format";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -150,7 +151,7 @@ export default function FinancementVE({
         revente: 0,
         net: netLoaRestit,
         note: "Vous louez et rendez le véhicule en fin de contrat. Pas de risque de décote.",
-        sub: `Si rachat + revente : ${euro(netLoaRachat)} net`,
+        sub: `Si rachat + revente : ${euro(netLoaRachat)} net`,
       },
       {
         key: "lld",
@@ -188,7 +189,7 @@ export default function FinancementVE({
         .fve-head{ padding:22px 24px 18px; color:#fff;
           background:
             radial-gradient(120% 140% at 0% 0%, rgba(0,192,116,.16), transparent 55%),
-            linear-gradient(135deg,#0b1d2a 0%,#123042 100%); }
+            linear-gradient(135deg,#0b1d2a 0%,#123042 100%); }
         .fve-kicker{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#7fe3b6; font-weight:700; }
         .fve-title{ font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:23px; line-height:1.1; margin:6px 0 2px; letter-spacing:-.01em;}
         .fve-sub{ font-size:13px; color:#aebfc9; font-weight:500;}
@@ -265,12 +266,12 @@ export default function FinancementVE({
       `}</style>
 
       <div className="fve-head">
-        <div className="fve-kicker">Acheter ou louer ?</div>
+        <div className="fve-kicker">Acheter ou louer ?</div>
         <div className="fve-title">
-          {modele} : comparatif de financement
+          {modele} : comparatif de financement
         </div>
         <div className="fve-sub">
-          Comptant, crédit, LOA et LLD comparés sur {annees} ans, tous frais inclus.
+          Comptant, crédit, LOA et LLD comparés sur {annees} ans, tous frais inclus.
         </div>
       </div>
 
@@ -278,7 +279,7 @@ export default function FinancementVE({
       {!editing && (
         <div className="fve-hypo">
           <div className="fve-hypo-text">
-            <strong>Hypothèses :</strong> bonus {euro(bonus)}, apport {hypo.apportPct} % ({euro(apport)}), {kmAn.toLocaleString("fr-FR")} km/an, {annees} ans, TAEG {taeg} %
+            <strong>Hypothèses :</strong> bonus {euro(bonus)}, apport {hypo.apportPct} % ({euro(apport)}), {kmAn.toLocaleString("fr-FR")} km/an, {annees} ans, TAEG {dec(taeg)} %
           </div>
           <button className="fve-hypo-btn" onClick={openEditor}>
             <Pencil size={13} />
@@ -302,7 +303,7 @@ export default function FinancementVE({
                 value={draft.bonus}
                 onChange={(e) => setDraft({ ...draft, bonus: safeParseNumber(e.target.value, draft.bonus) })}
               />
-              <span className="fve-editor-suffix">€ (0 à 7 000)</span>
+              <span className="fve-editor-suffix">€ (0 à 7 000)</span>
             </div>
             <div className="fve-editor-field">
               <label className="fve-editor-label">Apport</label>
@@ -341,7 +342,7 @@ export default function FinancementVE({
                 value={draft.mois}
                 onChange={(e) => setDraft({ ...draft, mois: safeParseNumber(e.target.value, draft.mois) })}
               />
-              <span className="fve-editor-suffix">mois ({draft.mois / 12} ans)</span>
+              <span className="fve-editor-suffix">mois ({draft.mois / 12} ans)</span>
             </div>
             <div className="fve-editor-field">
               <label className="fve-editor-label">TAEG</label>
@@ -391,7 +392,7 @@ export default function FinancementVE({
               )}
               <div className="fve-net">
                 <div className="fve-monthlbl">
-                  Coût total réel sur {annees} ans
+                  Coût total réel sur {annees} ans
                 </div>
                 <div className="fve-netval">{euro(s.net)}</div>
                 <div className="fve-bar">

@@ -46,7 +46,7 @@ export const mainNav: NavSection[] = [
     href: "/guides/",
     children: [
       { label: "Tous les guides", href: "/guides/" },
-      { label: "Qu'est-ce qu'un VE ?", href: "/guides/quest-ce-quune-voiture-electrique/" },
+      { label: "Qu'est-ce qu'un VE ?", href: "/guides/quest-ce-quune-voiture-electrique/" },
       { label: "Autonomie réelle", href: "/guides/autonomie-reelle-expliquee/" },
       { label: "Recharge débutants", href: "/guides/recharge-pour-debutants/" },
       { label: "Glossaire VE", href: "/glossaire/" },

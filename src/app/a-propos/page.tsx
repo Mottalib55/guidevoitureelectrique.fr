@@ -5,17 +5,18 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
 import { buildMetadata } from "@/lib/seo";
 import { articleJsonLd } from "@/lib/jsonld";
+import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Guide Voiture Électrique : qui sommes-nous, notre méthode",
+  title: "Guide Voiture Électrique : qui sommes-nous, notre méthode",
   description:
-    "L'équipe derrière Guide Voiture Électrique : notre mission, nos sources et notre méthode pour vous aider à choisir la bonne voiture électrique en 2026.",
+    "L'équipe derrière Guide Voiture Électrique : notre mission, nos sources et notre méthode pour vous aider à choisir la bonne voiture électrique en 2026.",
   path: "/a-propos/",
 });
 
 const jsonLd = articleJsonLd({
   title: "À propos | Guide Voiture Électrique",
-  description: "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement.",
+  description: "Découvrez l'équipe derrière Guide Voiture Électrique : notre mission, notre expertise et notre engagement.",
   path: "/a-propos/",
   datePublished: "2026-05-28",
 });
@@ -61,6 +62,7 @@ export default function AProposPage() {
             }}
           />
           <div>
+            <LastUpdated />
             <h1
               style={{
                 fontFamily: "var(--font-display)",
@@ -95,11 +97,11 @@ export default function AProposPage() {
         </div>
 
         {/* ── Content ──────────────────────────────────────────── */}
-        <AuthorByline date="Mai 2026" />
+        <AuthorByline />
         <div className="prose">
           <h2>Notre mission</h2>
           <p>
-            Guide Voiture Électrique est né d&apos;un constat simple : le marché
+            Guide Voiture Électrique est né d&apos;un constat simple : le marché
             de la voiture électrique en France évolue à une vitesse fulgurante, mais
             l&apos;information accessible au grand public reste souvent fragmentée,
             biaisée par les intérêts commerciaux ou tout simplement difficile à
@@ -112,19 +114,19 @@ export default function AProposPage() {
             Que vous soyez un automobiliste curieux qui se pose ses premières
             questions sur l&apos;autonomie et la recharge, un conducteur convaincu
             qui hésite entre deux modèles, ou un professionnel qui souhaite
-            électrifier sa flotte, notre objectif est le même : vous fournir des
+            électrifier sa flotte, notre objectif est le même : vous fournir des
             données fiables, des analyses détaillées et des outils pratiques pour
             éclairer votre décision.
           </p>
 
-          <h2>Qui sommes-nous ?</h2>
+          <h2>Qui sommes-nous ?</h2>
           <p>
             Guide Voiture Électrique a été fondé par <strong>Mottalib Radif</strong>,
             diplômé d&apos;un MBA de l&apos;<strong>INSEAD</strong> et ingénieur de
             formation. Fort d&apos;une double compétence technique et stratégique,
             Mottalib a travaillé pendant plus de dix ans dans les secteurs de la
             technologie et de l&apos;énergie avant de se consacrer pleinement à la
-            transition vers la mobilité électrique. Sa conviction profonde : la
+            transition vers la mobilité électrique. Sa conviction profonde : la
             voiture électrique n&apos;est pas seulement une alternative, mais bien
             l&apos;avenir de la mobilité individuelle en Europe et au-delà.
           </p>
@@ -139,25 +141,25 @@ export default function AProposPage() {
           <h2>Notre approche éditoriale</h2>
           <p>
             Chaque article, fiche technique et comparatif publié sur Guide Voiture
-            Électrique repose sur une méthodologie rigoureuse en trois piliers :
+            Électrique repose sur une méthodologie rigoureuse en trois piliers :
           </p>
           <ul>
             <li>
-              <strong>Données constructeurs vérifiées</strong> : nous collectons
+              <strong>Données constructeurs vérifiées</strong> : nous collectons
               les spécifications officielles auprès des constructeurs et les
               recoupons avec les homologations WLTP, les bases de données du
               ministère de la Transition écologique et les rapports de
               l&apos;ADEME.
             </li>
             <li>
-              <strong>Tests indépendants et retours terrain</strong> : nous
+              <strong>Tests indépendants et retours terrain</strong> : nous
               analysons les essais réalisés par les organismes de test reconnus
               (Euro NCAP, Automobile Propre, les associations de consommateurs)
               et intégrons les retours d&apos;expérience des propriétaires via
               les forums et communautés spécialisées.
             </li>
             <li>
-              <strong>Calculs et simulateurs transparents</strong> : nos outils
+              <strong>Calculs et simulateurs transparents</strong> : nos outils
               de calcul (coût total de possession, financement LOA/LLD,
               simulation de recharge) utilisent des formules ouvertes dont les
               hypothèses sont systématiquement expliquées, afin que vous puissiez
@@ -170,7 +172,7 @@ export default function AProposPage() {
           <h3>Fiches techniques détaillées</h3>
           <p>
             Chaque modèle de voiture électrique commercialisé en France dispose
-            d&apos;une fiche technique complète : prix catalogue, autonomie WLTP
+            d&apos;une fiche technique complète : prix catalogue, autonomie WLTP
             et autonomie réelle estimée, puissance de recharge AC et DC, capacité
             de la batterie, dimensions, volume du coffre, score Euro NCAP,
             garantie constructeur et disponibilité des aides à l&apos;achat. Nous
@@ -181,7 +183,7 @@ export default function AProposPage() {
           <h3>Comparatifs objectifs</h3>
           <p>
             Nos comparatifs confrontent les modèles les plus recherchés sur des
-            critères concrets : rapport prix/autonomie, coût au kilomètre,
+            critères concrets : rapport prix/autonomie, coût au kilomètre,
             confort de recharge sur autoroute, espace intérieur, technologies
             embarquées et coût total de possession sur 4 ans. Nous n&apos;avons
             aucun partenariat commercial avec les constructeurs, ce qui garantit
@@ -191,7 +193,7 @@ export default function AProposPage() {
           <h3>Guides pratiques</h3>
           <p>
             Nos guides couvrent l&apos;ensemble du parcours d&apos;achat et
-            d&apos;utilisation d&apos;un véhicule électrique : comprendre les
+            d&apos;utilisation d&apos;un véhicule électrique : comprendre les
             différents types de motorisation, décrypter les normes de recharge
             (Type 2, CCS, CHAdeMO), installer une borne à domicile, optimiser
             ses trajets longue distance, bénéficier du bonus écologique et de la
@@ -212,7 +214,7 @@ export default function AProposPage() {
           <h3>Actualités et tendances du marché</h3>
           <p>
             Nous suivons de près l&apos;actualité du marché de la voiture
-            électrique en France et en Europe : nouvelles réglementations (fin
+            électrique en France et en Europe : nouvelles réglementations (fin
             des moteurs thermiques en 2035, zones à faibles émissions),
             évolution des prix des batteries, déploiement de
             l&apos;infrastructure de recharge rapide, et arrivée de nouveaux
@@ -223,7 +225,7 @@ export default function AProposPage() {
           <p>
             La mobilité électrique est un pilier essentiel de la transition
             énergétique. En France, le secteur des transports représente environ
-            31 % des émissions de gaz à effet de serre. Passer à la voiture
+            31 % des émissions de gaz à effet de serre. Passer à la voiture
             électrique, surtout dans un pays où l&apos;électricité est
             massivement décarbonée grâce au nucléaire et aux énergies
             renouvelables, constitue un levier majeur de réduction de notre
@@ -240,9 +242,9 @@ export default function AProposPage() {
           </p>
           <p>
             L&apos;infrastructure de recharge en France connaît une croissance
-            remarquable. Le pays compte désormais plus de 150 000 points de
+            remarquable. Le pays compte désormais plus de 150 000 points de
             charge ouverts au public, avec un objectif gouvernemental de
-            400 000 bornes à l&apos;horizon 2030. Le réseau de recharge rapide
+            400 000 bornes à l&apos;horizon 2030. Le réseau de recharge rapide
             sur autoroute, porté par des opérateurs comme Ionity, TotalEnergies,
             Fastned et Tesla Supercharger, rend désormais les trajets longue
             distance en véhicule électrique aussi fluides qu&apos;en thermique
@@ -254,7 +256,7 @@ export default function AProposPage() {
             Sur le plan technologique, l&apos;évolution des batteries constitue
             le moteur principal de la démocratisation du véhicule électrique.
             Les cellules LFP (lithium fer phosphate) offrent désormais une
-            durée de vie supérieure à 3 000 cycles tout en réduisant la
+            durée de vie supérieure à 3 000 cycles tout en réduisant la
             dépendance aux matériaux critiques comme le cobalt et le nickel.
             Les batteries sodium-ion, attendues en production de masse dans les
             prochaines années, promettent de faire baisser encore les coûts
@@ -286,7 +288,7 @@ export default function AProposPage() {
           <h2>Notre vision pour 2026 et au-delà</h2>
           <p>
             L&apos;année 2026 marque un tournant pour le marché de la voiture
-            électrique en France. Les modèles à moins de 25 000 euros se
+            électrique en France. Les modèles à moins de 25 000 euros se
             multiplient, les batteries LFP et sodium-ion promettent de réduire
             encore les coûts, et le réseau de recharge rapide continue de
             s&apos;étendre à travers le territoire. Dans ce contexte en pleine
@@ -295,7 +297,7 @@ export default function AProposPage() {
           </p>
           <p>
             Nous prévoyons d&apos;enrichir le site avec de nouvelles
-            fonctionnalités : un planificateur d&apos;itinéraire électrique, un
+            fonctionnalités : un planificateur d&apos;itinéraire électrique, un
             comparateur de tarifs de recharge en temps réel, et des guides
             spécifiques par profil d&apos;utilisateur (citadin, périurbain,
             grand rouleur, famille nombreuse). Notre objectif est de vous
@@ -306,7 +308,7 @@ export default function AProposPage() {
           <h2>Nous contacter</h2>
           <p>
             Vous avez une question, une suggestion ou vous souhaitez signaler une
-            erreur dans nos données ? N&apos;hésitez pas à nous écrire à{" "}
+            erreur dans nos données ? N&apos;hésitez pas à nous écrire à{" "}
             <a href="mailto:contact@guidevoitureelectrique.fr">
               contact@guidevoitureelectrique.fr
             </a>
@@ -353,7 +355,7 @@ export default function AProposPage() {
               marginBottom: 8,
             }}
           >
-            Une question ? Contactez-nous
+            Une question ? Contactez-nous
           </h3>
           <p style={{ color: "var(--muted)", fontSize: 15, marginBottom: 16 }}>
             Nous sommes à votre écoute pour toute question sur la voiture

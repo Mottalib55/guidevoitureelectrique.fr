@@ -6,6 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { articleJsonLd } from "@/lib/jsonld";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return pagesGuides.map((p) => ({ slug: p.slug }));
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /* ── Navigation interne du silo ──────────────────────────────────── */
 const siloLinks = [
-  { slug: "quest-ce-quune-voiture-electrique", label: "Qu'est-ce qu'un VE ?" },
+  { slug: "quest-ce-quune-voiture-electrique", label: "Qu'est-ce qu'un VE ?" },
   { slug: "autonomie-reelle-expliquee", label: "Autonomie réelle" },
   { slug: "duree-de-vie-batterie", label: "Durée de vie batterie" },
   { slug: "recharge-pour-debutants", label: "Recharge débutants" },
@@ -90,8 +91,9 @@ export default async function PageGuide({ params }: Props) {
               marginBottom: 4,
             }}
           >
-            Guide : Voiture électrique
+            Guide : Voiture électrique
           </p>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -193,7 +195,7 @@ export default async function PageGuide({ params }: Props) {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))",   // une colonne sur mobile
             gap: 16,
             marginTop: 48,
           }}
@@ -228,7 +230,7 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France : données marché VE
+                Avere-France : données marché VE
               </a>
             </li>
             <li>
@@ -237,7 +239,7 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ADEME : analyses de cycle de vie
+                ADEME : analyses de cycle de vie
               </a>
             </li>
             <li>
@@ -246,12 +248,12 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
             <li>
               <a
-                href="https://www.ecologie.gouv.fr/politiques-publiques/bonus-ecologique"
+                href="https://www.service-public.fr/particuliers/vosdroits/F34014"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -259,7 +261,6 @@ export default async function PageGuide({ params }: Props) {
               </a>
             </li>
           </ul>
-          <p className="date-maj">Dernière mise à jour : mai 2025</p>
         </div>
       </article>
     </>

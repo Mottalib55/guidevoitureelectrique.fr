@@ -7,6 +7,7 @@ import { comparatifs } from "@/data/comparatifs";
 import { pagesAcheter } from "@/data/acheter";
 import { categories } from "@/data/categories";
 import { villes } from "@/data/villes";
+import { pageDate } from "@/lib/page-date";
 
 export const dynamic = "force-static";
 
@@ -34,6 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/glossaire/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE}/a-propos/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE}/mentions-legales/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.3 },
+    { url: `${BASE}/politique-confidentialite/`, lastModified: lastUpdate, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${BASE}/methodologie/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.4 },
     { url: `${BASE}/outils/widget/`, lastModified: lastUpdate, changeFrequency: "monthly", priority: 0.5 },
   ];
 
@@ -93,7 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [
+  const all: MetadataRoute.Sitemap = [
     ...staticPages,
     ...modelePages,
     ...marquePages,
@@ -104,4 +107,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoriePages,
     ...villePages,
   ];
+  // Date réelle de chaque page (git), pas une date commune saisie à la main (RECETTE §8.4).
+  return all.map((e) => ({ ...e, lastModified: pageDate(e.url.replace(BASE, "")) }));
 }

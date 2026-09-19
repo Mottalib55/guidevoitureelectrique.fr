@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavDropdown from "@/components/NavDropdown";
 import MobileNav from "@/components/MobileNav";
+import TrustFooter from "@/components/TrustFooter";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -20,13 +21,13 @@ const bricolage = Bricolage_Grotesque({
 
 export const metadata: Metadata = {
   title: {
-    default: "Voiture électrique 2026 : comparatif, prix et autonomie",
+    default: "Voiture électrique 2026 : comparatif, prix et autonomie",
     template: "%s",
   },
   description:
-    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
+    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
   metadataBase: new URL("https://guidevoitureelectrique.fr"),
-  authors: [{ name: "Mottalib Radif, MBA INSEAD, Passionné de Finance" }],
+  authors: [{ name: "Mottalib Radif", url: "https://guidevoitureelectrique.fr/a-propos/" }],
   openGraph: {
     siteName: "Guide Voiture Électrique",
     locale: "fr_FR",
@@ -51,45 +52,42 @@ export const metadata: Metadata = {
   // verification: Bing msvalidate.01 to be added once real ID is obtained from Bing Webmaster Tools
 };
 
+const SITE = "https://guidevoitureelectrique.fr";
+
+// Schémas communs (RECETTE §8.2) : l'Organization porte founder, foundingDate (premier
+// commit du site) et publishingPrinciples (la page de méthodologie).
 const jsonLdOrganization = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Guide Voiture Électrique",
-  url: "https://guidevoitureelectrique.fr",
-  logo: "https://guidevoitureelectrique.fr/logo.svg",
-  founder: {
-    "@type": "Person",
-    name: "Mottalib Radif",
-    jobTitle: "MBA INSEAD, Passionné de Finance",
-    url: "https://guidevoitureelectrique.fr/a-propos/",
-    image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    email: "contact@guidevoitureelectrique.fr",
-    contactType: "customer support",
-    availableLanguage: "French",
-  },
-};
-
-const jsonLdPerson = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Mottalib Radif",
-  jobTitle: "MBA INSEAD, Passionné de Finance",
-  url: "https://guidevoitureelectrique.fr/a-propos/",
-  image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
-  alumniOf: {
-    "@type": "EducationalOrganization",
-    name: "INSEAD",
-  },
-  description:
-    "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'INSEAD. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
-  worksFor: {
-    "@type": "Organization",
-    name: "Guide Voiture Électrique",
-    url: "https://guidevoitureelectrique.fr",
-  },
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${SITE}/#org`,
+      name: "Guide Voiture Électrique",
+      url: SITE,
+      logo: `${SITE}/logo.svg`,
+      foundingDate: "2026-07-14",
+      publishingPrinciples: `${SITE}/methodologie/`,
+      founder: { "@id": `${SITE}/#author` },
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "contact@guidevoitureelectrique.fr",
+        contactType: "customer support",
+        availableLanguage: "French",
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": `${SITE}/#author`,
+      name: "Mottalib Radif",
+      jobTitle: "MBA INSEAD, ingénieur Mines Saint-Étienne",
+      url: `${SITE}/a-propos/`,
+      image: `${SITE}/team/mottalib-radif.jpg`,
+      alumniOf: { "@type": "EducationalOrganization", name: "INSEAD" },
+      knowsAbout: ["Véhicules électriques", "Aides à l'achat automobile", "Recharge électrique", "Financement automobile"],
+      description:
+        "Diplômé MBA de l'INSEAD, analyse le marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
+    },
+  ],
 };
 
 const jsonLdWebSiteSearch = {
@@ -147,12 +145,6 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(jsonLdOrganization),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(jsonLdPerson),
           }}
         />
         <script
@@ -238,7 +230,7 @@ export default function RootLayout({
               <div>
                 <h4><Link href="/guides/">Guides</Link></h4>
                 <Link href="/guides/quest-ce-quune-voiture-electrique/">
-                  Qu&apos;est-ce qu&apos;un VE ?
+                  Qu&apos;est-ce qu&apos;un VE ?
                 </Link>
                 <Link href="/guides/autonomie-reelle-expliquee/">
                   Autonomie réelle
@@ -265,6 +257,7 @@ export default function RootLayout({
             <Link href="/glossaire/" style={{ color: "var(--faint)", textDecoration: "none" }}>
               Glossaire
             </Link>
+            <TrustFooter />
           </div>
         </footer>
       </body>

@@ -29,6 +29,7 @@ export default function AuteurBio() {
       />
       <div>
         <Link
+          rel="author"
           href="/a-propos/"
           style={{ textDecoration: "none" }}
         >

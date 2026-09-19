@@ -8,6 +8,8 @@ import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
+import { dec } from "@/lib/format";
 
 export function generateStaticParams() {
   return marques.map((m) => ({ slug: m.slug }));
@@ -22,13 +24,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildMetadata({
     title: fit(`${m.nom} électrique ${new Date().getFullYear()}`, [
-      " : modèles, prix et autonomie réelle",
-      " : tous les modèles, prix et autonomie",
-      " : modèles, prix et autonomie",
-      " : modèles, prix, autonomie",
-      " : modèles et prix",
+      " : modèles, prix et autonomie réelle",
+      " : tous les modèles, prix et autonomie",
+      " : modèles, prix et autonomie",
+      " : modèles, prix, autonomie",
+      " : modèles et prix",
     ], TITLE_RANGE, "titre"),
-    description: fit(`Tous les véhicules électriques ${m.nom} disponibles en France : prix, autonomie réelle, charge rapide.`, [
+    description: fit(`Tous les véhicules électriques ${m.nom} disponibles en France : prix, autonomie réelle, charge rapide.`, [
       " Fiches techniques, comparatif et financement LOA/LLD.",
       " Fiches techniques, comparatif et LOA/LLD.",
       " Fiches, comparatif et financement LOA/LLD.",
@@ -78,6 +80,7 @@ export default async function PageMarque({ params }: Props) {
             {marque.pays}, {marque.origine === "Chine" ? "Constructeur chinois" : "Constructeur"} depuis{" "}
             {marque.anneeCreation}
           </p>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -143,9 +146,9 @@ export default async function PageMarque({ params }: Props) {
                         <Link href={`/modeles/${m.slug}/`}>{m.modele}</Link>
                       </td>
                       <td>{euro(m.prixBase)}</td>
-                      <td>{m.autonomieReelle} km</td>
-                      <td>{m.batterieKwh} kWh</td>
-                      <td>{m.chargeRapideKw} kW</td>
+                      <td>{m.autonomieReelle} km</td>
+                      <td>{dec(m.batterieKwh)} kWh</td>
+                      <td>{dec(m.chargeRapideKw)} kW</td>
                       <td>
                         <strong>{m.note}/10</strong>
                       </td>
@@ -198,18 +201,10 @@ export default async function PageMarque({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France : données immatriculations VE
+                Avere-France : données immatriculations VE
               </a>
             </li>
           </ul>
-          <p className="date-maj">
-            Dernière mise à jour :{" "}
-            {new Date(marque.dateMAJ).toLocaleDateString("fr-FR", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
         </div>
       </article>
     </>

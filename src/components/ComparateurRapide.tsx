@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { modeles, type Modele } from "@/data/modeles";
+import { dec } from "@/lib/format";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -19,14 +20,14 @@ const specs: { label: string; render: (m: Modele) => string }[] = [
   { label: "Prix neuf", render: (m) => euro(m.prixBase) },
   { label: "Autonomie réelle", render: (m) => `${m.autonomieReelle} km` },
   { label: "Autonomie WLTP", render: (m) => `${m.autonomieWLTP} km` },
-  { label: "Batterie", render: (m) => `${m.batterieKwh} kWh` },
-  { label: "Charge rapide max", render: (m) => `${m.chargeRapideKw} kW` },
+  { label: "Batterie", render: (m) => `${dec(m.batterieKwh)} kWh` },
+  { label: "Charge rapide max", render: (m) => `${dec(m.chargeRapideKw)} kW` },
   { label: "Temps charge rapide", render: (m) => m.tempsChargeRapide },
   { label: "Charge domicile", render: (m) => m.tempsChargeAC },
-  { label: "Consommation", render: (m) => `${m.conso} kWh/100 km` },
+  { label: "Consommation", render: (m) => `${dec(m.conso)} kWh/100 km` },
   { label: "Coffre", render: (m) => `${m.coffre} L` },
   { label: "Poids", render: (m) => `${m.poids} kg` },
-  { label: "Puissance", render: (m) => `${m.puissanceCh} ch (${m.puissanceKw} kW)` },
+  { label: "Puissance", render: (m) => `${m.puissanceCh} ch (${dec(m.puissanceKw)} kW)` },
   { label: "Bonus écologique", render: (m) => m.aidesEligible ? "Éligible" : "Non éligible" },
   { label: "Note", render: (m) => `${m.note}/10` },
 ];
@@ -112,7 +113,7 @@ export default function ComparateurRapide() {
             <option value="">— Choisir —</option>
             {sorted.map((m) => (
               <option key={m.slug} value={m.slug}>
-                {m.marque} {m.modele}
+                {`${m.marque} ${m.modele}`}
               </option>
             ))}
           </select>
@@ -139,7 +140,7 @@ export default function ComparateurRapide() {
             <option value="">— Choisir —</option>
             {sorted.map((m) => (
               <option key={m.slug} value={m.slug}>
-                {m.marque} {m.modele}
+                {`${m.marque} ${m.modele}`}
               </option>
             ))}
           </select>

@@ -106,7 +106,7 @@ export default function NotFound() {
         }}
       >
         <p style={{ fontSize: 14, color: "var(--muted)", margin: 0 }}>
-          Vous pensez qu&apos;il s&apos;agit d&apos;une erreur ? Signalez-nous
+          Vous pensez qu&apos;il s&apos;agit d&apos;une erreur ? Signalez-nous
           ce lien cassé à{" "}
           <a
             href="mailto:contact@guidevoitureelectrique.fr"

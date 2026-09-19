@@ -47,10 +47,10 @@ type AutoRange = "" | "200" | "300" | "400" | "500";
 type Tri = "prix-asc" | "prix-desc" | "autonomie-desc" | "note-desc";
 
 const PRIX_OPTIONS: { value: PrixRange; label: string }[] = [
-  { value: "<25000", label: "< 25 000 €" },
+  { value: "<25000", label: "< 25 000 €" },
   { value: "25000-35000", label: "25–35 k€" },
   { value: "35000-50000", label: "35–50 k€" },
-  { value: ">50000", label: "> 50 000 €" },
+  { value: ">50000", label: "> 50 000 €" },
 ];
 
 const AUTO_OPTIONS: { value: AutoRange; label: string }[] = [

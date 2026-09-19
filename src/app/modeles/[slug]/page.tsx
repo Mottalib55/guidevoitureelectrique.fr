@@ -10,6 +10,8 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FinancementVE from "@/components/FinancementVE";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
+import { dec } from "@/lib/format";
 
 function formatChargeTime(hours: number): string {
   if (hours < 1) {
@@ -42,33 +44,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const km = `${m.autonomieReelle} km`;
   const title = isAVenir
     ? fit(`${m.modele} ${m.sortiePrevue ?? m.annee}`, [
-        ` : prix estimé ${euro}, date de sortie et fiche`,
-        ` : prix estimé ${euro}, sortie et fiche`,
-        ` : prix estimé, date de sortie et fiche`,
-        ` : prix estimé, sortie et fiche`,
-        ` : prix et date de sortie`,
-        ` : prix estimé`,
+        ` : prix estimé ${euro}, date de sortie et fiche`,
+        ` : prix estimé ${euro}, sortie et fiche`,
+        ` : prix estimé, date de sortie et fiche`,
+        ` : prix estimé, sortie et fiche`,
+        ` : prix et date de sortie`,
+        ` : prix estimé`,
       ], TITLE_RANGE, "titre")
     : fit(m.modele, [
-        ` : prix dès ${euro}, autonomie réelle et avis 2026`,
-        ` : prix dès ${euro}, autonomie et avis 2026`,
-        ` : prix dès ${euro}, fiche et avis 2026`,
-        ` : prix ${euro}, autonomie et avis 2026`,
-        ` 2026 : prix dès ${euro} et autonomie`,
-        ` 2026 : prix, autonomie et avis`,
-        ` 2026 : prix dès ${euro}`,
-        ` 2026 : prix et autonomie`,
-        ` : prix et avis 2026`,
+        ` : prix dès ${euro}, autonomie réelle et avis 2026`,
+        ` : prix dès ${euro}, autonomie et avis 2026`,
+        ` : prix dès ${euro}, fiche et avis 2026`,
+        ` : prix ${euro}, autonomie et avis 2026`,
+        ` 2026 : prix dès ${euro} et autonomie`,
+        ` 2026 : prix, autonomie et avis`,
+        ` 2026 : prix dès ${euro}`,
+        ` 2026 : prix et autonomie`,
+        ` : prix et avis 2026`,
       ], TITLE_RANGE, "titre");
   const description = isAVenir
-    ? fit(`${m.modele} : prix estimé ${euro}, ${km} d'autonomie réelle, sortie ${m.sortiePrevue ?? m.annee}.`, [
+    ? fit(`${m.modele} : prix estimé ${euro}, ${km} d'autonomie réelle, sortie ${m.sortiePrevue ?? m.annee}.`, [
         ` Fiche technique, alternatives déjà disponibles et financement en LOA ou LLD.`,
         ` Fiche technique, alternatives disponibles et financement LOA ou LLD.`,
         ` Fiche technique, alternatives et financement en LOA ou LLD.`,
         ` Fiche technique, alternatives et financement LOA/LLD.`,
         ` Fiche technique et alternatives.`,
       ], DESC_RANGE, "description")
-    : fit(`${m.modele} dès ${euro} : ${km} réels, batterie ${m.batterieKwh} kWh, charge rapide ${m.chargeRapideKw} kW.`, [
+    : fit(`${m.modele} dès ${euro} : ${km} réels, batterie ${dec(m.batterieKwh)} kWh, charge rapide ${dec(m.chargeRapideKw)} kW.`, [
         ` Fiche technique complète, calculateur LOA/LLD et meilleures alternatives du marché.`,
         ` Fiche technique complète, calculateur LOA/LLD et meilleures alternatives en 2026.`,
         ` Fiche technique complète, simulateur LOA/LLD et les meilleures alternatives.`,
@@ -100,34 +102,34 @@ function getFaqs(m: ReturnType<typeof getModeleBySlug>) {
 
   return [
     {
-      question: `Quel est le prix de la ${m.modele} ?`,
+      question: `Quel est le prix de la ${m.modele} ?`,
       answer: isAVenir
-        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif est provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""}. ${m.aidesEligible ? "Ce modèle devrait être éligible au bonus écologique de 4 000 €." : "Ce modèle ne devrait pas être éligible au bonus écologique."}`
-        : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}.` : ""} ${m.aidesEligible ? "Ce prix est éligible au bonus écologique de 4 000 €." : "Ce modèle n'est pas éligible au bonus écologique."}`,
+        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif est provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""}. ${m.aidesEligible ? "Ce modèle devrait être éligible au bonus écologique de 4 000 €." : "Ce modèle ne devrait pas être éligible au bonus écologique."}`
+        : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}.` : ""} ${m.aidesEligible ? "Ce prix est éligible au bonus écologique de 4 000 €." : "Ce modèle n'est pas éligible au bonus écologique."}`,
     },
     {
-      question: `Quelle est l'autonomie réelle de la ${m.modele} ?`,
+      question: `Quelle est l'autonomie réelle de la ${m.modele} ?`,
       answer: isAVenir
-        ? `L'autonomie WLTP annoncée est d'environ ${m.autonomieWLTP} km (estimation). En conditions réelles, on peut s'attendre à environ ${m.autonomieReelle} km. Ces données seront confirmées lors des essais officiels.`
-        : `L'autonomie WLTP annoncée est de ${m.autonomieWLTP} km. En conditions réelles (ville + route, hors autoroute), comptez environ ${m.autonomieReelle} km. Sur autoroute à 130 km/h, l'autonomie peut baisser de 20 à 30 % supplémentaires.`,
+        ? `L'autonomie WLTP annoncée est d'environ ${m.autonomieWLTP} km (estimation). En conditions réelles, on peut s'attendre à environ ${m.autonomieReelle} km. Ces données seront confirmées lors des essais officiels.`
+        : `L'autonomie WLTP annoncée est de ${m.autonomieWLTP} km. En conditions réelles (ville + route, hors autoroute), comptez environ ${m.autonomieReelle} km. Sur autoroute à 130 km/h, l'autonomie peut baisser de 20 à 30 % supplémentaires.`,
     },
     {
-      question: `Combien de temps pour recharger la ${m.modele} ?`,
-      answer: `En charge rapide DC (${m.chargeRapideKw} kW max) : ${m.tempsChargeRapide}. En charge AC sur borne ou wallbox : ${m.tempsChargeAC}.`,
+      question: `Combien de temps pour recharger la ${m.modele} ?`,
+      answer: `En charge rapide DC (${dec(m.chargeRapideKw)} kW max) : ${m.tempsChargeRapide}. En charge AC sur borne ou wallbox : ${m.tempsChargeAC}.`,
     },
     {
-      question: `La ${m.modele} est-elle éligible au bonus écologique ?`,
+      question: `La ${m.modele} est-elle éligible au bonus écologique ?`,
       answer: m.aidesEligible
-        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € (2026). Le bonus est conditionné au score environnemental du véhicule et à un prix catalogue inférieur à 47 000 €.`
+        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € (2026). Le bonus est conditionné au score environnemental du véhicule et à un prix catalogue inférieur à 47 000 €.`
         : `Non, la ${m.modele} n'est actuellement pas éligible au bonus écologique, principalement en raison de son lieu de fabrication (${m.origine === "Chine" ? "Chine" : "hors conditions d'éligibilité"}).`,
     },
     {
-      question: `Quelle est la consommation de la ${m.modele} ?`,
-      answer: `La ${m.modele} consomme en moyenne ${m.conso} kWh/100 km en cycle mixte. Pour un conducteur parcourant 12 000 km/an à 0,20 €/kWh (tarif domicile), cela représente environ ${Math.round((12000 / 100) * m.conso * 0.2)} € de recharge par an.`,
+      question: `Quelle est la consommation de la ${m.modele} ?`,
+      answer: `La ${m.modele} consomme en moyenne ${dec(m.conso)} kWh/100 km en cycle mixte. Pour un conducteur parcourant 12 000 km/an à 0,20 €/kWh (tarif domicile), cela représente environ ${Math.round((12000 / 100) * m.conso * 0.2)} € de recharge par an.`,
     },
     {
-      question: `Quelles sont les alternatives à la ${m.modele} ?`,
-      answer: `Les principales alternatives dans le même segment sont : ${getAlternatives(m, 3).map((a) => a.modele).join(", ")}. Consultez nos fiches détaillées pour comparer prix, autonomie et coût de possession.`,
+      question: `Quelles sont les alternatives à la ${m.modele} ?`,
+      answer: `Les principales alternatives dans le même segment sont : ${getAlternatives(m, 3).map((a) => a.modele).join(", ")}. Consultez nos fiches détaillées pour comparer prix, autonomie et coût de possession.`,
     },
   ];
 }
@@ -185,6 +187,7 @@ export default async function PageModele({ params }: Props) {
           >
             {m.marque}, {m.segment}
           </p>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -204,8 +207,8 @@ export default async function PageModele({ params }: Props) {
               lineHeight: 1.5,
             }}
           >
-            À partir de <strong>{euro(m.prixBase)}</strong>, {m.autonomieReelle} km
-            d&apos;autonomie réelle, batterie {m.batterieKwh} kWh, note{" "}
+            À partir de <strong>{euro(m.prixBase)}</strong>, {m.autonomieReelle} km
+            d&apos;autonomie réelle, batterie {dec(m.batterieKwh)} kWh, note{" "}
             <strong>{m.note}/10</strong>
           </p>
         </header>
@@ -263,11 +266,11 @@ export default async function PageModele({ params }: Props) {
               </div>
             )}
             <div className="encadre-verdict-item">
-              <div className="encadre-verdict-val">{m.autonomieReelle} km</div>
+              <div className="encadre-verdict-val">{m.autonomieReelle} km</div>
               <div className="encadre-verdict-lbl">Autonomie réelle</div>
             </div>
             <div className="encadre-verdict-item">
-              <div className="encadre-verdict-val">{m.chargeRapideKw} kW</div>
+              <div className="encadre-verdict-val">{dec(m.chargeRapideKw)} kW</div>
               <div className="encadre-verdict-lbl">Charge rapide max</div>
             </div>
             <div className="encadre-verdict-item">
@@ -300,7 +303,7 @@ export default async function PageModele({ params }: Props) {
             La {m.modele} est disponible à partir de <strong>{euro(m.prixBase)}</strong> en
             neuf (tarif constructeur, hors options).
             {m.aidesEligible && (
-              <> Après déduction du bonus écologique de 4 000 €, le prix effectif descend
+              <> Après déduction du bonus écologique de 4 000 €, le prix effectif descend
                 à <strong>{euro(m.prixBase - 4000)}</strong>.</>
             )}
             {m.prixOccasion && (
@@ -312,35 +315,35 @@ export default async function PageModele({ params }: Props) {
 
           <h2>Autonomie réelle vs WLTP</h2>
           <p>
-            {m.marque} annonce une autonomie WLTP de <strong>{m.autonomieWLTP} km</strong>.
+            {m.marque} annonce une autonomie WLTP de <strong>{m.autonomieWLTP} km</strong>.
             En conditions réelles (cycle mixte ville + route, température modérée),
-            comptez environ <strong>{m.autonomieReelle} km</strong>, soit environ{" "}
-            {Math.round((m.autonomieReelle / m.autonomieWLTP) * 100)} % de
+            comptez environ <strong>{m.autonomieReelle} km</strong>, soit environ{" "}
+            {Math.round((m.autonomieReelle / m.autonomieWLTP) * 100)} % de
             l&apos;autonomie annoncée. Sur autoroute à 130 km/h, l&apos;autonomie peut
-            descendre à environ {Math.round(m.autonomieReelle * 0.7)} km en raison de la
+            descendre à environ {Math.round(m.autonomieReelle * 0.7)} km en raison de la
             résistance aérodynamique accrue.
           </p>
           <p>
-            La batterie de <strong>{m.batterieKwh} kWh</strong> permet une consommation
-            moyenne de <strong>{m.conso} kWh/100 km</strong> en cycle mixte.
+            La batterie de <strong>{dec(m.batterieKwh)} kWh</strong> permet une consommation
+            moyenne de <strong>{dec(m.conso)} kWh/100 km</strong> en cycle mixte.
           </p>
 
-          <h2>Recharge : temps et coût</h2>
+          <h2>Recharge : temps et coût</h2>
           <p>
             La {m.modele} accepte la charge rapide DC jusqu&apos;à{" "}
-            <strong>{m.chargeRapideKw} kW</strong>. Temps de charge rapide :{" "}
+            <strong>{dec(m.chargeRapideKw)} kW</strong>. Temps de charge rapide :{" "}
             <strong>{m.tempsChargeRapide}</strong>. En courant alternatif (borne domestique
-            ou wallbox) : <strong>{m.tempsChargeAC}</strong>.
+            ou wallbox) : <strong>{m.tempsChargeAC}</strong>.
           </p>
           <p>
-            Coût de recharge estimé pour 12 000 km/an à domicile (0,20 €/kWh) :{" "}
+            Coût de recharge estimé pour 12 000 km/an à domicile (0,20 €/kWh) :{" "}
             <strong>{euro(Math.round((12000 / 100) * m.conso * 0.2))}/an</strong>, soit
             environ {euro(Math.round(((12000 / 100) * m.conso * 0.2) / 12))}/mois.
-            Sur borne rapide publique (~0,45 €/kWh), ce coût monte à environ{" "}
+            Sur borne rapide publique (~0,45 €/kWh), ce coût monte à environ{" "}
             {euro(Math.round((12000 / 100) * m.conso * 0.45))}/an.
           </p>
 
-          <h3>Temps de recharge estimé : {m.modele}</h3>
+          <h3>Temps de recharge estimé : {m.modele}</h3>
           <div className="table-wrap table-recharge">
             <table>
               <thead>
@@ -353,7 +356,7 @@ export default async function PageModele({ params }: Props) {
               </thead>
               <tbody>
                 <tr>
-                  <td colSpan={4} className="table-section-header">Recharge à domicile (AC), 0 à 100 %</td>
+                  <td colSpan={4} className="table-section-header">Recharge à domicile (AC), 0 à 100 %</td>
                 </tr>
                 <tr>
                   <td>Prise domestique</td>
@@ -386,7 +389,7 @@ export default async function PageModele({ params }: Props) {
                   <td>Si le véhicule accepte 22 kW AC</td>
                 </tr>
                 <tr>
-                  <td colSpan={4} className="table-section-header">Charge rapide (DC), 10 à 80 %</td>
+                  <td colSpan={4} className="table-section-header">Charge rapide (DC), 10 à 80 %</td>
                 </tr>
                 <tr>
                   <td>Borne publique</td>
@@ -413,7 +416,7 @@ export default async function PageModele({ params }: Props) {
                 {m.chargeRapideKw > 150 && (
                   <tr>
                     <td>Borne max</td>
-                    <td>{m.chargeRapideKw} kW</td>
+                    <td>{dec(m.chargeRapideKw)} kW</td>
                     <td><strong>{formatChargeTime((m.batterieKwh * 0.7) / (m.chargeRapideKw * 0.85))}</strong></td>
                     <td>Puissance maximale du véhicule</td>
                   </tr>
@@ -423,16 +426,16 @@ export default async function PageModele({ params }: Props) {
           </div>
           <p style={{ fontSize: 13, color: "var(--faint)", marginTop: 8 }}>
             Temps estimés dans des conditions optimales (température 20-25 °C, batterie préchauffée).
-            En hiver, les temps peuvent augmenter de 20 à 40 %. La puissance réelle dépend
+            En hiver, les temps peuvent augmenter de 20 à 40 %. La puissance réelle dépend
             de la borne, de la température et de l&apos;état de charge.
           </p>
 
           <h2>Batterie et technologie</h2>
           <p>
-            La {m.modele} embarque une batterie de <strong>{m.batterieKwh} kWh</strong>{" "}
-            alimentant un moteur de <strong>{m.puissanceCh} ch ({m.puissanceKw} kW)</strong>.
-            Le poids total du véhicule atteint {m.poids} kg pour une longueur de{" "}
-            {(m.longueur / 1000).toFixed(2).replace('.', ',')} m. Le coffre offre{" "}
+            La {m.modele} embarque une batterie de <strong>{dec(m.batterieKwh)} kWh</strong>{" "}
+            alimentant un moteur de <strong>{m.puissanceCh} ch ({dec(m.puissanceKw)} kW)</strong>.
+            Le poids total du véhicule atteint {m.poids} kg pour une longueur de{" "}
+            {(m.longueur / 1000).toFixed(2).replace('.', ',')} m. Le coffre offre{" "}
             <strong>{m.coffre} litres</strong> de volume de chargement.
           </p>
 
@@ -452,16 +455,16 @@ export default async function PageModele({ params }: Props) {
 
           <h2>La {m.modele} au quotidien</h2>
           <p>
-            Au quotidien, la {m.modele} offre une autonomie réelle de {m.autonomieReelle} km,
+            Au quotidien, la {m.modele} offre une autonomie réelle de {m.autonomieReelle} km,
             ce qui couvre largement les besoins d&apos;un conducteur français moyen qui parcourt
-            environ 37 km par jour. Avec sa batterie de {m.batterieKwh} kWh et sa consommation
-            de {m.conso} kWh/100 km, une charge complète à domicile sur wallbox 7,4 kW prend{" "}
+            environ 37 km par jour. Avec sa batterie de {dec(m.batterieKwh)} kWh et sa consommation
+            de {dec(m.conso)} kWh/100 km, une charge complète à domicile sur wallbox 7,4 kW prend{" "}
             {formatChargeTime(m.batterieKwh / 7.4)}, idéalement programmée en heures creuses
-            (entre 22h et 6h) pour bénéficier d&apos;un tarif réduit d&apos;environ 0,15 €/kWh.
+            (entre 22h et 6h) pour bénéficier d&apos;un tarif réduit d&apos;environ 0,15 €/kWh.
           </p>
           <p>
             Le coffre de {m.coffre} litres {m.coffre >= 450 ? "est généreux et permet de partir en week-end ou en vacances sans compromis sur les bagages" : m.coffre >= 300 ? "offre un volume correct pour un usage quotidien et les courses hebdomadaires" : "reste compact et convient à un usage essentiellement urbain"}.
-            Avec un poids de {m.poids} kg pour une longueur de {(m.longueur / 1000).toFixed(2).replace('.', ',')} m,
+            Avec un poids de {m.poids} kg pour une longueur de {(m.longueur / 1000).toFixed(2).replace('.', ',')} m,
             {m.longueur <= 4100
               ? " ce gabarit compact facilite les manœuvres en ville et le stationnement"
               : m.longueur <= 4500
@@ -470,18 +473,18 @@ export default async function PageModele({ params }: Props) {
           </p>
           <p>
             Sur le plan de l&apos;entretien, la {m.modele} bénéficie de la simplicité mécanique
-            des véhicules électriques : pas de vidange, pas de courroie de distribution, pas
+            des véhicules électriques : pas de vidange, pas de courroie de distribution, pas
             d&apos;embrayage. Les principaux postes d&apos;entretien se limitent aux pneumatiques
-            (à vérifier tous les 15 000 km), au liquide de frein (tous les 2 ans) et aux
+            (à vérifier tous les 15 000 km), au liquide de frein (tous les 2 ans) et aux
             filtres d&apos;habitacle. Le freinage régénératif réduit l&apos;usure des plaquettes
-            de frein de 50 à 70 % par rapport à un véhicule thermique, ce qui diminue le budget
-            entretien annuel à environ 200-300 € contre 600-900 € pour un modèle essence
+            de frein de 50 à 70 % par rapport à un véhicule thermique, ce qui diminue le budget
+            entretien annuel à environ 200-300 € contre 600-900 € pour un modèle essence
             équivalent.
           </p>
 
           <h2>Performances et conduite</h2>
           <p>
-            Avec {m.puissanceCh} ch ({m.puissanceKw} kW) disponibles instantanément grâce
+            Avec {m.puissanceCh} ch ({dec(m.puissanceKw)} kW) disponibles instantanément grâce
             au couple immédiat du moteur électrique, la {m.modele}{" "}
             {m.puissanceCh >= 300
               ? "offre des performances sportives impressionnantes avec des accélérations foudroyantes"
@@ -495,17 +498,17 @@ export default async function PageModele({ params }: Props) {
           </p>
           <p>
             Le freinage régénératif, réglable sur la plupart des modèles, permet de récupérer
-            de l&apos;énergie au freinage et à la décélération. En mode « one pedal driving »,
-            le conducteur peut gérer jusqu&apos;à 90 % de ses freinages sans toucher la pédale
+            de l&apos;énergie au freinage et à la décélération. En mode « one pedal driving »,
+            le conducteur peut gérer jusqu&apos;à 90 % de ses freinages sans toucher la pédale
             de frein, ce qui réduit la fatigue en conduite urbaine et améliore l&apos;efficience
             globale. En conditions réelles, le freinage régénératif peut récupérer entre 10 et
-            20 % d&apos;autonomie supplémentaire selon le profil du parcours.
+            20 % d&apos;autonomie supplémentaire selon le profil du parcours.
           </p>
 
           <h2>Sur la route des vacances</h2>
           <p>
             Pour les longs trajets, la {m.modele} accepte la charge rapide DC jusqu&apos;à{" "}
-            {m.chargeRapideKw} kW.{" "}
+            {dec(m.chargeRapideKw)} kW.{" "}
             {m.chargeRapideKw >= 200
               ? "Cette puissance de charge élevée permet de récupérer environ 200 km d'autonomie en 15 minutes sur une borne compatible, rendant les arrêts autoroutiers à peine plus longs qu'un plein d'essence."
               : m.chargeRapideKw >= 130
@@ -522,8 +525,8 @@ export default async function PageModele({ params }: Props) {
               ? "deux arrêts recharge pour un total d'environ 45 minutes à 1 heure"
               : "deux à trois arrêts recharge pour un total d'environ 1h à 1h30"}.
             Planifiez vos arrêts avec A Better Route Planner (ABRP) ou Chargemap pour optimiser
-            votre itinéraire et les temps de charge. Le réseau français compte plus de 150 000
-            points de charge publics, dont plus de 12 000 bornes rapides sur autoroute.
+            votre itinéraire et les temps de charge. Le réseau français compte plus de 150 000
+            points de charge publics, dont plus de 12 000 bornes rapides sur autoroute.
           </p>
 
           <h2>Valeur résiduelle et revente</h2>
@@ -532,19 +535,19 @@ export default async function PageModele({ params }: Props) {
               <>
                 Sur le marché de l&apos;occasion, la {m.modele} se négocie à partir de{" "}
                 <strong>{euro(m.prixOccasion)}</strong>, ce qui représente une décote
-                d&apos;environ {Math.round((1 - m.prixOccasion / m.prixBase) * 100)} % par
+                d&apos;environ {Math.round((1 - m.prixOccasion / m.prixBase) * 100)} % par
                 rapport au prix neuf. Les véhicules électriques bénéficient d&apos;une décote
                 qui se stabilise après les 2-3 premières années, grâce à la durabilité des
-                batteries modernes garanties 8 ans ou 160 000 km. L&apos;état de santé (SOH) de
-                la batterie est le critère déterminant pour la valeur de revente : un SOH
-                supérieur à 90 % après 3 ans est excellent.
+                batteries modernes garanties 8 ans ou 160 000 km. L&apos;état de santé (SOH) de
+                la batterie est le critère déterminant pour la valeur de revente : un SOH
+                supérieur à 90 % après 3 ans est excellent.
               </>
             ) : (
               <>
                 En tant que modèle récent, la {m.modele} n&apos;a pas encore de cote d&apos;occasion
                 établie. Les véhicules électriques récents conservent généralement bien leur valeur
                 grâce à la forte demande et à la durabilité des batteries modernes, garanties 8 ans
-                ou 160 000 km par la plupart des constructeurs.
+                ou 160 000 km par la plupart des constructeurs.
               </>
             )}
           </p>
@@ -553,9 +556,9 @@ export default async function PageModele({ params }: Props) {
           <p>
             {m.aidesEligible ? (
               <>
-                La {m.modele} est <strong>éligible au bonus écologique</strong> de 4 000 €
+                La {m.modele} est <strong>éligible au bonus écologique</strong> de 4 000 €
                 (barème 2026). Elle peut également être éligible au leasing social à
-                100 €/mois (sous conditions de revenus) et à la prime à la conversion si
+                100 €/mois (sous conditions de revenus) et à la prime à la conversion si
                 vous mettez au rebut un ancien véhicule thermique Crit&apos;Air 3 ou plus.
               </>
             ) : (
@@ -574,9 +577,9 @@ export default async function PageModele({ params }: Props) {
 
           <h2>Coût de possession (TCO)</h2>
           <p>
-            Le coût total de possession (TCO) de la {m.modele} sur 4 ans / 48 000 km
-            inclut : achat (après aides), recharge, assurance (~650 €/an) et entretien
-            (~250 €/an). Utilisez le calculateur de financement ci-dessus pour obtenir
+            Le coût total de possession (TCO) de la {m.modele} sur 4 ans / 48 000 km
+            inclut : achat (après aides), recharge, assurance (~650 €/an) et entretien
+            (~250 €/an). Utilisez le calculateur de financement ci-dessus pour obtenir
             une estimation personnalisée selon votre mode de financement (comptant, crédit,
             LOA ou LLD).
           </p>
@@ -611,17 +614,17 @@ export default async function PageModele({ params }: Props) {
                 <tr><td>Origine</td><td>{m.origine}</td></tr>
                 <tr><td>Prix neuf</td><td><strong>{euro(m.prixBase)}</strong></td></tr>
                 {m.prixOccasion && <tr><td>Prix occasion (dès)</td><td>{euro(m.prixOccasion)}</td></tr>}
-                <tr><td>Autonomie WLTP</td><td>{m.autonomieWLTP} km</td></tr>
-                <tr><td>Autonomie réelle</td><td><strong>{m.autonomieReelle} km</strong></td></tr>
-                <tr><td>Batterie</td><td>{m.batterieKwh} kWh</td></tr>
-                <tr><td>Consommation</td><td>{m.conso} kWh/100 km</td></tr>
-                <tr><td>Puissance</td><td>{m.puissanceCh} ch ({m.puissanceKw} kW)</td></tr>
-                <tr><td>Charge rapide DC</td><td>{m.chargeRapideKw} kW, {m.tempsChargeRapide}</td></tr>
+                <tr><td>Autonomie WLTP</td><td>{m.autonomieWLTP} km</td></tr>
+                <tr><td>Autonomie réelle</td><td><strong>{m.autonomieReelle} km</strong></td></tr>
+                <tr><td>Batterie</td><td>{dec(m.batterieKwh)} kWh</td></tr>
+                <tr><td>Consommation</td><td>{dec(m.conso)} kWh/100 km</td></tr>
+                <tr><td>Puissance</td><td>{m.puissanceCh} ch ({dec(m.puissanceKw)} kW)</td></tr>
+                <tr><td>Charge rapide DC</td><td>{dec(m.chargeRapideKw)} kW, {m.tempsChargeRapide}</td></tr>
                 <tr><td>Charge AC</td><td>{m.tempsChargeAC}</td></tr>
                 <tr><td>Coffre</td><td>{m.coffre} litres</td></tr>
-                <tr><td>Poids</td><td>{m.poids} kg</td></tr>
-                <tr><td>Longueur</td><td>{(m.longueur / 1000).toFixed(2).replace('.', ',')} m</td></tr>
-                <tr><td>Bonus écologique</td><td>{m.aidesEligible ? "Éligible (4 000 €)" : "Non éligible"}</td></tr>
+                <tr><td>Poids</td><td>{m.poids} kg</td></tr>
+                <tr><td>Longueur</td><td>{(m.longueur / 1000).toFixed(2).replace('.', ',')} m</td></tr>
+                <tr><td>Bonus écologique</td><td>{m.aidesEligible ? "Éligible (4 000 €)" : "Non éligible"}</td></tr>
                 <tr><td>Note</td><td><strong>{m.note}/10</strong></td></tr>
               </tbody>
             </table>
@@ -662,7 +665,7 @@ export default async function PageModele({ params }: Props) {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))",   // une colonne sur mobile
             gap: 16,
             marginTop: 48,
           }}
@@ -691,7 +694,7 @@ export default async function PageModele({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Questions fréquentes : {m.modele}
+            Questions fréquentes : {m.modele}
           </h2>
           {faqs.map((f, i) => (
             <div key={i} className="faq-item">
@@ -713,7 +716,8 @@ export default async function PageModele({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Fiche officielle {m.marque} : {m.modele}
+                {/* Source = accueil de la marque quand la fiche modèle n'existe plus */}
+                {/^https?:\/\/[^/]+(\/[a-z]{0,6})?\/?$/.test(m.source) ? `Site officiel ${m.marque}` : `Fiche officielle ${m.marque} : ${m.modele}`}
               </a>
             </li>
             <li>
@@ -722,7 +726,7 @@ export default async function PageModele({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
             <li>
@@ -731,7 +735,7 @@ export default async function PageModele({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France : données immatriculations VE
+                Avere-France : données immatriculations VE
               </a>
             </li>
             {marque && (
@@ -746,13 +750,6 @@ export default async function PageModele({ params }: Props) {
               </li>
             )}
           </ul>
-          <p className="date-maj">
-            Dernière mise à jour : {new Date(m.dateMAJ).toLocaleDateString("fr-FR", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
         </div>
       </article>
     </>

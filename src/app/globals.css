@@ -318,6 +318,15 @@ body {
   padding: 0 24px;
 }
 
+/* Page de lecture (texte seul) : la colonne de 780 px est centrée, titre compris (check-layout). */
+.section-narrow {
+  max-width: 828px;
+}
+
+.section-medium {
+  max-width: 1008px;
+}
+
 .section-title {
   font-family: var(--font-display);
   font-weight: 800;
@@ -752,6 +761,7 @@ body {
 
 /* ─── CTA BLOC ────────────────────────────────────────────────────── */
 .cta-bloc {
+  display: block;   /* c'est un <a> : en ligne, ses 32 px de marge débordaient sur mobile */
   border: 1.5px solid var(--line);
   border-radius: 18px;
   padding: 32px;

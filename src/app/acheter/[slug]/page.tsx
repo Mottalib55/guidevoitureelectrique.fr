@@ -5,6 +5,7 @@ import { pagesAcheter, getPageAcheterBySlug } from "@/data/acheter";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return pagesAcheter.map((p) => ({ slug: p.slug }));
@@ -85,8 +86,9 @@ export default async function PageAcheter({ params }: Props) {
               marginBottom: 4,
             }}
           >
-            Guide d&apos;achat : Voiture électrique
+            Guide d&apos;achat : Voiture électrique
           </p>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -171,9 +173,9 @@ export default async function PageAcheter({ params }: Props) {
           <div className="cta-bloc" style={{ marginTop: 48 }}>
             {slug === "loa-leasing" ? (
               <>
-                <h3>Prêt à financer votre voiture électrique ?</h3>
+                <h3>Prêt à financer votre voiture électrique ?</h3>
                 <p>
-                  LOA, LLD ou crédit : notre calculateur compare les formules et
+                  LOA, LLD ou crédit : notre calculateur compare les formules et
                   vous recommande la plus économique selon votre profil.
                 </p>
                 <Link href="/outils/financement/" className="btn-primary">
@@ -248,7 +250,7 @@ export default async function PageAcheter({ params }: Props) {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "1fr 1fr",
+            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 240px), 1fr))",   // une colonne sur mobile
             gap: 16,
             marginTop: 48,
           }}
@@ -267,7 +269,7 @@ export default async function PageAcheter({ params }: Props) {
             style={{ margin: 0 }}
           >
             <h3>Voitures électriques pas cher</h3>
-            <p>Les meilleurs modèles à moins de 25 000 euros</p>
+            <p>Les meilleurs modèles à moins de 25 000 euros</p>
           </Link>
         </div>
 
@@ -283,7 +285,7 @@ export default async function PageAcheter({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
             <li>
@@ -292,7 +294,7 @@ export default async function PageAcheter({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prime à la conversion : primealaconversion.gouv.fr
+                Prime à la conversion : primealaconversion.gouv.fr
               </a>
             </li>
             <li>
@@ -301,12 +303,12 @@ export default async function PageAcheter({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France : données marché VE
+                Avere-France : données marché VE
               </a>
             </li>
             <li>
               <a
-                href="https://www.ecologie.gouv.fr/politiques-publiques/bonus-ecologique"
+                href="https://www.service-public.fr/particuliers/vosdroits/F34014"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -314,7 +316,6 @@ export default async function PageAcheter({ params }: Props) {
               </a>
             </li>
           </ul>
-          <p className="date-maj">Dernière mise à jour : mai 2025</p>
         </div>
       </article>
     </>

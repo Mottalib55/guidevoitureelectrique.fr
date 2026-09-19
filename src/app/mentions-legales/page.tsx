@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Mentions légales du Guide Voiture Électrique : éditeur",
+  title: "Mentions légales du Guide Voiture Électrique : éditeur",
   description:
-    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, politique de confidentialité, cookies et conditions générales d'utilisation du site.",
+    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, politique de confidentialité, cookies et conditions générales d'utilisation du site.",
 };
 
 export default function MentionsLegalesPage() {
@@ -16,7 +18,8 @@ export default function MentionsLegalesPage() {
         ]}
       />
 
-      <article className="section" style={{ paddingTop: 48, paddingBottom: 80 }}>
+      <article className="section section-narrow" style={{ paddingTop: 48, paddingBottom: 80 }}>
+        <LastUpdated />
         <h1
           style={{
             fontFamily: "var(--font-display)",
@@ -30,7 +33,6 @@ export default function MentionsLegalesPage() {
         </h1>
 
         <div className="prose">
-          <p><em>Dernière mise à jour : juin 2026</em></p>
 
           <p>
             Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la
@@ -41,18 +43,18 @@ export default function MentionsLegalesPage() {
 
           <h2>1. Éditeur du site</h2>
           <p>
-            Le site <strong>guidevoitureelectrique.fr</strong> est édité par :
+            Le site <strong>guidevoitureelectrique.fr</strong> est édité par :
           </p>
           <ul>
-            <li><strong>Responsable de la publication</strong> : Mottalib Radif</li>
+            <li><strong>Responsable de la publication</strong> : Mottalib Radif</li>
             <li>
-              <strong>Adresse e-mail</strong> :{" "}
+              <strong>Adresse e-mail</strong> :{" "}
               <a href="mailto:contact@guidevoitureelectrique.fr">
                 contact@guidevoitureelectrique.fr
               </a>
             </li>
             <li>
-              <strong>Site web</strong> :{" "}
+              <strong>Site web</strong> :{" "}
               <a href="https://guidevoitureelectrique.fr">
                 https://guidevoitureelectrique.fr
               </a>
@@ -68,22 +70,14 @@ export default function MentionsLegalesPage() {
 
           <h2>2. Hébergement</h2>
           <p>
-            Le site est hébergé par :<br />
-            <strong>Vercel Inc.</strong><br />
-            440 N Barranca Ave #4133<br />
-            Covina, CA 91723, États-Unis<br />
-            Site web :{" "}
-            <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
-              https://vercel.com
+            Le site est hébergé par :<br />
+            <strong>OVH SAS</strong><br />
+            2 rue Kellermann<br />
+            59100 Roubaix, France<br />
+            Site web :{" "}
+            <a href="https://www.ovhcloud.com" target="_blank" rel="noopener noreferrer">
+              https://www.ovhcloud.com
             </a>
-          </p>
-          <p>
-            Vercel est une plateforme cloud de déploiement statique et serverless.
-            L&apos;infrastructure repose sur un réseau edge mondial qui sert les pages
-            depuis le serveur le plus proche de chaque visiteur. Le protocole HTTPS est
-            utilisé pour chiffrer toutes les données en transit. En tant
-            qu&apos;hébergeur technique, Vercel n&apos;exerce aucun contrôle éditorial
-            sur le contenu du site.
           </p>
 
           <h2>3. Propriété intellectuelle</h2>
@@ -115,167 +109,14 @@ export default function MentionsLegalesPage() {
             informatives sont autorisées sous réserve de mention de la source.
           </p>
 
-          <h2>4. Données personnelles et confidentialité</h2>
+          <h2>4. Données personnelles et cookies</h2>
           <p>
-            Le site guidevoitureelectrique.fr s&apos;engage à respecter la
-            confidentialité des données personnelles de ses utilisateurs,
-            conformément au Règlement Général sur la Protection des Données
-            (RGPD, Règlement UE 2016/679) et à la loi Informatique et Libertés
-            du 6 janvier 1978 modifiée.
+            Le traitement des données personnelles, les cookies et les sous-traitants sont
+            décrits dans la{" "}
+            <Link href="/politique-confidentialite/">politique de confidentialité</Link>.
           </p>
 
-          <h3>4.1 Responsable du traitement</h3>
-          <p>
-            Le responsable du traitement des données est Mottalib Radif, joignable à
-            l&apos;adresse{" "}
-            <a href="mailto:contact@guidevoitureelectrique.fr">
-              contact@guidevoitureelectrique.fr
-            </a>.
-            Compte tenu de la nature du site et de l&apos;absence de traitement à
-            grande échelle de données sensibles, la désignation d&apos;un Délégué à
-            la Protection des Données (DPO) n&apos;est pas légalement requise au titre
-            de l&apos;article 37 du RGPD.
-          </p>
-
-          <h3>4.2 Données collectées</h3>
-          <p>
-            Le site peut collecter les données suivantes dans le cadre de son
-            fonctionnement :
-          </p>
-          <ul>
-            <li>
-              <strong>Données de navigation</strong> : adresse IP (anonymisée), type de
-              navigateur, pages visitées, durée de la visite, via des outils
-              d&apos;analyse de fréquentation anonymisés.
-            </li>
-            <li>
-              <strong>Données de contact</strong> : adresse e-mail, si vous
-              nous contactez volontairement par courrier électronique.
-            </li>
-          </ul>
-          <p>
-            Le site ne collecte ni ne traite les catégories de données suivantes :
-            données financières, numéros d&apos;identification, données de santé,
-            données biométriques ou données relatives aux opinions politiques ou
-            religieuses.
-          </p>
-
-          <h3>4.3 Finalité du traitement</h3>
-          <p>Les données collectées sont utilisées pour :</p>
-          <ul>
-            <li>Améliorer le contenu et l&apos;ergonomie du site</li>
-            <li>Répondre à vos demandes de contact</li>
-            <li>Produire des statistiques anonymes de fréquentation</li>
-            <li>Assurer la sécurité et la disponibilité du site</li>
-          </ul>
-
-          <h3>4.4 Base légale du traitement</h3>
-          <p>
-            Le traitement des données repose sur les bases légales suivantes au titre
-            de l&apos;article 6 du RGPD :
-          </p>
-          <ul>
-            <li>
-              <strong>Intérêt légitime</strong> (Art. 6(1)(f)) : pour l&apos;analyse
-              anonyme de la fréquentation et les fichiers journaux du serveur.
-            </li>
-            <li>
-              <strong>Consentement</strong> (Art. 6(1)(a)) : pour les cookies
-              d&apos;analyse, le cas échéant.
-            </li>
-          </ul>
-
-          <h3>4.5 Durée de conservation</h3>
-          <p>
-            Les données de navigation sont conservées pendant une durée maximale
-            de 13 mois, conformément aux recommandations de la CNIL. Les données
-            de contact sont conservées pendant la durée nécessaire au traitement
-            de votre demande, puis supprimées dans un délai maximum de 3 ans à
-            compter du dernier contact. Les fichiers journaux du serveur sont
-            automatiquement supprimés après 30 jours.
-          </p>
-
-          <h3>4.6 Vos droits RGPD</h3>
-          <p>
-            Conformément au RGPD, vous disposez des droits suivants concernant
-            vos données personnelles :
-          </p>
-          <ul>
-            <li><strong>Droit d&apos;accès</strong> (Art. 15) : obtenir la confirmation que vos données sont traitées et en obtenir une copie.</li>
-            <li><strong>Droit de rectification</strong> (Art. 16) : demander la correction de données inexactes ou incomplètes.</li>
-            <li><strong>Droit à l&apos;effacement</strong> (Art. 17) : demander la suppression de vos données (&laquo; droit à l&apos;oubli &raquo;).</li>
-            <li><strong>Droit à la limitation du traitement</strong> (Art. 18) : restreindre le traitement dans certains cas.</li>
-            <li><strong>Droit à la portabilité</strong> (Art. 20) : recevoir vos données dans un format structuré et lisible par machine.</li>
-            <li><strong>Droit d&apos;opposition</strong> (Art. 21) : vous opposer au traitement de vos données pour des motifs légitimes.</li>
-            <li><strong>Droit de retirer votre consentement</strong> (Art. 7) : retirer votre consentement à tout moment.</li>
-          </ul>
-          <p>
-            Pour exercer ces droits, vous pouvez nous contacter à l&apos;adresse :{" "}
-            <a href="mailto:contact@guidevoitureelectrique.fr">
-              contact@guidevoitureelectrique.fr
-            </a>.
-            Nous nous engageons à répondre dans un délai de 30 jours.
-          </p>
-          <p>
-            Vous disposez également du droit de déposer une réclamation auprès
-            de la CNIL (Commission Nationale de l&apos;Informatique et des
-            Libertés) :{" "}
-            <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">
-              www.cnil.fr
-            </a>
-          </p>
-
-          <h3>4.7 Transfert de données hors UE</h3>
-          <p>
-            Notre hébergeur (Vercel) est basé aux États-Unis. Les transferts de
-            données vers ce prestataire sont encadrés par les clauses contractuelles
-            types de l&apos;UE, garantissant un niveau de protection conforme au RGPD.
-          </p>
-
-          <h2>5. Cookies et stockage local</h2>
-          <p>
-            Le site guidevoitureelectrique.fr peut utiliser des cookies
-            techniques nécessaires au bon fonctionnement du site. Ces cookies ne
-            collectent aucune donnée personnelle et ne nécessitent pas votre
-            consentement préalable conformément à la directive ePrivacy
-            (2009/136/CE).
-          </p>
-          <p>
-            Si des cookies d&apos;analyse ou de mesure d&apos;audience sont mis
-            en place, ils seront configurés pour respecter les recommandations
-            de la CNIL en matière d&apos;exemption de consentement (durée de vie
-            limitée à 13 mois, anonymisation des données, finalité strictement
-            limitée à la mesure d&apos;audience).
-          </p>
-          <p>
-            Les préférences utilisateur (thème clair/sombre) sont stockées dans
-            le localStorage du navigateur, qui n&apos;est pas un cookie et
-            n&apos;est jamais transmis à nos serveurs. Vous pouvez effacer les
-            données localStorage à tout moment via les paramètres de votre
-            navigateur.
-          </p>
-          <p>
-            Vous pouvez à tout moment configurer votre navigateur pour refuser
-            les cookies. Veuillez noter que le refus de certains cookies peut
-            affecter votre expérience de navigation sur le site.
-          </p>
-
-          <h2>6. Sous-traitants</h2>
-          <p>
-            Les sous-traitants suivants peuvent traiter des données pour notre compte :
-          </p>
-          <ul>
-            <li>
-              <strong>Vercel Inc.</strong> : Hébergement du site (États-Unis, clauses
-              contractuelles types UE)
-            </li>
-          </ul>
-          <p>
-            Ces sous-traitants sont liés par des obligations contractuelles de
-            protection des données conformes aux exigences du RGPD.
-          </p>
-
-          <h2>7. Limitation de responsabilité</h2>
+          <h2>5. Limitation de responsabilité</h2>
           <p>
             Les informations publiées sur le site
             guidevoitureelectrique.fr sont fournies à titre indicatif et ne
@@ -300,11 +141,11 @@ export default function MentionsLegalesPage() {
             L&apos;éditeur ne saurait être tenu responsable des dommages
             directs ou indirects résultant de l&apos;utilisation du site ou de
             l&apos;impossibilité d&apos;y accéder. Le site est fourni
-            &laquo; en l&apos;état &raquo; sans garantie d&apos;aucune sorte,
+            &laquo; en l&apos;état &raquo; sans garantie d&apos;aucune sorte,
             expresse ou implicite.
           </p>
 
-          <h2>8. Conditions d&apos;utilisation</h2>
+          <h2>6. Conditions d&apos;utilisation</h2>
           <p>
             L&apos;accès au site guidevoitureelectrique.fr est gratuit et ouvert à tout
             utilisateur disposant d&apos;un accès Internet. L&apos;utilisation du site
@@ -320,7 +161,7 @@ export default function MentionsLegalesPage() {
             mais ne garantit pas un accès ininterrompu.
           </p>
 
-          <h2>9. Liens hypertextes</h2>
+          <h2>7. Liens hypertextes</h2>
           <p>
             Le site guidevoitureelectrique.fr peut contenir des liens
             hypertextes vers d&apos;autres sites internet. L&apos;éditeur
@@ -337,7 +178,7 @@ export default function MentionsLegalesPage() {
             contenu.
           </p>
 
-          <h2>10. Droit applicable et juridiction compétente</h2>
+          <h2>8. Droit applicable et juridiction compétente</h2>
           <p>
             Les présentes mentions légales sont régies par le droit français.
             En cas de litige, une solution amiable sera recherchée
@@ -346,18 +187,15 @@ export default function MentionsLegalesPage() {
             clause n&apos;affectera pas les dispositions restantes.
           </p>
 
-          <h2>11. Contact</h2>
+          <h2>9. Contact</h2>
           <p>
             Pour toute question relative aux présentes mentions légales, vous
-            pouvez nous contacter à :{" "}
+            pouvez nous contacter à :{" "}
             <a href="mailto:contact@guidevoitureelectrique.fr">
               contact@guidevoitureelectrique.fr
             </a>
           </p>
 
-          <p style={{ marginTop: 48, fontSize: 13, color: "var(--faint)" }}>
-            Dernière mise à jour : juin 2026
-          </p>
         </div>
       </article>
     </>

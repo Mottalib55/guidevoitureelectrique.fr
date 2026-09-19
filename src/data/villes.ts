@@ -18,7 +18,7 @@ export const villes: Ville[] = [
     region: "Île-de-France",
     population: 2161000,
     nombreBornes: 2800,
-    metaDescription: "Découvrez les 2 800 bornes de recharge pour véhicules électriques à Paris : emplacements, réseaux disponibles, tarifs et conseils pratiques pour recharger.",
+    metaDescription: "Découvrez les 2 800 bornes de recharge pour véhicules électriques à Paris : emplacements, réseaux disponibles, tarifs et conseils pratiques pour recharger.",
     contenu: `Paris, capitale de la France, est également la ville la mieux équipée du pays en matière de bornes de recharge pour véhicules électriques. Avec environ 2800 points de charge répartis dans les vingt arrondissements, la Ville Lumière offre un maillage dense et accessible aux conducteurs de voitures électriques.
 
 Le réseau Belib', géré par TotalEnergies, constitue l'ossature principale de l'infrastructure de recharge parisienne. Plus de 2300 bornes Belib' sont installées sur la voie publique, offrant des puissances allant de 7 kW en charge normale à 50 kW en charge rapide. Ces bornes sont reconnaissables à leur design épuré et se trouvent dans chaque quartier, des Champs-Élysées au Marais, de Montmartre à Bercy.
@@ -47,7 +47,7 @@ En résumé, Paris offre aux conducteurs de véhicules électriques un environne
     region: "Île-de-France",
     population: 120900,
     nombreBornes: 180,
-    metaDescription: "Trouvez les 180 bornes de recharge à Boulogne-Billancourt : stations près du Trapèze, de l'île Seguin et des centres commerciaux des Hauts-de-Seine.",
+    metaDescription: "Trouvez les 180 bornes de recharge à Boulogne-Billancourt : stations près du Trapèze, de l'île Seguin et des centres commerciaux des Hauts-de-Seine.",
     contenu: `Boulogne-Billancourt, première commune de banlieue parisienne par sa population, s'impose comme un pôle majeur de la mobilité électrique dans les Hauts-de-Seine. Avec environ 180 bornes de recharge, la ville offre un réseau dense et moderne aux conducteurs de véhicules électriques.
 
 Le quartier du Trapèze, ancien site des usines Renault reconverti en écoquartier, symbolise parfaitement cette transition. Ce quartier moderne dispose de nombreuses bornes dans ses parkings souterrains et en voirie, souvent équipées de prises de charge rapide. L'île Seguin, voisine du Trapèze et accueillant la Seine Musicale, propose également des stations de recharge dans son parking visiteurs.
@@ -74,7 +74,7 @@ Les conducteurs résidant à Boulogne-Billancourt bénéficient d'un accès priv
     region: "Île-de-France",
     population: 113100,
     nombreBornes: 120,
-    metaDescription: "Localisez les 120 bornes de recharge pour voitures électriques à Saint-Denis (93) : Stade de France, Pleyel, centres commerciaux et réseau métropolitain.",
+    metaDescription: "Localisez les 120 bornes de recharge pour voitures électriques à Saint-Denis (93) : Stade de France, Pleyel, centres commerciaux et réseau métropolitain.",
     contenu: `Saint-Denis, ville emblématique de la Seine-Saint-Denis, se transforme rapidement en un hub de la mobilité électrique dans le nord de la métropole parisienne. Avec environ 120 bornes de recharge, la ville accompagne ses résidents et visiteurs dans la transition vers le véhicule électrique.
 
 Le quartier Pleyel, en pleine mutation avec l'arrivée du Village Olympique hérité des JO 2024, est devenu un pôle de recharge majeur. Les nouveaux parkings souterrains du Village des athlètes reconverti en logements sont équipés de dizaines de bornes modernes. Ce quartier illustre la vision de Saint-Denis pour une mobilité décarbonée.
@@ -103,7 +103,7 @@ La desserte en transports en commun exceptionnelle de Saint-Denis, avec le RER B
     region: "Île-de-France",
     population: 109900,
     nombreBornes: 95,
-    metaDescription: "Rechargez votre véhicule électrique à Montreuil (93) : 95 bornes disponibles près du centre-ville, des Murs à Pêches et des quartiers créatifs.",
+    metaDescription: "Rechargez votre véhicule électrique à Montreuil (93) : 95 bornes disponibles près du centre-ville, des Murs à Pêches et des quartiers créatifs.",
     contenu: `Montreuil, troisième ville de Seine-Saint-Denis, affirme son caractère avant-gardiste en développant activement son réseau de bornes de recharge. Environ 95 points de charge sont répartis dans cette commune connue pour sa créativité et son engagement écologique.
 
 Le centre-ville de Montreuil, autour de la mairie et de la place Jean Jaurès, concentre une quinzaine de bornes en voirie. Ce secteur animé permet de recharger tout en profitant des commerces et restaurants du quartier. La rue de Paris, artère principale, dispose de plusieurs bornes le long de son tracé.
@@ -122,7 +122,7 @@ La ville a mis en place un dispositif d'aide à l'installation de bornes dans le
 
 Montreuil se distingue par sa culture du vélo et des mobilités alternatives. La ville compte de nombreuses associations promouvant la mobilité durable, et le passage au véhicule électrique est perçu comme une étape naturelle dans cette trajectoire verte.
 
-Pour les visiteurs, la station de métro Croix de Chavaux (ligne 9) constitue un repère pratique : plusieurs bornes sont installées dans les rues adjacentes. Le marché de Montreuil, célèbre marché aux puces, est également desservi par des bornes à proximité.
+Pour les visiteurs, la station de métro Croix de Chavaux (ligne 9) constitue un repère pratique : plusieurs bornes sont installées dans les rues adjacentes. Le marché de Montreuil, célèbre marché aux puces, est également desservi par des bornes à proximité.
 
 L'identité montreuilloise, mêlant diversité culturelle et conscience environnementale, fait de la ville un territoire naturellement favorable à l'essor du véhicule électrique.`,
     dateMAJ: "2026-06-22"
@@ -134,7 +134,7 @@ L'identité montreuilloise, mêlant diversité culturelle et conscience environn
     region: "Île-de-France",
     population: 113500,
     nombreBornes: 75,
-    metaDescription: "Découvrez les 75 bornes de recharge à Argenteuil (95) : emplacements au centre-ville, Côté Seine, et le long des berges du Val-d'Oise.",
+    metaDescription: "Découvrez les 75 bornes de recharge à Argenteuil (95) : emplacements au centre-ville, Côté Seine, et le long des berges du Val-d'Oise.",
     contenu: `Argenteuil, plus grande ville du Val-d'Oise, développe progressivement son réseau de recharge électrique avec environ 75 bornes réparties sur son territoire. Cette commune des bords de Seine s'engage dans la mobilité propre pour accompagner ses habitants au quotidien.
 
 Le centre-ville d'Argenteuil, autour de la basilique Saint-Denys et de la rue Paul Vaillant-Couturier, dispose d'une dizaine de bornes en voirie. Ce quartier commerçant permet de combiner courses et recharge dans un environnement piétonnier agréable. La place Henri Barbusse offre aussi quelques points de charge.
@@ -163,7 +163,7 @@ Pour les conducteurs en transit, la gare d'Argenteuil (ligne J du Transilien) di
     region: "Île-de-France",
     population: 85200,
     nombreBornes: 110,
-    metaDescription: "Rechargez à Versailles (78) : 110 bornes près du Château, du quartier Saint-Louis et de Parly 2. Guide complet pour conducteurs de véhicules électriques.",
+    metaDescription: "Rechargez à Versailles (78) : 110 bornes près du Château, du quartier Saint-Louis et de Parly 2. Guide complet pour conducteurs de véhicules électriques.",
     contenu: `Versailles, cité royale et préfecture des Yvelines, dispose d'un réseau de 110 bornes de recharge qui reflète son statut de ville touristique et résidentielle de premier plan. Les conducteurs de véhicules électriques trouvent ici une infrastructure adaptée à leurs besoins.
 
 Les abords du Château de Versailles, site le plus visité de France après Paris, sont équipés de bornes dans les parkings officiels. Le parking de la place d'Armes propose des bornes de recharge, permettant aux millions de visiteurs annuels de recharger pendant leur visite du château et de ses jardins. C'est un atout considérable pour les touristes en voiture électrique.
@@ -192,7 +192,7 @@ Pour les visiteurs du domaine de Versailles, il est recommandé d'arriver tôt l
     region: "Île-de-France",
     population: 96700,
     nombreBornes: 105,
-    metaDescription: "105 bornes de recharge à Nanterre (92) : La Défense, université, centre-ville. Réseau de charge pour véhicules électriques dans les Hauts-de-Seine.",
+    metaDescription: "105 bornes de recharge à Nanterre (92) : La Défense, université, centre-ville. Réseau de charge pour véhicules électriques dans les Hauts-de-Seine.",
     contenu: `Nanterre, préfecture des Hauts-de-Seine, jouit d'une position stratégique aux portes de La Défense, premier quartier d'affaires européen. Avec environ 105 bornes de recharge, la ville offre une infrastructure solide pour la mobilité électrique.
 
 Le quartier de La Défense, partagé entre Nanterre, Courbevoie et Puteaux, concentre une part significative des bornes. Les tours de bureaux comme la tour Areva, la tour Total ou le CNIT disposent de parkings équipés de bornes pour les employés et visiteurs. Le centre commercial Westfield Les 4 Temps propose plusieurs dizaines de bornes dans ses vastes parkings.
@@ -221,14 +221,14 @@ Pour les conducteurs, il est conseillé d'utiliser les bornes du centre-ville en
     region: "Île-de-France",
     population: 92400,
     nombreBornes: 90,
-    metaDescription: "90 bornes de recharge à Créteil (94) : lac de Créteil, Créteil Soleil, préfecture du Val-de-Marne. Guide recharge véhicule électrique complet.",
+    metaDescription: "90 bornes de recharge à Créteil (94) : lac de Créteil, Créteil Soleil, préfecture du Val-de-Marne. Guide recharge véhicule électrique complet.",
     contenu: `Créteil, préfecture du Val-de-Marne, se distingue par son urbanisme novateur et son engagement croissant dans la mobilité électrique. Environ 90 bornes de recharge jalonnent cette ville connue pour son lac artificiel et son architecture des années 1970.
 
 Le lac de Créteil, espace de loisirs prisé des franciliens, est entouré de parkings équipés de bornes de recharge. Les promeneurs et sportifs peuvent recharger leur véhicule pendant une balade autour du lac ou une séance de voile au club nautique. C'est un lieu de recharge particulièrement agréable.
 
 Le centre commercial Créteil Soleil, l'un des plus grands d'Île-de-France, constitue un pôle de recharge majeur avec une vingtaine de bornes dans son parking. Ce centre accueille des millions de visiteurs chaque année, et la présence de bornes facilite la transition des automobilistes vers l'électrique.
 
-Le quartier de la préfecture, avec ses immeubles caractéristiques conçus par l'architecte Gérard Grandval (les fameux « Choux de Créteil »), dispose de bornes en voirie. L'Hôtel de Ville et le palais de justice sont desservis par des bornes à proximité. L'université Paris-Est Créteil équipe aussi progressivement ses parkings.
+Le quartier de la préfecture, avec ses immeubles caractéristiques conçus par l'architecte Gérard Grandval (les fameux « Choux de Créteil »), dispose de bornes en voirie. L'Hôtel de Ville et le palais de justice sont desservis par des bornes à proximité. L'université Paris-Est Créteil équipe aussi progressivement ses parkings.
 
 Le quartier du Mont-Mesly, en pleine rénovation urbaine, voit l'installation de nouvelles bornes dans le cadre des projets de réaménagement. Le marché du Mont-Mesly, réputé pour sa diversité, est accessible depuis des rues équipées de points de charge.
 
@@ -250,7 +250,7 @@ Créteil, souvent pionnière en urbanisme avec ses innovations architecturales d
     region: "Île-de-France",
     population: 69000,
     nombreBornes: 65,
-    metaDescription: "65 bornes de recharge à Évry-Courcouronnes (91) : préfecture de l'Essonne, Carré Sénart à proximité. Rechargez votre véhicule électrique facilement.",
+    metaDescription: "65 bornes de recharge à Évry-Courcouronnes (91) : préfecture de l'Essonne, Carré Sénart à proximité. Rechargez votre véhicule électrique facilement.",
     contenu: `Évry-Courcouronnes, préfecture de l'Essonne née de la fusion de deux communes en 2019, développe son réseau de recharge électrique avec environ 65 bornes. Cette ville nouvelle, conçue dans les années 1960, s'adapte aujourd'hui aux exigences de la mobilité durable.
 
 La cathédrale de la Résurrection, seule cathédrale construite en France au XXe siècle, marque le centre d'Évry et se situe à proximité de plusieurs bornes en voirie. Le centre commercial Évry 2, important pôle commercial du sud francilien, propose des bornes dans son parking pour ses visiteurs et les résidents du quartier.
@@ -279,7 +279,7 @@ La ville travaille à l'installation de bornes dans les quartiers résidentiels 
     region: "Île-de-France",
     population: 56800,
     nombreBornes: 45,
-    metaDescription: "45 bornes de recharge à Meaux (77) : centre historique, bords de Marne et zones commerciales. Guide recharge véhicule électrique en Seine-et-Marne.",
+    metaDescription: "45 bornes de recharge à Meaux (77) : centre historique, bords de Marne et zones commerciales. Guide recharge véhicule électrique en Seine-et-Marne.",
     contenu: `Meaux, sous-préfecture de Seine-et-Marne, propose environ 45 bornes de recharge pour véhicules électriques. Cette ville historique, connue pour sa cathédrale gothique et son fromage de Brie, accompagne la transition de ses habitants vers la mobilité électrique.
 
 Le centre historique de Meaux, dominé par la cathédrale Saint-Étienne et le palais épiscopal abritant le musée Bossuet, dispose de bornes en voirie. Les rues piétonnes du quartier médiéval sont accessibles depuis des parkings équipés, permettant de visiter ce patrimoine remarquable tout en rechargeant.
@@ -308,7 +308,7 @@ Pour les amateurs de gastronomie, le marché de Meaux, où l'on peut déguster l
     region: "Île-de-France",
     population: 32700,
     nombreBornes: 35,
-    metaDescription: "Trouvez les 35 bornes de recharge à Pontoise (95) : centre historique, gare, quartier de l'Hermitage. Recharge véhicule électrique dans le Val-d'Oise.",
+    metaDescription: "Trouvez les 35 bornes de recharge à Pontoise (95) : centre historique, gare, quartier de l'Hermitage. Recharge véhicule électrique dans le Val-d'Oise.",
     contenu: `Pontoise, préfecture du Val-d'Oise et ville d'art et d'histoire, offre environ 35 bornes de recharge à ses résidents et visiteurs. Cette cité chargée d'histoire, perchée sur une butte dominant l'Oise, conjugue patrimoine et modernité dans son approche de la mobilité électrique.
 
 Le centre historique de Pontoise, avec ses rues médiévales, la cathédrale Saint-Maclou et le musée Pissarro, est desservi par des bornes dans les parkings alentour. Le parking de l'Hôtel de Ville et celui de la place du Grand Martroy disposent de bornes, permettant de visiter la vieille ville à pied après avoir branché son véhicule.
@@ -319,7 +319,7 @@ La gare de Pontoise, nœud ferroviaire important du Val-d'Oise desservant Paris-
 
 La zone commerciale des Trois Fontaines, au sud de la ville, propose des bornes dans le parking du centre commercial. Les enseignes de la zone d'activités de Saint-Ouen-l'Aumône, commune voisine, complètent l'offre de recharge dans le secteur.
 
-Le réseau est géré par le syndicat d'énergie du Val-d'Oise et Izivia. La proximité de l'A15 et de la Francilienne permet d'accéder rapidement à des stations de charge rapide. Cergy-Pontoise, agglomération de plus de 200 000 habitants, bénéficie d'un plan de déploiement coordonné des bornes.
+Le réseau est géré par le syndicat d'énergie du Val-d'Oise et Izivia. La proximité de l'A15 et de la Francilienne permet d'accéder rapidement à des stations de charge rapide. Cergy-Pontoise, agglomération de plus de 200 000 habitants, bénéficie d'un plan de déploiement coordonné des bornes.
 
 Pontoise, bien que hors du périmètre strict de la ZFE du Grand Paris, voit ses habitants concernés par ces restrictions lors de leurs déplacements dans la métropole. Le véhicule électrique lève cette contrainte et offre une liberté de circulation totale.
 
@@ -337,7 +337,7 @@ Pour les visiteurs du Vexin, Pontoise constitue un point de départ idéal avec 
     region: "Île-de-France",
     population: 42000,
     nombreBornes: 40,
-    metaDescription: "40 bornes de recharge à Melun (77) : préfecture de Seine-et-Marne, île Saint-Étienne, zones commerciales. Rechargez votre véhicule électrique facilement.",
+    metaDescription: "40 bornes de recharge à Melun (77) : préfecture de Seine-et-Marne, île Saint-Étienne, zones commerciales. Rechargez votre véhicule électrique facilement.",
     contenu: `Melun, préfecture de Seine-et-Marne, développe son réseau de bornes de recharge avec environ 40 points de charge. Cette ville traversée par la Seine, avec son île Saint-Étienne en plein centre, offre un cadre singulier pour la mobilité électrique.
 
 L'île Saint-Étienne, cœur historique de Melun ceint par deux bras de Seine, dispose de bornes dans les parkings qui la desservent. La collégiale Notre-Dame et les commerces de l'île sont accessibles après avoir garé et branché son véhicule sur les quais environnants.
@@ -366,7 +366,7 @@ Melun se positionne comme une ville à taille humaine où la mobilité électriq
     region: "Île-de-France",
     population: 67600,
     nombreBornes: 70,
-    metaDescription: "70 bornes de recharge à Cergy (95) : port de Cergy, Les 3 Fontaines, axe majeur. Guide complet pour la recharge de véhicules électriques.",
+    metaDescription: "70 bornes de recharge à Cergy (95) : port de Cergy, Les 3 Fontaines, axe majeur. Guide complet pour la recharge de véhicules électriques.",
     contenu: `Cergy, cœur de l'agglomération de Cergy-Pontoise dans le Val-d'Oise, dispose d'environ 70 bornes de recharge pour véhicules électriques. Ville nouvelle emblématique des années 1970-80, Cergy intègre la mobilité électrique dans son ADN urbain résolument moderne.
 
 Le quartier Grand Centre, articulé autour de l'Axe Majeur, œuvre monumentale de Dani Karavan, concentre une part importante des bornes. Les parkings de l'Horloge et de la place des Colonnes offrent des points de recharge dans un cadre architectural spectaculaire. La perspective de l'Axe Majeur, qui descend vers l'Oise, est un décor unique pour une pause recharge.
@@ -375,7 +375,7 @@ Le port de Cergy, base de loisirs très fréquentée en été, dispose de bornes
 
 Le centre commercial Les 3 Fontaines, principal pôle commercial de l'agglomération, propose une vingtaine de bornes dans son parking souterrain. Ce centre, qui accueille plus de 150 boutiques, permet de combiner shopping et recharge de manière pratique.
 
-La préfecture du Val-d'Oise, située à Cergy, dispose de bornes dans son parking public. L'université CY Cergy Paris Université, qui forme plus de 25 000 étudiants, équipe progressivement ses campus de bornes pour les étudiants et le personnel.
+La préfecture du Val-d'Oise, située à Cergy, dispose de bornes dans son parking public. L'université CY Cergy Paris Université, qui forme plus de 25 000 étudiants, équipe progressivement ses campus de bornes pour les étudiants et le personnel.
 
 Les réseaux Izivia et le syndicat d'énergie du Val-d'Oise gèrent la majeure partie des bornes publiques. La présence de l'A15 et de l'A104 à proximité immédiate donne accès à des stations de charge rapide. Le réseau autoroutier est bien couvert vers Paris, la Normandie et le nord de la France.
 
@@ -395,8 +395,8 @@ Pour les cyclistes qui combinent vélo électrique et voiture électrique, Cergy
     region: "Île-de-France",
     population: 45600,
     nombreBornes: 35,
-    metaDescription: "35 bornes de recharge à Mantes-la-Jolie (78) : collégiale, bords de Seine, zones commerciales. Rechargez votre véhicule électrique dans les Yvelines.",
-    contenu: `Mantes-la-Jolie, sous-préfecture des Yvelines située en bord de Seine, développe son réseau de recharge avec environ 35 bornes. Cette ville au riche patrimoine médiéval s'engage dans la transition vers la mobilité électrique pour ses 45 000 habitants.
+    metaDescription: "35 bornes de recharge à Mantes-la-Jolie (78) : collégiale, bords de Seine, zones commerciales. Rechargez votre véhicule électrique dans les Yvelines.",
+    contenu: `Mantes-la-Jolie, sous-préfecture des Yvelines située en bord de Seine, développe son réseau de recharge avec environ 35 bornes. Cette ville au riche patrimoine médiéval s'engage dans la transition vers la mobilité électrique pour ses 45 000 habitants.
 
 La collégiale Notre-Dame, joyau de l'architecture gothique souvent comparé à Notre-Dame de Paris, domine le centre-ville. Les parkings du quartier historique, notamment celui de la place Saint-Maclou, disposent de bornes permettant de visiter ce patrimoine exceptionnel tout en rechargeant.
 
@@ -410,7 +410,7 @@ Le réseau est principalement géré par le syndicat départemental des Yvelines
 
 Mantes-la-Jolie n'est pas dans la ZFE du Grand Paris, mais ses habitants travaillant dans la métropole bénéficient du véhicule électrique pour leurs déplacements. La ligne J du Transilien relie la gare de Mantes à Paris-Saint-Lazare, et le parking de la gare est équipé de bornes.
 
-La communauté urbaine Grand Paris Seine et Oise, dont Mantes est le centre, a adopté un plan de mobilité incluant le déploiement de bornes dans les communes rurales de son vaste territoire. Cette initiative dessert un bassin de vie de plus de 400 000 habitants.
+La communauté urbaine Grand Paris Seine et Oise, dont Mantes est le centre, a adopté un plan de mobilité incluant le déploiement de bornes dans les communes rurales de son vaste territoire. Cette initiative dessert un bassin de vie de plus de 400 000 habitants.
 
 Mantes-la-Jolie est engagée dans un ambitieux projet de rénovation urbaine qui transforme progressivement la ville. L'intégration de bornes de recharge dans chaque nouveau projet immobilier garantit un développement harmonieux de l'infrastructure.
 
@@ -424,7 +424,7 @@ Pour les visiteurs, la proximité du château de La Roche-Guyon et de Giverny, v
     region: "Île-de-France",
     population: 54200,
     nombreBornes: 55,
-    metaDescription: "55 bornes de recharge à Bobigny (93) : préfecture de Seine-Saint-Denis, canal de l'Ourcq, MC93. Rechargez votre véhicule électrique facilement.",
+    metaDescription: "55 bornes de recharge à Bobigny (93) : préfecture de Seine-Saint-Denis, canal de l'Ourcq, MC93. Rechargez votre véhicule électrique facilement.",
     contenu: `Bobigny, préfecture de la Seine-Saint-Denis, dispose d'environ 55 bornes de recharge pour véhicules électriques. Cette ville en transformation rapide, traversée par le canal de l'Ourcq, intègre la mobilité électrique dans sa métamorphose urbaine.
 
 Le centre administratif de Bobigny, avec la préfecture et le tribunal de grande instance dessiné par Oscar Niemeyer, concentre des bornes dans les parkings publics. La tour préfectorale et le parc de la Bergère offrent un cadre caractéristique de l'architecture administrative des années 1970, aujourd'hui adapté aux nouvelles mobilités.
@@ -453,7 +453,7 @@ Bobigny se réinvente à travers de grands projets urbains qui font de la mobili
     region: "Auvergne-Rhône-Alpes",
     population: 522969,
     nombreBornes: 1200,
-    metaDescription: "Découvrez les 1 200 bornes de recharge à Lyon : Presqu'île, Part-Dieu, Confluence et plus. Guide complet pour recharger votre véhicule électrique.",
+    metaDescription: "Découvrez les 1 200 bornes de recharge à Lyon : Presqu'île, Part-Dieu, Confluence et plus. Guide complet pour recharger votre véhicule électrique.",
     contenu: `Lyon, troisième ville de France et capitale de la région Auvergne-Rhône-Alpes, se positionne comme un leader de la mobilité électrique avec environ 1200 bornes de recharge. La capitale des Gaules offre un réseau dense couvrant ses neuf arrondissements et sa métropole.
 
 La Presqu'île, cœur historique de Lyon entre Rhône et Saône, dispose de nombreuses bornes dans ses parkings souterrains. Le parking Bellecour, sous la plus grande place piétonne d'Europe, offre des bornes de recharge. Le parking des Cordeliers et celui de la République complètent le maillage de ce quartier commerçant et touristique.
@@ -468,7 +468,7 @@ Le réseau CNR (Compagnie Nationale du Rhône) déploie des bornes alimentées e
 
 Lyon a instauré une ZFE couvrant une large partie de son territoire. Les véhicules Crit'Air 3 et plus sont interdits dans le périmètre. Le véhicule électrique garantit une circulation sans restriction dans cette zone, un avantage décisif pour les Lyonnais et les visiteurs.
 
-La Métropole de Lyon propose des aides pour l'installation de bornes dans les copropriétés et les entreprises. Le dispositif « Rénov'Énergie » inclut un volet mobilité électrique avec des subventions attractives. Les bailleurs sociaux du Grand Lyon équipent progressivement leurs parkings.
+La Métropole de Lyon propose des aides pour l'installation de bornes dans les copropriétés et les entreprises. Le dispositif « Rénov'Énergie » inclut un volet mobilité électrique avec des subventions attractives. Les bailleurs sociaux du Grand Lyon équipent progressivement leurs parkings.
 
 Lyon se distingue par son innovation en matière de mobilité. La ville accueille des start-ups spécialisées dans la recharge intelligente et les véhicules autonomes. Le pôle de compétitivité Lyon Urban Truck & Bus travaille sur l'électrification des transports lourds.
 
@@ -482,12 +482,12 @@ Pour les visiteurs, les parkings relais TCL (Transports en Commun Lyonnais) sont
     region: "Auvergne-Rhône-Alpes",
     population: 158454,
     nombreBornes: 450,
-    metaDescription: "450 bornes de recharge à Grenoble : capitale des Alpes, stations de ski, centre-ville. Guide pour recharger votre véhicule électrique en Isère.",
+    metaDescription: "450 bornes de recharge à Grenoble : capitale des Alpes, stations de ski, centre-ville. Guide pour recharger votre véhicule électrique en Isère.",
     contenu: `Grenoble, capitale des Alpes françaises, dispose d'environ 450 bornes de recharge pour véhicules électriques. Entourée de montagnes et engagée dans la transition écologique, cette ville universitaire et technologique est un territoire favorable au véhicule électrique.
 
 Le centre-ville de Grenoble, autour de la place Grenette et de la place Victor Hugo, offre des bornes dans les parkings souterrains. Le parking de la Bastille, au pied du célèbre téléphérique, dispose de bornes permettant de recharger tout en visitant le fort qui domine la ville. Le quartier de l'Île Verte, résidentiel et verdoyant, est aussi bien équipé.
 
-Le quartier Europole, centre d'affaires et de congrès, concentre des bornes dans ses parkings professionnels. La gare de Grenoble et le World Trade Center sont desservis par des bornes adaptées aux professionnels en déplacement. Le campus universitaire, avec plus de 60 000 étudiants, voit ses parkings s'équiper progressivement.
+Le quartier Europole, centre d'affaires et de congrès, concentre des bornes dans ses parkings professionnels. La gare de Grenoble et le World Trade Center sont desservis par des bornes adaptées aux professionnels en déplacement. Le campus universitaire, avec plus de 60 000 étudiants, voit ses parkings s'équiper progressivement.
 
 La Presqu'île scientifique, abritant le CEA, le CNRS et le synchrotron ESRF, est un pôle de recherche mondial. Ses parkings sont équipés de bornes, et les chercheurs internationaux qui y travaillent adoptent massivement le véhicule électrique. Le polygone scientifique est un modèle d'intégration de la mobilité électrique en milieu professionnel.
 
@@ -511,7 +511,7 @@ Pour les visiteurs, les bornes du parking du Musée de Grenoble et celles à pro
     region: "Auvergne-Rhône-Alpes",
     population: 177480,
     nombreBornes: 280,
-    metaDescription: "280 bornes de recharge à Saint-Étienne : cité du design, centre-ville, Châteaucreux. Guide recharge véhicule électrique dans la Loire.",
+    metaDescription: "280 bornes de recharge à Saint-Étienne : cité du design, centre-ville, Châteaucreux. Guide recharge véhicule électrique dans la Loire.",
     contenu: `Saint-Étienne, ancienne capitale industrielle reconvertie en ville créative et désignée Ville UNESCO de Design, dispose d'environ 280 bornes de recharge. Cette métropole ligérienne embrasse la mobilité électrique comme un nouveau chapitre de sa transformation.
 
 Le centre-ville de Saint-Étienne, autour de la place Jean Jaurès et de la Grand'Rue, offre des bornes dans ses parkings souterrains. Le parking de l'Hôtel de Ville et celui de la place du Peuple sont équipés. La rue piétonne, l'une des plus longues de France, est bordée de parkings avec bornes accessibles aux flâneurs.
@@ -540,14 +540,14 @@ Saint-Étienne, ville de labeur et de passion, trouve dans la mobilité électri
     region: "Auvergne-Rhône-Alpes",
     population: 147284,
     nombreBornes: 250,
-    metaDescription: "250 bornes de recharge à Clermont-Ferrand : capitale auvergnate, place de Jaude, volcans d'Auvergne. Guide recharge véhicule électrique dans le Puy-de-Dôme.",
+    metaDescription: "250 bornes de recharge à Clermont-Ferrand : capitale auvergnate, place de Jaude, volcans d'Auvergne. Guide recharge véhicule électrique dans le Puy-de-Dôme.",
     contenu: `Clermont-Ferrand, capitale de l'Auvergne et berceau de Michelin, compte environ 250 bornes de recharge. Cette ville universitaire nichée au pied de la chaîne des Puys, classée au patrimoine mondial de l'UNESCO, est un territoire naturellement engagé dans la mobilité durable.
 
 La place de Jaude, cœur battant de Clermont-Ferrand, est desservie par des bornes dans le parking souterrain du centre Jaude. Ce vaste centre commercial et les commerces alentour permettent de recharger tout en profitant de l'animation du centre-ville. La cathédrale Notre-Dame-de-l'Assomption, construite en pierre de Volvic noire, domine un quartier équipé de bornes.
 
 Le quartier de la gare, rénové autour du pôle multimodal, dispose de bornes pour les voyageurs. La ligne Intercités vers Paris et les TER vers Lyon et les villes auvergnates sont accessibles depuis cette gare dont le parking est équipé. Le quartier République, voisin, offre aussi des points de charge.
 
-Le campus universitaire des Cézeaux, qui accueille plus de 35 000 étudiants, est progressivement équipé de bornes. L'ICCF (Institut de Chimie) et les laboratoires du CNRS y développent des recherches sur les batteries, un lien direct entre la science clermontoise et la mobilité électrique.
+Le campus universitaire des Cézeaux, qui accueille plus de 35 000 étudiants, est progressivement équipé de bornes. L'ICCF (Institut de Chimie) et les laboratoires du CNRS y développent des recherches sur les batteries, un lien direct entre la science clermontoise et la mobilité électrique.
 
 Michelin, entreprise emblématique née à Clermont-Ferrand, joue un rôle actif dans la mobilité durable. Le siège de Michelin et ses sites industriels disposent de bornes, et l'entreprise investit dans les technologies de pneus adaptés aux véhicules électriques. Le musée L'Aventure Michelin propose aussi des bornes pour ses visiteurs.
 
@@ -569,12 +569,12 @@ Pour les amateurs de thermalisme, les villes d'eau voisines comme Royat et Chât
     region: "Auvergne-Rhône-Alpes",
     population: 155300,
     nombreBornes: 200,
-    metaDescription: "200 bornes de recharge à Villeurbanne (69) : Gratte-Ciel, campus La Doua, Tonkin. Rechargez votre véhicule électrique dans la métropole lyonnaise.",
+    metaDescription: "200 bornes de recharge à Villeurbanne (69) : Gratte-Ciel, campus La Doua, Tonkin. Rechargez votre véhicule électrique dans la métropole lyonnaise.",
     contenu: `Villeurbanne, deuxième ville du Rhône accolée à Lyon, dispose d'environ 200 bornes de recharge. Cette commune, qui forme un continuum urbain avec la capitale des Gaules, bénéficie de la dynamique métropolitaine en matière de mobilité électrique.
 
 Le quartier des Gratte-Ciel, symbole de l'identité villeurbannaise avec ses deux tours Art déco, concentre des bornes dans les parkings du centre. Le TNP (Théâtre National Populaire), institution culturelle majeure, est desservi par des bornes à proximité. L'avenue Henri Barbusse et ses commerces offrent aussi des points de charge.
 
-Le campus de La Doua, l'un des plus grands de France, accueille l'INSA Lyon, l'Université Claude Bernard et le CNRS. Ses vastes parkings sont progressivement équipés de bornes pour les 40 000 étudiants et chercheurs. Le Laboratoire de Mécanique des Fluides et d'Acoustique travaille sur l'aérodynamique des véhicules électriques.
+Le campus de La Doua, l'un des plus grands de France, accueille l'INSA Lyon, l'Université Claude Bernard et le CNRS. Ses vastes parkings sont progressivement équipés de bornes pour les 40 000 étudiants et chercheurs. Le Laboratoire de Mécanique des Fluides et d'Acoustique travaille sur l'aérodynamique des véhicules électriques.
 
 Le quartier du Tonkin, rénové et modernisé, dispose de bornes dans ses parkings résidentiels. La proximité du parc de la Tête d'Or, plus grand parc urbain de France partagé avec Lyon, offre des possibilités de recharge agréable. Le boulevard du 11 novembre est jalonné de bornes.
 
@@ -598,7 +598,7 @@ Villeurbanne se distingue par sa tradition d'innovation sociale et son engagemen
     region: "Auvergne-Rhône-Alpes",
     population: 133500,
     nombreBornes: 220,
-    metaDescription: "220 bornes de recharge à Annecy : lac, vieille ville, stations de ski proches. Guide recharge véhicule électrique en Haute-Savoie.",
+    metaDescription: "220 bornes de recharge à Annecy : lac, vieille ville, stations de ski proches. Guide recharge véhicule électrique en Haute-Savoie.",
     contenu: `Annecy, la Venise des Alpes, offre environ 220 bornes de recharge dans un cadre lacustre et montagnard exceptionnel. Cette ville touristique de Haute-Savoie, bordée par le lac le plus pur d'Europe, conjugue beauté naturelle et engagement dans la mobilité propre.
 
 La vieille ville d'Annecy, avec ses canaux, le Palais de l'Île et le château, est desservie par des bornes dans les parkings du Bonlieu et du centre-ville. Les touristes peuvent recharger pendant leur flânerie dans les ruelles médiévales. Le parking du Paquier, au bord du lac, offre un cadre de recharge idyllique.
@@ -607,7 +607,7 @@ Les rives du lac d'Annecy disposent de bornes à plusieurs points stratégiques.
 
 Le centre commercial Courier, en plein centre-ville, propose des bornes dans son parking. La zone commerciale d'Épagny Metz-Tessy, au nord de l'agglomération, concentre aussi des bornes dans les parkings des grandes enseignes, utiles pour les courses du quotidien.
 
-Les stations de ski du massif des Aravis et du Semnoz, accessibles depuis Annecy, développent leurs bornes. La Clusaz, Le Grand-Bornand et Manigod installent des bornes dans leurs parkings de station, permettant de skier pendant la recharge. En hiver, une précaution s'impose : le froid réduit l'autonomie des batteries.
+Les stations de ski du massif des Aravis et du Semnoz, accessibles depuis Annecy, développent leurs bornes. La Clusaz, Le Grand-Bornand et Manigod installent des bornes dans leurs parkings de station, permettant de skier pendant la recharge. En hiver, une précaution s'impose : le froid réduit l'autonomie des batteries.
 
 Edéa (Énergie et Développement Environnement en Annecy) gère le réseau local de bornes, complété par TotalEnergies et Ionity sur les axes autoroutiers. L'A41 vers Genève et Chambéry offre des stations rapides. La proximité de la Suisse, où le réseau de bornes est très développé, est un atout supplémentaire.
 
@@ -627,7 +627,7 @@ Annecy prouve qu'une ville touristique peut allier attractivité et responsabili
     region: "Auvergne-Rhône-Alpes",
     population: 65000,
     nombreBornes: 85,
-    metaDescription: "85 bornes de recharge à Valence (26) : porte du Midi, centre-ville, autoroute A7. Guide recharge véhicule électrique dans la Drôme.",
+    metaDescription: "85 bornes de recharge à Valence (26) : porte du Midi, centre-ville, autoroute A7. Guide recharge véhicule électrique dans la Drôme.",
     contenu: `Valence, porte du Midi sur la vallée du Rhône, dispose d'environ 85 bornes de recharge. Cette préfecture de la Drôme, baignée de soleil et située au carrefour des routes vers la Provence et les Alpes, est un point d'arrêt stratégique pour les conducteurs de véhicules électriques.
 
 Le centre-ville de Valence, autour de la place des Clercs et de la cathédrale Saint-Apollinaire, offre des bornes dans les parkings souterrains. Le Champ de Mars, vaste esplanade avec vue sur le Rhône et les montagnes de l'Ardèche, dispose de bornes à proximité. La Maison des Têtes, joyau Renaissance, est accessible depuis des rues équipées.
@@ -656,7 +656,7 @@ Valence, ville à taille humaine et agréable à vivre, fait de la mobilité él
     region: "Auvergne-Rhône-Alpes",
     population: 60600,
     nombreBornes: 110,
-    metaDescription: "110 bornes de recharge à Chambéry (73) : porte des Alpes, vieille ville, lac du Bourget. Guide recharge véhicule électrique en Savoie.",
+    metaDescription: "110 bornes de recharge à Chambéry (73) : porte des Alpes, vieille ville, lac du Bourget. Guide recharge véhicule électrique en Savoie.",
     contenu: `Chambéry, ancienne capitale du duché de Savoie, offre environ 110 bornes de recharge dans son cadre alpin. Cette préfecture de la Savoie, porte d'entrée des plus grandes stations de ski du monde, est un territoire clé pour la mobilité électrique en montagne.
 
 La vieille ville de Chambéry, avec son château des Ducs de Savoie et la fontaine des Éléphants, dispose de bornes dans les parkings du centre. Le parking Curial et celui du Manège offrent des bornes à deux pas du cœur historique. Les ruelles médiévales et les traboules chambériennes se découvrent pendant la recharge.
@@ -685,7 +685,7 @@ Chambéry, ville où l'histoire rencontre les Alpes, fait de la mobilité élect
     region: "Auvergne-Rhône-Alpes",
     population: 42000,
     nombreBornes: 55,
-    metaDescription: "55 bornes de recharge à Bourg-en-Bresse (01) : monastère de Brou, centre-ville, Ain. Guide recharge véhicule électrique dans le département de l'Ain.",
+    metaDescription: "55 bornes de recharge à Bourg-en-Bresse (01) : monastère de Brou, centre-ville, Ain. Guide recharge véhicule électrique dans le département de l'Ain.",
     contenu: `Bourg-en-Bresse, préfecture de l'Ain, dispose d'environ 55 bornes de recharge pour véhicules électriques. Cette ville connue pour son patrimoine architectural et sa gastronomie, notamment le poulet de Bresse, développe son infrastructure de mobilité électrique.
 
 Le monastère royal de Brou, chef-d'œuvre du gothique flamboyant, attire des visiteurs qui trouvent des bornes dans le parking du site. Ce monument historique exceptionnel, avec ses tombeaux sculptés et son église aux vitraux remarquables, se visite sereinement pendant la recharge du véhicule.
@@ -714,7 +714,7 @@ Bourg-en-Bresse prouve qu'une ville moyenne peut offrir un réseau de recharge s
     region: "Auvergne-Rhône-Alpes",
     population: 35200,
     nombreBornes: 40,
-    metaDescription: "40 bornes de recharge à Roanne (42) : ville gastronomique de la Loire, centre-ville, canal de Roanne. Rechargez votre véhicule électrique.",
+    metaDescription: "40 bornes de recharge à Roanne (42) : ville gastronomique de la Loire, centre-ville, canal de Roanne. Rechargez votre véhicule électrique.",
     contenu: `Roanne, sous-préfecture de la Loire connue pour sa gastronomie et ses étoiles Michelin, dispose d'environ 40 bornes de recharge. Cette ville industrielle en reconversion s'ouvre à la mobilité électrique pour accompagner son renouveau.
 
 Le centre-ville de Roanne, autour de la place du Marché et du musée Déchelette, offre des bornes en voirie et dans les parkings souterrains. La halle Diderot, marché couvert emblématique où se côtoient produits locaux et spécialités roannaises, est accessible avec des bornes à proximité.
@@ -743,7 +743,7 @@ Roanne montre qu'une ville de taille moyenne peut s'engager dans la mobilité é
     region: "Auvergne-Rhône-Alpes",
     population: 30400,
     nombreBornes: 45,
-    metaDescription: "45 bornes de recharge à Vienne (38) : cité gallo-romaine, vallée du Rhône, Jazz à Vienne. Guide recharge véhicule électrique en Isère.",
+    metaDescription: "45 bornes de recharge à Vienne (38) : cité gallo-romaine, vallée du Rhône, Jazz à Vienne. Guide recharge véhicule électrique en Isère.",
     contenu: `Vienne, cité gallo-romaine de l'Isère au bord du Rhône, dispose d'environ 45 bornes de recharge. Cette ville au patrimoine antique exceptionnel, célèbre pour son festival de jazz, développe son réseau de mobilité électrique au cœur de la vallée du Rhône.
 
 Le centre historique de Vienne, avec le temple d'Auguste et de Livie, le théâtre antique et la cathédrale Saint-Maurice, est desservi par des bornes dans les parkings publics. Le parking de la place Miremont et celui du Champ de Mars offrent des bornes à proximité des principaux monuments romains.
@@ -772,7 +772,7 @@ Vienne, où l'histoire antique côtoie la modernité, fait de la mobilité élec
     region: "Auvergne-Rhône-Alpes",
     population: 36000,
     nombreBornes: 50,
-    metaDescription: "50 bornes de recharge à Thonon-les-Bains (74) : bords du Léman, ville thermale, Chablais. Guide recharge véhicule électrique en Haute-Savoie.",
+    metaDescription: "50 bornes de recharge à Thonon-les-Bains (74) : bords du Léman, ville thermale, Chablais. Guide recharge véhicule électrique en Haute-Savoie.",
     contenu: `Thonon-les-Bains, ville thermale en bordure du lac Léman, dispose d'environ 50 bornes de recharge. Cette sous-préfecture de Haute-Savoie, réputée pour ses eaux minérales et son panorama alpin, offre un réseau de recharge adapté à sa dimension touristique et transfrontalière.
 
 Le centre-ville de Thonon, autour de la place de Crête offrant un panorama spectaculaire sur le Léman et les Alpes suisses, dispose de bornes dans les parkings. Le funiculaire reliant la ville haute au port, emblème de Thonon, est accessible depuis des rues équipées de bornes.
@@ -783,7 +783,7 @@ Les thermes de Thonon, qui attirent des curistes tout au long de l'année, sont 
 
 La zone commerciale de Marclaz et le centre E.Leclerc offrent des bornes dans leurs parkings. Ces points de recharge couvrent les besoins du quotidien pour les résidents de Thonon et du Chablais.
 
-Le SYANE (Syndicat des Énergies de Haute-Savoie) et des opérateurs privés gèrent le réseau. La proximité de la Suisse (Lausanne est à 30 km par le bateau CGN) influence l'équipement : les standards suisses de recharge, parmi les plus avancés d'Europe, créent une émulation positive.
+Le SYANE (Syndicat des Énergies de Haute-Savoie) et des opérateurs privés gèrent le réseau. La proximité de la Suisse (Lausanne est à 30 km par le bateau CGN) influence l'équipement : les standards suisses de recharge, parmi les plus avancés d'Europe, créent une émulation positive.
 
 La frontière suisse toute proche incite de nombreux travailleurs frontaliers à adopter le véhicule électrique. Les trajets quotidiens vers Lausanne ou Genève sont parfaitement adaptés à l'autonomie des véhicules électriques modernes, et les bornes des deux côtés de la frontière assurent la tranquillité d'esprit.
 
@@ -801,14 +801,14 @@ Thonon-les-Bains, ville d'eau par excellence, fait naturellement le lien entre l
     region: "Auvergne-Rhône-Alpes",
     population: 25600,
     nombreBornes: 30,
-    metaDescription: "30 bornes de recharge à Aurillac (15) : préfecture du Cantal, volcans d'Auvergne, festival de théâtre de rue. Guide recharge véhicule électrique.",
+    metaDescription: "30 bornes de recharge à Aurillac (15) : préfecture du Cantal, volcans d'Auvergne, festival de théâtre de rue. Guide recharge véhicule électrique.",
     contenu: `Aurillac, préfecture du Cantal au cœur des volcans d'Auvergne, dispose d'environ 30 bornes de recharge. Cette ville de montagne, connue pour son festival international de théâtre de rue, développe son réseau de mobilité électrique dans un contexte rural et montagnard.
 
 Le centre-ville d'Aurillac, autour de la place du Square et du château Saint-Étienne, offre des bornes dans les parkings publics. Le quartier historique, avec ses maisons à colombages et l'église Notre-Dame-aux-Neiges, est accessible à pied depuis les bornes du centre. Le marché couvert, réputé pour ses fromages cantaliens, est desservi par des bornes à proximité.
 
 Le quartier de la gare, point de départ vers Clermont-Ferrand et Toulouse par le train, dispose de bornes. Les voyageurs peuvent combiner train et voiture électrique pour leurs déplacements. Le parc Hélitas, poumon vert de la ville, est bordé de bornes.
 
-Le festival d'Aurillac, plus grand festival de théâtre de rue d'Europe, attire chaque été 100 000 spectateurs. Pendant le festival, les bornes de la ville sont très sollicitées, et il est conseillé de planifier sa recharge en avance ou d'utiliser les bornes en périphérie.
+Le festival d'Aurillac, plus grand festival de théâtre de rue d'Europe, attire chaque été 100 000 spectateurs. Pendant le festival, les bornes de la ville sont très sollicitées, et il est conseillé de planifier sa recharge en avance ou d'utiliser les bornes en périphérie.
 
 La zone commerciale de l'Aérodrome, au sud de la ville, offre des bornes dans les parkings commerciaux. Le centre E.Leclerc et les enseignes voisines permettent de recharger pendant les courses.
 
@@ -818,7 +818,7 @@ Le Cantal est un département de montagne où les distances entre les bourgs peu
 
 La ville propose des aides pour l'installation de bornes dans les copropriétés et les entreprises. Le tissu économique aurillacois, composé de PME et d'administrations, adopte progressivement la mobilité électrique pour ses flottes.
 
-Le Cantal offre des paysages exceptionnels pour les conducteurs de véhicules électriques : le puy Mary, le viaduc de Garabit, la vallée de la Jordanne et les burons de montagne se découvrent dans le silence du moteur électrique. C'est une expérience de conduite unique dans ces paysages volcaniques.
+Le Cantal offre des paysages exceptionnels pour les conducteurs de véhicules électriques : le puy Mary, le viaduc de Garabit, la vallée de la Jordanne et les burons de montagne se découvrent dans le silence du moteur électrique. C'est une expérience de conduite unique dans ces paysages volcaniques.
 
 Aurillac, ville attachante et authentique, montre que la mobilité électrique n'est pas réservée aux métropoles. Le Cantal prouve que la ruralité et l'innovation technologique peuvent parfaitement cohabiter.`,
     dateMAJ: "2026-06-22"
@@ -830,7 +830,7 @@ Aurillac, ville attachante et authentique, montre que la mobilité électrique n
     region: "Auvergne-Rhône-Alpes",
     population: 19500,
     nombreBornes: 25,
-    metaDescription: "25 bornes de recharge au Puy-en-Velay (43) : ville de départ du chemin de Compostelle, cathédrale UNESCO. Guide recharge véhicule électrique.",
+    metaDescription: "25 bornes de recharge au Puy-en-Velay (43) : ville de départ du chemin de Compostelle, cathédrale UNESCO. Guide recharge véhicule électrique.",
     contenu: `Le Puy-en-Velay, préfecture de la Haute-Loire, dispose d'environ 25 bornes de recharge dans un cadre volcanique spectaculaire. Point de départ du chemin de Saint-Jacques-de-Compostelle par la via Podiensis, cette ville classée à l'UNESCO allie spiritualité, patrimoine et modernité.
 
 Le centre historique, dominé par la cathédrale Notre-Dame et le rocher Corneille surmonté de la statue de la Vierge, offre des bornes dans les parkings en contrebas. Le parking du Breuil et celui de la place du Clauzel permettent de garer et recharger son véhicule avant de monter à pied vers la cathédrale et ses escaliers monumentaux.
@@ -859,7 +859,7 @@ Le Puy-en-Velay, cité de foi et de beauté, intègre la mobilité électrique d
     region: "Auvergne-Rhône-Alpes",
     population: 19600,
     nombreBornes: 25,
-    metaDescription: "25 bornes de recharge à Moulins (03) : préfecture de l'Allier, CNCS, centre historique. Guide recharge véhicule électrique dans le Bourbonnais.",
+    metaDescription: "25 bornes de recharge à Moulins (03) : préfecture de l'Allier, CNCS, centre historique. Guide recharge véhicule électrique dans le Bourbonnais.",
     contenu: `Moulins, préfecture de l'Allier et ancienne capitale du Bourbonnais, dispose d'environ 25 bornes de recharge. Cette ville d'art et d'histoire, abritant le Centre National du Costume de Scène, s'équipe pour la mobilité électrique dans un territoire à dominante rurale.
 
 Le centre historique de Moulins, autour de la cathédrale Notre-Dame et du célèbre triptyque du Maître de Moulins, offre des bornes dans les parkings du centre. La place d'Allier, cœur commerçant de la ville, dispose de bornes en voirie. Le jacquemart, horloge animée médiévale, domine un quartier équipé de bornes.
@@ -876,7 +876,7 @@ L'Allier est un département rural où le maillage des bornes en campagne est un
 
 Moulins propose un cadre de vie paisible que la mobilité électrique contribue à préserver. Le silence des véhicules électriques dans les rues du centre historique prolonge cette quiétude qui fait le charme de la ville.
 
-Le Bourbonnais offre des circuits touristiques en voiture électrique : la forêt de Tronçais, plus belle futaie de chênes d'Europe, le château de Lapalisse et les vignobles de Saint-Pourçain sont accessibles avec le réseau de bornes existant.
+Le Bourbonnais offre des circuits touristiques en voiture électrique : la forêt de Tronçais, plus belle futaie de chênes d'Europe, le château de Lapalisse et les vignobles de Saint-Pourçain sont accessibles avec le réseau de bornes existant.
 
 Moulins, ville discrète mais riche de patrimoine, aborde la mobilité électrique avec la mesure qui la caractérise, équipant son territoire pas à pas pour un avenir plus propre.`,
     dateMAJ: "2026-06-22"
@@ -888,7 +888,7 @@ Moulins, ville discrète mais riche de patrimoine, aborde la mobilité électriq
     region: "Nouvelle-Aquitaine",
     population: 260958,
     nombreBornes: 650,
-    metaDescription: "650 bornes de recharge à Bordeaux : place de la Bourse, Mériadeck, Bassins à Flot. Guide complet recharge véhicule électrique en Gironde.",
+    metaDescription: "650 bornes de recharge à Bordeaux : place de la Bourse, Mériadeck, Bassins à Flot. Guide complet recharge véhicule électrique en Gironde.",
     contenu: `Bordeaux, capitale mondiale du vin et métropole dynamique du sud-ouest, offre environ 650 bornes de recharge. Cette ville classée au patrimoine mondial de l'UNESCO pour son ensemble urbain du XVIIIe siècle s'engage résolument dans la mobilité électrique.
 
 Le centre historique bordelais, autour de la place de la Bourse et du miroir d'eau, dispose de bornes dans les parkings souterrains des Quinconces et de la Bourse. Le triangle d'or, quartier commerçant entre le cours de l'Intendance, le cours Clemenceau et les allées de Tourny, est desservi par des bornes dans les parkings Tourny et Gambetta.
@@ -903,7 +903,7 @@ Le réseau est opéré par TotalEnergies, Izivia et des opérateurs locaux. L'A6
 
 Bordeaux Métropole a instauré une ZFE couvrant une grande partie de son territoire. Les véhicules Crit'Air 3 et plus sont progressivement exclus, rendant le véhicule électrique essentiel pour une circulation libre dans la métropole girondine.
 
-La métropole bordelaise propose des aides à l'installation de bornes dans les copropriétés. Le programme « Mon borne à moi » accompagne les résidents dans leurs démarches, avec des subventions attractives. La région Nouvelle-Aquitaine complète ces aides.
+La métropole bordelaise propose des aides à l'installation de bornes dans les copropriétés. Le programme « Mon borne à moi » accompagne les résidents dans leurs démarches, avec des subventions attractives. La région Nouvelle-Aquitaine complète ces aides.
 
 Les vignobles bordelais, du Médoc à Saint-Émilion, développent leurs bornes de recharge. Les châteaux accueillant des visiteurs installent des bornes, mêlant tradition viticole millénaire et modernité écologique. La route des vins en véhicule électrique est une expérience en plein développement.
 
@@ -917,7 +917,7 @@ Bordeaux, ville de pierre blonde et de grands espaces, fait de la mobilité éle
     region: "Nouvelle-Aquitaine",
     population: 132175,
     nombreBornes: 180,
-    metaDescription: "180 bornes de recharge à Limoges : cité de la porcelaine, centre-ville, gare des Bénédictins. Guide recharge véhicule électrique en Haute-Vienne.",
+    metaDescription: "180 bornes de recharge à Limoges : cité de la porcelaine, centre-ville, gare des Bénédictins. Guide recharge véhicule électrique en Haute-Vienne.",
     contenu: `Limoges, capitale des arts du feu et de la porcelaine, dispose d'environ 180 bornes de recharge. Cette préfecture de la Haute-Vienne, au cœur du Limousin, développe son infrastructure de mobilité électrique pour accompagner une ville en pleine revitalisation.
 
 La gare de Limoges-Bénédictins, considérée comme la plus belle gare de France avec son dôme et son campanile Art déco, est un symbole de la ville. Son parking dispose de bornes pour les voyageurs. La cathédrale Saint-Étienne, autre joyau architectural, est desservie par des bornes dans le quartier de la Cité.
@@ -946,7 +946,7 @@ Pour les visiteurs, les jardins de l'Évêché, les bords de Vienne et le parc V
     region: "Nouvelle-Aquitaine",
     population: 89212,
     nombreBornes: 130,
-    metaDescription: "130 bornes de recharge à Poitiers : ville d'art et d'histoire, Futuroscope, campus universitaire. Guide recharge véhicule électrique dans la Vienne.",
+    metaDescription: "130 bornes de recharge à Poitiers : ville d'art et d'histoire, Futuroscope, campus universitaire. Guide recharge véhicule électrique dans la Vienne.",
     contenu: `Poitiers, ville d'art et d'histoire aux 80 monuments classés, dispose d'environ 130 bornes de recharge. Cette préfecture de la Vienne, célèbre pour le Futuroscope et son patrimoine roman exceptionnel, embrasse la mobilité électrique.
 
 Le centre historique de Poitiers, sur son éperon rocheux dominant le Clain, offre des bornes dans les parkings du centre. Le parking Notre-Dame et celui de la place Leclerc sont équipés. L'église Notre-Dame-la-Grande, chef-d'œuvre de l'art roman avec sa façade sculptée, est accessible depuis ces bornes.
@@ -955,7 +955,7 @@ Le baptistère Saint-Jean, l'un des plus anciens monuments chrétiens d'Europe, 
 
 Le Futuroscope, parc d'attractions dédié au multimédia et aux nouvelles technologies, dispose de bornes dans ses vastes parkings. Ce parc, qui attire près de 2 millions de visiteurs par an, illustre parfaitement le lien entre technologie et mobilité durable. Les journées au parc offrent un temps de recharge idéal.
 
-Le campus universitaire, l'un des plus grands de France avec plus de 28 000 étudiants, est équipé de bornes. La ville, dont un quart de la population est étudiante, voit la jeune génération adopter naturellement la mobilité électrique.
+Le campus universitaire, l'un des plus grands de France avec plus de 28 000 étudiants, est équipé de bornes. La ville, dont un quart de la population est étudiante, voit la jeune génération adopter naturellement la mobilité électrique.
 
 Le SDE86 (Syndicat Départemental d'Énergie de la Vienne) et TotalEnergies gèrent le réseau. L'A10, autoroute Paris-Bordeaux, passe par Poitiers et dispose de stations de charge rapide. La N10 vers Angoulême et la N147 vers Limoges sont aussi jalonnées de bornes.
 
@@ -975,7 +975,7 @@ Poitiers, où se sont jouées des batailles décisives de l'histoire de France, 
     region: "Nouvelle-Aquitaine",
     population: 77130,
     nombreBornes: 100,
-    metaDescription: "100 bornes de recharge à Pau : boulevard des Pyrénées, château Henri IV, gave de Pau. Guide recharge véhicule électrique dans les Pyrénées-Atlantiques.",
+    metaDescription: "100 bornes de recharge à Pau : boulevard des Pyrénées, château Henri IV, gave de Pau. Guide recharge véhicule électrique dans les Pyrénées-Atlantiques.",
     contenu: `Pau, cité royale au pied des Pyrénées et ville natale d'Henri IV, dispose d'environ 100 bornes de recharge. Cette préfecture des Pyrénées-Atlantiques, célèbre pour son boulevard offrant une vue panoramique sur la chaîne pyrénéenne, s'engage dans la mobilité électrique.
 
 Le boulevard des Pyrénées, promenade légendaire de 1,8 km avec vue sur les sommets, est bordé de bornes dans les rues adjacentes. Le château de Pau, berceau d'Henri IV, dispose de bornes dans le parking visiteurs. Le parc Beaumont, jardin paysager attenant au palais des congrès, est aussi desservi par des bornes.
@@ -1004,12 +1004,12 @@ Pau, ville de caractère entre montagne et plaine, fait de la mobilité électri
     region: "Nouvelle-Aquitaine",
     population: 79358,
     nombreBornes: 120,
-    metaDescription: "120 bornes de recharge à La Rochelle : Vieux-Port, île de Ré, Aquarium. Guide complet recharge véhicule électrique en Charente-Maritime.",
+    metaDescription: "120 bornes de recharge à La Rochelle : Vieux-Port, île de Ré, Aquarium. Guide complet recharge véhicule électrique en Charente-Maritime.",
     contenu: `La Rochelle, cité maritime pionnière de l'écologie urbaine en France, dispose d'environ 120 bornes de recharge. Cette ville, qui a été l'une des premières à expérimenter les véhicules électriques en libre-service dès les années 1990 avec les Liselec, reste à la pointe de la mobilité durable.
 
 Le Vieux-Port, cœur de La Rochelle avec ses tours médiévales de la Chaîne et Saint-Nicolas, est desservi par des bornes dans les parkings du centre. Le parking du Vieux-Port et celui de la place de Verdun offrent des bornes pour les visiteurs. Les restaurants et bars des quais permettent de profiter du temps de recharge face aux bateaux.
 
-L'Aquarium de La Rochelle, l'un des plus grands d'Europe, dispose de bornes dans son parking. Cette attraction majeure, qui reçoit 800 000 visiteurs par an, offre un temps de visite parfaitement adapté à une bonne recharge. Le quartier des Minimes, port de plaisance et quartier animé, est aussi équipé.
+L'Aquarium de La Rochelle, l'un des plus grands d'Europe, dispose de bornes dans son parking. Cette attraction majeure, qui reçoit 800 000 visiteurs par an, offre un temps de visite parfaitement adapté à une bonne recharge. Le quartier des Minimes, port de plaisance et quartier animé, est aussi équipé.
 
 L'île de Ré, reliée par un pont à péage, dispose de bornes dans ses villages. Ars-en-Ré, Saint-Martin-de-Ré et La Flotte offrent des points de charge pour les visiteurs de cette île préservée. Le véhicule électrique, silencieux, est particulièrement apprécié dans cet environnement insulaire.
 
@@ -1033,14 +1033,14 @@ La Rochelle, ville maritime et écologique par nature, fait de la mobilité éle
     region: "Nouvelle-Aquitaine",
     population: 41970,
     nombreBornes: 55,
-    metaDescription: "55 bornes de recharge à Angoulême : capitale de la BD, remparts, festival international. Guide recharge véhicule électrique en Charente.",
+    metaDescription: "55 bornes de recharge à Angoulême : capitale de la BD, remparts, festival international. Guide recharge véhicule électrique en Charente.",
     contenu: `Angoulême, capitale internationale de la bande dessinée, dispose d'environ 55 bornes de recharge. Cette préfecture de la Charente, perchée sur un plateau rocheux dominant la vallée de la Charente, mêle art, patrimoine et engagement vers la mobilité propre.
 
 Le centre-ville d'Angoulême, cerné de remparts offrant des panoramas sur la campagne charentaise, dispose de bornes dans les parkings. Le parking du Champ de Mars et celui de la place Bouillaud offrent des bornes à proximité de la cathédrale Saint-Pierre et des murs peints de BD qui ornent les façades de la ville.
 
 Le musée de la Bande Dessinée, installé dans les anciens chais Manesquier en bord de Charente, est desservi par des bornes. Les visiteurs de ce musée unique peuvent recharger pendant leur immersion dans l'univers des bulles et des vignettes.
 
-Le Festival International de la Bande Dessinée, chaque fin janvier, attire 200 000 visiteurs. Pendant cette période, les bornes de la ville sont extrêmement sollicitées. Des bornes temporaires sont parfois installées pour absorber l'afflux de visiteurs.
+Le Festival International de la Bande Dessinée, chaque fin janvier, attire 200 000 visiteurs. Pendant cette période, les bornes de la ville sont extrêmement sollicitées. Des bornes temporaires sont parfois installées pour absorber l'afflux de visiteurs.
 
 La zone de Ma Campagne, quartier commercial au sud de la ville, offre des bornes dans les parkings des enseignes. Le centre commercial Champ de Mars et les magasins de la zone permettent une recharge pendant les courses.
 
@@ -1062,7 +1062,7 @@ Angoulême, ville de créativité et d'imagination, dessine son avenir en mobili
     region: "Nouvelle-Aquitaine",
     population: 52800,
     nombreBornes: 75,
-    metaDescription: "75 bornes de recharge à Bayonne : capitale du Pays basque, centre historique, chocolat. Guide recharge véhicule électrique dans les Pyrénées-Atlantiques.",
+    metaDescription: "75 bornes de recharge à Bayonne : capitale du Pays basque, centre historique, chocolat. Guide recharge véhicule électrique dans les Pyrénées-Atlantiques.",
     contenu: `Bayonne, capitale du Pays basque français à la confluence de la Nive et de l'Adour, dispose d'environ 75 bornes de recharge. Cette ville fortifiée par Vauban, connue pour son chocolat et ses fêtes, s'ouvre à la mobilité électrique dans un cadre culturel unique.
 
 Le Grand Bayonne, quartier historique avec la cathédrale Sainte-Marie classée à l'UNESCO, offre des bornes dans les parkings. Le parking de la Mairie et celui des Allées Marines sont équipés. Les rues à arcades du centre, où se trouvent les chocolateries artisanales, sont accessibles depuis ces bornes.
@@ -1091,7 +1091,7 @@ Bayonne, ville de traditions vivantes et de culture vibrante, fait de la mobilit
     region: "Nouvelle-Aquitaine",
     population: 30069,
     nombreBornes: 40,
-    metaDescription: "40 bornes de recharge à Périgueux : cité médiévale, cathédrale Saint-Front, Périgord. Guide recharge véhicule électrique en Dordogne.",
+    metaDescription: "40 bornes de recharge à Périgueux : cité médiévale, cathédrale Saint-Front, Périgord. Guide recharge véhicule électrique en Dordogne.",
     contenu: `Périgueux, préfecture de la Dordogne au cœur du Périgord, dispose d'environ 40 bornes de recharge. Cette ville d'art et d'histoire, dominée par les coupoles byzantines de la cathédrale Saint-Front, accompagne la transition de ses habitants vers la mobilité électrique.
 
 La cathédrale Saint-Front, classée au patrimoine mondial au titre des chemins de Saint-Jacques, domine le centre médiéval. Les bornes du parking Tourny et du boulevard Montaigne permettent de visiter ce chef-d'œuvre architectural et de flâner dans les ruelles Renaissance du vieux Périgueux.
@@ -1120,7 +1120,7 @@ Périgueux, ville gourmande et patrimoniale, intègre la mobilité électrique d
     region: "Nouvelle-Aquitaine",
     population: 34370,
     nombreBornes: 45,
-    metaDescription: "45 bornes de recharge à Agen (47) : capitale du pruneau, canal de Garonne, centre-ville. Guide recharge véhicule électrique en Lot-et-Garonne.",
+    metaDescription: "45 bornes de recharge à Agen (47) : capitale du pruneau, canal de Garonne, centre-ville. Guide recharge véhicule électrique en Lot-et-Garonne.",
     contenu: `Agen, préfecture du Lot-et-Garonne et capitale du pruneau, dispose d'environ 45 bornes de recharge. Cette ville de la vallée de la Garonne, entre Bordeaux et Toulouse, développe son réseau de mobilité électrique dans un territoire agricole et gourmand.
 
 Le centre-ville d'Agen, autour du boulevard de la République et de la cathédrale Saint-Caprais, offre des bornes dans les parkings. Le parking Carnot et celui du Pin sont équipés. Le musée des Beaux-Arts, abritant des œuvres de Goya, est accessible avec des bornes à proximité.
@@ -1149,14 +1149,14 @@ Agen, ville de saveurs et de convivialité, fait de la mobilité électrique un 
     region: "Nouvelle-Aquitaine",
     population: 60200,
     nombreBornes: 60,
-    metaDescription: "60 bornes de recharge à Niort (79) : capitale des mutuelles, Marais poitevin, centre-ville. Guide recharge véhicule électrique dans les Deux-Sèvres.",
+    metaDescription: "60 bornes de recharge à Niort (79) : capitale des mutuelles, Marais poitevin, centre-ville. Guide recharge véhicule électrique dans les Deux-Sèvres.",
     contenu: `Niort, capitale française des mutuelles d'assurance, dispose d'environ 60 bornes de recharge. Cette préfecture des Deux-Sèvres, porte d'entrée du Marais poitevin, conjugue dynamisme économique et cadre de vie vert pour développer sa mobilité électrique.
 
 Le centre-ville de Niort, dominé par le donjon d'Aliénor d'Aquitaine et d'Henri II Plantagenêt, offre des bornes dans les parkings. Le parking de la Brèche, vaste esplanade réaménagée, et celui du donjon sont équipés. Les Halles de Niort, marché couvert de style Baltard, sont bordées de bornes.
 
 Les bords de la Sèvre Niortaise, qui traverse la ville, sont aménagés en promenade verte avec des bornes le long des quais. Le port miniature, vestige de l'activité fluviale, est un lieu de détente avec des bornes accessibles.
 
-Le quartier de Souché, porte du Marais poitevin, dispose de bornes pour les visiteurs de la « Venise verte ». Les embarcadères des barques maraîchines sont accessibles en véhicule électrique, combinant une balade en barque traditionnelle et une mobilité moderne.
+Le quartier de Souché, porte du Marais poitevin, dispose de bornes pour les visiteurs de la « Venise verte ». Les embarcadères des barques maraîchines sont accessibles en véhicule électrique, combinant une balade en barque traditionnelle et une mobilité moderne.
 
 Le siège de la MAIF, l'une des plus grandes mutuelles françaises, dispose de bornes dans son parking. Les autres mutuelles implantées à Niort (MACIF, MAAF, Groupama) équipent aussi leurs sites, faisant du quartier d'affaires un pôle de recharge conséquent.
 
@@ -1178,8 +1178,8 @@ Niort, ville d'assurance et de solidarité, assure aussi la transition vers une 
     region: "Nouvelle-Aquitaine",
     population: 31000,
     nombreBornes: 35,
-    metaDescription: "35 bornes de recharge à Mont-de-Marsan (40) : préfecture des Landes, fêtes de la Madeleine, art déco. Guide recharge véhicule électrique.",
-    contenu: `Mont-de-Marsan, préfecture des Landes au confluent du Midou et de la Douze, dispose d'environ 35 bornes de recharge. Cette ville, surnommée la « ville aux trois rivières », développe sa mobilité électrique dans un département forestier et naturel.
+    metaDescription: "35 bornes de recharge à Mont-de-Marsan (40) : préfecture des Landes, fêtes de la Madeleine, art déco. Guide recharge véhicule électrique.",
+    contenu: `Mont-de-Marsan, préfecture des Landes au confluent du Midou et de la Douze, dispose d'environ 35 bornes de recharge. Cette ville, surnommée la « ville aux trois rivières », développe sa mobilité électrique dans un département forestier et naturel.
 
 Le centre-ville de Mont-de-Marsan, avec le musée Despiau-Wlérick dédié à la sculpture figurative et les arènes, offre des bornes dans les parkings publics. Le parking du théâtre et celui de la place Saint-Roch sont équipés. Les rues piétonnes du centre permettent une flânerie agréable pendant la recharge.
 
@@ -1207,7 +1207,7 @@ Mont-de-Marsan, ville de nature et de fête, intègre la mobilité électrique d
     region: "Nouvelle-Aquitaine",
     population: 13000,
     nombreBornes: 18,
-    metaDescription: "18 bornes de recharge à Guéret (23) : préfecture de la Creuse, loups de Chabrières, nature préservée. Guide recharge véhicule électrique.",
+    metaDescription: "18 bornes de recharge à Guéret (23) : préfecture de la Creuse, loups de Chabrières, nature préservée. Guide recharge véhicule électrique.",
     contenu: `Guéret, préfecture de la Creuse, dispose d'environ 18 bornes de recharge. Cette petite ville au cœur du plateau de Millevaches développe modestement mais sûrement son réseau de mobilité électrique dans l'un des départements les plus ruraux de France.
 
 Le centre-ville de Guéret, autour de la place Bonnyaud et du musée d'Art et d'Archéologie, offre quelques bornes dans les parkings publics. Le musée, qui abrite une remarquable collection d'émaux limousins, est accessible avec des bornes dans les rues environnantes.
@@ -1218,7 +1218,7 @@ Le lac de Courtille, base de loisirs au sud de la ville, est bordé de bornes. C
 
 Le SDE23 (Syndicat Départemental d'Énergie de la Creuse) gère le réseau avec un effort considérable pour couvrir ce vaste territoire faiblement peuplé. L'A20, autoroute gratuite reliant Paris à Toulouse via Limoges, passe à environ 50 km et offre des stations de charge rapide.
 
-La Creuse est un département où le véhicule électrique doit répondre à un défi particulier : de grandes distances entre des bourgs peu peuplés. Le SDEM23 installe des bornes dans les chefs-lieux de canton pour assurer un maillage minimal mais essentiel.
+La Creuse est un département où le véhicule électrique doit répondre à un défi particulier : de grandes distances entre des bourgs peu peuplés. Le SDEM23 installe des bornes dans les chefs-lieux de canton pour assurer un maillage minimal mais essentiel.
 
 Le plateau de Millevaches, vaste espace naturel de landes et de tourbières, est un sanctuaire de biodiversité. Le véhicule électrique, silencieux et non polluant, est le moyen de transport idéal pour explorer ces espaces sensibles sans les perturber.
 
@@ -1236,7 +1236,7 @@ Guéret prouve que même les plus petites préfectures de France s'engagent dans
     region: "Nouvelle-Aquitaine",
     population: 14800,
     nombreBornes: 20,
-    metaDescription: "20 bornes de recharge à Tulle (19) : préfecture de la Corrèze, vallée de la Corrèze, accordéon. Guide recharge véhicule électrique.",
+    metaDescription: "20 bornes de recharge à Tulle (19) : préfecture de la Corrèze, vallée de la Corrèze, accordéon. Guide recharge véhicule électrique.",
     contenu: `Tulle, préfecture de la Corrèze, dispose d'environ 20 bornes de recharge. Cette ville étirée le long de la vallée de la Corrèze, connue pour sa dentelle et son accordéon, développe sa mobilité électrique dans un cadre montagnard et verdoyant.
 
 Le centre-ville de Tulle, serré dans la vallée entre les collines, offre des bornes dans les parkings du centre. La cathédrale Notre-Dame, avec son clocher-porche gothique, est le point de repère central depuis lequel rayonnent les bornes. Le quai de la République, le long de la Corrèze, dispose de bornes en voirie.
@@ -1265,7 +1265,7 @@ Tulle, ville discrète de la France profonde, montre que la mobilité électriqu
     region: "Occitanie",
     population: 504078,
     nombreBornes: 800,
-    metaDescription: "800 bornes de recharge à Toulouse : ville rose, Airbus, Capitole, canal du Midi. Guide complet recharge véhicule électrique en Haute-Garonne.",
+    metaDescription: "800 bornes de recharge à Toulouse : ville rose, Airbus, Capitole, canal du Midi. Guide complet recharge véhicule électrique en Haute-Garonne.",
     contenu: `Toulouse, la Ville Rose et capitale européenne de l'aéronautique, dispose d'environ 800 bornes de recharge. Quatrième ville de France, Toulouse conjugue innovation technologique, art de vivre occitan et engagement pour la mobilité durable.
 
 La place du Capitole, cœur de Toulouse avec son imposant Hôtel de Ville, est desservie par des bornes dans le parking souterrain du Capitole. Le quartier Saint-Étienne, avec sa cathédrale et ses hôtels particuliers Renaissance, offre des bornes dans les parkings Esquirol et Saint-Étienne. La basilique Saint-Sernin, chef-d'œuvre roman, est accessible depuis des bornes à proximité.
@@ -1294,7 +1294,7 @@ Toulouse, ville d'Ariane et d'Airbus, construit les avions du futur et emprunte 
     region: "Occitanie",
     population: 299096,
     nombreBornes: 550,
-    metaDescription: "550 bornes de recharge à Montpellier : Écusson, Antigone, Odysseum, littoral méditerranéen. Guide recharge véhicule électrique dans l'Hérault.",
+    metaDescription: "550 bornes de recharge à Montpellier : Écusson, Antigone, Odysseum, littoral méditerranéen. Guide recharge véhicule électrique dans l'Hérault.",
     contenu: `Montpellier, métropole méditerranéenne en pleine croissance, dispose d'environ 550 bornes de recharge. Septième ville de France, Montpellier séduit par son dynamisme, sa jeunesse universitaire et son engagement dans la mobilité durable.
 
 L'Écusson, centre historique médiéval de Montpellier, est desservi par des bornes dans les parkings souterrains. Le parking Comédie, sous la célèbre place de la Comédie et son opéra, offre des bornes. Le parking Antigone et celui de la place de l'Europe complètent le réseau du centre. Les ruelles de l'Écusson, avec leurs hôtels particuliers, se découvrent à pied après la recharge.
@@ -1309,7 +1309,7 @@ TotalEnergies, Allego et le réseau métropolitain assurent la couverture. L'A9,
 
 Montpellier a mis en place une ZFE dans son centre élargi. La ville, qui connaît une croissance démographique parmi les plus fortes de France, anticipe les besoins en recharge pour les nouveaux habitants. Le tramway, avec cinq lignes, complète l'offre de mobilité.
 
-La région Occitanie et la métropole de Montpellier proposent des aides cumulables pour l'achat de véhicules électriques et l'installation de bornes. Le tissu universitaire (80 000 étudiants) favorise une adoption rapide.
+La région Occitanie et la métropole de Montpellier proposent des aides cumulables pour l'achat de véhicules électriques et l'installation de bornes. Le tissu universitaire (80 000 étudiants) favorise une adoption rapide.
 
 Le domaine d'O, espace culturel et de spectacles, et le zoo de Lunaret, plus grand zoo gratuit de France, disposent de bornes. La feria de Montpellier et le Festival de Radio France attirent des publics qui trouvent des bornes dans la ville.
 
@@ -1323,7 +1323,7 @@ Montpellier, ville jeune et solaire, fait de la mobilité électrique un marqueu
     region: "Occitanie",
     population: 151001,
     nombreBornes: 200,
-    metaDescription: "200 bornes de recharge à Nîmes : arènes romaines, Maison Carrée, Pont du Gard. Guide recharge véhicule électrique dans le Gard.",
+    metaDescription: "200 bornes de recharge à Nîmes : arènes romaines, Maison Carrée, Pont du Gard. Guide recharge véhicule électrique dans le Gard.",
     contenu: `Nîmes, la Rome française avec son patrimoine antique exceptionnel, dispose d'environ 200 bornes de recharge. Cette préfecture du Gard, où les arènes romaines côtoient l'architecture contemporaine, s'équipe pour la mobilité du futur tout en honorant son passé millénaire.
 
 Les Arènes de Nîmes, amphithéâtre romain parmi les mieux conservés au monde, sont desservies par des bornes dans le parking Arènes et le parking des Costières. Les spectateurs de corridas, concerts et reconstitutions romaines peuvent recharger pendant les spectacles.
@@ -1332,7 +1332,7 @@ La Maison Carrée, temple romain du Ier siècle récemment inscrit au patrimoine
 
 Le quartier de la Fontaine, avec les jardins de la Fontaine, la tour Magne et le temple de Diane, est desservi par des bornes. Ces jardins du XVIIIe siècle, parmi les premiers jardins publics d'Europe, offrent une promenade agréable pendant la recharge.
 
-Le centre commercial Nîmes Etoile et la zone commerciale de Ville Active proposent des bornes dans leurs parkings. La gare de Nîmes-Pont du Gard (gare TGV) et la gare de Nîmes-centre sont équipées de bornes pour les voyageurs.
+Le centre commercial Nîmes Étoile et la zone commerciale de Ville Active proposent des bornes dans leurs parkings. La gare de Nîmes-Pont du Gard (gare TGV) et la gare de Nîmes-centre sont équipées de bornes pour les voyageurs.
 
 Le SDEG30 et TotalEnergies gèrent le réseau. L'A9 vers Montpellier et l'Espagne, et l'A54 vers Arles et la Camargue, disposent de stations de charge rapide. Le Pont du Gard, aqueduc romain à 25 km, offre des bornes dans son parking.
 
@@ -1352,14 +1352,14 @@ Nîmes, où les gladiateurs ont combattu et où les taureaux courent encore, ajo
     region: "Occitanie",
     population: 121875,
     nombreBornes: 150,
-    metaDescription: "150 bornes de recharge à Perpignan : capitale catalane, Castillet, plages méditerranéennes. Guide recharge véhicule électrique dans les Pyrénées-Orientales.",
+    metaDescription: "150 bornes de recharge à Perpignan : capitale catalane, Castillet, plages méditerranéennes. Guide recharge véhicule électrique dans les Pyrénées-Orientales.",
     contenu: `Perpignan, capitale du Roussillon et cité catalane, dispose d'environ 150 bornes de recharge. Cette ville baignée de soleil entre mer et montagne, aux portes de l'Espagne, développe un réseau de mobilité électrique à la hauteur de son dynamisme.
 
 Le Castillet, forteresse médiévale emblème de Perpignan, marque l'entrée du centre historique où des bornes sont installées dans les parkings souterrains. Le parking Arago et celui du Palais des Rois de Majorque offrent des bornes. Ce palais forteresse du XIIIe siècle, témoignage du royaume de Majorque, se visite pendant la recharge.
 
 Le quai Vauban, le long de la Basse, et le quartier Saint-Jacques, ancien quartier gitan avec ses ruelles colorées, sont desservis par des bornes en voirie. La place de la Loge, cœur de la vie perpignanaise, est accessible depuis des bornes du centre.
 
-La gare de Perpignan, que Salvador Dalí proclamait « centre du monde », dispose de bornes dans son parking. Cette gare TGV, connectant Perpignan à Paris et Barcelone, est un nœud d'intermodalité essentiel. Le parking relais du bus est aussi équipé.
+La gare de Perpignan, que Salvador Dalí proclamait « centre du monde », dispose de bornes dans son parking. Cette gare TGV, connectant Perpignan à Paris et Barcelone, est un nœud d'intermodalité essentiel. Le parking relais du bus est aussi équipé.
 
 Les plages de Canet-en-Roussillon et Saint-Cyprien, à 10 km, offrent des bornes dans leurs parkings estivaux. La côte Vermeille, de Collioure à Cerbère, s'équipe aussi en bornes pour les visiteurs de ces joyaux méditerranéens.
 
@@ -1381,7 +1381,7 @@ Perpignan, vibrante cité catalane, intègre la mobilité électrique dans sa cu
     region: "Occitanie",
     population: 78683,
     nombreBornes: 90,
-    metaDescription: "90 bornes de recharge à Béziers : canal du Midi, écluses de Fonseranes, centre historique. Guide recharge véhicule électrique dans l'Hérault.",
+    metaDescription: "90 bornes de recharge à Béziers : canal du Midi, écluses de Fonseranes, centre historique. Guide recharge véhicule électrique dans l'Hérault.",
     contenu: `Béziers, ville millénaire dominant la plaine viticole de l'Hérault, dispose d'environ 90 bornes de recharge. Cette cité, fondée par les Grecs et traversée par le canal du Midi, offre un réseau de mobilité électrique en croissance dans un contexte de renouveau urbain.
 
 Le centre historique de Béziers, perché sur son oppidum au-dessus de l'Orb, est dominé par la cathédrale Saint-Nazaire. Les parkings du centre, notamment celui de la place du 14 Juillet et des allées Paul Riquet, offrent des bornes. Les allées Paul Riquet, promenade majestueuse bordée de platanes, sont le cœur social de Béziers.
@@ -1410,7 +1410,7 @@ Béziers, ville de Pierre-Paul Riquet qui a construit le canal du Midi, poursuit
     region: "Occitanie",
     population: 55479,
     nombreBornes: 65,
-    metaDescription: "65 bornes de recharge à Narbonne : ancienne capitale romaine, canal de la Robine, littoral audois. Guide recharge véhicule électrique dans l'Aude.",
+    metaDescription: "65 bornes de recharge à Narbonne : ancienne capitale romaine, canal de la Robine, littoral audois. Guide recharge véhicule électrique dans l'Aude.",
     contenu: `Narbonne, première colonie romaine en Gaule et ancienne capitale de la Narbonnaise, dispose d'environ 65 bornes de recharge. Cette ville traversée par le canal de la Robine, inscrit au patrimoine mondial, s'équipe pour la mobilité électrique entre lagunes et garrigues.
 
 Le centre-ville de Narbonne, autour du palais des Archevêques et de la cathédrale Saint-Just inachevée, offre des bornes dans les parkings. Le parking des Barques et celui de la Médiathèque sont équipés. Le canal de la Robine, qui traverse le cœur de ville, est bordé de bornes en voirie.
@@ -1419,7 +1419,7 @@ Les Halles de Narbonne, considérées comme l'un des plus beaux marchés couvert
 
 Le musée Narbo Via, inauguré en 2021, présente une collection exceptionnelle de blocs architecturaux romains. Son parking dispose de bornes, et la visite de ce musée moderne nécessite 2 à 3 heures, un temps idéal pour la recharge.
 
-Narbonne-Plage et Gruissan, stations balnéaires de la côte narbonnaise, offrent des bornes dans leurs parkings. Les chalets sur pilotis de Gruissan, rendus célèbres par le film « 37°2 le matin », sont un décor unique pour une pause recharge en bord de mer.
+Narbonne-Plage et Gruissan, stations balnéaires de la côte narbonnaise, offrent des bornes dans leurs parkings. Les chalets sur pilotis de Gruissan, rendus célèbres par le film « 37°2 le matin », sont un décor unique pour une pause recharge en bord de mer.
 
 Le SDEE11 gère le réseau de bornes dans l'Aude. L'A9 et l'A61 se croisent à Narbonne, en faisant un carrefour autoroutier équipé de stations de charge rapide. La position de Narbonne entre Montpellier, Perpignan et Toulouse est stratégique.
 
@@ -1439,7 +1439,7 @@ Narbonne, qui fut la première grande ville romaine hors d'Italie, continue d'é
     region: "Occitanie",
     population: 47068,
     nombreBornes: 50,
-    metaDescription: "50 bornes de recharge à Carcassonne : cité médiévale UNESCO, canal du Midi, bastide Saint-Louis. Guide recharge véhicule électrique dans l'Aude.",
+    metaDescription: "50 bornes de recharge à Carcassonne : cité médiévale UNESCO, canal du Midi, bastide Saint-Louis. Guide recharge véhicule électrique dans l'Aude.",
     contenu: `Carcassonne, dont la cité médiévale fortifiée est classée au patrimoine mondial de l'UNESCO, dispose d'environ 50 bornes de recharge. Cette ville à deux visages, entre la cité haute et la bastide basse, s'ouvre à la mobilité électrique pour accueillir ses millions de visiteurs.
 
 La Cité de Carcassonne, plus grand ensemble fortifié d'Europe, est desservie par des bornes dans les parkings extérieurs. Le parking de la Cité et le parking Chénier offrent des bornes permettant de recharger pendant la visite des remparts, du château comtal et de la basilique Saint-Nazaire. La visite prend 2 à 4 heures, un temps parfait pour la recharge.
@@ -1468,7 +1468,7 @@ Carcassonne, sentinelle de pierre dominant le Midi, garde désormais aussi l'ave
     region: "Occitanie",
     population: 49700,
     nombreBornes: 55,
-    metaDescription: "55 bornes de recharge à Albi : cité épiscopale UNESCO, musée Toulouse-Lautrec, Tarn. Guide recharge véhicule électrique dans le Tarn.",
+    metaDescription: "55 bornes de recharge à Albi : cité épiscopale UNESCO, musée Toulouse-Lautrec, Tarn. Guide recharge véhicule électrique dans le Tarn.",
     contenu: `Albi, cité épiscopale classée au patrimoine mondial de l'UNESCO, dispose d'environ 55 bornes de recharge. Cette préfecture du Tarn, dominée par l'imposante cathédrale Sainte-Cécile en brique rouge, allie patrimoine remarquable et engagement pour la mobilité durable.
 
 La cathédrale Sainte-Cécile, plus grande cathédrale en brique du monde, domine le centre-ville. Le parking de la place du Vigan et le parking Bondidou offrent des bornes à proximité. Le palais de la Berbie, ancienne résidence des évêques devenu musée Toulouse-Lautrec, est desservi par des bornes dans les rues adjacentes.
@@ -1497,7 +1497,7 @@ Albi, ville de Toulouse-Lautrec et de La Pérouse, conjugue arts, aventure et tr
     region: "Occitanie",
     population: 40600,
     nombreBornes: 45,
-    metaDescription: "45 bornes de recharge à Tarbes (65) : porte des Pyrénées, haras national, Lourdes à proximité. Guide recharge véhicule électrique.",
+    metaDescription: "45 bornes de recharge à Tarbes (65) : porte des Pyrénées, haras national, Lourdes à proximité. Guide recharge véhicule électrique.",
     contenu: `Tarbes, préfecture des Hautes-Pyrénées et porte d'entrée des grands cols pyrénéens, dispose d'environ 45 bornes de recharge. Cette ville militaire et sportive, au pied de la chaîne pyrénéenne, offre un réseau de recharge adapté aux besoins locaux et touristiques.
 
 Le centre-ville de Tarbes, autour de la place de Verdun et de la cathédrale Notre-Dame-de-la-Sède, offre des bornes dans les parkings. Le Haras National, l'un des plus prestigieux de France avec son jardin Massey et son musée international des Hussards, est desservi par des bornes dans les rues environnantes.
@@ -1526,7 +1526,7 @@ Tarbes, ville des chevaux et des sommets, galope vers la mobilité électrique a
     region: "Occitanie",
     population: 23200,
     nombreBornes: 25,
-    metaDescription: "25 bornes de recharge à Auch (32) : capitale de la Gascogne, cathédrale Sainte-Marie, d'Artagnan. Guide recharge véhicule électrique dans le Gers.",
+    metaDescription: "25 bornes de recharge à Auch (32) : capitale de la Gascogne, cathédrale Sainte-Marie, d'Artagnan. Guide recharge véhicule électrique dans le Gers.",
     contenu: `Auch, capitale historique de la Gascogne et préfecture du Gers, dispose d'environ 25 bornes de recharge. Cette ville perchée sur les coteaux dominant le Gers, patrie de d'Artagnan, développe son infrastructure de mobilité électrique au cœur d'un terroir généreux.
 
 La cathédrale Sainte-Marie, chef-d'œuvre de l'art gothique et Renaissance avec ses vitraux et ses stalles sculptées classées à l'UNESCO, domine le centre-ville. Des bornes sont disponibles dans les parkings de la place de la Libération et de la promenade. L'escalier monumental de 374 marches menant à la cathédrale offre un exercice physique pendant la recharge.
@@ -1545,7 +1545,7 @@ Le Gers, département le plus rural d'Occitanie, est un territoire où la mobili
 
 Auch se distingue par son art de vivre gascon, mélange de gastronomie, de rugby et de convivialité. Le foie gras se déguste mieux quand on sait que son véhicule ne pollue pas l'air pur de la campagne gersoise.
 
-Auch, cité de d'Artagnan, mène sa propre quête : celle de la mobilité propre dans un territoire rural qui mérite les mêmes avancées que les grandes villes.`,
+Auch, cité de d'Artagnan, mène sa propre quête : celle de la mobilité propre dans un territoire rural qui mérite les mêmes avancées que les grandes villes.`,
     dateMAJ: "2026-06-22"
   },
   {
@@ -1555,7 +1555,7 @@ Auch, cité de d'Artagnan, mène sa propre quête : celle de la mobilité propre
     region: "Occitanie",
     population: 19500,
     nombreBornes: 22,
-    metaDescription: "22 bornes de recharge à Cahors (46) : pont Valentré, vignoble de Malbec, vallée du Lot. Guide recharge véhicule électrique dans le Lot.",
+    metaDescription: "22 bornes de recharge à Cahors (46) : pont Valentré, vignoble de Malbec, vallée du Lot. Guide recharge véhicule électrique dans le Lot.",
     contenu: `Cahors, préfecture du Lot lovée dans un méandre de la rivière Lot, dispose d'environ 22 bornes de recharge. Cette ville au patrimoine médiéval remarquable, célèbre pour son pont Valentré et son vin de Malbec, développe son réseau de mobilité électrique.
 
 Le pont Valentré, pont fortifié du XIVe siècle classé à l'UNESCO et symbole de Cahors, est desservi par des bornes dans le parking du pont. Ce chef-d'œuvre d'architecture militaire médiévale, avec ses trois tours crénelées, se visite pendant la recharge.
@@ -1568,13 +1568,13 @@ Le vignoble de Cahors, dont le Malbec (ou Côt) produit des vins noirs et puissa
 
 Le SDEL46 gère le réseau de bornes. La N20 vers Toulouse (110 km) et l'A20 toute proche disposent de stations de charge rapide. Les routes tortueuses de la vallée du Lot et des causses sont magnifiques mais demandent une planification de la recharge.
 
-Le Lot offre des paysages parmi les plus beaux de France : les gouffres de Padirac et de Lacave, le village de Saint-Cirq-Lapopie (classé plus beau village de France), et Rocamadour, cité sacrée accrochée à la falaise. Des bornes sont installées à proximité de ces sites majeurs.
+Le Lot offre des paysages parmi les plus beaux de France : les gouffres de Padirac et de Lacave, le village de Saint-Cirq-Lapopie (classé plus beau village de France), et Rocamadour, cité sacrée accrochée à la falaise. Des bornes sont installées à proximité de ces sites majeurs.
 
 Le festival de blues de Cahors anime la ville chaque été, attirant un public qui peut recharger dans les bornes du centre. Les soirées de concerts au bord du Lot créent une atmosphère unique.
 
 Le Quercy, pays de causses calcaires et de vallées verdoyantes, se prête parfaitement à la découverte en véhicule électrique. Le silence du moteur permet d'apprécier le chant des oiseaux et le murmure du Lot.
 
-Cahors, ville de vin et de pierre, écrit un nouveau chapitre de son histoire avec la mobilité électrique. Le Malbec vieillit en barrique pendant que les batteries se rechargent : deux processus de maturation vers l'excellence.`,
+Cahors, ville de vin et de pierre, écrit un nouveau chapitre de son histoire avec la mobilité électrique. Le Malbec vieillit en barrique pendant que les batteries se rechargent : deux processus de maturation vers l'excellence.`,
     dateMAJ: "2026-06-22"
   },
   {
@@ -1584,7 +1584,7 @@ Cahors, ville de vin et de pierre, écrit un nouveau chapitre de son histoire av
     region: "Occitanie",
     population: 24700,
     nombreBornes: 30,
-    metaDescription: "30 bornes de recharge à Rodez (12) : musée Soulages, cathédrale, Aveyron. Guide recharge véhicule électrique dans l'Aveyron.",
+    metaDescription: "30 bornes de recharge à Rodez (12) : musée Soulages, cathédrale, Aveyron. Guide recharge véhicule électrique dans l'Aveyron.",
     contenu: `Rodez, préfecture de l'Aveyron perchée sur un piton rocheux, dispose d'environ 30 bornes de recharge. Cette ville, magnifiée par le musée Soulages et sa cathédrale en grès rose, s'ouvre à la mobilité électrique dans un département rural aux paysages grandioses.
 
 Le musée Soulages, conçu par les architectes catalans RCR pour abriter les œuvres de Pierre Soulages, est le joyau culturel de Rodez. Son parking dispose de bornes, et la visite de ce musée de renommée mondiale dure 1 à 2 heures, un bon créneau pour recharger.
@@ -1597,13 +1597,13 @@ La zone commerciale de Bel Air, au sud de la ville, offre des bornes dans les pa
 
 Le SDET12 gère le réseau de bornes avec un effort de maillage rural dans ce vaste département. L'A75 est accessible via la N88 et offre des stations de charge rapide vers Montpellier. La RN88, axe Toulouse-Lyon via Rodez, est jalonnée de bornes.
 
-L'Aveyron est un département de grands espaces : les gorges du Tarn, le viaduc de Millau, les caves de Roquefort et les villages templiers du Larzac attirent des visiteurs que les bornes rurales permettent d'accueillir en électrique.
+L'Aveyron est un département de grands espaces : les gorges du Tarn, le viaduc de Millau, les caves de Roquefort et les villages templiers du Larzac attirent des visiteurs que les bornes rurales permettent d'accueillir en électrique.
 
 Le viaduc de Millau, plus haut pont du monde (343 mètres), est à 60 km de Rodez. Des bornes à Millau et sur l'A75 permettent de visiter cette merveille d'ingénierie en véhicule électrique.
 
 L'Aveyron est aussi un territoire gastronomique avec l'aligot, le Roquefort et les tripoux. Les marchés et fermes-auberges du département accueillent les visiteurs en véhicule électrique dans un esprit d'authenticité.
 
-Rodez, ville de Soulages et de lumière noire, illumine aussi son territoire par ses bornes de recharge. L'art contemporain et la mobilité du futur partagent une même audace : celle de réinventer les conventions.`,
+Rodez, ville de Soulages et de lumière noire, illumine aussi son territoire par ses bornes de recharge. L'art contemporain et la mobilité du futur partagent une même audace : celle de réinventer les conventions.`,
     dateMAJ: "2026-06-22"
   },
   {
@@ -1613,7 +1613,7 @@ Rodez, ville de Soulages et de lumière noire, illumine aussi son territoire par
     region: "Occitanie",
     population: 12200,
     nombreBornes: 15,
-    metaDescription: "15 bornes de recharge à Mende (48) : plus petite préfecture de France, Margeride, Gévaudan. Guide recharge véhicule électrique en Lozère.",
+    metaDescription: "15 bornes de recharge à Mende (48) : plus petite préfecture de France, Margeride, Gévaudan. Guide recharge véhicule électrique en Lozère.",
     contenu: `Mende, plus petite préfecture de France métropolitaine nichée dans la vallée du Lot, dispose d'environ 15 bornes de recharge. Cette ville de la Lozère, département le moins peuplé de France, relève le défi de la mobilité électrique dans un territoire de montagnes et de grands espaces.
 
 La cathédrale Notre-Dame-et-Saint-Privat, avec ses deux clochers inégaux, domine le centre-ville. Le parking de la place du Foirail et les rues du centre offrent quelques bornes. Le pont Notre-Dame, pont médiéval enjambant le Lot, est à proximité de ces points de charge.
@@ -1624,7 +1624,7 @@ Le lac de Charpal, plan d'eau en altitude dans la Margeride, est accessible en v
 
 Le SDEE48 gère le réseau de bornes en Lozère, avec un maillage essentiel dans un département où les distances sont grandes et les alternatives de transport rares. L'A75, autoroute gratuite traversant la Lozère du nord au sud, offre des stations de charge rapide.
 
-La Lozère offre des paysages extraordinaires : les gorges du Tarn, les Causses, la Margeride, le Mont Lozère et les Cévennes. Le parc national des Cévennes, réserve de biosphère, est le cadre idéal pour une exploration en véhicule électrique silencieux.
+La Lozère offre des paysages extraordinaires : les gorges du Tarn, les Causses, la Margeride, le Mont Lozère et les Cévennes. Le parc national des Cévennes, réserve de biosphère, est le cadre idéal pour une exploration en véhicule électrique silencieux.
 
 La Bête du Gévaudan, mystère historique du XVIIIe siècle, fait partie du folklore local. Le parc du Gévaudan, réserve de loups à Sainte-Lucie, dispose de bornes et attire les familles curieuses de cette histoire fascinante.
 
@@ -1642,7 +1642,7 @@ Mende, petite par la taille mais grande par ses paysages, prouve que la mobilit�
     region: "Grand Est",
     population: 287228,
     nombreBornes: 500,
-    metaDescription: "500 bornes de recharge à Strasbourg : capitale européenne, Petite France, cathédrale. Guide complet recharge véhicule électrique dans le Bas-Rhin.",
+    metaDescription: "500 bornes de recharge à Strasbourg : capitale européenne, Petite France, cathédrale. Guide complet recharge véhicule électrique dans le Bas-Rhin.",
     contenu: `Strasbourg, capitale européenne et joyau alsacien, dispose d'environ 500 bornes de recharge. Cette métropole siège du Parlement européen et du Conseil de l'Europe allie tradition rhénane et modernité écologique dans son approche de la mobilité électrique.
 
 La Grande Île, centre historique classé au patrimoine mondial de l'UNESCO, est desservie par des bornes dans les parkings souterrains. Le parking Kléber, le parking Gutenberg et le parking de la Petite France offrent des bornes. La cathédrale Notre-Dame, avec sa flèche de 142 mètres, est accessible depuis ces bornes.
@@ -1671,12 +1671,12 @@ Strasbourg, ville rhénane et européenne, fait de la mobilité électrique un p
     region: "Grand Est",
     population: 120205,
     nombreBornes: 200,
-    metaDescription: "200 bornes de recharge à Metz : Centre Pompidou-Metz, cathédrale, quartier impérial. Guide recharge véhicule électrique en Moselle.",
+    metaDescription: "200 bornes de recharge à Metz : Centre Pompidou-Metz, cathédrale, quartier impérial. Guide recharge véhicule électrique en Moselle.",
     contenu: `Metz, préfecture de la Moselle et ancienne capitale de l'Austrasie, dispose d'environ 200 bornes de recharge. Cette ville aux 3000 ans d'histoire, illuminée par les vitraux de sa cathédrale et par le Centre Pompidou-Metz, s'engage dans la mobilité du futur.
 
 Le Centre Pompidou-Metz, antenne du célèbre musée parisien avec son toit spectaculaire en forme de chapeau chinois, dispose de bornes dans son parking. Ce musée d'art contemporain attire des visiteurs de toute l'Europe, et les bornes facilitent l'accès en véhicule électrique depuis l'Allemagne, le Luxembourg et la Belgique.
 
-La cathédrale Saint-Étienne, surnommée la « lanterne du bon Dieu » grâce à ses 6500 m² de vitraux (les plus étendus de France), est au cœur d'un centre historique desservi par des bornes. Le parking République et le parking Coislin offrent des bornes à proximité.
+La cathédrale Saint-Étienne, surnommée la « lanterne du bon Dieu » grâce à ses 6500 m² de vitraux (les plus étendus de France), est au cœur d'un centre historique desservi par des bornes. Le parking République et le parking Coislin offrent des bornes à proximité.
 
 Le quartier impérial allemand, construit entre 1871 et 1918, avec ses bâtiments néo-romans imposants, dispose de bornes dans ses larges avenues. La gare de Metz, chef-d'œuvre de l'architecture néo-romane, est desservie par des bornes dans son parking.
 
@@ -1700,7 +1700,7 @@ Metz, ville de lumière dorée par la pierre de Jaumont, brille aussi par son en
     region: "Grand Est",
     population: 104885,
     nombreBornes: 180,
-    metaDescription: "180 bornes de recharge à Nancy : place Stanislas, Art nouveau, parc de la Pépinière. Guide recharge véhicule électrique en Meurthe-et-Moselle.",
+    metaDescription: "180 bornes de recharge à Nancy : place Stanislas, Art nouveau, parc de la Pépinière. Guide recharge véhicule électrique en Meurthe-et-Moselle.",
     contenu: `Nancy, cité ducale de Lorraine et ville d'Art nouveau, dispose d'environ 180 bornes de recharge. Cette ville, célèbre pour sa place Stanislas classée à l'UNESCO, conjugue élégance architecturale et engagement dans la mobilité électrique.
 
 La place Stanislas, considérée comme l'une des plus belles places du monde avec ses grilles dorées de Jean Lamour, est desservie par des bornes dans le parking souterrain de la place. Ce parking offre un accès direct au cœur de Nancy, entre la place de la Carrière et le palais du Gouvernement.
@@ -1729,7 +1729,7 @@ Nancy, ville de Stanislas et de l'Art nouveau, dessine l'avenir de sa mobilité 
     region: "Grand Est",
     population: 184076,
     nombreBornes: 250,
-    metaDescription: "250 bornes de recharge à Reims : cathédrale du sacre, champagne, crayères. Guide recharge véhicule électrique dans la Marne.",
+    metaDescription: "250 bornes de recharge à Reims : cathédrale du sacre, champagne, crayères. Guide recharge véhicule électrique dans la Marne.",
     contenu: `Reims, cité des sacres où furent couronnés les rois de France, dispose d'environ 250 bornes de recharge. Cette métropole champenoise, capitale du champagne, allie patrimoine mondial et innovation dans sa transition vers la mobilité électrique.
 
 La cathédrale Notre-Dame de Reims, chef-d'œuvre gothique où furent sacrés 33 rois de France, est desservie par des bornes dans le parking de la cathédrale. Le palais du Tau, ancien palais archiépiscopal, et la basilique Saint-Remi sont aussi accessibles depuis des bornes.
@@ -1748,7 +1748,7 @@ La route touristique du Champagne traverse les grands crus (Montagne de Reims, V
 
 Les Fêtes Johanniques, qui célèbrent le sacre de Charles VII par Jeanne d'Arc, et les Flâneries Musicales de Reims animent l'été rémois. Les bornes du centre facilitent l'accès à ces événements culturels.
 
-Reims, ville du sacre et du champagne, couronne aussi la mobilité du futur. Les bulles de champagne et les bornes de recharge partagent une même promesse : l'effervescence de l'innovation au service du plaisir.`,
+Reims, ville du sacre et du champagne, couronne aussi la mobilité du futur. Les bulles de champagne et les bornes de recharge partagent une même promesse : l'effervescence de l'innovation au service du plaisir.`,
     dateMAJ: "2026-06-22"
   },
   {
@@ -1758,7 +1758,7 @@ Reims, ville du sacre et du champagne, couronne aussi la mobilité du futur. Les
     region: "Grand Est",
     population: 109588,
     nombreBornes: 150,
-    metaDescription: "150 bornes de recharge à Mulhouse : Cité de l'Automobile, centre historique, proximité Suisse et Allemagne. Guide recharge véhicule électrique.",
+    metaDescription: "150 bornes de recharge à Mulhouse : Cité de l'Automobile, centre historique, proximité Suisse et Allemagne. Guide recharge véhicule électrique.",
     contenu: `Mulhouse, capitale économique du sud de l'Alsace, dispose d'environ 150 bornes de recharge. Cette ville industrielle dynamique, célèbre pour ses musées techniques et sa proximité avec la Suisse et l'Allemagne, s'engage dans la mobilité électrique.
 
 La Cité de l'Automobile (Collection Schlumpf), plus grand musée automobile du monde avec plus de 400 voitures, est un lieu emblématique pour les amateurs de mobilité. Son parking dispose de bornes, créant un lien symbolique entre l'automobile d'hier et celle de demain. La visite dure 2 à 3 heures, idéal pour la recharge.
@@ -1787,8 +1787,8 @@ Mulhouse, ville de l'automobile et du train, ajoute naturellement la mobilité �
     region: "Grand Est",
     population: 61996,
     nombreBornes: 80,
-    metaDescription: "80 bornes de recharge à Troyes : capitale de la bonneterie, bouchon de Champagne, magasins d'usine. Guide recharge véhicule électrique dans l'Aube.",
-    contenu: `Troyes, capitale historique de la Champagne et ville du bouchon de champagne (son centre-ville en a la forme), dispose d'environ 80 bornes de recharge. Cette cité médiévale aux maisons à colombages, devenue capitale des magasins d'usine, développe sa mobilité électrique.
+    metaDescription: "80 bornes de recharge à Troyes : capitale de la bonneterie, bouchon de Champagne, magasins d'usine. Guide recharge véhicule électrique dans l'Aube.",
+    contenu: `Troyes, capitale historique de la Champagne et ville du bouchon de champagne (son centre-ville en à la forme), dispose d'environ 80 bornes de recharge. Cette cité médiévale aux maisons à colombages, devenue capitale des magasins d'usine, développe sa mobilité électrique.
 
 Le centre-ville, dont le plan rappelle un bouchon de champagne, offre des bornes dans les parkings. Le parking de la Halle aux Draps et le parking Cathédrale sont équipés. La cathédrale Saint-Pierre-et-Saint-Paul, avec ses vitraux exceptionnels, et l'église Sainte-Madeleine sont accessibles depuis ces bornes.
 
@@ -1816,7 +1816,7 @@ Troyes, ville de l'élégance textile et du patrimoine verrier, tisse désormais
     region: "Grand Est",
     population: 71400,
     nombreBornes: 95,
-    metaDescription: "95 bornes de recharge à Colmar : Petite Venise, musée Unterlinden, route des vins d'Alsace. Guide recharge véhicule électrique dans le Haut-Rhin.",
+    metaDescription: "95 bornes de recharge à Colmar : Petite Venise, musée Unterlinden, route des vins d'Alsace. Guide recharge véhicule électrique dans le Haut-Rhin.",
     contenu: `Colmar, perle de l'Alsace au cœur du vignoble, dispose d'environ 95 bornes de recharge. Cette ville, avec sa Petite Venise et ses maisons à colombages multicolores, offre un cadre enchanteur pour la mobilité électrique sur la route des vins.
 
 La Petite Venise, quartier de canaux et de maisons colorées à pans de bois, est le joyau de Colmar. Les bornes dans les parkings du Rapp et de la place de la Mairie permettent de visiter ce quartier pittoresque à pied. Les promenades en barque sur la Lauch complètent l'expérience.
@@ -1845,14 +1845,14 @@ Colmar, ville de Bartholdi (créateur de la Statue de la Liberté), illumine la 
     region: "Grand Est",
     population: 47400,
     nombreBornes: 50,
-    metaDescription: "50 bornes de recharge à Charleville-Mézières : place Ducale, Rimbaud, Ardennes. Guide recharge véhicule électrique dans les Ardennes.",
+    metaDescription: "50 bornes de recharge à Charleville-Mézières : place Ducale, Rimbaud, Ardennes. Guide recharge véhicule électrique dans les Ardennes.",
     contenu: `Charleville-Mézières, préfecture des Ardennes et ville natale d'Arthur Rimbaud, dispose d'environ 50 bornes de recharge. Cette ville double, née de la fusion de deux cités sur les rives de la Meuse, développe sa mobilité électrique dans un cadre de collines boisées et de forêts profondes.
 
 La place Ducale, réplique ardennaise de la place des Vosges avec ses pavillons de brique et de pierre, est le cœur de Charleville. Le parking souterrain de la place offre des bornes, permettant de profiter de cette place harmonieuse et de ses arcades commerçantes pendant la recharge.
 
-Le musée Arthur Rimbaud, installé dans l'ancien moulin sur les bords de la Meuse, est desservi par des bornes en voirie. Le poète des « voyelles » et du « bateau ivre » inspirerait sans doute quelques vers sur les véhicules silencieux. Sa maison natale, dans la rue Thiers, est aussi à proximité de bornes.
+Le musée Arthur Rimbaud, installé dans l'ancien moulin sur les bords de la Meuse, est desservi par des bornes en voirie. Le poète des « voyelles » et du « bateau ivre » inspirerait sans doute quelques vers sur les véhicules silencieux. Sa maison natale, dans la rue Thiers, est aussi à proximité de bornes.
 
-Le Festival Mondial des Théâtres de Marionnettes, événement biennal unique au monde, transforme la ville en scène géante tous les deux ans. Pendant le festival, les bornes de la ville sont très sollicitées par les 150 000 visiteurs.
+Le Festival Mondial des Théâtres de Marionnettes, événement biennal unique au monde, transforme la ville en scène géante tous les deux ans. Pendant le festival, les bornes de la ville sont très sollicitées par les 150 000 visiteurs.
 
 Le quartier de Mézières, avec sa basilique Notre-Dame d'Espérance aux vitraux de René Dürrbach (collaborateur de Picasso), offre des bornes dans ses rues. Les remparts de Mézières, avec leurs bastions, sont un lieu de promenade accessible depuis des bornes.
 
@@ -1874,7 +1874,7 @@ Charleville-Mézières, ville de Rimbaud et des marionnettes, anime ses rues de 
     region: "Grand Est",
     population: 31800,
     nombreBornes: 40,
-    metaDescription: "40 bornes de recharge à Épinal (88) : images d'Épinal, Vosges, lac, musée de l'Image. Guide recharge véhicule électrique dans les Vosges.",
+    metaDescription: "40 bornes de recharge à Épinal (88) : images d'Épinal, Vosges, lac, musée de l'Image. Guide recharge véhicule électrique dans les Vosges.",
     contenu: `Épinal, préfecture des Vosges célèbre pour ses images populaires colorées, dispose d'environ 40 bornes de recharge. Cette ville verdoyante traversée par la Moselle développe son réseau de mobilité électrique au cœur d'un massif forestier et thermal.
 
 Le centre-ville d'Épinal, autour de la place des Vosges et de la basilique Saint-Maurice, offre des bornes dans les parkings. Le musée de l'Image, consacré aux célèbres images d'Épinal produites depuis 1796, est desservi par des bornes. L'imagerie d'Épinal, atelier toujours en activité, est aussi à proximité.
@@ -1893,7 +1893,7 @@ Vittel et Contrexéville, villes d'eau voisines d'Épinal, disposent de bornes. 
 
 Le festival des Imaginales, dédié aux littératures de l'imaginaire, anime Épinal chaque printemps. Les bornes du parc du Cours permettent aux visiteurs du festival de recharger dans le cadre verdoyant de l'événement.
 
-Épinal, ville d'images et de nature, colorie son avenir en vert avec la mobilité électrique. Les estampes colorées de l'imagerie font désormais place à un nouveau tableau : celui d'une ville engagée dans la transition énergétique.`,
+Épinal, ville d'images et de nature, colorie son avenir en vert avec la mobilité électrique. Les estampes colorées de l'imagerie font désormais place à un nouveau tableau : celui d'une ville engagée dans la transition énergétique.`,
     dateMAJ: "2026-06-22"
   },
   {
@@ -1903,10 +1903,10 @@ Le festival des Imaginales, dédié aux littératures de l'imaginaire, anime Ép
     region: "Grand Est",
     population: 15100,
     nombreBornes: 20,
-    metaDescription: "20 bornes de recharge à Bar-le-Duc (55) : ville Renaissance, confiture de groseilles, Meuse. Guide recharge véhicule électrique.",
+    metaDescription: "20 bornes de recharge à Bar-le-Duc (55) : ville Renaissance, confiture de groseilles, Meuse. Guide recharge véhicule électrique.",
     contenu: `Bar-le-Duc, préfecture de la Meuse et ville d'art et d'histoire, dispose d'environ 20 bornes de recharge. Cette cité Renaissance, célèbre pour sa confiture de groseilles épépinées à la plume d'oie, développe son infrastructure de mobilité électrique dans un territoire marqué par l'histoire.
 
-La ville haute, quartier Renaissance remarquable avec ses hôtels particuliers du XVIe siècle, offre des bornes dans les parkings du quartier. L'église Saint-Étienne, qui abrite le célèbre « Transi » de Ligier Richier (sculpture macabre de la Renaissance), est accessible depuis ces bornes.
+La ville haute, quartier Renaissance remarquable avec ses hôtels particuliers du XVIe siècle, offre des bornes dans les parkings du quartier. L'église Saint-Étienne, qui abrite le célèbre « Transi » de Ligier Richier (sculpture macabre de la Renaissance), est accessible depuis ces bornes.
 
 La ville basse, centre commercial et administratif le long du canal de la Marne au Rhin, dispose de bornes dans les rues principales. La place Reggio, le théâtre et la préfecture sont desservis par des bornes en voirie.
 
@@ -1932,7 +1932,7 @@ Bar-le-Duc, petite ville au grand patrimoine, prouve que la taille n'empêche pa
     region: "Grand Est",
     population: 22200,
     nombreBornes: 25,
-    metaDescription: "25 bornes de recharge à Chaumont (52) : festival du graphisme, viaduc, Haute-Marne. Guide recharge véhicule électrique.",
+    metaDescription: "25 bornes de recharge à Chaumont (52) : festival du graphisme, viaduc, Haute-Marne. Guide recharge véhicule électrique.",
     contenu: `Chaumont, préfecture de la Haute-Marne perchée sur un éperon rocheux, dispose d'environ 25 bornes de recharge. Cette ville, connue pour son festival international de l'affiche et du graphisme, et son viaduc ferroviaire spectaculaire, s'ouvre à la mobilité électrique.
 
 Le centre-ville de Chaumont, avec sa basilique Saint-Jean-Baptiste et son donjon médiéval, offre des bornes dans les parkings du centre. La place de la Concorde et les rues commerçantes sont accessibles depuis ces bornes. Le théâtre, les musées et les commerces du centre s'atteignent à pied.
@@ -1961,7 +1961,7 @@ Chaumont, ville de graphisme et de pierre, dessine sa mobilité du futur avec la
     region: "Grand Est",
     population: 16800,
     nombreBornes: 22,
-    metaDescription: "22 bornes de recharge à Verdun (55) : ville de mémoire, citadelle souterraine, dragées. Guide recharge véhicule électrique dans la Meuse.",
+    metaDescription: "22 bornes de recharge à Verdun (55) : ville de mémoire, citadelle souterraine, dragées. Guide recharge véhicule électrique dans la Meuse.",
     contenu: `Verdun, ville de mémoire et symbole de la Grande Guerre, dispose d'environ 22 bornes de recharge. Cette sous-préfecture de la Meuse, traversée par le fleuve du même nom, accueille chaque année des centaines de milliers de visiteurs venant se recueillir sur les champs de bataille.
 
 Le centre-ville de Verdun, avec la cathédrale Notre-Dame et le palais épiscopal, offre des bornes dans les parkings du quai de Londres et de la place Chevert. La porte Chaussée, monument médiéval, et le pont des Augustins sont à proximité de bornes.
@@ -1990,7 +1990,7 @@ Verdun, ville où la mémoire de la guerre nourrit un idéal de paix, ajoute la 
     region: "Hauts-de-France",
     population: 236234,
     nombreBornes: 450,
-    metaDescription: "450 bornes de recharge à Lille : Grand'Place, Vieux-Lille, Euralille. Guide complet recharge véhicule électrique dans le Nord.",
+    metaDescription: "450 bornes de recharge à Lille : Grand'Place, Vieux-Lille, Euralille. Guide complet recharge véhicule électrique dans le Nord.",
     contenu: `Lille, capitale des Flandres et métropole européenne du nord de la France, dispose d'environ 450 bornes de recharge. Cette ville chaleureuse, à la croisée de Paris, Londres et Bruxelles, offre un réseau de mobilité électrique à la hauteur de son ambition européenne.
 
 La Grand'Place (place du Général de Gaulle), cœur de Lille avec ses façades flamandes et la Vieille Bourse, est desservie par le parking souterrain de la Grand'Place. Le Vieux-Lille, quartier de maisons anciennes et de boutiques élégantes, dispose de bornes dans les rues adjacentes et le parking du Théâtre.
@@ -2019,7 +2019,7 @@ Lille, ville de Flandre au cœur grand, fait de la mobilité électrique une exp
     region: "Hauts-de-France",
     population: 135501,
     nombreBornes: 180,
-    metaDescription: "180 bornes de recharge à Amiens : cathédrale UNESCO, hortillonnages, quartier Saint-Leu. Guide recharge véhicule électrique dans la Somme.",
+    metaDescription: "180 bornes de recharge à Amiens : cathédrale UNESCO, hortillonnages, quartier Saint-Leu. Guide recharge véhicule électrique dans la Somme.",
     contenu: `Amiens, préfecture de la Somme, dispose d'environ 180 bornes de recharge. Cette ville, qui abrite la plus grande cathédrale gothique de France et les célèbres hortillonnages, développe sa mobilité électrique dans un cadre fluvial et patrimonial remarquable.
 
 La cathédrale Notre-Dame d'Amiens, classée à l'UNESCO et chef-d'œuvre du gothique rayonnant, est desservie par des bornes dans le parking de la place Saint-Michel. Ce vaisseau de pierre, deux fois plus vaste que Notre-Dame de Paris, mérite une visite de 1 à 2 heures, un temps idéal pour la recharge.
@@ -2048,7 +2048,7 @@ Amiens, ville de Jules Verne et de la cathédrale, navigue vers l'avenir en véh
     region: "Hauts-de-France",
     population: 86200,
     nombreBornes: 100,
-    metaDescription: "100 bornes de recharge à Dunkerque : port, carnaval, beffroi UNESCO, plages du Nord. Guide recharge véhicule électrique dans le Nord.",
+    metaDescription: "100 bornes de recharge à Dunkerque : port, carnaval, beffroi UNESCO, plages du Nord. Guide recharge véhicule électrique dans le Nord.",
     contenu: `Dunkerque, troisième port de France et cité corsaire du Nord, dispose d'environ 100 bornes de recharge. Cette ville maritime, célèbre pour son carnaval et son beffroi classé à l'UNESCO, développe sa mobilité électrique face à la mer du Nord.
 
 Le beffroi de Saint-Éloi, classé au patrimoine mondial, domine le centre-ville. Le parking de la place Jean Bart, où trône la statue du célèbre corsaire dunkerquois, offre des bornes. Le musée portuaire et le Lieu d'Art et Action Contemporaine (LAAC) sont desservis par des bornes à proximité.
@@ -2077,7 +2077,7 @@ Dunkerque, ville de corsaires et de carnavaleux, navigue vers un avenir électri
     region: "Hauts-de-France",
     population: 98828,
     nombreBornes: 85,
-    metaDescription: "85 bornes de recharge à Roubaix : La Piscine musée, textile, Paris-Roubaix. Guide recharge véhicule électrique dans le Nord.",
+    metaDescription: "85 bornes de recharge à Roubaix : La Piscine musée, textile, Paris-Roubaix. Guide recharge véhicule électrique dans le Nord.",
     contenu: `Roubaix, ancienne capitale mondiale du textile, dispose d'environ 85 bornes de recharge. Cette ville en pleine renaissance, célèbre pour La Piscine (musée d'art et d'industrie) et la course cycliste Paris-Roubaix, développe sa mobilité électrique dans le cadre de sa réinvention.
 
 La Piscine, musée installé dans une ancienne piscine Art déco, est le joyau culturel de Roubaix. Son parking dispose de bornes, et la visite de ce musée exceptionnel dure 1 à 2 heures. La collection mêle beaux-arts, arts appliqués et textile, reflétant l'identité de la ville.
@@ -2092,9 +2092,9 @@ Le réseau métropolitain et TotalEnergies gèrent les bornes. La proximité de 
 
 Roubaix est dans la ZFE de la MEL. Le véhicule électrique est donc un avantage pour circuler sans restriction. Le métro et le tramway complètent l'offre de mobilité.
 
-Paris-Roubaix, « l'enfer du Nord » cycliste, arrive chaque année au vélodrome de Roubaix. Les bornes à proximité du vélodrome permettent aux spectateurs de recharger pendant cette course mythique sur les pavés.
+Paris-Roubaix, « l'enfer du Nord » cycliste, arrive chaque année au vélodrome de Roubaix. Les bornes à proximité du vélodrome permettent aux spectateurs de recharger pendant cette course mythique sur les pavés.
 
-Roubaix est engagée dans le mouvement « Zéro déchet » et le commerce solidaire. Cette conscience environnementale se prolonge dans l'adoption de la mobilité électrique par une population sensibilisée.
+Roubaix est engagée dans le mouvement « Zéro déchet » et le commerce solidaire. Cette conscience environnementale se prolonge dans l'adoption de la mobilité électrique par une population sensibilisée.
 
 Roubaix, ville de fil et d'aiguille, tisse maintenant les fils de sa mobilité électrique. L'ancienne reine du textile réinvente son identité avec la même créativité qui a fait sa prospérité industrielle.`,
     dateMAJ: "2026-06-22"
@@ -2106,7 +2106,7 @@ Roubaix, ville de fil et d'aiguille, tisse maintenant les fils de sa mobilité �
     region: "Hauts-de-France",
     population: 97990,
     nombreBornes: 80,
-    metaDescription: "80 bornes de recharge à Tourcoing : MUba, jardin botanique, frontière belge. Guide recharge véhicule électrique dans le Nord.",
+    metaDescription: "80 bornes de recharge à Tourcoing : MUba, jardin botanique, frontière belge. Guide recharge véhicule électrique dans le Nord.",
     contenu: `Tourcoing, ville frontalière du Nord jumelle de Roubaix, dispose d'environ 80 bornes de recharge. Cette ancienne cité textile, en pleine mutation urbaine, développe sa mobilité électrique au carrefour de la France et de la Belgique.
 
 Le MUba Eugène Leroy, musée des beaux-arts installé dans un bâtiment du XIXe siècle, est le phare culturel de Tourcoing. Des bornes à proximité permettent de recharger pendant la visite de collections allant de la peinture flamande à l'art contemporain.
@@ -2135,7 +2135,7 @@ Tourcoing, ville de textile et de frontière, traverse les fils du temps vers un
     region: "Hauts-de-France",
     population: 72800,
     nombreBornes: 75,
-    metaDescription: "75 bornes de recharge à Calais : Eurotunnel, Côte d'Opale, dentelle. Guide recharge véhicule électrique dans le Pas-de-Calais.",
+    metaDescription: "75 bornes de recharge à Calais : Eurotunnel, Côte d'Opale, dentelle. Guide recharge véhicule électrique dans le Pas-de-Calais.",
     contenu: `Calais, ville du détroit la plus proche de l'Angleterre, dispose d'environ 75 bornes de recharge. Cette cité de la dentelle et des Bourgeois de Calais est un passage obligé entre la France et le Royaume-Uni, rendant la mobilité électrique particulièrement stratégique.
 
 Le centre-ville de Calais, avec l'hôtel de ville et son beffroi classé UNESCO, offre des bornes dans les parkings. La sculpture des Bourgeois de Calais par Auguste Rodin, devant l'hôtel de ville, est un chef-d'œuvre accessible depuis ces bornes. La Cité Internationale de la Dentelle et de la Mode, installée dans une ancienne usine, dispose aussi de bornes à proximité.
@@ -2164,10 +2164,10 @@ Calais, porte de la France face à l'Angleterre, ouvre aussi la porte de la mobi
     region: "Hauts-de-France",
     population: 40700,
     nombreBornes: 45,
-    metaDescription: "45 bornes de recharge à Boulogne-sur-Mer : Nausicaá, ville fortifiée, premier port de pêche français. Guide recharge véhicule électrique.",
+    metaDescription: "45 bornes de recharge à Boulogne-sur-Mer : Nausicaá, ville fortifiée, premier port de pêche français. Guide recharge véhicule électrique.",
     contenu: `Boulogne-sur-Mer, premier port de pêche de France et ville au double visage entre haute ville fortifiée et basse ville portuaire, dispose d'environ 45 bornes de recharge. Cette cité côtière, qui abrite Nausicaá, plus grand aquarium d'Europe, développe sa mobilité électrique.
 
-Nausicaá, Centre National de la Mer, est le principal attrait touristique. Son vaste parking dispose de bornes, et la visite de cet aquarium spectaculaire dure 3 à 4 heures, un temps optimal pour une recharge complète. Le bassin de haute mer de 10 000 m³ est une prouesse technique qui fascine les visiteurs.
+Nausicaá, Centre National de la Mer, est le principal attrait touristique. Son vaste parking dispose de bornes, et la visite de cet aquarium spectaculaire dure 3 à 4 heures, un temps optimal pour une recharge complète. Le bassin de haute mer de 10 000 m³ est une prouesse technique qui fascine les visiteurs.
 
 La haute ville fortifiée, enceinte médiévale abritant le château-musée, la basilique Notre-Dame et le beffroi classé UNESCO, offre des bornes dans les parkings au pied des remparts. Cette ville close, l'une des mieux conservées du nord de la France, se visite à pied après la recharge.
 
@@ -2193,8 +2193,8 @@ Boulogne-sur-Mer, ville de pêcheurs et d'aventuriers maritimes, jette l'ancre d
     region: "Hauts-de-France",
     population: 43400,
     nombreBornes: 55,
-    metaDescription: "55 bornes de recharge à Valenciennes : musée des Beaux-Arts, Hainaut, Toyota. Guide recharge véhicule électrique dans le Nord.",
-    contenu: `Valenciennes, « l'Athènes du Nord » célèbre pour ses peintres (Watteau, Carpeaux) et son industrie automobile (Toyota), dispose d'environ 55 bornes de recharge. Cette sous-préfecture du Nord allie tradition artistique et modernité industrielle.
+    metaDescription: "55 bornes de recharge à Valenciennes : musée des Beaux-Arts, Hainaut, Toyota. Guide recharge véhicule électrique dans le Nord.",
+    contenu: `Valenciennes, « l'Athènes du Nord » célèbre pour ses peintres (Watteau, Carpeaux) et son industrie automobile (Toyota), dispose d'environ 55 bornes de recharge. Cette sous-préfecture du Nord allie tradition artistique et modernité industrielle.
 
 Le musée des Beaux-Arts de Valenciennes, l'un des plus riches du nord de la France avec des œuvres de Rubens, Watteau et Carpeaux, est desservi par des bornes. Le centre-ville, autour de la place d'Armes et de l'église Saint-Géry, offre des bornes dans les parkings.
 
@@ -2222,7 +2222,7 @@ Valenciennes, de Watteau à Toyota, peint sa mobilité du futur avec les couleur
     region: "Hauts-de-France",
     population: 40600,
     nombreBornes: 50,
-    metaDescription: "50 bornes de recharge à Arras : Grand'Place, beffroi UNESCO, boves souterraines. Guide recharge véhicule électrique dans le Pas-de-Calais.",
+    metaDescription: "50 bornes de recharge à Arras : Grand'Place, beffroi UNESCO, boves souterraines. Guide recharge véhicule électrique dans le Pas-de-Calais.",
     contenu: `Arras, préfecture du Pas-de-Calais aux deux places baroques somptueuses, dispose d'environ 50 bornes de recharge. Cette ville d'art et d'histoire, célèbre pour ses places à arcades, son beffroi et ses souterrains, développe sa mobilité électrique.
 
 La Grand'Place et la place des Héros, ensemble baroque flamand unique avec 155 façades à pignons et arcades, sont desservies par le parking souterrain des Héros. Ce parking dispose de bornes, et les deux places constituent l'un des plus beaux décors urbains de France.
@@ -2237,7 +2237,7 @@ Le SE62 et TotalEnergies gèrent le réseau. L'A26 vers Calais et Reims et l'A1 
 
 Arras est un haut lieu de mémoire de la Première Guerre mondiale. Le mémorial de Vimy, la nécropole de Notre-Dame-de-Lorette et les carrières de Wellington sont accessibles en véhicule électrique, avec des bornes à proximité de ces lieux de recueillement.
 
-Le Main Square Festival, l'un des plus grands festivals de musique du nord de la France, attire 100 000 spectateurs à la Citadelle chaque été. Les bornes du quartier permettent de recharger pendant les concerts.
+Le Main Square Festival, l'un des plus grands festivals de musique du nord de la France, attire 100 000 spectateurs à la Citadelle chaque été. Les bornes du quartier permettent de recharger pendant les concerts.
 
 L'andouillette d'Arras, le cœur d'Arras (gâteau au chocolat) et les bières artisanales de l'Artois composent une gastronomie généreuse accessible depuis les bornes du centre.
 
@@ -2251,7 +2251,7 @@ Arras, ville de places et de mémoire, ajoute la mobilité électrique à ses no
     region: "Hauts-de-France",
     population: 57400,
     nombreBornes: 60,
-    metaDescription: "60 bornes de recharge à Beauvais : cathédrale inachevée, aéroport, Maladrerie Saint-Lazare. Guide recharge véhicule électrique dans l'Oise.",
+    metaDescription: "60 bornes de recharge à Beauvais : cathédrale inachevée, aéroport, Maladrerie Saint-Lazare. Guide recharge véhicule électrique dans l'Oise.",
     contenu: `Beauvais, préfecture de l'Oise, dispose d'environ 60 bornes de recharge. Cette ville, célèbre pour sa cathédrale au chœur le plus haut du monde gothique et son aéroport low-cost desservant toute l'Europe, développe sa mobilité électrique.
 
 La cathédrale Saint-Pierre de Beauvais, dont le chœur atteint 48 mètres de hauteur (record mondial du gothique), est desservie par des bornes dans le parking de la place des Halles. Cette cathédrale inachevée, dont la nef n'a jamais été construite, est un monument qui fascine par son ambition démesurée.
@@ -2280,7 +2280,7 @@ Beauvais, ville du gothique le plus audacieux, regarde vers le haut et vers l'av
     region: "Hauts-de-France",
     population: 25300,
     nombreBornes: 25,
-    metaDescription: "25 bornes de recharge à Laon (02) : ville haute médiévale, cathédrale, POMA. Guide recharge véhicule électrique dans l'Aisne.",
+    metaDescription: "25 bornes de recharge à Laon (02) : ville haute médiévale, cathédrale, POMA. Guide recharge véhicule électrique dans l'Aisne.",
     contenu: `Laon, préfecture de l'Aisne perchée sur une butte témoin dominant la plaine picarde, dispose d'environ 25 bornes de recharge. Cette cité médiévale, ancienne capitale carolingienne, offre un patrimoine remarquable accessible en mobilité électrique.
 
 La cathédrale Notre-Dame de Laon, chef-d'œuvre du premier art gothique avec ses cinq tours et ses bœufs sculptés, domine la ville haute. Le parking de la ville haute offre des bornes, permettant de visiter cette cathédrale qui a inspiré celle de Chartres. Les bœufs des tours rendent hommage aux attelages qui montèrent les pierres.
@@ -2309,14 +2309,14 @@ Laon, sentinelle médiévale sur sa butte, observe la plaine et l'avenir avec la
     region: "Hauts-de-France",
     population: 41200,
     nombreBornes: 50,
-    metaDescription: "50 bornes de recharge à Compiègne : palais impérial, forêt, clairière de l'Armistice. Guide recharge véhicule électrique dans l'Oise.",
+    metaDescription: "50 bornes de recharge à Compiègne : palais impérial, forêt, clairière de l'Armistice. Guide recharge véhicule électrique dans l'Oise.",
     contenu: `Compiègne, cité impériale au cœur de l'une des plus belles forêts de France, dispose d'environ 50 bornes de recharge. Cette ville de l'Oise, marquée par l'histoire de Napoléon III et de l'Armistice de 1918, développe sa mobilité électrique dans un cadre forestier exceptionnel.
 
 Le palais de Compiègne, dernière résidence royale puis impériale de France, avec son musée du Second Empire et son musée de la Voiture, dispose de bornes dans son parking. Le musée de la Voiture, qui retrace l'histoire des transports, crée un lien direct entre la mobilité d'hier et celle de demain.
 
 Le centre-ville, autour de la place de l'Hôtel de Ville et de l'église Saint-Jacques, offre des bornes dans les parkings souterrains. Les commerces et restaurants de la rue Solférino et de la rue Magenta sont accessibles depuis ces bornes.
 
-La forêt de Compiègne, 14 500 hectares de hêtres et de chênes, est accessible en véhicule électrique depuis les parkings forestiers équipés de bornes. Le silence du moteur électrique dans cette forêt est un bonheur pour les randonneurs et les cavaliers.
+La forêt de Compiègne, 14 500 hectares de hêtres et de chênes, est accessible en véhicule électrique depuis les parkings forestiers équipés de bornes. Le silence du moteur électrique dans cette forêt est un bonheur pour les randonneurs et les cavaliers.
 
 La clairière de l'Armistice, où fut signé l'armistice du 11 novembre 1918, est un lieu de mémoire majeur. Le musée de l'Armistice et la réplique du wagon du Maréchal Foch sont desservis par des bornes dans le parking. Le recueillement dans le silence électrique est particulièrement adapté.
 
@@ -2326,7 +2326,7 @@ L'UTC (Université de Technologie de Compiègne), grande école d'ingénieurs re
 
 Le festival de musique dans la forêt de Compiègne et les spectacles au théâtre impérial animent la vie culturelle. Les bornes permettent de profiter de ces événements.
 
-Compiègne est un point de départ pour les activités de plein air : randonnée, équitation, VTT dans la forêt, et navigation sur l'Oise et l'Aisne. Le véhicule électrique s'intègre naturellement dans cette vocation nature.
+Compiègne est un point de départ pour les activités de plein air : randonnée, équitation, VTT dans la forêt, et navigation sur l'Oise et l'Aisne. Le véhicule électrique s'intègre naturellement dans cette vocation nature.
 
 Compiègne, ville de l'histoire et de la forêt, avance vers l'avenir en véhicule électrique avec la majesté qui sied à une cité impériale. Le palais de Napoléon III aurait sans doute accueilli avec enthousiasme ces carrosses silencieux du XXIe siècle.`,
     dateMAJ: "2026-06-22"
@@ -2338,7 +2338,7 @@ Compiègne, ville de l'histoire et de la forêt, avance vers l'avenir en véhicu
     region: "Provence-Alpes-Côte d'Azur",
     population: 873076,
     nombreBornes: 1100,
-    metaDescription: "Bornes de recharge à Marseille : réseau, emplacements et conseils pour recharger votre voiture électrique à Marseille et environs.",
+    metaDescription: "Bornes de recharge à Marseille : réseau, emplacements et conseils pour recharger votre voiture électrique à Marseille et environs.",
     contenu: `Marseille, deuxième ville de France et capitale de la région Provence-Alpes-Côte d'Azur, s'impose comme un acteur majeur de la mobilité électrique dans le sud du pays. Avec environ 1100 bornes de recharge réparties sur son vaste territoire, la cité phocéenne offre un réseau en pleine expansion pour répondre aux besoins croissants des conducteurs de véhicules électriques.
 
 Le Vieux-Port, cœur historique de Marseille, a bénéficié d'un programme ambitieux d'installation de bornes dans les parkings souterrains environnants. Le parking du Cours Estienne d'Orves, celui de la République et le parking Charles de Gaulle proposent des bornes de recharge accélérée de 22 kW. Ces emplacements stratégiques permettent de recharger tout en profitant de la Canebière, du quartier du Panier ou du MuCEM, musée emblématique de la ville.
@@ -2371,7 +2371,7 @@ Marseille avance résolument vers une mobilité plus propre, portée par son cli
     region: "Provence-Alpes-Côte d'Azur",
     population: 342669,
     nombreBornes: 650,
-    metaDescription: "Bornes de recharge à Nice : réseau, emplacements et conseils pour recharger votre voiture électrique à Nice et environs.",
+    metaDescription: "Bornes de recharge à Nice : réseau, emplacements et conseils pour recharger votre voiture électrique à Nice et environs.",
     contenu: `Nice, cinquième ville de France et joyau de la Côte d'Azur, déploie un réseau de recharge pour véhicules électriques à la hauteur de son rayonnement international. Avec environ 650 bornes disponibles, la capitale azuréenne offre une infrastructure solide pour les résidents comme pour les millions de touristes qui la visitent chaque année.
 
 La Promenade des Anglais, boulevard mythique longeant la Méditerranée, est bordée de parkings souterrains équipés de bornes de recharge. Le parking Masséna, situé en plein centre près de la place du même nom, propose une vingtaine de bornes de 22 kW. Le parking du Cours Saleya, au cœur du Vieux-Nice, permet de recharger tout en flânant dans le célèbre marché aux fleurs.
@@ -2384,7 +2384,7 @@ Les hôtels niçois haut de gamme intègrent systématiquement des bornes de rec
 
 La route de la Grande Corniche, l'une des plus belles routes de France, offre des panoramas extraordinaires sur la Méditerranée. Les bornes installées aux belvédères d'Èze et de La Turbie permettent de recharger tout en contemplant le paysage. La Moyenne Corniche et la Basse Corniche sont également desservies par des points de recharge.
 
-Nice accueille chaque année de nombreux événements internationaux : le Carnaval de Nice, le Festival de Jazz de Nice, le marathon Nice-Cannes. Pendant ces manifestations, des bornes temporaires viennent renforcer le réseau permanent, et les parkings relais sont spécialement équipés pour absorber l'afflux de véhicules.
+Nice accueille chaque année de nombreux événements internationaux : le Carnaval de Nice, le Festival de Jazz de Nice, le marathon Nice-Cannes. Pendant ces manifestations, des bornes temporaires viennent renforcer le réseau permanent, et les parkings relais sont spécialement équipés pour absorber l'afflux de véhicules.
 
 Le port de Nice, d'où partent les ferries vers la Corse, dispose de bornes dans le parking du port. Les conducteurs embarquant pour Bastia ou Ajaccio peuvent ainsi recharger leur véhicule avant la traversée. À l'arrivée en Corse, un réseau de bornes prend le relais.
 
@@ -2402,7 +2402,7 @@ Nice, ville de lumière et de douceur de vivre, trace sa voie vers une mobilité
     region: "Provence-Alpes-Côte d'Azur",
     population: 178745,
     nombreBornes: 250,
-    metaDescription: "Bornes de recharge à Toulon : réseau, emplacements et conseils pour recharger votre voiture électrique à Toulon et environs.",
+    metaDescription: "Bornes de recharge à Toulon : réseau, emplacements et conseils pour recharger votre voiture électrique à Toulon et environs.",
     contenu: `Toulon, préfecture du Var et premier port militaire de France, développe activement son réseau de bornes de recharge pour véhicules électriques. Avec environ 250 bornes réparties sur la commune et ses environs, la ville offre une infrastructure adaptée aux besoins de ses habitants et des visiteurs de la rade.
 
 Le centre-ville de Toulon, articulé autour de la place de la Liberté et du boulevard de Strasbourg, dispose de bornes dans les parkings souterrains Liberté, Mayol et Centre Mayol. Ces emplacements stratégiques permettent de recharger pendant les courses au marché du Cours Lafayette, l'un des plus pittoresques de Provence, ou lors d'une visite au musée national de la Marine.
@@ -2433,7 +2433,7 @@ Toulon, entre mer et montagne, offre aux conducteurs de véhicules électriques 
     region: "Provence-Alpes-Côte d'Azur",
     population: 147122,
     nombreBornes: 280,
-    metaDescription: "Bornes de recharge à Aix-en-Provence : réseau, emplacements et conseils pour recharger votre voiture électrique à Aix-en-Provence et environs.",
+    metaDescription: "Bornes de recharge à Aix-en-Provence : réseau, emplacements et conseils pour recharger votre voiture électrique à Aix-en-Provence et environs.",
     contenu: `Aix-en-Provence, ville d'art et d'histoire au cœur de la Provence, se distingue par un réseau de recharge pour véhicules électriques particulièrement bien développé. Avec environ 280 bornes disponibles, la cité du roi René offre une infrastructure adaptée à sa population étudiante dynamique, ses résidents et ses nombreux visiteurs.
 
 Le centre historique d'Aix, avec le cours Mirabeau comme artère principale, est desservi par plusieurs parkings souterrains équipés de bornes. Le parking Pasteur, le parking Rotonde et le parking Cardeurs proposent des bornes de 7 à 22 kW. Ces emplacements permettent de recharger tout en flânant dans les ruelles provençales, en admirant les fontaines ou en savourant un calisson dans l'une des confiseries traditionnelles.
@@ -2464,7 +2464,7 @@ Aix-en-Provence, entre patrimoine historique et modernité, conjugue art de vivr
     region: "Provence-Alpes-Côte d'Azur",
     population: 92130,
     nombreBornes: 120,
-    metaDescription: "Bornes de recharge à Avignon : réseau, emplacements et conseils pour recharger votre voiture électrique à Avignon et environs.",
+    metaDescription: "Bornes de recharge à Avignon : réseau, emplacements et conseils pour recharger votre voiture électrique à Avignon et environs.",
     contenu: `Avignon, cité des papes et capitale du spectacle vivant, développe son réseau de bornes de recharge pour véhicules électriques dans un cadre patrimonial exceptionnel. Avec environ 120 bornes disponibles, la ville fortifiée du Vaucluse offre une infrastructure croissante pour les conducteurs soucieux de l'environnement.
 
 Les remparts d'Avignon, classés au patrimoine mondial de l'UNESCO, délimitent un centre historique où la voiture électrique trouve tout son sens. Les parkings situés aux portes de la vieille ville, comme le parking des Italiens, le parking du Palais des Papes et le parking Gare Centre, disposent de bornes de recharge. Stationner et recharger à l'extérieur des remparts avant de découvrir à pied le Palais des Papes et le pont Saint-Bénézet est la solution idéale.
@@ -2493,7 +2493,7 @@ Avignon, ville de culture et de patrimoine, écrit un nouveau chapitre de son hi
     region: "Provence-Alpes-Côte d'Azur",
     population: 74545,
     nombreBornes: 130,
-    metaDescription: "Bornes de recharge à Cannes : réseau, emplacements et conseils pour recharger votre voiture électrique à Cannes et environs.",
+    metaDescription: "Bornes de recharge à Cannes : réseau, emplacements et conseils pour recharger votre voiture électrique à Cannes et environs.",
     contenu: `Cannes, ville du festival de cinéma le plus prestigieux au monde, brille également par son engagement en faveur de la mobilité électrique. Avec environ 130 bornes de recharge disponibles, la cité balnéaire des Alpes-Maritimes offre un réseau adapté à son standing international et à l'affluence touristique.
 
 La Croisette, boulevard emblématique longeant la baie de Cannes, est bordée de parkings souterrains équipés de bornes. Le parking du Palais des Festivals, le parking Gray d'Albion et le parking Laubeuf proposent des bornes de 22 kW accessibles jour et nuit. Recharger face à la Méditerranée tout en montant les marches du Palais est une expérience unique.
@@ -2522,7 +2522,7 @@ Cannes, étoile de la Côte d'Azur, illumine désormais son avenir avec l'énerg
     region: "Provence-Alpes-Côte d'Azur",
     population: 72999,
     nombreBornes: 110,
-    metaDescription: "Bornes de recharge à Antibes : réseau, emplacements et conseils pour recharger votre voiture électrique à Antibes et environs.",
+    metaDescription: "Bornes de recharge à Antibes : réseau, emplacements et conseils pour recharger votre voiture électrique à Antibes et environs.",
     contenu: `Antibes, ville d'art et de voile entre Nice et Cannes, combine patrimoine historique et modernité avec un réseau croissant de bornes de recharge pour véhicules électriques. Environ 110 bornes sont disponibles sur la commune, incluant le quartier de Juan-les-Pins, station balnéaire internationalement connue.
 
 Le vieil Antibes, ceint de remparts construits par Vauban, est accessible depuis des parkings équipés de bornes. Le parking du Pré des Pêcheurs, en bord de mer, et le parking de la place de Gaulle offrent des bornes de recharge à proximité immédiate du musée Picasso, installé dans le château Grimaldi. Le peintre espagnol y travailla en 1946, et le musée conserve des œuvres de cette période prolifique.
@@ -2551,12 +2551,12 @@ Antibes, entre art, technologie et mer, offre aux conducteurs de véhicules éle
     region: "Provence-Alpes-Côte d'Azur",
     population: 40800,
     nombreBornes: 45,
-    metaDescription: "Bornes de recharge à Gap : réseau, emplacements et conseils pour recharger votre voiture électrique à Gap et environs.",
+    metaDescription: "Bornes de recharge à Gap : réseau, emplacements et conseils pour recharger votre voiture électrique à Gap et environs.",
     contenu: `Gap, préfecture des Hautes-Alpes et ville la plus haute préfecture de France à 735 mètres d'altitude, développe son réseau de bornes de recharge pour véhicules électriques dans un environnement montagnard exigeant. Avec environ 45 bornes disponibles, la capitale du département alpin offre une infrastructure essentielle pour les conducteurs traversant les Alpes du Sud.
 
 Le centre-ville de Gap, articulé autour de la place Jean Marcellin et de la cathédrale Notre-Dame-et-Saint-Arnoux, dispose de bornes dans les parkings publics. Le parking de la gare, le parking Ladoucette et le parking du centre commercial Tokoro proposent des bornes de 22 kW. Ces emplacements sont stratégiques pour les visiteurs découvrant le patrimoine gapençais.
 
-Le TE 05, syndicat d'énergie des Hautes-Alpes, pilote le déploiement des bornes dans tout le département. La particularité alpine du territoire impose des contraintes techniques : les bornes doivent résister au froid hivernal, aux chutes de neige et aux variations de température importantes. Des équipements chauffants et des protections spécifiques sont installés pour garantir un fonctionnement fiable toute l'année.
+Le TE 05, syndicat d'énergie des Hautes-Alpes, pilote le déploiement des bornes dans tout le département. La particularité alpine du territoire impose des contraintes techniques : les bornes doivent résister au froid hivernal, aux chutes de neige et aux variations de température importantes. Des équipements chauffants et des protections spécifiques sont installés pour garantir un fonctionnement fiable toute l'année.
 
 Gap est un point de passage obligé pour les routes des grands cols alpins. Le col du Galibier, le col de l'Izoard, le col du Lautaret et le col Bayard sont accessibles depuis Gap. Les bornes installées aux pieds des cols permettent de s'assurer d'une charge suffisante avant d'attaquer ces ascensions mythiques du Tour de France. L'altitude et le froid peuvent réduire l'autonomie des véhicules électriques, il est donc prudent de partir avec une batterie bien chargée.
 
@@ -2580,7 +2580,7 @@ Gap, sentinelle alpine, prouve que la mobilité électrique est compatible avec 
     region: "Provence-Alpes-Côte d'Azur",
     population: 17700,
     nombreBornes: 25,
-    metaDescription: "Bornes de recharge à Digne-les-Bains : réseau, emplacements et conseils pour recharger votre voiture électrique à Digne-les-Bains et environs.",
+    metaDescription: "Bornes de recharge à Digne-les-Bains : réseau, emplacements et conseils pour recharger votre voiture électrique à Digne-les-Bains et environs.",
     contenu: `Digne-les-Bains, préfecture des Alpes-de-Haute-Provence et ville thermale réputée, installe progressivement des bornes de recharge pour véhicules électriques dans son territoire de moyenne montagne. Avec environ 25 bornes disponibles, cette ville à taille humaine offre un réseau essentiel pour les conducteurs explorant la Haute-Provence.
 
 Le centre-ville de Digne, avec son boulevard Gassendi bordé de platanes, dispose de bornes dans les parkings publics centraux. Le parking du Palais des Congrès et le parking de la place du Général de Gaulle proposent des bornes de recharge accessibles à tous. La cathédrale Saint-Jérôme et le musée Gassendi, riche en art contemporain et en sciences naturelles, sont à quelques pas.
@@ -2609,7 +2609,7 @@ Digne-les-Bains, entre lavande et montagne, accueille la mobilité électrique a
     region: "Provence-Alpes-Côte d'Azur",
     population: 55400,
     nombreBornes: 70,
-    metaDescription: "Bornes de recharge à Fréjus : réseau, emplacements et conseils pour recharger votre voiture électrique à Fréjus et environs.",
+    metaDescription: "Bornes de recharge à Fréjus : réseau, emplacements et conseils pour recharger votre voiture électrique à Fréjus et environs.",
     contenu: `Fréjus, cité romaine fondée par Jules César sous le nom de Forum Julii, conjugue un patrimoine antique exceptionnel et une station balnéaire dynamique sur la côte varoise. Avec environ 70 bornes de recharge pour véhicules électriques, la ville offre un réseau adapté à sa double vocation historique et touristique.
 
 Le centre historique de Fréjus abrite un ensemble épiscopal remarquable comprenant la cathédrale, le baptistère du Ve siècle et le cloître. Les parkings à proximité de ces monuments, notamment le parking des Arènes près de l'amphithéâtre romain, disposent de bornes de recharge. L'amphithéâtre, qui pouvait accueillir 10000 spectateurs, témoigne de l'importance de la cité dans l'Antiquité.
@@ -2638,7 +2638,7 @@ Fréjus, entre héritage romain et Méditerranée, offre aux conducteurs de véh
     region: "Pays de la Loire",
     population: 318808,
     nombreBornes: 550,
-    metaDescription: "Bornes de recharge à Nantes : réseau, emplacements et conseils pour recharger votre voiture électrique à Nantes et environs.",
+    metaDescription: "Bornes de recharge à Nantes : réseau, emplacements et conseils pour recharger votre voiture électrique à Nantes et environs.",
     contenu: `Nantes, métropole de l'ouest français et ancienne capitale du duché de Bretagne, s'affirme comme une ville pionnière en matière de mobilité électrique. Avec environ 550 bornes de recharge, la cité des ducs offre un réseau dense et bien structuré qui reflète son dynamisme et son engagement écologique.
 
 Le centre-ville de Nantes, autour du château des ducs de Bretagne et de la cathédrale Saint-Pierre-et-Saint-Paul, dispose de nombreux parkings souterrains équipés de bornes. Le parking Decré-Bouffay, le parking Commerce et le parking Graslin proposent des bornes de 7 à 22 kW. Ces emplacements permettent de visiter le cœur historique tout en rechargeant son véhicule.
@@ -2669,7 +2669,7 @@ Nantes, ville inventive et tournée vers l'avenir, fait de la mobilité électri
     region: "Pays de la Loire",
     population: 157175,
     nombreBornes: 220,
-    metaDescription: "Bornes de recharge à Angers : réseau, emplacements et conseils pour recharger votre voiture électrique à Angers et environs.",
+    metaDescription: "Bornes de recharge à Angers : réseau, emplacements et conseils pour recharger votre voiture électrique à Angers et environs.",
     contenu: `Angers, capitale de l'Anjou et ville d'art réputée, se distingue par un réseau de bornes de recharge en plein développement. Avec environ 220 bornes disponibles, cette métropole de l'ouest de la France offre une infrastructure adaptée à ses habitants et aux visiteurs de son patrimoine exceptionnel.
 
 Le château d'Angers, forteresse médiévale abritant la célèbre Tenture de l'Apocalypse, domine la Maine depuis ses tours de schiste et de calcaire. Les parkings à proximité du château, notamment le parking du Ralliement et le parking Château, disposent de bornes de recharge. Visiter ce chef-d'œuvre de tapisserie du XIVe siècle pendant que son véhicule se recharge est un usage idéal du temps.
@@ -2686,7 +2686,7 @@ Le tramway d'Angers, mis en service en 2011, dessert la ville du nord au sud. Le
 
 Les vignobles de l'Anjou, réputés pour leurs vins blancs liquoreux comme le Coteaux du Layon et le Quarts de Chaume, s'étendent au sud de la ville. Les domaines viticoles de la Loire accueillent les visiteurs en véhicule électrique, avec des bornes installées dans les caves les plus visitées.
 
-Les châteaux de la Loire sont accessibles depuis Angers : Saumur, Villandry, Azay-le-Rideau et Chinon sont à portée de batterie. Le réseau de bornes entre Angers et ces sites permet des excursions d'une journée en véhicule électrique.
+Les châteaux de la Loire sont accessibles depuis Angers : Saumur, Villandry, Azay-le-Rideau et Chinon sont à portée de batterie. Le réseau de bornes entre Angers et ces sites permet des excursions d'une journée en véhicule électrique.
 
 Le marché couvert du boulevard Foch et les commerces de la rue piétonne Saint-Laud animent le centre-ville. La gastronomie angevine, avec ses rillauds, son cointreau et ses fouées, accompagne agréablement une pause recharge.
 
@@ -2700,7 +2700,7 @@ Angers, ville verte par excellence, fait de la mobilité électrique un prolonge
     region: "Pays de la Loire",
     population: 145421,
     nombreBornes: 180,
-    metaDescription: "Bornes de recharge à Le Mans : réseau, emplacements et conseils pour recharger votre voiture électrique à Le Mans et environs.",
+    metaDescription: "Bornes de recharge à Le Mans : réseau, emplacements et conseils pour recharger votre voiture électrique à Le Mans et environs.",
     contenu: `Le Mans, ville des 24 Heures et cité plantagenêt, associe passion automobile et mobilité durable grâce à un réseau de bornes de recharge en pleine expansion. Avec environ 180 bornes disponibles, la préfecture de la Sarthe offre une infrastructure qui honore sa tradition automobile tout en se tournant vers l'avenir.
 
 La vieille ville du Mans, appelée cité Plantagenêt, est l'un des ensembles médiévaux les mieux préservés d'Europe. Ses ruelles pavées, ses maisons à colombages et sa cathédrale Saint-Julien ont servi de décor à de nombreux films, dont Cyrano de Bergerac. Les parkings à l'entrée de la cité, notamment le parking des Jacobins et le parking République, disposent de bornes de recharge.
@@ -2731,7 +2731,7 @@ Le Mans, ville où la vitesse est une tradition, embrasse désormais la vitesse 
     region: "Pays de la Loire",
     population: 74500,
     nombreBornes: 85,
-    metaDescription: "Bornes de recharge à Saint-Nazaire : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Nazaire et environs.",
+    metaDescription: "Bornes de recharge à Saint-Nazaire : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Nazaire et environs.",
     contenu: `Saint-Nazaire, ville portuaire à l'embouchure de la Loire et berceau de la construction navale française, développe son réseau de bornes de recharge pour véhicules électriques. Avec environ 85 bornes disponibles, cette cité industrielle et balnéaire offre une infrastructure en croissance pour ses habitants et visiteurs.
 
 Les chantiers navals de Saint-Nazaire, aujourd'hui Chantiers de l'Atlantique, construisent les plus grands paquebots du monde. Le quartier de la base sous-marine, vestige de la Seconde Guerre mondiale reconverti en espace culturel, dispose de bornes dans ses parkings. Le toit panoramique de la base offre une vue spectaculaire sur les chantiers, où les coques monumentales des navires en construction impressionnent par leur taille.
@@ -2760,7 +2760,7 @@ Saint-Nazaire, ville de constructeurs et d'horizons maritimes, navigue résolume
     region: "Pays de la Loire",
     population: 55200,
     nombreBornes: 60,
-    metaDescription: "Bornes de recharge à Cholet : réseau, emplacements et conseils pour recharger votre voiture électrique à Cholet et environs.",
+    metaDescription: "Bornes de recharge à Cholet : réseau, emplacements et conseils pour recharger votre voiture électrique à Cholet et environs.",
     contenu: `Cholet, sous-préfecture du Maine-et-Loire et capitale des Mauges, développe son réseau de bornes de recharge pour véhicules électriques dans un territoire au riche passé historique. Avec environ 60 bornes disponibles, cette ville industrieuse du sud de l'Anjou offre une infrastructure croissante pour la mobilité propre.
 
 Le centre-ville de Cholet, articulé autour de la place Travot et de l'église Notre-Dame, dispose de bornes dans les principaux parkings. Le parking du Champ de Foire et le parking de la Halle aux Toiles proposent des bornes de recharge accessibles 24h/24. La halle aux toiles, vestige de l'industrie textile qui fit la prospérité de Cholet, rappelle l'histoire manufacturière de la ville.
@@ -2789,7 +2789,7 @@ Cholet, ville de caractère au cœur des Mauges, tisse avec détermination la tr
     region: "Pays de la Loire",
     population: 53600,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Laval : réseau, emplacements et conseils pour recharger votre voiture électrique à Laval et environs.",
+    metaDescription: "Bornes de recharge à Laval : réseau, emplacements et conseils pour recharger votre voiture électrique à Laval et environs.",
     contenu: `Laval, préfecture de la Mayenne et ville natale du Douanier Rousseau et d'Alfred Jarry, développe son réseau de bornes de recharge dans un cadre médiéval préservé. Avec environ 55 bornes disponibles, cette cité des bords de la Mayenne offre une infrastructure adaptée à son territoire rural et périurbain.
 
 Le vieux Laval, perché sur la rive droite de la Mayenne, est dominé par le château comtal qui abrite le musée d'Art Naïf et d'Arts Singuliers, le plus important au monde dans ce domaine. Les parkings à proximité du château, notamment le parking de la place du 11 Novembre et le parking de la Trémouille, disposent de bornes de recharge. La visite du musée et la promenade dans les ruelles médiévales s'accordent parfaitement avec un temps de recharge.
@@ -2818,12 +2818,12 @@ Laval, entre patrimoine médiéval et innovation numérique, fait de la mobilit�
     region: "Pays de la Loire",
     population: 57000,
     nombreBornes: 60,
-    metaDescription: "Bornes de recharge à La Roche-sur-Yon : réseau, emplacements et conseils pour recharger votre voiture électrique à La Roche-sur-Yon et environs.",
+    metaDescription: "Bornes de recharge à La Roche-sur-Yon : réseau, emplacements et conseils pour recharger votre voiture électrique à La Roche-sur-Yon et environs.",
     contenu: `La Roche-sur-Yon, préfecture de la Vendée et ville napoléonienne par excellence, développe son réseau de bornes de recharge pour véhicules électriques. Avec environ 60 bornes disponibles, cette ville au plan urbain géométrique créé par Napoléon offre une infrastructure croissante pour la mobilité électrique.
 
 La place Napoléon, vaste esplanade au cœur de la ville, est dominée par la statue équestre de l'Empereur. Le parking souterrain de la place dispose de bornes de recharge, permettant de découvrir le centre-ville napoléonien tout en rechargeant. L'église Saint-Louis, les arcades et les bâtiments administratifs ordonnés autour de la place témoignent du plan urbain impérial de 1804.
 
-La Roche-sur-Yon est unique parmi les préfectures françaises : elle a été créée de toutes pièces par Napoléon en 1804 pour être le chef-lieu de la Vendée, département longtemps rebelle. Cette planification urbaine rationnelle se prête naturellement à un déploiement organisé des bornes de recharge.
+La Roche-sur-Yon est unique parmi les préfectures françaises : elle a été créée de toutes pièces par Napoléon en 1804 pour être le chef-lieu de la Vendée, département longtemps rebelle. Cette planification urbaine rationnelle se prête naturellement à un déploiement organisé des bornes de recharge.
 
 La communauté d'agglomération La Roche-sur-Yon Agglomération coordonne le réseau de bornes. Le SyDEV, syndicat départemental d'énergie de Vendée, complète le maillage sur l'ensemble du département. Les bornes sont accessibles avec les principaux badges et le paiement par carte bancaire.
 
@@ -2835,7 +2835,7 @@ Le Vendéspace, complexe sportif et événementiel, accueille des compétitions 
 
 Les zones commerciales de la périphérie, notamment la zone de Beaupuy et la zone commerciale sud, disposent de bornes pour les clients. Les entreprises vendéennes, dynamiques et innovantes, équipent progressivement leurs parkings de bornes pour leurs employés.
 
-Le marché couvert de La Roche-sur-Yon propose des produits vendéens de qualité : préfou, brioche vendéenne, mogettes et jambon de Vendée. Les bornes à proximité encouragent la mobilité propre pour les achats quotidiens.
+Le marché couvert de La Roche-sur-Yon propose des produits vendéens de qualité : préfou, brioche vendéenne, mogettes et jambon de Vendée. Les bornes à proximité encouragent la mobilité propre pour les achats quotidiens.
 
 Le jardin d'Orbigny, parc public au cœur de la ville, offre un espace de verdure et de détente. La promenade le long de l'Yon, rivière qui a donné son nom à la ville, est agréable à toute saison. Des bornes à proximité de ces espaces verts facilitent les sorties familiales.
 
@@ -2849,7 +2849,7 @@ La Roche-sur-Yon, création napoléonienne tournée vers l'avenir, avance métho
     region: "Pays de la Loire",
     population: 26700,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Saumur : réseau, emplacements et conseils pour recharger votre voiture électrique à Saumur et environs.",
+    metaDescription: "Bornes de recharge à Saumur : réseau, emplacements et conseils pour recharger votre voiture électrique à Saumur et environs.",
     contenu: `Saumur, ville du Cadre Noir et des vins de Loire, offre un cadre exceptionnel pour la mobilité électrique au cœur du Val de Loire. Avec environ 30 bornes de recharge, cette cité troglodytique et équestre dispose d'une infrastructure adaptée à sa taille et à son rayonnement touristique.
 
 Le château de Saumur, forteresse médiévale dominant la Loire depuis son éperon rocheux, est l'un des monuments les plus photographiés du Val de Loire. Le parking au pied du château dispose de bornes de recharge, permettant une visite approfondie de ce monument qui abrite le musée du Cheval et le musée des Arts décoratifs. La vue sur la Loire et les toits d'ardoise de la ville est magnifique.
@@ -2878,7 +2878,7 @@ Saumur, ville d'élégance équestre et de traditions viticoles, accueille la mo
     region: "Pays de la Loire",
     population: 46800,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Les Sables-d'Olonne : réseau, emplacements et conseils pour recharger votre voiture électrique à Les Sables-d'Olonne et environs.",
+    metaDescription: "Bornes de recharge à Les Sables-d'Olonne : réseau, emplacements et conseils pour recharger votre voiture électrique à Les Sables-d'Olonne et environs.",
     contenu: `Les Sables-d'Olonne, station balnéaire vendéenne célèbre pour le Vendée Globe, offre un réseau de bornes de recharge en développement pour ses résidents et ses nombreux visiteurs estivaux. Avec environ 55 bornes disponibles, cette ville du littoral atlantique combine tourisme maritime et mobilité durable.
 
 Le remblai, promenade emblématique longeant la Grande Plage des Sables, est bordé de parkings disposant de bornes de recharge. La plage, longue de plus de trois kilomètres de sable fin, est l'une des plus belles de la côte atlantique. Recharger son véhicule en profitant du panorama océanique et du spectacle des surfeurs est un plaisir typiquement sablais.
@@ -2907,7 +2907,7 @@ Les Sables-d'Olonne, port d'attache des aventuriers des mers, accueille la mobil
     region: "Pays de la Loire",
     population: 14600,
     nombreBornes: 18,
-    metaDescription: "Bornes de recharge à Fontenay-le-Comte : réseau, emplacements et conseils pour recharger votre voiture électrique à Fontenay-le-Comte et environs.",
+    metaDescription: "Bornes de recharge à Fontenay-le-Comte : réseau, emplacements et conseils pour recharger votre voiture électrique à Fontenay-le-Comte et environs.",
     contenu: `Fontenay-le-Comte, ancienne capitale du Bas-Poitou et ville d'art et d'histoire, installe progressivement des bornes de recharge pour véhicules électriques dans son centre Renaissance remarquable. Avec environ 18 bornes disponibles, cette sous-préfecture de Vendée offre un réseau adapté à sa taille et à son rôle de porte du Marais poitevin.
 
 Le centre historique de Fontenay, avec ses hôtels particuliers Renaissance et sa fontaine des Quatre Tias, témoigne d'un passé prospère. François Rabelais y étudia, et la devise de la ville, "Felicium Ingeniorum Fons" (Fontaine des beaux esprits), rappelle son rayonnement intellectuel. Les parkings du centre, notamment le parking de la place Viète, disposent de bornes de recharge.
@@ -2936,7 +2936,7 @@ Fontenay-le-Comte, fontaine des beaux esprits, accueille la mobilité électriqu
     region: "Bretagne",
     population: 222485,
     nombreBornes: 400,
-    metaDescription: "Bornes de recharge à Rennes : réseau, emplacements et conseils pour recharger votre voiture électrique à Rennes et environs.",
+    metaDescription: "Bornes de recharge à Rennes : réseau, emplacements et conseils pour recharger votre voiture électrique à Rennes et environs.",
     contenu: `Rennes, capitale de la Bretagne et ville universitaire dynamique, se positionne comme un acteur majeur de la mobilité électrique dans le grand ouest français. Avec environ 400 bornes de recharge, la métropole bretonne offre un réseau dense et moderne qui accompagne sa croissance démographique soutenue.
 
 Le centre historique de Rennes, avec ses maisons à colombages de la place des Lices et du quartier Saint-Germain, est desservi par des parkings souterrains équipés de bornes. Le parking Charles de Gaulle, le parking des Lices et le parking Kléber proposent des bornes de 22 kW. Le Parlement de Bretagne, joyau du XVIIe siècle restauré après l'incendie de 1994, se découvre idéalement à pied depuis ces parkings.
@@ -2967,7 +2967,7 @@ Rennes, ville jeune et innovante, fait de la mobilité électrique un pilier de 
     region: "Bretagne",
     population: 142722,
     nombreBornes: 200,
-    metaDescription: "Bornes de recharge à Brest : réseau, emplacements et conseils pour recharger votre voiture électrique à Brest et environs.",
+    metaDescription: "Bornes de recharge à Brest : réseau, emplacements et conseils pour recharger votre voiture électrique à Brest et environs.",
     contenu: `Brest, cité du Ponant et port militaire majeur de l'Atlantique, déploie un réseau de bornes de recharge à la hauteur de son statut de deuxième ville de Bretagne. Avec environ 200 bornes disponibles, la pointe du Finistère offre une infrastructure solide pour les conducteurs de véhicules électriques dans cette terre du bout du monde.
 
 Le centre-ville de Brest, entièrement reconstruit après la Seconde Guerre mondiale dans un style moderniste, s'organise autour de la rue de Siam, artère emblématique reliant la place de la Liberté au pont de Recouvrance. Les parkings souterrains du centre, comme le parking Liberté et le parking Saint-Louis, disposent de bornes de recharge. Le château de Brest, forteresse médiévale miraculeusement préservée des bombardements, abrite le musée national de la Marine.
@@ -2996,7 +2996,7 @@ Brest, ville de marins et d'aventuriers, navigue vers la mobilité électrique a
     region: "Bretagne",
     population: 63360,
     nombreBornes: 85,
-    metaDescription: "Bornes de recharge à Quimper : réseau, emplacements et conseils pour recharger votre voiture électrique à Quimper et environs.",
+    metaDescription: "Bornes de recharge à Quimper : réseau, emplacements et conseils pour recharger votre voiture électrique à Quimper et environs.",
     contenu: `Quimper, capitale culturelle de la Cornouaille et ville de la faïence bretonne, développe son réseau de bornes de recharge dans un cadre médiéval et artistique remarquable. Avec environ 85 bornes disponibles, la préfecture du Finistère offre une infrastructure adaptée à son rôle de centre régional du sud Bretagne.
 
 La cathédrale Saint-Corentin, chef-d'œuvre du gothique breton avec ses flèches jumelles, domine le centre-ville. Les parkings à proximité, notamment le parking de la Providence et le parking du Chapeau Rouge, disposent de bornes de recharge. Les ruelles médiévales du quartier de Locmaria, bordées de maisons à encorbellement, se découvrent à pied depuis ces stationnements.
@@ -3025,7 +3025,7 @@ Quimper, gardienne de la culture cornouaillaise, accueille la mobilité électri
     region: "Bretagne",
     population: 57408,
     nombreBornes: 75,
-    metaDescription: "Bornes de recharge à Lorient : réseau, emplacements et conseils pour recharger votre voiture électrique à Lorient et environs.",
+    metaDescription: "Bornes de recharge à Lorient : réseau, emplacements et conseils pour recharger votre voiture électrique à Lorient et environs.",
     contenu: `Lorient, cité de la voile et ancienne base de la Compagnie des Indes orientales, développe son réseau de bornes de recharge dans un cadre maritime et culturel dynamique. Avec environ 75 bornes disponibles, la ville morbihannaise offre une infrastructure adaptée à ses activités portuaires, touristiques et militaires.
 
 Le centre-ville de Lorient, reconstruit après la Seconde Guerre mondiale, s'organise autour de la place Alsace-Lorraine et de l'avenue de la Perrière. Les parkings souterrains disposent de bornes de recharge. La ville, quasiment détruite à 90% pendant la guerre, a été reconstruite dans un style moderniste fonctionnel qui intègre aujourd'hui naturellement les infrastructures de mobilité électrique.
@@ -3054,7 +3054,7 @@ Lorient, ville née de la mer et tournée vers le large, accueille la mobilité 
     region: "Bretagne",
     population: 55383,
     nombreBornes: 80,
-    metaDescription: "Bornes de recharge à Vannes : réseau, emplacements et conseils pour recharger votre voiture électrique à Vannes et environs.",
+    metaDescription: "Bornes de recharge à Vannes : réseau, emplacements et conseils pour recharger votre voiture électrique à Vannes et environs.",
     contenu: `Vannes, préfecture du Morbihan et porte du golfe du même nom, déploie son réseau de bornes de recharge dans l'une des villes les plus séduisantes de Bretagne. Avec environ 80 bornes disponibles, cette cité médiévale offre une infrastructure croissante pour les conducteurs de véhicules électriques.
 
 Le centre historique de Vannes, ceint de remparts bien préservés, est un joyau médiéval et Renaissance. La place Henri IV avec ses maisons à colombages, la cathédrale Saint-Pierre et les jardins des remparts constituent un ensemble patrimonial remarquable. Les parkings à proximité, comme le parking de la Rabine et le parking République, disposent de bornes de recharge.
@@ -3083,7 +3083,7 @@ Vannes, joyau médiéval au bord de la petite mer intérieure, fait de la mobili
     region: "Bretagne",
     population: 45207,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Saint-Brieuc : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Brieuc et environs.",
+    metaDescription: "Bornes de recharge à Saint-Brieuc : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Brieuc et environs.",
     contenu: `Saint-Brieuc, préfecture des Côtes-d'Armor et ville au cœur de la baie du même nom, développe son réseau de bornes de recharge pour accompagner la transition énergétique de la Bretagne nord. Avec environ 55 bornes disponibles, la cité briochine offre une infrastructure adaptée à son territoire entre terre et mer.
 
 Le centre-ville de Saint-Brieuc, articulé autour de la cathédrale Saint-Étienne, forteresse gothique unique en son genre, dispose de bornes dans ses parkings. Le parking du Champ de Mars, le parking Poulain Corbion et le parking de la gare proposent des bornes de recharge. La cathédrale fortifiée, avec ses tours crénelées, témoigne d'une époque où les évêques devaient aussi être des guerriers.
@@ -3114,7 +3114,7 @@ Saint-Brieuc, entre baie grandiose et vallées verdoyantes, accueille la mobilit
     region: "Bretagne",
     population: 46097,
     nombreBornes: 65,
-    metaDescription: "Bornes de recharge à Saint-Malo : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Malo et environs.",
+    metaDescription: "Bornes de recharge à Saint-Malo : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Malo et environs.",
     contenu: `Saint-Malo, cité corsaire et joyau de la côte d'Émeraude, déploie son réseau de bornes de recharge dans un cadre maritime et historique exceptionnel. Avec environ 65 bornes disponibles, cette ville fortifiée offre une infrastructure adaptée à son importante fréquentation touristique.
 
 Les remparts de Saint-Malo, qui ceignent la ville intra-muros sur près de deux kilomètres, offrent un panorama spectaculaire sur la mer, les îles et la côte. Les parkings à l'extérieur des remparts, comme le parking Intra-Muros, le parking de la Cité d'Alet et le parking Bourse, disposent de bornes de recharge. La ville intra-muros se parcourt exclusivement à pied, et les bornes aux portes de la cité sont donc stratégiques.
@@ -3127,7 +3127,7 @@ Saint-Malo Agglomération et le SDE 35 d'Ille-et-Vilaine déploient des bornes s
 
 Le marché aux huîtres de Cancale, à une quinzaine de kilomètres de Saint-Malo, est un incontournable gastronomique. Les parcs ostréicoles de la baie du Mont-Saint-Michel produisent des huîtres réputées dans le monde entier. Les bornes à Cancale permettent de déguster des huîtres face à la mer pendant la recharge.
 
-Surcouf, Duguay-Trouin, Cartier, Chateaubriand : Saint-Malo a donné à la France des corsaires, des explorateurs et des écrivains illustres. Le musée d'Histoire de la Ville, dans le château, retrace ces aventures maritimes. Les bornes à proximité du château facilitent la visite de ce musée passionnant.
+Surcouf, Duguay-Trouin, Cartier, Chateaubriand : Saint-Malo a donné à la France des corsaires, des explorateurs et des écrivains illustres. Le musée d'Histoire de la Ville, dans le château, retrace ces aventures maritimes. Les bornes à proximité du château facilitent la visite de ce musée passionnant.
 
 La Route du Rhum, course transatlantique en solitaire, part de Saint-Malo tous les quatre ans. Cet événement rassemble des centaines de milliers de spectateurs sur les quais et les remparts. Les parkings relais sont massivement équipés de bornes pendant la semaine de départ.
 
@@ -3145,7 +3145,7 @@ Saint-Malo, cité des corsaires et des grands départs, lance la mobilité élec
     region: "Bretagne",
     population: 20600,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Lannion : réseau, emplacements et conseils pour recharger votre voiture électrique à Lannion et environs.",
+    metaDescription: "Bornes de recharge à Lannion : réseau, emplacements et conseils pour recharger votre voiture électrique à Lannion et environs.",
     contenu: `Lannion, ville des télécommunications et porte de la Côte de Granit Rose, développe son réseau de bornes de recharge dans un environnement naturel unique au monde. Avec environ 30 bornes disponibles, cette cité trégoroise offre une infrastructure adaptée à son double rôle de pôle technologique et de ville touristique.
 
 Le centre historique de Lannion, avec ses maisons à colombages et à encorbellement de la place du Général Leclerc, est un ensemble médiéval charmant. Les parkings du centre, notamment le parking du Quai d'Aiguillon et le parking de la gare, disposent de bornes de recharge. L'église de Brélévenez, perchée sur sa colline et accessible par un escalier de 140 marches, domine la ville.
@@ -3174,7 +3174,7 @@ Lannion, entre innovation technologique et granite rose millénaire, illustre pa
     region: "Bretagne",
     population: 20200,
     nombreBornes: 25,
-    metaDescription: "Bornes de recharge à Fougères : réseau, emplacements et conseils pour recharger votre voiture électrique à Fougères et environs.",
+    metaDescription: "Bornes de recharge à Fougères : réseau, emplacements et conseils pour recharger votre voiture électrique à Fougères et environs.",
     contenu: `Fougères, cité médiévale aux portes de la Bretagne et de la Normandie, développe son réseau de bornes de recharge autour de l'une des plus grandes forteresses d'Europe. Avec environ 25 bornes disponibles, cette sous-préfecture d'Ille-et-Vilaine offre une infrastructure essentielle pour les visiteurs de son patrimoine exceptionnel.
 
 Le château de Fougères, plus grande forteresse médiévale d'Europe avec ses treize tours et ses trois enceintes successives, est le monument phare de la ville. Le parking du château, situé dans le quartier bas au bord du Nançon, dispose de bornes de recharge. La visite du château nécessite une bonne heure, temps idéal pour une recharge partielle. Victor Hugo et Balzac furent fascinés par cette forteresse qu'ils visitèrent et décrivirent dans leurs œuvres.
@@ -3203,7 +3203,7 @@ Fougères, sentinelle de granit aux confins de la Bretagne, monte la garde sur l
     region: "Bretagne",
     population: 14900,
     nombreBornes: 20,
-    metaDescription: "Bornes de recharge à Morlaix : réseau, emplacements et conseils pour recharger votre voiture électrique à Morlaix et environs.",
+    metaDescription: "Bornes de recharge à Morlaix : réseau, emplacements et conseils pour recharger votre voiture électrique à Morlaix et environs.",
     contenu: `Morlaix, cité du viaduc et ancienne ville corsaire du Finistère nord, installe progressivement des bornes de recharge dans un cadre urbain spectaculaire dominé par son immense viaduc ferroviaire. Avec environ 20 bornes disponibles, cette sous-préfecture du Finistère offre un réseau adapté à sa taille et à son environnement naturel remarquable.
 
 Le viaduc de Morlaix, ouvrage d'art de 292 mètres de long et 58 mètres de haut, enjambe la vallée et domine la ville de sa silhouette majestueuse. Construit en 1863 pour le chemin de fer Paris-Brest, il est le symbole de la ville. Les parkings en contrebas du viaduc, notamment le parking de la place de Viarmes, disposent de bornes de recharge.
@@ -3232,7 +3232,7 @@ Morlaix, ville du viaduc et de la baie, accueille la mobilité électrique sous 
     region: "Normandie",
     population: 114007,
     nombreBornes: 200,
-    metaDescription: "Bornes de recharge à Rouen : réseau, emplacements et conseils pour recharger votre voiture électrique à Rouen et environs.",
+    metaDescription: "Bornes de recharge à Rouen : réseau, emplacements et conseils pour recharger votre voiture électrique à Rouen et environs.",
     contenu: `Rouen, capitale historique de la Normandie et ville aux cent clochers, développe activement son réseau de bornes de recharge dans un cadre patrimonial exceptionnel. Avec environ 200 bornes disponibles, la métropole normande offre une infrastructure solide pour les conducteurs de véhicules électriques.
 
 La cathédrale Notre-Dame de Rouen, immortalisée par les séries de tableaux de Claude Monet, domine le centre-ville de sa flèche de fonte, la plus haute de France. Les parkings souterrains à proximité, notamment le parking de la cathédrale et le parking du Vieux-Marché, disposent de bornes de recharge. Le Gros-Horloge, horloge astronomique du XIVe siècle enjambant la rue piétonne, est à quelques pas.
@@ -3263,7 +3263,7 @@ Rouen, ville d'art et d'histoire impressionniste, écrit un nouveau chapitre de 
     region: "Normandie",
     population: 108365,
     nombreBornes: 170,
-    metaDescription: "Bornes de recharge à Caen : réseau, emplacements et conseils pour recharger votre voiture électrique à Caen et environs.",
+    metaDescription: "Bornes de recharge à Caen : réseau, emplacements et conseils pour recharger votre voiture électrique à Caen et environs.",
     contenu: `Caen, ville de Guillaume le Conquérant et cité de la paix, développe son réseau de bornes de recharge dans un cadre historique lié à l'épopée normande et au Débarquement de 1944. Avec environ 170 bornes disponibles, la préfecture du Calvados offre une infrastructure adaptée à sa population et à sa fréquentation touristique.
 
 Le château de Caen, forteresse construite par Guillaume le Conquérant vers 1060, est l'une des plus grandes enceintes médiévales d'Europe. Il abrite le musée des Beaux-Arts et le musée de Normandie. Les parkings à proximité, notamment le parking du château et le parking Gardin, disposent de bornes de recharge. L'Abbaye aux Hommes et l'Abbaye aux Dames, fondées par Guillaume et Mathilde, sont des chefs-d'œuvre de l'art roman normand.
@@ -3294,7 +3294,7 @@ Caen, ville de mémoire et d'avenir, fait de la mobilité électrique un pont en
     region: "Normandie",
     population: 172074,
     nombreBornes: 180,
-    metaDescription: "Bornes de recharge à Le Havre : réseau, emplacements et conseils pour recharger votre voiture électrique à Le Havre et environs.",
+    metaDescription: "Bornes de recharge à Le Havre : réseau, emplacements et conseils pour recharger votre voiture électrique à Le Havre et environs.",
     contenu: `Le Havre, ville inscrite au patrimoine mondial de l'UNESCO pour son architecture de reconstruction signée Auguste Perret, déploie un réseau de bornes de recharge à la hauteur de son statut de premier port de France. Avec environ 180 bornes disponibles, la cité océane offre une infrastructure moderne dans un cadre architectural unique.
 
 Le centre reconstruit par Auguste Perret après les destructions de 1944 est un ensemble architectural remarquable de béton et de lumière. L'église Saint-Joseph, avec sa tour-lanterne de 107 mètres, est le phare spirituel de la ville. Les parkings souterrains du centre, dont le parking Perret et le parking de l'Hôtel de Ville, disposent de bornes de recharge.
@@ -3325,7 +3325,7 @@ Le Havre, ville de béton, de mer et de lumière, fait de la mobilité électriq
     region: "Normandie",
     population: 79200,
     nombreBornes: 80,
-    metaDescription: "Bornes de recharge à Cherbourg-en-Cotentin : réseau, emplacements et conseils pour recharger votre voiture électrique à Cherbourg-en-Cotentin et environs.",
+    metaDescription: "Bornes de recharge à Cherbourg-en-Cotentin : réseau, emplacements et conseils pour recharger votre voiture électrique à Cherbourg-en-Cotentin et environs.",
     contenu: `Cherbourg-en-Cotentin, ville portuaire à la pointe du Cotentin, déploie son réseau de bornes de recharge dans un cadre maritime ouvert sur la Manche et les îles anglo-normandes. Avec environ 80 bornes disponibles, cette commune normande offre une infrastructure adaptée à son rôle de port transmanche et de porte d'entrée de la presqu'île.
 
 La Cité de la Mer, installée dans l'ancienne gare maritime transatlantique, est le site touristique phare de Cherbourg. Ce musée océanographique propose la visite du sous-marin nucléaire Le Redoutable, le plus grand sous-marin visitable au monde, et des aquariums abyssaux. Le parking de la Cité de la Mer dispose de bornes, permettant de recharger pendant les heures de visite de ce musée fascinant.
@@ -3340,7 +3340,7 @@ Le parc Emmanuel Liais, jardin botanique tropical en plein cœur de Cherbourg, e
 
 La Hague, presqu'île sauvage à l'ouest de Cherbourg, offre des paysages de landes, de falaises et de criques parmi les plus beaux de Normandie. Le nez de Jobourg, point culminant des falaises de la Hague avec ses 128 mètres, est un belvédère spectaculaire. Les bornes installées dans les communes de la Hague permettent de découvrir ce littoral préservé en véhicule électrique.
 
-Le marché de Cherbourg et les restaurants du quai de Caligny proposent les produits de la mer du Cotentin : huîtres de Saint-Vaast-la-Hougue, homard et moules. Les bornes à proximité facilitent l'accès à cette gastronomie maritime.
+Le marché de Cherbourg et les restaurants du quai de Caligny proposent les produits de la mer du Cotentin : huîtres de Saint-Vaast-la-Hougue, homard et moules. Les bornes à proximité facilitent l'accès à cette gastronomie maritime.
 
 Les plages du Débarquement de Utah Beach sont accessibles depuis Cherbourg en une quarantaine de minutes. Le réseau de bornes relie Cherbourg à Sainte-Mère-Église et aux sites mémoriels du D-Day.
 
@@ -3354,14 +3354,14 @@ Cherbourg-en-Cotentin, sentinelle maritime face à la Manche, accueille la mobil
     region: "Normandie",
     population: 52900,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Évreux : réseau, emplacements et conseils pour recharger votre voiture électrique à Évreux et environs.",
+    metaDescription: "Bornes de recharge à Évreux : réseau, emplacements et conseils pour recharger votre voiture électrique à Évreux et environs.",
     contenu: `Évreux, préfecture de l'Eure et ville d'art au cœur de la Normandie intérieure, développe son réseau de bornes de recharge dans un cadre patrimonial riche et verdoyant. Avec environ 55 bornes disponibles, cette cité millénaire offre une infrastructure croissante pour la mobilité électrique.
 
 La cathédrale Notre-Dame d'Évreux, joyau du gothique normand, possède des vitraux parmi les plus beaux de France, notamment les verrières du XVe siècle. Le beffroi, tour de l'horloge du XVe siècle, domine la place. Les parkings du centre-ville, comme le parking de la Mairie et le parking du Marché, disposent de bornes de recharge.
 
 Le cloître des Capucins, ancien couvent reconverti en espace culturel et médiathèque, est un lieu de vie au cœur d'Évreux. Les jardins du cloître offrent un espace de calme et de lecture. Les bornes à proximité permettent de recharger pendant une pause culturelle.
 
-Évreux Portes de Normandie, communauté d'agglomération de 74 communes, coordonne le déploiement des bornes sur un vaste territoire rural. Le SIEGE 27, syndicat d'énergie de l'Eure, gère le réseau public. Les bornes sont réparties entre le centre-ville, les zones commerciales et les bourgs ruraux.
+Évreux Portes de Normandie, communauté d'agglomération de 74 communes, coordonne le déploiement des bornes sur un vaste territoire rural. Le SIÈGE 27, syndicat d'énergie de l'Eure, gère le réseau public. Les bornes sont réparties entre le centre-ville, les zones commerciales et les bourgs ruraux.
 
 La base aérienne 105 d'Évreux-Fauville, base de transport militaire, est l'un des employeurs majeurs de la ville. Les zones d'activité environnantes s'équipent de bornes pour les salariés et les visiteurs. Le dynamisme militaire et économique de la ville se reflète dans l'adoption de la mobilité électrique.
 
@@ -3385,7 +3385,7 @@ Le marché d'Évreux, les commerces de la rue de la Harpe et la gastronomie norm
     region: "Normandie",
     population: 29000,
     nombreBornes: 35,
-    metaDescription: "Bornes de recharge à Dieppe : réseau, emplacements et conseils pour recharger votre voiture électrique à Dieppe et environs.",
+    metaDescription: "Bornes de recharge à Dieppe : réseau, emplacements et conseils pour recharger votre voiture électrique à Dieppe et environs.",
     contenu: `Dieppe, première station balnéaire de France par l'ancienneté et port de pêche vivant, développe son réseau de bornes de recharge face à la Manche. Avec environ 35 bornes disponibles, cette cité maritime de Seine-Maritime offre une infrastructure adaptée à son activité portuaire et touristique.
 
 Le front de mer de Dieppe, avec sa longue plage de galets encadrée par les falaises de craie, est le lieu emblématique de la ville. Le château-musée, forteresse du XVe siècle dominant la mer, abrite une collection unique d'ivoires sculptés, héritage du commerce dieppois avec l'Afrique. Les parkings du front de mer et du château disposent de bornes de recharge.
@@ -3402,7 +3402,7 @@ La criée de Dieppe, l'une des plus importantes de la Manche, approvisionne les 
 
 Le quartier du Pollet, ancien quartier des pêcheurs sur la falaise est, conserve un charme populaire et authentique. La chapelle Notre-Dame de Bon-Secours offre une vue panoramique sur la ville et le port. Les bornes du Pollet facilitent l'accès à ce quartier escarpé.
 
-Les environs de Dieppe offrent des sites remarquables : le château de Miromesnil, lieu de naissance de Maupassant, les jardins de Varengeville et le bois des Moutiers sont accessibles en véhicule électrique grâce au réseau de bornes.
+Les environs de Dieppe offrent des sites remarquables : le château de Miromesnil, lieu de naissance de Maupassant, les jardins de Varengeville et le bois des Moutiers sont accessibles en véhicule électrique grâce au réseau de bornes.
 
 Dieppe, ville des premiers bains de mer et des derniers pêcheurs, accueille la mobilité électrique comme une brise marine vivifiante et porteuse d'avenir.`,
     dateMAJ: "2026-06-22",
@@ -3414,7 +3414,7 @@ Dieppe, ville des premiers bains de mer et des derniers pêcheurs, accueille la 
     region: "Normandie",
     population: 26800,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Alençon : réseau, emplacements et conseils pour recharger votre voiture électrique à Alençon et environs.",
+    metaDescription: "Bornes de recharge à Alençon : réseau, emplacements et conseils pour recharger votre voiture électrique à Alençon et environs.",
     contenu: `Alençon, préfecture de l'Orne et ville natale de Sainte Thérèse de Lisieux, développe son réseau de bornes de recharge au cœur de la Normandie bocagère. Avec environ 30 bornes disponibles, cette cité de la dentelle offre une infrastructure adaptée à son territoire rural et à son patrimoine artisanal d'exception.
 
 Le centre-ville d'Alençon, avec la basilique Notre-Dame, chef-d'œuvre du gothique flamboyant, et le château des Ducs, offre un patrimoine architectural remarquable. Les parkings de la place Foch et de la Halle aux Toiles disposent de bornes de recharge. Le porche de la basilique, dentelle de pierre, est considéré comme l'un des plus beaux de France.
@@ -3443,7 +3443,7 @@ Alençon, ville de la dentelle et de la finesse, applique la même délicatesse 
     region: "Normandie",
     population: 20600,
     nombreBornes: 22,
-    metaDescription: "Bornes de recharge à Lisieux : réseau, emplacements et conseils pour recharger votre voiture électrique à Lisieux et environs.",
+    metaDescription: "Bornes de recharge à Lisieux : réseau, emplacements et conseils pour recharger votre voiture électrique à Lisieux et environs.",
     contenu: `Lisieux, deuxième lieu de pèlerinage de France après Lourdes et capitale du Pays d'Auge, installe progressivement des bornes de recharge dans cette ville de dévotion et de gastronomie normande. Avec environ 22 bornes disponibles, la sous-préfecture du Calvados offre un réseau adapté à son double rôle religieux et touristique.
 
 La basilique Sainte-Thérèse, immense édifice de style romano-byzantin achevé en 1954, est le monument emblématique de Lisieux. Dédiée à Sainte Thérèse de l'Enfant-Jésus, la plus jeune docteur de l'Église, elle attire deux millions de pèlerins et visiteurs chaque année. Le parking de la basilique dispose de bornes de recharge, permettant aux pèlerins de recharger pendant le recueillement.
@@ -3474,7 +3474,7 @@ Lisieux, ville de prière et de terroir, accueille la mobilité électrique avec
     region: "Normandie",
     population: 14000,
     nombreBornes: 20,
-    metaDescription: "Bornes de recharge à Bayeux : réseau, emplacements et conseils pour recharger votre voiture électrique à Bayeux et environs.",
+    metaDescription: "Bornes de recharge à Bayeux : réseau, emplacements et conseils pour recharger votre voiture électrique à Bayeux et environs.",
     contenu: `Bayeux, ville de la célèbre Tapisserie et porte des plages du Débarquement, installe des bornes de recharge dans un cadre médiéval miraculeusement préservé des destructions de 1944. Avec environ 20 bornes disponibles, cette cité normande offre une infrastructure essentielle pour les visiteurs de son patrimoine exceptionnel et des sites mémoriels du D-Day.
 
 La Tapisserie de Bayeux, broderie du XIe siècle longue de 70 mètres, raconte la conquête de l'Angleterre par Guillaume le Conquérant. Chef-d'œuvre inscrit au registre Mémoire du monde de l'UNESCO, elle attire 400000 visiteurs par an. Le musée de la Tapisserie dispose de bornes dans son parking, permettant de recharger pendant la visite de cette bande dessinée médiévale unique au monde.
@@ -3503,7 +3503,7 @@ Bayeux, gardienne de mille ans d'histoire de la Normandie, fait de la mobilité 
     region: "Normandie",
     population: 3600,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Deauville : réseau, emplacements et conseils pour recharger votre voiture électrique à Deauville et environs.",
+    metaDescription: "Bornes de recharge à Deauville : réseau, emplacements et conseils pour recharger votre voiture électrique à Deauville et environs.",
     contenu: `Deauville, station balnéaire de renommée internationale et capitale du chic normand, déploie un réseau de bornes de recharge à la hauteur de son standing. Avec environ 30 bornes disponibles pour une commune de seulement 3600 habitants permanents, cette ville de villégiature offre un ratio bornes par habitant exceptionnel, adapté à l'afflux touristique.
 
 Les Planches de Deauville, promenade en bois de teck longeant la plage, sont bordées de cabines de bain portant les noms de stars du cinéma américain. Le parking de la plage et le parking du Casino Barrière disposent de bornes de recharge. Poser sa serviette face à la Manche puis retrouver sa voiture rechargée est un luxe adapté à l'esprit deauvillais.
@@ -3534,14 +3534,14 @@ Deauville, perle de la côte normande, accueille la mobilité électrique avec l
     region: "Centre-Val de Loire",
     population: 116685,
     nombreBornes: 170,
-    metaDescription: "Bornes de recharge à Orléans : réseau, emplacements et conseils pour recharger votre voiture électrique à Orléans et environs.",
+    metaDescription: "Bornes de recharge à Orléans : réseau, emplacements et conseils pour recharger votre voiture électrique à Orléans et environs.",
     contenu: `Orléans, cité johannique et préfecture du Loiret, développe un réseau de bornes de recharge à la hauteur de son rôle de capitale régionale du Centre-Val de Loire. Avec environ 170 bornes disponibles, la ville de Jeanne d'Arc offre une infrastructure solide pour les conducteurs de véhicules électriques.
 
 La cathédrale Sainte-Croix, dont la reconstruction s'étala sur plusieurs siècles après les guerres de Religion, domine le centre-ville de ses tours imposantes. Les parkings souterrains à proximité, notamment le parking de la cathédrale et le parking de la Place du Martroi, disposent de bornes de recharge. La statue équestre de Jeanne d'Arc sur la place du Martroi est le symbole de la ville.
 
 La maison de Jeanne d'Arc, reconstituée à l'emplacement de la demeure où elle séjourna en 1429, retrace l'épopée de la Pucelle d'Orléans. Les Fêtes johanniques, célébrées chaque mai depuis 1429, sont les plus anciennes fêtes de France. Les bornes à proximité facilitent la participation à ces célébrations historiques.
 
-Orléans Métropole coordonne le déploiement des bornes sur les 22 communes de la métropole. Le SIÉML, syndicat d'énergie du Loiret, complète le réseau en zone rurale. Les bornes sont interopérables et accessibles avec les principaux badges de recharge.
+Orléans Métropole coordonne le déploiement des bornes sur les 22 communes de la métropole. Le SIEML, syndicat d'énergie du Loiret, complète le réseau en zone rurale. Les bornes sont interopérables et accessibles avec les principaux badges de recharge.
 
 Le tramway d'Orléans, l'un des premiers réintroduits en France, dessert la ville d'est en ouest et du nord au sud avec deux lignes. Les parkings relais aux terminus proposent des bornes de recharge, favorisant l'intermodalité. Le réseau de bus TAO complète la couverture urbaine.
 
@@ -3565,7 +3565,7 @@ Orléans, ville de la Pucelle et du fleuve royal, fait de la mobilité électriq
     region: "Centre-Val de Loire",
     population: 137658,
     nombreBornes: 200,
-    metaDescription: "Bornes de recharge à Tours : réseau, emplacements et conseils pour recharger votre voiture électrique à Tours et environs.",
+    metaDescription: "Bornes de recharge à Tours : réseau, emplacements et conseils pour recharger votre voiture électrique à Tours et environs.",
     contenu: `Tours, capitale de la Touraine et cœur du Val de Loire inscrit au patrimoine mondial de l'UNESCO, offre un réseau de bornes de recharge digne de son patrimoine exceptionnel. Avec environ 200 bornes disponibles, la ville de Balzac et de Rabelais conjugue art de vivre et mobilité durable.
 
 La place Plumereau, place médiévale bordée de maisons à colombages, est le cœur battant de la vie tourangelle. Les parkings du Vieux Tours, notamment le parking Vinci Place Jean Jaurès et le parking de la Tranchée, disposent de bornes de recharge. La cathédrale Saint-Gatien, chef-d'œuvre du gothique, et le musée des Beaux-Arts dans l'ancien palais des archevêques complètent l'offre culturelle du centre.
@@ -3596,7 +3596,7 @@ Tours, jardin de la France et berceau du français le plus pur, cultive la mobil
     region: "Centre-Val de Loire",
     population: 64807,
     nombreBornes: 75,
-    metaDescription: "Bornes de recharge à Bourges : réseau, emplacements et conseils pour recharger votre voiture électrique à Bourges et environs.",
+    metaDescription: "Bornes de recharge à Bourges : réseau, emplacements et conseils pour recharger votre voiture électrique à Bourges et environs.",
     contenu: `Bourges, ancienne capitale du Berry et ville de Jacques Cœur, développe son réseau de bornes de recharge autour de son patrimoine gothique exceptionnel. Avec environ 75 bornes disponibles, la préfecture du Cher offre une infrastructure croissante pour la mobilité électrique au centre géographique de la France.
 
 La cathédrale Saint-Étienne de Bourges, chef-d'œuvre du gothique français inscrit au patrimoine mondial de l'UNESCO, est l'un des plus beaux édifices religieux au monde. Ses cinq portails sculptés, ses vitraux du XIIIe siècle et son architecture audacieuse sans transept en font un monument unique. Les parkings à proximité, notamment le parking de la cathédrale et le parking Séraucourt, disposent de bornes de recharge.
@@ -3615,7 +3615,7 @@ Le musée du Berry, le musée Estève dédié à l'artiste Maurice Estève, et l
 
 La Nuit Lumière, spectacle de lumière projeté sur les monuments de Bourges en été, transforme la ville en galerie d'art à ciel ouvert. Les bornes permettent de profiter de ce spectacle nocturne sans se soucier de la recharge.
 
-Le marché couvert de Bourges et les restaurants du centre proposent la gastronomie berrichonne : lentilles vertes du Berry, crottin de Chavignol et galette aux pommes de terre.
+Le marché couvert de Bourges et les restaurants du centre proposent la gastronomie berrichonne : lentilles vertes du Berry, crottin de Chavignol et galette aux pommes de terre.
 
 Bourges, cœur de la France et joyau gothique, fait de la mobilité électrique un lien entre son passé médiéval glorieux et son avenir durable.`,
     dateMAJ: "2026-06-22",
@@ -3627,7 +3627,7 @@ Bourges, cœur de la France et joyau gothique, fait de la mobilité électrique 
     region: "Centre-Val de Loire",
     population: 39122,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Chartres : réseau, emplacements et conseils pour recharger votre voiture électrique à Chartres et environs.",
+    metaDescription: "Bornes de recharge à Chartres : réseau, emplacements et conseils pour recharger votre voiture électrique à Chartres et environs.",
     contenu: `Chartres, ville de la cathédrale aux vitraux légendaires, déploie son réseau de bornes de recharge dans une cité dominée par l'un des plus beaux monuments du monde. Avec environ 55 bornes disponibles, la préfecture d'Eure-et-Loir offre une infrastructure adaptée à son rayonnement touristique et culturel.
 
 La cathédrale Notre-Dame de Chartres, inscrite au patrimoine mondial de l'UNESCO, est un chef-d'œuvre absolu du gothique. Ses 176 vitraux des XIIe et XIIIe siècles, dont le célèbre Bleu de Chartres, constituent le plus bel ensemble vitré médiéval conservé au monde. Le labyrinthe pavé dans la nef et les sculptures du portail Royal complètent ce trésor. Les parkings de la cathédrale disposent de bornes de recharge.
@@ -3656,7 +3656,7 @@ Chartres, ville de lumière divine à travers ses vitraux, illumine désormais s
     region: "Centre-Val de Loire",
     population: 46086,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Blois : réseau, emplacements et conseils pour recharger votre voiture électrique à Blois et environs.",
+    metaDescription: "Bornes de recharge à Blois : réseau, emplacements et conseils pour recharger votre voiture électrique à Blois et environs.",
     contenu: `Blois, ville royale au cœur des châteaux de la Loire, développe son réseau de bornes de recharge dans un cadre historique exceptionnel. Avec environ 55 bornes disponibles, la préfecture du Loir-et-Cher offre une infrastructure adaptée à son rôle de point de départ pour la découverte des châteaux de la Loire.
 
 Le château royal de Blois, résidence de sept rois et dix reines de France, est un monument unique mêlant quatre styles architecturaux du XIIIe au XVIIe siècle. L'escalier monumental de François Ier, la salle des États Généraux et l'aile Gaston d'Orléans témoignent de l'histoire de France. Les parkings du château et de la place du Château disposent de bornes de recharge.
@@ -3687,7 +3687,7 @@ Blois, ville des rois et de la magie, enchante la mobilité électrique d'un sor
     region: "Centre-Val de Loire",
     population: 43442,
     nombreBornes: 45,
-    metaDescription: "Bornes de recharge à Châteauroux : réseau, emplacements et conseils pour recharger votre voiture électrique à Châteauroux et environs.",
+    metaDescription: "Bornes de recharge à Châteauroux : réseau, emplacements et conseils pour recharger votre voiture électrique à Châteauroux et environs.",
     contenu: `Châteauroux, préfecture de l'Indre et cœur du Berry, développe son réseau de bornes de recharge dans un cadre bucolique au centre de la France. Avec environ 45 bornes disponibles, cette ville de George Sand offre une infrastructure croissante pour la mobilité électrique dans un territoire rural attachant.
 
 Le centre-ville de Châteauroux, avec le château Raoul dominant la vallée de l'Indre, le couvent des Cordeliers et les hôtels particuliers de la rue Grande, offre un patrimoine architectural discret mais charmant. Les parkings de la place de la République et du Champ de Foire disposent de bornes de recharge.
@@ -3698,7 +3698,7 @@ Châteauroux Métropole coordonne le déploiement des bornes sur les 14 communes
 
 L'ancienne base aérienne de Châteauroux-Déols, l'une des plus grandes d'Europe, est en cours de reconversion en zone d'activité aéronautique et logistique. Le technopôle Balsan et le pôle aéronautique accueillent des entreprises innovantes. Les parkings de ces zones d'activité s'équipent de bornes.
 
-Le parc naturel régional de la Brenne, à une trentaine de kilomètres de Châteauroux, est surnommé le pays des mille étangs. Ce territoire humide abrite une biodiversité exceptionnelle : cistudes d'Europe, guifettes moustac et bruyères. Les bornes aux entrées de la Brenne permettent de découvrir ce sanctuaire naturel en véhicule électrique.
+Le parc naturel régional de la Brenne, à une trentaine de kilomètres de Châteauroux, est surnommé le pays des mille étangs. Ce territoire humide abrite une biodiversité exceptionnelle : cistudes d'Europe, guifettes moustac et bruyères. Les bornes aux entrées de la Brenne permettent de découvrir ce sanctuaire naturel en véhicule électrique.
 
 Nohant-Vic, village où George Sand vécut et écrivit ses plus beaux romans, est à 30 kilomètres de Châteauroux. La maison de George Sand, aujourd'hui musée, et le jardin romantique attirent les amoureux de littérature. Les bornes à Nohant facilitent ce pèlerinage littéraire.
 
@@ -3718,7 +3718,7 @@ Châteauroux, ville de George Sand et du Berry profond, tisse les fils de la mob
     region: "Centre-Val de Loire",
     population: 30400,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Dreux : réseau, emplacements et conseils pour recharger votre voiture électrique à Dreux et environs.",
+    metaDescription: "Bornes de recharge à Dreux : réseau, emplacements et conseils pour recharger votre voiture électrique à Dreux et environs.",
     contenu: `Dreux, sous-préfecture d'Eure-et-Loir et ancienne capitale du comté du Drouais, développe son réseau de bornes de recharge aux confins de la Normandie et de l'Île-de-France. Avec environ 30 bornes disponibles, cette ville historique offre une infrastructure adaptée à sa position de carrefour entre Paris et la province.
 
 Le beffroi de Dreux, tour monumentale du XVIe siècle, domine la place Métézeau au cœur de la vieille ville. L'église Saint-Pierre, les maisons à colombages de la Grande Rue et les hôtels particuliers Renaissance témoignent d'un passé prospère. Les parkings du centre-ville disposent de bornes de recharge.
@@ -3749,7 +3749,7 @@ Dreux, ville royale au carrefour des chemins, accueille la mobilité électrique
     region: "Centre-Val de Loire",
     population: 15800,
     nombreBornes: 20,
-    metaDescription: "Bornes de recharge à Montargis : réseau, emplacements et conseils pour recharger votre voiture électrique à Montargis et environs.",
+    metaDescription: "Bornes de recharge à Montargis : réseau, emplacements et conseils pour recharger votre voiture électrique à Montargis et environs.",
     contenu: `Montargis, surnommée la Venise du Gâtinais pour ses nombreux canaux et ponts, développe son réseau de bornes de recharge dans un cadre aquatique charmant et unique. Avec environ 20 bornes disponibles, cette sous-préfecture du Loiret offre une infrastructure adaptée à sa taille et à son attractivité touristique.
 
 Le centre-ville de Montargis est traversé par le canal de Briare et ses dérivations, créant un réseau de 131 ponts et passerelles. Cette particularité vaut à la ville son surnom de Venise du Gâtinais. Les parkings du centre, notamment le parking de la place de la République et le parking du Château, disposent de bornes de recharge. Flâner le long des canaux pendant la recharge est un plaisir typiquement montargois.
@@ -3758,7 +3758,7 @@ Le château de Montargis, en partie ruiné, domine la ville depuis son promontoi
 
 La praline de Montargis, confiserie inventée au XVIIe siècle par le cuisinier du duc de Choiseul-Praslin, est la spécialité sucrée de la ville. La Maison de la Praline Mazet perpétue cette tradition depuis 1903. Les bornes à proximité de cette confiserie historique permettent de combiner gourmandise et recharge.
 
-L'Agglomération Montargoise et Rives du Loing (AME) et le SIÉML du Loiret coordonnent le déploiement des bornes. Le réseau couvre Montargis et les communes de l'agglomération, notamment Amilly, Villemandeur et Châlette-sur-Loing.
+L'Agglomération Montargoise et Rives du Loing (ÂME) et le SIEML du Loiret coordonnent le déploiement des bornes. Le réseau couvre Montargis et les communes de l'agglomération, notamment Amilly, Villemandeur et Châlette-sur-Loing.
 
 Le canal de Briare, l'un des plus anciens canaux de France construit sous Henri IV et Sully au début du XVIIe siècle, traverse Montargis avant de rejoindre la Loire à Briare. Le pont-canal de Briare, ouvrage métallique spectaculaire conçu par Gustave Eiffel, est à une quarantaine de kilomètres. Le réseau de bornes facilite cette excursion le long du canal.
 
@@ -3778,7 +3778,7 @@ Montargis, Venise du Gâtinais, laisse couler l'énergie électrique dans ses ca
     region: "Bourgogne-Franche-Comté",
     population: 159346,
     nombreBornes: 280,
-    metaDescription: "Bornes de recharge à Dijon : réseau, emplacements et conseils pour recharger votre voiture électrique à Dijon et environs.",
+    metaDescription: "Bornes de recharge à Dijon : réseau, emplacements et conseils pour recharger votre voiture électrique à Dijon et environs.",
     contenu: `Dijon, capitale de la Bourgogne et ancienne cité des ducs, déploie un réseau de bornes de recharge ambitieux dans un cadre patrimonial et gastronomique exceptionnel. Avec environ 280 bornes disponibles, la métropole dijonnaise offre une infrastructure digne de son statut de grande ville française.
 
 Le palais des ducs et des États de Bourgogne, abritant le musée des Beaux-Arts récemment rénové, domine la place de la Libération, l'une des plus belles places de France. Les parkings souterrains du centre, notamment le parking Darcy, le parking Grangier et le parking Condorcet, disposent de bornes de recharge. Le secteur sauvegardé de Dijon, l'un des plus vastes de France, se découvre à pied depuis ces parkings.
@@ -3799,7 +3799,7 @@ Le jardin Darcy, premier jardin public de Dijon avec son bassin orné de l'ours 
 
 La gare TGV de Dijon, qui relie la ville à Paris en 1h35 et à Lyon en 1h40, dispose de bornes dans ses parkings. Dijon est un carrefour ferroviaire qui connecte le nord et le sud, l'est et l'ouest de la France.
 
-Dijon, ville de la moutarde, du vin et des ducs, assaisonne la mobilité électrique d'un zeste de gastronomie et d'une larme de grand cru bourguignon.`,
+Dijon, ville de la moutarde, du vin et des ducs, assaisonné la mobilité électrique d'un zeste de gastronomie et d'une larme de grand cru bourguignon.`,
     dateMAJ: "2026-06-22",
   },
   {
@@ -3809,12 +3809,12 @@ Dijon, ville de la moutarde, du vin et des ducs, assaisonne la mobilité électr
     region: "Bourgogne-Franche-Comté",
     population: 120271,
     nombreBornes: 170,
-    metaDescription: "Bornes de recharge à Besançon : réseau, emplacements et conseils pour recharger votre voiture électrique à Besançon et environs.",
+    metaDescription: "Bornes de recharge à Besançon : réseau, emplacements et conseils pour recharger votre voiture électrique à Besançon et environs.",
     contenu: `Besançon, capitale de la Franche-Comté et ville UNESCO grâce à la citadelle de Vauban, développe un réseau de bornes de recharge dans un cadre géographique spectaculaire. Avec environ 170 bornes disponibles, la ville natale de Victor Hugo offre une infrastructure solide au cœur du massif jurassien.
 
 La citadelle de Besançon, chef-d'œuvre de Vauban inscrit au patrimoine mondial de l'UNESCO, surplombe la boucle du Doubs. Ce site exceptionnel abrite un musée de la Résistance, un muséum avec un insectarium et un aquarium, et un jardin zoologique. Le parking de la citadelle dispose de bornes, permettant de recharger pendant les heures de visite de ce monument majeur.
 
-La boucle du Doubs, méandre spectaculaire qui enserre la vieille ville, crée un amphithéâtre naturel unique. Les quais du Doubs, aménagés en promenade, offrent des vues sur les façades colorées et les toits de la ville. Les parkings à l'intérieur de la boucle, comme le parking Battant et le parking de la Mairie, disposent de bornes.
+La boucle du Doubs, méandre spectaculaire qui enserré la vieille ville, crée un amphithéâtre naturel unique. Les quais du Doubs, aménagés en promenade, offrent des vues sur les façades colorées et les toits de la ville. Les parkings à l'intérieur de la boucle, comme le parking Battant et le parking de la Mairie, disposent de bornes.
 
 Grand Besançon Métropole coordonne le déploiement des bornes sur les 68 communes de la métropole. Le réseau couvre la ville et les premiers contreforts du Jura. Les bornes sont interopérables et acceptent les principaux badges de recharge.
 
@@ -3840,7 +3840,7 @@ Besançon, ville de précision horlogère et de nature jurassienne, avance vers 
     region: "Bourgogne-Franche-Comté",
     population: 46700,
     nombreBornes: 60,
-    metaDescription: "Bornes de recharge à Belfort : réseau, emplacements et conseils pour recharger votre voiture électrique à Belfort et environs.",
+    metaDescription: "Bornes de recharge à Belfort : réseau, emplacements et conseils pour recharger votre voiture électrique à Belfort et environs.",
     contenu: `Belfort, ville du Lion et cité de la résistance, développe son réseau de bornes de recharge autour de son patrimoine militaire et industriel. Avec environ 60 bornes disponibles, la préfecture du Territoire de Belfort offre une infrastructure adaptée à ce carrefour entre Alsace, Franche-Comté et Suisse.
 
 Le Lion de Belfort, sculpture monumentale de Bartholdi mesurant 22 mètres de long et 11 mètres de haut, commémore la résistance héroïque de la ville pendant le siège de 1870-1871. Adossé à la citadelle, ce lion de grès rose est le symbole de la ville et l'un des monuments les plus célèbres de France. Le parking de la citadelle dispose de bornes de recharge.
@@ -3869,7 +3869,7 @@ Belfort, ville du Lion et de la résistance, rugit désormais au son silencieux 
     region: "Bourgogne-Franche-Comté",
     population: 35251,
     nombreBornes: 45,
-    metaDescription: "Bornes de recharge à Auxerre : réseau, emplacements et conseils pour recharger votre voiture électrique à Auxerre et environs.",
+    metaDescription: "Bornes de recharge à Auxerre : réseau, emplacements et conseils pour recharger votre voiture électrique à Auxerre et environs.",
     contenu: `Auxerre, préfecture de l'Yonne et joyau de la Bourgogne du Nord, développe son réseau de bornes de recharge dans un cadre médiéval surplombant la rivière Yonne. Avec environ 45 bornes disponibles, cette ville d'art et d'histoire offre une infrastructure adaptée à son patrimoine et au vignoble qui l'entoure.
 
 La cathédrale Saint-Étienne d'Auxerre, chef-d'œuvre du gothique avec ses vitraux du XIIIe siècle et sa crypte romane ornée de fresques carolingiennes uniques, domine le panorama des bords de l'Yonne. L'abbaye Saint-Germain, l'un des plus anciens monastères de France, abrite des cryptes carolingiennes aux fresques considérées comme les plus anciennes de France. Les parkings à proximité disposent de bornes de recharge.
@@ -3898,7 +3898,7 @@ Auxerre, ville des clochers et du chablis, fait de la mobilité électrique un c
     region: "Bourgogne-Franche-Comté",
     population: 34500,
     nombreBornes: 45,
-    metaDescription: "Bornes de recharge à Mâcon : réseau, emplacements et conseils pour recharger votre voiture électrique à Mâcon et environs.",
+    metaDescription: "Bornes de recharge à Mâcon : réseau, emplacements et conseils pour recharger votre voiture électrique à Mâcon et environs.",
     contenu: `Mâcon, préfecture de Saône-et-Loire et porte de la Bourgogne du Sud, développe son réseau de bornes de recharge entre vignobles et vallée de la Saône. Avec environ 45 bornes disponibles, cette ville natale de Lamartine offre une infrastructure croissante pour la mobilité électrique.
 
 Le centre-ville de Mâcon, bordé par la Saône, s'organise autour de l'esplanade Lamartine et du pont Saint-Laurent. Les vestiges du Vieux-Saint-Vincent, ancienne cathédrale partiellement détruite pendant la Révolution, et la Maison de Bois, remarquable maison à colombages du XVIe siècle ornée de sculptures grivoises, témoignent du passé de la ville. Les parkings du centre disposent de bornes de recharge.
@@ -3929,7 +3929,7 @@ Mâcon, entre Saône et vignobles, verse la mobilité électrique dans le calice
     region: "Bourgogne-Franche-Comté",
     population: 44800,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Chalon-sur-Saône : réseau, emplacements et conseils pour recharger votre voiture électrique à Chalon-sur-Saône et environs.",
+    metaDescription: "Bornes de recharge à Chalon-sur-Saône : réseau, emplacements et conseils pour recharger votre voiture électrique à Chalon-sur-Saône et environs.",
     contenu: `Chalon-sur-Saône, berceau de la photographie et plus grande ville de Saône-et-Loire, développe son réseau de bornes de recharge dans un cadre fluvial et culturel dynamique. Avec environ 55 bornes disponibles, cette cité de Nicéphore Niépce offre une infrastructure en expansion pour la mobilité électrique.
 
 Le centre-ville de Chalon, articulé autour de la place Saint-Vincent et de sa cathédrale, offre un ensemble médiéval et Renaissance attachant. Les maisons à colombages de l'île Saint-Laurent, au milieu de la Saône, créent un quartier pittoresque accessible par le pont Saint-Laurent. Les parkings du centre, comme le parking de l'Hôtel de Ville et le parking de la gare, disposent de bornes de recharge.
@@ -3960,7 +3960,7 @@ Chalon-sur-Saône, ville de l'image et du carnaval, développe la mobilité éle
     region: "Bourgogne-Franche-Comté",
     population: 33900,
     nombreBornes: 40,
-    metaDescription: "Bornes de recharge à Nevers : réseau, emplacements et conseils pour recharger votre voiture électrique à Nevers et environs.",
+    metaDescription: "Bornes de recharge à Nevers : réseau, emplacements et conseils pour recharger votre voiture électrique à Nevers et environs.",
     contenu: `Nevers, préfecture de la Nièvre et cité de la faïence, développe son réseau de bornes de recharge au confluent de la Loire et de la Nièvre. Avec environ 40 bornes disponibles, cette ville ducale offre une infrastructure croissante pour la mobilité électrique dans ce cœur rural de la France.
 
 Le palais ducal de Nevers, élégante demeure Renaissance des ducs de Nevers, domine la Loire depuis sa terrasse. Les tours de la porte du Croux, les rues médiévales et la cathédrale Saint-Cyr-et-Sainte-Julitte, unique cathédrale double de France avec deux chœurs opposés, composent un patrimoine remarquable. Les parkings du centre, comme le parking du Palais ducal et le parking Carnot, disposent de bornes.
@@ -3989,7 +3989,7 @@ Nevers, cité de la faïence et du fleuve royal, façonne la mobilité électriq
     region: "Bourgogne-Franche-Comté",
     population: 17100,
     nombreBornes: 22,
-    metaDescription: "Bornes de recharge à Lons-le-Saunier : réseau, emplacements et conseils pour recharger votre voiture électrique à Lons-le-Saunier et environs.",
+    metaDescription: "Bornes de recharge à Lons-le-Saunier : réseau, emplacements et conseils pour recharger votre voiture électrique à Lons-le-Saunier et environs.",
     contenu: `Lons-le-Saunier, préfecture du Jura et ville natale de Rouget de Lisle, auteur de La Marseillaise, développe son réseau de bornes de recharge au pied des premiers plateaux du Jura. Avec environ 22 bornes disponibles, cette ville thermale et salinière offre une infrastructure essentielle pour les conducteurs explorant le massif jurassien.
 
 Le centre-ville de Lons-le-Saunier s'organise autour de la rue du Commerce, célèbre pour ses arcades et sa courbure en arc de cercle. La place de la Liberté, avec son horloge qui sonne La Marseillaise aux heures, est le cœur de la ville. Les parkings du centre, notamment le parking de la Chevalerie et le parking de la gare, disposent de bornes de recharge.
@@ -4006,7 +4006,7 @@ Le fromage comté, roi des fromages franc-comtois, est produit dans les fruitiè
 
 Les lacs du Jura, dont le lac de Vouglans avec ses eaux turquoise, offrent des espaces de baignade et de loisirs nautiques en été. Les plages des lacs sont accessibles en véhicule électrique avec des bornes aux parkings.
 
-Le marché de Lons-le-Saunier et les commerces du centre proposent les produits du terroir jurassien : comté, morbier, bleu de Gex, saucisse de Morteau et vin du Jura.
+Le marché de Lons-le-Saunier et les commerces du centre proposent les produits du terroir jurassien : comté, morbier, bleu de Gex, saucisse de Morteau et vin du Jura.
 
 Lons-le-Saunier, ville de La Marseillaise et du Jura, entonne l'hymne de la mobilité électrique avec la fierté et l'authenticité franc-comtoises.`,
     dateMAJ: "2026-06-22",
@@ -4018,7 +4018,7 @@ Lons-le-Saunier, ville de La Marseillaise et du Jura, entonne l'hymne de la mobi
     region: "Corse",
     population: 72399,
     nombreBornes: 85,
-    metaDescription: "Bornes de recharge à Ajaccio : réseau, emplacements et conseils pour recharger votre voiture électrique à Ajaccio et environs.",
+    metaDescription: "Bornes de recharge à Ajaccio : réseau, emplacements et conseils pour recharger votre voiture électrique à Ajaccio et environs.",
     contenu: `Ajaccio, cité impériale et préfecture de la Corse-du-Sud, développe son réseau de bornes de recharge dans un cadre méditerranéen exceptionnel. Avec environ 85 bornes disponibles, la ville natale de Napoléon Bonaparte offre une infrastructure croissante pour les conducteurs de véhicules électriques sur l'île de Beauté.
 
 La maison natale de Napoléon, située rue Saint-Charles dans le centre historique, est un musée national retraçant l'enfance corse de l'Empereur. La cathédrale Notre-Dame de l'Assomption, où Napoléon fut baptisé, et la place du Diamant avec sa statue équestre complètent le parcours napoléonien. Les parkings du centre-ville disposent de bornes de recharge.
@@ -4049,7 +4049,7 @@ Ajaccio, cité impériale baignée de soleil, conquiert la mobilité électrique
     region: "Corse",
     population: 48400,
     nombreBornes: 55,
-    metaDescription: "Bornes de recharge à Bastia : réseau, emplacements et conseils pour recharger votre voiture électrique à Bastia et environs.",
+    metaDescription: "Bornes de recharge à Bastia : réseau, emplacements et conseils pour recharger votre voiture électrique à Bastia et environs.",
     contenu: `Bastia, préfecture de la Haute-Corse et ville la plus italianisante de France, développe son réseau de bornes de recharge dans un cadre méditerranéen entre montagne et mer. Avec environ 55 bornes disponibles, la capitale économique de la Corse offre une infrastructure adaptée aux conducteurs explorant le nord de l'île de Beauté.
 
 Le Vieux-Port de Bastia, encadré par les façades colorées des immeubles génois, est le cœur pittoresque de la ville. L'église Saint-Jean-Baptiste, avec ses clochers jumeaux dominant le port, est la plus grande église de Corse. Les parkings à proximité du Vieux-Port disposent de bornes de recharge. La place Saint-Nicolas, vaste esplanade bordée de platanes face à la mer, est le salon de la ville.
@@ -4080,7 +4080,7 @@ Bastia, cité génoise et porte de la Corse, ouvre grand ses bras à la mobilit�
     region: "Corse",
     population: 12500,
     nombreBornes: 25,
-    metaDescription: "Bornes de recharge à Porto-Vecchio : réseau, emplacements et conseils pour recharger votre voiture électrique à Porto-Vecchio et environs.",
+    metaDescription: "Bornes de recharge à Porto-Vecchio : réseau, emplacements et conseils pour recharger votre voiture électrique à Porto-Vecchio et environs.",
     contenu: `Porto-Vecchio, cité du sel et station balnéaire prisée du sud de la Corse, installe progressivement des bornes de recharge dans un cadre naturel parmi les plus beaux de Méditerranée. Avec environ 25 bornes disponibles, cette commune de Corse-du-Sud offre un réseau essentiel pour les conducteurs explorant l'extrême sud de l'île.
 
 La citadelle génoise de Porto-Vecchio, perchée sur un promontoire dominant le golfe, est le cœur historique de la ville. Les ruelles étroites, les restaurants et les boutiques de la vieille ville animent les soirées estivales. Les parkings en contrebas de la citadelle disposent de bornes de recharge, permettant de monter à pied dans ce quartier piétonnier.
@@ -4109,7 +4109,7 @@ Porto-Vecchio, entre plages paradisiaques et montagnes sauvages, fait de la mobi
     region: "Corse",
     population: 7700,
     nombreBornes: 15,
-    metaDescription: "Bornes de recharge à Corte : réseau, emplacements et conseils pour recharger votre voiture électrique à Corte et environs.",
+    metaDescription: "Bornes de recharge à Corte : réseau, emplacements et conseils pour recharger votre voiture électrique à Corte et environs.",
     contenu: `Corte, ancienne capitale de la Corse indépendante et ville universitaire au cœur des montagnes, installe des bornes de recharge dans un cadre montagnard spectaculaire. Avec environ 15 bornes disponibles, cette citadelle de l'intérieur offre un réseau essentiel pour les conducteurs explorant la Corse des montagnes.
 
 La citadelle de Corte, perchée sur un piton rocheux dominant la confluence du Tavignano et de la Restonica, est le monument emblématique de la Corse historique. C'est depuis cette citadelle que Pasquale Paoli gouverna la Corse indépendante de 1755 à 1769, rédigeant une constitution avant-gardiste. Le musée de la Corse, installé dans la caserne Serrurier au sein de la citadelle, retrace l'histoire et l'identité insulaires. Les parkings au pied de la citadelle disposent de bornes de recharge.
@@ -4124,7 +4124,7 @@ Les gorges du Tavignano, accessibles depuis le centre de Corte, offrent un senti
 
 Le GR 20, sentier de randonnée le plus célèbre d'Europe, traverse les montagnes corses à proximité de Corte. Les randonneurs en itinérance utilisent Corte comme point de ravitaillement et de repos. Les bornes permettent aux accompagnants motorisés de recharger pendant les étapes.
 
-Le centre-ville de Corte, avec la place Paoli, les ruelles de la haute ville et les cafés animés par la vie étudiante, offre une ambiance authentiquement corse. Le marché et les commerces proposent les produits de la montagne corse : fromages, charcuterie, miel de châtaignier et bière artisanale.
+Le centre-ville de Corte, avec la place Paoli, les ruelles de la haute ville et les cafés animés par la vie étudiante, offre une ambiance authentiquement corse. Le marché et les commerces proposent les produits de la montagne corse : fromages, charcuterie, miel de châtaignier et bière artisanale.
 
 Les forêts de châtaigniers de la Castagniccia et les villages perchés du Bozio sont accessibles depuis Corte. Ces territoires de l'intérieur corse, peu touristiques mais profondément authentiques, méritent le détour en véhicule électrique silencieux.
 
@@ -4138,7 +4138,7 @@ Corte, cœur battant de la Corse des montagnes, accueille la mobilité électriq
     region: "Martinique",
     population: 75800,
     nombreBornes: 45,
-    metaDescription: "Bornes de recharge à Fort-de-France : réseau, emplacements et conseils pour recharger votre voiture électrique à Fort-de-France et environs.",
+    metaDescription: "Bornes de recharge à Fort-de-France : réseau, emplacements et conseils pour recharger votre voiture électrique à Fort-de-France et environs.",
     contenu: `Fort-de-France, préfecture de la Martinique et capitale de l'île aux fleurs, développe son réseau de bornes de recharge pour véhicules électriques dans un cadre tropical luxuriant. Avec environ 45 bornes disponibles, cette ville caribéenne offre une infrastructure pionnière pour la mobilité électrique dans les Antilles françaises.
 
 Le centre-ville de Fort-de-France, articulé autour de la bibliothèque Schœlcher, chef-d'œuvre architectural en métal et verre du XIXe siècle, et du fort Saint-Louis, forteresse militaire dominant la baie, offre un patrimoine colonial et créole remarquable. La cathédrale Saint-Louis, avec sa structure métallique conçue par Henri Picq, et le marché couvert aux épices et fruits tropicaux animent le cœur de ville. Les parkings du centre disposent de bornes de recharge.
@@ -4167,7 +4167,7 @@ Fort-de-France, cœur créole de la Martinique, accueille la mobilité électriq
     region: "Guadeloupe",
     population: 15400,
     nombreBornes: 20,
-    metaDescription: "Bornes de recharge à Pointe-à-Pitre : réseau, emplacements et conseils pour recharger votre voiture électrique à Pointe-à-Pitre et environs.",
+    metaDescription: "Bornes de recharge à Pointe-à-Pitre : réseau, emplacements et conseils pour recharger votre voiture électrique à Pointe-à-Pitre et environs.",
     contenu: `Pointe-à-Pitre, capitale économique de la Guadeloupe et ville de la Grande-Terre, installe progressivement des bornes de recharge pour véhicules électriques dans un cadre antillais dynamique. Avec environ 20 bornes disponibles, cette ville portuaire offre un réseau naissant pour la mobilité électrique dans l'archipel guadeloupéen.
 
 Le centre-ville de Pointe-à-Pitre, avec la place de la Victoire bordée de palmiers royaux, le marché couvert aux épices et la basilique Saint-Pierre-et-Saint-Paul, offre un patrimoine créole vivant. Les maisons coloniales à balcons de fer forgé et les ruelles commerçantes témoignent d'une architecture antillaise typique. Les parkings du centre disposent de bornes de recharge.
@@ -4196,7 +4196,7 @@ Pointe-à-Pitre, carrefour commercial et culturel de la Guadeloupe, trace sa rou
     region: "La Réunion",
     population: 155000,
     nombreBornes: 65,
-    metaDescription: "Bornes de recharge à Saint-Denis : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Denis et environs.",
+    metaDescription: "Bornes de recharge à Saint-Denis : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Denis et environs.",
     contenu: `Saint-Denis de La Réunion, préfecture de ce département d'outre-mer dans l'océan Indien, développe son réseau de bornes de recharge pour véhicules électriques dans un cadre insulaire tropical unique. Avec environ 65 bornes disponibles, la plus grande ville de l'outre-mer français offre une infrastructure pionnière pour la mobilité propre.
 
 Le centre-ville de Saint-Denis, avec ses cases créoles colorées à varangues, la rue de Paris bordée de demeures coloniales et le Jardin de l'État, ancien jardin du roi créé au XVIIIe siècle, offre un patrimoine architectural créole remarquable. Le Grand Marché et le Petit Marché animent le cœur de ville avec leurs épices, vanille Bourbon, fruits tropicaux et artisanat. Les parkings du centre disposent de bornes de recharge.
@@ -4225,7 +4225,7 @@ Saint-Denis de La Réunion, métropole créole au cœur de l'océan Indien, avan
     region: "Guyane",
     population: 64000,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Cayenne : réseau, emplacements et conseils pour recharger votre voiture électrique à Cayenne et environs.",
+    metaDescription: "Bornes de recharge à Cayenne : réseau, emplacements et conseils pour recharger votre voiture électrique à Cayenne et environs.",
     contenu: `Cayenne, préfecture de la Guyane française et porte de l'Amazonie européenne, installe des bornes de recharge pour véhicules électriques dans un environnement équatorial unique. Avec environ 30 bornes disponibles, cette ville sud-américaine française offre un réseau émergent pour la mobilité propre dans le plus grand département français.
 
 Le centre-ville de Cayenne, avec la place des Palmistes bordée de palmiers royaux, la cathédrale Saint-Sauveur et les maisons créoles de la rue du Général de Gaulle, conserve un patrimoine colonial préservé. Le fort Cépérou, colline dominant la ville et l'estuaire du Mahury, offre un panorama sur la mangrove et l'océan Atlantique. Les parkings du centre disposent de bornes de recharge.
@@ -4254,7 +4254,7 @@ Cayenne, entre forêt amazonienne et technologies spatiales, fait de la mobilit�
     region: "Nouvelle-Calédonie",
     population: 99900,
     nombreBornes: 40,
-    metaDescription: "Bornes de recharge à Nouméa : réseau, emplacements et conseils pour recharger votre voiture électrique à Nouméa et environs.",
+    metaDescription: "Bornes de recharge à Nouméa : réseau, emplacements et conseils pour recharger votre voiture électrique à Nouméa et environs.",
     contenu: `Nouméa, chef-lieu de la Nouvelle-Calédonie et ville du Pacifique Sud, développe son réseau de bornes de recharge pour véhicules électriques dans un cadre lagonaire inscrit au patrimoine mondial de l'UNESCO. Avec environ 40 bornes disponibles, cette ville océanienne offre une infrastructure croissante pour la mobilité propre dans le Pacifique français.
 
 Le centre-ville de Nouméa, avec la place des Cocotiers bordée de flamboyants, la cathédrale Saint-Joseph et le quartier latin animé, offre un cadre de vie tropical et cosmopolite. Les maisons coloniales, les restaurants et les boutiques du centre sont desservis par des parkings équipés de bornes de recharge.
@@ -4285,7 +4285,7 @@ Nouméa, perle du Pacifique, navigue vers la mobilité électrique avec l'esprit
     region: "Auvergne-Rhône-Alpes",
     population: 8600,
     nombreBornes: 35,
-    metaDescription: "Bornes de recharge à Chamonix-Mont-Blanc : réseau, emplacements et conseils pour recharger votre voiture électrique à Chamonix-Mont-Blanc et environs.",
+    metaDescription: "Bornes de recharge à Chamonix-Mont-Blanc : réseau, emplacements et conseils pour recharger votre voiture électrique à Chamonix-Mont-Blanc et environs.",
     contenu: `Chamonix-Mont-Blanc, capitale mondiale de l'alpinisme et station de montagne mythique, déploie un réseau de bornes de recharge adapté à son environnement alpin d'exception. Avec environ 35 bornes disponibles, cette commune de Haute-Savoie offre une infrastructure essentielle pour les conducteurs de véhicules électriques au pied du toit de l'Europe.
 
 Le centre-ville de Chamonix, dominé par le massif du Mont-Blanc culminant à 4808 mètres, offre un spectacle naturel incomparable. La rue principale, les commerces de sport et les restaurants gastronomiques animent cette station internationale toute l'année. Les parkings du centre, notamment le parking de la place du Mont-Blanc et le parking souterrain du centre, disposent de bornes de recharge.
@@ -4314,7 +4314,7 @@ Chamonix-Mont-Blanc, cathédrale de granit et de glace, fait de la mobilité él
     region: "Nouvelle-Aquitaine",
     population: 25400,
     nombreBornes: 50,
-    metaDescription: "Bornes de recharge à Biarritz : réseau, emplacements et conseils pour recharger votre voiture électrique à Biarritz et environs.",
+    metaDescription: "Bornes de recharge à Biarritz : réseau, emplacements et conseils pour recharger votre voiture électrique à Biarritz et environs.",
     contenu: `Biarritz, station balnéaire impériale et capitale européenne du surf, déploie un réseau de bornes de recharge à la hauteur de son prestige. Avec environ 50 bornes disponibles, cette ville du Pays Basque offre une infrastructure adaptée à son standing international et à sa fréquentation touristique.
 
 La Grande Plage de Biarritz, bordée par le Casino municipal et l'Hôtel du Palais, ancien palais de l'impératrice Eugénie, est le symbole de l'élégance biarrote. Les parkings du front de mer, notamment le parking Sainte-Eugénie et le parking Grande Plage, disposent de bornes de recharge. La promenade le long de la côte, du phare de Biarritz au Port Vieux, offre des panoramas spectaculaires.
@@ -4343,7 +4343,7 @@ Biarritz, entre vagues atlantiques et tradition basque, surfe sur la mobilité �
     region: "Provence-Alpes-Côte d'Azur",
     population: 4200,
     nombreBornes: 30,
-    metaDescription: "Bornes de recharge à Saint-Tropez : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Tropez et environs.",
+    metaDescription: "Bornes de recharge à Saint-Tropez : réseau, emplacements et conseils pour recharger votre voiture électrique à Saint-Tropez et environs.",
     contenu: `Saint-Tropez, village de pêcheurs devenu icône mondiale du glamour méditerranéen, déploie un réseau de bornes de recharge adapté à son attractivité touristique exceptionnelle. Avec environ 30 bornes pour seulement 4200 habitants permanents, ce village mythique du Var offre un ratio remarquable de bornes par habitant.
 
 Le Vieux Port de Saint-Tropez, où les yachts côtoient les pointus traditionnels, est le cœur battant du village. La place des Lices, avec son marché provençal et ses joueurs de pétanque, offre un spectacle authentiquement tropézien malgré la renommée internationale du lieu. Les parkings à l'entrée du village, notamment le parking des Lices, disposent de bornes de recharge.
@@ -4372,7 +4372,7 @@ Saint-Tropez, mythe vivant de la Côte d'Azur, ajoute à son glamour légendaire
     region: "Auvergne-Rhône-Alpes",
     population: 3200,
     nombreBornes: 25,
-    metaDescription: "Bornes de recharge à Megève : réseau, emplacements et conseils pour recharger votre voiture électrique à Megève et environs.",
+    metaDescription: "Bornes de recharge à Megève : réseau, emplacements et conseils pour recharger votre voiture électrique à Megève et environs.",
     contenu: `Megève, station de sports d'hiver et d'été créée par la baronne de Rothschild dans les années 1920, offre un réseau de bornes de recharge à la hauteur de son standing alpin. Avec environ 25 bornes disponibles, ce village haut-savoyard à 1113 mètres d'altitude combine luxe montagnard et mobilité durable.
 
 Le centre du village de Megève, avec son église Saint-Jean-Baptiste et sa place piétonne bordée de boutiques de luxe et de restaurants gastronomiques, conserve un charme savoyard authentique malgré sa vocation haut de gamme. Les parkings du centre, notamment le parking du Palais des Sports et le parking de la Résidence, disposent de bornes de recharge.
@@ -4403,7 +4403,7 @@ Megève, diamant des Alpes posé entre les sapins et les sommets, fait scintille
     region: "Nouvelle-Aquitaine",
     population: 10700,
     nombreBornes: 35,
-    metaDescription: "Bornes de recharge à Arcachon : réseau, emplacements et conseils pour recharger votre voiture électrique à Arcachon et environs.",
+    metaDescription: "Bornes de recharge à Arcachon : réseau, emplacements et conseils pour recharger votre voiture électrique à Arcachon et environs.",
     contenu: `Arcachon, station balnéaire élégante du bassin du même nom, développe son réseau de bornes de recharge dans un cadre naturel entre océan, forêt de pins et bassin ostréicole. Avec environ 35 bornes disponibles, cette ville girondine offre une infrastructure adaptée à son attractivité touristique et à son engagement environnemental.
 
 Le front de mer d'Arcachon, avec sa jetée Thiers, ses restaurants face au bassin et ses cabanes tchanquées emblématiques, est le cœur de la vie balnéaire. La plage Pereire, la plage du Moulleau et la plage des Arbousiers offrent des espaces de baignade dans les eaux calmes du bassin. Les parkings du front de mer disposent de bornes de recharge.

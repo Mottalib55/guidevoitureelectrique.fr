@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Modele } from "@/data/modeles";
+import { dec } from "@/lib/format";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -40,22 +41,22 @@ export default function CarteModele({ modele }: { modele: Modele }) {
           <span className="carte-modele-lbl">à partir de</span>
         </div>
         <div>
-          <span className="carte-modele-val">{modele.autonomieReelle} km</span>
+          <span className="carte-modele-val">{modele.autonomieReelle} km</span>
           <span className="carte-modele-lbl">autonomie réelle</span>
         </div>
         <div>
-          <span className="carte-modele-val">{modele.batterieKwh} kWh</span>
+          <span className="carte-modele-val">{dec(modele.batterieKwh)} kWh</span>
           <span className="carte-modele-lbl">batterie</span>
         </div>
       </div>
       <div className="carte-modele-stats" style={{ marginTop: 8 }}>
         <div>
-          <span className="carte-modele-val">{modele.chargeRapideKw} kW</span>
+          <span className="carte-modele-val">{dec(modele.chargeRapideKw)} kW</span>
           <span className="carte-modele-lbl">charge rapide max</span>
         </div>
         <div>
           <span className="carte-modele-val">{modele.tempsChargeRapide.split("(")[0].trim()}</span>
-          <span className="carte-modele-lbl">10→80 % rapide</span>
+          <span className="carte-modele-lbl">10→80 % rapide</span>
         </div>
         <div>
           <span className="carte-modele-val">{modele.tempsChargeAC.split("(")[0].trim()}</span>

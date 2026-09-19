@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 import { buildMetadata } from "@/lib/seo";
 import { webApplicationJsonLd } from "@/lib/jsonld";
+import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Widget calculateur VE gratuit | Intégrez sur votre site",
   description:
-    "Intégrez gratuitement notre calculateur de coût de voiture électrique sur votre site : widget adapté au mobile, léger, sans publicité ni collecte de données.",
+    "Intégrez gratuitement notre calculateur de coût de voiture électrique sur votre site : widget adapté au mobile, léger, sans publicité ni collecte de données.",
   path: "/outils/widget/",
 });
 
@@ -34,7 +35,8 @@ export default function WidgetPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <article className="section" style={{ paddingTop: 48, paddingBottom: 80 }}>
+      <article className="section section-medium" style={{ paddingTop: 48, paddingBottom: 80 }}>
+        <LastUpdated />
         <h1
           style={{
             fontFamily: "var(--font-display)",
@@ -103,7 +105,7 @@ export default function WidgetPage() {
             </pre>
             <p style={{ fontSize: 13, color: "var(--muted)", marginTop: 12, lineHeight: 1.5 }}>
               Copiez ce code et collez-le dans votre page HTML.
-              Le widget est 100 % gratuit et sans tracking.
+              Le widget est 100 % gratuit et sans tracking.
             </p>
 
             <h3

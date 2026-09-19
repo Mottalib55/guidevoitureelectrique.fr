@@ -15,7 +15,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
         marginBottom: 24,
       }}
     >
-      <Link href="/a-propos/" style={{ flexShrink: 0 }}>
+      <Link rel="author" href="/a-propos/" style={{ flexShrink: 0 }}>
         <Image
           src="/team/mottalib-radif.jpg"
           alt="Mottalib Radif"
@@ -40,6 +40,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
           Rédigé par
         </p>
         <Link
+          rel="author"
           href="/a-propos/"
           style={{
             fontFamily: "var(--font-display)",

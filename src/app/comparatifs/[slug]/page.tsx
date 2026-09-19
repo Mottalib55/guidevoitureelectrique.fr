@@ -9,6 +9,8 @@ import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import FinancementVE from "@/components/FinancementVE";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
+import { dec } from "@/lib/format";
 
 export function generateStaticParams() {
   return comparatifs.map((c) => ({ slug: c.slug }));
@@ -30,12 +32,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return buildMetadata({
     title: fit(c.titre, [
-      " : comparatif 2026 prix, autonomie, recharge",
-      " : comparatif 2026 prix et autonomie",
-      " : comparatif prix et autonomie 2026",
-      " : lequel choisir en 2026 ?",
-      " : comparatif 2026",
-      " en 2026 : lequel choisir ?",
+      " : comparatif 2026 prix, autonomie, recharge",
+      " : comparatif 2026 prix et autonomie",
+      " : comparatif prix et autonomie 2026",
+      " : lequel choisir en 2026 ?",
+      " : comparatif 2026",
+      " en 2026 : lequel choisir ?",
       " en 2026",
       "",
     ], TITLE_RANGE, "titre"),
@@ -69,24 +71,24 @@ function getFaqs(
 
   return [
     {
-      question: `Quelle est la moins chère entre la ${m1.modele} et la ${m2.modele} ?`,
-      answer: `La ${moinsCher.modele} est la moins chère à ${euro(moinsCher.prixBase)}, contre ${euro(moinsCher === m1 ? m2.prixBase : m1.prixBase)} pour la ${moinsCher === m1 ? m2.modele : m1.modele}. ${m1.aidesEligible && m2.aidesEligible ? "Les deux modèles sont éligibles au bonus écologique de 4 000 €." : ""}`,
+      question: `Quelle est la moins chère entre la ${m1.modele} et la ${m2.modele} ?`,
+      answer: `La ${moinsCher.modele} est la moins chère à ${euro(moinsCher.prixBase)}, contre ${euro(moinsCher === m1 ? m2.prixBase : m1.prixBase)} pour la ${moinsCher === m1 ? m2.modele : m1.modele}. ${m1.aidesEligible && m2.aidesEligible ? "Les deux modèles sont éligibles au bonus écologique de 4 000 €." : ""}`,
     },
     {
-      question: `Laquelle a la meilleure autonomie : ${m1.modele} ou ${m2.modele} ?`,
-      answer: `La ${plusAutonome.modele} offre la meilleure autonomie réelle avec ${plusAutonome.autonomieReelle} km, contre ${plusAutonome === m1 ? m2.autonomieReelle : m1.autonomieReelle} km pour la ${plusAutonome === m1 ? m2.modele : m1.modele}.`,
+      question: `Laquelle à la meilleure autonomie : ${m1.modele} ou ${m2.modele} ?`,
+      answer: `La ${plusAutonome.modele} offre la meilleure autonomie réelle avec ${plusAutonome.autonomieReelle} km, contre ${plusAutonome === m1 ? m2.autonomieReelle : m1.autonomieReelle} km pour la ${plusAutonome === m1 ? m2.modele : m1.modele}.`,
     },
     {
-      question: `Laquelle se recharge le plus vite ?`,
-      answer: `La ${chargeRapide.modele} accepte la charge rapide la plus élevée à ${chargeRapide.chargeRapideKw} kW. Temps de charge rapide : ${m1.modele} : ${m1.tempsChargeRapide} ; ${m2.modele} : ${m2.tempsChargeRapide}.`,
+      question: `Laquelle se recharge le plus vite ?`,
+      answer: `La ${chargeRapide.modele} accepte la charge rapide la plus élevée à ${dec(chargeRapide.chargeRapideKw)} kW. Temps de charge rapide : ${m1.modele} : ${m1.tempsChargeRapide} ; ${m2.modele} : ${m2.tempsChargeRapide}.`,
     },
     {
-      question: `Laquelle a le plus grand coffre ?`,
+      question: `Laquelle a le plus grand coffre ?`,
       answer: `La ${plusGrandCoffre.modele} dispose d'un coffre de ${plusGrandCoffre.coffre} litres, contre ${plusGrandCoffre === m1 ? m2.coffre : m1.coffre} litres pour la ${plusGrandCoffre === m1 ? m2.modele : m1.modele}.`,
     },
     {
-      question: `${m1.modele} vs ${m2.modele} : laquelle choisir ?`,
-      answer: `Le choix dépend de vos priorités. La ${moinsCher.modele} est plus abordable (${euro(moinsCher.prixBase)}), tandis que la ${plusAutonome.modele} offre une meilleure autonomie (${plusAutonome.autonomieReelle} km réels). Consultez notre comparatif détaillé ci-dessus pour choisir selon votre profil.`,
+      question: `${m1.modele} vs ${m2.modele} : laquelle choisir ?`,
+      answer: `Le choix dépend de vos priorités. La ${moinsCher.modele} est plus abordable (${euro(moinsCher.prixBase)}), tandis que la ${plusAutonome.modele} offre une meilleure autonomie (${plusAutonome.autonomieReelle} km réels). Consultez notre comparatif détaillé ci-dessus pour choisir selon votre profil.`,
     },
   ];
 }
@@ -121,18 +123,18 @@ export default async function PageComparatif({ params }: Props) {
     },
     {
       label: "Batterie",
-      v1: `${m1.batterieKwh} kWh`,
-      v2: `${m2.batterieKwh} kWh`,
+      v1: `${dec(m1.batterieKwh)} kWh`,
+      v2: `${dec(m2.batterieKwh)} kWh`,
     },
     {
       label: "Consommation",
-      v1: `${m1.conso} kWh/100 km`,
-      v2: `${m2.conso} kWh/100 km`,
+      v1: `${dec(m1.conso)} kWh/100 km`,
+      v2: `${dec(m2.conso)} kWh/100 km`,
     },
     {
       label: "Charge rapide DC",
-      v1: `${m1.chargeRapideKw} kW`,
-      v2: `${m2.chargeRapideKw} kW`,
+      v1: `${dec(m1.chargeRapideKw)} kW`,
+      v2: `${dec(m2.chargeRapideKw)} kW`,
     },
     {
       label: "Temps charge rapide",
@@ -146,8 +148,8 @@ export default async function PageComparatif({ params }: Props) {
     },
     {
       label: "Puissance",
-      v1: `${m1.puissanceCh} ch (${m1.puissanceKw} kW)`,
-      v2: `${m2.puissanceCh} ch (${m2.puissanceKw} kW)`,
+      v1: `${m1.puissanceCh} ch (${dec(m1.puissanceKw)} kW)`,
+      v2: `${m2.puissanceCh} ch (${dec(m2.puissanceKw)} kW)`,
     },
     { label: "Coffre", v1: `${m1.coffre} L`, v2: `${m2.coffre} L` },
     { label: "Poids", v1: `${m1.poids} kg`, v2: `${m2.poids} kg` },
@@ -198,6 +200,7 @@ export default async function PageComparatif({ params }: Props) {
           >
             Comparatif
           </p>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -217,8 +220,8 @@ export default async function PageComparatif({ params }: Props) {
               lineHeight: 1.5,
             }}
           >
-            {m1.modele} ({euro(m1.prixBase)}, {m1.autonomieReelle} km réels) vs{" "}
-            {m2.modele} ({euro(m2.prixBase)}, {m2.autonomieReelle} km réels),
+            {m1.modele} ({euro(m1.prixBase)}, {m1.autonomieReelle} km réels) vs{" "}
+            {m2.modele} ({euro(m2.prixBase)}, {m2.autonomieReelle} km réels),
             Comparaison complète des prix, autonomie, recharge et coût de possession.
           </p>
         </header>
@@ -310,7 +313,7 @@ export default async function PageComparatif({ params }: Props) {
               marginBottom: 16,
             }}
           >
-            Financement : {m1.modele}
+            Financement : {m1.modele}
           </h2>
           <FinancementVE modele={m1.modele} prixBase={m1.prixBase} />
         </section>
@@ -324,7 +327,7 @@ export default async function PageComparatif({ params }: Props) {
               marginBottom: 16,
             }}
           >
-            Financement : {m2.modele}
+            Financement : {m2.modele}
           </h2>
           <FinancementVE modele={m2.modele} prixBase={m2.prixBase} />
         </section>
@@ -351,7 +354,7 @@ export default async function PageComparatif({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Questions fréquentes : {c.titre}
+            Questions fréquentes : {c.titre}
           </h2>
           {faqs.map((f, i) => (
             <div key={i} className="faq-item">
@@ -383,7 +386,7 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site officiel {m1.marque} : {m1.modele}
+                Site officiel {m1.marque}{/^https?:\/\/[^/]+(\/[a-z]{0,6})?\/?$/.test(m1.source) ? "" : ` : ${m1.modele}`}
               </a>
             </li>
             <li>
@@ -392,7 +395,7 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site officiel {m2.marque} : {m2.modele}
+                Site officiel {m2.marque}{/^https?:\/\/[^/]+(\/[a-z]{0,6})?\/?$/.test(m2.source) ? "" : ` : ${m2.modele}`}
               </a>
             </li>
             <li>
@@ -401,12 +404,12 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Bonus écologique : service-public.fr
               </a>
             </li>
           </ul>
           <p className="date-maj">
-            Dernière mise à jour :{" "}
+            Dernière mise à jour :{" "}
             {new Date().toLocaleDateString("fr-FR", {
               year: "numeric",
               month: "long",

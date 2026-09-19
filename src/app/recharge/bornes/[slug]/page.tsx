@@ -7,6 +7,7 @@ import { faqJsonLd } from "@/lib/jsonld";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return villes.map((v) => ({ slug: v.slug }));
@@ -20,11 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ville) return {};
   return buildMetadata({
     title: fit(`Bornes de recharge ${ville.nom}`, [
-      " : carte, réseaux et tarifs 2026",
-      " : carte et tarifs 2026",
-      " 2026 : carte et tarifs",
-      " : carte, tarifs 2026",
-      " : tarifs 2026",
+      " : carte, réseaux et tarifs 2026",
+      " : carte et tarifs 2026",
+      " 2026 : carte et tarifs",
+      " : carte, tarifs 2026",
+      " : tarifs 2026",
       " 2026",
     ], TITLE_RANGE, "titre"),
     description: fit(ville.metaDescription, [
@@ -48,20 +49,20 @@ function getFaqs(ville: NonNullable<ReturnType<typeof getVilleBySlug>>) {
   const ratio = (ville.nombreBornes / ville.population * 10000).toFixed(1).replace('.', ',');
   return [
     {
-      question: `Où recharger sa voiture électrique à ${ville.nom} ?`,
+      question: `Où recharger sa voiture électrique à ${ville.nom} ?`,
       answer: `${ville.nom} dispose de ${ville.nombreBornes} bornes de recharge publiques réparties sur l'ensemble de la ville. Vous trouverez des bornes dans les parkings publics, les centres commerciaux, les gares et les stations-service. Utilisez l'application Chargemap ou ABRP pour localiser les bornes disponibles en temps réel.`,
     },
     {
-      question: `Combien de bornes de recharge y a-t-il à ${ville.nom} ?`,
-      answer: `${ville.nom} compte environ ${ville.nombreBornes} points de recharge publics, soit un ratio de ${ratio} bornes pour 10 000 habitants. Ce réseau est en constante expansion grâce aux investissements des opérateurs nationaux et locaux.`,
+      question: `Combien de bornes de recharge y a-t-il à ${ville.nom} ?`,
+      answer: `${ville.nom} compte environ ${ville.nombreBornes} points de recharge publics, soit un ratio de ${ratio} bornes pour 10 000 habitants. Ce réseau est en constante expansion grâce aux investissements des opérateurs nationaux et locaux.`,
     },
     {
-      question: `La recharge est-elle gratuite à ${ville.nom} ?`,
-      answer: `Certaines bornes à ${ville.nom} offrent la recharge gratuite, notamment dans les centres commerciaux et certains parkings municipaux. Cependant, la majorité des bornes rapides et semi-rapides sont payantes, avec des tarifs variant de 0,25 à 0,70 €/kWh selon l'opérateur et la puissance.`,
+      question: `La recharge est-elle gratuite à ${ville.nom} ?`,
+      answer: `Certaines bornes à ${ville.nom} offrent la recharge gratuite, notamment dans les centres commerciaux et certains parkings municipaux. Cependant, la majorité des bornes rapides et semi-rapides sont payantes, avec des tarifs variant de 0,25 à 0,70 €/kWh selon l'opérateur et la puissance.`,
     },
     {
-      question: `Quelle est la borne la plus rapide à ${ville.nom} ?`,
-      answer: `Les bornes les plus rapides à ${ville.nom} atteignent 150 à 350 kW (réseaux Ionity, TotalEnergies ou Tesla Supercharger selon la disponibilité). Ces bornes ultra-rapides permettent de récupérer 80 % de charge en 20 à 30 minutes sur les véhicules compatibles.`,
+      question: `Quelle est la borne la plus rapide à ${ville.nom} ?`,
+      answer: `Les bornes les plus rapides à ${ville.nom} atteignent 150 à 350 kW (réseaux Ionity, TotalEnergies ou Tesla Supercharger selon la disponibilité). Ces bornes ultra-rapides permettent de récupérer 80 % de charge en 20 à 30 minutes sur les véhicules compatibles.`,
     },
   ];
 }
@@ -124,6 +125,7 @@ export default async function PageVille({ params }: Props) {
           >
             Bornes de recharge, {ville.region}
           </p>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -133,7 +135,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Bornes de recharge à {ville.nom} : Guide complet
+            Bornes de recharge à {ville.nom} : Guide complet
           </h1>
           <p
             style={{
@@ -158,7 +160,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 16,
             }}
           >
-            Chiffres clés : {ville.nom}
+            Chiffres clés : {ville.nom}
           </h2>
           <div className="encadre-verdict">
             <div className="encadre-verdict-grid">
@@ -174,7 +176,7 @@ export default async function PageVille({ params }: Props) {
               </div>
               <div className="encadre-verdict-item">
                 <div className="encadre-verdict-val">{ratio}</div>
-                <div className="encadre-verdict-lbl">Bornes / 10 000 hab.</div>
+                <div className="encadre-verdict-lbl">Bornes / 10 000 hab.</div>
               </div>
               <div className="encadre-verdict-item">
                 <div className="encadre-verdict-val">{ville.region}</div>
@@ -189,21 +191,21 @@ export default async function PageVille({ params }: Props) {
 
         {/* ─── GUIDE RECHARGE VILLE ───────────────────────────── */}
         <div className="prose" style={{ marginTop: 32 }}>
-          <h2>Recharger sa voiture électrique à {ville.nom} : le guide pratique</h2>
+          <h2>Recharger sa voiture électrique à {ville.nom} : le guide pratique</h2>
           <p>
             Avec {ville.nombreBornes} bornes de recharge publiques pour une population
             de {ville.population.toLocaleString("fr-FR")} habitants, {ville.nom} affiche
-            un ratio de {ratio} bornes pour 10 000 habitants.{" "}
+            un ratio de {ratio} bornes pour 10 000 habitants.{" "}
             {parseFloat(ratio) >= 15
-              ? `Ce ratio est nettement supérieur à la moyenne nationale de 10,5 bornes pour 10 000 habitants, ce qui fait de ${ville.nom} l'une des villes les mieux équipées de la région ${ville.region}.`
+              ? `Ce ratio est nettement supérieur à la moyenne nationale de 10,5 bornes pour 10 000 habitants, ce qui fait de ${ville.nom} l'une des villes les mieux équipées de la région ${ville.region}.`
               : parseFloat(ratio) >= 10
               ? `Ce ratio est conforme à l'objectif national fixé par le gouvernement et place ${ville.nom} dans la bonne moyenne des agglomérations de la région ${ville.region}.`
               : parseFloat(ratio) >= 6
-              ? `Ce ratio est légèrement en dessous de la moyenne nationale de 10,5 bornes pour 10 000 habitants, mais le déploiement s'accélère dans toute la région ${ville.region} avec l'arrivée de nouveaux opérateurs.`
-              : `Ce ratio est encore en développement, mais la dynamique est positive : la région ${ville.region} bénéficie d'investissements importants pour rattraper la moyenne nationale de 10,5 bornes pour 10 000 habitants.`}
+              ? `Ce ratio est légèrement en dessous de la moyenne nationale de 10,5 bornes pour 10 000 habitants, mais le déploiement s'accélère dans toute la région ${ville.region} avec l'arrivée de nouveaux opérateurs.`
+              : `Ce ratio est encore en développement, mais la dynamique est positive : la région ${ville.region} bénéficie d'investissements importants pour rattraper la moyenne nationale de 10,5 bornes pour 10 000 habitants.`}
           </p>
 
-          <h3>Où trouver des bornes de recharge à {ville.nom} ?</h3>
+          <h3>Où trouver des bornes de recharge à {ville.nom} ?</h3>
           <p>
             Les bornes de recharge à {ville.nom} se répartissent principalement dans les
             parkings publics (centres-villes, gares), les centres commerciaux, les hôtels
@@ -214,7 +216,7 @@ export default async function PageVille({ params }: Props) {
             indiquent la disponibilité, la puissance et les tarifs de chaque borne.
           </p>
           <p>
-            Les bornes publiques se déclinent en plusieurs niveaux de puissance : les bornes
+            Les bornes publiques se déclinent en plusieurs niveaux de puissance : les bornes
             lentes (3,7 à 7,4 kW) pour le stationnement longue durée, les bornes accélérées
             (11 à 22 kW) pour les arrêts de 1 à 3 heures, et les bornes rapides à
             ultra-rapides (50 à 350 kW) pour les recharges express de 20 à 45 minutes. Le
@@ -224,33 +226,33 @@ export default async function PageVille({ params }: Props) {
           <h3>Tarifs de recharge à {ville.nom} et dans le {ville.departement}</h3>
           <p>
             Les tarifs de recharge publique à {ville.nom} varient selon l&apos;opérateur et
-            la puissance de la borne. En moyenne, comptez entre 0,25 et 0,35 €/kWh sur les
-            bornes accélérées (22 kW), et entre 0,45 et 0,70 €/kWh sur les bornes rapides
+            la puissance de la borne. En moyenne, comptez entre 0,25 et 0,35 €/kWh sur les
+            bornes accélérées (22 kW), et entre 0,45 et 0,70 €/kWh sur les bornes rapides
             DC (50 kW et plus). Certains réseaux proposent des abonnements mensuels
-            réduisant le coût au kWh : Ionity Passport (5,99 €/mois) fait passer le tarif
-            de 0,69 à 0,39 €/kWh, tandis que le Pass Electra permet de recharger à
-            0,36 €/kWh sur leurs bornes ultra-rapides.
+            réduisant le coût au kWh : Ionity Passport (5,99 €/mois) fait passer le tarif
+            de 0,69 à 0,39 €/kWh, tandis que le Pass Electra permet de recharger à
+            0,36 €/kWh sur leurs bornes ultra-rapides.
           </p>
           <p>
-            La recharge à domicile reste l&apos;option la plus économique : entre 0,15 et
-            0,21 €/kWh en heures creuses selon votre contrat EDF ou fournisseur alternatif.
-            Pour un véhicule consommant 16 kWh/100 km et parcourant 12 000 km/an, le budget
-            recharge annuel à domicile s&apos;établit entre 290 et 400 €, contre 650 à
-            1 000 € en recharge publique uniquement.
+            La recharge à domicile reste l&apos;option la plus économique : entre 0,15 et
+            0,21 €/kWh en heures creuses selon votre contrat EDF ou fournisseur alternatif.
+            Pour un véhicule consommant 16 kWh/100 km et parcourant 12 000 km/an, le budget
+            recharge annuel à domicile s&apos;établit entre 290 et 400 €, contre 650 à
+            1 000 € en recharge publique uniquement.
           </p>
 
           <h3>Installer une borne à domicile à {ville.nom}</h3>
           <p>
             {ville.population >= 100000
-              ? `Dans une grande agglomération comme ${ville.nom}, de nombreux habitants vivent en copropriété. La loi (décret IRVE) garantit un « droit à la prise » permettant à tout copropriétaire ou locataire de faire installer une borne à ses frais, même sans vote en assemblée générale. L'installateur doit être certifié IRVE (Installation de Recharge pour Véhicule Électrique).`
-              : `À ${ville.nom}, l'installation d'une borne à domicile est souvent plus simple qu'en grande métropole : les maisons individuelles avec garage ou place de parking privative permettent une installation directe. Pour les copropriétés, le « droit à la prise » garantit la possibilité d'installer une borne individuelle.`}
+              ? `Dans une grande agglomération comme ${ville.nom}, de nombreux habitants vivent en copropriété. La loi (décret IRVE) garantit un « droit à la prise » permettant à tout copropriétaire ou locataire de faire installer une borne à ses frais, même sans vote en assemblée générale. L'installateur doit être certifié IRVE (Installation de Recharge pour Véhicule Électrique).`
+              : `À ${ville.nom}, l'installation d'une borne à domicile est souvent plus simple qu'en grande métropole : les maisons individuelles avec garage ou place de parking privative permettent une installation directe. Pour les copropriétés, le « droit à la prise » garantit la possibilité d'installer une borne individuelle.`}
           </p>
           <p>
-            Le coût d&apos;installation d&apos;une wallbox à {ville.nom} varie entre 1 200
-            et 2 500 € (fourniture + pose), selon la puissance (7,4 ou 11 kW) et la
+            Le coût d&apos;installation d&apos;une wallbox à {ville.nom} varie entre 1 200
+            et 2 500 € (fourniture + pose), selon la puissance (7,4 ou 11 kW) et la
             complexité du raccordement. Ce montant est allégé par un crédit d&apos;impôt de
-            300 € (75 % du coût, plafonné) et par l&apos;aide ADVENIR en copropriété
-            (jusqu&apos;à 960 € par point de charge). En résidence individuelle, le retour
+            300 € (75 % du coût, plafonné) et par l&apos;aide ADVENIR en copropriété
+            (jusqu&apos;à 960 € par point de charge). En résidence individuelle, le retour
             sur investissement est généralement atteint en 2 à 3 ans grâce aux économies de
             carburant.
           </p>
@@ -258,19 +260,19 @@ export default async function PageVille({ params }: Props) {
           <h3>Préparer un long trajet depuis {ville.nom}</h3>
           <p>
             Partir en long trajet depuis {ville.nom} est devenu simple grâce à la
-            densification du réseau autoroutier. La France compte plus de 150 000 points de
-            charge publics, dont plus de 12 000 bornes rapides le long des grands axes.
+            densification du réseau autoroutier. La France compte plus de 150 000 points de
+            charge publics, dont plus de 12 000 bornes rapides le long des grands axes.
             Avant le départ, programmez votre itinéraire sur A Better Route Planner (ABRP)
-            en renseignant votre modèle de véhicule : l&apos;application calcule les arrêts
+            en renseignant votre modèle de véhicule : l&apos;application calcule les arrêts
             de recharge optimaux en tenant compte de votre autonomie réelle, de la
             topographie et des conditions météo.
           </p>
           <p>
-            Quelques conseils pour optimiser vos trajets : chargez à 80 % avant le départ
-            (la charge de 80 à 100 % est beaucoup plus lente), privilégiez les arrêts de 20
+            Quelques conseils pour optimiser vos trajets : chargez à 80 % avant le départ
+            (la charge de 80 à 100 % est beaucoup plus lente), privilégiez les arrêts de 20
             à 25 minutes sur des bornes rapides plutôt qu&apos;une longue charge unique, et
             préchauffez la batterie si votre véhicule le permet (fonction disponible sur
-            Tesla, Hyundai, Kia, BMW et d&apos;autres). En hiver, prévoyez 20 à 30 %
+            Tesla, Hyundai, Kia, BMW et d&apos;autres). En hiver, prévoyez 20 à 30 %
             d&apos;autonomie en moins en raison du chauffage de l&apos;habitacle et du
             ralentissement de la chimie des batteries.
           </p>
@@ -278,7 +280,7 @@ export default async function PageVille({ params }: Props) {
           <h3>L&apos;avenir de la recharge à {ville.nom}</h3>
           <p>
             La dynamique de déploiement des bornes de recharge dans le {ville.departement}
-            s&apos;inscrit dans l&apos;objectif national de 400 000 points de charge publics
+            s&apos;inscrit dans l&apos;objectif national de 400 000 points de charge publics
             d&apos;ici 2030. Les prochaines années verront l&apos;arrivée de bornes
             ultra-rapides (350 kW) sur les axes principaux, le développement de la recharge
             bidirectionnelle (V2G) permettant de réinjecter l&apos;énergie de la voiture
@@ -299,7 +301,7 @@ export default async function PageVille({ params }: Props) {
               marginBottom: 8,
             }}
           >
-            Questions fréquentes : Recharge à {ville.nom}
+            Questions fréquentes : Recharge à {ville.nom}
           </h2>
           {faqs.map((f, i) => (
             <div key={i} className="faq-item">
@@ -334,7 +336,7 @@ export default async function PageVille({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                data.gouv.fr : Données IRVE consolidées
+                data.gouv.fr : Données IRVE consolidées
               </a>
             </li>
             <li>
@@ -343,17 +345,10 @@ export default async function PageVille({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Avere-France : Baromètre des bornes
+                Avere-France : Baromètre des bornes
               </a>
             </li>
           </ul>
-          <p className="date-maj">
-            Dernière mise à jour :{" "}
-            {new Date(ville.dateMAJ).toLocaleDateString("fr-FR", {
-              year: "numeric",
-              month: "long",
-            })}
-          </p>
         </div>
       </article>
     </>

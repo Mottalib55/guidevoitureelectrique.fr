@@ -7,6 +7,8 @@ import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
+import LastUpdated from "@/components/LastUpdated";
+import { dec } from "@/lib/format";
 
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
@@ -45,6 +47,7 @@ export default async function PageCategorie({ params }: Props) {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 32 }}>
+          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -100,9 +103,9 @@ export default async function PageCategorie({ params }: Props) {
                         <Link href={`/modeles/${m.slug}/`}>{m.modele}</Link>
                       </td>
                       <td>{euro(m.prixBase)}</td>
-                      <td>{m.autonomieReelle} km</td>
-                      <td>{m.batterieKwh} kWh</td>
-                      <td>{m.chargeRapideKw} kW</td>
+                      <td>{m.autonomieReelle} km</td>
+                      <td>{dec(m.batterieKwh)} kWh</td>
+                      <td>{dec(m.chargeRapideKw)} kW</td>
                       <td>{m.aidesEligible ? "Oui" : "Non"}</td>
                       <td><strong>{m.note}/10</strong></td>
                     </tr>
@@ -134,11 +137,11 @@ export default async function PageCategorie({ params }: Props) {
         <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-            <li>Avere-France : Baromètre des immatriculations de véhicules électriques par segment</li>
-            <li>AAA Data : Parts de marché par catégorie de véhicule en France, 2025-2026</li>
-            <li>Ministère de la Transition écologique : Barème du bonus écologique et score environnemental 2026</li>
-            <li>Euro NCAP : Résultats de sécurité par modèle, protocole 2024-2025</li>
-            <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs</li>
+            <li>Avere-France : Baromètre des immatriculations de véhicules électriques par segment</li>
+            <li>AAA Data : Parts de marché par catégorie de véhicule en France, 2025-2026</li>
+            <li>Ministère de la Transition écologique : Barème du bonus écologique et score environnemental 2026</li>
+            <li>Euro NCAP : Résultats de sécurité par modèle, protocole 2024-2025</li>
+            <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs</li>
           </ul>
         </div>
       </article>
