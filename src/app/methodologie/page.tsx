@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Méthodologie du Guide Voiture Électrique : données et sources",
+  title: "Voiture électrique : méthodologie, données et sources 2026",
   description:
-    "D'où viennent les prix, autonomies et aides affichés sur guidevoitureelectrique.fr, comment nous calculons l'autonomie réelle et le coût de recharge, et nos limites.",
+    "D'où viennent les prix, autonomies et aides affichés sur le site, comment nous calculons l'autonomie réelle et le coût de recharge, et quelles sont nos limites.",
   alternates: { canonical: "/methodologie/" },
 };
 

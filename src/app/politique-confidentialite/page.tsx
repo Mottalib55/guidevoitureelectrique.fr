@@ -3,9 +3,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité du Guide Voiture Électrique",
+  title: "Confidentialité et cookies du Guide Voiture Électrique",
   description:
-    "Données collectées par guidevoitureelectrique.fr, cookies de mesure d'audience (Google Analytics, Clarity), sous-traitants, durée de conservation et vos droits RGPD.",
+    "Données collectées par le site, cookies de mesure d'audience (Google Analytics, Clarity), sous-traitants, durée de conservation et vos droits RGPD détaillés.",
   alternates: { canonical: "/politique-confidentialite/" },
 };
 
