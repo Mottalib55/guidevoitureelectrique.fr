@@ -73,14 +73,13 @@ export function articleJsonLd({
     datePublished: datePublished || "2026-05-28",
     dateModified: pageDate(path),   // date git réelle (RECETTE §8.4)
     author: {
-      "@type": "Person",
-      name: "Mottalib Radif",
+      "@type": "Organization",
+      name: "Radif Partners",
       "@id": "https://guidevoitureelectrique.fr/#author",
-      jobTitle: "MBA INSEAD, ingénieur Mines Saint-Étienne",
+      jobTitle: "Éditeur de calculateurs et de guides pratiques",
       knowsAbout: ["Véhicules électriques", "Aides à l'achat automobile", "Recharge électrique", "Financement automobile"],
-      description: "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'INSEAD. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
+      description: "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'Éditeur de calculateurs et de guides pratiques. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
       url: "https://guidevoitureelectrique.fr/a-propos/",
-      image: "https://guidevoitureelectrique.fr/team/mottalib-radif.jpg",
     },
     publisher: {
       "@type": "Organization",

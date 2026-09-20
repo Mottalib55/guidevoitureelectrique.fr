@@ -38,7 +38,7 @@ export default function PolitiqueConfidentialitePage() {
 
           <h3>1.1 Responsable du traitement</h3>
           <p>
-            Le responsable du traitement des données est Mottalib Radif, joignable à
+            Le responsable du traitement des données est Radif Partners, joignable à
             l&apos;adresse{" "}
             <a href="mailto:contact@guidevoitureelectrique.fr">
               contact@guidevoitureelectrique.fr

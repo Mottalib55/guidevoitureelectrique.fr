@@ -52,7 +52,7 @@ export default function AProposPage() {
         >
           <Image
             src="/team/mottalib-radif.jpg"
-            alt="Mottalib Radif, fondateur de Guide Voiture Électrique"
+            alt="Radif Partners, fondateur de Guide Voiture Électrique"
             width={120}
             height={120}
             style={{
@@ -72,7 +72,7 @@ export default function AProposPage() {
                 marginBottom: 4,
               }}
             >
-              Mottalib Radif
+              Radif Partners
             </h1>
             <p
               style={{
@@ -91,7 +91,7 @@ export default function AProposPage() {
                 fontWeight: 500,
               }}
             >
-              MBA INSEAD &middot; Spécialisé dans l&apos;analyse du marché des véhicules électriques
+              Éditeur de calculateurs et de guides pratiques &middot; Spécialisé dans l&apos;analyse du marché des véhicules électriques
             </p>
           </div>
         </div>
@@ -121,10 +121,10 @@ export default function AProposPage() {
 
           <h2>Qui sommes-nous ?</h2>
           <p>
-            Guide Voiture Électrique a été fondé par <strong>Mottalib Radif</strong>,
-            diplômé d&apos;un MBA de l&apos;<strong>INSEAD</strong> et ingénieur de
+            Guide Voiture Électrique a été fondé par <strong>Radif Partners</strong>,
+            diplômé d&apos;un MBA de l&apos;<strong>Éditeur de calculateurs et de guides pratiques</strong> et ingénieur de
             formation. Fort d&apos;une double compétence technique et stratégique,
-            Mottalib a travaillé pendant plus de dix ans dans les secteurs de la
+            Radif Partners a travaillé pendant plus de dix ans dans les secteurs de la
             technologie et de l&apos;énergie avant de se consacrer pleinement à la
             transition vers la mobilité électrique. Sa conviction profonde : la
             voiture électrique n&apos;est pas seulement une alternative, mais bien

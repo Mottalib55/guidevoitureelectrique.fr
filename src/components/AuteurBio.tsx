@@ -17,7 +17,7 @@ export default function AuteurBio() {
     >
       <Image
         src="/team/mottalib-radif.jpg"
-        alt="Mottalib Radif"
+        alt="Radif Partners"
         width={56}
         height={56}
         style={{
@@ -42,7 +42,7 @@ export default function AuteurBio() {
               color: "var(--ink)",
             }}
           >
-            Mottalib Radif
+            Radif Partners
           </h4>
         </Link>
         <p
@@ -53,10 +53,10 @@ export default function AuteurBio() {
             margin: 0,
           }}
         >
-          MBA INSEAD, Passionné de Finance. Spécialisé dans
+          Éditeur de calculateurs et de guides pratiques, Passionné de Finance. Spécialisé dans
           l&apos;analyse du marché des véhicules électriques, les aides à
           l&apos;achat et l&apos;infrastructure de recharge en France.
-          Mottalib croise données constructeurs, tests indépendants et retours
+          Radif Partners croise données constructeurs, tests indépendants et retours
           d&apos;utilisateurs pour fournir des informations fiables et
           objectives.
         </p>

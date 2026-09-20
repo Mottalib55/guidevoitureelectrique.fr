@@ -46,7 +46,7 @@ export default function MentionsLegalesPage() {
             Le site <strong>guidevoitureelectrique.fr</strong> est édité par :
           </p>
           <ul>
-            <li><strong>Responsable de la publication</strong> : Mottalib Radif</li>
+            <li><strong>Responsable de la publication</strong> : Radif Partners</li>
             <li>
               <strong>Adresse e-mail</strong> :{" "}
               <a href="mailto:contact@guidevoitureelectrique.fr">

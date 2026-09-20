@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
   metadataBase: new URL("https://guidevoitureelectrique.fr"),
-  authors: [{ name: "Mottalib Radif", url: "https://guidevoitureelectrique.fr/a-propos/" }],
+  authors: [{ name: "Radif Partners", url: "https://guidevoitureelectrique.fr/a-propos/" }],
   openGraph: {
     siteName: "Guide Voiture Électrique",
     locale: "fr_FR",
@@ -76,16 +76,14 @@ const jsonLdOrganization = {
       },
     },
     {
-      "@type": "Person",
+      "@type": "Organization",
       "@id": `${SITE}/#author`,
-      name: "Mottalib Radif",
-      jobTitle: "MBA INSEAD, ingénieur Mines Saint-Étienne",
+      name: "Radif Partners",
+      jobTitle: "Éditeur de calculateurs et de guides pratiques",
       url: `${SITE}/a-propos/`,
-      image: `${SITE}/team/mottalib-radif.jpg`,
-      alumniOf: { "@type": "EducationalOrganization", name: "INSEAD" },
       knowsAbout: ["Véhicules électriques", "Aides à l'achat automobile", "Recharge électrique", "Financement automobile"],
       description:
-        "Diplômé MBA de l'INSEAD, analyse le marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
+        "Diplômé MBA de l'Éditeur de calculateurs et de guides pratiques, analyse le marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
     },
   ],
 };

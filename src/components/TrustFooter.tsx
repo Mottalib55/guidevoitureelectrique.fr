@@ -30,7 +30,7 @@ export default function TrustFooter() {
       {" | "}
       <Link href="/methodologie/" style={link}>Méthodologie</Link>
       {" | "}
-      <Link rel="author" href="/a-propos/" style={link}>Mottalib Radif</Link>
+      <Link rel="author" href="/a-propos/" style={link}>Radif Partners</Link>
       {" | "}
       <Link href="/politique-confidentialite/" style={link}>Confidentialité</Link>
     </div>

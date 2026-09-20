@@ -18,7 +18,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
       <Link rel="author" href="/a-propos/" style={{ flexShrink: 0 }}>
         <Image
           src="/team/mottalib-radif.jpg"
-          alt="Mottalib Radif"
+          alt="Radif Partners"
           width={40}
           height={40}
           style={{
@@ -50,7 +50,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
             textDecoration: "none",
           }}
         >
-          Mottalib Radif
+          Radif Partners
         </Link>
         <p
           style={{
@@ -60,7 +60,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
             fontWeight: 500,
           }}
         >
-          MBA INSEAD, Passionné de Finance{date ? ` · ${date}` : ""}
+          Éditeur de calculateurs et de guides pratiques, Passionné de Finance{date ? ` · ${date}` : ""}
         </p>
       </div>
     </div>
