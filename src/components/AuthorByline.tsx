@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 interface AuthorBylineProps {
@@ -16,18 +15,7 @@ export default function AuthorByline({ date }: AuthorBylineProps) {
       }}
     >
       <Link rel="author" href="/a-propos/" style={{ flexShrink: 0 }}>
-        <Image
-          src="/team/mottalib-radif.jpg"
-          alt="Radif Partners"
-          width={40}
-          height={40}
-          style={{
-            borderRadius: "50%",
-            objectFit: "cover",
-            border: "2px solid var(--accent)",
-          }}
-        />
-      </Link>
+        </Link>
       <div>
         <p
           style={{

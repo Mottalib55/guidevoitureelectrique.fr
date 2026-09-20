@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
@@ -50,17 +49,6 @@ export default function AProposPage() {
             flexWrap: "wrap",
           }}
         >
-          <Image
-            src="/team/mottalib-radif.jpg"
-            alt="Radif Partners, fondateur de Guide Voiture Électrique"
-            width={120}
-            height={120}
-            style={{
-              borderRadius: "50%",
-              objectFit: "cover",
-              border: "3px solid var(--accent)",
-            }}
-          />
           <div>
             <LastUpdated />
             <h1

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function AuteurBio() {
@@ -15,18 +14,6 @@ export default function AuteurBio() {
         alignItems: "flex-start",
       }}
     >
-      <Image
-        src="/team/mottalib-radif.jpg"
-        alt="Radif Partners"
-        width={56}
-        height={56}
-        style={{
-          borderRadius: "50%",
-          objectFit: "cover",
-          flexShrink: 0,
-          border: "2px solid var(--accent)",
-        }}
-      />
       <div>
         <Link
           rel="author"
