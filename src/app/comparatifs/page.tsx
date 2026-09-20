@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { comparatifs } from "@/data/comparatifs";
 import { buildMetadata } from "@/lib/seo";
@@ -189,6 +190,7 @@ export default function ComparatifsIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

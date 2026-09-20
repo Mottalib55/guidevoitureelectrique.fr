@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { pagesAcheter } from "@/data/acheter";
 import { buildMetadata } from "@/lib/seo";
@@ -199,6 +200,7 @@ export default function AcheterIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

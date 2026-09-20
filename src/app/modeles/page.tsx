@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import { modeles } from "@/data/modeles";
 import { buildMetadata } from "@/lib/seo";
 import ModelesFiltres from "@/components/ModelesFiltres";
@@ -154,6 +155,7 @@ export default function ModèlesIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

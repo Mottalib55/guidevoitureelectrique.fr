@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { pagesGuides } from "@/data/guides";
 import { buildMetadata } from "@/lib/seo";
@@ -174,6 +175,7 @@ export default function GuidesIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

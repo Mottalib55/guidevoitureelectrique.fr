@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
 import { buildMetadata } from "@/lib/seo";
@@ -120,6 +121,7 @@ export default function GlossairePage() {
           ))}
         </div>
       </article>
+      <SourcesOfficielles />
     </>
   );
 }

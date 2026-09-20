@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { marques } from "@/data/marques";
 import { modeles } from "@/data/modeles";
@@ -212,6 +213,7 @@ export default function MarquesIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

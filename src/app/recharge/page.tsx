@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { pagesRecharge } from "@/data/recharge";
 import { villes } from "@/data/villes";
@@ -268,6 +269,7 @@ export default function RechargeIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

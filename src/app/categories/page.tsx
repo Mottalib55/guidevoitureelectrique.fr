@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { categories } from "@/data/categories";
 import { buildMetadata } from "@/lib/seo";
@@ -191,6 +192,7 @@ export default function CategoriesIndexPage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }

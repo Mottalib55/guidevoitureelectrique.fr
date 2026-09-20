@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { modeles } from "@/data/modeles";
 import { marques } from "@/data/marques";
@@ -428,6 +429,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <SourcesOfficielles />
     </>
   );
 }
