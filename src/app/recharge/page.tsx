@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { pagesRecharge } from "@/data/recharge";
@@ -270,6 +272,7 @@ export default function RechargeIndexPage() {
         </div>
       </section>
       <SourcesOfficielles />
+      <FaqSection items={faqParPage["/recharge/"]} />
     </>
   );
 }

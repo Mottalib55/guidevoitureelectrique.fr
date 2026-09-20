@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
 import { modeles } from "@/data/modeles";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -936,6 +938,7 @@ export default function SimulateurCoutRecharge() {
           </ul>
         </div>
       </article>
+      <FaqSection items={faqParPage["/outils/simulateur-cout-recharge/"]} />
     </>
   );
 }

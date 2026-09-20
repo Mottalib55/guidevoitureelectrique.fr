@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
@@ -122,6 +124,7 @@ export default function GlossairePage() {
         </div>
       </article>
       <SourcesOfficielles />
+      <FaqSection items={faqParPage["/glossaire/"]} />
     </>
   );
 }

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import FaqSection from "@/components/FaqSection";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { pagesRecharge, getPageRechargeBySlug } from "@/data/recharge";
@@ -85,6 +86,7 @@ export default async function PageRecharge({ params }: Props) {
             <li>Données constructeurs : Spécifications de recharge par modèle</li>
           </ul>
         </div>
+        <FaqSection items={page.faq} />
       </article>
     </>
   );

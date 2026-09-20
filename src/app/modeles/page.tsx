@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import SourcesOfficielles from '@/components/SourcesOfficielles';
 import { modeles } from "@/data/modeles";
 import { buildMetadata } from "@/lib/seo";
@@ -156,6 +158,7 @@ export default function ModèlesIndexPage() {
         </div>
       </section>
       <SourcesOfficielles />
+      <FaqSection items={faqParPage["/modeles/"]} />
     </>
   );
 }

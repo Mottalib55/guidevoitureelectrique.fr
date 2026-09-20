@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
 import { modeles, type Modele } from "@/data/modeles";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -312,6 +314,7 @@ export default function ComparateurModeles() {
           </ul>
         </div>
       </article>
+      <FaqSection items={faqParPage["/outils/comparateur-modeles/"]} />
     </>
   );
 }

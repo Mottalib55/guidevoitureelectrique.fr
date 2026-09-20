@@ -1,4 +1,6 @@
 import Link from "next/link";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import type { Metadata } from "next";
 import { marquesChinoises } from "@/data/marques";
 import { modeles } from "@/data/modeles";
@@ -390,6 +392,7 @@ export default function PageMarquesChinoises() {
           </ul>
         </div>
       </article>
+      <FaqSection items={faqParPage["/marques/voitures-chinoises/"]} />
     </>
   );
 }

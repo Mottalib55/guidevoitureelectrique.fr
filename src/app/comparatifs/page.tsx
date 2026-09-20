@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { comparatifs } from "@/data/comparatifs";
@@ -191,6 +193,7 @@ export default function ComparatifsIndexPage() {
         </div>
       </section>
       <SourcesOfficielles />
+      <FaqSection items={faqParPage["/comparatifs/"]} />
     </>
   );
 }

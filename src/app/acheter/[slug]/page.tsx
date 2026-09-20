@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import FaqSection from "@/components/FaqSection";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { pagesAcheter, getPageAcheterBySlug } from "@/data/acheter";
@@ -317,6 +318,7 @@ export default async function PageAcheter({ params }: Props) {
             </li>
           </ul>
         </div>
+        <FaqSection items={page.faq} />
       </article>
     </>
   );

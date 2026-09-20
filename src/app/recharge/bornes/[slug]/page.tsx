@@ -49,20 +49,20 @@ function getFaqs(ville: NonNullable<ReturnType<typeof getVilleBySlug>>) {
   const ratio = (ville.nombreBornes / ville.population * 10000).toFixed(1).replace('.', ',');
   return [
     {
-      question: `Où recharger sa voiture électrique à ${ville.nom} ?`,
-      answer: `${ville.nom} dispose de ${ville.nombreBornes} bornes de recharge publiques réparties sur l'ensemble de la ville. Vous trouverez des bornes dans les parkings publics, les centres commerciaux, les gares et les stations-service. Utilisez l'application Chargemap ou ABRP pour localiser les bornes disponibles en temps réel.`,
+      question: `Où recharger sa voiture électrique à ${ville.nom} (${ville.departement}) ?`,
+      answer: `${ville.nom} dispose de ${ville.nombreBornes} bornes de recharge publiques réparties sur l'ensemble de la commune : parkings publics, centres commerciaux, gares et stations-service en concentrent la plus grande part. Les applications Chargemap et A Better Routeplanner indiquent la disponibilité en temps réel et les tarifs pratiqués. Pour un usage quotidien, la recharge à domicile ou sur le lieu de travail reste deux à trois fois moins chère.`,
     },
     {
-      question: `Combien de bornes de recharge y a-t-il à ${ville.nom} ?`,
-      answer: `${ville.nom} compte environ ${ville.nombreBornes} points de recharge publics, soit un ratio de ${ratio} bornes pour 10 000 habitants. Ce réseau est en constante expansion grâce aux investissements des opérateurs nationaux et locaux.`,
+      question: `Combien de bornes de recharge y a-t-il à ${ville.nom} (${ville.departement}) ?`,
+      answer: `${ville.nom} compte environ ${ville.nombreBornes} points de recharge publics pour ${ville.population.toLocaleString("fr-FR")} habitants, soit un ratio de ${ratio} bornes pour 10 000 habitants. La moyenne nationale tourne autour de 2 bornes pour 10 000 habitants, ce qui situe la ville ${Number(ratio.replace(",", ".")) >= 2 ? "au-dessus" : "en dessous"} de cette référence. Le réseau continue de s'étendre, porté par les opérateurs nationaux et les délégations de service public locales.`,
     },
     {
-      question: `La recharge est-elle gratuite à ${ville.nom} ?`,
-      answer: `Certaines bornes à ${ville.nom} offrent la recharge gratuite, notamment dans les centres commerciaux et certains parkings municipaux. Cependant, la majorité des bornes rapides et semi-rapides sont payantes, avec des tarifs variant de 0,25 à 0,70 €/kWh selon l'opérateur et la puissance.`,
+      question: `La recharge est-elle gratuite à ${ville.nom} (${ville.departement}) ?`,
+      answer: `Certaines bornes à ${ville.nom} restent gratuites, surtout dans les centres commerciaux et quelques parkings municipaux, souvent avec une durée de stationnement limitée. La majorité des bornes rapides et semi-rapides sont payantes, entre 0,25 et 0,70 €/kWh selon l'opérateur et la puissance. Pour une batterie de 60 kWh, l'écart entre ces deux tarifs représente environ 27 € sur une charge complète, d'où l'intérêt d'un badge multi-réseaux.`,
     },
     {
-      question: `Quelle est la borne la plus rapide à ${ville.nom} ?`,
-      answer: `Les bornes les plus rapides à ${ville.nom} atteignent 150 à 350 kW (réseaux Ionity, TotalEnergies ou Tesla Supercharger selon la disponibilité). Ces bornes ultra-rapides permettent de récupérer 80 % de charge en 20 à 30 minutes sur les véhicules compatibles.`,
+      question: `Quelle est la borne la plus rapide à ${ville.nom} (${ville.departement}) ?`,
+      answer: `Les bornes les plus rapides à ${ville.nom} atteignent 150 à 350 kW, selon la présence des réseaux Ionity, TotalEnergies ou Tesla Supercharger. Elles permettent de récupérer 80 % de charge en 20 à 30 minutes, à condition que la voiture accepte cette puissance : un modèle limité à 50 kW mettra deux fois plus de temps sur la même borne. La puissance réelle dépend aussi de la température de la batterie.`,
     },
   ];
 }

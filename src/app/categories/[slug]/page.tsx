@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import FaqSection from "@/components/FaqSection";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { categories, getCategorieBySlug } from "@/data/categories";
@@ -144,6 +145,7 @@ export default async function PageCategorie({ params }: Props) {
             <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs</li>
           </ul>
         </div>
+        <FaqSection items={cat.faq} />
       </article>
     </>
   );

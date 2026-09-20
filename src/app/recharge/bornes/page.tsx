@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
 import { villes } from "@/data/villes";
 import { buildMetadata } from "@/lib/seo";
@@ -263,6 +265,7 @@ export default function BornesIndexPage() {
           </div>
         </div>
       </section>
+      <FaqSection items={faqParPage["/recharge/bornes/"]} />
     </>
   );
 }

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { pagesGuides } from "@/data/guides";
@@ -176,6 +178,7 @@ export default function GuidesIndexPage() {
         </div>
       </section>
       <SourcesOfficielles />
+      <FaqSection items={faqParPage["/guides/"]} />
     </>
   );
 }

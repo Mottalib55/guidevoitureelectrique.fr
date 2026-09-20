@@ -72,23 +72,23 @@ function getFaqs(
   return [
     {
       question: `Quelle est la moins chère entre la ${m1.modele} et la ${m2.modele} ?`,
-      answer: `La ${moinsCher.modele} est la moins chère à ${euro(moinsCher.prixBase)}, contre ${euro(moinsCher === m1 ? m2.prixBase : m1.prixBase)} pour la ${moinsCher === m1 ? m2.modele : m1.modele}. ${m1.aidesEligible && m2.aidesEligible ? "Les deux modèles sont éligibles au bonus écologique de 4 000 €." : ""}`,
+      answer: `La ${moinsCher.modele} est la moins chère à ${euro(moinsCher.prixBase)}, contre ${euro(moinsCher === m1 ? m2.prixBase : m1.prixBase)} pour la ${moinsCher === m1 ? m2.modele : m1.modele}, soit un écart de ${euro(Math.abs(m1.prixBase - m2.prixBase))}. ${m1.aidesEligible && m2.aidesEligible ? "Les deux modèles sont éligibles au bonus écologique de 4\u00a0000\u00a0€, qui ne change donc pas le classement." : m1.aidesEligible || m2.aidesEligible ? `Seule la ${m1.aidesEligible ? m1.modele : m2.modele} ouvre droit au bonus écologique de 4\u00a0000\u00a0€, ce qui peut inverser l'écart.` : "Aucun des deux n'ouvre droit au bonus écologique."} À l'achat, pensez aussi à la carte grise, gratuite pour un véhicule électrique dans la plupart des régions.`,
     },
     {
       question: `Laquelle à la meilleure autonomie : ${m1.modele} ou ${m2.modele} ?`,
-      answer: `La ${plusAutonome.modele} offre la meilleure autonomie réelle avec ${plusAutonome.autonomieReelle} km, contre ${plusAutonome === m1 ? m2.autonomieReelle : m1.autonomieReelle} km pour la ${plusAutonome === m1 ? m2.modele : m1.modele}.`,
+      answer: `La ${plusAutonome.modele} offre la meilleure autonomie réelle avec ${plusAutonome.autonomieReelle} km, contre ${plusAutonome === m1 ? m2.autonomieReelle : m1.autonomieReelle} km pour la ${plusAutonome === m1 ? m2.modele : m1.modele}, soit ${Math.abs(m1.autonomieReelle - m2.autonomieReelle)} km d'écart. Ces valeurs correspondent à un usage mixte ville et route : sur autoroute à 130 km/h, les deux perdent 20 à 30 %, et l'écart se resserre si la consommation à haute vitesse diffère peu. Comparez aussi la vitesse de charge, qui compte davantage sur un long trajet.`,
     },
     {
-      question: `Laquelle se recharge le plus vite ?`,
-      answer: `La ${chargeRapide.modele} accepte la charge rapide la plus élevée à ${dec(chargeRapide.chargeRapideKw)} kW. Temps de charge rapide : ${m1.modele} : ${m1.tempsChargeRapide} ; ${m2.modele} : ${m2.tempsChargeRapide}.`,
+      question: `${m1.modele} ou ${m2.modele} : laquelle se recharge le plus vite ?`,
+      answer: `La ${chargeRapide.modele} accepte la puissance de charge la plus élevée, ${dec(chargeRapide.chargeRapideKw)} kW, contre ${dec(chargeRapide === m1 ? m2.chargeRapideKw : m1.chargeRapideKw)} kW pour l'autre. En pratique : ${m1.modele}, ${m1.tempsChargeRapide} ; ${m2.modele}, ${m2.tempsChargeRapide}. Sur un trajet de 600 km, cet écart se traduit surtout par la durée des pauses, pas par leur nombre, car les deux voitures repartent autour de 80 % de charge.`,
     },
     {
-      question: `Laquelle a le plus grand coffre ?`,
-      answer: `La ${plusGrandCoffre.modele} dispose d'un coffre de ${plusGrandCoffre.coffre} litres, contre ${plusGrandCoffre === m1 ? m2.coffre : m1.coffre} litres pour la ${plusGrandCoffre === m1 ? m2.modele : m1.modele}.`,
+      question: `${m1.modele} ou ${m2.modele} : laquelle a le plus grand coffre ?`,
+      answer: `La ${plusGrandCoffre.modele} dispose d'un coffre de ${plusGrandCoffre.coffre} litres, contre ${plusGrandCoffre === m1 ? m2.coffre : m1.coffre} litres pour la ${plusGrandCoffre === m1 ? m2.modele : m1.modele}, soit ${Math.abs(m1.coffre - m2.coffre)} litres d'écart. Rapporté à la longueur du véhicule (${m1.longueur} mm contre ${m2.longueur} mm), l'avantage n'est pas toujours là où on l'attend : une voiture plus courte peut mieux exploiter son volume grâce à un plancher plat.`,
     },
     {
       question: `${m1.modele} vs ${m2.modele} : laquelle choisir ?`,
-      answer: `Le choix dépend de vos priorités. La ${moinsCher.modele} est plus abordable (${euro(moinsCher.prixBase)}), tandis que la ${plusAutonome.modele} offre une meilleure autonomie (${plusAutonome.autonomieReelle} km réels). Consultez notre comparatif détaillé ci-dessus pour choisir selon votre profil.`,
+      answer: `Le choix dépend de vos priorités. La ${moinsCher.modele} est plus abordable (${euro(moinsCher.prixBase)}), tandis que la ${plusAutonome.modele} offre une meilleure autonomie (${plusAutonome.autonomieReelle} km réels). Pour un usage urbain et périurbain, l'écart d'autonomie ne se ressent presque jamais et le prix décide ; pour des trajets autoroutiers réguliers, l'autonomie et la puissance de charge priment. Le comparatif détaillé ci-dessus reprend ces critères poste par poste.`,
     },
   ];
 }

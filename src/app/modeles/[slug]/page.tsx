@@ -104,32 +104,32 @@ function getFaqs(m: ReturnType<typeof getModeleBySlug>) {
     {
       question: `Quel est le prix de la ${m.modele} ?`,
       answer: isAVenir
-        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif est provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""}. ${m.aidesEligible ? "Ce modèle devrait être éligible au bonus écologique de 4 000 €." : "Ce modèle ne devrait pas être éligible au bonus écologique."}`
-        : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}.` : ""} ${m.aidesEligible ? "Ce prix est éligible au bonus écologique de 4 000 €." : "Ce modèle n'est pas éligible au bonus écologique."}`,
+        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif reste provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""} ; les grilles définitives s'écartent souvent de quelques centaines d'euros des annonces initiales. ${m.aidesEligible ? `Ce modèle devrait être éligible au bonus écologique de 4\u00a0000\u00a0€, soit un ticket d'entrée ramené autour de ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle ne devrait pas être éligible au bonus écologique, compte tenu de son lieu de production."} S'y ajouteront l'assurance, la carte grise et, le cas échéant, l'installation d'une wallbox.`
+        : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}, soit environ ${Math.round((1 - m.prixOccasion / m.prixBase) * 100)}\u00a0% de moins.` : ""} ${m.aidesEligible ? `Ce prix ouvre droit au bonus écologique de 4\u00a0000\u00a0€, qui ramène la facture à ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle n'ouvre pas droit au bonus écologique, son score environnemental ne remplissant pas les conditions fixées depuis 2024."} À ce montant s'ajoutent l'assurance, la carte grise, gratuite pour un véhicule électrique dans la plupart des régions, et l'éventuelle installation d'une wallbox, entre 1\u00a0200 et 1\u00a0800\u00a0€ posée.`,
     },
     {
       question: `Quelle est l'autonomie réelle de la ${m.modele} ?`,
       answer: isAVenir
-        ? `L'autonomie WLTP annoncée est d'environ ${m.autonomieWLTP} km (estimation). En conditions réelles, on peut s'attendre à environ ${m.autonomieReelle} km. Ces données seront confirmées lors des essais officiels.`
-        : `L'autonomie WLTP annoncée est de ${m.autonomieWLTP} km. En conditions réelles (ville + route, hors autoroute), comptez environ ${m.autonomieReelle} km. Sur autoroute à 130 km/h, l'autonomie peut baisser de 20 à 30 % supplémentaires.`,
+        ? `L'autonomie WLTP annoncée est d'environ ${m.autonomieWLTP} km, une estimation constructeur. En conditions réelles, mélange de ville et de route, on peut s'attendre à environ ${m.autonomieReelle} km, soit un écart d'à peu près ${Math.round((1 - m.autonomieReelle / m.autonomieWLTP) * 100)} % avec l'homologation. Sur autoroute à 130 km/h et par temps froid, comptez encore 20 à 30 % de moins. Ces valeurs seront confirmées lors des premiers essais indépendants.`
+        : `L'autonomie WLTP annoncée est de ${m.autonomieWLTP} km. En conditions réelles, ville et route hors autoroute, comptez environ ${m.autonomieReelle} km, soit ${Math.round((1 - m.autonomieReelle / m.autonomieWLTP) * 100)} % de moins que l'homologation. Sur autoroute à 130 km/h, l'autonomie baisse encore de 20 à 30 %, et le froid en retire jusqu'à 20 % de plus. Avec ${dec(m.batterieKwh)} kWh de batterie et ${dec(m.conso)} kWh/100 km de consommation moyenne, ce chiffre reste cohérent.`,
     },
     {
       question: `Combien de temps pour recharger la ${m.modele} ?`,
-      answer: `En charge rapide DC (${dec(m.chargeRapideKw)} kW max) : ${m.tempsChargeRapide}. En charge AC sur borne ou wallbox : ${m.tempsChargeAC}.`,
+      answer: `En charge rapide DC (${dec(m.chargeRapideKw)} kW au maximum) : ${m.tempsChargeRapide}. En charge AC sur borne publique ou wallbox domestique : ${m.tempsChargeAC}. Avec une batterie de ${dec(m.batterieKwh)} kWh, une charge complète à domicile au tarif heures creuses (0,20 €/kWh) revient à environ ${Math.round(m.batterieKwh * 0.2)} €, contre deux à trois fois plus sur une borne rapide d'autoroute, où le kilowattheure dépasse souvent 0,55 €.`,
     },
     {
       question: `La ${m.modele} est-elle éligible au bonus écologique ?`,
       answer: m.aidesEligible
-        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € (2026). Le bonus est conditionné au score environnemental du véhicule et à un prix catalogue inférieur à 47 000 €.`
-        : `Non, la ${m.modele} n'est actuellement pas éligible au bonus écologique, principalement en raison de son lieu de fabrication (${m.origine === "Chine" ? "Chine" : "hors conditions d'éligibilité"}).`,
+        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € en 2026. Le bonus dépend du score environnemental du véhicule, qui tient compte du lieu de production et du transport, et d'un prix catalogue inférieur à 47 000 €. Sur un prix de départ de ${euro(m.prixBase)}, il ramène la facture à ${euro(Math.max(0, m.prixBase - 4000))}, avant la prime à la conversion éventuelle et les aides de votre région.`
+        : `Non, la ${m.modele} n'est pas éligible au bonus écologique, principalement à cause de son lieu de fabrication (${m.origine === "Chine" ? "Chine" : "hors conditions d'éligibilité"}), qui pèse dans le score environnemental exigé depuis 2024. Le prix reste donc de ${euro(m.prixBase)}. Le leasing social et les aides locales, eux, ne dépendent pas de ce score et peuvent rester accessibles selon votre région et vos revenus.`,
     },
     {
       question: `Quelle est la consommation de la ${m.modele} ?`,
-      answer: `La ${m.modele} consomme en moyenne ${dec(m.conso)} kWh/100 km en cycle mixte. Pour un conducteur parcourant 12 000 km/an à 0,20 €/kWh (tarif domicile), cela représente environ ${Math.round((12000 / 100) * m.conso * 0.2)} € de recharge par an.`,
+      answer: `La ${m.modele} consomme en moyenne ${dec(m.conso)} kWh/100 km en cycle mixte. Pour 12 000 km par an rechargés à domicile à 0,20 €/kWh, cela représente environ ${Math.round((12000 / 100) * m.conso * 0.2)} € par an, contre à peu près ${Math.round((12000 / 100) * m.conso * 0.55)} € en ne rechargeant que sur borne rapide. Une thermique équivalente consommant 6 l/100 km coûte près de 1 300 € de carburant sur la même distance.`,
     },
     {
       question: `Quelles sont les alternatives à la ${m.modele} ?`,
-      answer: `Les principales alternatives dans le même segment sont : ${getAlternatives(m, 3).map((a) => a.modele).join(", ")}. Consultez nos fiches détaillées pour comparer prix, autonomie et coût de possession.`,
+      answer: `Dans le segment ${m.segment.toLowerCase()}, les principales alternatives à la ${m.modele} sont : ${getAlternatives(m, 3).map((a) => `la ${a.modele} (${euro(a.prixBase)}, ${a.autonomieReelle} km réels)`).join(", ")}. Le bon critère de choix n'est pas l'autonomie maximale mais le coût au kilomètre sur cinq ans, qui dépend du prix d'achat, de la consommation et de la valeur de revente. Nos fiches détaillées donnent ces trois éléments pour chaque modèle.`,
     },
   ];
 }

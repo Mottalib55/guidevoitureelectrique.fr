@@ -1,6 +1,8 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
@@ -381,6 +383,7 @@ export default function ComparateurElecThermique() {
           </ul>
         </div>
       </article>
+      <FaqSection items={faqParPage["/outils/comparateur-elec-thermique/"]} />
     </>
   );
 }

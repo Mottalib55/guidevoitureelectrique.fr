@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
 import { modeles } from "@/data/modeles";
 import FinancementVE from "@/components/FinancementVE";
@@ -267,6 +269,7 @@ export default function PageFinancement() {
           </ul>
         </div>
       </article>
+      <FaqSection items={faqParPage["/outils/financement/"]} />
     </>
   );
 }

@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import FaqSection from "@/components/FaqSection";
+import { faqParPage } from "@/data/faq-pages";
 import SourcesOfficielles from '@/components/SourcesOfficielles';
 import Link from "next/link";
 import { pagesAcheter } from "@/data/acheter";
@@ -201,6 +203,7 @@ export default function AcheterIndexPage() {
         </div>
       </section>
       <SourcesOfficielles />
+      <FaqSection items={faqParPage["/acheter/"]} />
     </>
   );
 }
