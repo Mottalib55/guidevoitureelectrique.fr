@@ -78,7 +78,7 @@ export function articleJsonLd({
       "@id": "https://guidevoitureelectrique.fr/#author",
       jobTitle: "Éditeur de calculateurs et de guides pratiques",
       knowsAbout: ["Véhicules électriques", "Aides à l'achat automobile", "Recharge électrique", "Financement automobile"],
-      description: "Passionné par l'automobile et la mobilité électrique, diplômé MBA de l'Éditeur de calculateurs et de guides pratiques. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
+      description: "Passionné par l'automobile et la mobilité électrique. Spécialisé dans l'analyse du marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
       url: "https://guidevoitureelectrique.fr/a-propos/",
     },
     publisher: {

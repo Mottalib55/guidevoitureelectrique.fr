@@ -83,7 +83,7 @@ const jsonLdOrganization = {
       url: `${SITE}/a-propos/`,
       knowsAbout: ["Véhicules électriques", "Aides à l'achat automobile", "Recharge électrique", "Financement automobile"],
       description:
-        "Diplômé MBA de l'Éditeur de calculateurs et de guides pratiques, analyse le marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
+        "Radif Partners analyse le marché des véhicules électriques, les aides à l'achat et l'infrastructure de recharge en France.",
     },
   ],
 };
