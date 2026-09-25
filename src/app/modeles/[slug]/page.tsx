@@ -105,7 +105,7 @@ function getFaqs(m: ReturnType<typeof getModeleBySlug>) {
     {
       question: `Quel est le prix de la ${m.modele} ?`,
       answer: isAVenir
-        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif reste provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""} ; les grilles définitives s'écartent souvent de quelques centaines d'euros des annonces initiales. ${m.aidesEligible ? `Ce modèle devrait être éligible au bonus écologique de 4\u00a0000\u00a0€, soit un ticket d'entrée ramené autour de ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle ne devrait pas être éligible au bonus écologique, compte tenu de son lieu de production."} S'y ajouteront l'assurance, la carte grise et, le cas échéant, l'installation d'une wallbox.`
+        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif reste provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""} ; les grilles définitives s'écartent souvent de quelques centaines d'euros des annonces initiales. ${m.aidesEligible ? `Ce modèle devrait être éligible au bonus écologique de 4\u00a0000\u00a0€, soit un ticket d'entrée ramené autour de ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle ne devrait pas être éligible au bonus écologique, compte tenu de son lieu de production."} S'y ajouteront l'assurance, la carte grise et, le cas échéant, l'installation d'une wallbox.`
         : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}, soit environ ${Math.round((1 - m.prixOccasion / m.prixBase) * 100)}\u00a0% de moins.` : ""} ${m.aidesEligible ? `Ce prix ouvre droit au bonus écologique de 4\u00a0000\u00a0€, qui ramène la facture à ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle n'ouvre pas droit au bonus écologique, son score environnemental ne remplissant pas les conditions fixées depuis 2024."} À ce montant s'ajoutent l'assurance, la carte grise, gratuite pour un véhicule électrique dans la plupart des régions, et l'éventuelle installation d'une wallbox, entre 1\u00a0200 et 1\u00a0800\u00a0€ posée.`,
     },
     {
@@ -546,7 +546,7 @@ export default async function PageModele({ params }: Props) {
                 la batterie est le critère déterminant pour la valeur de revente : un SOH
                 supérieur à 90 % après 3 ans est excellent.
               </>
-            ) : (
+            ) : (
               <>
                 En tant que modèle récent, la {m.modele} n&apos;a pas encore de cote d&apos;occasion
                 établie. Les véhicules électriques récents conservent généralement bien leur valeur
@@ -565,7 +565,7 @@ export default async function PageModele({ params }: Props) {
                 100 €/mois (sous conditions de revenus) et à la prime à la conversion si
                 vous mettez au rebut un ancien véhicule thermique Crit&apos;Air 3 ou plus.
               </>
-            ) : (
+            ) : (
               <>
                 La {m.modele} n&apos;est <strong>pas éligible au bonus écologique</strong>{" "}
                 actuellement, en raison de son score environnemental insuffisant

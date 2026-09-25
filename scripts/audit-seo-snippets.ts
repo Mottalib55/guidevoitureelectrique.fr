@@ -27,9 +27,9 @@ const snippets: Snippet[] = [];
 // ── Static pages ──
 snippets.push({
   path: "/",
-  title: "Voiture électrique 2026 : comparatif, prix et autonomie",
+  title: "Voiture électrique 2026 : comparatif, prix et autonomie",
   description:
-    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
+    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
 });
 
 // ── Comparatifs ──
@@ -79,21 +79,21 @@ for (const c of categories) {
 
 // ── Modeles (title generated from data) ──
 for (const m of modeles) {
-  const title = `${m.marque} ${m.modele} : prix, autonomie, fiche complète`;
-  const desc = `Fiche détaillée ${m.marque} ${m.modele} ${m.annee} : prix à partir de ${m.prixBase.toLocaleString("fr-FR")} €, autonomie réelle ${m.autonomieReelle} km, recharge rapide ${m.chargeRapideKw} kW. Avis, points forts et comparatif.`;
+  const title = `${m.marque} ${m.modele} : prix, autonomie, fiche complète`;
+  const desc = `Fiche détaillée ${m.marque} ${m.modele} ${m.annee} : prix à partir de ${m.prixBase.toLocaleString("fr-FR")} €, autonomie réelle ${m.autonomieReelle} km, recharge rapide ${m.chargeRapideKw} kW. Avis, points forts et comparatif.`;
   snippets.push({ path: `/modeles/${m.slug}/`, title, description: desc });
 }
 
 // ── Marques ──
 for (const m of marques) {
-  const title = `${m.nom} électrique : modèles, prix et avis`;
+  const title = `${m.nom} électrique : modèles, prix et avis`;
   const desc = m.description;
   snippets.push({ path: `/marques/${m.slug}/`, title, description: desc });
 }
 
 // ── Villes (bornes) ──
 for (const v of villes) {
-  const title = `Bornes de recharge à ${v.nom} : carte et tarifs`;
+  const title = `Bornes de recharge à ${v.nom} : carte et tarifs`;
   const desc = v.metaDescription;
   snippets.push({ path: `/recharge/bornes/${v.slug}/`, title, description: desc });
 }

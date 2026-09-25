@@ -147,7 +147,7 @@ export default function ComparateurElecThermique() {
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
               <div><label style={labelStyle}>Prix neuf</label><input type="text" inputMode="decimal" value={prixTherm} onChange={(e) => setPrixTherm(safeParseNumber(e.target.value, prixTherm))} step={1000} style={inputStyle} /></div>
-              <div><label style={labelStyle}>—</label><input type="text" value="Pas de bonus" disabled style={{ ...inputStyle, color: "var(--faint)", background: "var(--wash)" }} /></div>
+              <div><label style={labelStyle}>, </label><input type="text" value="Pas de bonus" disabled style={{ ...inputStyle, color: "var(--faint)", background: "var(--wash)" }} /></div>
               <div><label style={labelStyle}>Conso (L/100)</label><input type="text" inputMode="decimal" value={consoTherm} onChange={(e) => setConsoTherm(safeParseNumber(e.target.value, consoTherm))} step={0.5} style={inputStyle} /></div>
               <div><label style={labelStyle}>€/litre</label><input type="text" inputMode="decimal" value={prixLitre} onChange={(e) => setPrixLitre(safeParseNumber(e.target.value, prixLitre))} step={0.05} style={inputStyle} /></div>
               <div><label style={labelStyle}>Assurance / an</label><input type="text" inputMode="decimal" value={assurTherm} onChange={(e) => setAssurTherm(safeParseNumber(e.target.value, assurTherm))} step={50} style={inputStyle} /></div>

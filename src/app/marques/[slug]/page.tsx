@@ -73,7 +73,7 @@ function getFaqs(
     },
     {
       question: `Quelle ${marque.nom} a la meilleure autonomie ?`,
-      answer: `La ${plusEndurant.modele} affiche la meilleure autonomie r\u00e9elle de la gamme, ${plusEndurant.autonomieReelle} km, pour ${plusEndurant.autonomieWLTP} km annonc\u00e9s en cycle WLTP. Sur autoroute \u00e0 130 km/h, comptez 20 \u00e0 30 % de moins, et davantage par temps froid. Sa batterie de ${dec(plusEndurant.batterieKwh)} kWh et sa consommation de ${dec(plusEndurant.conso)} kWh/100 km expliquent ce r\u00e9sultat.`,
+      answer: `La ${plusEndurant.modele} affiche la meilleure autonomie r\u00e9elle de la gamme, ${plusEndurant.autonomieReelle} km, pour ${plusEndurant.autonomieWLTP} km annonc\u00e9s en cycle WLTP. Sur autoroute \u00e0 130 km/h, comptez 20 \u00e0 30 % de moins, et davantage par temps froid. Sa batterie de ${dec(plusEndurant.batterieKwh)} kWh et sa consommation de ${dec(plusEndurant.conso)} kWh/100 km expliquent ce r\u00e9sultat.`,
     },
     {
       question: `Les ${marque.nom} \u00e9lectriques sont-elles \u00e9ligibles au bonus \u00e9cologique ?`,

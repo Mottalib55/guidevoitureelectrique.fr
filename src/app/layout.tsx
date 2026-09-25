@@ -115,7 +115,7 @@ export default function RootLayout({
       className={`${manrope.variable} ${bricolage.variable} antialiased`}
     >
       <head>
-        {/* Microsoft Clarity — only in production */}
+        {/* Microsoft Clarity, only in production */}
         {process.env.NODE_ENV === "production" && (
           <script
             dangerouslySetInnerHTML={{
@@ -241,7 +241,7 @@ export default function RootLayout({
             </div>
           </div>
           <div className="site-footer-bottom">
-            © {new Date().getFullYear()} guidevoitureelectrique.fr — Données
+            © {new Date().getFullYear()} guidevoitureelectrique.fr, Données
             indicatives, non contractuelles.
             {" | "}
             <Link href="/a-propos/" style={{ color: "var(--faint)", textDecoration: "none" }}>

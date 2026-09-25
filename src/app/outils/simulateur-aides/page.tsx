@@ -187,7 +187,7 @@ export default function SimulateurAides() {
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <span>Prime à la conversion</span>
                   <strong style={{ color: calc.primeConversion > 0 ? "var(--accent-deep)" : "var(--faint)" }}>
-                    {calc.primeConversion > 0 ? euro(calc.primeConversion) : ancienVehicule ? "Non éligible" : "—"}
+                    {calc.primeConversion > 0 ? euro(calc.primeConversion) : ancienVehicule ? "Non éligible" : ", "}
                   </strong>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>

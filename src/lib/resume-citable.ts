@@ -6,7 +6,7 @@
  */
 import type { Modele } from "@/data/modeles";
 
-const euro = (n: number) => `${n.toLocaleString("fr-FR")} €`;
+const euro = (n: number) => `${n.toLocaleString("fr-FR")} €`;
 
 export function resumeModele(m: Modele): string {
   const conso100 = m.conso.toLocaleString("fr-FR");
@@ -23,12 +23,12 @@ export function resumeModele(m: Modele): string {
   return (
     `La ${m.marque} ${m.modele} est une ${m.segment.toLowerCase()} électrique de ${m.puissanceCh} ch ` +
     `annoncée à ${m.autonomieWLTP} km d'autonomie WLTP. En usage réel, comptez plutôt ` +
-    `${m.autonomieReelle} km, soit ${ecart} % de moins que l'homologation : l'écart vient du ` +
+    `${m.autonomieReelle} km, soit ${ecart} % de moins que l'homologation : l'écart vient du ` +
     `chauffage, de l'autoroute et du froid, que le cycle WLTP ne reproduit pas. Sa batterie de ` +
     `${m.batterieKwh} kWh et sa consommation de ${conso100} kWh aux 100 km situent le coût au ` +
-    `tarif réglementé à environ ${coutAuxCent.toLocaleString("fr-FR")} € aux 100 km, et ` +
-    `${coutRecharge.toLocaleString("fr-FR")} € pour une charge complète à domicile. ` +
-    `Sur borne rapide, elle accepte ${m.chargeRapideKw} kW, ce qui donne ${m.tempsChargeRapide} ; ` +
+    `tarif réglementé à environ ${coutAuxCent.toLocaleString("fr-FR")} € aux 100 km, et ` +
+    `${coutRecharge.toLocaleString("fr-FR")} € pour une charge complète à domicile. ` +
+    `Sur borne rapide, elle accepte ${m.chargeRapideKw} kW, ce qui donne ${m.tempsChargeRapide} ; ` +
     `sur une prise murale, ${m.tempsChargeAC}. Le prix neuf démarre à ${euro(m.prixBase)} hors options.` +
     occasion + aides
   );
@@ -42,12 +42,12 @@ export function resumeVille(v: Ville): string {
   const bornes = v.nombreBornes.toLocaleString("fr-FR");
   return (
     `${v.nom} (${v.departement}, ${v.region}) compte environ ${bornes} points de charge publics ` +
-    `pour ${pop} habitants, soit ${densite.toLocaleString("fr-FR")} bornes pour 10 000 habitants. ` +
-    `Ce chiffre dit l'essentiel : au-delà de dix bornes pour 10 000 habitants, un conducteur sans ` +
-    `garage trouve à recharger sans planifier ; en dessous de cinq, la recharge à domicile ou au ` +
+    `pour ${pop} habitants, soit ${densite.toLocaleString("fr-FR")} bornes pour 10 000 habitants. ` +
+    `Ce chiffre dit l'essentiel : au-delà de dix bornes pour 10 000 habitants, un conducteur sans ` +
+    `garage trouve à recharger sans planifier ; en dessous de cinq, la recharge à domicile ou au ` +
     `travail devient une condition pratique à l'achat d'un véhicule électrique. Le coût dépend ` +
-    `ensuite du type de borne : environ 0,25 € le kWh au tarif réglementé chez soi, de 0,35 à ` +
-    `0,45 € sur une borne publique en charge lente, et de 0,50 à 0,79 € sur une borne rapide en ` +
+    `ensuite du type de borne : environ 0,25 € le kWh au tarif réglementé chez soi, de 0,35 à ` +
+    `0,45 € sur une borne publique en charge lente, et de 0,50 à 0,79 € sur une borne rapide en ` +
     `itinérance, soit du simple au triple pour la même énergie. Les tarifs, les réseaux présents ` +
     `et les emplacements utiles à ${v.nom} sont détaillés ci-dessous, avec les badges et ` +
     `abonnements qui changent réellement la facture.`
@@ -70,13 +70,13 @@ export function resumeComparatif(a: Modele, b: Modele): string {
     `contre ${plusLoin === a ? b.autonomieReelle : a.autonomieReelle} km, ${ecartAuto} km de plus, ` +
     `ce qui représente une pause de moins sur un trajet de cinq cents kilomètres. La ` +
     `${plusSobre.modele} consomme le moins, ${plusSobre.conso.toLocaleString("fr-FR")} kWh aux ` +
-    `100 km, d'où un coût au tarif réglementé de ${(plusSobre === a ? coutA : coutB).toLocaleString("fr-FR")} € ` +
-    `aux 100 km contre ${(plusSobre === a ? coutB : coutA).toLocaleString("fr-FR")} €. Sur borne ` +
+    `100 km, d'où un coût au tarif réglementé de ${(plusSobre === a ? coutA : coutB).toLocaleString("fr-FR")} € ` +
+    `aux 100 km contre ${(plusSobre === a ? coutB : coutA).toLocaleString("fr-FR")} €. Sur borne ` +
     `rapide, la ${plusRapide.modele} accepte ${plusRapide.chargeRapideKw} kW et annonce ` +
     `${plusRapide.tempsChargeRapide}. Côté coffre, ${a.coffre} litres contre ${b.coffre} litres. ` +
     `Le détail de chaque poste, y compris les aides et le marché de l'occasion, suit ci-dessous. ` +
     `Ces trois chiffres, prix d'entrée, autonomie réelle et puissance de charge, suffisent le plus ` +
-    `souvent à trancher : le reste relève du goût et de l'usage.`
+    `souvent à trancher : le reste relève du goût et de l'usage.`
   );
 }
 
@@ -97,7 +97,7 @@ export function resumeMarque(m: Marque, modeles: Modele[]): string {
   return (
     `${m.nom} est un constructeur ${m.pays === "France" ? "français" : `implanté en ${m.pays}`} ` +
     `fondé en ${m.anneeCreation}. ${gamme} Ce qui distingue une marque d'une autre sur ` +
-    `l'électrique tient à trois choses mesurables : le prix d'entrée de gamme, l'écart entre ` +
+    `l'électrique tient à trois choses mesurables : le prix d'entrée de gamme, l'écart entre ` +
     `l'autonomie WLTP annoncée et l'autonomie réelle, et la puissance de charge acceptée, qui ` +
     `décide du temps passé sur l'autoroute. Les fiches ci-dessous donnent ces trois chiffres pour ` +
     `chaque modèle, avec le coût de recharge au tarif réglementé et le prix d'occasion quand le ` +

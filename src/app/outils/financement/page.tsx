@@ -78,7 +78,7 @@ export default function PageFinancement() {
             {[...modeles]
               .sort((a, b) => a.modele.localeCompare(b.modele))
               .map((m) => (
-                // Une seule chaîne dans <option> : plusieurs nœuds de texte y cassent
+                // Une seule chaîne dans <option> : plusieurs nœuds de texte y cassent
                 // l'hydratation (React #418).
                 <option key={m.slug} value={m.slug}>
                   {`${m.modele}, ${new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR", maximumFractionDigits: 0 }).format(m.prixBase)}`}

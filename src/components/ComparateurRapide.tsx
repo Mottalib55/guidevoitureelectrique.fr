@@ -110,7 +110,7 @@ export default function ComparateurRapide() {
             onChange={(e) => setSlug1(e.target.value)}
             style={selectStyle}
           >
-            <option value="">— Choisir —</option>
+            <option value="">, Choisir, </option>
             {sorted.map((m) => (
               <option key={m.slug} value={m.slug}>
                 {`${m.marque} ${m.modele}`}
@@ -137,7 +137,7 @@ export default function ComparateurRapide() {
             onChange={(e) => setSlug2(e.target.value)}
             style={selectStyle}
           >
-            <option value="">— Choisir —</option>
+            <option value="">, Choisir, </option>
             {sorted.map((m) => (
               <option key={m.slug} value={m.slug}>
                 {`${m.marque} ${m.modele}`}

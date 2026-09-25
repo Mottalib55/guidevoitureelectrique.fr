@@ -70,7 +70,7 @@ function fix(html) {
   // déclaré à Google. Le sauter faisait diverger la réponse déclarée de la
   // réponse affichée, ce que le contrôle §7 signale (2026-09-25).
   const pile = [];
-  const out = html.split(/(<[^>]+>)/).map((part) => {
+  const out = html.split(/(<[a-zA-Z!\/][^>]*>)/).map((part) => {
     if (part.startsWith('<')) {
       const m = part.match(/^<(\/?)(script|style|pre|textarea|astro-island|code|kbd)\b/i);
       if (m) {
@@ -115,7 +115,7 @@ const DOT_DECIMAL = /(?<![\d.,’'\w])(?<!(?:art\.?|artikel|Art\.?|§|Abs\.?|al\
 /** Texte réellement lu par le visiteur : hors script, style et code. */
 function texteVisible(html) {
   let skip = 0;
-  return html.split(/(<[^>]+>)/).map((part) => {
+  return html.split(/(<[a-zA-Z!\/][^>]*>)/).map((part) => {
     if (part.startsWith('<')) {
       const m = part.match(/^<(\/?)(script|style|pre|textarea|astro-island|code|kbd)\b/i);
       if (m) skip += m[1] ? -1 : (part.endsWith('/>') ? 0 : 1);
@@ -174,11 +174,22 @@ function missingAccents(html) {
   return hits.some((m) => !ambigu(m)) ? hits : [];
 }
 
+// Une page réhydratée par React ne peut pas être retouchée après le rendu :
+// le client reconstruit le même arbre à partir de son propre code, compare le
+// texte servi au texte qu'il produit, et une virgule mise à la place d'un tiret
+// cadratin lui suffit pour lever l'erreur #418 et jeter le HTML reçu. Relevé sur
+// dosageguide.com le 2026-09-25 : 639 pages, une erreur d'hydratation sur
+// chacune, causée par ce script. Sur ces sites, la typographie se corrige dans
+// les sources ; ici on ne touche à rien et on le dit.
+const HYDRATE = /self\.__next_f|__NEXT_DATA__|window\.__remixContext|data-reactroot/;
+
 let total = 0, files = 0, dots = 0, corrigees = 0; const dotPages = [];
 let accents = 0; const accentPages = [];
 let tirets = 0; const tiretPages = [];
+let hydratees = 0;
 for await (const f of walk(dist)) {
   const html = await readFile(f, 'utf8');
+  if (HYDRATE.test(html)) { hydratees++; continue; }
   const { out, count, decimales, cadratins } = fix(html);
   if (count || decimales || cadratins) { total += count; corrigees += decimales; files++; if (!CHECK) await writeFile(f, out); }
   if (cadratins) { tirets += cadratins; if (tiretPages.length < 10) tiretPages.push(`${f} : ${cadratins}`); }
@@ -190,6 +201,11 @@ for await (const f of walk(dist)) {
     const miss = missingAccents(html);
     if (miss.length) { accents += miss.length; accentPages.push(`${f} : ${[...new Set(miss)].slice(0, 4).join(', ')}`); }
   }
+}
+if (hydratees) {
+  console.log(`typo-nbsp: ${hydratees} page(s) réhydratées par React, laissées intactes `
+    + `— les retoucher après le rendu casse l'hydratation (React #418). `
+    + `Corriger la typographie dans les sources.`);
 }
 console.log(`typo-nbsp: ${total} espace(s) ${CHECK ? 'à corriger' : 'rendue(s) insécable(s)'} dans ${files} page(s)`);
 if (!CHECK && corrigees) console.log(`typo-nbsp: ${corrigees} décimale(s) passée(s) à la virgule`);

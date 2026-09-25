@@ -356,7 +356,7 @@ export default function ModelesFiltres({ modeles }: { modeles: Modele[] }) {
 
         {/* ── Filtres (zone blanche) ── */}
         <div style={s.barBottom}>
-          {/* Type — pleine largeur */}
+          {/* Type, pleine largeur */}
           <div style={s.filterBlock}>
             <span style={s.label}>Type de véhicule</span>
             <div style={s.chips}>
@@ -373,7 +373,7 @@ export default function ModelesFiltres({ modeles }: { modeles: Modele[] }) {
             </div>
           </div>
 
-          {/* Prix + Autonomie — 2 colonnes */}
+          {/* Prix + Autonomie, 2 colonnes */}
           <div style={s.filtersGrid}>
             <div style={s.filterBlock}>
               <span style={s.label}>Budget</span>
@@ -409,7 +409,7 @@ export default function ModelesFiltres({ modeles }: { modeles: Modele[] }) {
             </div>
           </div>
 
-          {/* Marque + Tri — séparateur + 2 selects */}
+          {/* Marque + Tri, séparateur + 2 selects */}
           <div style={s.selectRow}>
             <div style={s.selectBlock}>
               <span style={s.label}>Marque</span>
@@ -457,13 +457,13 @@ export default function ModelesFiltres({ modeles }: { modeles: Modele[] }) {
       </div>
 
       {/* ─── GRILLE ────────────────────────────────────────────────── */}
-      {filtered.length > 0 ? (
+      {filtered.length > 0 ? (
         <div className="grid-modeles">
           {filtered.map((m) => (
             <CarteModele key={m.slug} modele={m} />
           ))}
         </div>
-      ) : (
+      ) : (
         <p style={s.empty}>
           Aucun modèle ne correspond à vos critères.
           <br />

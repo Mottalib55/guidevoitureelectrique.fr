@@ -384,7 +384,7 @@ export default function FinancementVE({
                   <div className="fve-month">{euro(s.mensualite)}</div>
                   <div className="fve-monthlbl">par mois</div>
                 </>
-              ) : (
+              ) : (
                 <>
                   <div className="fve-month">{euro(s.totalVerse)}</div>
                   <div className="fve-monthlbl">payé en une fois</div>

@@ -10,7 +10,7 @@ export const DESC_RANGE: [number, number] = [150, 160];
 export function fit(start: string, endings: string[], [min, max]: [number, number], what: string): string {
   const hit = endings.map((e) => start + e).find((c) => c.length >= min && c.length <= max);
   if (hit) return hit;
-  const msg = `${what} hors ${min}–${max} caractères : « ${start}${endings[0]} » (${(start + endings[0]).length})`;
+  const msg = `${what} hors ${min}–${max} caractères : « ${start}${endings[0]} » (${(start + endings[0]).length})`;
   if (process.env.SNIPPET_REPORT) { console.warn(`SNIPPET ${msg}`); return start + endings[0]; }
   throw new Error(msg);
 }
@@ -19,8 +19,8 @@ export function assertSnippet(title: string, description: string, path: string):
   const [tMin, tMax] = TITLE_RANGE;
   const [dMin, dMax] = DESC_RANGE;
   const errors: string[] = [];
-  if (title.length < tMin || title.length > tMax) errors.push(`titre ${title.length} « ${title} »`);
-  if (description.length < dMin || description.length > dMax) errors.push(`description ${description.length} « ${description} »`);
+  if (title.length < tMin || title.length > tMax) errors.push(`titre ${title.length} « ${title} »`);
+  if (description.length < dMin || description.length > dMax) errors.push(`description ${description.length} « ${description} »`);
   if (!errors.length) return;
   const msg = `${path} : ${errors.join(" ; ")}`;
   // SNIPPET_REPORT=1 : liste toutes les pages hors intervalle sans arrêter le build (audit).

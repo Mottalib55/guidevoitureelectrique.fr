@@ -32,7 +32,7 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
                     /
                   </span>
                 </>
-              ) : (
+              ) : (
                 <span aria-current="page">{item.name}</span>
               )}
             </li>

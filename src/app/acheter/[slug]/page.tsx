@@ -128,7 +128,7 @@ export default async function PageAcheter({ params }: Props) {
                   Calculer mes mensualités
                 </Link>
               </>
-            ) : (
+            ) : (
               <>
                 <h3>Comparez les assurances VE et économisez</h3>
                 <p>
@@ -183,7 +183,7 @@ export default async function PageAcheter({ params }: Props) {
                   Ouvrir le calculateur de financement
                 </Link>
               </>
-            ) : (
+            ) : (
               <>
                 <h3>Trouvez la meilleure assurance pour votre VE</h3>
                 <p>
