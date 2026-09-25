@@ -90,22 +90,17 @@ export default function PageMarquesChinoises() {
           </p>
 
           <h2>Le bonus écologique : le frein principal</h2>
-          <p>
-            Le principal obstacle pour les acheteurs français est l&apos;éligibilité au bonus
+          <p>Le principal obstacle pour les acheteurs français est l&apos;éligibilité au bonus
             écologique. La France a mis en place un score environnemental qui prend en compte
             l&apos;empreinte carbone de fabrication du véhicule. Les modèles fabriqués en Chine
             sont pénalisés par le mix énergétique chinois (fortement carboné) et le transport
             maritime. En conséquence, la quasi-totalité des véhicules chinois importés ne sont
             pas éligibles au bonus de 4 000 €, ce qui renchérit leur prix effectif par rapport
-            aux alternatives européennes éligibles.
-          </p>
-          <p>
-            Certains constructeurs contournent cet obstacle en assemblant leurs véhicules en
+            aux alternatives européennes éligibles. Certains constructeurs contournent cet obstacle en assemblant leurs véhicules en
             Europe. Leapmotor, via sa joint-venture avec Stellantis, assemble le T03 en Pologne.
             BYD a annoncé une usine en Hongrie et une en Turquie. MG (SAIC) envisage une
             production en Europe. Ces stratégies pourraient changer la donne dans les prochaines
-            années.
-          </p>
+            années.</p>
 
           <h2>Qualité et fiabilité : où en est-on ?</h2>
           <p>

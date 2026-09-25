@@ -79,12 +79,7 @@ export default function AcheterIndexPage() {
           <h2>État du marché en France : un moment propice pour acheter</h2>
 
           <h3>Une offre de modèles au plus haut historique</h3>
-          <p>
-            Le marché français de la voiture électrique n&apos;a jamais été aussi riche qu&apos;en 2026. Plus de 120 modèles sont désormais disponibles à la vente, couvrant l&apos;intégralite du spectre automobile : des micro-citadines sans permis aux SUV familiaux sept places, en passant par les berlines compactes, les breaks, les monospaces électriques et même les utilitaires transformes en véhicules particuliers. Cette diversité signifie que, quel que soit votre profil, vos besoins ou votre budget, il existe un véhicule électrique fait pour vous.
-          </p>
-          <p>
-            Les constructeurs français sont particulièrement actifs dans cette transition. Renault, avec sa gamme E-Tech comprenant la R5 et la R4, Peugeot avec les e-208, e-308 et e-3008, Citroen avec la e-C3 et la e-C4, et Dacia avec la Spring proposent des véhicules conçus pour le marché européen et adaptés aux attentes des automobilistes français. En parallèle, les constructeurs chinois (BYD, MG, Leapmotor, Xpeng) enrichissent l&apos;offre avec des véhicules souvent très compétitifs en termes de rapport qualité-prix, contribuant a une saine pression concurrentielle qui bénéficie au consommateur.
-          </p>
+          <p>Le marché français de la voiture électrique n&apos;a jamais été aussi riche qu&apos;en 2026. Plus de 120 modèles sont désormais disponibles à la vente, couvrant l&apos;intégralite du spectre automobile : des micro-citadines sans permis aux SUV familiaux sept places, en passant par les berlines compactes, les breaks, les monospaces électriques et même les utilitaires transformes en véhicules particuliers. Cette diversité signifie que, quel que soit votre profil, vos besoins ou votre budget, il existe un véhicule électrique fait pour vous. Les constructeurs français sont particulièrement actifs dans cette transition. Renault, avec sa gamme E-Tech comprenant la R5 et la R4, Peugeot avec les e-208, e-308 et e-3008, Citroen avec la e-C3 et la e-C4, et Dacia avec la Spring proposent des véhicules conçus pour le marché européen et adaptés aux attentes des automobilistes français. En parallèle, les constructeurs chinois (BYD, MG, Leapmotor, Xpeng) enrichissent l&apos;offre avec des véhicules souvent très compétitifs en termes de rapport qualité-prix, contribuant a une saine pression concurrentielle qui bénéficie au consommateur.</p>
 
           <h3>Des prix en baissé constante</h3>
           <p>

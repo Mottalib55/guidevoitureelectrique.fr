@@ -733,12 +733,7 @@ export default function SimulateurCoutRecharge() {
           {/* Contenu redactionnel */}
           <div className="prose" style={{ marginTop: 48 }}>
             <h2>Comprendre le coût de la recharge électrique en France en 2026</h2>
-            <p>
-              Le coût de la recharge est la question numéro un des futurs propriétaires de véhicules électriques. Et pour cause : c&apos;est l&apos;un des principaux arguments en faveur de l&apos;électrique face au thermique. Mais derrière le chiffre souvent cité de &quot;2 euros pour 100 km&quot;, la réalité est plus nuancée. Le coût réel dépend de trois facteurs fondamentaux : <strong>ou</strong> vous rechargez (domicile, travail, bornes publiques), <strong>quand</strong> vous rechargez (heures pleines, heures creuses, option Tempo), et <strong>combien</strong> vous consommez (qui varie selon le véhicule, la saison, votre style de conduite et le type de trajet).
-            </p>
-            <p>
-              Ce guide vous explique en détail les différents tarifs, les stratégies pour minimiser votre facture, et les calculs concrets pour chaque profil d&apos;utilisateur. Notre simulateur ci-dessus vous donne une estimation personnalisée, mais la lecture de ce guide vous permettra de comprendre les mécanismes sous-jacents et d&apos;optimiser vos habitudes de recharge.
-            </p>
+            <p>Le coût de la recharge est la question numéro un des futurs propriétaires de véhicules électriques. Et pour cause : c&apos;est l&apos;un des principaux arguments en faveur de l&apos;électrique face au thermique. Mais derrière le chiffre souvent cité de &quot;2 euros pour 100 km&quot;, la réalité est plus nuancée. Le coût réel dépend de trois facteurs fondamentaux : <strong>ou</strong> vous rechargez (domicile, travail, bornes publiques), <strong>quand</strong> vous rechargez (heures pleines, heures creuses, option Tempo), et <strong>combien</strong> vous consommez (qui varie selon le véhicule, la saison, votre style de conduite et le type de trajet). Ce guide vous explique en détail les différents tarifs, les stratégies pour minimiser votre facture, et les calculs concrets pour chaque profil d&apos;utilisateur. Notre simulateur ci-dessus vous donne une estimation personnalisée, mais la lecture de ce guide vous permettra de comprendre les mécanismes sous-jacents et d&apos;optimiser vos habitudes de recharge.</p>
 
             <h2>Les tarifs de l&apos;électricité à domicile : un panorama complet</h2>
             <p>

@@ -157,12 +157,7 @@ export default function ComparateurModeles() {
           </p>
 
           <h2>La capacité de la batterie (kWh) : le &quot;réservoir&quot; électrique</h2>
-          <p>
-            La capacité de la batterie, exprimée en <strong>kilowattheures (kWh)</strong>, est l&apos;équivalent du volume du réservoir d&apos;une voiture thermique. Plus la batterie est grande, plus le véhicule peut stocker d&apos;énergie et donc parcourir de kilomètres. Les batteries des VE vendus en France en 2026 varient de 27 kWh (Dacia Spring) a plus de 100 kWh (Mercedes EQS, BMW iX).
-          </p>
-          <p>
-            Mais attention : une batterie plus grande ne signifie pas forcement une meilleure voiture. Elle implique un véhicule plus lourd (environ 6 a 7 kg par kWh supplémentaire), plus cher a l&apos;achat, et plus long à recharger complètement. L&apos;idéal est une batterie dimensionnée pour votre usage réel. Pour un usage urbain et periurbain (moins de 100 km/jour), une batterie de 40 a 52 kWh suffit amplement. Pour des longs trajets réguliers, visez plutôt 60 a 80 kWh.
-          </p>
+          <p>La capacité de la batterie, exprimée en <strong>kilowattheures (kWh)</strong>, est l&apos;équivalent du volume du réservoir d&apos;une voiture thermique. Plus la batterie est grande, plus le véhicule peut stocker d&apos;énergie et donc parcourir de kilomètres. Les batteries des VE vendus en France en 2026 varient de 27 kWh (Dacia Spring) a plus de 100 kWh (Mercedes EQS, BMW iX). Mais attention : une batterie plus grande ne signifie pas forcement une meilleure voiture. Elle implique un véhicule plus lourd (environ 6 a 7 kg par kWh supplémentaire), plus cher a l&apos;achat, et plus long à recharger complètement. L&apos;idéal est une batterie dimensionnée pour votre usage réel. Pour un usage urbain et periurbain (moins de 100 km/jour), une batterie de 40 a 52 kWh suffit amplement. Pour des longs trajets réguliers, visez plutôt 60 a 80 kWh.</p>
           <p>
             Il faut aussi distinguer la <strong>capacité brute</strong> (totale de la batterie) de la <strong>capacité nette</strong> (effectivement utilisable). Les constructeurs réservent généralement 5 a 10 % de la capacité totale comme &quot;tampon&quot; pour protéger la batterie et prolonger sa durée de vie. C&apos;est la capacité nette qui determine l&apos;autonomie réelle.
           </p>

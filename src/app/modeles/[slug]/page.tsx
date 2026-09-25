@@ -1,4 +1,5 @@
 import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
+import { resumeModele } from "@/lib/resume-citable";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -293,6 +294,9 @@ export default async function PageModele({ params }: Props) {
 
         {/* ─── CONTENU RÉDACTIONNEL ─────────────────────────────── */}
         <div className="prose">
+          {/* §21 : bloc citable, construit sur les chiffres de la fiche. */}
+          <p>{resumeModele(m)}</p>
+
           <h2>Présentation de la {m.modele}</h2>
           {m.description.split("\n\n").map((p, i) => (
             <p key={i}>{p}</p>

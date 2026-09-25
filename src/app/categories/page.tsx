@@ -83,12 +83,7 @@ export default function CategoriesIndexPage() {
           </p>
 
           <h3>Ce qu&apos;il faut savoir</h3>
-          <p>
-            Les voitures électriques d&apos;entrée de gamme offrent généralement une autonomie de 200 a 320 km WLTP, suffisante pour une utilisation quotidienne mais pouvant nécessitér des arrêts de recharge plus fréquents sur les longs trajets. La vitesse de recharge rapide est souvent limitée (30 a 80 kW), ce qui allonge les temps d&apos;arrêt en voyage. En revanche, leur faible consommation énergétique (13 a 16 kWh/100 km) garantit un coût de recharge minimal au quotidien.
-          </p>
-          <p>
-            Les modèles stars de cette catégorie en 2026 sont la Dacia Spring (la moins chère du marche), la Citroen e-C3 (meilleur compromis habitabilite/prix), la Leapmotor T03 (micro-citadine ludique), la Fiat 500e (design italien emblématique) et la Renault Twingo E-Tech (citadine urbaine par excellence). Chacun de ces modèles représente une interprétation différente de la mobilité électrique accessible, et merite d&apos;être evalue en fonction de vos critères prioritaires.
-          </p>
+          <p>Les voitures électriques d&apos;entrée de gamme offrent généralement une autonomie de 200 a 320 km WLTP, suffisante pour une utilisation quotidienne mais pouvant nécessitér des arrêts de recharge plus fréquents sur les longs trajets. La vitesse de recharge rapide est souvent limitée (30 a 80 kW), ce qui allonge les temps d&apos;arrêt en voyage. En revanche, leur faible consommation énergétique (13 a 16 kWh/100 km) garantit un coût de recharge minimal au quotidien. Les modèles stars de cette catégorie en 2026 sont la Dacia Spring (la moins chère du marche), la Citroen e-C3 (meilleur compromis habitabilite/prix), la Leapmotor T03 (micro-citadine ludique), la Fiat 500e (design italien emblématique) et la Renault Twingo E-Tech (citadine urbaine par excellence). Chacun de ces modèles représente une interprétation différente de la mobilité électrique accessible, et merite d&apos;être evalue en fonction de vos critères prioritaires.</p>
 
           <h2>Les voitures électriques chinoises : le rapport qualité-prix reinvente</h2>
 

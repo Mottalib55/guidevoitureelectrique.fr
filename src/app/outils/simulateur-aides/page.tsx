@@ -251,15 +251,7 @@ export default function SimulateurAides() {
           </p>
 
           <h3>Le score environnemental : la condition d&apos;éligibilité clé</h3>
-          <p>
-            Depuis 2024, l&apos;éligibilité au bonus est conditionnée a un <strong>score environnemental</strong> calcule par l&apos;ADEME (Agence de la transition écologique). Ce score prend en compte l&apos;empreinte carbone de la fabrication du véhicule : extraction des matières premières, fabrication de la batterie, assemblage du véhicule, et transport jusqu&apos;en France.
-          </p>
-          <p>
-            En pratique, ce score pénalise les véhicules fabriqués dans des pays au mix énergétique fortement carbone. La quasi-totalité des véhicules assemblés en Chine sont exclus du bonus. Les véhicules assemblés en Europe (y compris en Europe de l&apos;Est) sont généralement éligibles. Le score minimum requis est de 60 points sur 100.
-          </p>
-          <p>
-            La liste des véhicules éligibles est publiée par un arrêté ministériel et mise à jour périodiquement. En 2026, les principaux modèles éligibles incluent :
-          </p>
+          <p>Depuis 2024, l&apos;éligibilité au bonus est conditionnée a un <strong>score environnemental</strong> calcule par l&apos;ADEME (Agence de la transition écologique). Ce score prend en compte l&apos;empreinte carbone de la fabrication du véhicule : extraction des matières premières, fabrication de la batterie, assemblage du véhicule, et transport jusqu&apos;en France. En pratique, ce score pénalise les véhicules fabriqués dans des pays au mix énergétique fortement carbone. La quasi-totalité des véhicules assemblés en Chine sont exclus du bonus. Les véhicules assemblés en Europe (y compris en Europe de l&apos;Est) sont généralement éligibles. Le score minimum requis est de 60 points sur 100. La liste des véhicules éligibles est publiée par un arrêté ministériel et mise à jour périodiquement. En 2026, les principaux modèles éligibles incluent :</p>
           <ul>
             <li>Renault 5 E-Tech, Renault Scenic E-Tech, Renault Megane E-Tech</li>
             <li>Peugeot e-208, Peugeot e-2008, Peugeot e-308, Peugeot e-3008</li>

@@ -103,12 +103,7 @@ export default function MarquesIndexPage() {
           <h2>Les marques françaises : un savoir-faire reinvente</h2>
 
           <h3>Renault : le pionnier qui se reinvente</h3>
-          <p>
-            Renault a été le premier constructeur généraliste à parier massivement sur l&apos;électrique avec le lancement de la Zoe en 2012. Plus de dix ans plus tard, cette expérience accumulée porte ses fruits. La gamme E-Tech de Renault est l&apos;une des plus completes du marché français, avec la Renault 5 E-Tech (citadine neo-retro), la Renault 4 E-Tech (crossover compact), le Megane E-Tech (compacte), le Scenic E-Tech (SUV familial) et la Twingo E-Tech (micro-citadine urbaine). Renault mise sur le design émotionnel, la plateforme AmpR (anciennement CMF-EV) et une stratégie de prix agressive pour conserver sa position de leader sur le marché français.
-          </p>
-          <p>
-            La filiale Mobilize développe par ailleurs des services de mobilité partagée et des solutions de recharge, renforçant l&apos;écosystème Renault autour du véhicule électrique. L&apos;usine de Douai (ElectriCity) est devenue l&apos;un des plus grands sites de production de véhicules électriques en Europe, avec une capacité de plus de 400 000 véhicules par an.
-          </p>
+          <p>Renault a été le premier constructeur généraliste à parier massivement sur l&apos;électrique avec le lancement de la Zoe en 2012. Plus de dix ans plus tard, cette expérience accumulée porte ses fruits. La gamme E-Tech de Renault est l&apos;une des plus completes du marché français, avec la Renault 5 E-Tech (citadine neo-retro), la Renault 4 E-Tech (crossover compact), le Megane E-Tech (compacte), le Scenic E-Tech (SUV familial) et la Twingo E-Tech (micro-citadine urbaine). Renault mise sur le design émotionnel, la plateforme AmpR (anciennement CMF-EV) et une stratégie de prix agressive pour conserver sa position de leader sur le marché français. La filiale Mobilize développe par ailleurs des services de mobilité partagée et des solutions de recharge, renforçant l&apos;écosystème Renault autour du véhicule électrique. L&apos;usine de Douai (ElectriCity) est devenue l&apos;un des plus grands sites de production de véhicules électriques en Europe, avec une capacité de plus de 400 000 véhicules par an.</p>
 
           <h3>Peugeot : l&apos;élégance électrique</h3>
           <p>

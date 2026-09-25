@@ -46,12 +46,7 @@ export default function ModèlesIndexPage() {
           <h2>Comprendre les segments du marché électrique</h2>
 
           <h3>Les citadines électriques : le segment roi en France</h3>
-          <p>
-            Le segment des citadines électriques (segment B) est le plus populaire en France, représentant environ 35 % des ventes de véhicules électriques. Ce sont des véhicules compacts, d&apos;une longueur généralement comprise entre 3,80 et 4,10 mètres, équipes de batteries de 40 a 55 kWh offrant une autonomie de 250 a 400 km WLTP. Leur consommation modérée (14 a 17 kWh/100 km) en fait les véhicules les plus économiques a l&apos;usage, avec un coût de recharge à domicile d&apos;environ 2 a 3 euros pour 100 km.
-          </p>
-          <p>
-            Les citadines électriques sont parfaitement adaptées a l&apos;usage quotidien de la grande majorité des automobilistes français. Leur gabarit facilite le stationnement en ville, leur rayon de braquage est généralement réduit, et leur poids contenu (par rapport aux SUV électriques) contribue a une conduite agile et plaisante. C&apos;est dans ce segment que la concurrence est la plus féroce en 2026, avec des modèles comme la Renault 5 E-Tech, la Peugeot e-208, la Citroen e-C3, la MG4, la BYD Dolphin, la Volkswagen ID.3 ou la Fiat 500e qui se livrent une bataille acharnée pour séduire les acheteurs.
-          </p>
+          <p>Le segment des citadines électriques (segment B) est le plus populaire en France, représentant environ 35 % des ventes de véhicules électriques. Ce sont des véhicules compacts, d&apos;une longueur généralement comprise entre 3,80 et 4,10 mètres, équipes de batteries de 40 a 55 kWh offrant une autonomie de 250 a 400 km WLTP. Leur consommation modérée (14 a 17 kWh/100 km) en fait les véhicules les plus économiques a l&apos;usage, avec un coût de recharge à domicile d&apos;environ 2 a 3 euros pour 100 km. Les citadines électriques sont parfaitement adaptées a l&apos;usage quotidien de la grande majorité des automobilistes français. Leur gabarit facilite le stationnement en ville, leur rayon de braquage est généralement réduit, et leur poids contenu (par rapport aux SUV électriques) contribue a une conduite agile et plaisante. C&apos;est dans ce segment que la concurrence est la plus féroce en 2026, avec des modèles comme la Renault 5 E-Tech, la Peugeot e-208, la Citroen e-C3, la MG4, la BYD Dolphin, la Volkswagen ID.3 ou la Fiat 500e qui se livrent une bataille acharnée pour séduire les acheteurs.</p>
 
           <h3>Les compactes électriques : polyvalence et espace</h3>
           <p>

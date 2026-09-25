@@ -244,12 +244,7 @@ export default function HomePage() {
           <h2>Le marché de la voiture électrique en France : panorama 2026</h2>
 
           <h3>Des chiffres qui parlent d&apos;eux-memes</h3>
-          <p>
-            Selon les données de la Plateforme automobile (PFA) et de l&apos;Avere-France, le marché français des voitures électriques a franchi des seuils historiques au cours des deux dernières années. En 2025, plus de 530 000 véhicules 100 % électriques ont ete immatriculés, portant le parc roulant a plus de 1,8 million d&apos;unités. Les projections pour 2026 tablent sur 650 000 a 700 000 nouvelles immatriculations, soutenues par l&apos;arrivée de modèles plus abordables et le durcissement des normes CAFE imposées aux constructeurs européens.
-          </p>
-          <p>
-            La part de marché du 100 % électrique depasse désormais les 28 % des ventes de véhicules neufs, contre moins de 16 % en 2023. La France se positionne ainsi comme le deuxième marché électrique européen derrière l&apos;Allemagne, et devant la Norvège en volume absolu. Cette dynamique est portée par trois facteurs convergents : une offre de modèles considérablement enrichie, un réseau de recharge en pleine expansion, et des dispositifs d&apos;aide a l&apos;achat qui restent parmi les plus généreux d&apos;Europe.
-          </p>
+          <p>Selon les données de la Plateforme automobile (PFA) et de l&apos;Avere-France, le marché français des voitures électriques a franchi des seuils historiques au cours des deux dernières années. En 2025, plus de 530 000 véhicules 100 % électriques ont ete immatriculés, portant le parc roulant a plus de 1,8 million d&apos;unités. Les projections pour 2026 tablent sur 650 000 a 700 000 nouvelles immatriculations, soutenues par l&apos;arrivée de modèles plus abordables et le durcissement des normes CAFE imposées aux constructeurs européens. La part de marché du 100 % électrique depasse désormais les 28 % des ventes de véhicules neufs, contre moins de 16 % en 2023. La France se positionne ainsi comme le deuxième marché électrique européen derrière l&apos;Allemagne, et devant la Norvège en volume absolu. Cette dynamique est portée par trois facteurs convergents : une offre de modèles considérablement enrichie, un réseau de recharge en pleine expansion, et des dispositifs d&apos;aide a l&apos;achat qui restent parmi les plus généreux d&apos;Europe.</p>
 
           <h3>L&apos;offre de modèles : une diversité sans précédent</h3>
           <p>

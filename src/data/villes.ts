@@ -4433,3 +4433,8 @@ Arcachon, entre bassin d'argent et dune dorée, fait de la mobilité électrique
 export function getVilleBySlug(slug: string): Ville | undefined {
   return villes.find((v) => v.slug === slug);
 }
+
+/** Vrai si une autre ville de la liste porte le même nom (Saint-Denis 93 / 974). */
+export function homonyme(v: Ville): boolean {
+  return villes.filter((x) => x.nom === v.nom).length > 1;
+}

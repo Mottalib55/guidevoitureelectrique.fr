@@ -72,12 +72,7 @@ export default function GuidesIndexPage() {
         <div className="prose">
           <h2>Pourquoi s&apos;informer avant de passer à la voiture électrique ?</h2>
 
-          <p>
-            La voiture électrique représente un changement de paradigme dans notre rapport a l&apos;automobile. Contrairement a l&apos;achat d&apos;un véhicule thermique classique, ou les reperes sont bien établis depuis des décennies, le passage a l&apos;électrique implique de maîtriser de nouveaux concepts : types de batteries, puissances de recharge, autonomie réelle versus normalisée, dégradation de la batterie, recharge bidirectionnelle, et bien d&apos;autres. Nos guides ont ete conçus pour vous accompagner pas a pas dans cette transition, en vous fournissant des informations fiables, actualisées et adaptées au contexte français.
-          </p>
-          <p>
-            Un acheteur bien informe fera systématiquement un meilleur choix. Il saura évaluer ses besoins réels en autonomie plutôt que de surpayer pour des kilomètres qu&apos;il n&apos;utilisera jamais. Il comprendra les différences entre les technologies de batterie et saura lesquelles privilégier selon son usage. Il connaîtra les subtilités des aides financières et pourra maximiser les avantages auxquels il a droit. En somme, la connaissance est le meilleur investissement que vous puissiez faire avant d&apos;investir dans un véhicule électrique.
-          </p>
+          <p>La voiture électrique représente un changement de paradigme dans notre rapport a l&apos;automobile. Contrairement a l&apos;achat d&apos;un véhicule thermique classique, ou les reperes sont bien établis depuis des décennies, le passage a l&apos;électrique implique de maîtriser de nouveaux concepts : types de batteries, puissances de recharge, autonomie réelle versus normalisée, dégradation de la batterie, recharge bidirectionnelle, et bien d&apos;autres. Nos guides ont ete conçus pour vous accompagner pas a pas dans cette transition, en vous fournissant des informations fiables, actualisées et adaptées au contexte français. Un acheteur bien informe fera systématiquement un meilleur choix. Il saura évaluer ses besoins réels en autonomie plutôt que de surpayer pour des kilomètres qu&apos;il n&apos;utilisera jamais. Il comprendra les différences entre les technologies de batterie et saura lesquelles privilégier selon son usage. Il connaîtra les subtilités des aides financières et pourra maximiser les avantages auxquels il a droit. En somme, la connaissance est le meilleur investissement que vous puissiez faire avant d&apos;investir dans un véhicule électrique.</p>
 
           <h2>Ce que couvrent nos guides : un parcours d&apos;apprentissage complet</h2>
 

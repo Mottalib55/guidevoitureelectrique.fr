@@ -88,6 +88,43 @@ export default function GlossairePage() {
           </p>
         </header>
 
+        <div className="prose" style={{ maxWidth: 780, marginBottom: 40 }}>
+          <p>
+            Le vocabulaire de la voiture électrique mélange trois registres qui ne se recouvrent
+            pas : la physique de la batterie (kWh, kW, C-rate), le commerce (WLTP, bonus, score
+            environnemental, LOA) et l&apos;infrastructure de recharge (AC, DC, CCS, badge,
+            itinérance). Confondre le kilowatt et le kilowattheure, c&apos;est confondre un débit
+            et une quantité : une batterie de 50 kWh rechargée à 150 kW ne met pas trois fois moins
+            de temps qu&apos;à 50 kW, parce que la courbe de charge s&apos;effondre après 80 %.
+            L&apos;autonomie WLTP n&apos;est pas une promesse mais un résultat de laboratoire, que
+            l&apos;usage réel ramène de dix à vingt-cinq pour cent plus bas selon la saison et la
+            vitesse. Les définitions ci-dessous donnent pour chaque terme la valeur ou la règle qui
+            s&apos;y attache en 2026, et renvoient à la page où le chiffre est utilisé.
+          </p>
+          <h2>Les trois chiffres qui reviennent partout</h2>
+          <p>
+            La capacité de la batterie, en kilowattheures, dit combien d&apos;énergie la voiture
+            emporte : entre 25 kWh pour une citadine d&apos;entrée de gamme et plus de 100 kWh pour
+            une grande routière. La consommation, en kilowattheures aux cent kilomètres, dit ce
+            qu&apos;elle en fait : de 13 kWh pour une citadine sobre à plus de 22 kWh pour un SUV
+            lourd sur autoroute. Le rapport des deux donne l&apos;autonomie, ce qui explique
+            pourquoi deux voitures de même batterie n&apos;ont pas la même portée. La puissance de
+            charge acceptée, en kilowatts, décide enfin du temps passé sur une aire
+            d&apos;autoroute, et elle est toujours annoncée à son maximum, jamais en moyenne.
+          </p>
+          <h2>Ce que le vocabulaire commercial ne dit pas</h2>
+          <p>
+            Le bonus écologique dépend depuis 2024 d&apos;un score environnemental qui tient compte
+            du lieu d&apos;assemblage et de l&apos;empreinte de la production de la batterie : un
+            modèle assemblé hors d&apos;Europe peut en être exclu quel que soit son prix. La LOA
+            n&apos;est pas un crédit : on loue, et la valeur de rachat en fin de contrat est fixée
+            à l&apos;avance, ce qui transfère le risque de revente au loueur. Le leasing social,
+            lui, est une LOA subventionnée soumise à un plafond de revenu fiscal de référence. Ces
+            distinctions changent le coût total de possession de plusieurs milliers d&apos;euros,
+            et ce sont elles qui rendent deux annonces apparemment identiques incomparables.
+          </p>
+        </div>
+
         <div style={{ maxWidth: 780 }}>
           {glossaire.map((item) => (
             <div

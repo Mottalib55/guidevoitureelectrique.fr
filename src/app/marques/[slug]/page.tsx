@@ -1,4 +1,5 @@
 import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
+import { resumeMarque } from "@/lib/resume-citable";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -161,6 +162,10 @@ export default async function PageMarque({ params }: Props) {
         </header>
 
         {/* ─── PRÉSENTATION ─────────────────────────────────────── */}
+        {/* §21 : bloc citable, construit sur la gamme référencée. */}
+        <div className="prose">
+          <p>{resumeMarque(marque, modelesMarque)}</p>
+        </div>
         <div
           className="prose"
           dangerouslySetInnerHTML={{ __html: marque.description }}

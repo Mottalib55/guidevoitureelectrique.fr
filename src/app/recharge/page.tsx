@@ -135,12 +135,7 @@ export default function RechargeIndexPage() {
           </p>
 
           <h3>La borne murale (wallbox) : le standard recommande</h3>
-          <p>
-            L&apos;installation d&apos;une borne murale, communément appelée wallbox, est la solution recommandée pour la recharge à domicile. Disponibles en puissances de 7,4 kW (monophase) ou 11 kW et 22 kW (triphasé), ces bornes permettent de recharger complètement la majorité des batteries en 4 a 8 heures, soit une nuit. Une wallbox de 7,4 kW suffit pour la plupart des usages quotidiens : en heures creuses (environ 8 heures de nuit), elle restaure entre 250 et 300 km d&apos;autonomie, bien au-delà du besoin quotidien moyen.
-          </p>
-          <p>
-            Le coût d&apos;une wallbox varie entre 500 et 1 500 euros pour le matériel, auxquels s&apos;ajoutent 300 a 800 euros d&apos;installation par un électricien agréé IRVE (Infrastructure de Recharge pour Véhicules Électriques). Après le crédit d&apos;impôt de 300 euros et la TVA réduite a 5,5 % pour les logements de plus de 2 ans, l&apos;investissement total se situe généralement entre 800 et 1 800 euros. C&apos;est un investissement rapidement amorti par les économies d&apos;énergie réalisées par rapport au carburant fossile.
-          </p>
+          <p>L&apos;installation d&apos;une borne murale, communément appelée wallbox, est la solution recommandée pour la recharge à domicile. Disponibles en puissances de 7,4 kW (monophase) ou 11 kW et 22 kW (triphasé), ces bornes permettent de recharger complètement la majorité des batteries en 4 a 8 heures, soit une nuit. Une wallbox de 7,4 kW suffit pour la plupart des usages quotidiens : en heures creuses (environ 8 heures de nuit), elle restaure entre 250 et 300 km d&apos;autonomie, bien au-delà du besoin quotidien moyen. Le coût d&apos;une wallbox varie entre 500 et 1 500 euros pour le matériel, auxquels s&apos;ajoutent 300 a 800 euros d&apos;installation par un électricien agréé IRVE (Infrastructure de Recharge pour Véhicules Électriques). Après le crédit d&apos;impôt de 300 euros et la TVA réduite a 5,5 % pour les logements de plus de 2 ans, l&apos;investissement total se situe généralement entre 800 et 1 800 euros. C&apos;est un investissement rapidement amorti par les économies d&apos;énergie réalisées par rapport au carburant fossile.</p>
           <p>
             Conseil important : faites vérifier votre installation électrique avant l&apos;installation de la wallbox. Un tableau électrique aux normes, un disjoncteur différentiel 30 mA dédié et un câblage adéquat sont indispensables. L&apos;installateur IRVE procede a ces vérifications et peut vous conseiller sur d&apos;éventuelles mises a niveau nécessaires.
           </p>

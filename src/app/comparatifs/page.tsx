@@ -30,6 +30,21 @@ export default function ComparatifsIndexPage() {
           {comparatifs.length} duels détaillés.
         </p>
 
+        <div className="prose" style={{ marginBottom: 32 }}>
+          <p>
+            Trois chiffres tranchent entre deux voitures électriques : le prix d&apos;entrée hors
+            options, l&apos;autonomie réelle, qui tombe de dix à vingt-cinq pour cent sous
+            l&apos;homologation WLTP selon le modèle et la saison, et la puissance de charge
+            acceptée, qui décide du temps passé sur l&apos;autoroute bien plus sûrement que la
+            taille de la batterie. Le coût d&apos;usage se déduit de la consommation : à 0,25 € le
+            kWh au tarif réglementé, quinze kWh aux 100 km reviennent à moins de quatre euros, soit
+            trois à quatre fois moins qu&apos;un plein d&apos;essence sur la même distance. Chacun
+            des {comparatifs.length} duels ci-dessous donne ces chiffres côte à côte, avec le
+            coffre, le poids, l&apos;éligibilité au bonus écologique et le prix d&apos;occasion
+            quand le modèle est assez ancien pour qu&apos;un marché se soit formé.
+          </p>
+        </div>
+
         {/* Comparateur interactif */}
         <ComparateurRapide />
 
@@ -85,18 +100,13 @@ export default function ComparatifsIndexPage() {
           <h2>Comment comparer efficacement des voitures électriques en 2026</h2>
 
           <p>
-            Comparer des voitures électriques n&apos;est pas aussi simple que comparer des véhicules thermiques. Les critères traditionnels (puissance moteur, cylindrée, consommation aux 100 km) cèdent la place a de nouveaux paramètres : capacité de la batterie, autonomie réelle, puissance de recharge maximale, courbe de charge, efficience énergétique. Comprendre ces critères et savoir les hiérarchiser selon vos besoins est la clé pour choisir le véhicule électrique qui vous correspond. Nos comparatifs détaillés sont conçus pour vous guider dans cette analyse, en mettant en évidence les forces et les faiblesses de chaque modèle de manière objective et documentée.
+            Comparer des voitures électriques n&apos;est pas aussi simple que comparer des véhicules thermiques. Trois chiffres tranchent le plus souvent : le prix d&apos;entrée hors options, l&apos;autonomie réelle (dix à vingt-cinq pour cent sous l&apos;homologation WLTP selon le modèle et la saison), et la puissance de charge acceptée, qui décide du temps passé sur l&apos;autoroute plus sûrement que la taille de la batterie. Le coût de recharge se déduit ensuite de la consommation : à 0,25 € le kWh au tarif réglementé, quinze kWh aux 100 km reviennent à moins de quatre euros, soit trois à quatre fois moins qu&apos;un plein d&apos;essence sur la même distance. Les critères traditionnels (puissance moteur, cylindrée, consommation aux 100 km) cèdent la place a de nouveaux paramètres : capacité de la batterie, autonomie réelle, puissance de recharge maximale, courbe de charge, efficience énergétique. Comprendre ces critères et savoir les hiérarchiser selon vos besoins est la clé pour choisir le véhicule électrique qui vous correspond. Nos comparatifs détaillés sont conçus pour vous guider dans cette analyse, en mettant en évidence les forces et les faiblesses de chaque modèle de manière objective et documentée.
           </p>
 
           <h2>Les critères essentiels pour comparer des voitures électriques</h2>
 
           <h3>L&apos;autonomie réelle : au-delà du chiffre WLTP</h3>
-          <p>
-            L&apos;autonomie est le critère le plus visible et le plus compare, mais aussi le plus susceptible d&apos;induire en erreur si on se contente du chiffre WLTP affiche par le constructeur. Le cycle WLTP (Worldwide Harmonized Light Vehicles Test Procédure) est une norme de mesure standardisée qui fournit une base de comparaison équitable entre les modèles, mais qui ne reflète que partiellement les conditions d&apos;utilisation réelles.
-          </p>
-          <p>
-            En pratique, l&apos;autonomie réelle est généralement inférieure de 15 a 30 % au chiffre WLTP, selon les conditions d&apos;utilisation. En hiver, avec le chauffage allume et des températures proches de zéro, la perte peut atteindre 35 %. Sur autoroute a 130 km/h, la surconsommation liée à la résistance aérodynamique peut réduire l&apos;autonomie de 25 a 40 % par rapport au chiffre annonce. A l&apos;inverse, en conduite urbaine calme par temps tempéré, l&apos;autonomie réelle peut dépasser le chiffre WLTP grâce au freinage régénératif.
-          </p>
+          <p>L&apos;autonomie est le critère le plus visible et le plus compare, mais aussi le plus susceptible d&apos;induire en erreur si on se contente du chiffre WLTP affiche par le constructeur. Le cycle WLTP (Worldwide Harmonized Light Vehicles Test Procédure) est une norme de mesure standardisée qui fournit une base de comparaison équitable entre les modèles, mais qui ne reflète que partiellement les conditions d&apos;utilisation réelles. En pratique, l&apos;autonomie réelle est généralement inférieure de 15 a 30 % au chiffre WLTP, selon les conditions d&apos;utilisation. En hiver, avec le chauffage allume et des températures proches de zéro, la perte peut atteindre 35 %. Sur autoroute a 130 km/h, la surconsommation liée à la résistance aérodynamique peut réduire l&apos;autonomie de 25 a 40 % par rapport au chiffre annonce. A l&apos;inverse, en conduite urbaine calme par temps tempéré, l&apos;autonomie réelle peut dépasser le chiffre WLTP grâce au freinage régénératif.</p>
           <p>
             Dans nos comparatifs, nous indiquons systématiquement l&apos;autonomie estimée en conditions réelles pour trois types d&apos;usage : urbain, mixte et autoroute. Ces chiffres, basés sur des tests indépendants et des retours d&apos;utilisateurs, vous permettent de comparer les modèles sur une base réaliste plutôt que marketing.
           </p>

@@ -1,8 +1,9 @@
 import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
+import { resumeVille } from "@/lib/resume-citable";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { villes, getVilleBySlug } from "@/data/villes";
+import { villes, getVilleBySlug, homonyme } from "@/data/villes";
 import { faqJsonLd } from "@/lib/jsonld";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -20,7 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ville = getVilleBySlug(slug);
   if (!ville) return {};
   return buildMetadata({
-    title: fit(`Bornes de recharge ${ville.nom}`, [
+    // Deux villes peuvent porter le même nom (Saint-Denis 93 et 974) : le
+    // département entre alors dans le titre, sinon les deux pages servent le même.
+    title: fit(`Bornes de recharge ${ville.nom}${homonyme(ville) ? ` (${ville.departement})` : ""}`, [
       " : carte, réseaux et tarifs 2026",
       " : carte et tarifs 2026",
       " 2026 : carte et tarifs",
@@ -187,7 +190,11 @@ export default async function PageVille({ params }: Props) {
         </section>
 
         {/* ─── CONTENU RÉDACTIONNEL ────────────────────────────── */}
-        <div className="prose">{renderContenu(ville.contenu)}</div>
+        <div className="prose">
+          {/* §21 : bloc citable, construit sur les données de la ville. */}
+          <p>{resumeVille(ville)}</p>
+          {renderContenu(ville.contenu)}
+        </div>
 
         {/* ─── GUIDE RECHARGE VILLE ───────────────────────────── */}
         <div className="prose" style={{ marginTop: 32 }}>

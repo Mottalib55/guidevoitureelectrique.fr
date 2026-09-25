@@ -86,12 +86,7 @@ export default function BornesIndexPage() {
           </p>
 
           <h2>L&apos;état du réseau de recharge public français</h2>
-          <p>
-            Le déploiement des bornes de recharge en France a connu une accélération spectaculaire depuis 2022. En trois ans, le nombre de points de charge publics a triple. Cette croissance est portée par plusieurs facteurs : les obligations réglementaires pour les parkings publics et les immeubles neufs, les subventions du programme ADVENIR, les investissements massifs des opérateurs prives, et la demande croissante liée a l&apos;augmentation du parc de véhicules électriques (plus de 2 millions de véhicules électriques et hybrides rechargeables en circulation en France en 2026).
-          </p>
-          <p>
-            La répartition géographique n&apos;est cependant pas uniforme. L&apos;Île-de-France, la région Auvergne-Rhone-Alpes et l&apos;Occitanie concentrent le plus grand nombre de bornes. Les zones rurales et certaines régions comme le Centre-Val de Loire ou la Bourgogne-Franche-Comte sont encore sous-equipees, bien que la situation s&apos;ameliore rapidement grâce aux programmes de déploiement portes par les syndicats d&apos;énergie locaux.
-          </p>
+          <p>Le déploiement des bornes de recharge en France a connu une accélération spectaculaire depuis 2022. En trois ans, le nombre de points de charge publics a triple. Cette croissance est portée par plusieurs facteurs : les obligations réglementaires pour les parkings publics et les immeubles neufs, les subventions du programme ADVENIR, les investissements massifs des opérateurs prives, et la demande croissante liée a l&apos;augmentation du parc de véhicules électriques (plus de 2 millions de véhicules électriques et hybrides rechargeables en circulation en France en 2026). La répartition géographique n&apos;est cependant pas uniforme. L&apos;Île-de-France, la région Auvergne-Rhone-Alpes et l&apos;Occitanie concentrent le plus grand nombre de bornes. Les zones rurales et certaines régions comme le Centre-Val de Loire ou la Bourgogne-Franche-Comte sont encore sous-equipees, bien que la situation s&apos;ameliore rapidement grâce aux programmes de déploiement portes par les syndicats d&apos;énergie locaux.</p>
 
           <h3>Les différents types de bornes</h3>
           <p>

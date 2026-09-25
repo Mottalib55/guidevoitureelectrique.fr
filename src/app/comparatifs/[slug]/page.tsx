@@ -1,4 +1,5 @@
 import { fit, TITLE_RANGE, DESC_RANGE } from "@/lib/snippet";
+import { resumeComparatif } from "@/lib/resume-citable";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -334,6 +335,8 @@ export default async function PageComparatif({ params }: Props) {
 
         {/* ─── CONTENU RÉDACTIONNEL ───────────────────────────── */}
         <div className="prose">
+          {/* §21 : bloc citable, construit sur les chiffres des deux modèles. */}
+          <p>{resumeComparatif(m1, m2)}</p>
           {c.contenu.split("\n\n").map((p, i) => {
             if (p.startsWith("## ")) {
               return (
