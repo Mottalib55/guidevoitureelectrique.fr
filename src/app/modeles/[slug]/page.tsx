@@ -168,7 +168,8 @@ export default async function PageModele({ params }: Props) {
 
       <Breadcrumb
         items={[
-          { name: m.marque, href: "/marques/" + m.marqueSlug + "/" },
+          // Six marques n'ont pas de page : le fil d'Ariane mene alors au sommaire des marques.
+          { name: m.marque, href: getMarqueBySlug(m.marqueSlug) ? "/marques/" + m.marqueSlug + "/" : "/marques/" },
           { name: m.modele, href: "/modeles/" + m.slug + "/" },
         ]}
       />
@@ -612,7 +613,7 @@ export default async function PageModele({ params }: Props) {
             <table>
               <tbody>
                 <tr><td>Modèle</td><td><strong>{m.modele}</strong></td></tr>
-                <tr><td>Marque</td><td><Link href={`/marques/${m.marqueSlug}/`}>{m.marque}</Link></td></tr>
+                <tr><td>Marque</td><td>{getMarqueBySlug(m.marqueSlug) ? <Link href={`/marques/${m.marqueSlug}/`}>{m.marque}</Link> : m.marque}</td></tr>
                 <tr><td>Année</td><td>{m.annee}</td></tr>
                 <tr><td>Segment</td><td>{m.segment}</td></tr>
                 <tr><td>Origine</td><td>{m.origine}</td></tr>
