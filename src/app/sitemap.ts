@@ -108,5 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...villePages,
   ];
   // Date réelle de chaque page (git), pas une date commune saisie à la main (RECETTE §8.4).
-  return all.map((e) => ({ ...e, lastModified: pageDate(e.url.replace(BASE, "")) }));
+  // Une URL une seule fois : plusieurs listes ci-dessus se recoupent.
+  const uniques = [...new Map(all.map((e) => [e.url, e])).values()];
+  return uniques.map((e) => ({ ...e, lastModified: pageDate(e.url.replace(BASE, "")) }));
 }

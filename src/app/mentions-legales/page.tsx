@@ -4,6 +4,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/mentions-legales/" },
   title: "Mentions légales du Guide Voiture Électrique : éditeur",
   description:
     "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, politique de confidentialité, cookies et conditions générales d'utilisation du site.",
