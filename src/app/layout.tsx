@@ -161,7 +161,8 @@ export default function RootLayout({
         <header className="site-header" role="banner">
           <div className="site-header-inner">
             <Link href="/" className="site-logo">
-              <Image src="/logo.svg" alt="" width={28} height={28} className="site-logo-icon" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo.svg" width="32" height="32" alt="" className="site-logo-icon" />
               <span>
                 Guide<strong>VoitureÉlectrique</strong>
               </span>
