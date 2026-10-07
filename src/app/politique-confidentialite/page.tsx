@@ -3,9 +3,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Confidentialité et cookies du Guide Voiture Électrique",
+  title: "Confidentialité du Guide Voiture Électrique : sans cookie",
   description:
-    "Données collectées par le site, cookies de mesure d'audience (Google Analytics, Clarity), sous-traitants, durée de conservation et vos droits RGPD détaillés.",
+    "Le Guide Voiture Électrique ne dépose aucun cookie et ne garde rien de vos simulations de recharge ou d'aides ; seule la stabilité est suivie, sans cookie.",
   alternates: { canonical: "/politique-confidentialite/" },
 };
 
@@ -27,171 +27,86 @@ export default function PolitiqueConfidentialitePage() {
           Politique de confidentialité
         </h1>
         <div className="prose">
-          <h2>1. Principes</h2>
+          <h2>1. En bref</h2>
           <p>
-            Le site guidevoitureelectrique.fr s&apos;engage à respecter la
-            confidentialité des données personnelles de ses utilisateurs,
-            conformément au Règlement Général sur la Protection des Données
-            (RGPD, Règlement UE 2016/679) et à la loi Informatique et Libertés
-            du 6 janvier 1978 modifiée.
+            Le Guide Voiture Électrique compare des modèles, estime un coût de recharge, calcule
+            les aides à l&apos;achat et met en regard électrique et thermique, sans vous demander
+            qui vous êtes. Le site ne dépose aucun cookie et son éditeur, Radif Partners,
+            n&apos;enregistre aucune donnée personnelle sur ses visiteurs. Cette page le détaille
+            au regard du RGPD (règlement UE 2016/679) et de la loi Informatique et Libertés du
+            6 janvier 1978.
           </p>
-
-          <h3>1.1 Responsable du traitement</h3>
           <p>
-            Le responsable du traitement des données est Radif Partners, joignable à
-            l&apos;adresse{" "}
+            Contact :{" "}
             <a href="mailto:contact@guidevoitureelectrique.fr">
               contact@guidevoitureelectrique.fr
-            </a>.
-            Compte tenu de la nature du site et de l&apos;absence de traitement à
-            grande échelle de données sensibles, la désignation d&apos;un Délégué à
-            la Protection des Données (DPO) n&apos;est pas légalement requise au titre
-            de l&apos;article 37 du RGPD.
-          </p>
-
-          <h3>1.2 Données collectées</h3>
-          <p>
-            Le site peut collecter les données suivantes dans le cadre de son
-            fonctionnement :
-          </p>
-          <ul>
-            <li>
-              <strong>Données de navigation</strong> : adresse IP (anonymisée), type de
-              navigateur, pages visitées, durée de la visite, via des outils
-              d&apos;analyse de fréquentation anonymisés.
-            </li>
-            <li>
-              <strong>Données de contact</strong> : adresse e-mail, si vous
-              nous contactez volontairement par courrier électronique.
-            </li>
-          </ul>
-          <p>
-            Le site ne collecte ni ne traite les catégories de données suivantes :
-            données financières, numéros d&apos;identification, données de santé,
-            données biométriques ou données relatives aux opinions politiques ou
-            religieuses.
-          </p>
-
-          <h3>1.3 Finalité du traitement</h3>
-          <p>Les données collectées sont utilisées pour :</p>
-          <ul>
-            <li>Améliorer le contenu et l&apos;ergonomie du site</li>
-            <li>Répondre à vos demandes de contact</li>
-            <li>Produire des statistiques anonymes de fréquentation</li>
-            <li>Assurer la sécurité et la disponibilité du site</li>
-          </ul>
-
-          <h3>1.4 Base légale du traitement</h3>
-          <p>
-            Le traitement des données repose sur les bases légales suivantes au titre
-            de l&apos;article 6 du RGPD :
-          </p>
-          <ul>
-            <li>
-              <strong>Intérêt légitime</strong> (Art. 6(1)(f)) : pour l&apos;analyse
-              anonyme de la fréquentation et les fichiers journaux du serveur.
-            </li>
-            <li>
-              <strong>Consentement</strong> (Art. 6(1)(a)) : pour les cookies
-              d&apos;analyse, le cas échéant.
-            </li>
-          </ul>
-
-          <h3>1.5 Durée de conservation</h3>
-          <p>
-            Les données de navigation sont conservées pendant une durée maximale
-            de 13 mois, conformément aux recommandations de la CNIL. Les données
-            de contact sont conservées pendant la durée nécessaire au traitement
-            de votre demande, puis supprimées dans un délai maximum de 3 ans à
-            compter du dernier contact. Les fichiers journaux du serveur sont
-            automatiquement supprimés après 30 jours.
-          </p>
-
-          <h3>1.6 Vos droits RGPD</h3>
-          <p>
-            Conformément au RGPD, vous disposez des droits suivants concernant
-            vos données personnelles :
-          </p>
-          <ul>
-            <li><strong>Droit d&apos;accès</strong> (Art. 15) : obtenir la confirmation que vos données sont traitées et en obtenir une copie.</li>
-            <li><strong>Droit de rectification</strong> (Art. 16) : demander la correction de données inexactes ou incomplètes.</li>
-            <li><strong>Droit à l&apos;effacement</strong> (Art. 17) : demander la suppression de vos données (&laquo; droit à l&apos;oubli &raquo;).</li>
-            <li><strong>Droit à la limitation du traitement</strong> (Art. 18) : restreindre le traitement dans certains cas.</li>
-            <li><strong>Droit à la portabilité</strong> (Art. 20) : recevoir vos données dans un format structuré et lisible par machine.</li>
-            <li><strong>Droit d&apos;opposition</strong> (Art. 21) : vous opposer au traitement de vos données pour des motifs légitimes.</li>
-            <li><strong>Droit de retirer votre consentement</strong> (Art. 7) : retirer votre consentement à tout moment.</li>
-          </ul>
-          <p>
-            Pour exercer ces droits, vous pouvez nous contacter à l&apos;adresse :{" "}
-            <a href="mailto:contact@guidevoitureelectrique.fr">
-              contact@guidevoitureelectrique.fr
-            </a>.
-            Nous nous engageons à répondre dans un délai de 30 jours.
-          </p>
-          <p>
-            Vous disposez également du droit de déposer une réclamation auprès
-            de la CNIL (Commission Nationale de l&apos;Informatique et des
-            Libertés) :{" "}
-            <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">
-              www.cnil.fr
             </a>
           </p>
 
-          <h3>1.7 Transfert de données hors UE</h3>
+          <h2>2. Vos simulations restent dans votre navigateur</h2>
           <p>
-            Le site est hébergé en France par OVH. Les outils de mesure d&apos;audience
-            (Google Analytics, Microsoft Clarity) sont fournis par des sociétés dont les
-            groupes sont établis aux États-Unis ; leurs transferts de données sont encadrés
-            par les clauses contractuelles types de la Commission européenne et le cadre
-            de protection des données UE–États-Unis.
-          </p>
-          <h2>2. Cookies et stockage local</h2>
-          <p>
-            Le site guidevoitureelectrique.fr peut utiliser des cookies
-            techniques nécessaires au bon fonctionnement du site. Ces cookies ne
-            collectent aucune donnée personnelle et ne nécessitent pas votre
-            consentement préalable conformément à la directive ePrivacy
-            (2009/136/CE).
-          </p>
-          <p>
-            Le site utilise deux outils de mesure d&apos;audience qui déposent des cookies :
-          </p>
-          <ul>
-            <li>
-              <strong>Google Analytics 4</strong> (Google Ireland Ltd) : statistiques de
-              fréquentation (cookies <code>_ga</code>, <code>_ga_*</code>, durée de vie
-              maximale de 13 mois).
-            </li>
-            <li>
-              <strong>Microsoft Clarity</strong> (Microsoft Ireland Operations Ltd) : analyse
-              de l&apos;ergonomie des pages (cookies <code>_clck</code>, <code>_clsk</code>).
-            </li>
-          </ul>
-          <p>
-            Les préférences utilisateur (thème clair/sombre) sont stockées dans
-            le localStorage du navigateur, qui n&apos;est pas un cookie et
-            n&apos;est jamais transmis à nos serveurs. Vous pouvez effacer les
-            données localStorage à tout moment via les paramètres de votre
-            navigateur.
-          </p>
-          <p>
-            Vous pouvez à tout moment configurer votre navigateur pour refuser
-            les cookies. Veuillez noter que le refus de certains cookies peut
-            affecter votre expérience de navigation sur le site.
+            Kilométrage annuel, prix du kWh, puissance de la borne, revenu fiscal de référence
+            pour les aides, apport et durée d&apos;un financement : ces valeurs sont calculées
+            sur votre appareil, par le navigateur. Elles ne sont envoyées à aucun serveur, ne
+            sont gardées ni en cookie ni en stockage local, et s&apos;effacent dès que la page
+            est fermée ou rechargée.
           </p>
 
-          <h2>3. Sous-traitants</h2>
+          <h2>3. Cookies</h2>
           <p>
-            Les sous-traitants suivants peuvent traiter des données pour notre compte :
+            Aucun cookie n&apos;est déposé par le site, qu&apos;il soit technique, de mesure
+            d&apos;audience ou publicitaire. Le site n&apos;affiche aucune publicité et
+            n&apos;emploie aucun outil de statistiques marketing. C&apos;est pourquoi il n&apos;y
+            a pas de bandeau cookies : rien n&apos;est à accepter.
+          </p>
+
+          <h2>4. Stabilité du site : Microsoft Clarity, sans cookie</h2>
+          <p>
+            Pour détecter un comparateur qui se bloque, une page lente ou un bouton qui ne
+            répond pas, le site utilise Microsoft Clarity en mode sans cookie (aucun
+            <code> _clck</code>, <code>_clsk</code>, <code>MUID</code> ni <code>CLID</code>).
+            Clarity reçoit uniquement des signaux techniques anonymes : erreurs, temps de
+            chargement, clics restés sans effet, défilement, taille d&apos;écran. Chaque page vue
+            a son propre identifiant éphémère ; les visites ne sont donc jamais reliées entre
+            elles. Le contenu des pages et les valeurs saisies sont masqués par le code du site
+            avant d&apos;être transmis.
           </p>
           <ul>
-            <li><strong>OVH SAS</strong> (2 rue Kellermann, 59100 Roubaix, France) : hébergement du site.</li>
-            <li><strong>Google Ireland Ltd</strong> : mesure d&apos;audience (Google Analytics 4).</li>
-            <li><strong>Microsoft Ireland Operations Ltd</strong> : analyse d&apos;ergonomie (Microsoft Clarity).</li>
+            <li><strong>Prestataire responsable</strong> : Microsoft Ireland Operations Limited, One Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Irlande.</li>
+            <li><strong>Finalité</strong> : vérifier que les pages et les outils fonctionnent et se chargent vite.</li>
+            <li><strong>Base légale</strong> : intérêt légitime de l&apos;éditeur (article 6-1 f du RGPD).</li>
+            <li><strong>Durée</strong> : 30 jours pour les enregistrements, 13 mois au plus pour les statistiques agrégées.</li>
+            <li><strong>Opposition</strong> : bloquer le domaine clarity.ms (navigateur ou bloqueur de contenu) ou écrire à l&apos;adresse de contact ; tous les outils restent utilisables.</li>
           </ul>
+
+          <h2>5. Hébergeur</h2>
           <p>
-            Ces sous-traitants sont liés par des obligations contractuelles de
-            protection des données conformes aux exigences du RGPD.
+            OVH SAS, 2 rue Kellermann, 59100 Roubaix, France. Ses serveurs tiennent des journaux
+            techniques (adresse IP, page demandée, date) pour la sécurité ; l&apos;éditeur ne les
+            consulte pas à des fins de suivi.
+          </p>
+
+          <h2>6. Messages envoyés à l&apos;éditeur</h2>
+          <p>
+            Si vous écrivez à l&apos;adresse de contact, votre e-mail sert seulement à vous
+            répondre ; il est supprimé au plus tard trois ans après le dernier échange et
+            n&apos;est communiqué à aucun tiers.
+          </p>
+
+          <h2>7. Vos droits</h2>
+          <p>
+            Accès, rectification, effacement, limitation, opposition (articles 15 à 21 du RGPD) :
+            ces droits s&apos;exercent par e-mail à{" "}
+            <a href="mailto:contact@guidevoitureelectrique.fr">
+              contact@guidevoitureelectrique.fr
+            </a>
+            , avec une réponse sous un mois. Comme aucune donnée de navigation n&apos;est
+            rattachée à votre personne, ils visent surtout les messages échangés. Vous pouvez
+            aussi saisir la CNIL, 3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07,{" "}
+            <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">
+              www.cnil.fr
+            </a>
+            .
           </p>
 
         </div>

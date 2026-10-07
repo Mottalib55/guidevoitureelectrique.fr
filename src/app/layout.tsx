@@ -115,29 +115,13 @@ export default function RootLayout({
       className={`${manrope.variable} ${bricolage.variable} antialiased`}
     >
       <head>
-        {/* Microsoft Clarity, only in production */}
+        {/* Microsoft Clarity sans cookie : consentement refusé (consentv2) mis en file avant le script (RECETTE §15.6) */}
         {process.env.NODE_ENV === "production" && (
           <script
             dangerouslySetInnerHTML={{
-              __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/xb44dm3h08";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script");`,
+              __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};window.clarity('consentv2',{ad_Storage:'denied',analytics_Storage:'denied'});t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","xb44dm3h08");`,
             }}
           />
-        )}
-        {/* Google Analytics 4 */}
-        {process.env.NODE_ENV === "production" && (
-          <>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-7VRNV419X2" />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-7VRNV419X2');
-                `,
-              }}
-            />
-          </>
         )}
         <script
           type="application/ld+json"
@@ -152,7 +136,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-white text-[var(--ink)]">
+      <body className="min-h-screen flex flex-col bg-white text-[var(--ink)]" data-clarity-mask="true">
         {/* Skip to content link for accessibility */}
         <a href="#main-content" className="skip-to-content">
           Aller au contenu

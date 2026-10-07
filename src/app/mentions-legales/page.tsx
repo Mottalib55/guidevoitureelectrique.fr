@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/mentions-legales/" },
   title: "Mentions légales du Guide Voiture Électrique : éditeur",
   description:
-    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, politique de confidentialité, cookies et conditions générales d'utilisation du site.",
+    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, confidentialité sans aucun cookie et conditions générales d'utilisation du site.",
 };
 
 export default function MentionsLegalesPage() {
@@ -112,8 +112,9 @@ export default function MentionsLegalesPage() {
 
           <h2>4. Données personnelles et cookies</h2>
           <p>
-            Le traitement des données personnelles, les cookies et les sous-traitants sont
-            décrits dans la{" "}
+            Le site ne dépose aucun cookie et l&apos;éditeur n&apos;enregistre aucune donnée
+            personnelle ; seule la stabilité des pages est mesurée, de façon anonyme, avec
+            Microsoft Clarity sans cookie. Le détail figure dans la{" "}
             <Link href="/politique-confidentialite/">politique de confidentialité</Link>.
           </p>
 
