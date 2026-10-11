@@ -189,7 +189,7 @@ export default function SimulateurCoutRecharge() {
               >
                 {sorted.map((m) => (
                   <option key={m.slug} value={m.slug}>
-                    {m.marque} {m.modele}
+                    {m.modele}
                   </option>
                 ))}
               </select>
@@ -367,7 +367,7 @@ export default function SimulateurCoutRecharge() {
                   <div className="encadre-verdict-lbl">par an</div>
                 </div>
                 <div className="encadre-verdict-item">
-                  <div className="encadre-verdict-val">{euroCents(calc.coutKm * 100)} ct</div>
+                  <div className="encadre-verdict-val">{dec(calc.coutKm * 100, 1)} ct</div>
                   <div className="encadre-verdict-lbl">par km</div>
                 </div>
               </div>
@@ -580,7 +580,7 @@ export default function SimulateurCoutRecharge() {
                   marginBottom: 14,
                 }}
               >
-                Temps de recharge : {vehicule.marque} {vehicule.modele}
+                Temps de recharge : {vehicule.modele}
               </h3>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
                 <div>

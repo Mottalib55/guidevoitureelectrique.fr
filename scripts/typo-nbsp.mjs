@@ -90,7 +90,14 @@ function fix(html) {
     if (dedans === 'saut' || !part.trim()) return part;
     const ldJson = dedans === 'ld' ? 1 : 0;
     const typographie = (texte) => {
-      let t = texte.replace(EM_DASH, () => (cadratins++, ', '));
+      // Un tiret seul dans son nœud de texte n'est pas une incise mais une valeur absente
+      // (cellule vide) : il devient « – ». La virgule n'y avait aucun sens (« , » seule
+      // dans une case, relevé le 2026-10-12).
+      let t = texte.replace(EM_DASH, (m, off, str) => {
+        cadratins++;
+        const seul = !str.slice(0, off).trim() && !str.slice(off + m.length).trim();
+        return seul ? m.replace(/\u2014|&mdash;|&#8212;/, '\u2013') : ', ';
+      });
       t = t.replace(UNIT, (_, d) => (count++, d + NB));
       if (fr) t = t.replace(FR_BEFORE, () => (count++, NB)).replace(FR_AFTER, () => (count++, '«' + NB));
       if (virgule) t = t.replace(DOT_DECIMAL, (m) => (decimales++, m.replace('.', ',')));

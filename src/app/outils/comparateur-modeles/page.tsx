@@ -46,7 +46,7 @@ export default function ComparateurModeles() {
   const specs: { label: string; render: (m: Modele) => string }[] = [
     { label: "Marque", render: (m) => m.marque },
     { label: "Prix neuf", render: (m) => euro(m.prixBase) },
-    { label: "Prix occasion", render: (m) => m.prixOccasion ? `dès ${euro(m.prixOccasion)}` : ", " },
+    { label: "Prix occasion", render: (m) => m.prixOccasion ? `dès ${euro(m.prixOccasion)}` : "–" },
     { label: "Autonomie WLTP", render: (m) => `${m.autonomieWLTP} km` },
     { label: "Autonomie réelle", render: (m) => `${m.autonomieReelle} km` },
     { label: "Batterie", render: (m) => `${dec(m.batterieKwh)} kWh` },
@@ -94,7 +94,7 @@ export default function ComparateurModeles() {
                 Modèle {i + 1}
               </label>
               <select value={slug} onChange={(e) => handleChange(i, e.target.value)} style={selectStyle}>
-                <option value="">, Choisir, </option>
+                <option value="">Choisir…</option>
                 {[...modeles].sort((a, b) => a.modele.localeCompare(b.modele)).map((m) => (
                   <option key={m.slug} value={m.slug}>{m.modele}</option>
                 ))}
@@ -119,7 +119,7 @@ export default function ComparateurModeles() {
                         </Link>
                       </th>
                     ) : (
-                      <th key={i} style={{ color: "var(--faint)" }}>, </th>
+                      <th key={i} style={{ color: "var(--faint)" }}>–</th>
                     )
                   )}
                 </tr>
@@ -129,7 +129,7 @@ export default function ComparateurModeles() {
                   <tr key={spec.label}>
                     <td style={{ fontWeight: 600 }}>{spec.label}</td>
                     {selected.map((m, i) => (
-                      <td key={i}>{m ? spec.render(m) : ", "}</td>
+                      <td key={i}>{m ? spec.render(m) : "–"}</td>
                     ))}
                   </tr>
                 ))}

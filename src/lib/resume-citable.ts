@@ -21,7 +21,7 @@ export function resumeModele(m: Modele): string {
     : " Elle n'est pas éligible au bonus écologique, son score environnemental ou son lieu d'assemblage l'en excluant.";
 
   return (
-    `La ${m.marque} ${m.modele} est une ${m.segment.toLowerCase()} électrique de ${m.puissanceCh} ch ` +
+    `La ${m.modele} est une ${m.segment.toLowerCase()} électrique de ${m.puissanceCh} ch ` +
     `annoncée à ${m.autonomieWLTP} km d'autonomie WLTP. En usage réel, comptez plutôt ` +
     `${m.autonomieReelle} km, soit ${ecart} % de moins que l'homologation : l'écart vient du ` +
     `chauffage, de l'autoroute et du froid, que le cycle WLTP ne reproduit pas. Sa batterie de ` +
@@ -64,7 +64,7 @@ export function resumeComparatif(a: Modele, b: Modele): string {
   const coutA = Math.round(a.conso * 0.2519 * 100) / 100;
   const coutB = Math.round(b.conso * 0.2519 * 100) / 100;
   return (
-    `La ${a.marque} ${a.modele} démarre à ${euro(a.prixBase)} et la ${b.marque} ${b.modele} à ` +
+    `La ${a.modele} démarre à ${euro(a.prixBase)} et la ${b.modele} à ` +
     `${euro(b.prixBase)}, soit ${euro(ecartPrix)} d'écart en faveur de la ${moinsCher.modele}. ` +
     `Sur l'autonomie réelle, la ${plusLoin.modele} l'emporte avec ${plusLoin.autonomieReelle} km ` +
     `contre ${plusLoin === a ? b.autonomieReelle : a.autonomieReelle} km, ${ecartAuto} km de plus, ` +
