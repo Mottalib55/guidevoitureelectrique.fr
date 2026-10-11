@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import FaqSection from "@/components/FaqSection";
 import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
@@ -9,6 +9,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { safeParseNumber } from "@/lib/parseNumericInput";
 import LastUpdated from "@/components/LastUpdated";
+import BarreResultat from "@/components/BarreResultat";
 import { dec } from "@/lib/format";
 
 const euro = (n: number) =>
@@ -40,6 +41,7 @@ export default function SimulateurCoutRecharge() {
   const [selectedSlug, setSelectedSlug] = useState("renault-5-e-tech");
   const [kmJour, setKmJour] = useState(40);
   const [hasHomeCharging, setHasHomeCharging] = useState(true);
+  const resultat = useRef<HTMLDivElement>(null);
 
   const vehicule = modeles.find((m) => m.slug === selectedSlug) || null;
   const conso = vehicule ? vehicule.conso : 15;
@@ -128,7 +130,7 @@ export default function SimulateurCoutRecharge() {
       />
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
-        <header style={{ marginBottom: 32 }}>
+        <header style={{ marginBottom: 24 }}>
           <LastUpdated />
           <h1
             style={{
@@ -147,335 +149,337 @@ export default function SimulateurCoutRecharge() {
           </p>
         </header>
 
-        {/* ─── ÉTAPE 1 : VÉHICULE ──────────────────────────── */}
-        <div style={{ maxWidth: 720 }}>
-          <div style={{ marginBottom: 28 }}>
-            <h2
-              style={{
-                fontFamily: "var(--font-display)",
-                fontWeight: 800,
-                fontSize: 18,
-                marginBottom: 12,
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-              }}
-            >
-              <span
+        <div className="simu-2col" style={{ marginBottom: 20 }}>
+          {/* ─── ÉTAPE 1 : VÉHICULE ──────────────────────────── */}
+          <div>
+            <div style={{ marginBottom: 28 }}>
+              <h2
                 style={{
-                  background: "var(--accent)",
-                  color: "#fff",
-                  width: 28,
-                  height: 28,
-                  borderRadius: "50%",
-                  display: "inline-flex",
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 800,
+                  fontSize: 18,
+                  marginBottom: 12,
+                  display: "flex",
                   alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: 14,
-                  flexShrink: 0,
+                  gap: 10,
                 }}
               >
-                1
-              </span>
-              Quel véhicule ?
-            </h2>
-            <select
-              value={selectedSlug}
-              onChange={(e) => setSelectedSlug(e.target.value)}
-              style={{ ...inputStyle, cursor: "pointer", maxWidth: 400 }}
-            >
-              {sorted.map((m) => (
-                <option key={m.slug} value={m.slug}>
-                  {m.marque} {m.modele}
-                </option>
-              ))}
-            </select>
-            {vehicule && (
-              <p style={{ fontSize: 13, color: "var(--faint)", marginTop: 6 }}>
-                Batterie {dec(vehicule.batterieKwh)} kWh, {vehicule.autonomieReelle} km
-                d&apos;autonomie réelle, {dec(vehicule.conso)} kWh/100 km
-              </p>
-            )}
-          </div>
-
-          {/* ─── ÉTAPE 2 : USAGE ───────────────────────────── */}
-          <div style={{ marginBottom: 28 }}>
-            <h2
-              style={{
-                fontFamily: "var(--font-display)",
-                fontWeight: 800,
-                fontSize: 18,
-                marginBottom: 12,
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-              }}
-            >
-              <span
-                style={{
-                  background: "var(--accent)",
-                  color: "#fff",
-                  width: 28,
-                  height: 28,
-                  borderRadius: "50%",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: 14,
-                  flexShrink: 0,
-                }}
-              >
-                2
-              </span>
-              Combien de km par jour ?
-            </h2>
-            <div style={{ display: "flex", gap: 10, marginBottom: 14, flexWrap: "wrap" }}>
-              {profiles.map((p) => (
-                <button
-                  key={p.label}
-                  onClick={() => setKmJour(p.kmJour)}
+                <span
                   style={{
-                    padding: "10px 18px",
+                    background: "var(--accent)",
+                    color: "#fff",
+                    width: 28,
+                    height: 28,
+                    borderRadius: "50%",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: 14,
+                    flexShrink: 0,
+                  }}
+                >
+                  1
+                </span>
+                Quel véhicule ?
+              </h2>
+              <select
+                value={selectedSlug}
+                onChange={(e) => setSelectedSlug(e.target.value)}
+                style={{ ...inputStyle, cursor: "pointer", maxWidth: 400 }}
+              >
+                {sorted.map((m) => (
+                  <option key={m.slug} value={m.slug}>
+                    {m.marque} {m.modele}
+                  </option>
+                ))}
+              </select>
+              {vehicule && (
+                <p style={{ fontSize: 13, color: "var(--faint)", marginTop: 6 }}>
+                  Batterie {dec(vehicule.batterieKwh)} kWh, {vehicule.autonomieReelle} km
+                  d&apos;autonomie réelle, {dec(vehicule.conso)} kWh/100 km
+                </p>
+              )}
+            </div>
+
+            {/* ─── ÉTAPE 2 : USAGE ───────────────────────────── */}
+            <div style={{ marginBottom: 28 }}>
+              <h2
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 800,
+                  fontSize: 18,
+                  marginBottom: 12,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 10,
+                }}
+              >
+                <span
+                  style={{
+                    background: "var(--accent)",
+                    color: "#fff",
+                    width: 28,
+                    height: 28,
+                    borderRadius: "50%",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: 14,
+                    flexShrink: 0,
+                  }}
+                >
+                  2
+                </span>
+                Combien de km par jour ?
+              </h2>
+              <div style={{ display: "flex", gap: 10, marginBottom: 14, flexWrap: "wrap" }}>
+                {profiles.map((p) => (
+                  <button
+                    key={p.label}
+                    onClick={() => setKmJour(p.kmJour)}
+                    style={{
+                      padding: "10px 18px",
+                      borderRadius: 12,
+                      border: `1.5px solid ${kmJour === p.kmJour ? "var(--accent)" : "var(--line)"}`,
+                      background: kmJour === p.kmJour ? "rgba(0,192,116,0.08)" : "var(--field)",
+                      color: "var(--ink)",
+                      cursor: "pointer",
+                      fontFamily: "inherit",
+                      fontSize: 14,
+                      fontWeight: 600,
+                      textAlign: "left",
+                    }}
+                  >
+                    <div>{p.label}</div>
+                    <div style={{ fontSize: 12, color: "var(--faint)", fontWeight: 500 }}>
+                      ~{p.kmJour} km/jour, {p.desc}
+                    </div>
+                  </button>
+                ))}
+              </div>
+              <div style={{ maxWidth: 200 }}>
+                <label style={labelStyle}>Ou saisir un chiffre exact</label>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <input
+                    type="text" inputMode="decimal"
+                    value={kmJour}
+                    onChange={(e) => setKmJour(Math.max(1, safeParseNumber(e.target.value, kmJour)))}
+                    min={1}
+                    step={5}
+                    style={inputStyle}
+                  />
+                  <span style={{ fontSize: 14, fontWeight: 600, color: "var(--muted)", whiteSpace: "nowrap" }}>
+                    km/jour
+                  </span>
+                </div>
+                <p style={{ fontSize: 12, color: "var(--faint)", marginTop: 4 }}>
+                  soit {(kmJour * 365).toLocaleString("fr-FR")} km/an
+                </p>
+              </div>
+            </div>
+
+            {/* ─── ÉTAPE 3 : RECHARGE À DOMICILE ─────────────── */}
+            <div style={{ marginBottom: 36 }}>
+              <h2
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontWeight: 800,
+                  fontSize: 18,
+                  marginBottom: 12,
+                  display: "flex",
+                  alignItems: "center",
+                  gap: 10,
+                }}
+              >
+                <span
+                  style={{
+                    background: "var(--accent)",
+                    color: "#fff",
+                    width: 28,
+                    height: 28,
+                    borderRadius: "50%",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: 14,
+                    flexShrink: 0,
+                  }}
+                >
+                  3
+                </span>
+                Pouvez-vous recharger à domicile ?
+              </h2>
+              <div style={{ display: "flex", gap: 10 }}>
+                <button
+                  onClick={() => setHasHomeCharging(true)}
+                  style={{
+                    padding: "12px 24px",
                     borderRadius: 12,
-                    border: `1.5px solid ${kmJour === p.kmJour ? "var(--accent)" : "var(--line)"}`,
-                    background: kmJour === p.kmJour ? "rgba(0,192,116,0.08)" : "var(--field)",
+                    border: `1.5px solid ${hasHomeCharging ? "var(--accent)" : "var(--line)"}`,
+                    background: hasHomeCharging ? "rgba(0,192,116,0.08)" : "var(--field)",
                     color: "var(--ink)",
                     cursor: "pointer",
                     fontFamily: "inherit",
                     fontSize: 14,
                     fontWeight: 600,
-                    textAlign: "left",
                   }}
                 >
-                  <div>{p.label}</div>
+                  <div>Oui</div>
                   <div style={{ fontSize: 12, color: "var(--faint)", fontWeight: 500 }}>
-                    ~{p.kmJour} km/jour, {p.desc}
+                    Maison ou parking privé
                   </div>
                 </button>
-              ))}
-            </div>
-            <div style={{ maxWidth: 200 }}>
-              <label style={labelStyle}>Ou saisir un chiffre exact</label>
-              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <input
-                  type="text" inputMode="decimal"
-                  value={kmJour}
-                  onChange={(e) => setKmJour(Math.max(1, safeParseNumber(e.target.value, kmJour)))}
-                  min={1}
-                  step={5}
-                  style={inputStyle}
-                />
-                <span style={{ fontSize: 14, fontWeight: 600, color: "var(--muted)", whiteSpace: "nowrap" }}>
-                  km/jour
-                </span>
-              </div>
-              <p style={{ fontSize: 12, color: "var(--faint)", marginTop: 4 }}>
-                soit {(kmJour * 365).toLocaleString("fr-FR")} km/an
-              </p>
-            </div>
-          </div>
-
-          {/* ─── ÉTAPE 3 : RECHARGE À DOMICILE ─────────────── */}
-          <div style={{ marginBottom: 36 }}>
-            <h2
-              style={{
-                fontFamily: "var(--font-display)",
-                fontWeight: 800,
-                fontSize: 18,
-                marginBottom: 12,
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-              }}
-            >
-              <span
-                style={{
-                  background: "var(--accent)",
-                  color: "#fff",
-                  width: 28,
-                  height: 28,
-                  borderRadius: "50%",
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: 14,
-                  flexShrink: 0,
-                }}
-              >
-                3
-              </span>
-              Pouvez-vous recharger à domicile ?
-            </h2>
-            <div style={{ display: "flex", gap: 10 }}>
-              <button
-                onClick={() => setHasHomeCharging(true)}
-                style={{
-                  padding: "12px 24px",
-                  borderRadius: 12,
-                  border: `1.5px solid ${hasHomeCharging ? "var(--accent)" : "var(--line)"}`,
-                  background: hasHomeCharging ? "rgba(0,192,116,0.08)" : "var(--field)",
-                  color: "var(--ink)",
-                  cursor: "pointer",
-                  fontFamily: "inherit",
-                  fontSize: 14,
-                  fontWeight: 600,
-                }}
-              >
-                <div>Oui</div>
-                <div style={{ fontSize: 12, color: "var(--faint)", fontWeight: 500 }}>
-                  Maison ou parking privé
-                </div>
-              </button>
-              <button
-                onClick={() => setHasHomeCharging(false)}
-                style={{
-                  padding: "12px 24px",
-                  borderRadius: 12,
-                  border: `1.5px solid ${!hasHomeCharging ? "var(--accent)" : "var(--line)"}`,
-                  background: !hasHomeCharging ? "rgba(0,192,116,0.08)" : "var(--field)",
-                  color: "var(--ink)",
-                  cursor: "pointer",
-                  fontFamily: "inherit",
-                  fontSize: 14,
-                  fontWeight: 600,
-                }}
-              >
-                <div>Non</div>
-                <div style={{ fontSize: 12, color: "var(--faint)", fontWeight: 500 }}>
-                  Bornes publiques uniquement
-                </div>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* ═══════════════════════════════════════════════════ */}
-        {/* ─── RÉSULTATS ─────────────────────────────────── */}
-        {/* ═══════════════════════════════════════════════════ */}
-
-        <div style={{ maxWidth: 720 }}>
-          {/* Budget mensuel principal */}
-          <div className="encadré-verdict" style={{ marginBottom: 20 }}>
-            <h2 style={{ fontSize: 20 }}>Votre budget recharge</h2>
-            <div className="encadré-verdict-grid" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
-              <div className="encadré-verdict-item">
-                <div className="encadré-verdict-val">{euro(calc.coutElecMois)}</div>
-                <div className="encadré-verdict-lbl">par mois</div>
-              </div>
-              <div className="encadré-verdict-item">
-                <div className="encadré-verdict-val">{euro(calc.coutElecAn)}</div>
-                <div className="encadré-verdict-lbl">par an</div>
-              </div>
-              <div className="encadré-verdict-item">
-                <div className="encadré-verdict-val">{euroCents(calc.coutKm * 100)} ct</div>
-                <div className="encadré-verdict-lbl">par km</div>
-              </div>
-            </div>
-          </div>
-
-          {/* Comparaison essence - LE résultat clé */}
-          <div
-            style={{
-              padding: 24,
-              border: "2px solid var(--accent)",
-              borderRadius: 16,
-              background: "linear-gradient(135deg, rgba(0,192,116,0.06), rgba(0,192,116,0.02))",
-              marginBottom: 20,
-            }}
-          >
-            <h3
-              style={{
-                fontFamily: "var(--font-display)",
-                fontWeight: 800,
-                fontSize: 18,
-                marginBottom: 16,
-              }}
-            >
-              Électrique vs essence
-            </h3>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-              <div
-                style={{
-                  textAlign: "center",
-                  padding: 16,
-                  borderRadius: 12,
-                  background: "rgba(0,192,116,0.08)",
-                }}
-              >
-                <div style={{ fontSize: 12, fontWeight: 600, color: "var(--muted)", marginBottom: 4 }}>
-                  Recharge électrique
-                </div>
-                <div
+                <button
+                  onClick={() => setHasHomeCharging(false)}
                   style={{
-                    fontFamily: "var(--font-display)",
-                    fontWeight: 800,
-                    fontSize: 28,
-                    color: "var(--accent-deep)",
+                    padding: "12px 24px",
+                    borderRadius: 12,
+                    border: `1.5px solid ${!hasHomeCharging ? "var(--accent)" : "var(--line)"}`,
+                    background: !hasHomeCharging ? "rgba(0,192,116,0.08)" : "var(--field)",
+                    color: "var(--ink)",
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                    fontSize: 14,
+                    fontWeight: 600,
                   }}
                 >
-                  {euro(calc.coutElecMois)}
-                </div>
-                <div style={{ fontSize: 12, color: "var(--faint)" }}>par mois</div>
-              </div>
-              <div
-                style={{
-                  textAlign: "center",
-                  padding: 16,
-                  borderRadius: 12,
-                  background: "rgba(217,138,31,0.08)",
-                }}
-              >
-                <div style={{ fontSize: 12, fontWeight: 600, color: "var(--muted)", marginBottom: 4 }}>
-                  Carburant essence
-                </div>
-                <div
-                  style={{
-                    fontFamily: "var(--font-display)",
-                    fontWeight: 800,
-                    fontSize: 28,
-                    color: "var(--warn)",
-                  }}
-                >
-                  {euro(calc.coutThermiqueMois)}
-                </div>
-                <div style={{ fontSize: 12, color: "var(--faint)" }}>par mois</div>
+                  <div>Non</div>
+                  <div style={{ fontSize: 12, color: "var(--faint)", fontWeight: 500 }}>
+                    Bornes publiques uniquement
+                  </div>
+                </button>
               </div>
             </div>
+          </div>
+
+          {/* ─── RÉSULTATS ─────────────────────────────────── */}
+          <div ref={resultat} data-resultat aria-live="polite">
+            {/* Budget mensuel principal */}
+            <div className="encadre-verdict" style={{ marginBottom: 20 }}>
+              <h2 style={{ fontSize: 20 }}>Votre budget recharge</h2>
+              <div className="encadre-verdict-grid" style={{ gridTemplateColumns: "1fr 1fr 1fr" }}>
+                <div className="encadre-verdict-item">
+                  <div className="encadre-verdict-val">{euro(calc.coutElecMois)}</div>
+                  <div className="encadre-verdict-lbl">par mois</div>
+                </div>
+                <div className="encadre-verdict-item">
+                  <div className="encadre-verdict-val">{euro(calc.coutElecAn)}</div>
+                  <div className="encadre-verdict-lbl">par an</div>
+                </div>
+                <div className="encadre-verdict-item">
+                  <div className="encadre-verdict-val">{euroCents(calc.coutKm * 100)} ct</div>
+                  <div className="encadre-verdict-lbl">par km</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Comparaison essence - LE résultat clé */}
             <div
               style={{
-                textAlign: "center",
-                marginTop: 16,
-                padding: "12px 16px",
-                borderRadius: 12,
-                background: "var(--paper)",
-                border: "1px solid var(--line)",
+                padding: 24,
+                border: "2px solid var(--accent)",
+                borderRadius: 16,
+                background: "linear-gradient(135deg, rgba(0,192,116,0.06), rgba(0,192,116,0.02))",
+                marginBottom: 20,
               }}
             >
-              <span style={{ fontSize: 14, fontWeight: 600, color: "var(--muted)" }}>
-                Vous économisez{" "}
-              </span>
-              <span
+              <h3
                 style={{
                   fontFamily: "var(--font-display)",
                   fontWeight: 800,
-                  fontSize: 22,
-                  color: "var(--accent-deep)",
+                  fontSize: 18,
+                  marginBottom: 16,
                 }}
               >
-                {euro(calc.economieMois)}/mois
-              </span>
-              <span style={{ fontSize: 14, fontWeight: 600, color: "var(--muted)" }}>
-                {" "}soit{" "}
-              </span>
-              <span style={{ fontWeight: 800, color: "var(--accent-deep)" }}>
-                {euro(calc.economieAn)}/an
-              </span>
+                Électrique vs essence
+              </h3>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+                <div
+                  style={{
+                    textAlign: "center",
+                    padding: 16,
+                    borderRadius: 12,
+                    background: "rgba(0,192,116,0.08)",
+                  }}
+                >
+                  <div style={{ fontSize: 12, fontWeight: 600, color: "var(--muted)", marginBottom: 4 }}>
+                    Recharge électrique
+                  </div>
+                  <div
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      fontWeight: 800,
+                      fontSize: 28,
+                      color: "var(--accent-deep)",
+                    }}
+                  >
+                    {euro(calc.coutElecMois)}
+                  </div>
+                  <div style={{ fontSize: 12, color: "var(--faint)" }}>par mois</div>
+                </div>
+                <div
+                  style={{
+                    textAlign: "center",
+                    padding: 16,
+                    borderRadius: 12,
+                    background: "rgba(217,138,31,0.08)",
+                  }}
+                >
+                  <div style={{ fontSize: 12, fontWeight: 600, color: "var(--muted)", marginBottom: 4 }}>
+                    Carburant essence
+                  </div>
+                  <div
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      fontWeight: 800,
+                      fontSize: 28,
+                      color: "var(--warn)",
+                    }}
+                  >
+                    {euro(calc.coutThermiqueMois)}
+                  </div>
+                  <div style={{ fontSize: 12, color: "var(--faint)" }}>par mois</div>
+                </div>
+              </div>
+              <div
+                style={{
+                  textAlign: "center",
+                  marginTop: 16,
+                  padding: "12px 16px",
+                  borderRadius: 12,
+                  background: "var(--paper)",
+                  border: "1px solid var(--line)",
+                }}
+              >
+                <span style={{ fontSize: 14, fontWeight: 600, color: "var(--muted)" }}>
+                  Vous économisez{" "}
+                </span>
+                <span
+                  style={{
+                    fontFamily: "var(--font-display)",
+                    fontWeight: 800,
+                    fontSize: 22,
+                    color: "var(--accent-deep)",
+                  }}
+                >
+                  {euro(calc.economieMois)}/mois
+                </span>
+                <span style={{ fontSize: 14, fontWeight: 600, color: "var(--muted)" }}>
+                  {" "}soit{" "}
+                </span>
+                <span style={{ fontWeight: 800, color: "var(--accent-deep)" }}>
+                  {euro(calc.economieAn)}/an
+                </span>
+              </div>
+              <p style={{ fontSize: 12, color: "var(--faint)", marginTop: 8, textAlign: "center" }}>
+                Base : véhicule essence 7 L/100 km à {prixEssence.toFixed(2).replace('.', ',')} €/L
+              </p>
             </div>
-            <p style={{ fontSize: 12, color: "var(--faint)", marginTop: 8, textAlign: "center" }}>
-              Base : véhicule essence 7 L/100 km à {prixEssence.toFixed(2).replace('.', ',')} €/L
-            </p>
+            <BarreResultat cible={resultat} label="Votre budget recharge" valeur={`${euro(calc.coutElecMois)} par mois`} />
           </div>
+        </div>
 
+        <div style={{ maxWidth: 720 }}>
           {/* Coût concret d'un "plein" */}
           <div
             style={{

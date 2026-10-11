@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import FaqSection from "@/components/FaqSection";
 import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
@@ -8,6 +8,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { safeParseNumber } from "@/lib/parseNumericInput";
 import LastUpdated from "@/components/LastUpdated";
+import BarreResultat from "@/components/BarreResultat";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -23,6 +24,7 @@ export default function SimulateurAides() {
   const [eligible, setEligible] = useState(true); // véhicule éligible au bonus
   const [ancienVehicule, setAncienVehicule] = useState(false); // prime conversion
   const [critair, setCritair] = useState("3");
+  const resultat = useRef<HTMLDivElement>(null);
 
   const calc = useMemo(() => {
     const rfrParPart = rfr / nbParts;
@@ -96,7 +98,7 @@ export default function SimulateurAides() {
       />
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
-        <header style={{ marginBottom: 32 }}>
+        <header style={{ marginBottom: 24 }}>
           <LastUpdated />
           <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(28px, 4vw, 38px)", letterSpacing: "-0.02em", marginBottom: 8 }}>
             Simulateur d&apos;aides voiture électrique
@@ -107,7 +109,7 @@ export default function SimulateurAides() {
           </p>
         </header>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32, maxWidth: 920 }}>
+        <div className="simu-2col" style={{ maxWidth: 920 }}>
           {/* Formulaire */}
           <div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
@@ -158,17 +160,17 @@ export default function SimulateurAides() {
           </div>
 
           {/* Résultats */}
-          <div>
-            <div className="encadré-verdict">
+          <div ref={resultat} data-resultat aria-live="polite">
+            <div className="encadre-verdict">
               <h2 style={{ fontSize: 20 }}>Vos aides estimées</h2>
-              <div className="encadré-verdict-grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
-                <div className="encadré-verdict-item">
-                  <div className="encadré-verdict-val">{euro(calc.totalAides)}</div>
-                  <div className="encadré-verdict-lbl">Total des aides</div>
+              <div className="encadre-verdict-grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
+                <div className="encadre-verdict-item">
+                  <div className="encadre-verdict-val">{euro(calc.totalAides)}</div>
+                  <div className="encadre-verdict-lbl">Total des aides</div>
                 </div>
-                <div className="encadré-verdict-item">
-                  <div className="encadré-verdict-val">{euro(calc.prixApresAides)}</div>
-                  <div className="encadré-verdict-lbl">Prix après aides</div>
+                <div className="encadre-verdict-item">
+                  <div className="encadre-verdict-val">{euro(calc.prixApresAides)}</div>
+                  <div className="encadre-verdict-lbl">Prix après aides</div>
                 </div>
               </div>
             </div>
@@ -207,6 +209,7 @@ export default function SimulateurAides() {
                 service-public.fr
               </a>.
             </p>
+            <BarreResultat cible={resultat} label="Total des aides" valeur={euro(calc.totalAides)} />
           </div>
         </div>
 

@@ -147,6 +147,7 @@ export default function ComparateurRapide() {
         </div>
       </div>
 
+      <div data-resultat aria-live="polite">
       {m1 && m2 && (
         <div className="table-wrap">
           <table>
@@ -197,6 +198,7 @@ export default function ComparateurRapide() {
           </Link>
         </div>
       )}
+      </div>
     </div>
   );
 }

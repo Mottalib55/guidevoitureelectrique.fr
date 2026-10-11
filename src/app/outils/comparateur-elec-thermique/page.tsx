@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import FaqSection from "@/components/FaqSection";
 import { faqParPage } from "@/data/faq-pages";
 import Link from "next/link";
@@ -8,6 +8,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { safeParseNumber } from "@/lib/parseNumericInput";
 import LastUpdated from "@/components/LastUpdated";
+import BarreResultat from "@/components/BarreResultat";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -37,6 +38,7 @@ export default function ComparateurElecThermique() {
   // Commun
   const [kmAn, setKmAn] = useState(12000);
   const [duree, setDuree] = useState(5);
+  const resultat = useRef<HTMLDivElement>(null);
 
   const calc = useMemo(() => {
     const kmTotal = kmAn * duree;
@@ -99,7 +101,7 @@ export default function ComparateurElecThermique() {
       />
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
-        <header style={{ marginBottom: 32 }}>
+        <header style={{ marginBottom: 24 }}>
           <LastUpdated />
           <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(28px, 4vw, 38px)", letterSpacing: "-0.02em", marginBottom: 8 }}>
             Comparateur électrique vs thermique
@@ -110,8 +112,10 @@ export default function ComparateurElecThermique() {
           </p>
         </header>
 
+        <div className="simu-2col">
+        <div>
         {/* Paramètres communs */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, maxWidth: 400, marginBottom: 24 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, maxWidth: 400, marginBottom: 20 }}>
           <div>
             <label style={labelStyle}>Km / an</label>
             <input type="text" inputMode="decimal" value={kmAn} onChange={(e) => setKmAn(safeParseNumber(e.target.value, kmAn))} step={1000} style={inputStyle} />
@@ -123,7 +127,7 @@ export default function ComparateurElecThermique() {
         </div>
 
         {/* Colonnes élec / thermique */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24, maxWidth: 920 }}>
+        <div style={{ display: "grid", gap: 16 }}>
           {/* Électrique */}
           <div style={{ border: "1.5px solid var(--accent)", borderRadius: 18, padding: 20 }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 18, color: "var(--accent-deep)", marginBottom: 16 }}>
@@ -157,8 +161,11 @@ export default function ComparateurElecThermique() {
           </div>
         </div>
 
+        </div>
+
         {/* Résultats */}
-        <div style={{ marginTop: 32 }}>
+        {/* Le tableau s'aligne sur les cases de saisie (sous leurs libellés). */}
+        <div ref={resultat} data-resultat aria-live="polite" style={{ paddingTop: 22 }}>
           <div className="table-wrap">
             <table>
               <thead>
@@ -192,6 +199,12 @@ export default function ComparateurElecThermique() {
               </tbody>
             </table>
           </div>
+          <BarreResultat
+            cible={resultat}
+            label={`TCO sur ${duree} ans`}
+            valeur={calc.economie > 0 ? `${euro(calc.economie)} d'économie` : `${euro(-calc.economie)} de surcoût`}
+          />
+        </div>
         </div>
 
         <div style={{ display: "flex", gap: 16, marginTop: 48, flexWrap: "wrap" }}>

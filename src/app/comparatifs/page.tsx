@@ -30,6 +30,9 @@ export default function ComparatifsIndexPage() {
           {comparatifs.length} duels détaillés.
         </p>
 
+        {/* Comparateur interactif */}
+        <ComparateurRapide />
+
         <div className="prose" style={{ marginBottom: 32 }}>
           <p>
             Trois chiffres tranchent entre deux voitures électriques : le prix d&apos;entrée hors
@@ -44,9 +47,6 @@ export default function ComparatifsIndexPage() {
             quand le modèle est assez ancien pour qu&apos;un marché se soit formé.
           </p>
         </div>
-
-        {/* Comparateur interactif */}
-        <ComparateurRapide />
 
         {/* Liste des comparatifs pré-rédigés */}
         <h2

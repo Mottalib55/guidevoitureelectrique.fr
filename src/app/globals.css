@@ -885,3 +885,44 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ─── SIMULATEUR SUR LE PREMIER ÉCRAN (RECETTE §5, règle du 2026-10-11) ───
+   Ordinateur : champs à gauche, résultat à droite (data-resultat), visibles sans défiler.
+   Téléphone : colonnes empilées ; la barre collante du bas porte le chiffre clé tant que
+   le résultat est sous l'écran (ajoutée côté client, aucun texte en double dans le HTML). */
+.simu-2col {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+@media (min-width: 1024px) {
+  .simu-2col { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; }
+  .simu-2col > [data-resultat] { position: sticky; top: 84px; }
+}
+.barre-resultat {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  border: 0;
+  border-top: 1.5px solid var(--accent);
+  background: #f2fbf6;
+  color: var(--ink);
+  font-family: inherit;
+  text-align: left;
+  box-shadow: 0 -6px 20px -8px rgba(11, 29, 42, 0.25);
+  cursor: pointer;
+}
+.barre-resultat span { font-size: 13px; font-weight: 600; color: var(--muted); }
+.barre-resultat strong { font-size: 19px; font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; }
+@media (min-width: 1024px) {
+  .barre-resultat { display: none; }
+}

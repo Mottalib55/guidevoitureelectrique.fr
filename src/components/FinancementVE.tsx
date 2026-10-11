@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
+import BarreResultat from "@/components/BarreResultat";
 import { Wallet, Landmark, RefreshCw, KeyRound, Pencil, Check } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
@@ -46,12 +47,16 @@ interface Scenario {
 interface FinancementVEProps {
   modele?: string;
   prixBase?: number;
+  /** Page outil : barre collante du chiffre clé sur téléphone (RECETTE §5). */
+  barre?: boolean;
 }
 
 export default function FinancementVE({
   modele = "Renault 5 E-Tech",
   prixBase = 25000,
+  barre = false,
 }: FinancementVEProps) {
+  const resultat = useRef<HTMLDivElement>(null);
   const [hypo, setHypo] = useState(DEFAULTS);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(DEFAULTS);
@@ -189,7 +194,7 @@ export default function FinancementVE({
         .fve-head{ padding:22px 24px 18px; color:#fff;
           background:
             radial-gradient(120% 140% at 0% 0%, rgba(0,192,116,.16), transparent 55%),
-            linear-gradient(135deg,#0b1d2a 0%,#123042 100%); }
+            linear-gradient(135deg,#0b1d2a 0%,#123042 100%); }
         .fve-kicker{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#7fe3b6; font-weight:700; }
         .fve-title{ font-family:'Bricolage Grotesque',sans-serif; font-weight:800; font-size:23px; line-height:1.1; margin:6px 0 2px; letter-spacing:-.01em;}
         .fve-sub{ font-size:13px; color:#aebfc9; font-weight:500;}
@@ -370,7 +375,7 @@ export default function FinancementVE({
         </div>
       )}
 
-      <div className="fve-cards">
+      <div className="fve-cards" ref={resultat} data-resultat aria-live="polite">
         {calc.scenarios.map((s) => {
           const Icon = s.icon;
           return (
@@ -410,6 +415,10 @@ export default function FinancementVE({
           );
         })}
       </div>
+      {barre && (() => {
+        const best = calc.scenarios.reduce((x, y) => (y.net < x.net ? y : x));
+        return <BarreResultat cible={resultat} label={`Le moins cher sur ${annees} ans : ${best.nom}`} valeur={euro(best.net)} />;
+      })()}
 
       <div className="fve-ctas">
         <Link href="/acheter/loa-leasing/" className="fve-cta fve-cta-primary">

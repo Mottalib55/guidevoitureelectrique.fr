@@ -75,7 +75,7 @@ export default function ComparateurModeles() {
       />
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
-        <header style={{ marginBottom: 32 }}>
+        <header style={{ marginBottom: 24 }}>
           <LastUpdated />
           <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(28px, 4vw, 38px)", letterSpacing: "-0.02em", marginBottom: 8 }}>
             Comparateur de modèles électriques
@@ -87,7 +87,7 @@ export default function ComparateurModeles() {
         </header>
 
         {/* Sélecteurs */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 32, maxWidth: 920 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 24, maxWidth: 920 }}>
           {slugs.map((slug, i) => (
             <div key={i}>
               <label style={{ display: "block", fontSize: 12, fontWeight: 700, color: "var(--faint)", marginBottom: 6, textTransform: "uppercase", letterSpacing: "0.08em" }}>
@@ -104,6 +104,7 @@ export default function ComparateurModeles() {
         </div>
 
         {/* Tableau comparatif */}
+        <div data-resultat aria-live="polite">
         {selected.some((s) => s !== null) && (
           <div className="table-wrap">
             <table>
@@ -136,6 +137,7 @@ export default function ComparateurModeles() {
             </table>
           </div>
         )}
+        </div>
 
         <div style={{ display: "flex", gap: 16, marginTop: 48, flexWrap: "wrap" }}>
           <Link href="/outils/financement/" className="btn-primary">

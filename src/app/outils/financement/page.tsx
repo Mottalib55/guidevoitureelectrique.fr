@@ -24,7 +24,7 @@ export default function PageFinancement() {
       />
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
-        <header style={{ marginBottom: 32 }}>
+        <header style={{ marginBottom: 24 }}>
           <LastUpdated />
           <h1
             style={{
@@ -44,7 +44,7 @@ export default function PageFinancement() {
         </header>
 
         {/* Sélecteur de modèle */}
-        <div style={{ marginBottom: 24 }}>
+        <div style={{ marginBottom: 16 }}>
           <label
             style={{
               display: "block",
@@ -92,6 +92,7 @@ export default function PageFinancement() {
           key={selected.slug}
           modele={selected.modele}
           prixBase={selected.prixBase}
+          barre
         />
 
         {/* Contenu rédactionnel */}

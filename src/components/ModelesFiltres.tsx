@@ -441,7 +441,7 @@ export default function ModelesFiltres({ modeles }: { modeles: Modele[] }) {
       </div>
 
       {/* ─── COMPTEUR + RESET ──────────────────────────────────────── */}
-      <div style={s.statusBar}>
+      <div style={s.statusBar} data-resultat aria-live="polite">
         <span style={s.count}>
           <span style={s.countNum}>{filtered.length}</span> modèle{filtered.length !== 1 ? "s" : ""} trouvé{filtered.length !== 1 ? "s" : ""}
         </span>
