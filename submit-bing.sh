@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # submit-bing.sh — Submit URLs to Bing IndexNow API
-# Usage: BING_API_KEY=15b1d26333aa4cd7a1cdba8e813bfc7f ./submit-bing.sh
+# Usage: BING_API_KEY=40a66b9a569122e9c73405321365152a ./submit-bing.sh
 
 set -euo pipefail
 
-BING_API_KEY="${BING_API_KEY:-15b1d26333aa4cd7a1cdba8e813bfc7f}"
+BING_API_KEY="${BING_API_KEY:-40a66b9a569122e9c73405321365152a}"
 HOST="guidevoitureelectrique.fr"
 KEY_LOCATION="https://${HOST}/${BING_API_KEY}.txt"
 
