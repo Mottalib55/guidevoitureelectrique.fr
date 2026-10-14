@@ -8,7 +8,6 @@ import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 import { dec } from "@/lib/format";
 
 export function generateStaticParams() {
@@ -48,7 +47,6 @@ export default async function PageCategorie({ params }: Props) {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 32 }}>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
   title: "Confidentialité du Guide Voiture Électrique : sans cookie",
@@ -13,8 +12,7 @@ export default function PolitiqueConfidentialitePage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Politique de confidentialité", href: "/politique-confidentialite/" }]} />
-      <article className="section section-narrow" style={{ paddingTop: 48, paddingBottom: 80 }}>
-        <LastUpdated />
+      <article className="section section-narrow" style={{ paddingTop: 24, paddingBottom: 80 }}>
         <h1
           style={{
             fontFamily: "var(--font-display)",

@@ -8,7 +8,6 @@ import { villes } from "@/data/villes";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { buildMetadata } from "@/lib/seo";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Recharge voiture électrique : bornes, coûts et temps",
@@ -29,8 +28,7 @@ export default function RechargeIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Recharge", href: "/recharge/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">Recharge voiture électrique</h1>
         <p className="section-sub">
           Guides complets sur la recharge et annuaire des bornes dans{" "}

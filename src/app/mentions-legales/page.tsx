@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/mentions-legales/" },
@@ -19,8 +18,7 @@ export default function MentionsLegalesPage() {
         ]}
       />
 
-      <article className="section section-narrow" style={{ paddingTop: 48, paddingBottom: 80 }}>
-        <LastUpdated />
+      <article className="section section-narrow" style={{ paddingTop: 24, paddingBottom: 80 }}>
         <h1
           style={{
             fontFamily: "var(--font-display)",

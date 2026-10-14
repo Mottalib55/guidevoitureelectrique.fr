@@ -8,7 +8,6 @@ import { modeles } from "@/data/modeles";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Marques de voitures électriques : toutes les fiches",
@@ -35,8 +34,7 @@ export default function MarquesIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Marques", href: "/marques/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">
           Toutes les marques électriques ({marques.length})
         </h1>

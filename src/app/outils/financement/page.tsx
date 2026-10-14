@@ -8,7 +8,6 @@ import { modeles } from "@/data/modeles";
 import FinancementVE from "@/components/FinancementVE";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export default function PageFinancement() {
   const [selectedSlug, setSelectedSlug] = useState(modeles[0].slug);
@@ -25,7 +24,6 @@ export default function PageFinancement() {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 24 }}>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

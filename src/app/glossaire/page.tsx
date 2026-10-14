@@ -6,7 +6,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
 import { buildMetadata } from "@/lib/seo";
 import { definedTermSetJsonLd } from "@/lib/jsonld";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Glossaire voiture électrique : 30+ termes expliqués",
@@ -67,10 +66,8 @@ export default function GlossairePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <article className="section section-narrow" style={{ paddingTop: 48, paddingBottom: 80 }}>
+      <article className="section section-narrow" style={{ paddingTop: 24, paddingBottom: 80 }}>
         <header style={{ marginBottom: 40 }}>
-          <AuthorByline />
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",
@@ -86,6 +83,8 @@ export default function GlossairePage() {
             {glossaire.length} termes essentiels pour comprendre la mobilité électrique,
             les aides à l&apos;achat, la recharge et les technologies de batterie.
           </p>
+          {/* Signature sous le titre : au-dessus, elle laissait 170 px de blanc (RECETTE §10.3). */}
+          <div style={{ marginTop: 16 }}><AuthorByline /></div>
         </header>
 
         <div className="prose" style={{ maxWidth: 780, marginBottom: 40 }}>

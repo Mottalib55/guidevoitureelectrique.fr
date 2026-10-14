@@ -7,7 +7,6 @@ import Link from "next/link";
 import { modeles, type Modele } from "@/data/modeles";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 import { dec } from "@/lib/format";
 
 const euro = (n: number) =>
@@ -76,7 +75,6 @@ export default function ComparateurModeles() {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 24 }}>
-          <LastUpdated />
           <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(28px, 4vw, 38px)", letterSpacing: "-0.02em", marginBottom: 8 }}>
             Comparateur de modèles électriques
           </h1>

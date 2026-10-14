@@ -7,7 +7,6 @@ import { buildMetadata } from "@/lib/seo";
 import ModelesFiltres from "@/components/ModelesFiltres";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Voitures électriques 2026 : tous les modèles en France",
@@ -21,8 +20,7 @@ export default function ModèlesIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Modèles", href: "/modeles/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">
           Tous les modèles électriques ({modeles.length})
         </h1>

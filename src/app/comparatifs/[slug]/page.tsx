@@ -10,7 +10,6 @@ import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import FinancementVE from "@/components/FinancementVE";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 import { dec } from "@/lib/format";
 
 export function generateStaticParams() {
@@ -201,7 +200,6 @@ export default async function PageComparatif({ params }: Props) {
           >
             Comparatif
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

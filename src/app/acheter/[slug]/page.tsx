@@ -6,7 +6,6 @@ import { pagesAcheter, getPageAcheterBySlug } from "@/data/acheter";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return pagesAcheter.map((p) => ({ slug: p.slug }));
@@ -89,7 +88,6 @@ export default async function PageAcheter({ params }: Props) {
           >
             Guide d&apos;achat : Voiture électrique
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

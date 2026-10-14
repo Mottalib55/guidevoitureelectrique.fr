@@ -4,7 +4,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
 import { buildMetadata } from "@/lib/seo";
 import { articleJsonLd } from "@/lib/jsonld";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Guide Voiture Électrique : qui sommes-nous, notre méthode",
@@ -34,7 +33,7 @@ export default function AProposPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <article className="section" style={{ paddingTop: 48, paddingBottom: 80 }}>
+      <article className="section" style={{ paddingTop: 12, paddingBottom: 80 }}>
         {/* ── Author Card ──────────────────────────────────────── */}
         <div
           style={{
@@ -50,7 +49,6 @@ export default function AProposPage() {
           }}
         >
           <div>
-            <LastUpdated />
             <h1
               style={{
                 fontFamily: "var(--font-display)",

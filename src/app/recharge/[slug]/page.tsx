@@ -6,7 +6,6 @@ import { pagesRecharge, getPageRechargeBySlug } from "@/data/recharge";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return pagesRecharge.map((p) => ({ slug: p.slug }));
@@ -41,7 +40,6 @@ export default async function PageRecharge({ params }: Props) {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 32 }}>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

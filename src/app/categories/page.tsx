@@ -7,7 +7,6 @@ import { categories } from "@/data/categories";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Voiture électrique par catégorie : trouvez la vôtre",
@@ -22,8 +21,7 @@ export default function CategoriesIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Catégories", href: "/categories/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">
           Explorer par catégorie ({categories.length})
         </h1>

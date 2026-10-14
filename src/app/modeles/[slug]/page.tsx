@@ -11,7 +11,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FinancementVE from "@/components/FinancementVE";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 import { dec } from "@/lib/format";
 
 function formatChargeTime(hours: number): string {
@@ -189,7 +188,6 @@ export default async function PageModele({ params }: Props) {
           >
             {m.marque}, {m.segment}
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

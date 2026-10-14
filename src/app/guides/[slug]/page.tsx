@@ -7,7 +7,6 @@ import { buildMetadata } from "@/lib/seo";
 import { articleJsonLd } from "@/lib/jsonld";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return pagesGuides.map((p) => ({ slug: p.slug }));
@@ -94,7 +93,6 @@ export default async function PageGuide({ params }: Props) {
           >
             Guide : Voiture électrique
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

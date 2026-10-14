@@ -7,7 +7,6 @@ import { pagesAcheter } from "@/data/acheter";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Acheter une voiture électrique en 2026 : nos guides",
@@ -22,8 +21,7 @@ export default function AcheterIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Acheter", href: "/acheter/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">
           Acheter une voiture électrique ({pagesAcheter.length} guides)
         </h1>

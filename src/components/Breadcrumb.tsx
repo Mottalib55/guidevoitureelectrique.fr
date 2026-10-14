@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
+import LastUpdated from "@/components/LastUpdated";
 
 interface BreadcrumbItem {
   name: string;
@@ -21,7 +22,10 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <nav aria-label="Fil d'Ariane" className="breadcrumb">
+      {/* Date de mise à jour à droite sur la ligne fine du fil d'Ariane : seule sur
+          sa ligne, elle repoussait le titre (RECETTE §10.3, check-layout 13). */}
+      <div className="breadcrumb">
+      <nav aria-label="Fil d'Ariane">
         <ol>
           {fullItems.map((item, i) => (
             <li key={item.href}>
@@ -39,6 +43,8 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
           ))}
         </ol>
       </nav>
+      <LastUpdated inline />
+      </div>
     </>
   );
 }

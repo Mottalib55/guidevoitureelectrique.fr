@@ -8,7 +8,6 @@ import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 import { dec } from "@/lib/format";
 
 export const metadata: Metadata = buildMetadata({
@@ -51,7 +50,6 @@ export default function PageMarquesChinoises() {
           >
             {marquesChinoises.length} marques · {modelesChinois.length} modèles
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

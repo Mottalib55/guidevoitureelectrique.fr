@@ -10,7 +10,6 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FaqSection from "@/components/FaqSection";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 import { dec } from "@/lib/format";
 
 export function generateStaticParams() {
@@ -134,7 +133,6 @@ export default async function PageMarque({ params }: Props) {
             {marque.pays}, {marque.origine === "Chine" ? "Constructeur chinois" : "Constructeur"} depuis{" "}
             {marque.anneeCreation}
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

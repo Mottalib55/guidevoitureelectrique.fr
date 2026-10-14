@@ -8,7 +8,6 @@ import { buildMetadata } from "@/lib/seo";
 import ComparateurRapide from "@/components/ComparateurRapide";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Comparatif voiture électrique 2026 : duels détaillés",
@@ -22,8 +21,7 @@ export default function ComparatifsIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Comparatifs", href: "/comparatifs/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">Comparatifs voitures électriques</h1>
         <p className="section-sub">
           Comparez n&apos;importe quels modèles ou consultez nos{" "}

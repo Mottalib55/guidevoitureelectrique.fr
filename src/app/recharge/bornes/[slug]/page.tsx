@@ -8,7 +8,6 @@ import { faqJsonLd } from "@/lib/jsonld";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export function generateStaticParams() {
   return villes.map((v) => ({ slug: v.slug }));
@@ -128,7 +127,6 @@ export default async function PageVille({ params }: Props) {
           >
             Bornes de recharge, {ville.region}
           </p>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

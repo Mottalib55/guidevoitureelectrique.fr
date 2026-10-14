@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 import { buildMetadata } from "@/lib/seo";
 import { webApplicationJsonLd } from "@/lib/jsonld";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Widget calculateur VE gratuit | Intégrez sur votre site",
@@ -35,8 +34,7 @@ export default function WidgetPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <article className="section section-medium" style={{ paddingTop: 48, paddingBottom: 80 }}>
-        <LastUpdated />
+      <article className="section section-medium" style={{ paddingTop: 24, paddingBottom: 80 }}>
         <h1
           style={{
             fontFamily: "var(--font-display)",

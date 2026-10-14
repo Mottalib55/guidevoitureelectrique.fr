@@ -6,7 +6,6 @@ import { villes } from "@/data/villes";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Bornes de recharge par ville : carte de France 2026",
@@ -23,8 +22,7 @@ export default function BornesIndexPage() {
   return (
     <>
       <Breadcrumb items={[{ name: "Recharge", href: "/recharge/" }, { name: "Bornes", href: "/recharge/bornes/" }]} />
-      <section className="section" style={{ paddingTop: 48, paddingBottom: 48 }}>
-        <LastUpdated />
+      <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">
           Bornes de recharge par ville ({villes.length})
         </h1>

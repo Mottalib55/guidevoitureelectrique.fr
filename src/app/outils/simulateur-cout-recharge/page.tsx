@@ -8,7 +8,6 @@ import { modeles } from "@/data/modeles";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { safeParseNumber } from "@/lib/parseNumericInput";
-import LastUpdated from "@/components/LastUpdated";
 import BarreResultat from "@/components/BarreResultat";
 import { dec } from "@/lib/format";
 
@@ -131,7 +130,6 @@ export default function SimulateurCoutRecharge() {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 24 }}>
-          <LastUpdated />
           <h1
             style={{
               fontFamily: "var(--font-display)",

@@ -7,7 +7,6 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { safeParseNumber } from "@/lib/parseNumericInput";
-import LastUpdated from "@/components/LastUpdated";
 import BarreResultat from "@/components/BarreResultat";
 
 const euro = (n: number) =>
@@ -102,7 +101,6 @@ export default function ComparateurElecThermique() {
 
       <article className="section" style={{ paddingTop: 24, paddingBottom: 64 }}>
         <header style={{ marginBottom: 24 }}>
-          <LastUpdated />
           <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "clamp(28px, 4vw, 38px)", letterSpacing: "-0.02em", marginBottom: 8 }}>
             Comparateur électrique vs thermique
           </h1>
