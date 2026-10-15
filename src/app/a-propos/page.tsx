@@ -23,6 +23,7 @@ export default function AProposPage() {
   return (
     <>
       <Breadcrumb
+        dateEnHaut
         items={[
           { name: "À propos", href: "/a-propos/" },
         ]}

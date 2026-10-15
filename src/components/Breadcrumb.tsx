@@ -7,7 +7,7 @@ interface BreadcrumbItem {
   href: string;
 }
 
-export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
+export default function Breadcrumb({ items, dateEnHaut = false }: { items: BreadcrumbItem[]; dateEnHaut?: boolean }) {
   const fullItems = [{ name: "Accueil", href: "/" }, ...items];
   const jsonLd = breadcrumbJsonLd(
     fullItems.map((i) => ({
@@ -22,8 +22,8 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* Date de mise à jour à droite sur la ligne fine du fil d'Ariane : seule sur
-          sa ligne, elle repoussait le titre (RECETTE §10.3, check-layout 13). */}
+      {/* Date de mise à jour à droite sur la ligne fine du fil d'Ariane, seulement sur une
+          page de lecture (dateEnHaut) ; ailleurs elle est en pied de page (RECETTE §8.4, §10.3). */}
       <div className="breadcrumb">
       <nav aria-label="Fil d'Ariane">
         <ol>
@@ -43,7 +43,7 @@ export default function Breadcrumb({ items }: { items: BreadcrumbItem[] }) {
           ))}
         </ol>
       </nav>
-      <LastUpdated inline />
+      {dateEnHaut && <LastUpdated inline />}
       </div>
     </>
   );

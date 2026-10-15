@@ -8,7 +8,6 @@ import { pagesGuides } from "@/data/guides";
 import { buildMetadata } from "@/lib/seo";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
-import LastUpdated from "@/components/LastUpdated";
 
 export const metadata: Metadata = buildMetadata({
   title: "Voiture électrique 2026 : comparatif, prix et autonomie",
@@ -44,7 +43,6 @@ export default function HomePage() {
     <>
       {/* ─── HERO ──────────────────────────────────────────────── */}
       <section className="hero">
-        <LastUpdated />
         <h1 className="hero-title">
           Le guide de référence de la voiture électrique en France
         </h1>

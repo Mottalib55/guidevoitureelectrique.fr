@@ -69,6 +69,7 @@ export default async function PageGuide({ params }: Props) {
         }}
       />
       <Breadcrumb
+        dateEnHaut
         items={[
           { name: "Guides", href: "/guides/quest-ce-quune-voiture-electrique/" },
           { name: page.titre, href: `/guides/${page.slug}/` },

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { pageDate } from "@/lib/page-date";
+import { pageDate, dateLongue } from "@/lib/page-date";
 
 const SITE = "https://guidevoitureelectrique.fr";
 const link = { color: "var(--faint)", textDecoration: "none" } as const;
@@ -26,7 +26,7 @@ export default function TrustFooter() {
       Estimation indicative : ce site ne remplace ni le devis d&apos;un vendeur ni la décision de
       l&apos;administration pour les aides.
       <br />
-      Dernière mise à jour{" "}: <time dateTime={date}>{date}</time>
+      Dernière mise à jour{" "}: <time dateTime={date}>{dateLongue(date)}</time>
       {" | "}
       <Link href="/methodologie/" style={link}>Méthodologie</Link>
       {" | "}
