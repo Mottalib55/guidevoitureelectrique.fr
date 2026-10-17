@@ -123,6 +123,16 @@ export default function RootLayout({
             }}
           />
         )}
+        {/* Google Analytics 4 sans bandeau (décision de l'éditeur du 2026-10-17) : cookies _ga et _ga_<ID> de 13 mois au plus,
+             publicité refusée, IP anonymisée, adresse de page sans paramètres. Un seul script en ligne, pour garder l'ordre
+             consentement, gtag/js, config (Next remonte en tête les <script async src>). */}
+        {process.env.NODE_ENV === "production" && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',functionality_storage:'granted',security_storage:'granted'});(function(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-7VRNV419X2';document.head.appendChild(s);})();gtag('js',new Date());gtag('config','G-7VRNV419X2',{anonymize_ip:true,page_location:location.origin+location.pathname,cookie_expires:33696000,cookie_update:false,allow_google_signals:false,allow_ad_personalization_signals:false});",
+            }}
+          />
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
