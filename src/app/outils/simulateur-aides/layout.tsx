@@ -11,7 +11,7 @@ export const metadata: Metadata = buildMetadata({
 
 const jsonLd = webApplicationJsonLd({
   name: "Simulateur aides achat voiture électrique",
-  description: "Estimez le montant du bonus écologique, de la prime à la conversion et du leasing social pour votre véhicule électrique.",
+  description: "Vérifiez votre éligibilité à la prime coup de pouce CEE et au leasing social 2026 pour une voiture électrique.",
   url: "https://guidevoitureelectrique.fr/outils/simulateur-aides/",
 });
 

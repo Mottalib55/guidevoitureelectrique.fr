@@ -7,6 +7,7 @@ import { pagesAcheter } from "@/data/acheter";
 import { buildMetadata } from "@/lib/seo";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, eur } from "@/data/aides-2026";
 
 export const metadata: Metadata = buildMetadata({
   title: "Acheter une voiture électrique en 2026 : nos guides",
@@ -125,12 +126,12 @@ export default function AcheterIndexPage() {
 
           <h3>Crédit auto classique</h3>
           <p>
-            Le crédit automobile permet d&apos;étaler le paiement sur 24 a 72 mois, tout en devenant immédiatement propriétaire du véhicule. Les taux d&apos;intérêt pour les véhicules électriques sont souvent plus avantageux que pour les thermiques, certaines banques et concessionnaires proposant des offres dédiées. Le bonus écologique vient réduire le montant à financer. Comparez les offres de votre banque avec celles des captives des constructeurs : les écarts peuvent être significatifs.
+            Le crédit automobile permet d&apos;étaler le paiement sur 24 a 72 mois, tout en devenant immédiatement propriétaire du véhicule. Les taux d&apos;intérêt pour les véhicules électriques sont souvent plus avantageux que pour les thermiques, certaines banques et concessionnaires proposant des offres dédiées. La prime coup de pouce CEE, quand l&apos;entreprise qui la verse la déduit du prix, réduit le montant à financer. Comparez les offres de votre banque avec celles des captives des constructeurs : les écarts peuvent être significatifs.
           </p>
 
           <h3>LOA (Location avec Option d&apos;Achat)</h3>
           <p>
-            La LOA est la formule de financement la plus populaire pour les voitures électriques en France. Elle vous permet de disposer d&apos;un véhicule contre un loyer mensuel, avec la possibilité de l&apos;acheter en fin de contrat (en payant la valeur résiduelle) ou de le rendre et d&apos;en prendre un nouveau. Le bonus écologique vient généralement réduire le premier loyer ou l&apos;apport initial. La LOA est particulièrement adaptée à la voiture électrique car elle vous protège contre le risque de dépréciation lie aux évolutions technologiques rapides des batteries.
+            La LOA est la formule de financement la plus populaire pour les voitures électriques en France. Elle vous permet de disposer d&apos;un véhicule contre un loyer mensuel, avec la possibilité de l&apos;acheter en fin de contrat (en payant la valeur résiduelle) ou de le rendre et d&apos;en prendre un nouveau. La prime coup de pouce CEE peut aussi s&apos;appliquer à une location d&apos;au moins deux ans. La LOA est particulièrement adaptée à la voiture électrique car elle vous protège contre le risque de dépréciation lie aux évolutions technologiques rapides des batteries.
           </p>
 
           <h3>LLD (Location Longue Durée)</h3>
@@ -140,22 +141,22 @@ export default function AcheterIndexPage() {
 
           <h2>Maximiser les aides a l&apos;achat en 2026</h2>
 
-          <h3>Le bonus écologique : mode d&apos;emploi</h3>
+          <h3>La prime coup de pouce CEE, qui remplace le bonus écologique</h3>
           <p>
-            Le bonus écologique reste la principale aide a l&apos;achat d&apos;un véhicule électrique en France. En 2026, il peut atteindre 4 000 euros pour les ménages dont le revenu fiscal de référence est inférieur a un certain seuil, et 2 000 euros pour les autres ménages. Deux conditions essentielles : le véhicule doit coûter moins de 47 000 euros TTC et son score environnemental (qui prend en compte l&apos;empreinte carbone de fabrication) doit être suffisant, ce qui exclut de fait les modèles fabriqués en Chine n&apos;ayant pas obtenu cette certification.
+            Depuis le {COUP_DE_POUCE.depuis}, le bonus écologique est remplacé par la prime « coup de pouce Véhicules particuliers électriques », financée par les certificats d&apos;économies d&apos;énergie. Le véhicule doit être neuf, coûter au plus {eur(COUP_DE_POUCE.prixMaxTTC)} TTC et obtenir un score environnemental d&apos;au moins {COUP_DE_POUCE.scoreEnvironnementalMin} points, ce qui exclut la plupart des modèles fabriqués loin de l&apos;Europe. Son montant n&apos;est pas fixé par l&apos;État : il dépend de l&apos;entreprise signataire qui la verse et d&apos;une bonification selon vos revenus.
           </p>
           <p>
-            La demande de bonus se fait directement en ligne sur le site du ministère de la Transition écologique, ou par l&apos;intermédiaire du concessionnaire qui peut avancer le montant. La procédure est relativement simple mais nécessité de rassembler plusieurs documents : justificatif de domicile, avis d&apos;imposition, certificat d&apos;immatriculation du véhicule. Pensez à vérifier votre éligibilité avant de signer votre bon de commande.
+            Comparez les offres des entreprises signataires, ou demandez au concessionnaire s&apos;il en est partenaire, avant de signer le bon de commande. Prévoyez votre avis d&apos;imposition, une pièce d&apos;identité et le devis. Notre <Link href="/acheter/aides-et-bonus/">guide des aides</Link> détaille les conditions, et le leasing social 2026 ({eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus) pour les foyers modestes.
           </p>
 
-          <h3>La prime à la conversion</h3>
+          <h3>La prime à la conversion : supprimée</h3>
           <p>
-            Cumulable avec le bonus écologique, la prime à la conversion recompense la mise au rebut d&apos;un ancien véhicule polluant. Pour un véhicule Crit&apos;Air 3, 4 ou 5 mis à la casse, vous pouvez obtenir jusqu&apos;a 5 000 euros supplémentaires, sous conditions de revenus. Le véhicule mis au rebut doit être en votre possession depuis au moins un an et être en état de rouler (il ne s&apos;agit pas de se débarrasser d&apos;une épave). Au total, un ménage modeste peut cumuler jusqu&apos;a 9 000 euros d&apos;aides nationales, auxquelles viennent s&apos;ajouter les éventuelles primes régionales.
+            La prime à la conversion, qui récompensait la mise au rebut d&apos;un ancien véhicule, a été supprimée pour les voitures le {PRIME_CONVERSION.supprimeeLe}. Envoyer une vieille voiture à la casse n&apos;ouvre plus d&apos;aide nationale ; seules certaines collectivités gardent une aide de ce type.
           </p>
 
           <h3>Les aides locales : un complément non négligeable</h3>
           <p>
-            De nombreuses collectivités territoriales proposent des aides complémentaires pour l&apos;achat de véhicules électriques. La région Île-de-France, par exemple, offre une aide pouvant atteindre 6 000 euros sous conditions de ressources. La Métropole de Lyon, la Région Occitanie, le Département des Bouches-du-Rhone et de nombreuses autres collectivités ont également mis en place des dispositifs. Ces aides sont souvent méconnues : prenez le temps de vous renseigner auprès de votre mairie, votre département et votre région avant de finaliser votre achat.
+            De nombreuses collectivités territoriales proposent des aides complémentaires pour l&apos;achat de véhicules électriques. Leurs montants et conditions changent souvent, et certains dispositifs ferment en cours d&apos;année faute de budget. Ces aides sont souvent méconnues : prenez le temps de vous renseigner auprès de votre mairie, votre département et votre région avant de finaliser votre achat.
           </p>
 
           <h2>L&apos;assurance d&apos;une voiture électrique</h2>
@@ -182,8 +183,8 @@ export default function AcheterIndexPage() {
           <div style={{ marginTop: 48, padding: "24px 28px", border: "1.5px solid var(--line)", borderRadius: 16, background: "var(--paper)" }}>
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
-              <li>Ministère de la Transition écologique : Conditions et barème du bonus écologique 2026</li>
-              <li>Service-Public.fr : Prime à la conversion : conditions d&apos;éligibilité et montants, mise à jour 2026</li>
+              <li>Service-Public.gouv.fr : prime coup de pouce CEE (F39188) et leasing social 2026 (F39280)</li>
+              <li>Economie.gouv.fr : suppression de la prime à la conversion ({PRIME_CONVERSION.decret})</li>
               <li>Région Île-de-France : Dispositif d&apos;aide à l&apos;achat de véhicules propres 2026</li>
               <li>Avere-France : Guide du financement d&apos;un véhicule électrique : LOA, LLD, crédit</li>
               <li>Fédération Française de l&apos;Assurance : Étude comparative des primes d&apos;assurance VE vs thermique, 2025</li>

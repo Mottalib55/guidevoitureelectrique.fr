@@ -1,3 +1,5 @@
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, CREDIT_IMPOT_BORNE, eur } from "./aides-2026";
+
 export interface PageAcheter {
   slug: string;
   titre: string;
@@ -316,255 +318,88 @@ export const pagesAcheter: PageAcheter[] = [
   },
 
   // ─── AIDES ET BONUS ────────────────────────────────────────────────
+  // Valeurs tirées de data/aides-2026.ts (sources officielles et date de relevé).
   {
     slug: "aides-et-bonus",
-    titreSeo: "Aides voiture électrique 2026 : montants et conditions",
+    titreSeo: "Aides voiture électrique 2026 : montants et conditions",
     titre: "Aides et bonus écologique voiture électrique 2026",
-    h1: "Aides et bonus écologique voiture électrique 2026 : le guide complet",
+    h1: "Aides voiture électrique 2026 : prime CEE, leasing social et fin du bonus",
     metaDescription:
-      "Aides voiture électrique 2026 : bonus 4 000 euros, leasing social 100 euros/mois, prime conversion 5 000 euros. Conditions, cumul et démarches détaillées.",
-    contenu: `<p>L'achat d'une voiture électrique en France bénéficie d'un ensemble d'aides financières publiques et privées qui peuvent représenter jusqu'à 13 000 euros de réduction sur le prix d'achat, voire davantage dans certaines régions. En 2026, le paysage des aides s'est enrichi et complexifié avec la coexistence de dispositifs nationaux, régionaux et locaux, chacun ayant ses propres critères d'éligibilité. Connaître et cumuler ces dispositifs est indispensable pour optimiser votre budget et rendre la voiture électrique accessible, y compris aux ménages les plus modestes. Le bonus écologique dépend désormais d'un score environnemental qui exclut une partie des modèles importés, et son montant varie selon le revenu fiscal de référence du ménage. Ce guide détaille chaque aide disponible, ses conditions d'éligibilité précises, les montants actualisés et les démarches pas à pas pour en bénéficier sans rien oublier.</p>
+      `Aides voiture électrique 2026 : prime coup de pouce CEE (ex-bonus), leasing social à ${LEASING_SOCIAL.loyerMaxMois} €/mois au plus, fin de la prime à la conversion. Conditions détaillées.`,
+    contenu: `<p>Les aides à l'achat d'une voiture électrique ont profondément changé. Le bonus écologique versé par l'État n'existe plus : depuis le ${COUP_DE_POUCE.depuis}, il est remplacé par la <strong>prime « coup de pouce Véhicules particuliers électriques »</strong>, financée par les certificats d'économies d'énergie (CEE). La prime à la conversion a été supprimée le ${PRIME_CONVERSION.supprimeeLe}. Le leasing social a rouvert le ${LEASING_SOCIAL.ouverture} avec un loyer plafonné à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois. Et le crédit d'impôt pour l'installation d'une borne ne vaut plus que pour les dépenses payées jusqu'au ${CREDIT_IMPOT_BORNE.finDepenses}. Ce guide fait le point, source officielle à l'appui, sur ce que vous pouvez réellement obtenir fin 2026.</p>
 
-<h2>Le bonus écologique 2026 : jusqu'à 7 000 euros pour les plus modestes</h2>
+<h2>La prime coup de pouce CEE : l'aide qui remplace le bonus écologique</h2>
 
-<p>Le bonus écologique est la pierre angulaire du dispositif d'aide à l'achat d'un véhicule électrique neuf en France. Son montant a évolué au fil des années, passant de 6 000 euros en 2022 à 5 000 euros en 2023-2024, puis à 4 000 euros en 2025 pour les particuliers dont le revenu fiscal de référence par part (RFR/part) dépasse 15 400 euros. Pour les ménages les plus modestes (RFR/part inférieur ou égal à 15 400 euros), le bonus est majoré à 7 000 euros, reconnaissant la nécessité de rendre l'électrique accessible à tous.</p>
+<p>La prime s'adresse aux particuliers résidant en France qui achètent ou louent une voiture particulière neuve (catégorie M1) roulant exclusivement à l'électricité. Elle relève du dispositif des certificats d'économies d'énergie, via la fiche standardisée TRA-EQ-117 : ce ne sont plus les finances publiques qui paient, mais les fournisseurs d'énergie et de carburant, obligés de financer des économies d'énergie.</p>
 
-<h3>Conditions d'éligibilité détaillées</h3>
-
-<p>Pour bénéficier du bonus, plusieurs conditions doivent être réunies simultanément :</p>
+<h3>Les conditions du véhicule</h3>
 <ul>
-<li><strong>Type de véhicule</strong> : le véhicule doit être 100 % électrique (BEV) ou à hydrogène. Les hybrides rechargeables (PHEV) ne sont plus éligibles depuis le 1er janvier 2023.</li>
-<li><strong>Prix plafond</strong> : le prix d'achat TTC ne doit pas dépasser 47 000 euros. Ce plafond s'entend options comprises mais hors frais de mise en circulation. Les véhicules dépassant ce seuil sont intégralement exclus, même d'un seul euro.</li>
-<li><strong>Poids maximal</strong> : le véhicule ne doit pas dépasser 2 400 kg à vide. Cette condition exclut certains SUV électriques lourds comme le BMW iX xDrive50 ou le Mercedes EQE SUV.</li>
-<li><strong>Score environnemental</strong> : le véhicule doit obtenir un score environnemental minimal calculé par l'ADEME. Ce score, introduit en 2024, évalue l'empreinte carbone de la fabrication du véhicule, de l'extraction des matières premières au transport vers la France. Il pénalise les véhicules fabriqués dans des pays au mix énergétique fortement carboné.</li>
-<li><strong>Conservation minimale</strong> : l'acheteur doit conserver le véhicule au moins un an ou parcourir au moins 6 000 km avant toute revente. Un remboursement intégral du bonus est exigé en cas de cession anticipée.</li>
+<li>Prix d'acquisition d'au plus <strong>${eur(COUP_DE_POUCE.prixMaxTTC)} TTC</strong>, batterie comprise si elle est achetée ou louée à part ;</li>
+<li>Masse en ordre de marche inférieure à ${COUP_DE_POUCE.masseMaxKg.toLocaleString("fr-FR")} kg ;</li>
+<li>Score environnemental d'au moins <strong>${COUP_DE_POUCE.scoreEnvironnementalMin} points</strong> : la liste des modèles est publiée en ligne et écarte la plupart des voitures fabriquées loin de l'Europe ;</li>
+<li>Voiture neuve, à conserver au moins ${COUP_DE_POUCE.dureeConservationAns} ans en cas d'achat ; contrat d'au moins ${COUP_DE_POUCE.dureeConservationAns} ans en cas de location. Une voiture de démonstration reste admise si elle est achetée entre 3 et 12 mois après sa première immatriculation.</li>
 </ul>
 
-<h3>Quels modèles sont éligibles au bonus en 2026 ?</h3>
+<h3>Pourquoi aucun montant fixe ne peut être annoncé</h3>
+<p>La réglementation ne fixe pas le montant de la prime. L'achat génère un volume de certificats exprimé en kWh cumac ; leur valeur suit le marché et la politique commerciale de l'entreprise qui verse l'aide. Ce volume est multiplié par un coefficient de bonification plus élevé pour les ménages modestes, pour les « gros rouleurs » des déciles 6 à 8 qui font plus de 12 000 km par an pour leur travail avec leur véhicule personnel, et pour les voitures dont le véhicule et la batterie sont produits dans l'Espace économique européen. Deux entreprises peuvent donc proposer des montants différents pour la même voiture. Méfiez-vous de toute page qui annonce encore « 4 000 € » ou « 7 000 € » : ce sont les anciens montants du bonus.</p>
 
-<p>Le score environnemental a considérablement modifié la liste des véhicules éligibles. En pratique :</p>
+<h3>Votre catégorie de ménage</h3>
+<p>Le revenu fiscal de référence par part classe le ménage en déciles. Jusqu'à ${eur(COUP_DE_POUCE.plafondPrecarite)} par part (déciles 1 à 3), il est considéré comme modeste en situation de précarité énergétique ; jusqu'à ${eur(COUP_DE_POUCE.plafondModeste)} (déciles 4 et 5), comme modeste ; au-delà, il relève des autres ménages. Pour un devis accepté en 2026, ce sont les revenus de 2024 qui comptent, ou ceux de 2025 s'ils sont disponibles. Notre <a href="/outils/simulateur-aides/">simulateur d'aides</a> indique votre décile.</p>
+
+<h3>Comment l'obtenir</h3>
+<p>Consultez la liste des entreprises signataires de la charte « Coup de pouce véhicules particuliers électriques », publiée par le ministère de la Transition écologique, et comparez leurs offres, ou demandez au concessionnaire s'il en est partenaire. Faites-le avant de signer le bon de commande. L'entreprise demande en général une pièce d'identité, l'avis d'imposition, le devis ou le bon de commande et une attestation sur l'honneur ; la prime peut être déduite du prix ou versée après l'achat selon l'offre. L'achat ou la location doit être engagé au plus tard le ${COUP_DE_POUCE.dateLimiteEngagement}.</p>
+
+<h2>Le leasing social 2026 : ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus</h2>
+
+<p>Le leasing social permet aux ménages modestes qui ont besoin de leur voiture pour travailler de louer une électrique neuve sans apport. Les contrats se signent depuis le ${LEASING_SOCIAL.ouverture} et peuvent courir jusqu'à fin 2031.</p>
+
+<h3>Conditions d'accès</h3>
 <ul>
-<li><strong>Modèles éligibles</strong> : Renault 5 E-Tech (Douai, France), Renault Scenic E-Tech (Douai), Renault Megane E-Tech (Douai), Citroën e-C3 (Trnava, Slovaquie), Peugeot e-208 (Kenitra, Maroc, éligible malgré la fabrication hors UE car le score est suffisant), Peugeot e-2008, Fiat 500e (Turin, Italie), Fiat Grande Panda (Kragujevac, Serbie), Skoda Elroq (Mlada Boleslav, Tchéquie), Volkswagen ID.3 et ID.4 (Zwickau, Allemagne), Tesla Model 3 (Berlin, Allemagne), Tesla Model Y (Berlin), BMW iX1 (Regensburg, Allemagne), BMW i4, Kia EV3 et EV6 (Hwaseong, Corée du Sud, éligibles grâce au mix énergétique coréen et aux efforts logistiques), Hyundai Ioniq 5 et Kona Electric.</li>
-<li><strong>Modèles NON éligibles</strong> : la plupart des modèles assemblés en Chine continentale. Sont concernés : BYD Seal, BYD Atto 3, BYD Dolphin, MG4, MG ZS EV, Xpeng G6, Zeekr 001, Smart #1 et #3 (fabriqués par Geely en Chine), Volvo EX30 (Chine), Dacia Spring (Chine). L'exception notable est Tesla dont la production européenne à Berlin rend ses modèles éligibles.</li>
+<li>Être majeur, domicilié en France, avec un revenu fiscal de référence par part d'au plus <strong>${eur(LEASING_SOCIAL.rfrParPartMax)}</strong> (revenus de 2024 pour un premier loyer versé en 2026) ;</li>
+<li>Faire plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km entre domicile et travail avec son véhicule personnel, ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour son activité professionnelle ;</li>
+<li>Choisir un modèle de la liste officielle : voiture neuve 100 % électrique, score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points, prix d'au plus ${eur(LEASING_SOCIAL.prixMaxTTC)} TTC hors options, masse inférieure à ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg.</li>
 </ul>
 
-<p>La liste officielle est publiée et mise à jour trimestriellement par l'ADEME sur le site ecologie.gouv.fr. Consultez-la systématiquement avant votre achat, car un modèle peut gagner ou perdre son éligibilité d'un trimestre à l'autre en fonction de modifications dans la chaîne de production.</p>
+<h3>Le contrat</h3>
+<p>Location avec ou sans option d'achat d'au moins ${LEASING_SOCIAL.dureeMinAns} ans, loyer de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus hors assurance, options et prestations annexes, et au moins ${LEASING_SOCIAL.kmInclusAnMin.toLocaleString("fr-FR")} km par an inclus. Chaque professionnel doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} par mois ou moins (hors outre-mer). L'aide de l'État vaut ${Math.round(LEASING_SOCIAL.aideTaux * 100)} % du coût d'achat hors options, dans la limite de ${eur(LEASING_SOCIAL.aidePlafond)}, ou de ${eur(LEASING_SOCIAL.aidePlafondEurope)} si la voiture et sa batterie sont produites en Europe, plus ${eur(LEASING_SOCIAL.primeMoteurEurope)} si le moteur l'est aussi. Le professionnel l'avance et la déduit du premier loyer, qui tombe à 0 €. On n'en bénéficie qu'une fois.</p>
 
-<h3>Comment obtenir le bonus ?</h3>
+<h2>La prime à la conversion : supprimée</h2>
 
-<p>Deux cas de figure se présentent. Si vous achetez chez un concessionnaire agréé en France (cas le plus fréquent), le bonus est avancé directement par le vendeur qui le déduit du prix de vente sur la facture. Le concessionnaire se fait ensuite rembourser par l'ASP (Agence de Services et de Paiement). Vous n'avez aucune démarche à effectuer. Si vous achetez à l'étranger (via un mandataire européen) ou auprès d'un vendeur qui ne pratique pas l'avance du bonus, vous devez faire la demande en ligne sur le site de l'ASP dans les six mois suivant la date de facturation. Le versement intervient par virement sous 1 à 3 mois.</p>
+<p>La prime à la conversion, versée quand on mettait au rebut un vieux véhicule pour en acheter un plus propre, a été supprimée pour les voitures le ${PRIME_CONVERSION.supprimeeLe} par le ${PRIME_CONVERSION.decret}. Envoyer une ancienne voiture à la casse n'ouvre donc plus d'aide nationale à l'achat. Seule subsiste la prime au rétrofit, qui finance la transformation d'un véhicule thermique en électrique par un professionnel habilité. Certaines collectivités gardent une aide liée à la mise au rebut : renseignez-vous localement.</p>
 
-<h2>Le leasing social à 100 euros par mois : la révolution de l'accès à l'électrique</h2>
+<h2>Les aides régionales et locales</h2>
 
-<p>Le dispositif de leasing social, lancé en janvier 2024 et reconduit en 2026, est une initiative unique en Europe qui permet aux ménages modestes de louer une voiture électrique neuve à partir de 54 euros par mois pour les modèles les plus accessibles (Citroën e-C3), et autour de 100 euros par mois pour les modèles comme la Renault 5 E-Tech ou la Peugeot e-208.</p>
+<p>Régions, départements et métropoles complètent parfois les aides nationales, souvent pour les ménages modestes ou les habitants d'une zone à faibles émissions. Leurs montants changent souvent, et plusieurs dispositifs ferment en cours d'année faute de budget. Consultez le site de votre région et de votre intercommunalité au moment de l'achat, et vérifiez qu'elles se cumulent avec la prime coup de pouce.</p>
 
-<h3>Conditions d'accès au leasing social</h3>
+<h2>La borne de recharge à domicile</h2>
 
-<p>Les critères sont stricts et cumulatifs :</p>
+<p>Le crédit d'impôt pour l'installation d'un système de charge (${Math.round(CREDIT_IMPOT_BORNE.taux * 100)} % des dépenses, au plus ${eur(CREDIT_IMPOT_BORNE.plafond)} par système pilotable) ne concerne plus que les dépenses payées au plus tard le ${CREDIT_IMPOT_BORNE.finDepenses}, à déclarer en 2026. Il est supprimé pour les dépenses payées à partir du 1er janvier 2026. En copropriété, le programme ADVENIR peut financer une partie de l'installation : vérifiez ses conditions en vigueur avant les travaux.</p>
+
+<h2>Les démarches dans l'ordre</h2>
 <ul>
-<li><strong>Revenus</strong> : RFR/part inférieur ou égal à 15 400 euros. Pour un célibataire, cela correspond à un revenu net mensuel d'environ 1 700 euros. Pour un couple avec deux enfants (3 parts fiscales), le RFR total peut atteindre 46 200 euros.</li>
-<li><strong>Besoin de mobilité professionnelle</strong> : le demandeur doit justifier soit d'un trajet domicile-travail de plus de 15 km ou non desservi par les transports en commun, soit d'un usage professionnel du véhicule (au minimum 8 000 km/an), soit d'une situation de recherche d'emploi active (inscription à France Travail).</li>
-<li><strong>Résidence</strong> : domiciliation en France métropolitaine. Les résidents des DOM-TOM bénéficient d'un dispositif spécifique.</li>
-<li><strong>Permis et assurance</strong> : permis B valide et capacité à souscrire une assurance automobile (non incluse dans le leasing social).</li>
+<li>Relevez votre revenu fiscal de référence et votre nombre de parts sur votre dernier avis d'imposition ;</li>
+<li>Vérifiez que le modèle visé figure sur la liste du score environnemental, et sur celle du leasing social si cette formule vous concerne ;</li>
+<li>Pour un achat, comparez les offres de prime coup de pouce avant de signer ;</li>
+<li>Pour le leasing social, adressez-vous à un professionnel participant, qui vérifie l'éligibilité et monte le dossier ;</li>
+<li>Gardez facture, contrat, avis d'imposition et certificat d'immatriculation.</li>
 </ul>
 
-<p>Le nombre de dossiers est limité (environ 50 000 à 60 000 par campagne). Les candidatures sont ouvertes par vagues sur la plateforme mon-leasing-electrique.gouv.fr, généralement en début d'année. Les personnes résidant en ZFE (Zone à Faibles Émissions) sont prioritaires. Lors de la première édition en 2024, les 50 000 places ont été pourvues en six semaines, ce qui démontre l'immense demande.</p>
-
-<h3>Ce qui est inclus et ce qui ne l'est pas</h3>
-
-<p>Le loyer mensuel du leasing social inclut la mise à disposition du véhicule neuf et l'entretien constructeur (révisions, consommables hors pneus). Ne sont PAS inclus : l'assurance automobile (comptez 40 à 80 euros/mois supplémentaires), la recharge (30 à 50 euros/mois selon le kilométrage), les pneus (à votre charge), et l'installation éventuelle d'une borne à domicile.</p>
-
-<h2>La prime à la conversion : jusqu'à 6 000 euros</h2>
-
-<p>La prime à la conversion est une aide supplémentaire versée en cas de mise au rebut (destruction définitive) d'un ancien véhicule polluant. Cette prime est cumulable avec le bonus écologique, créant un effet de levier considérable.</p>
-
-<h3>Montants de la prime en 2026</h3>
-
+<h2>Les pièges à éviter</h2>
 <ul>
-<li><strong>Ménages très modestes (RFR/part inférieur ou égal à 7 100 euros)</strong> : 5 000 euros pour l'achat d'un VE, plus 1 000 euros de surprime si le demandeur habite ou travaille en ZFE, soit 6 000 euros au total.</li>
-<li><strong>Ménages modestes (RFR/part entre 7 100 et 15 400 euros)</strong> : 4 000 euros.</li>
-<li><strong>Ménages intermédiaires (RFR/part entre 15 400 et 24 900 euros)</strong> : 2 500 euros.</li>
-<li><strong>Ménages aisés (RFR/part supérieur à 24 900 euros)</strong> : non éligibles depuis 2024.</li>
+<li>Se fier à un montant de bonus ou de prime à la conversion lu sur une page ancienne : ces aides n'existent plus ;</li>
+<li>Signer le bon de commande avant d'avoir engagé la prime coup de pouce ;</li>
+<li>Dépasser le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} avec des options ;</li>
+<li>Compter sur le crédit d'impôt borne pour des travaux payés en 2026.</li>
 </ul>
 
-<h3>Véhicules éligibles à la mise au rebut</h3>
-
-<p>Le véhicule à détruire doit répondre aux critères suivants : être un véhicule particulier (VP) ou un utilitaire léger, être immatriculé en France depuis au moins un an au nom du demandeur (ou d'un membre du foyer fiscal), être un véhicule essence immatriculé avant le 1er janvier 2006 ou un diesel immatriculé avant le 1er janvier 2011 (Crit'Air 3 et plus), ne pas être gagé, et être en état de rouler (assuré au moment de la demande). La destruction doit être effectuée par un centre VHU (Véhicules Hors d'Usage) agréé par la préfecture, qui vous remettra un certificat de destruction indispensable pour le dossier.</p>
-
-<h3>Délais et points de vigilance</h3>
-
-<p>La destruction du véhicule ancien doit intervenir dans les 3 mois précédant ou les 6 mois suivant la facturation du véhicule neuf. Un dépassement de ce délai entraîne le rejet automatique du dossier. Conservez le véhicule neuf au minimum un an (ou 6 000 km) sous peine de remboursement intégral de la prime. Le budget annuel de la prime est plafonné : déposez votre demande le plus tôt possible dans l'année pour éviter un éventuel coup de rabot.</p>
-
-<h2>Les primes CEE (Certificats d'Économies d'Énergie) : 500 à 1 500 euros</h2>
-
-<p>Les primes CEE constituent un mécanisme moins connu mais potentiellement lucratif. Les fournisseurs d'énergie (EDF, TotalEnergies, Engie, Eni) et certains distributeurs spécialisés sont tenus par la loi de financer des actions d'économies d'énergie. L'acquisition d'un véhicule électrique étant considérée comme une action d'économie d'énergie (remplacement d'un véhicule polluant par un véhicule efficace), ces acteurs proposent des primes financées par les CEE.</p>
-
-<h3>Comment fonctionnent les primes CEE ?</h3>
-
-<p>Le principe est simple : un fournisseur d'énergie vous verse une prime (500 à 1 500 euros selon l'opérateur et le modèle) en échange de la preuve d'achat de votre véhicule électrique. En contrepartie, le fournisseur obtient des certificats d'économies d'énergie qu'il utilise pour remplir ses obligations réglementaires.</p>
-
-<p>Les primes CEE se présentent sous plusieurs formes :</p>
-<ul>
-<li><strong>Virement bancaire</strong> : la forme la plus directe. Versement sous 2 à 4 semaines après validation du dossier.</li>
-<li><strong>Réduction sur la facture d'énergie</strong> : un crédit est appliqué sur vos factures d'électricité ou de gaz pendant 12 à 24 mois.</li>
-<li><strong>Bon d'achat</strong> : certains opérateurs proposent des bons d'achat utilisables dans des enseignes partenaires.</li>
-<li><strong>Réduction sur l'installation de la borne</strong> : certains fournisseurs proposent une installation de wallbox à tarif réduit plutôt qu'une prime directe.</li>
-</ul>
-
-<h3>Comment obtenir la meilleure prime CEE ?</h3>
-
-<p>Les montants varient significativement d'un opérateur à l'autre. Comparez les offres AVANT votre achat, car certains exigent une inscription préalable à la commande du véhicule. Consultez les sites d'EDF (primes énergie EDF), TotalEnergies (Certificats d'économie d'énergie TotalEnergies), Engie, et les comparateurs comme PrimesEnergie.fr. Les conditions varient mais le véhicule doit généralement être neuf, 100 % électrique, et parfois vous devez souscrire un contrat d'énergie chez le fournisseur en contrepartie.</p>
-
-<h2>Les aides régionales et locales : le complément à ne pas négliger</h2>
-
-<p>La France est un pays de décentralisation, et de nombreuses collectivités territoriales ont mis en place des aides complémentaires aux dispositifs nationaux. Ces aides sont cumulables avec le bonus et la prime à la conversion, dans la limite de 80 % du coût d'acquisition total.</p>
-
-<h3>Les aides régionales</h3>
-
-<ul>
-<li><strong>Île-de-France</strong> : aide de 1 500 à 6 000 euros selon le RFR pour l'achat d'un véhicule électrique ou hybride rechargeable. L'aide est majorée pour les résidents en ZFE et les professionnels (VUL). La région propose aussi une aide pour la mise au rebut d'un véhicule Crit'Air 4 ou 5, cumulable avec la prime nationale.</li>
-<li><strong>Occitanie</strong> : éco-chèque mobilité de 1 000 à 2 000 euros pour l'achat d'un VE neuf ou d'occasion (moins de 3 ans), sous conditions de revenus. La région finance aussi l'installation de bornes en copropriété.</li>
-<li><strong>Grand Est</strong> : aide de 1 000 euros pour l'achat d'un VE neuf, cumulable avec les aides nationales. Conditions : résidence principale dans la région, RFR/part inférieur à 20 000 euros.</li>
-<li><strong>Normandie</strong> : chèque éco-énergie de 500 à 1 500 euros pour l'acquisition d'un véhicule à faibles émissions. Les entreprises normandes bénéficient d'un dispositif spécifique pouvant aller jusqu'à 3 000 euros par véhicule.</li>
-<li><strong>Hauts-de-France</strong> : aide de 1 000 euros pour les particuliers, 3 000 euros pour les professionnels, sous conditions de revenus.</li>
-<li><strong>Nouvelle-Aquitaine</strong> : prime de 500 à 1 000 euros pour les particuliers, avec bonification pour les résidents en ZFE de Bordeaux ou de La Rochelle.</li>
-<li><strong>Auvergne-Rhône-Alpes</strong> : aide variable de 500 à 2 000 euros selon les départements et les communautés d'agglomération (Grenoble, Saint-Étienne, Clermont-Ferrand proposent des dispositifs locaux).</li>
-</ul>
-
-<h3>Les aides des métropoles et communes</h3>
-
-<ul>
-<li><strong>Paris</strong> : la Ville de Paris propose une aide à l'achat pouvant atteindre 6 000 euros pour les particuliers résidant dans la commune, cumulable intégralement avec les aides nationales. Conditions : RFR/part inférieur à 13 489 euros, véhicule électrique ou hydrogène, mise au rebut d'un véhicule ancien.</li>
-<li><strong>Lyon Métropole</strong> : aide de 1 000 à 2 000 euros pour le remplacement d'un véhicule polluant, dans le cadre de la ZFE métropolitaine.</li>
-<li><strong>Grenoble Alpes Métropole</strong> : prime de 1 500 euros pour l'achat d'un VE associé à la mise au rebut d'un véhicule Crit'Air 3 ou plus.</li>
-<li><strong>Rouen Métropole</strong> : aide de 1 000 euros pour les particuliers, 3 000 euros pour les professionnels.</li>
-<li><strong>Strasbourg Eurométropole</strong> : aide de 500 à 2 500 euros selon les revenus, dans le cadre de la ZFE strasbourgeoise.</li>
-</ul>
-
-<p>Pour identifier les aides disponibles dans votre territoire, consultez le site jechangemavoiture.gouv.fr qui recense l'ensemble des dispositifs nationaux et locaux, ou contactez directement votre mairie et votre conseil régional. Les conditions et montants évoluent fréquemment, parfois d'un semestre à l'autre.</p>
-
-<h2>L'aide à l'installation d'une borne de recharge à domicile</h2>
-
-<p>La recharge à domicile est le mode de recharge le plus économique et le plus pratique. L'État et les collectivités encouragent l'installation de bornes à travers plusieurs dispositifs complémentaires.</p>
-
-<h3>Le crédit d'impôt national</h3>
-
-<p>Le crédit d'impôt pour l'installation d'un système de charge pour véhicule électrique est fixé à 300 euros par point de charge (plafonné à 75 % du montant des dépenses TTC, incluant matériel et pose). Il est accessible à tous les contribuables domiciliés en France, qu'ils soient propriétaires ou locataires, en résidence principale ou secondaire. Un couple peut installer deux points de charge (un par véhicule) et bénéficier de 600 euros de crédit d'impôt au total. La demande se fait lors de la déclaration de revenus, dans la case dédiée aux dépenses en faveur de la transition énergétique.</p>
-
-<h3>Le programme ADVENIR : jusqu'à 50 % de prise en charge en copropriété</h3>
-
-<p>Le programme ADVENIR (Aide au Développement des Véhicules Électriques grâce à de Nouvelles Infrastructures de Recharge), financé par les CEE, subventionne l'installation de bornes de recharge dans les copropriétés, les entreprises et les parkings publics :</p>
-<ul>
-<li><strong>En copropriété (usage individuel)</strong> : prise en charge de 50 % du coût HT de l'installation, plafonnée à 960 euros par point de charge.</li>
-<li><strong>Infrastructure collective de copropriété</strong> : prise en charge de 50 % du coût HT, plafonnée à 8 000 euros pour le pré-câblage (colonnes électriques) + 1 660 euros par point de charge.</li>
-<li><strong>En entreprise (parking salarié)</strong> : 20 à 30 % du coût HT selon la puissance, plafonnée à 600 à 1 860 euros par point de charge.</li>
-</ul>
-
-<p>Les installateurs labellisés ADVENIR gèrent la demande de subvention pour vous et déduisent directement le montant de la facture. La liste des installateurs labellisés est disponible sur le site programme-advenir.fr.</p>
-
-<h3>Les aides locales complémentaires</h3>
-
-<p>Certaines collectivités proposent des aides supplémentaires pour l'installation de bornes. La Ville de Paris offre une aide de 500 euros pour l'installation d'une borne à domicile. La région Île-de-France subventionne le pré-câblage des copropriétés. Renseignez-vous auprès de votre collectivité locale.</p>
-
-<h2>Tableau récapitulatif : cumul maximal des aides par profil</h2>
-
-<h3>Profil 1 : ménage très modeste (RFR/part inférieur ou égal à 7 100 euros) en ZFE</h3>
-
-<p>Achat d'une Citroën e-C3 à 23 300 euros avec mise au rebut d'un diesel :</p>
-<ul>
-<li>Bonus écologique majoré : 7 000 euros</li>
-<li>Prime à la conversion majorée + surprime ZFE : 6 000 euros</li>
-<li>Prime CEE : 800 euros</li>
-<li>Aide régionale Île-de-France (exemple) : 6 000 euros</li>
-<li><strong>Total des aides : 19 800 euros</strong> (plafonné à 80 % du prix, soit 18 640 euros)</li>
-<li><strong>Prix effectif : 4 660 euros</strong></li>
-</ul>
-
-<h3>Profil 2 : ménage modeste (RFR/part entre 7 100 et 15 400 euros)</h3>
-
-<p>Achat d'une Renault 5 E-Tech à 25 000 euros avec mise au rebut d'une essence Crit'Air 3 :</p>
-<ul>
-<li>Bonus écologique majoré : 7 000 euros</li>
-<li>Prime à la conversion : 4 000 euros</li>
-<li>Prime CEE : 600 euros</li>
-<li>Aide régionale (exemple Occitanie) : 2 000 euros</li>
-<li><strong>Total des aides : 13 600 euros</strong></li>
-<li><strong>Prix effectif : 11 400 euros</strong></li>
-</ul>
-
-<h3>Profil 3 : ménage intermédiaire (RFR/part entre 15 400 et 24 900 euros)</h3>
-
-<p>Achat d'un Tesla Model Y à 44 990 euros avec mise au rebut d'un diesel :</p>
-<ul>
-<li>Bonus écologique standard : 4 000 euros</li>
-<li>Prime à la conversion : 2 500 euros</li>
-<li>Prime CEE : 500 euros</li>
-<li><strong>Total des aides : 7 000 euros</strong></li>
-<li><strong>Prix effectif : 37 990 euros</strong></li>
-</ul>
-
-<h3>Profil 4 : ménage aisé (RFR/part supérieur à 24 900 euros) sans véhicule à mettre au rebut</h3>
-
-<p>Achat d'une BMW i4 à 58 600 euros :</p>
-<ul>
-<li>Bonus écologique : 0 euro (prix supérieur à 47 000 euros)</li>
-<li>Prime à la conversion : 0 euro (revenus trop élevés)</li>
-<li>Prime CEE : 500 euros (pas de condition de revenus sur certaines offres)</li>
-<li><strong>Total des aides : 500 euros</strong></li>
-<li><strong>Prix effectif : 58 100 euros</strong></li>
-</ul>
-
-<h2>Les démarches pratiques : un guide pas à pas</h2>
-
-<h3>Avant l'achat</h3>
-
-<ol>
-<li><strong>Vérifiez votre RFR/part</strong> sur votre dernier avis d'imposition (ligne « Revenu fiscal de référence ») et divisez par le nombre de parts fiscales du foyer.</li>
-<li><strong>Vérifiez l'éligibilité du modèle</strong> au bonus sur la liste officielle ADEME (ecologie.gouv.fr).</li>
-<li><strong>Identifiez toutes les aides régionales et locales</strong> disponibles dans votre territoire (jechangemavoiture.gouv.fr).</li>
-<li><strong>Comparez les primes CEE</strong> chez les principaux fournisseurs d'énergie et inscrivez-vous si nécessaire AVANT la commande.</li>
-<li><strong>Simulez le cumul total</strong> de vos aides pour connaître votre prix effectif.</li>
-</ol>
-
-<h3>Au moment de l'achat</h3>
-
-<ol>
-<li><strong>Demandez au concessionnaire</strong> d'avancer le bonus écologique et la prime à la conversion (déduction directe sur la facture). La plupart des concessionnaires le font.</li>
-<li><strong>Faites détruire votre ancien véhicule</strong> dans un centre VHU agréé et conservez précieusement le certificat de destruction.</li>
-<li><strong>Récupérez tous les documents</strong> : facture d'achat, certificat d'immatriculation (carte grise), certificat de conformité, et le cas échéant le contrat de location (LOA/LLD).</li>
-</ol>
-
-<h3>Après l'achat</h3>
-
-<ol>
-<li><strong>Déposez votre demande de prime à la conversion</strong> sur primealaconversion.gouv.fr si le concessionnaire ne l'a pas avancée. Délai : 6 mois maximum après la facturation.</li>
-<li><strong>Envoyez votre dossier de prime CEE</strong> à l'opérateur choisi, avec copie de la carte grise du nouveau véhicule.</li>
-<li><strong>Déposez votre demande d'aide régionale/locale</strong> sur le site de votre collectivité, avec les pièces justificatives demandées.</li>
-<li><strong>Déclarez le crédit d'impôt borne</strong> lors de votre prochaine déclaration de revenus si vous avez installé une wallbox.</li>
-<li><strong>Conservez tous les justificatifs</strong> pendant au moins 3 ans (contrôles possibles par l'administration).</li>
-</ol>
-
-<h2>Les pièges à éviter et les erreurs fréquentes</h2>
-
-<ul>
-<li><strong>Ne pas vérifier le score environnemental</strong> : acheter un modèle non éligible au bonus (assemblé en Chine) fait perdre 4 000 à 7 000 euros d'aides.</li>
-<li><strong>Dépasser le délai de 6 mois</strong> : toute demande de bonus ou de prime déposée après le délai de 6 mois suivant la facturation est irrecevable, sans exception.</li>
-<li><strong>Oublier les primes CEE</strong> : ces primes de 500 à 1 500 euros sont souvent ignorées par les acheteurs et rarement mentionnées par les concessionnaires.</li>
-<li><strong>Ne pas vérifier les aides locales</strong> : certaines aides régionales ou communales sont très généreuses (jusqu'à 6 000 euros à Paris ou en Île-de-France) mais peu médiatisées.</li>
-<li><strong>Revendre trop tôt</strong> : la revente du véhicule avant 1 an ou 6 000 km oblige au remboursement intégral de toutes les aides perçues.</li>
-<li><strong>Dépasser le plafond de cumul</strong> : le total des aides ne peut pas dépasser 80 % du prix d'acquisition TTC. Si vos aides cumulées dépassent ce seuil, les montants seront réduits proportionnellement.</li>
-</ul>
-
-<h2>Perspectives : évolution des aides en 2026</h2>
-
-<p>Le gouvernement a annoncé une revue du dispositif d'aides pour 2026, avec plusieurs tendances probables : un recentrage du bonus sur les ménages modestes et intermédiaires (les ménages aisés resteraient exclus), une possible baisse du montant du bonus standard à 3 000 euros si les objectifs de ventes sont atteints, un renforcement du leasing social avec un objectif de 100 000 dossiers par an, et un durcissement des critères de score environnemental pour favoriser davantage la production européenne. Anticiper votre achat en 2026, tant que les aides sont à leur niveau actuel, peut vous faire économiser 1 000 à 2 000 euros par rapport à un achat reporté en 2026.</p>`,
+<p>Sources : service-public.gouv.fr, fiches F39188 (prime coup de pouce, vérifiée le 9 octobre 2026), F39280 (leasing social 2026, vérifiée le 31 juillet 2026) et F35578 (crédit d'impôt borne, vérifiée le 15 avril 2026) ; economie.gouv.fr (prime à la conversion).</p>`,
     faq: [
-      { question: "Comment fonctionne le bonus écologique 2026 ?", answer: "Le bonus écologique est la pierre angulaire du dispositif d'aide à l'achat d'un véhicule électrique neuf en France. Son montant a évolué au fil des années, passant de 6 000 euros en 2022 à 5 000 euros en 2023-2024, puis à 4 000 euros en 2025 pour les particuliers dont le revenu fiscal de référence par part (RFR/part) dépasse 15 400 euros." },
-      { question: "Comment fonctionne le leasing social à 100 euros par mois ?", answer: "Le dispositif de leasing social, lancé en janvier 2024 et reconduit en 2026, est une initiative unique en Europe qui permet aux ménages modestes de louer une voiture électrique neuve à partir de 54 euros par mois pour les modèles les plus accessibles (Citroën e-C3), et autour de 100 euros par mois pour les modèles comme la Renault 5 E-Tech ou la Peugeot e-208." },
-      { question: "Comment fonctionne la prime à la conversion ?", answer: "La prime à la conversion est une aide supplémentaire versée en cas de mise au rebut (destruction définitive) d'un ancien véhicule polluant. Cette prime est cumulable avec le bonus écologique, créant un effet de levier considérable. Ménages très modestes (RFR/part inférieur ou égal à 7 100 euros) : 5 000 euros pour l'achat d'un VE, plus 1 000 euros de surprime si le demandeur habite ou travaille en ZFE, soit 6 000 euros au total." },
-      { question: "En quoi consistent les primes CEE (Certificats d'Économies d'Énergie) ?", answer: "Les primes CEE constituent un mécanisme moins connu mais potentiellement lucratif. Les fournisseurs d'énergie (EDF, TotalEnergies, Engie, Eni) et certains distributeurs spécialisés sont tenus par la loi de financer des actions d'économies d'énergie. L'acquisition d'un véhicule électrique étant considérée comme une action d'économie d'énergie (remplacement d'un véhicule polluant par un véhicule efficace), ces acteurs proposent des primes financées par les CEE." },
-      { question: "En quoi consistent les aides régionales et locales ?", answer: "La France est un pays de décentralisation, et de nombreuses collectivités territoriales ont mis en place des aides complémentaires aux dispositifs nationaux. Ces aides sont cumulables avec le bonus et la prime à la conversion, dans la limite de 80 % du coût d'acquisition total." },
-      { question: "Que faut-il savoir sur l'aide à l'installation d'une borne de recharge à domicile ?", answer: "La recharge à domicile est le mode de recharge le plus économique et le plus pratique. L'État et les collectivités encouragent l'installation de bornes à travers plusieurs dispositifs complémentaires. Le crédit d'impôt pour l'installation d'un système de charge pour véhicule électrique est fixé à 300 euros par point de charge (plafonné à 75 % du montant des dépenses TTC, incluant matériel et pose)." },
+      { question: "Le bonus écologique existe-t-il encore en 2026 ?", answer: `Non. Depuis le ${COUP_DE_POUCE.depuis}, il est remplacé par la prime coup de pouce Véhicules particuliers électriques, financée par les certificats d'économies d'énergie. Elle concerne les voitures neuves 100 % électriques d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC ayant un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points. Son montant n'est pas fixé par l'État : il dépend de l'offre de l'entreprise qui la verse.` },
+      { question: "Combien coûte le leasing social en 2026 ?", answer: `Le loyer est de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, hors assurance et options, sans apport, sur au moins ${LEASING_SOCIAL.dureeMinAns} ans. Chaque professionnel doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} ou moins. Il faut un revenu fiscal de référence par part d'au plus ${eur(LEASING_SOCIAL.rfrParPartMax)} et un trajet domicile-travail de plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km, ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour le travail.` },
+      { question: "La prime à la conversion existe-t-elle encore ?", answer: `Non pour l'achat d'une voiture : elle a été supprimée le ${PRIME_CONVERSION.supprimeeLe} par le ${PRIME_CONVERSION.decret}. Mettre au rebut un ancien véhicule n'ouvre plus d'aide nationale. Seule la prime au rétrofit subsiste, pour transformer un véhicule thermique en électrique. Quelques collectivités gardent une aide liée à la mise au rebut.` },
+      { question: "Quel est le montant de la prime coup de pouce CEE ?", answer: "Il n'existe pas de montant unique. La prime dépend du volume de certificats généré par l'achat, de leur valeur sur le marché, de la politique de l'entreprise signataire et d'une bonification plus forte pour les ménages modestes, les gros rouleurs et les voitures produites en Europe. Comparez plusieurs offres d'entreprises signataires avant de signer le bon de commande." },
+      { question: "Peut-on encore avoir un crédit d'impôt pour une borne de recharge ?", answer: `Seulement pour une borne pilotable payée au plus tard le ${CREDIT_IMPOT_BORNE.finDepenses} : ${Math.round(CREDIT_IMPOT_BORNE.taux * 100)} % de la dépense, au plus ${eur(CREDIT_IMPOT_BORNE.plafond)} par système, à déclarer en 2026. Le crédit d'impôt est supprimé pour les dépenses payées depuis le 1er janvier 2026.` },
+      { question: "Les aides régionales se cumulent-elles avec la prime coup de pouce ?", answer: "Souvent, mais pas toujours : chaque collectivité fixe ses règles, ses plafonds de revenus et parfois une condition de résidence en zone à faibles émissions. Les dispositifs changent fréquemment et certains ferment faute de budget. Vérifiez sur le site de votre région et de votre intercommunalité au moment de l'achat." },
     ],
   },
 

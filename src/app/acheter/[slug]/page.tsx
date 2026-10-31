@@ -280,7 +280,7 @@ export default async function PageAcheter({ params }: Props) {
           <ul>
             <li>
               <a
-                href="https://www.service-public.fr/particuliers/vosdroits/F34014"
+                href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39188"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -307,7 +307,7 @@ export default async function PageAcheter({ params }: Props) {
             </li>
             <li>
               <a
-                href="https://www.service-public.fr/particuliers/vosdroits/F34014"
+                href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39188"
                 target="_blank"
                 rel="noopener noreferrer"
               >

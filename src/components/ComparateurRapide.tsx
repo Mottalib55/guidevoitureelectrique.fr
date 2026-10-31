@@ -28,7 +28,7 @@ const specs: { label: string; render: (m: Modele) => string }[] = [
   { label: "Coffre", render: (m) => `${m.coffre} L` },
   { label: "Poids", render: (m) => `${m.poids} kg` },
   { label: "Puissance", render: (m) => `${m.puissanceCh} ch (${dec(m.puissanceKw)} kW)` },
-  { label: "Bonus écologique", render: (m) => m.aidesEligible ? "Éligible" : "Non éligible" },
+  { label: "Prime coup de pouce CEE", render: (m) => m.aidesEligible ? "Éligible" : "Non éligible" },
   { label: "Note", render: (m) => `${m.note}/10` },
 ];
 

@@ -8,6 +8,7 @@ import { modeles } from "@/data/modeles";
 import FinancementVE from "@/components/FinancementVE";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, eur } from "@/data/aides-2026";
 
 export default function PageFinancement() {
   const [selectedSlug, setSelectedSlug] = useState(modeles[0].slug);
@@ -114,10 +115,10 @@ export default function PageFinancement() {
             L&apos;achat au comptant reste la solution la moins coûteuse sur le papier : vous payez le prix du véhicule en une seule fois, sans aucun intérêt ni frais de dossier. Vous êtes immédiatement propriétaire et libre de revendre le véhicule quand vous le souhaitez, sans pénalité. C&apos;est aussi la formule la plus simple administrativement : pas de mensualités a suivre, pas de contrat à gérer, pas de conditions sur le kilométrage ou l&apos;état du véhicule.
           </p>
           <p>
-            <strong>Scénario concret :</strong> Prenons l&apos;exemple d&apos;une Renault 5 E-Tech a 25 000 euros. Après déduction du bonus écologique de 4 000 euros, vous débourserez 21 000 euros en une seule fois. Sur 4 ans, avec une décote estimée a 48 %, la valeur résiduelle sera d&apos;environ 13 000 euros. Votre coût net de possession (hors recharge, assurance et entretien) sera donc de 8 000 euros sur 4 ans, soit 167 euros par mois. C&apos;est le scénario le plus favorable.
+            <strong>Scénario concret :</strong> Prenons l&apos;exemple d&apos;une Renault 5 E-Tech a 25 000 euros, sans aide à l&apos;achat (la prime coup de pouce CEE, qui a remplacé le bonus écologique, n&apos;a pas de montant fixe : déduisez celle de l&apos;offre que vous recevez). Vous débourserez 25 000 euros en une seule fois. Sur 4 ans, avec une décote estimée a 48 %, la valeur résiduelle sera d&apos;environ 13 000 euros. Votre coût net de possession (hors recharge, assurance et entretien) sera donc de 12 000 euros sur 4 ans, soit 250 euros par mois. C&apos;est le scénario le plus favorable.
           </p>
           <p>
-            Cependant, l&apos;achat comptant a un coût d&apos;opportunité souvent négligé. Si vous placez ces 21 000 euros sur un livret d&apos;épargne a 3 % net, vous gênerez 630 euros de rendement annuel, soit 2 520 euros sur 4 ans. En intégrant ce manque à gagner, l&apos;écart avec un crédit a taux bas se réduit considérablement. C&apos;est pourquoi certains experts financiers recommandent le crédit même quand on dispose de la trésorerie, a condition de trouver un taux inférieur au rendement de son épargne.
+            Cependant, l&apos;achat comptant a un coût d&apos;opportunité souvent négligé. Si vous placez ces 25 000 euros a 2 % net, vous gagnerez 500 euros par an, soit 2 000 euros sur 4 ans. En intégrant ce manque à gagner, l&apos;écart avec un crédit a taux bas se réduit considérablement. C&apos;est pourquoi certains experts financiers recommandent le crédit même quand on dispose de la trésorerie, a condition de trouver un taux inférieur au rendement de son épargne.
           </p>
 
           <h2>Crédit auto : devenir propriétaire a crédit, une stratégie parfois gagnante</h2>
@@ -135,7 +136,7 @@ export default function PageFinancement() {
             <li><strong>Boursorama - Prêt Personnel (sans affectation) :</strong> à partir de 2,5 % TAEG, utilisable pour un VE</li>
           </ul>
           <p>
-            <strong>Scénario concret :</strong> Pour une Peugeot e-308 a 37 000 euros, avec un apport de 5 000 euros et un bonus de 4 000 euros, vous empruntez 28 000 euros. A un taux vert de 3,0 % sur 48 mois, vos mensualités seront de 620 euros et le coût total du crédit s&apos;élèvera a 29 760 euros, soit 1 760 euros d&apos;intérêts. Sur la même période, le véhicule vaudra encore environ 19 240 euros (décote de 48 %). Votre coût net de possession : 37 000 - 4 000 + 1 760 - 19 240 = 15 520 euros sur 4 ans, soit 323 euros par mois.
+            <strong>Scénario concret :</strong> Pour une Peugeot e-308 a 37 000 euros, avec un apport de 5 000 euros et sans aide à l&apos;achat, vous empruntez 32 000 euros. A un taux vert de 3,0 % sur 48 mois, vos mensualités seront de 708 euros et le coût total du crédit s&apos;élèvera a 33 998 euros, soit 1 998 euros d&apos;intérêts. Sur la même période, le véhicule vaudra encore environ 19 240 euros (décote de 48 %). Votre coût net de possession : 37 000 + 1 998 - 19 240 = 19 758 euros sur 4 ans, soit 412 euros par mois.
           </p>
 
           <h3>Les pieges à éviter avec le crédit auto</h3>
@@ -202,10 +203,10 @@ export default function PageFinancement() {
 
           <h2>Le leasing social : une option pour les ménages modestes</h2>
           <p>
-            Depuis 2024, le gouvernement français a mis en place le <strong>leasing social</strong>, un dispositif permettant aux ménages les plus modestes de louer une voiture électrique neuve à partir de 100 euros par mois. Ce dispositif, reconduit en 2025 et 2026, s&apos;adresse aux foyers dont le revenu fiscal de référence par part est inférieur a 15 400 euros.
+            Le <strong>leasing social</strong> permet aux ménages modestes qui ont besoin de leur voiture pour travailler de louer une électrique neuve pour {eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, sans apport. L&apos;édition 2026, ouverte le {LEASING_SOCIAL.ouverture}, s&apos;adresse aux foyers dont le revenu fiscal de référence par part ne dépasse pas {eur(LEASING_SOCIAL.rfrParPartMax)}, avec un trajet domicile-travail de plus de {LEASING_SOCIAL.distanceDomicileTravailMinKm} km ou plus de {LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour le travail.
           </p>
           <p>
-            Les véhicules proposés dans le cadre du leasing social sont assemblés en Europe et respectent un score environnemental minimum. En 2026, les modèles éligibles incluent notamment la Renault 5 E-Tech, la Citroen e-C3, la Fiat 500e et la Peugeot e-208. Les contrats sont conclus en LOA sur 36 mois avec un forfait de 12 000 km/an. L&apos;opération est encadrée par l&apos;État, avec des lots attribues aux constructeurs participants.
+            Les véhicules proposés figurent sur une liste officielle : voitures neuves 100 % électriques, score environnemental d&apos;au moins {COUP_DE_POUCE.scoreEnvironnementalMin} points, moins de {LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg. Les contrats, en LOA ou en LLD, durent au moins {LEASING_SOCIAL.dureeMinAns} ans avec au moins {LEASING_SOCIAL.kmInclusAnMin.toLocaleString("fr-FR")} km par an inclus. L&apos;aide de l&apos;État, déduite du premier loyer, vaut {Math.round(LEASING_SOCIAL.aideTaux * 100)} % du prix dans la limite de {eur(LEASING_SOCIAL.aidePlafond)} ({eur(LEASING_SOCIAL.aidePlafondEurope)} pour une voiture produite en Europe).
           </p>
 
           <h2>Conseils pratiques pour négocier votre financement</h2>
@@ -216,7 +217,7 @@ export default function PageFinancement() {
             <li><strong>Comparez toujours au moins 3 offres</strong> provenant de sources différentes : le concessionnaire, votre banque principale, et un courtier en ligne. Les écarts de taux peuvent atteindre 2 points de pourcentage.</li>
             <li><strong>Négociez le prix du véhicule avant de parler financement</strong>. Les concessionnaires récupèrent souvent une partie de la remise accordée sur le véhicule via une marge sur le financement.</li>
             <li><strong>Privilégiez un apport de 20 a 30 %</strong> pour obtenir les meilleurs taux et réduire le coût total du financement.</li>
-            <li><strong>Intégrez le bonus écologique et la prime à la conversion</strong> dans votre plan de financement : ces aides réduisent directement le montant à financer.</li>
+            <li><strong>Intégrez la prime coup de pouce CEE</strong> dans votre plan de financement : comparez les offres avant de signer, car son montant varie d&apos;une entreprise à l&apos;autre. La prime à la conversion, elle, a été supprimée le {PRIME_CONVERSION.supprimeeLe}.</li>
             <li><strong>Si vous hésitez entre LOA et crédit</strong>, comparez sur la base d&apos;un coût total identique (mêmes durée, kilométrage et apport). Le crédit est généralement moins cher si vous gardez le véhicule, la LOA si vous le restituez.</li>
           </ul>
 
@@ -225,7 +226,7 @@ export default function PageFinancement() {
             Notre calculateur utilisé des valeurs calibrées sur le marché français 2026 :
             TAEG crédit de 4,9 % (taux moyen constate pour un crédit auto standard), décote VE de 48 % sur 4 ans
             (les véhicules électriques decotent encore plus vite que les thermiques en raison de l&apos;évolution rapide de la technologie),
-            bonus écologique de 4 000 euros (barème standard 2026), apport de 10 % du prix du véhicule,
+            aucune aide à l&apos;achat par défaut (la prime coup de pouce CEE n&apos;a pas de montant fixe : saisissez celle de votre offre), apport de 10 % du prix du véhicule,
             12 000 km/an (moyenne française) et une durée de 48 mois.
           </p>
           <p>
@@ -255,9 +256,9 @@ export default function PageFinancement() {
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: 16, marginBottom: 12, color: "var(--ink)" }}>Sources et références</h3>
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
             <li>Banque de France : Taux effectifs moyens des crédits auto, T1 2026</li>
-            <li>Ministère de la Transition écologique : Barème du bonus écologique 2026</li>
+            <li>Service-Public.gouv.fr : prime coup de pouce CEE (F39188) et leasing social 2026 (F39280)</li>
             <li>Argus : Valeurs résiduelles et décotes des véhicules électriques, barème 2026</li>
-            <li>ASP (Agence de Services et de Paiement) : Conditions d&apos;attribution du bonus et de la prime à la conversion</li>
+            <li>Economie.gouv.fr : suppression de la prime à la conversion ({PRIME_CONVERSION.decret})</li>
             <li>Fédération Bancaire Française : Statistiques des crédits auto et LOA, 2025</li>
             <li>Données constructeurs : Grilles tarifaires LOA/LLD officielles</li>
           </ul>

@@ -8,11 +8,12 @@ import { pagesGuides } from "@/data/guides";
 import { buildMetadata } from "@/lib/seo";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, CREDIT_IMPOT_BORNE, eur } from "@/data/aides-2026";
 
 export const metadata: Metadata = buildMetadata({
   title: "Voiture électrique 2026 : comparatif, prix et autonomie",
   description:
-    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, bonus écologique. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
+    "Comparez les voitures électriques 2026 : prix, autonomie réelle, recharge rapide, aides 2026. Fiches détaillées, simulateurs LOA/LLD et guides d'achat.",
   path: "/",
 });
 
@@ -249,7 +250,7 @@ export default function HomePage() {
             En 2026, plus de 120 modèles de voitures 100 % électriques sont commercialises en France, couvrant tous les segments du marché. Des citadines compactes comme la Citroen e-C3 ou la Renault 5 E-Tech aux SUV familiaux comme le Tesla Model Y ou le Peugeot e-3008, en passant par les berlines premium et les utilitaires, l&apos;acheteur dispose d&apos;un choix comparable a celui du thermique. Les constructeurs chinois (BYD, MG, Leapmotor, Xpeng) jouent un rôle croissant dans cette diversification, proposant des véhicules compétitifs a des tarifs souvent inférieurs de 15 a 25 % par rapport aux marques européennes équivalentes.
           </p>
           <p>
-            Fait marquant de 2026 : le seuil psychologique des 20 000 euros est désormais accessible avec des modèles neufs comme la Dacia Spring, la Citroen e-C3 (après bonus écologique) ou la Leapmotor T03. Cette démocratisation par le prix constitue le principal moteur de la croissance du marché.
+            Fait marquant de 2026 : le seuil psychologique des 20 000 euros est désormais accessible avec des modèles neufs comme la Dacia Spring, la Citroen e-C3 ou la Leapmotor T03. Cette démocratisation par le prix constitue le principal moteur de la croissance du marché.
           </p>
 
           <h2>Pourquoi passer à la voiture électrique en 2026 ?</h2>
@@ -301,10 +302,10 @@ export default function HomePage() {
 
           <h3>Le budget : prix d&apos;achat et aides disponibles</h3>
           <p>
-            Le prix d&apos;achat reste le principal frein perçu au passage a l&apos;électrique, mais l&apos;écart avec le thermique se réduit considérablement année après année. En 2026, les prix d&apos;entrée se situent autour de 17 000 euros (Dacia Spring) et de nombreux modèles polyvalents se situent entre 25 000 et 35 000 euros. Le bonus écologique, revise au 1er janvier 2026, accorde une aide pouvant atteindre 4 000 euros pour les menages aux revenus les plus modestes, avec un barème dégressif selon le revenu fiscal de référence.
+            Le prix d&apos;achat reste le principal frein perçu au passage a l&apos;électrique, mais l&apos;écart avec le thermique se réduit considérablement année après année. En 2026, les prix d&apos;entrée se situent autour de 17 000 euros (Dacia Spring) et de nombreux modèles polyvalents se situent entre 25 000 et 35 000 euros. Le bonus écologique a laissé place, le {COUP_DE_POUCE.depuis}, à la prime « coup de pouce » CEE : son montant dépend de l&apos;offre de l&apos;entreprise qui la verse, avec une bonification plus forte pour les ménages modestes.
           </p>
           <p>
-            A ces aides nationales s&apos;ajoutent les primes régionales et métropolitaines, ainsi que les dispositifs de leasing social pour les foyers modestes. Le programme de leasing électrique a 100 euros par mois, lance fin 2023 et reconduit sous une forme ajustée en 2026, a permis a des dizaines de milliers de menages d&apos;accéder à la mobilité électrique. Par ailleurs, les formules de LOA et LLD classiques permettent d&apos;accéder a un véhicule électrique à partir de 150 a 200 euros par mois, bonus déduit.
+            A ces aides nationales s&apos;ajoutent les primes régionales et métropolitaines, ainsi que les dispositifs de leasing social pour les foyers modestes. Le leasing social, rouvert le {LEASING_SOCIAL.ouverture}, propose une électrique neuve pour {eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus aux foyers dont le revenu fiscal de référence par part ne dépasse pas {eur(LEASING_SOCIAL.rfrParPartMax)}. Par ailleurs, les formules de LOA et LLD classiques permettent d&apos;accéder a un véhicule électrique à partir de 150 a 200 euros par mois.
           </p>
 
           <h3>La batterie : garantie et durabilité</h3>
@@ -319,7 +320,7 @@ export default function HomePage() {
 
           <h3>Analyse du coût total de possession sur 5 ans</h3>
           <p>
-            Prenons l&apos;exemple concret d&apos;une Renault 5 E-Tech achetée a 25 000 euros (après bonus de 4 000 euros) et parcourant 15 000 km par an pendant 5 ans. Voici le comparatif avec une Renault Clio thermique équivalente :
+            Prenons l&apos;exemple concret d&apos;une Renault 5 E-Tech achetée a 25 000 euros et parcourant 15 000 km par an pendant 5 ans. Voici le comparatif avec une Renault Clio thermique équivalente :
           </p>
           <ul>
             <li><strong>Renault 5 E-Tech :</strong> prix d&apos;achat 25 000 euros, énergie 2 250 euros (5 ans), entretien 1 500 euros, assurance 4 500 euros, total 33 250 euros, valeur résiduelle estimée 14 000 euros, coût net 19 250 euros.</li>
@@ -351,14 +352,14 @@ export default function HomePage() {
 
           <h2>Les aides a l&apos;achat d&apos;une voiture électrique en 2026</h2>
           <p>
-            Le dispositif d&apos;aides français pour l&apos;achat de voitures électriques a ete ajuste au 1er janvier 2026. Voici les principales mesures en vigueur :
+            Le dispositif d&apos;aides français a profondément changé depuis fin 2024. Voici les mesures en vigueur fin 2026 :
           </p>
           <ul>
-            <li><strong>Bonus écologique :</strong> jusqu&apos;a 4 000 euros pour un véhicule neuf dont le prix est inférieur a 47 000 euros, sous conditions de score environnemental et de revenu fiscal de référence.</li>
-            <li><strong>Prime à la conversion :</strong> jusqu&apos;a 5 000 euros supplémentaires pour la mise au rebut d&apos;un ancien véhicule polluant (Crit&apos;Air 3 ou plus), cumulable avec le bonus écologique.</li>
-            <li><strong>Leasing social :</strong> le dispositif de leasing à partir de 100 euros par mois a ete reconduit sous une forme ajustée, avec un quota de véhicules élargi et des critères d&apos;éligibilité adaptes.</li>
-            <li><strong>Crédit d&apos;impôt borne de recharge :</strong> 300 euros pour l&apos;installation d&apos;une wallbox à domicile.</li>
-            <li><strong>Aides locales :</strong> de nombreuses régions, départements et métropoles complètent les aides nationales avec des primes pouvant atteindre 2 000 a 6 000 euros selon le territoire et les conditions de ressources.</li>
+            <li><strong>Prime coup de pouce CEE :</strong> elle remplace le bonus écologique depuis le {COUP_DE_POUCE.depuis}, pour une voiture neuve d&apos;au plus {eur(COUP_DE_POUCE.prixMaxTTC)} TTC ayant un score environnemental d&apos;au moins {COUP_DE_POUCE.scoreEnvironnementalMin} points. Son montant n&apos;est pas fixé par l&apos;État : il dépend de l&apos;offre de l&apos;entreprise qui la verse.</li>
+            <li><strong>Prime à la conversion :</strong> supprimée le {PRIME_CONVERSION.supprimeeLe} ; la mise au rebut d&apos;un ancien véhicule n&apos;ouvre plus d&apos;aide nationale.</li>
+            <li><strong>Leasing social 2026 :</strong> loyer de {eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, sans apport, pour un revenu fiscal de référence par part d&apos;au plus {eur(LEASING_SOCIAL.rfrParPartMax)} et un trajet domicile-travail de plus de {LEASING_SOCIAL.distanceDomicileTravailMinKm} km.</li>
+            <li><strong>Crédit d&apos;impôt borne de recharge :</strong> {eur(CREDIT_IMPOT_BORNE.plafond)} au plus, seulement pour les dépenses payées jusqu&apos;au {CREDIT_IMPOT_BORNE.finDepenses} ; supprimé ensuite.</li>
+            <li><strong>Aides locales :</strong> certaines régions, départements et métropoles complètent les aides nationales ; leurs montants et conditions changent souvent.</li>
           </ul>
 
           <h2>Les zones a faibles émissions (ZFE) : un accélérateur de la transition</h2>
@@ -410,7 +411,7 @@ export default function HomePage() {
             <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
               <li>Avere-France : Baromètre mensuel des immatriculations de véhicules électriques, 2025-2026</li>
               <li>Plateforme Automobile (PFA) : Tableaux de bord du marché automobile français, 2024-2026</li>
-              <li>Ministère de la Transition écologique : Barème du bonus écologique 2026 et conditions d&apos;éligibilité</li>
+              <li>Service-Public.gouv.fr : prime coup de pouce CEE (F39188) et leasing social 2026 (F39280)</li>
               <li>ADEME : Avis technique sur les émissions de CO₂ des véhicules électriques sur le cycle de vie, 2023</li>
               <li>RTE : Bilan électrique de la France 2025, mix énergétique et facteur d&apos;émission</li>
               <li>Commission européenne : Règlement (UE) 2023/851 sur les normes CO₂ des véhicules neufs</li>

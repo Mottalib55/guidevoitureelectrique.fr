@@ -12,6 +12,7 @@ import FinancementVE from "@/components/FinancementVE";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
 import { dec } from "@/lib/format";
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, eur } from "@/data/aides-2026";
 
 function formatChargeTime(hours: number): string {
   if (hours < 1) {
@@ -118,10 +119,10 @@ function getFaqs(m: ReturnType<typeof getModeleBySlug>) {
       answer: `En charge rapide DC (${dec(m.chargeRapideKw)} kW au maximum) : ${m.tempsChargeRapide}. En charge AC sur borne publique ou wallbox domestique : ${m.tempsChargeAC}. Avec une batterie de ${dec(m.batterieKwh)} kWh, une charge complète à domicile au tarif heures creuses (0,20 €/kWh) revient à environ ${Math.round(m.batterieKwh * 0.2)} €, contre deux à trois fois plus sur une borne rapide d'autoroute, où le kilowattheure dépasse souvent 0,55 €.`,
     },
     {
-      question: `La ${m.modele} est-elle éligible au bonus écologique ?`,
+      question: `La ${m.modele} ouvre-t-elle droit à la prime coup de pouce CEE ?`,
       answer: m.aidesEligible
-        ? `Oui, la ${m.modele} est éligible au bonus écologique de 4 000 € en 2026. Le bonus dépend du score environnemental du véhicule, qui tient compte du lieu de production et du transport, et d'un prix catalogue inférieur à 47 000 €. Sur un prix de départ de ${euro(m.prixBase)}, il ramène la facture à ${euro(Math.max(0, m.prixBase - 4000))}, avant la prime à la conversion éventuelle et les aides de votre région.`
-        : `Non, la ${m.modele} n'est pas éligible au bonus écologique, principalement à cause de son lieu de fabrication (${m.origine === "Chine" ? "Chine" : "hors conditions d'éligibilité"}), qui pèse dans le score environnemental exigé depuis 2024. Le prix reste donc de ${euro(m.prixBase)}. Le leasing social et les aides locales, eux, ne dépendent pas de ce score et peuvent rester accessibles selon votre région et vos revenus.`,
+        ? `Oui, sous réserve que la version choisie figure sur la liste du score environnemental (au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points) et coûte au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC. Cette prime remplace le bonus écologique depuis le ${COUP_DE_POUCE.depuis}. Son montant n'est pas fixé par l'État : il dépend de l'offre de l'entreprise qui la verse et de vos revenus. Comparez les offres avant de signer.`
+        : `Non, la ${m.modele} n'ouvre pas droit à la prime coup de pouce CEE, qui a remplacé le bonus écologique : son score environnemental ou son prix l'en excluent${m.origine === "Chine" ? " (voiture fabriquée en Chine)" : ""}. Le leasing social exige le même score. Seules certaines aides locales peuvent rester accessibles selon votre région et vos revenus.`,
     },
     {
       question: `Quelle est la consommation de la ${m.modele} ?`,
@@ -281,7 +282,7 @@ export default async function PageModele({ params }: Props) {
               <div className="encadre-verdict-val">
                 {m.aidesEligible ? "Oui" : "Non"}
               </div>
-              <div className="encadre-verdict-lbl">Bonus écologique</div>
+              <div className="encadre-verdict-lbl">Prime coup de pouce CEE</div>
             </div>
           </div>
         </div>
@@ -306,8 +307,8 @@ export default async function PageModele({ params }: Props) {
             La {m.modele} est disponible à partir de <strong>{euro(m.prixBase)}</strong> en
             neuf (tarif constructeur, hors options).
             {m.aidesEligible && (
-              <> Après déduction du bonus écologique de 4 000 €, le prix effectif descend
-                à <strong>{euro(m.prixBase - 4000)}</strong>.</>
+              <> La prime coup de pouce CEE, dont le montant dépend de l&apos;offre retenue,
+                vient en déduction.</>
             )}
             {m.prixOccasion && (
               <> Sur le marché de l&apos;occasion, les premiers exemplaires se trouvent à
@@ -555,21 +556,24 @@ export default async function PageModele({ params }: Props) {
             )}
           </p>
 
-          <h2>Aides et bonus écologique</h2>
+          <h2>Aides à l&apos;achat</h2>
           <p>
             {m.aidesEligible ? (
               <>
-                La {m.modele} est <strong>éligible au bonus écologique</strong> de 4 000 €
-                (barème 2026). Elle peut également être éligible au leasing social à
-                100 €/mois (sous conditions de revenus) et à la prime à la conversion si
-                vous mettez au rebut un ancien véhicule thermique Crit&apos;Air 3 ou plus.
+                La {m.modele} ouvre droit à la <strong>prime coup de pouce CEE</strong>, qui
+                remplace le bonus écologique depuis le {COUP_DE_POUCE.depuis}, si la version
+                choisie figure sur la liste du score environnemental. Son montant dépend de
+                l&apos;offre de l&apos;entreprise qui la verse. Si elle figure sur la liste du leasing
+                social 2026, elle peut aussi être louée {eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus,
+                sous conditions de revenus. La prime à la conversion, elle, a été supprimée
+                le {PRIME_CONVERSION.supprimeeLe}.
               </>
             ) : (
               <>
-                La {m.modele} n&apos;est <strong>pas éligible au bonus écologique</strong>{" "}
-                actuellement, en raison de son score environnemental insuffisant
-                {m.origine === "Chine" && " (véhicule fabriqué en Chine)"}. Elle reste
-                éligible à la prime à la conversion sous certaines conditions.
+                La {m.modele} n&apos;ouvre pas droit à la <strong>prime coup de pouce CEE</strong>{" "}
+                (qui remplace le bonus écologique), en raison de son score environnemental
+                ou de son prix{m.origine === "Chine" && " (véhicule fabriqué en Chine)"}. La prime
+                à la conversion, elle, a été supprimée le {PRIME_CONVERSION.supprimeeLe}.
               </>
             )}
           </p>
@@ -627,7 +631,7 @@ export default async function PageModele({ params }: Props) {
                 <tr><td>Coffre</td><td>{m.coffre} litres</td></tr>
                 <tr><td>Poids</td><td>{m.poids} kg</td></tr>
                 <tr><td>Longueur</td><td>{(m.longueur / 1000).toFixed(2).replace('.', ',')} m</td></tr>
-                <tr><td>Bonus écologique</td><td>{m.aidesEligible ? "Éligible (4 000 €)" : "Non éligible"}</td></tr>
+                <tr><td>Prime coup de pouce CEE</td><td>{m.aidesEligible ? "Éligible (montant selon l'offre)" : "Non éligible"}</td></tr>
                 <tr><td>Note</td><td><strong>{m.note}/10</strong></td></tr>
               </tbody>
             </table>
@@ -725,11 +729,11 @@ export default async function PageModele({ params }: Props) {
             </li>
             <li>
               <a
-                href="https://www.service-public.fr/particuliers/vosdroits/F34014"
+                href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39188"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Prime coup de pouce CEE : service-public.gouv.fr
               </a>
             </li>
             <li>

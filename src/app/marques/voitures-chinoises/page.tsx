@@ -378,7 +378,7 @@ export default function PageMarquesChinoises() {
               </a>
             </li>
             <li>
-              <a href="https://www.service-public.fr/particuliers/vosdroits/F34014" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39188" target="_blank" rel="noopener noreferrer">
                 Bonus écologique : service-public.fr
               </a>
             </li>

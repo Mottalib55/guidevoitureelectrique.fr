@@ -17,8 +17,8 @@ export function resumeModele(m: Modele): string {
     ? ` D'occasion, elle se négocie autour de ${euro(m.prixOccasion)}.`
     : " Elle est trop récente pour qu'un marché de l'occasion se soit formé.";
   const aides = m.aidesEligible
-    ? " Elle entre dans le champ du bonus écologique, sous réserve du score environnemental et des conditions de revenus en vigueur."
-    : " Elle n'est pas éligible au bonus écologique, son score environnemental ou son lieu d'assemblage l'en excluant.";
+    ? " Elle entre dans le champ de la prime coup de pouce CEE, qui remplace le bonus écologique, sous réserve du score environnemental de la version choisie."
+    : " Elle n'ouvre pas droit à la prime coup de pouce CEE, qui remplace le bonus écologique, son score environnemental ou son prix l'en excluant.";
 
   return (
     `La ${m.modele} est une ${m.segment.toLowerCase()} électrique de ${m.puissanceCh} ch ` +
@@ -91,7 +91,7 @@ export function resumeMarque(m: Marque, modeles: Modele[]): string {
     ? `Sa gamme électrique compte ${n} modèle${n > 1 ? "s" : ""} disponibles en France, de ` +
       `${euro(prix[0])} à ${euro(prix[prix.length - 1])}, avec des autonomies réelles de ` +
       `${autos[0]} à ${autos[autos.length - 1]} km. ${eligibles} d'entre eux entrent dans le ` +
-      `champ du bonus écologique, les autres en étant exclus par leur score environnemental ou ` +
+      `champ de la prime coup de pouce CEE (ex-bonus écologique), les autres en étant exclus par leur score environnemental ou ` +
       `leur lieu d'assemblage.`
     : "Aucun modèle électrique de la marque n'est actuellement commercialisé en France.";
   return (

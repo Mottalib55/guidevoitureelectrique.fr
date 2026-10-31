@@ -17,7 +17,10 @@ const euro = (n: number) =>
 
 /* ── Valeurs marché françaises 2026 (défaut) ── */
 const DEFAULTS = {
-  bonus: 4000,
+  // Aide à l'achat déduite du prix : 0 par défaut. Le bonus écologique fixe n'existe plus
+  // depuis le 1er juillet 2025 ; la prime coup de pouce CEE qui le remplace n'a pas de
+  // montant réglementaire (service-public F39188) : l'utilisateur saisit l'offre reçue.
+  bonus: 0,
   apportPct: 10,
   mois: 48,
   kmAn: 12000,
@@ -284,7 +287,7 @@ export default function FinancementVE({
       {!editing && (
         <div className="fve-hypo">
           <div className="fve-hypo-text">
-            <strong>Hypothèses :</strong> bonus {euro(bonus)}, apport {hypo.apportPct} % ({euro(apport)}), {kmAn.toLocaleString("fr-FR")} km/an, {annees} ans, TAEG {dec(taeg)} %
+            <strong>Hypothèses :</strong> aide à l&apos;achat {euro(bonus)}, apport {hypo.apportPct} % ({euro(apport)}), {kmAn.toLocaleString("fr-FR")} km/an, {annees} ans, TAEG {dec(taeg)} %
           </div>
           <button className="fve-hypo-btn" onClick={openEditor}>
             <Pencil size={13} />
@@ -298,17 +301,16 @@ export default function FinancementVE({
         <div className="fve-editor">
           <div className="fve-editor-grid">
             <div className="fve-editor-field">
-              <label className="fve-editor-label">Bonus écologique</label>
+              <label className="fve-editor-label">Aide à l&apos;achat (prime CEE, aides locales)</label>
               <input
                 className="fve-editor-input"
                 type="text" inputMode="decimal"
                 min={0}
-                max={7000}
-                step={500}
+                                step={500}
                 value={draft.bonus}
-                onChange={(e) => setDraft({ ...draft, bonus: safeParseNumber(e.target.value, draft.bonus) })}
+                onChange={(e) => setDraft({ ...draft, bonus: safeParseNumber(e.target.value, 0) })}
               />
-              <span className="fve-editor-suffix">€ (0 à 7 000)</span>
+              <span className="fve-editor-suffix">€, montant de l&apos;offre reçue</span>
             </div>
             <div className="fve-editor-field">
               <label className="fve-editor-label">Apport</label>
@@ -319,7 +321,7 @@ export default function FinancementVE({
                 max={100}
                 step={5}
                 value={draft.apportPct}
-                onChange={(e) => setDraft({ ...draft, apportPct: safeParseNumber(e.target.value, draft.apportPct) })}
+                onChange={(e) => setDraft({ ...draft, apportPct: safeParseNumber(e.target.value, 0) })}
               />
               <span className="fve-editor-suffix">% du prix ({euro(prixBase * draft.apportPct / 100)})</span>
             </div>
@@ -332,7 +334,7 @@ export default function FinancementVE({
                 max={40000}
                 step={1000}
                 value={draft.kmAn}
-                onChange={(e) => setDraft({ ...draft, kmAn: safeParseNumber(e.target.value, draft.kmAn) })}
+                onChange={(e) => setDraft({ ...draft, kmAn: safeParseNumber(e.target.value, 0) })}
               />
               <span className="fve-editor-suffix">km/an</span>
             </div>
@@ -345,7 +347,7 @@ export default function FinancementVE({
                 max={72}
                 step={12}
                 value={draft.mois}
-                onChange={(e) => setDraft({ ...draft, mois: safeParseNumber(e.target.value, draft.mois) })}
+                onChange={(e) => setDraft({ ...draft, mois: safeParseNumber(e.target.value, 0) })}
               />
               <span className="fve-editor-suffix">mois ({draft.mois / 12} ans)</span>
             </div>
@@ -358,7 +360,7 @@ export default function FinancementVE({
                 max={15}
                 step={0.1}
                 value={draft.taeg}
-                onChange={(e) => setDraft({ ...draft, taeg: safeParseNumber(e.target.value, draft.taeg) })}
+                onChange={(e) => setDraft({ ...draft, taeg: safeParseNumber(e.target.value, 0) })}
               />
               <span className="fve-editor-suffix">%</span>
             </div>
@@ -430,8 +432,8 @@ export default function FinancementVE({
       </div>
 
       <p className="fve-disc">
-        Estimations indicatives basées sur le marché français 2026 (bonus écologique,
-        taux crédit moyen, décote VE constatée). Le coût total inclut recharge, assurance
+        Estimations indicatives basées sur le marché français 2026 (taux crédit moyen,
+        décote VE constatée). L&apos;aide à l&apos;achat est celle que vous saisissez. Le coût total inclut recharge, assurance
         et entretien. Ne constitue pas un conseil financier.
       </p>
     </div>
