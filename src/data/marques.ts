@@ -1,3 +1,5 @@
+import { COUP_DE_POUCE, LEASING_SOCIAL, eur } from "./aides-2026";
+
 export interface Marque {
   slug: string;
   nom: string;
@@ -35,7 +37,7 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>La gamme électrique Renault est aujourd'hui la plus complète parmi les constructeurs français :</p>
 <ul>
-<li><strong>Renault 5 E-Tech</strong> : la star de la gamme, citadine néo-rétro qui revisite le design iconique de la R5 originale de 1972. Construite sur la plateforme AmpR Small, elle est proposée avec une batterie de 40 kWh (300 km WLTP) ou 52 kWh (400 km WLTP). Motorisation de 120 ou 150 ch. Charge DC jusqu'à 100 kW. Design signé Gilles Vidal, intérieur coloré et personnalisable. Prix à partir d'environ 25 000 € (après bonus écologique), ce qui en fait l'une des citadines électriques les plus abordables du marché. Produite à l'usine de Douai (Nord). Éligible au bonus écologique et au leasing social.</li>
+<li><strong>Renault 5 E-Tech</strong> : la star de la gamme, citadine néo-rétro qui revisite le design iconique de la R5 originale de 1972. Construite sur la plateforme AmpR Small, elle est proposée avec une batterie de 40 kWh (300 km WLTP) ou 52 kWh (400 km WLTP). Motorisation de 120 ou 150 ch. Charge DC jusqu'à 100 kW. Design signé Gilles Vidal, intérieur coloré et personnalisable. Prix catalogue à partir d'environ 25 000 €, ce qui en fait l'une des citadines électriques les plus abordables du marché. Produite à l'usine de Douai (Nord). Éligible à la prime coup de pouce CEE ; ses dimensions et son prix respectent les plafonds du leasing social.</li>
 <li><strong>Renault 4 E-Tech</strong> : petit SUV/crossover néo-rétro qui reprend l'esprit aventurier de la Renault 4L originale. Construite sur la même plateforme AmpR Small que la R5, la R4 offre un gabarit légèrement plus grand (4,14 m), une garde au sol rehaussée et un coffre plus volumineux. Batterie de 52 kWh, autonomie d'environ 400 km WLTP. Prix à partir d'environ 28 000 €. Produite à Maubeuge (Nord).</li>
 <li><strong>Renault Scénic E-Tech</strong> : SUV familial sur la plateforme AmpR Medium, élu Voiture de l'Année 2024 en Europe. Disponible en versions 60 kWh (420 km WLTP) et 87 kWh (jusqu'à 625 km WLTP, l'une des meilleures autonomies du segment). Charge DC jusqu'à 150 kW. Intérieur spacieux et modulable avec le système OpenR Link basé sur Android Automotive et Google intégré nativement. Prix à partir d'environ 35 000 €. Produit à Douai.</li>
 <li><strong>Renault Mégane E-Tech</strong> : compacte électrique sur la plateforme AmpR Medium, avec un format surélevé de type crossover. Batterie de 40 kWh (300 km WLTP) ou 60 kWh (450 km WLTP). Charge DC jusqu'à 130 kW. Système OpenR Link avec Google intégré. Prix à partir d'environ 33 000 €. Produite à Douai.</li>
@@ -49,7 +51,7 @@ export const marques: Marque[] = [
 <li><strong>Maubeuge (Nord)</strong> : production de la Renault 4 E-Tech et de véhicules utilitaires électriques.</li>
 <li><strong>Ruitz (Pas-de-Calais)</strong> : production de moteurs électriques et de composants de transmission.</li>
 </ul>
-<p>Ce pôle industriel représente un investissement de plus de 1,2 milliard d'euros et emploie environ 9 000 personnes. La production française garantit l'éligibilité au bonus écologique et au leasing social, un avantage concurrentiel majeur sur le marché français face aux constructeurs chinois et aux modèles produits hors d'Europe.</p>
+<p>Ce pôle industriel représente un investissement de plus de 1,2 milliard d'euros et emploie environ 9 000 personnes. La production française permet de prétendre à la prime coup de pouce CEE et au leasing social, un avantage concurrentiel majeur sur le marché français face aux constructeurs chinois et aux modèles produits hors d'Europe.</p>
 
 <h3>Technologies et logiciels</h3>
 <p>Renault a investi massivement dans les technologies logicielles et embarquées :</p>
@@ -73,7 +75,7 @@ export const marques: Marque[] = [
 <h3>Forces et faiblesses</h3>
 <p><strong>Forces de Renault dans l'électrique :</strong></p>
 <ul>
-<li><strong>Production française</strong> : l'ancrage industriel dans le Nord de la France garantit l'éligibilité au bonus écologique et au leasing social, un avantage concurrentiel décisif.</li>
+<li><strong>Production française</strong> : l'ancrage industriel dans le Nord de la France permet de prétendre à la prime coup de pouce CEE et au leasing social, un avantage concurrentiel décisif.</li>
 <li><strong>Accessibilité tarifaire</strong> : avec la R5 à partir de 25 000 € et la future Twingo à moins de 20 000 €, Renault propose les voitures électriques les plus abordables produites en Europe.</li>
 <li><strong>Expérience de la ZOE</strong> : plus d'une décennie d'expérience dans la vente et le SAV de voitures électriques donne à Renault un avantage en termes de savoir-faire et de retour d'expérience.</li>
 <li><strong>Design émotionnel</strong> : les R5 et R4, avec leur design néo-rétro, suscitent un engouement émotionnel qui va au-delà de la simple rationalité automobile.</li>
@@ -90,7 +92,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Renault occupe une position de leader naturel sur le marché français de la voiture électrique, porté par la production nationale, les aides gouvernementales et la force du réseau de concessionnaires. La Renault 5 E-Tech est en passe de devenir la voiture électrique la plus vendue en France en 2026, bénéficiant d'un engouement populaire comparable à celui de la ZOE lors de son lancement. L'éligibilité au leasing social (à partir de 100 à 150 €/mois pour les ménages modestes) constitue un levier de démocratisation puissant.</p>
+<p>Renault occupe une position de leader naturel sur le marché français de la voiture électrique, porté par la production nationale, les aides gouvernementales et la force du réseau de concessionnaires. La Renault 5 E-Tech est en passe de devenir la voiture électrique la plus vendue en France en 2026, bénéficiant d'un engouement populaire comparable à celui de la ZOE lors de son lancement. Le leasing social 2026 (loyer plafonné à ${LEASING_SOCIAL.loyerMaxMois} € par mois pour les ménages modestes qui roulent pour leur travail) constitue un levier de démocratisation puissant.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <p>Renault prépare activement la prochaine phase de son offensive électrique :</p>
@@ -165,7 +167,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Gamme complète</strong> : de la citadine au grand SUV 7 places, Peugeot couvre tous les segments avec des véhicules électriques, une rareté parmi les constructeurs généralistes.</li>
 <li><strong>Design et finition</strong> : la montée en gamme de Peugeot se traduit par des intérieurs soignés, des matériaux de qualité et un design extérieur parmi les plus séduisants du marché.</li>
-<li><strong>Production française</strong> : le e-3008 (Sochaux), le e-5008 (Rennes) et la e-308 (Mulhouse) sont produits en France, garantissant l'éligibilité au bonus écologique.</li>
+<li><strong>Production française</strong> : le e-3008 (Sochaux), le e-5008 (Rennes) et la e-308 (Mulhouse) sont produits en France, ce qui permet de prétendre à la prime coup de pouce CEE pour les versions d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)}.</li>
 <li><strong>i-Cockpit</strong> : le poste de conduite Peugeot est l'un des plus ergonomiques et des plus appréciés du marché.</li>
 <li><strong>Autonomie du e-3008</strong> : avec 700 km WLTP en version Long Range, le e-3008 est l'un des SUV électriques les plus endurants du marché.</li>
 <li><strong>Réseau de concessionnaires</strong> : environ 350 points de vente en France assurent une couverture territoriale complète.</li>
@@ -222,7 +224,7 @@ export const marques: Marque[] = [
 <p>Citroën propose une gamme électrique centrée sur l'accessibilité et la praticité :</p>
 <ul>
 <li><strong>Citroën Ami</strong> : quadricycle électrique ultra-compact de 2,41 m, la plus petite voiture électrique du marché. Accessible dès 14 ans (avec le BSR), 2 places, vitesse maximale de 45 km/h, autonomie de 75 km. Batterie de 5,5 kWh rechargeable sur une prise domestique standard en 3 heures. Idéale pour les trajets urbains courts. Prix à partir de 7 990 € ou en location longue durée à partir de 19,99 €/mois. Également disponible en versions Ami Cargo (utilitaire), Ami Buggy (baroudeur) et Ami Pop (colorée). Produite au Maroc.</li>
-<li><strong>Citroën ë-C3</strong> : citadine électrique compacte (4,01 m) sur la plateforme Smart Car de Stellantis. Motorisation de 113 ch, batterie LFP de 44 kWh, autonomie de 320 km WLTP. Charge DC jusqu'à 100 kW (20 à 80 % en 26 minutes). Intérieur épuré mais bien équipé avec un écran tactile de 10,25 pouces. Sièges Advanced Comfort de série. Prix à partir de 23 300 €, le tarif le plus bas pour une voiture électrique 5 places en France. Produite en Slovaquie. Éligible au bonus écologique et au leasing social.</li>
+<li><strong>Citroën ë-C3</strong> : citadine électrique compacte (4,01 m) sur la plateforme Smart Car de Stellantis. Motorisation de 113 ch, batterie LFP de 44 kWh, autonomie de 320 km WLTP. Charge DC jusqu'à 100 kW (20 à 80 % en 26 minutes). Intérieur épuré mais bien équipé avec un écran tactile de 10,25 pouces. Sièges Advanced Comfort de série. Prix à partir de 23 300 €, le tarif le plus bas pour une voiture électrique 5 places en France. Produite en Slovaquie. Éligible à la prime coup de pouce CEE ; ses dimensions et son prix respectent les plafonds du leasing social.</li>
 <li><strong>Citroën ë-C3 Aircross</strong> : SUV compact 7 places (4,39 m) sur la même plateforme Smart Car que la ë-C3. Batterie LFP de 44 kWh, autonomie d'environ 300 km WLTP. Un SUV familial électrique à prix très contenu (à partir d'environ 27 000 €). L'un des rares véhicules électriques 7 places à moins de 30 000 €. Produit en Espagne.</li>
 <li><strong>Citroën ë-C4 / ë-C4 X</strong> : compacte électrique (berline surélevée et berline longue) sur plateforme e-CMP. Moteur de 136 ch, batterie de 50 kWh, autonomie de 360 km WLTP. Charge DC jusqu'à 100 kW. Suspensions à butées hydrauliques progressives de série. Prix à partir d'environ 36 000 €. La ë-C4 X, version tricorps allongée (4,60 m), offre un coffre de 510 litres, un volume inhabituel pour une voiture électrique. Produite en Espagne.</li>
 <li><strong>Citroën ë-Berlingo</strong> : ludospace électrique familial, l'un des rares de sa catégorie. Format spacieux (jusqu'à 4 600 litres de chargement sièges rabattus), 5 à 7 places selon les versions. Batterie de 50 kWh, autonomie de 285 km WLTP. Charge DC jusqu'à 100 kW. Idéal pour les familles nombreuses ou les professionnels. Prix à partir d'environ 35 000 €. Produit à Mangualde (Portugal).</li>
@@ -260,7 +262,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Prix les plus bas du marché</strong> : avec l'Ami à 7 990 € et la ë-C3 à 23 300 €, Citroën propose les véhicules électriques les plus abordables du marché français (hors Dacia Spring).</li>
 <li><strong>Confort distinctif</strong> : le programme Advanced Comfort avec les suspensions à butées hydrauliques offre un confort de roulement supérieur à ce que proposent les concurrents au même prix.</li>
-<li><strong>Éligibilité aux aides</strong> : la production européenne de la ë-C3 (Slovaquie) et de la ë-C3 Aircross (Espagne) garantit l'éligibilité au bonus écologique et au leasing social.</li>
+<li><strong>Éligibilité aux aides</strong> : la production européenne de la ë-C3 (Slovaquie) et de la ë-C3 Aircross (Espagne) permet de prétendre à la prime coup de pouce CEE et au leasing social.</li>
 <li><strong>ë-C3 Aircross 7 places</strong> : l'un des rares véhicules électriques 7 places à moins de 30 000 €, répondant à un besoin réel des familles nombreuses.</li>
 <li><strong>Réseau dense</strong> : plus de 300 points de vente en France.</li>
 <li><strong>Ami comme produit d'appel</strong> : l'Ami a introduit des milliers de Français à la mobilité électrique, créant un vivier de futurs clients pour la gamme ë-C3.</li>
@@ -275,7 +277,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Citroën se positionne en France comme le constructeur de la voiture électrique populaire, celui qui rend l'électrification accessible aux ménages modestes et aux primo-accédants. La ë-C3, éligible au leasing social à environ 100 €/mois pour les foyers à revenus modestes, est le fer de lance de cette stratégie. Le positionnement de Citroën est complémentaire de celui de Peugeot (montée en gamme) et de Renault (design émotionnel) au sein du marché français.</p>
+<p>Citroën se positionne en France comme le constructeur de la voiture électrique populaire, celui qui rend l'électrification accessible aux ménages modestes et aux primo-accédants. La ë-C3, qui respecte les plafonds du leasing social 2026 (loyer de ${LEASING_SOCIAL.loyerMaxMois} € par mois au plus pour les foyers modestes), est le fer de lance de cette stratégie. Le positionnement de Citroën est complémentaire de celui de Peugeot (montée en gamme) et de Renault (design émotionnel) au sein du marché français.</p>
 <p>La marque aux chevrons cible les automobilistes qui n'ont pas les moyens ou l'envie de dépenser 35 000 à 50 000 € pour une voiture électrique, et qui recherchent un véhicule fiable, confortable et pratique pour leurs trajets quotidiens. Cette approche est cohérente avec l'héritage populaire de Citroën (2CV, Ami 6, AX, Saxo) et avec les valeurs de la marque.</p>
 
 <h3>Perspectives et modèles à venir</h3>
@@ -317,11 +319,11 @@ export const marques: Marque[] = [
 <h3>Le problème de la fabrication chinoise</h3>
 <p>La Spring est fabriquée en Chine par Dongfeng (partenaire historique de Renault en Chine) sur la base de la Dongfeng Nano Box. Cette fabrication chinoise pose un problème majeur sur le marché français :</p>
 <ul>
-<li><strong>Non-éligibilité au bonus écologique</strong> : depuis l'instauration du score environnemental en 2024, les véhicules électriques fabriqués en Chine ne sont pas éligibles au bonus écologique français (jusqu'à 4 000 €). La Spring est donc privée de cette aide, ce qui réduit son avantage prix par rapport aux concurrents produits en Europe.</li>
-<li><strong>Non-éligibilité au leasing social</strong> : le dispositif de leasing social à 100-150 €/mois pour les ménages modestes exclut également les véhicules produits en Chine.</li>
+<li><strong>Non-éligibilité à la prime coup de pouce CEE</strong> : depuis l'instauration du score environnemental en 2024, les véhicules électriques fabriqués en Chine ne sont pas éligibles à la prime coup de pouce CEE, qui a remplacé le bonus écologique. La Spring est donc privée de cette aide, ce qui réduit son avantage prix par rapport aux concurrents produits en Europe.</li>
+<li><strong>Non-éligibilité au leasing social</strong> : le leasing social 2026 exige le même score environnemental et exclut donc également la Spring.</li>
 <li><strong>Droits de douane européens</strong> : les droits de douane additionnels imposés par l'UE sur les véhicules électriques importés de Chine (jusqu'à 35,3 %) augmentent le coût d'import de la Spring, limitant la marge de Dacia sur ce modèle.</li>
 </ul>
-<p>Ce handicap est significatif car il réduit l'écart de prix entre la Spring et des concurrentes produites en Europe (Citroën ë-C3, Renault 5 E-Tech) qui bénéficient, elles, du bonus écologique et du leasing social.</p>
+<p>Ce handicap est significatif car il réduit l'écart de prix entre la Spring et des concurrentes produites en Europe (Citroën ë-C3, Renault 5 E-Tech) qui bénéficient, elles, de la prime coup de pouce CEE et du leasing social.</p>
 
 <h3>Gamme électrique et hybride actuelle (2025-2026)</h3>
 <ul>
@@ -359,7 +361,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de Dacia dans l'électrique :</strong></p>
 <ul>
-<li><strong>Non-éligibilité au bonus écologique</strong> : la fabrication chinoise prive la Spring du bonus et du leasing social, réduisant considérablement son avantage prix.</li>
+<li><strong>Non-éligibilité à la prime coup de pouce CEE</strong> : la fabrication chinoise prive la Spring de la prime coup de pouce CEE et du leasing social, réduisant considérablement son avantage prix.</li>
 <li><strong>Autonomie très limitée</strong> : 225 km WLTP (150-200 km réels) ne conviennent qu'à un usage strictement urbain/périurbain.</li>
 <li><strong>Charge lente</strong> : 30 kW maximum en DC, parmi les vitesses de charge les plus lentes du marché. Les longs trajets sont de fait exclus.</li>
 <li><strong>Performances modestes</strong> : 45-65 ch et une vitesse maximale de 125 km/h limitent la polyvalence du véhicule.</li>
@@ -370,12 +372,12 @@ export const marques: Marque[] = [
 
 <h3>Positionnement sur le marché français</h3>
 <p>En France, la Dacia Spring occupe une position de niche mais significative. Elle séduit les primo-accédants à l'électrique qui n'ont pas le budget pour une Renault 5 ou une Citroën ë-C3, les ménages à la recherche d'une seconde voiture économique pour les trajets quotidiens, et les conducteurs qui souhaitent tester l'électrique sans engagement financier important. La Spring est également populaire en autopartage et en location courte durée.</p>
-<p>Cependant, la concurrence s'est considérablement renforcée avec l'arrivée de la Citroën ë-C3 à 23 300 € (éligible au bonus), de la Leapmotor T03 à 18 900 € (assemblée en Europe) et de la future Renault Twingo E-Tech à moins de 20 000 €. L'écart de prix entre la Spring et ces alternatives diminue, voire s'inverse après prise en compte des aides, ce qui met la Spring sous pression.</p>
+<p>Cependant, la concurrence s'est considérablement renforcée avec l'arrivée de la Citroën ë-C3 à 23 300 € (éligible à la prime coup de pouce CEE), de la Leapmotor T03 à 18 900 € (assemblée en Europe) et de la future Renault Twingo E-Tech à moins de 20 000 €. L'écart de prix entre la Spring et ces alternatives diminue, voire s'inverse après prise en compte des aides, ce qui met la Spring sous pression.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <p>Dacia fait face à un dilemme stratégique pour l'avenir de sa gamme électrique :</p>
 <ul>
-<li><strong>Production européenne</strong> : pour rester compétitive face aux concurrents éligibles aux aides, Dacia pourrait être contrainte de rapatrier la production de la Spring en Europe, ce qui augmenterait les coûts de production mais ouvrirait l'accès au bonus écologique.</li>
+<li><strong>Production européenne</strong> : pour rester compétitive face aux concurrents éligibles aux aides, Dacia pourrait être contrainte de rapatrier la production de la Spring en Europe, ce qui augmenterait les coûts de production mais ouvrirait l'accès à la prime coup de pouce CEE.</li>
 <li><strong>Nouveau modèle électrique</strong> : Dacia travaille sur un futur modèle électrique de segment B (type Sandero électrique) qui pourrait être produit en Roumanie sur une plateforme du groupe Renault, garantissant l'éligibilité aux aides.</li>
 <li><strong>Hybridation progressive</strong> : en attendant la démocratisation de l'électrique à bas prix, Dacia mise sur l'hybridation de sa gamme (Duster Hybrid, Jogger Hybrid) comme étape intermédiaire.</li>
 <li><strong>Spring améliorée (2026-2027)</strong> : une prochaine génération de Spring avec une batterie de plus grande capacité, une charge plus rapide et une éventuelle production européenne est attendue à moyen terme.</li>
@@ -445,7 +447,7 @@ export const marques: Marque[] = [
 <li><strong>Mises à jour OTA</strong> : le véhicule s'améliore avec le temps, recevant régulièrement de nouvelles fonctionnalités.</li>
 <li><strong>Performances</strong> : des accélérations fulgurantes et un plaisir de conduite instantané, même sur les modèles d'entrée de gamme.</li>
 <li><strong>Autonomie de référence</strong> : les Tesla restent parmi les véhicules électriques les plus efficients du marché.</li>
-<li><strong>Production européenne</strong> : le Model Y produit à Berlin est éligible au bonus écologique français.</li>
+<li><strong>Production européenne</strong> : le Model Y produit à Berlin est éligible à la prime coup de pouce CEE.</li>
 <li><strong>Valeur résiduelle</strong> : les Tesla conservent bien leur valeur sur le marché de l'occasion.</li>
 </ul>
 <p><strong>Faiblesses de Tesla :</strong></p>
@@ -533,7 +535,7 @@ export const marques: Marque[] = [
 <li><strong>Gamme complète</strong> : de la compacte au van, Volkswagen couvre la plupart des segments avec des véhicules électriques dédiés.</li>
 <li><strong>Qualité de construction</strong> : la tradition allemande de fabrication soignée se retrouve dans les finitions, l'assemblage et la rigidité des véhicules ID.</li>
 <li><strong>Réseau de distribution dense</strong> : avec plus de 300 points de vente en France, Volkswagen offre une proximité et un service après-vente que peu de nouveaux entrants peuvent égaler.</li>
-<li><strong>Production européenne</strong> : les usines de Zwickau, Emden et Dresde en Allemagne garantissent l'éligibilité au bonus écologique français.</li>
+<li><strong>Production européenne</strong> : les usines de Zwickau, Emden et Dresde en Allemagne donnent un bon score environnemental ; la prime coup de pouce CEE reste réservée aux versions d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)}.</li>
 <li><strong>Économies d'échelle</strong> : la plateforme MEB partagée au sein du groupe réduit les coûts et accélère les mises à jour.</li>
 </ul>
 <p><strong>Faiblesses de Volkswagen dans l'électrique :</strong></p>
@@ -545,7 +547,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>En France, Volkswagen occupe une position solide sur le marché des véhicules électriques grâce à la notoriété de la marque et à la densité de son réseau de concessionnaires. L'ID.3 et l'ID.4 figurent régulièrement parmi les 10 véhicules électriques les plus vendus en France. La marque bénéficie de la production européenne de l'ensemble de sa gamme ID., ce qui garantit l'éligibilité au bonus écologique français (jusqu'à 4 000 € en 2026) et au leasing social (à partir de 150 €/mois pour les ménages modestes).</p>
+<p>En France, Volkswagen occupe une position solide sur le marché des véhicules électriques grâce à la notoriété de la marque et à la densité de son réseau de concessionnaires. L'ID.3 et l'ID.4 figurent régulièrement parmi les 10 véhicules électriques les plus vendus en France. La marque bénéficie de la production européenne de l'ensemble de sa gamme ID., ce qui permet de prétendre à la prime coup de pouce CEE pour les versions sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)}, et au leasing social pour les plus compactes (loyer de ${LEASING_SOCIAL.loyerMaxMois} € par mois au plus pour les ménages modestes).</p>
 <p>Volkswagen se positionne comme une alternative rassurante pour les automobilistes français qui souhaitent passer à l'électrique sans prendre de risque sur la fiabilité, le réseau de service après-vente ou la valeur résiduelle. La marque fait face à une concurrence accrue des constructeurs chinois sur le segment des prix, mais conserve un avantage en termes de perception de qualité et de réseau.</p>
 
 <h3>Perspectives et modèles à venir</h3>
@@ -620,7 +622,7 @@ export const marques: Marque[] = [
 <li><strong>Rapport espace/prix imbattable</strong> : les véhicules Skoda offrent systématiquement plus d'espace intérieur et de coffre que leurs équivalents Volkswagen, pour un prix inférieur de 1 000 à 3 000 €.</li>
 <li><strong>Praticité légendaire</strong> : les astuces Simply Clever, l'habitabilité généreuse et la modularité font de Skoda le choix rationnel par excellence.</li>
 <li><strong>Fiabilité du groupe Volkswagen</strong> : la plateforme MEB éprouvée et le réseau de service après-vente du groupe assurent une tranquillité d'esprit.</li>
-<li><strong>Production européenne</strong> : l'Enyaq est produit à Mladá Boleslav (République tchèque) et l'Elroq à Bratislava (Slovaquie), garantissant l'éligibilité au bonus écologique français.</li>
+<li><strong>Production européenne</strong> : l'Enyaq est produit à Mladá Boleslav (République tchèque) et l'Elroq à Bratislava (Slovaquie), ce qui permet de prétendre à la prime coup de pouce CEE.</li>
 <li><strong>Confort de suspension</strong> : Skoda calibre ses suspensions pour un confort supérieur à celui de Volkswagen, privilégiant le filtrage des irrégularités à la sportivité.</li>
 </ul>
 <p><strong>Faiblesses de Skoda dans l'électrique :</strong></p>
@@ -634,7 +636,7 @@ export const marques: Marque[] = [
 
 <h3>Positionnement sur le marché français</h3>
 <p>En France, Skoda occupe une position de niche mais en forte croissance. La marque tchèque séduit une clientèle rationnelle qui privilégie le contenu à l'image de marque. L'Enyaq est particulièrement apprécié des familles qui recherchent un SUV électrique spacieux à un prix raisonnable, tandis que l'Elroq cible les conducteurs urbains et péri-urbains qui veulent un SUV compact abordable.</p>
-<p>Le réseau de concessionnaires Skoda en France compte environ 200 points de vente, souvent partagés avec les concessions Volkswagen, ce qui assure une bonne couverture territoriale. La marque bénéficie de l'éligibilité au bonus écologique français grâce à sa production européenne, et certains modèles sont éligibles au leasing social pour les ménages modestes.</p>
+<p>Le réseau de concessionnaires Skoda en France compte environ 200 points de vente, souvent partagés avec les concessions Volkswagen, ce qui assure une bonne couverture territoriale. La marque bénéficie de l'éligibilité à la prime coup de pouce CEE grâce à sa production européenne, et certains modèles sont éligibles au leasing social pour les ménages modestes.</p>
 <p>Skoda se positionne stratégiquement comme l'alternative intelligente aux marques généralistes plus chères (Volkswagen, Hyundai) et aux marques chinoises moins établies (MG, BYD), en offrant la fiabilité d'un grand groupe européen à un tarif contenu.</p>
 
 <h3>Perspectives et modèles à venir</h3>
@@ -701,7 +703,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de Kia dans l'électrique :</strong></p>
 <ul>
-<li><strong>Production hors Europe</strong> : la majorité des véhicules Kia électriques sont produits en Corée du Sud, ce qui peut poser des questions d'éligibilité au bonus écologique français selon l'évolution des critères du score environnemental.</li>
+<li><strong>Production hors Europe</strong> : la majorité des véhicules Kia électriques sont produits en Corée du Sud, ce qui peut poser des questions d'éligibilité à la prime coup de pouce CEE selon l'évolution des critères du score environnemental.</li>
 <li><strong>Réseau de concessionnaires plus restreint</strong> : avec environ 150 points de vente en France, le réseau Kia est moins dense que celui des constructeurs français ou allemands.</li>
 <li><strong>Perception de marque</strong> : malgré la transformation spectaculaire de Kia, certains consommateurs conservent une image de marque « low-cost » qui ne reflète plus la réalité des produits actuels.</li>
 <li><strong>Prix en hausse</strong> : la montée en gamme de Kia s'accompagne d'une hausse des tarifs qui réduit l'écart de prix avec les constructeurs premium établis.</li>
@@ -771,7 +773,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Plaisir de conduite préservé</strong> : BMW réussit à transposer son ADN dynamique dans ses véhicules électriques, avec des réglages de châssis parmi les meilleurs du segment premium.</li>
 <li><strong>Gamme étendue</strong> : du SUV compact iX1 à la berline de luxe i7, BMW couvre l'ensemble du spectre premium avec des véhicules 100 % électriques.</li>
-<li><strong>Production européenne</strong> : tous les modèles électriques BMW sont produits en Allemagne, garantissant l'éligibilité au bonus écologique français.</li>
+<li><strong>Production européenne</strong> : tous les modèles électriques BMW sont produits en Allemagne, mais leurs prix dépassent le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE.</li>
 <li><strong>Réseau de concessionnaires</strong> : environ 160 points de vente BMW en France avec une expertise reconnue dans le service après-vente.</li>
 <li><strong>Valeur résiduelle solide</strong> : les BMW électriques bénéficient de la forte image de marque de BMW, ce qui soutient la valeur résiduelle sur le marché de l'occasion.</li>
 </ul>
@@ -878,7 +880,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Audi se positionne comme le constructeur premium de référence pour les entreprises et les cadres en France. Le Q4 e-tron est le modèle le plus vendu de la gamme, grâce à un format familial polyvalent et un prix contenu pour un véhicule premium. Sur le marché des flottes d'entreprise, Audi bénéficie d'un avantage fiscal significatif grâce à l'exonération de TVS pour les véhicules électriques. La production européenne de tous les modèles garantit l'éligibilité au bonus écologique, un atout face aux constructeurs chinois qui envahissent le segment premium.</p>
+<p>Audi se positionne comme le constructeur premium de référence pour les entreprises et les cadres en France. Le Q4 e-tron est le modèle le plus vendu de la gamme, grâce à un format familial polyvalent et un prix contenu pour un véhicule premium. Sur le marché des flottes d'entreprise, Audi bénéficie d'un avantage fiscal significatif grâce à l'exonération de TVS pour les véhicules électriques. La production européenne de tous les modèles est un atout d'image face aux constructeurs chinois qui envahissent le segment premium, même si les prix de la gamme dépassent le plafond de la prime coup de pouce CEE.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <p>Audi prépare la prochaine phase de son offensive électrique :</p>
@@ -940,7 +942,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Luxe et confort inégalés</strong> : l'EQS définit les standards du luxe automobile électrique, avec un habitacle qui surpasse celui de toutes les Tesla et de la plupart des concurrents premium.</li>
 <li><strong>Innovation technologique</strong> : le DRIVE PILOT (niveau 3), le MBUX Hyperscreen et l'aérodynamique record démontrent le leadership technologique de Mercedes.</li>
-<li><strong>Production européenne</strong> : la quasi-totalité de la gamme EQ est produite en Allemagne et en Europe, garantissant l'éligibilité au bonus écologique français.</li>
+<li><strong>Production européenne</strong> : la quasi-totalité de la gamme EQ est produite en Allemagne et en Europe, mais ses prix dépassent le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE.</li>
 <li><strong>Réseau de concessionnaires premium</strong> : environ 150 points de vente Mercedes en France avec un service après-vente de référence.</li>
 <li><strong>Valeur résiduelle forte</strong> : la marque Mercedes-Benz bénéficie d'une image de prestige qui soutient la valeur résiduelle des véhicules sur le marché de l'occasion.</li>
 </ul>
@@ -1022,7 +1024,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de BYD sur le marché européen :</strong></p>
 <ul>
-<li><strong>Non-éligibilité au bonus écologique français</strong> : les véhicules BYD étant produits en Chine, ils ne bénéficient pas du bonus écologique français, ce qui augmente le coût réel pour l'acheteur de 4 000 à 7 000 €.</li>
+<li><strong>Non-éligibilité à la prime coup de pouce CEE</strong> : les véhicules BYD étant produits en Chine, ils n'ouvrent pas droit à la prime coup de pouce CEE, ce qui augmente le coût réel pour l'acheteur.</li>
 <li><strong>Surtaxes douanières européennes</strong> : l'UE a imposé des droits de douane supplémentaires sur les véhicules électriques chinois, impactant les prix de BYD en Europe.</li>
 <li><strong>Réseau de distribution limité</strong> : BYD est encore en phase de déploiement de son réseau de concessionnaires en France, avec une couverture géographique incomplète.</li>
 <li><strong>Vitesse de charge en retrait</strong> : les vitesses de charge DC de la gamme actuelle (88 à 150 kW) sont inférieures à celles des concurrents coréens ou des plateformes 800V européennes.</li>
@@ -1089,7 +1091,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de MG dans l'électrique :</strong></p>
 <ul>
-<li><strong>Non-éligibilité au bonus écologique</strong> : les véhicules MG étant produits en Chine, ils ne sont pas éligibles au bonus écologique français depuis l'instauration du score environnemental en 2024, ce qui augmente le coût réel pour l'acheteur.</li>
+<li><strong>Non-éligibilité à la prime coup de pouce CEE</strong> : les véhicules MG étant produits en Chine, ils ne sont pas éligibles à la prime coup de pouce CEE depuis l'instauration du score environnemental en 2024, ce qui augmente le coût réel pour l'acheteur.</li>
 <li><strong>Surtaxes douanières européennes</strong> : l'Union européenne a imposé des droits de douane supplémentaires sur les véhicules électriques importés de Chine (jusqu'à 37,6 % pour SAIC), ce qui pourrait se répercuter sur les prix de vente.</li>
 <li><strong>Qualité perçue</strong> : malgré des progrès significatifs, la qualité de finition intérieure reste en retrait par rapport aux standards européens, avec des plastiques parfois durs et un assemblage moins rigoureux.</li>
 <li><strong>Vitesse de charge limitée</strong> : les vitesses de charge DC des MG (92 à 144 kW) sont inférieures à ce que proposent les constructeurs coréens ou les plateformes 800V des constructeurs premium.</li>
@@ -1098,7 +1100,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>MG occupe une position unique sur le marché français : celle du casseur de prix qui démocratise l'accès à la voiture électrique. La MG4 est devenue une référence incontournable du segment des compactes électriques, et le ZS EV s'est imposé comme l'un des SUV électriques les plus vendus en France. Toutefois, la perte du bonus écologique et les surtaxes douanières européennes érodent l'avantage prix de MG, obligeant la marque à réajuster sa stratégie. SAIC étudie la possibilité d'assembler des véhicules en Europe pour contourner ces obstacles commerciaux.</p>
+<p>MG occupe une position unique sur le marché français : celle du casseur de prix qui démocratise l'accès à la voiture électrique. La MG4 est devenue une référence incontournable du segment des compactes électriques, et le ZS EV s'est imposé comme l'un des SUV électriques les plus vendus en France. Toutefois, l'absence de prime coup de pouce CEE et les surtaxes douanières européennes érodent l'avantage prix de MG, obligeant la marque à réajuster sa stratégie. SAIC étudie la possibilité d'assembler des véhicules en Europe pour contourner ces obstacles commerciaux.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <p>MG prépare la prochaine phase de son développement en Europe :</p>
@@ -1130,7 +1132,7 @@ export const marques: Marque[] = [
 <p>L'un des atouts majeurs de Leapmotor sur le marché européen est l'assemblage de ses véhicules en Europe. Grâce au partenariat avec Stellantis, certains modèles Leapmotor sont assemblés à l'usine Stellantis de Tychy en Pologne. Cette localisation européenne de la production offre plusieurs avantages considérables :</p>
 <ul>
 <li><strong>Contournement des droits de douane</strong> : les véhicules assemblés en Europe ne sont pas soumis aux droits de douane additionnels imposés par l'Union européenne sur les véhicules électriques importés de Chine (jusqu'à 35,3 % en 2026).</li>
-<li><strong>Éligibilité aux aides nationales</strong> : l'assemblage européen permet de répondre aux critères du score environnemental français, ouvrant la voie à l'éligibilité au bonus écologique.</li>
+<li><strong>Éligibilité aux aides nationales</strong> : l'assemblage européen permet de répondre aux critères du score environnemental français, ouvrant la voie à l'éligibilité à la prime coup de pouce CEE.</li>
 <li><strong>Réduction des délais de livraison</strong> : la production locale réduit les délais logistiques par rapport à une importation directe depuis la Chine.</li>
 <li><strong>Image de marque</strong> : le « Made in Europe » rassure les consommateurs européens parfois méfiants envers les produits automobiles chinois.</li>
 </ul>
@@ -1261,7 +1263,7 @@ export const marques: Marque[] = [
 <p><strong>Faiblesses de Xpeng :</strong></p>
 <ul>
 <li><strong>Réseau de distribution limité</strong> : la présence physique de Xpeng en France est encore très restreinte, avec peu de showrooms et de centres de service.</li>
-<li><strong>Fabrication chinoise</strong> : les véhicules Xpeng étant produits en Chine, ils sont soumis aux droits de douane européens additionnels et ne sont pas éligibles au bonus écologique français.</li>
+<li><strong>Fabrication chinoise</strong> : les véhicules Xpeng étant produits en Chine, ils sont soumis aux droits de douane européens additionnels et ne sont pas éligibles à la prime coup de pouce CEE.</li>
 <li><strong>Marque inconnue du grand public</strong> : la notoriété de Xpeng en France reste confidentielle, ce qui constitue un frein majeur à l'achat.</li>
 <li><strong>Valeur résiduelle incertaine</strong> : l'absence de recul sur le marché européen rend difficile l'estimation de la valeur de revente à moyen terme.</li>
 <li><strong>SAV en construction</strong> : le réseau de service après-vente est encore en phase de déploiement, ce qui peut inquiéter les acheteurs potentiels.</li>
@@ -1269,7 +1271,7 @@ export const marques: Marque[] = [
 
 <h3>Positionnement sur le marché français</h3>
 <p>Xpeng se positionne en France comme une alternative technologique à Tesla, ciblant les early adopters et les passionnés de technologie qui recherchent un véhicule électrique à la pointe de l'innovation. Le G6, principal modèle de la marque en France, rivalise directement avec le Tesla Model Y en termes de performances, d'autonomie et de technologie embarquée, tout en proposant des tarifs compétitifs.</p>
-<p>Le principal défi de Xpeng en France est la construction de son réseau de distribution et de service après-vente. La marque a ouvert ses premiers showrooms dans les grandes métropoles françaises et développe des partenariats avec des groupes de distribution automobile pour accélérer son maillage territorial. La question de l'éligibilité au bonus écologique reste un obstacle majeur, les véhicules Xpeng étant fabriqués en Chine.</p>
+<p>Le principal défi de Xpeng en France est la construction de son réseau de distribution et de service après-vente. La marque a ouvert ses premiers showrooms dans les grandes métropoles françaises et développe des partenariats avec des groupes de distribution automobile pour accélérer son maillage territorial. La question de l'éligibilité à la prime coup de pouce CEE reste un obstacle majeur, les véhicules Xpeng étant fabriqués en Chine.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <p>Xpeng a des ambitions internationales fortes et prépare plusieurs initiatives pour renforcer sa présence en Europe :</p>
@@ -1360,7 +1362,7 @@ export const marques: Marque[] = [
 <p><strong>Faiblesses de Zeekr :</strong></p>
 <ul>
 <li><strong>Marque très récente</strong> : fondée en 2021, Zeekr n'a aucun historique de fiabilité à long terme, ce qui peut inquiéter les acheteurs européens.</li>
-<li><strong>Fabrication chinoise</strong> : la production en Chine expose Zeekr aux droits de douane européens additionnels et compromet l'éligibilité au bonus écologique français.</li>
+<li><strong>Fabrication chinoise</strong> : la production en Chine expose Zeekr aux droits de douane européens additionnels et compromet l'éligibilité à la prime coup de pouce CEE.</li>
 <li><strong>Réseau de distribution embryonnaire</strong> : la présence physique de Zeekr en France est encore très limitée, avec peu de points de vente et de service.</li>
 <li><strong>Valeur résiduelle inconnue</strong> : l'absence de recul rend impossible toute estimation fiable de la décote des véhicules Zeekr sur le marché de l'occasion.</li>
 <li><strong>Logiciel pas encore localisé</strong> : certaines fonctionnalités logicielles développées pour le marché chinois ne sont pas encore parfaitement adaptées aux usages et aux langues européennes.</li>
@@ -1438,7 +1440,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Absence en France</strong> : Nio n'est pas encore commercialisé en France, ce qui limite son impact sur le marché français à court terme.</li>
 <li><strong>Réseau Battery Swap limité en Europe</strong> : le déploiement des stations d'échange de batterie en Europe est encore très insuffisant pour rivaliser avec les réseaux de recharge traditionnels.</li>
-<li><strong>Production chinoise</strong> : les véhicules Nio produits en Chine ne seront pas éligibles au bonus écologique français ni aux aides européennes.</li>
+<li><strong>Production chinoise</strong> : les véhicules Nio produits en Chine ne seront pas éligibles à la prime coup de pouce CEE ni aux aides européennes.</li>
 <li><strong>Rentabilité fragile</strong> : Nio n'a pas encore atteint la rentabilité, ce qui soulève des questions sur la pérennité du modèle économique à long terme.</li>
 <li><strong>Droits de douane européens</strong> : les surtaxes imposées par l'UE sur les véhicules électriques chinois augmentent significativement les prix de Nio en Europe.</li>
 </ul>
@@ -1473,7 +1475,7 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle et à venir (2025-2026)</h3>
 <p>Alpine déploie progressivement sa nouvelle gamme électrique :</p>
 <ul>
-<li><strong>Alpine A290</strong> : citadine sportive (3,99 m) dérivée de la Renault 5 E-Tech mais profondément modifiée pour incarner l'esprit Alpine. Motorisations de 180 ch (A290) et 220 ch (A290 GTS), soit 30 à 70 ch de plus que la Renault 5. Châssis spécifiquement retravaillé avec des voies élargies (+24 mm), une suspension sport abaissée, des barres anti-roulis renforcées et un différentiel à glissement limité mécanique Torsen. Batterie de 52 kWh, autonomie d'environ 380 km WLTP. Charge DC jusqu'à 100 kW. Design distinctif avec bouclier avant sportif, jantes 19 pouces spécifiques et détails de design rappelant l'A110. Intérieur avec sièges sport Sabelt, volant sport avec mode « OV » (Overtake pour boost temporaire). Prix à partir d'environ 38 000 €. Produite à Douai (Nord), éligible au bonus écologique.</li>
+<li><strong>Alpine A290</strong> : citadine sportive (3,99 m) dérivée de la Renault 5 E-Tech mais profondément modifiée pour incarner l'esprit Alpine. Motorisations de 180 ch (A290) et 220 ch (A290 GTS), soit 30 à 70 ch de plus que la Renault 5. Châssis spécifiquement retravaillé avec des voies élargies (+24 mm), une suspension sport abaissée, des barres anti-roulis renforcées et un différentiel à glissement limité mécanique Torsen. Batterie de 52 kWh, autonomie d'environ 380 km WLTP. Charge DC jusqu'à 100 kW. Design distinctif avec bouclier avant sportif, jantes 19 pouces spécifiques et détails de design rappelant l'A110. Intérieur avec sièges sport Sabelt, volant sport avec mode « OV » (Overtake pour boost temporaire). Prix à partir d'environ 38 000 €. Produite à Douai (Nord), éligible à la prime coup de pouce CEE.</li>
 <li><strong>Alpine A390 (2026)</strong> : SUV fastback sportif de 4,68 m, le modèle le plus important de l'histoire récente d'Alpine. Construit sur la plateforme AmpR Medium de Renault, profondément modifiée avec une version sportive du châssis, une suspension multilink à quatre roues directrices et une transmission intégrale avec vectorisation du couple. Motorisation de plus de 300 ch, avec une version Performance attendue au-delà de 500 ch. Batterie de 87 kWh, autonomie estimée à plus de 600 km WLTP. Design aérodynamique et musclé avec l'emblématique face avant en X lumineuse d'Alpine. L'A390 est le modèle qui doit propulser Alpine dans les volumes et la rentabilité.</li>
 <li><strong>Alpine A110 électrique (futur)</strong> : la future berlinette électrique Alpine est en développement, promettant de perpétuer l'esprit de légèreté et d'agilité de l'A110 dans une version zéro émission. Le défi technique est de contenir le poids malgré la batterie, un enjeu fondamental pour une voiture de sport Alpine.</li>
 </ul>
@@ -1500,7 +1502,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>ADN sportif authentique</strong> : Alpine est l'une des rares marques à proposer des voitures électriques véritablement sportives, avec un développement châssis dédié et une philosophie de légèreté.</li>
 <li><strong>Héritage de compétition</strong> : la présence en F1 et en endurance confère à Alpine une crédibilité sportive inégalée parmi les constructeurs français.</li>
-<li><strong>Production française</strong> : l'ancrage à Dieppe et la production à Douai garantissent l'éligibilité au bonus écologique français.</li>
+<li><strong>Production française</strong> : l'ancrage à Dieppe et la production à Douai permettent de prétendre à la prime coup de pouce CEE.</li>
 <li><strong>Positionnement unique</strong> : Alpine occupe un créneau vide entre les généralistes sportifs (Cupra, GTI) et le premium sportif allemand (Porsche, BMW M), offrant une alternative française désirable.</li>
 <li><strong>Synergie Renault</strong> : Alpine bénéficie des plateformes, technologies et capacités industrielles du groupe Renault, réduisant les coûts de développement.</li>
 </ul>
@@ -1544,7 +1546,7 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>Fiat déploie une gamme électrique centrée sur les citadines et les petits SUV :</p>
 <ul>
-<li><strong>Fiat 500e</strong> : citadine électrique (3,63 m) iconique, déclinaison 100 % électrique de la Nuova 500 redessinée pour l'ère électrique. Disponible en carrosserie berline et cabriolet (la seule citadine électrique cabriolet du marché). Batteries de 24 kWh (citadine, autonomie 190 km WLTP) ou 42 kWh (autonomie 321 km WLTP). Motorisation de 95 ou 118 ch. Charge DC jusqu'à 85 kW. Design rétro-moderne irrésistible avec des détails soignés (poignées de porte bijou, planche de bord bicolore, sellerie en tissu Seaqual recyclé à partir de plastiques océaniques). Système d'infodivertissement avec écran 10,25 pouces et connectivité Apple CarPlay/Android Auto sans fil. Prix à partir d'environ 24 000 € (version citadine 24 kWh) et 30 000 € (version 42 kWh). Produite à Mirafiori (Turin, Italie), éligible au bonus écologique.</li>
+<li><strong>Fiat 500e</strong> : citadine électrique (3,63 m) iconique, déclinaison 100 % électrique de la Nuova 500 redessinée pour l'ère électrique. Disponible en carrosserie berline et cabriolet (la seule citadine électrique cabriolet du marché). Batteries de 24 kWh (citadine, autonomie 190 km WLTP) ou 42 kWh (autonomie 321 km WLTP). Motorisation de 95 ou 118 ch. Charge DC jusqu'à 85 kW. Design rétro-moderne irrésistible avec des détails soignés (poignées de porte bijou, planche de bord bicolore, sellerie en tissu Seaqual recyclé à partir de plastiques océaniques). Système d'infodivertissement avec écran 10,25 pouces et connectivité Apple CarPlay/Android Auto sans fil. Prix à partir d'environ 24 000 € (version citadine 24 kWh) et 30 000 € (version 42 kWh). Produite à Mirafiori (Turin, Italie), éligible à la prime coup de pouce CEE.</li>
 <li><strong>Fiat 600e</strong> : SUV urbain compact (4,17 m) sur plateforme e-CMP de Stellantis. Moteur de 156 ch, batterie de 54 kWh, autonomie jusqu'à 409 km WLTP. Charge DC jusqu'à 100 kW. Format surélevé et coffre de 360 litres, plus polyvalent que la 500e pour les familles. Design moderne qui renoue avec l'esprit de la Fiat 600 originale de 1955. Intérieur coloré avec des touches de design typiquement italiennes. Prix à partir d'environ 35 000 €. Produit à Tychy (Pologne).</li>
 <li><strong>Fiat Grande Panda</strong> : citadine polyvalente (3,99 m) sur la plateforme Smart Car de Stellantis (partagée avec la Citroën ë-C3). Design inspiré de la Fiat Panda originale de Giorgetto Giugiaro, avec des lignes rectilignes et fonctionnelles. Batterie de 44 kWh, autonomie d'environ 320 km WLTP. Motorisation de 113 ch. Prix agressif à partir d'environ 24 000 €, visant directement le segment des citadines électriques abordables. Produite à Kragujevac (Serbie).</li>
 <li><strong>Fiat Topolino</strong> : micro-véhicule électrique sans permis (2,53 m) limité à 45 km/h, accessible dès 14 ans avec le permis AM. Batterie de 5,5 kWh, autonomie de 75 km. Design craquant inspiré de la Fiat 500 Topolino des années 1930. Idéal pour les déplacements urbains courts. Prix à partir d'environ 9 900 €. Version ouverte « Dolcevita » disponible. Produit au Maroc.</li>
@@ -1575,7 +1577,7 @@ export const marques: Marque[] = [
 <li><strong>Design émotionnel</strong> : les Fiat électriques sont parmi les voitures les plus désirables de leur segment, grâce à un design qui suscite l'attachement et la joie.</li>
 <li><strong>Accessibilité tarifaire</strong> : avec la 500e à partir de 24 000 € et la Grande Panda au même niveau, Fiat propose certaines des voitures électriques les plus abordables du marché européen.</li>
 <li><strong>500e cabriolet</strong> : la 500e est la seule citadine électrique cabriolet du marché, un modèle unique et désirable.</li>
-<li><strong>Production européenne</strong> : la 500e est produite en Italie (Mirafiori), garantissant l'éligibilité au bonus écologique français.</li>
+<li><strong>Production européenne</strong> : la 500e est produite en Italie (Mirafiori), ce qui permet de prétendre à la prime coup de pouce CEE.</li>
 <li><strong>Héritage émotionnel</strong> : la Fiat 500 est l'une des voitures les plus reconnues et les plus aimées au monde, un capital émotionnel inestimable.</li>
 </ul>
 <p><strong>Faiblesses de Fiat dans l'électrique :</strong></p>
@@ -1588,7 +1590,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Fiat se positionne sur le segment des citadines et micro-citadines électriques, ciblant une clientèle urbaine qui valorise le style et l'émotion autant que la rationalité. La 500e bénéficie d'une forte désirabilité, portée par l'image iconique de la Fiat 500 et par un positionnement tarifaire attractif avec le bonus écologique. La Grande Panda, avec son prix agressif et son format polyvalent, devrait permettre à Fiat de toucher une clientèle plus large, notamment les familles à budget serré qui cherchent une première voiture électrique abordable.</p>
+<p>Fiat se positionne sur le segment des citadines et micro-citadines électriques, ciblant une clientèle urbaine qui valorise le style et l'émotion autant que la rationalité. La 500e bénéficie d'une forte désirabilité, portée par l'image iconique de la Fiat 500 et par un positionnement tarifaire attractif, prime coup de pouce CEE comprise. La Grande Panda, avec son prix agressif et son format polyvalent, devrait permettre à Fiat de toucher une clientèle plus large, notamment les familles à budget serré qui cherchent une première voiture électrique abordable.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
@@ -1648,7 +1650,7 @@ export const marques: Marque[] = [
 <h3>Production européenne et éligibilité</h3>
 <p>Hyundai a fait un investissement stratégique majeur en produisant ses véhicules électriques en Europe :</p>
 <ul>
-<li><strong>Usine de Nosovice (République tchèque)</strong> : cette usine produit l'Ioniq 5 et le Kona Electric pour le marché européen, garantissant l'éligibilité au bonus écologique français. La production européenne est un atout concurrentiel majeur face aux constructeurs chinois qui importent leurs véhicules.</li>
+<li><strong>Usine de Nosovice (République tchèque)</strong> : cette usine produit l'Ioniq 5 et le Kona Electric pour le marché européen, ce qui permet de prétendre à la prime coup de pouce CEE. La production européenne est un atout concurrentiel majeur face aux constructeurs chinois qui importent leurs véhicules.</li>
 <li><strong>Gigafactory européenne</strong> : le groupe Hyundai-Kia envisage la construction d'une gigafactory de batteries en Europe pour sécuriser l'approvisionnement et renforcer l'ancrage européen de sa production.</li>
 </ul>
 
@@ -1659,7 +1661,7 @@ export const marques: Marque[] = [
 <li><strong>Design primé</strong> : l'Ioniq 5 et l'Ioniq 6 ont remporté de nombreux prix de design internationaux, établissant Hyundai comme un leader du design automobile.</li>
 <li><strong>V2L de série</strong> : la fonctionnalité Vehicle-to-Load est un avantage concret apprécié par les utilisateurs (camping, bricolage, secours).</li>
 <li><strong>Gamme complète</strong> : de la micro-citadine Inster au crossover Ioniq 5 en passant par la berline Ioniq 6, Hyundai couvre tous les besoins.</li>
-<li><strong>Production européenne</strong> : la production à Nosovice garantit l'éligibilité au bonus écologique, un avantage face aux constructeurs chinois.</li>
+<li><strong>Production européenne</strong> : la production à Nosovice permet de prétendre à la prime coup de pouce CEE, un avantage face aux constructeurs chinois.</li>
 <li><strong>Ioniq 5 N</strong> : la version haute performance prouve que Hyundai maîtrise aussi le sport automobile électrique.</li>
 <li><strong>Garantie 5 ans kilométrage illimité</strong> : la garantie Hyundai couvre le véhicule pendant 5 ans sans limite de kilométrage, et la batterie pendant 8 ans ou 160 000 km.</li>
 </ul>
@@ -1668,12 +1670,12 @@ export const marques: Marque[] = [
 <li><strong>Prix en hausse</strong> : la montée en gamme de Hyundai s'accompagne d'une hausse des tarifs qui réduit l'écart de prix avec les constructeurs premium établis. L'Ioniq 5 N à 75 000 € joue directement dans la cour des BMW et des Porsche.</li>
 <li><strong>Réseau de concessionnaires plus restreint</strong> : avec environ 200 points de vente en France, le réseau Hyundai est moins dense que celui des constructeurs français.</li>
 <li><strong>Perception de marque</strong> : malgré la transformation spectaculaire, certains consommateurs conservent une image de marque « low-cost » qui ne reflète plus la réalité des produits Hyundai actuels.</li>
-<li><strong>Inster produit hors Europe</strong> : l'Inster est produit en Corée du Sud, ce qui peut poser des questions d'éligibilité au bonus écologique selon l'évolution des critères.</li>
+<li><strong>Inster produit hors Europe</strong> : l'Inster est produit en Corée du Sud, ce qui peut poser des questions d'éligibilité à la prime coup de pouce CEE selon l'évolution des critères.</li>
 <li><strong>Fiabilité logicielle</strong> : certains retours d'utilisateurs font état de bugs logiciels ponctuels dans le système d'infodivertissement et les aides à la conduite, bien que les mises à jour OTA corrigent progressivement ces problèmes.</li>
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Hyundai s'est imposé comme le constructeur étranger le plus dynamique sur le marché français de la voiture électrique. L'Ioniq 5 figure régulièrement dans le top 10 des véhicules électriques les plus vendus en France, et le Kona Electric bénéficie d'une clientèle fidèle séduite par son format pratique et son prix contenu. L'Inster, avec son tarif inférieur à 25 000 €, pourrait devenir un phénomène commercial si son éligibilité au bonus écologique est confirmée. Hyundai bénéficie d'une image en constante amélioration, portée par des produits de qualité et un design qui ne laisse personne indifférent.</p>
+<p>Hyundai s'est imposé comme le constructeur étranger le plus dynamique sur le marché français de la voiture électrique. L'Ioniq 5 figure régulièrement dans le top 10 des véhicules électriques les plus vendus en France, et le Kona Electric bénéficie d'une clientèle fidèle séduite par son format pratique et son prix contenu. L'Inster, avec son tarif inférieur à 25 000 €, pourrait devenir un phénomène commercial si son éligibilité à la prime coup de pouce CEE est confirmée. Hyundai bénéficie d'une image en constante amélioration, portée par des produits de qualité et un design qui ne laisse personne indifférent.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
@@ -1704,8 +1706,8 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>Volvo propose une gamme électrique couvrant trois segments clés :</p>
 <ul>
-<li><strong>Volvo EX30</strong> : SUV urbain compact (4,23 m), modèle le plus abordable de la gamme Volvo. Design minimaliste et épuré, avec des lignes tendues et une face avant distinctive. Motorisations de 272 ch (Single Motor, propulsion) à 428 ch (Twin Motor Performance, AWD, 0-100 km/h en 3,6 secondes). Batterie de 51 ou 69 kWh, autonomie jusqu'à 476 km WLTP. Charge DC jusqu'à 153 kW. Intérieur ultra-minimaliste avec un seul écran central de 12,3 pouces (pas de combiné d'instruments derrière le volant), barre de son intégrée dans le tableau de bord (développée par Harman Kardon) et matériaux recyclés (plastique océanique, lin, laine recyclée). Prix à partir d'environ 36 500 €. Initialement produit en Chine (usine Geely de Taizhou), la production est en cours de transfert à Gand (Belgique) pour garantir l'éligibilité au bonus écologique français.</li>
-<li><strong>Volvo EX40 (ex-XC40 Recharge)</strong> : SUV compact (4,44 m), format familier et rassurant du XC40 en version 100 % électrique. Motorisations de 238 ch (Single Motor Extended Range) à 408 ch (Twin Motor AWD). Batterie de 69 ou 82 kWh, autonomie jusqu'à 573 km WLTP. Charge DC jusqu'à 200 kW. Intérieur spacieux et fonctionnel, avec le système Google intégré nativement. Prix à partir d'environ 44 000 €. Produit à Gand (Belgique), éligible au bonus écologique français.</li>
+<li><strong>Volvo EX30</strong> : SUV urbain compact (4,23 m), modèle le plus abordable de la gamme Volvo. Design minimaliste et épuré, avec des lignes tendues et une face avant distinctive. Motorisations de 272 ch (Single Motor, propulsion) à 428 ch (Twin Motor Performance, AWD, 0-100 km/h en 3,6 secondes). Batterie de 51 ou 69 kWh, autonomie jusqu'à 476 km WLTP. Charge DC jusqu'à 153 kW. Intérieur ultra-minimaliste avec un seul écran central de 12,3 pouces (pas de combiné d'instruments derrière le volant), barre de son intégrée dans le tableau de bord (développée par Harman Kardon) et matériaux recyclés (plastique océanique, lin, laine recyclée). Prix à partir d'environ 36 500 €. Initialement produit en Chine (usine Geely de Taizhou), la production est en cours de transfert à Gand (Belgique) pour prétendre à la prime coup de pouce CEE.</li>
+<li><strong>Volvo EX40 (ex-XC40 Recharge)</strong> : SUV compact (4,44 m), format familier et rassurant du XC40 en version 100 % électrique. Motorisations de 238 ch (Single Motor Extended Range) à 408 ch (Twin Motor AWD). Batterie de 69 ou 82 kWh, autonomie jusqu'à 573 km WLTP. Charge DC jusqu'à 200 kW. Intérieur spacieux et fonctionnel, avec le système Google intégré nativement. Prix à partir d'environ 44 000 €. Produit à Gand (Belgique) ; la prime coup de pouce CEE n'est possible que pour une version d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)}.</li>
 <li><strong>Volvo EC40 (ex-C40 Recharge)</strong> : SUV coupé compact (4,44 m), version sportive de l'EX40 avec une ligne de toit plongeante. Mêmes motorisations et batteries que l'EX40. Design plus expressif et dynamique. Intérieur 100 % cuir-free (sans cuir animal), avec des matériaux alternatifs (Nordico, microfibre recyclée). Prix à partir d'environ 46 000 €. Produit à Gand (Belgique).</li>
 <li><strong>Volvo EX90</strong> : grand SUV premium 7 places (5,04 m), vaisseau amiral de la gamme électrique Volvo. Motorisations de 279 ch (Single Motor) à 517 ch (Twin Motor Performance). Batterie de 111 kWh, autonomie jusqu'à 580 km WLTP. Charge DC jusqu'à 250 kW. Lidar Luminar de série (le premier sur un véhicule de série à grande diffusion), permettant une conduite semi-autonome très avancée. Intérieur luxueux avec écran central de 14,5 pouces, système Bowers & Wilkins Dolby Atmos à 25 haut-parleurs et matériaux durables (cuir alternatif Nordico, bois reconstitué, plastiques recyclés). Prix à partir d'environ 83 000 €. Produit à Charleston (USA).</li>
 </ul>
@@ -1745,11 +1747,11 @@ export const marques: Marque[] = [
 <li><strong>Engagement environnemental crédible</strong> : les objectifs de neutralité carbone, les matériaux recyclés et la transparence font de Volvo la marque la plus crédible sur les questions de durabilité.</li>
 <li><strong>EX30 compétitif</strong> : avec un prix à partir de 36 500 € et un transfert de production en Belgique, l'EX30 est l'une des propositions les plus attractives du segment des SUV compacts premium.</li>
 <li><strong>Google intégré</strong> : le système d'infodivertissement Android Automotive avec Google natif est l'un des meilleurs du marché.</li>
-<li><strong>Production européenne</strong> : l'usine de Gand produit l'EX40, l'EC40 et bientôt l'EX30, garantissant l'éligibilité au bonus écologique.</li>
+<li><strong>Production européenne</strong> : l'usine de Gand produit l'EX40, l'EC40 et bientôt l'EX30, ce qui améliore leur score environnemental ; la prime coup de pouce CEE suppose en outre un prix d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)}.</li>
 </ul>
 <p><strong>Faiblesses de Volvo dans l'électrique :</strong></p>
 <ul>
-<li><strong>EX30 initialement produit en Chine</strong> : la production chinoise initiale a privé l'EX30 du bonus écologique français, un handicap qui sera corrigé par le transfert à Gand.</li>
+<li><strong>EX30 initialement produit en Chine</strong> : la production chinoise initiale a privé l'EX30 de la prime coup de pouce CEE, un handicap qui sera corrigé par le transfert à Gand.</li>
 <li><strong>Interface ultra-minimaliste de l'EX30</strong> : l'absence de combiné d'instruments derrière le volant et la concentration de toutes les fonctions sur un seul écran central ont divisé les utilisateurs.</li>
 <li><strong>EX90 cher et américain</strong> : produit aux États-Unis, l'EX90 à plus de 83 000 € est réservé à une clientèle fortunée et sa production hors UE peut compliquer l'éligibilité aux aides.</li>
 <li><strong>Vitesse limitée à 180 km/h</strong> : Volvo bride électroniquement tous ses véhicules à 180 km/h, une décision de sécurité qui peut déplaire à certains acheteurs premium.</li>
@@ -1757,11 +1759,11 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Volvo se positionne comme le constructeur premium pour les acheteurs responsables en France. La marque attire une clientèle éduquée, soucieuse de sécurité et d'environnement, qui trouve dans Volvo une alternative aux constructeurs premium allemands jugés trop ostentatoires. L'EX40 est le modèle le plus vendu de la gamme grâce à sa production belge et son éligibilité au bonus. Le transfert de production de l'EX30 à Gand devrait considérablement booster les ventes de ce modèle accessible et attractif.</p>
+<p>Volvo se positionne comme le constructeur premium pour les acheteurs responsables en France. La marque attire une clientèle éduquée, soucieuse de sécurité et d'environnement, qui trouve dans Volvo une alternative aux constructeurs premium allemands jugés trop ostentatoires. L'EX40 est le modèle le plus vendu de la gamme grâce à sa production belge. Le transfert de production de l'EX30 à Gand devrait considérablement booster les ventes de ce modèle accessible et attractif.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
-<li><strong>EX30 « Made in Belgium » (2025-2026)</strong> : le transfert de production à Gand rendra l'EX30 éligible au bonus écologique, transformant son potentiel commercial en France.</li>
+<li><strong>EX30 « Made in Belgium » (2025-2026)</strong> : le transfert de production à Gand rendra l'EX30 éligible à la prime coup de pouce CEE, transformant son potentiel commercial en France.</li>
 <li><strong>Volvo EX60 (2026)</strong> : SUV familial de taille moyenne, successeur électrique du best-seller XC60, sur la nouvelle plateforme SPA3.</li>
 <li><strong>100 % électrique en 2030</strong> : Volvo sera l'un des premiers constructeurs établis à ne vendre que des véhicules électriques.</li>
 <li><strong>Conduite autonome</strong> : le déploiement progressif du Ride Pilot (niveau 3) sur l'EX90, puis sur d'autres modèles, positionnera Volvo comme leader de la conduite autonome sécurisée.</li>
@@ -1820,7 +1822,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de Polestar :</strong></p>
 <ul>
-<li><strong>Production chinoise majoritaire</strong> : la Polestar 3 et la Polestar 4 sont produites en Chine, ce qui compromet leur éligibilité au bonus écologique français et expose la marque aux surtaxes douanières européennes.</li>
+<li><strong>Production chinoise majoritaire</strong> : la Polestar 3 et la Polestar 4 sont produites en Chine, ce qui compromet leur éligibilité à la prime coup de pouce CEE et expose la marque aux surtaxes douanières européennes.</li>
 <li><strong>Notoriété limitée</strong> : Polestar reste une marque confidentielle en France, avec une notoriété très inférieure à celle de Tesla, BMW ou Mercedes.</li>
 <li><strong>Réseau de distribution minimaliste</strong> : Polestar fonctionne principalement en vente en ligne avec quelques « Polestar Spaces » (showrooms), un modèle qui peut freiner les acheteurs traditionnels.</li>
 <li><strong>Rentabilité non atteinte</strong> : Polestar n'est pas encore rentable, ce qui soulève des questions sur la viabilité à long terme de la marque.</li>
@@ -1858,8 +1860,8 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>Cupra propose deux modèles 100 % électriques :</p>
 <ul>
-<li><strong>Cupra Born</strong> : compacte sportive (4,32 m) sur la plateforme MEB du groupe Volkswagen (partagée avec la VW ID.3). Motorisations de 204 à 231 ch. Batteries de 58 ou 77 kWh, autonomie jusqu'à 548 km WLTP. Charge DC jusqu'à 170 kW. La Born se distingue de l'ID.3 par un châssis sport spécifiquement recalibré (ressorts plus fermes, amortisseurs recalibrés, direction plus directe), un design extérieur plus agressif (pare-chocs sculptés en cuivre, jantes spécifiques) et un intérieur avec des sièges baquets sport et des accents cuivrés. Le mode « Cupra » libère toute la puissance et durcit la suspension et la direction pour une conduite plus engagée. Prix à partir d'environ 37 000 €. Produite à Zwickau (Allemagne), éligible au bonus écologique français.</li>
-<li><strong>Cupra Tavascan</strong> : SUV coupé (4,64 m) électrique premium sur la plateforme MEB étendue. Motorisations de 286 ch (propulsion) à 340 ch (VZ, transmission intégrale AWD). Batterie de 77 kWh, autonomie jusqu'à 568 km WLTP (version propulsion). Charge DC jusqu'à 185 kW. Design spectaculaire avec une ligne de toit plongeante de coupé, des arches de roue musclées et un éclairage signature LED distinctif. Intérieur haut de gamme avec matériaux Dinamica (microfibre recyclée), écran central 15 pouces et sièges sport enveloppants. Prix à partir d'environ 52 000 €. Produit en Chine (usine Anhui de Volkswagen), ce qui le prive du bonus écologique français.</li>
+<li><strong>Cupra Born</strong> : compacte sportive (4,32 m) sur la plateforme MEB du groupe Volkswagen (partagée avec la VW ID.3). Motorisations de 204 à 231 ch. Batteries de 58 ou 77 kWh, autonomie jusqu'à 548 km WLTP. Charge DC jusqu'à 170 kW. La Born se distingue de l'ID.3 par un châssis sport spécifiquement recalibré (ressorts plus fermes, amortisseurs recalibrés, direction plus directe), un design extérieur plus agressif (pare-chocs sculptés en cuivre, jantes spécifiques) et un intérieur avec des sièges baquets sport et des accents cuivrés. Le mode « Cupra » libère toute la puissance et durcit la suspension et la direction pour une conduite plus engagée. Prix à partir d'environ 37 000 €. Produite à Zwickau (Allemagne), éligible à la prime coup de pouce CEE.</li>
+<li><strong>Cupra Tavascan</strong> : SUV coupé (4,64 m) électrique premium sur la plateforme MEB étendue. Motorisations de 286 ch (propulsion) à 340 ch (VZ, transmission intégrale AWD). Batterie de 77 kWh, autonomie jusqu'à 568 km WLTP (version propulsion). Charge DC jusqu'à 185 kW. Design spectaculaire avec une ligne de toit plongeante de coupé, des arches de roue musclées et un éclairage signature LED distinctif. Intérieur haut de gamme avec matériaux Dinamica (microfibre recyclée), écran central 15 pouces et sièges sport enveloppants. Prix à partir d'environ 52 000 €. Produit en Chine (usine Anhui de Volkswagen), ce qui le prive de la prime coup de pouce CEE.</li>
 </ul>
 
 <h3>Identité et philosophie de marque</h3>
@@ -1886,12 +1888,12 @@ export const marques: Marque[] = [
 <li><strong>Positionnement unique</strong> : Cupra occupe un créneau vacant entre les généralistes et le premium, offrant la sportivité et le design d'une marque premium à des tarifs 20 à 30 % inférieurs aux constructeurs allemands traditionnels.</li>
 <li><strong>Dynamique de conduite</strong> : les calibrages spécifiques de châssis, direction et suspension donnent aux Cupra un avantage tangible en plaisir de conduite par rapport aux Volkswagen dont elles dérivent.</li>
 <li><strong>Design distinctif</strong> : le design Cupra, avec sa signature cuivrée et ses formes sculptées, se démarque visuellement de la concurrence, un atout pour les acheteurs qui veulent se distinguer.</li>
-<li><strong>Born produite en Allemagne</strong> : la production à Zwickau garantit l'éligibilité au bonus écologique français.</li>
+<li><strong>Born produite en Allemagne</strong> : la production à Zwickau permet de prétendre à la prime coup de pouce CEE.</li>
 <li><strong>Marque en croissance</strong> : la dynamique commerciale de Cupra est impressionnante, avec une croissance à deux chiffres chaque année depuis sa création.</li>
 </ul>
 <p><strong>Faiblesses de Cupra dans l'électrique :</strong></p>
 <ul>
-<li><strong>Tavascan produit en Chine</strong> : le SUV phare de la gamme n'est pas éligible au bonus écologique français en raison de sa production chinoise, un handicap commercial significatif.</li>
+<li><strong>Tavascan produit en Chine</strong> : le SUV phare de la gamme n'est pas éligible à la prime coup de pouce CEE en raison de sa production chinoise, un handicap commercial significatif.</li>
 <li><strong>Gamme électrique restreinte</strong> : avec seulement deux modèles 100 % électriques, la gamme est trop limitée pour couvrir les besoins de tous les acheteurs.</li>
 <li><strong>Architecture 400V</strong> : la plateforme MEB en 400V limite les performances de charge rapide par rapport aux concurrents en 800V.</li>
 <li><strong>Réseau de distribution en développement</strong> : le réseau Cupra Garage en France est encore en croissance (environ 100 points de vente), limitant la couverture géographique.</li>
@@ -1964,7 +1966,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de Smart :</strong></p>
 <ul>
-<li><strong>Production chinoise</strong> : la fabrication en Chine prive les Smart du bonus écologique français et expose la marque aux surtaxes douanières européennes, ce qui renchérit significativement le coût pour le consommateur français.</li>
+<li><strong>Production chinoise</strong> : la fabrication en Chine prive les Smart de la prime coup de pouce CEE et expose la marque aux surtaxes douanières européennes, ce qui renchérit significativement le coût pour le consommateur français.</li>
 <li><strong>Perte d'identité</strong> : la transformation de Smart en marque de SUV a fait perdre l'identité unique de micro-citadine urbaine qui faisait le charme de la marque.</li>
 <li><strong>Réseau de distribution limité</strong> : le réseau Smart en France est encore en construction, avec une couverture géographique incomplète qui peut compliquer l'achat et le service après-vente.</li>
 <li><strong>Concurrence intense</strong> : le segment des SUV compacts électriques premium est l'un des plus encombrés du marché, avec des rivaux comme le Volvo EX30, le Mini Countryman SE, la Cupra Born et bientôt de nombreux modèles chinois.</li>
@@ -1972,7 +1974,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Smart se repositionne sur le marché français en tant que marque premium accessible, ciblant une clientèle urbaine et péri-urbaine qui recherche un SUV compact bien fini et bien équipé à un prix raisonnable. La non-éligibilité au bonus écologique constitue un handicap significatif, mais les tarifs de base restent compétitifs par rapport aux alternatives européennes. La marque capitalise sur la notoriété du nom Smart et sur l'association avec Mercedes-Benz pour rassurer les acheteurs.</p>
+<p>Smart se repositionne sur le marché français en tant que marque premium accessible, ciblant une clientèle urbaine et péri-urbaine qui recherche un SUV compact bien fini et bien équipé à un prix raisonnable. La non-éligibilité à la prime coup de pouce CEE constitue un handicap significatif, mais les tarifs de base restent compétitifs par rapport aux alternatives européennes. La marque capitalise sur la notoriété du nom Smart et sur l'association avec Mercedes-Benz pour rassurer les acheteurs.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
@@ -2003,7 +2005,7 @@ export const marques: Marque[] = [
 <p>Mini propose une gamme resserrée mais distinctive :</p>
 <ul>
 <li><strong>Mini Cooper SE (E et SE)</strong> : citadine premium (3,86 m) en version 3 portes, coeur de la gamme Mini. Deux niveaux de puissance : Cooper E (184 ch, batterie 40,7 kWh, 305 km WLTP) et Cooper SE (218 ch, batterie 54,2 kWh, 402 km WLTP). Charge DC jusqu'à 95 kW (Cooper E) ou 130 kW (Cooper SE). Le « go-kart feeling » est préservé grâce à un châssis rigide, une direction directe et un centre de gravité abaissé par les batteries dans le plancher. Design extérieur modernisé avec des formes plus rondes et des feux Union Jack emblématiques. Intérieur révolutionné avec un immense écran OLED circulaire central de 24 cm de diamètre, remplaçant le tachymètre historique au centre du tableau de bord. Affichage tête haute projeté sur le pare-brise (option). Prix à partir d'environ 32 000 € (Cooper E) et 36 000 € (Cooper SE). La Cooper E est produite en Chine (usine Spotlight Automotive/BMW-Great Wall) et la Cooper SE à Oxford (Royaume-Uni).</li>
-<li><strong>Mini Countryman SE (E et SE)</strong> : SUV compact (4,43 m), le modèle le plus spacieux et polyvalent de la gamme Mini. Deux motorisations : Countryman E (204 ch, propulsion, batterie 66,4 kWh, 462 km WLTP) et Countryman SE ALL4 (313 ch, transmission intégrale, batterie 66,4 kWh, 433 km WLTP). Charge DC jusqu'à 130 kW. Coffre de 460 litres, format familial tout en conservant le dynamisme Mini. Design plus viril et robuste que la Cooper. Intérieur spacieux avec le même écran OLED circulaire. Prix à partir d'environ 42 000 €. Produit à Leipzig (Allemagne), éligible au bonus écologique français.</li>
+<li><strong>Mini Countryman SE (E et SE)</strong> : SUV compact (4,43 m), le modèle le plus spacieux et polyvalent de la gamme Mini. Deux motorisations : Countryman E (204 ch, propulsion, batterie 66,4 kWh, 462 km WLTP) et Countryman SE ALL4 (313 ch, transmission intégrale, batterie 66,4 kWh, 433 km WLTP). Charge DC jusqu'à 130 kW. Coffre de 460 litres, format familial tout en conservant le dynamisme Mini. Design plus viril et robuste que la Cooper. Intérieur spacieux avec le même écran OLED circulaire. Prix à partir d'environ 42 000 €. Produit à Leipzig (Allemagne), éligible à la prime coup de pouce CEE.</li>
 <li><strong>Mini Aceman (2025)</strong> : crossover compact (4,08 m) qui se positionne entre la Cooper et le Countryman. Design dynamique avec des proportions de coupé surélevé. Batterie de 42,5 ou 54,2 kWh, autonomie jusqu'à 406 km WLTP. Ce modèle comble un segment intermédiaire attractif. Produit en Chine.</li>
 </ul>
 
@@ -2031,20 +2033,20 @@ export const marques: Marque[] = [
 <li><strong>Plaisir de conduite</strong> : le « go-kart feeling » est non seulement préservé mais sublimé par le couple instantané du moteur électrique et le centre de gravité abaissé.</li>
 <li><strong>Design iconique</strong> : Mini est l'une des rares marques dont le design suffit à justifier l'achat, avec une reconnaissance et une désirabilité qui transcendent les critères rationnels.</li>
 <li><strong>Personnalisation</strong> : les possibilités de personnalisation font de chaque Mini un objet unique, renforçant le lien émotionnel avec le propriétaire.</li>
-<li><strong>Countryman produit en Allemagne</strong> : la production à Leipzig garantit l'éligibilité au bonus écologique français pour le modèle le plus vendu de la gamme.</li>
+<li><strong>Countryman produit en Allemagne</strong> : la production à Leipzig permet de prétendre à la prime coup de pouce CEE pour le modèle le plus vendu de la gamme.</li>
 <li><strong>Technologies BMW</strong> : Mini bénéficie des investissements technologiques considérables du groupe BMW sans le prix prohibitif des BMW.</li>
 </ul>
 <p><strong>Faiblesses de Mini dans l'électrique :</strong></p>
 <ul>
 <li><strong>Prix premium</strong> : avec un tarif de départ à 32 000 € pour la Cooper E, Mini est significativement plus chère que des citadines électriques comme la Renault 5 ou la Fiat 500e à prestations d'autonomie comparables.</li>
-<li><strong>Production partiellement chinoise</strong> : la Cooper E et l'Aceman sont produits en Chine, ce qui compromet leur éligibilité au bonus écologique français et peut rebuter certains acheteurs.</li>
+<li><strong>Production partiellement chinoise</strong> : la Cooper E et l'Aceman sont produits en Chine, ce qui compromet leur éligibilité à la prime coup de pouce CEE et peut rebuter certains acheteurs.</li>
 <li><strong>Gamme limitée</strong> : avec trois modèles (Cooper, Aceman, Countryman), Mini ne couvre que les segments citadine et SUV compact, excluant les berlines et les familles nombreuses.</li>
 <li><strong>Espace arrière limité</strong> : la Cooper SE reste une citadine compacte dont les places arrière sont contraintes, limitant sa polyvalence familiale.</li>
 <li><strong>Options coûteuses</strong> : comme chez BMW, de nombreux équipements sont facturés en option, alourdissant significativement le prix final.</li>
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Mini occupe un positionnement unique sur le marché français : celui de la voiture électrique « premium émotionnelle ». Les acheteurs de Mini ne font pas un choix rationnel mais un choix de coeur, motivé par le design, le plaisir de conduite et l'identité de la marque. En France, le Countryman SE est le modèle le plus populaire grâce à sa polyvalence et son éligibilité au bonus écologique. La Cooper SE séduit une clientèle urbaine aisée qui cherche une citadine premium distinctive.</p>
+<p>Mini occupe un positionnement unique sur le marché français : celui de la voiture électrique « premium émotionnelle ». Les acheteurs de Mini ne font pas un choix rationnel mais un choix de coeur, motivé par le design, le plaisir de conduite et l'identité de la marque. En France, le Countryman SE est le modèle le plus populaire grâce à sa polyvalence et son éligibilité à la prime coup de pouce CEE. La Cooper SE séduit une clientèle urbaine aisée qui cherche une citadine premium distinctive.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
@@ -2104,7 +2106,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Rapport prix/prestations</strong> : Opel propose des véhicules techniquement proches de Peugeot à des tarifs souvent inférieurs, offrant un excellent rapport qualité-prix dans le segment généraliste.</li>
 <li><strong>Gamme très complète</strong> : de la citadine Corsa au van Zafira Life en passant par le SUV Grandland et le ludospace Combo, Opel couvre des segments que beaucoup de concurrents ignorent en électrique.</li>
-<li><strong>Production européenne</strong> : la production en Allemagne (Rüsselsheim, Eisenach) et en Espagne (Saragosse) garantit l'éligibilité au bonus écologique français pour la plupart des modèles.</li>
+<li><strong>Production européenne</strong> : la production en Allemagne (Rüsselsheim, Eisenach) et en Espagne (Saragosse) permet de prétendre à la prime coup de pouce CEE pour la plupart des modèles.</li>
 <li><strong>Design distinctif</strong> : la signature Vizor et le nouveau Blitz donnent à Opel une identité visuelle forte et moderne, rompant avec l'image terne du passé.</li>
 <li><strong>Confort des sièges</strong> : les sièges certifiés AGR sont un atout différenciant pour les conducteurs qui parcourent de longues distances.</li>
 </ul>
@@ -2148,7 +2150,7 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>DS propose une gamme électrique ciblée sur le premium compact :</p>
 <ul>
-<li><strong>DS 3 E-Tense</strong> : SUV urbain premium (4,12 m), modèle le plus vendu de la gamme DS. Moteur de 156 ch, batterie de 54 kWh, autonomie jusqu'à 404 km WLTP. Charge DC jusqu'à 100 kW. Design distinctif avec la face avant « DS Wings » chromée, les projecteurs « DS Matrix LED Vision » à trois modules et la lunette arrière effilée. Intérieur somptueux avec la sellerie « point bracelet de montre » (couture horlogère héritée de la tradition maroquinière parisienne), l'éclairage d'ambiance et le système d'infodivertissement DS Iris avec écran tactile 10,3 pouces. Finitions Rivoli, Performance Line, Opéra disponibles. Prix à partir d'environ 40 000 €. Produit à Poissy (France), éligible au bonus écologique.</li>
+<li><strong>DS 3 E-Tense</strong> : SUV urbain premium (4,12 m), modèle le plus vendu de la gamme DS. Moteur de 156 ch, batterie de 54 kWh, autonomie jusqu'à 404 km WLTP. Charge DC jusqu'à 100 kW. Design distinctif avec la face avant « DS Wings » chromée, les projecteurs « DS Matrix LED Vision » à trois modules et la lunette arrière effilée. Intérieur somptueux avec la sellerie « point bracelet de montre » (couture horlogère héritée de la tradition maroquinière parisienne), l'éclairage d'ambiance et le système d'infodivertissement DS Iris avec écran tactile 10,3 pouces. Finitions Rivoli, Performance Line, Opéra disponibles. Prix à partir d'environ 40 000 €. Produit à Poissy (France), éligible à la prime coup de pouce CEE.</li>
 <li><strong>DS 4 E-Tense</strong> : compacte premium (4,40 m) au profil de crossover surélevé, positionnée entre berline et SUV. Moteur de 156 ch, batterie de 54 kWh, autonomie jusqu'à 420 km WLTP. Charge DC jusqu'à 100 kW. Design sculpté avec des proportions dynamiques et un traitement des surfaces complexe. Intérieur avec le DS Extended Head Up Display (affichage tête haute avec réalité augmentée), le DS Smart Touch (pavé tactile central) et une qualité de finition parmi les meilleures du segment. Prix à partir d'environ 44 000 €. Produite à Rüsselsheim (Allemagne).</li>
 <li><strong>DS 7 E-Tense (hybride rechargeable)</strong> : SUV familial premium (4,59 m), actuellement disponible en hybride rechargeable (300 ou 360 ch). Le DS 7 n'existe pas encore en version 100 % électrique, mais le futur DS 8 comblera ce manque. Intérieur avec le DS Lounge (sièges massants multipoints, veille Active Scan Suspension qui lit la route en avance). Prix à partir d'environ 55 000 € en PHEV.</li>
 <li><strong>DS N°8 (2025-2026)</strong> : berline fastback premium sur la plateforme STLA Medium de Stellantis, futur vaisseau amiral 100 % électrique de la gamme DS. Design spectaculaire inspiré du concept DS Aero Sport Lounge. Batterie de 97,2 kWh, autonomie annoncée de plus de 750 km WLTP grâce à un coefficient aérodynamique exceptionnel de 0,24. Motorisations de 230 à 350 ch. Charge DC jusqu'à 160 kW. Ce modèle marquera un tournant pour DS en l'établissant comme un rival crédible des berlines premium allemandes électriques.</li>
@@ -2178,7 +2180,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Finition artisanale</strong> : la qualité de finition intérieure des DS est parmi les meilleures du segment, surpassant souvent les constructeurs allemands dans le traitement des détails et des matériaux.</li>
 <li><strong>Confort de suspension</strong> : le DS Active Scan Suspension offre un filtrage des imperfections exceptionnel, faisant des DS parmi les voitures les plus confortables de leur catégorie.</li>
-<li><strong>Production française</strong> : le DS 3 est produit en France (Poissy), garantissant l'éligibilité au bonus écologique, un avantage décisif.</li>
+<li><strong>Production française</strong> : le DS 3 est produit en France (Poissy), ce qui permet de prétendre à la prime coup de pouce CEE, un avantage décisif.</li>
 <li><strong>Positionnement unique</strong> : DS est la seule marque premium française, offrant une alternative différenciée aux constructeurs allemands pour les acheteurs qui veulent afficher un choix d'élégance à la française.</li>
 <li><strong>DS N°8</strong> : l'arrivée du vaisseau amiral avec plus de 750 km d'autonomie positionnera DS comme un concurrent crédible des berlines premium électriques.</li>
 </ul>
@@ -2192,7 +2194,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>DS occupe un positionnement de niche premium en France, séduisant une clientèle qui valorise l'élégance française, le confort et le savoir-faire artisanal plutôt que la sportivité ou la puissance. Le DS 3 E-Tense est le modèle le plus vendu, grâce à son éligibilité au bonus écologique et à un format compact adapté aux besoins des acheteurs premium urbains. DS bénéficie également d'une présence notable dans les flottes d'entreprise, où la marque profite de son image de prestige français.</p>
+<p>DS occupe un positionnement de niche premium en France, séduisant une clientèle qui valorise l'élégance française, le confort et le savoir-faire artisanal plutôt que la sportivité ou la puissance. Le DS 3 E-Tense est le modèle le plus vendu, grâce à son éligibilité à la prime coup de pouce CEE et à un format compact adapté aux besoins des acheteurs premium urbains. DS bénéficie également d'une présence notable dans les flottes d'entreprise, où la marque profite de son image de prestige français.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
@@ -2222,7 +2224,7 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>Ford propose deux modèles 100 % électriques conçus pour l'Europe :</p>
 <ul>
-<li><strong>Ford Explorer EV</strong> : SUV familial (4,47 m) construit sur la plateforme MEB de Volkswagen, mais avec un design et un intérieur entièrement Ford. Motorisations de 170 ch (Standard Range, propulsion) à 340 ch (Extended Range AWD). Batteries de 52 ou 77 kWh, autonomie jusqu'à 602 km WLTP (version Extended Range propulsion). Charge DC jusqu'à 185 kW. L'Explorer EV se distingue par un design attractif qui s'éloigne du style Volkswagen, un intérieur moderne avec un grand écran vertical de 14,6 pouces pivotant (mode portrait pour la navigation, mode paysage pour le divertissement) et un système d'infodivertissement Ford SYNC Move basé sur Android. Coffre de 536 litres (bien supérieur à l'ID.4 sur la même plateforme). Prix à partir d'environ 37 000 €. Produit à Cologne (Allemagne), éligible au bonus écologique français.</li>
+<li><strong>Ford Explorer EV</strong> : SUV familial (4,47 m) construit sur la plateforme MEB de Volkswagen, mais avec un design et un intérieur entièrement Ford. Motorisations de 170 ch (Standard Range, propulsion) à 340 ch (Extended Range AWD). Batteries de 52 ou 77 kWh, autonomie jusqu'à 602 km WLTP (version Extended Range propulsion). Charge DC jusqu'à 185 kW. L'Explorer EV se distingue par un design attractif qui s'éloigne du style Volkswagen, un intérieur moderne avec un grand écran vertical de 14,6 pouces pivotant (mode portrait pour la navigation, mode paysage pour le divertissement) et un système d'infodivertissement Ford SYNC Move basé sur Android. Coffre de 536 litres (bien supérieur à l'ID.4 sur la même plateforme). Prix à partir d'environ 37 000 €. Produit à Cologne (Allemagne), éligible à la prime coup de pouce CEE.</li>
 <li><strong>Ford Capri EV</strong> : SUV coupé sportif (4,63 m) sur la même plateforme MEB, qui fait revivre le nom mythique de la Ford Capri des années 1970. Design dynamique avec une ligne de toit plongeante, un profil de coupé et un hayon arrière élancé. Mêmes motorisations que l'Explorer (170 à 340 ch). Batterie de 77 kWh, autonomie jusqu'à 627 km WLTP. Charge DC jusqu'à 185 kW. Coffre immense de 572 litres grâce à la forme fastback. Le Capri EV est positionné comme le modèle lifestyle de la gamme, ciblant les acheteurs qui veulent un véhicule à la fois sportif et pratique. Prix à partir d'environ 42 000 €. Produit à Cologne (Allemagne).</li>
 <li><strong>Ford Mustang Mach-E</strong> : SUV sportif (4,71 m) développé en Amérique sur la plateforme Global Electrified 1. Le Mustang Mach-E a été le premier véhicule électrique de Ford, lancé en 2020, empruntant le nom mythique de la Mustang pour sa version électrique (un choix controversé auprès des puristes). Motorisations de 269 à 487 ch (version GT). Batteries de 72 ou 91 kWh, autonomie jusqu'à 600 km WLTP. Charge DC jusqu'à 150 kW. Le Mustang Mach-E reste disponible en France mais sera progressivement remplacé par les modèles européens. Prix à partir d'environ 48 000 €. Produit au Mexique.</li>
 </ul>
@@ -2248,7 +2250,7 @@ export const marques: Marque[] = [
 <h3>Forces et faiblesses</h3>
 <p><strong>Forces de Ford dans l'électrique en Europe :</strong></p>
 <ul>
-<li><strong>Production à Cologne</strong> : la fabrication en Allemagne garantit l'éligibilité au bonus écologique français et rassure les acheteurs sur la qualité de production.</li>
+<li><strong>Production à Cologne</strong> : la fabrication en Allemagne permet de prétendre à la prime coup de pouce CEE et rassure les acheteurs sur la qualité de production.</li>
 <li><strong>Rapport prix/prestations</strong> : l'Explorer EV à partir de 37 000 € offre un rapport qualité-prix très compétitif pour un SUV de cette taille et de ce niveau d'équipement.</li>
 <li><strong>Plateforme MEB éprouvée</strong> : la plateforme Volkswagen est fiable et bien connue, réduisant les risques de problèmes de jeunesse.</li>
 <li><strong>Design différencié</strong> : Ford a réussi à créer des véhicules visuellement distincts des Volkswagen, avec une identité propre.</li>
@@ -2265,7 +2267,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Ford se positionne sur le marché français comme un constructeur généraliste proposant des SUV électriques spacieux, bien équipés et à des tarifs compétitifs. L'Explorer EV, avec son prix d'entrée autour de 37 000 € et son éligibilité au bonus écologique, est l'un des SUV électriques les plus abordables produits en Europe. Ford cible les familles et les jeunes professionnels qui recherchent un véhicule moderne et polyvalent sans le prix premium des marques allemandes.</p>
+<p>Ford se positionne sur le marché français comme un constructeur généraliste proposant des SUV électriques spacieux, bien équipés et à des tarifs compétitifs. L'Explorer EV, avec son prix d'entrée autour de 37 000 € et son éligibilité à la prime coup de pouce CEE, est l'un des SUV électriques les plus abordables produits en Europe. Ford cible les familles et les jeunes professionnels qui recherchent un véhicule moderne et polyvalent sans le prix premium des marques allemandes.</p>
 
 <h3>Perspectives et modèles à venir</h3>
 <ul>
@@ -2327,7 +2329,7 @@ export const marques: Marque[] = [
 <li><strong>Plaisir de conduite</strong> : les Porsche électriques offrent un plaisir de conduite au niveau des meilleures voitures de sport thermiques, grâce à un châssis d'exception et une mise au point obsessionnelle.</li>
 <li><strong>Qualité de fabrication</strong> : la qualité d'assemblage et de finition des Porsche est parmi les meilleures de l'industrie automobile.</li>
 <li><strong>Valeur résiduelle exceptionnelle</strong> : les Porsche, y compris électriques, conservent une valeur de revente très élevée grâce à la désirabilité de la marque.</li>
-<li><strong>Production allemande</strong> : Zuffenhausen et Leipzig garantissent l'éligibilité au bonus écologique français.</li>
+<li><strong>Production allemande</strong> : Zuffenhausen et Leipzig garantissent une fabrication européenne, mais les prix de la gamme dépassent largement le plafond de la prime coup de pouce CEE.</li>
 </ul>
 <p><strong>Faiblesses de Porsche dans l'électrique :</strong></p>
 <ul>
@@ -2415,7 +2417,7 @@ export const marques: Marque[] = [
 <p><strong>Faiblesses de Toyota dans l'électrique :</strong></p>
 <ul>
 <li><strong>Retard dans l'offre BEV</strong> : avec un seul modèle 100 % électrique (bZ4X), Toyota accuse un retard considérable par rapport aux constructeurs qui proposent 4 à 6 modèles électriques.</li>
-<li><strong>Production hors Europe</strong> : le bZ4X est produit au Japon, ce qui peut limiter l'éligibilité au bonus écologique français selon les critères du score environnemental.</li>
+<li><strong>Production hors Europe</strong> : le bZ4X est produit au Japon, ce qui peut limiter l'éligibilité à la prime coup de pouce CEE selon les critères du score environnemental.</li>
 <li><strong>Performances de charge moyennes</strong> : les 150 kW de charge DC du bZ4X sont corrects mais inférieurs aux standards actuels du segment (Hyundai/Kia à 240 kW).</li>
 <li><strong>Design conservateur</strong> : le bZ4X, bien que distinctif, manque du caractère et de l'attrait émotionnel de certains concurrents (Renault 5, Cupra Born).</li>
 <li><strong>Communication hésitante</strong> : les déclarations publiques de l'ancien président Akio Toyoda contre le « tout-électrique » ont pu nuire à l'image de Toyota auprès des acheteurs de BEV convaincus.</li>
@@ -2452,7 +2454,7 @@ export const marques: Marque[] = [
 <h3>Gamme électrique actuelle en France (2025-2026)</h3>
 <p>L'offre électrique de Honda en France est encore limitée :</p>
 <ul>
-<li><strong>Honda e:Ny1</strong> : SUV urbain compact (4,39 m), seul modèle 100 % électrique de Honda actuellement disponible en Europe. Construit sur la plateforme e:N Architecture F, le e:Ny1 cible les familles urbaines avec un format pratique et fonctionnel. Moteur de 204 ch, batterie de 68,8 kWh, autonomie de 412 km WLTP. Charge DC jusqu'à 78 kW. Intérieur sobre et bien construit avec un écran tactile 15,1 pouces vertical, des sièges confortables et un coffre de 344 litres. Le système d'infodivertissement intègre Google Maps et Android Auto/Apple CarPlay. Prix à partir d'environ 40 000 €. Produit en Chine (usine Wuhan), ce qui compromet l'éligibilité au bonus écologique français.</li>
+<li><strong>Honda e:Ny1</strong> : SUV urbain compact (4,39 m), seul modèle 100 % électrique de Honda actuellement disponible en Europe. Construit sur la plateforme e:N Architecture F, le e:Ny1 cible les familles urbaines avec un format pratique et fonctionnel. Moteur de 204 ch, batterie de 68,8 kWh, autonomie de 412 km WLTP. Charge DC jusqu'à 78 kW. Intérieur sobre et bien construit avec un écran tactile 15,1 pouces vertical, des sièges confortables et un coffre de 344 litres. Le système d'infodivertissement intègre Google Maps et Android Auto/Apple CarPlay. Prix à partir d'environ 40 000 €. Produit en Chine (usine Wuhan), ce qui compromet l'éligibilité à la prime coup de pouce CEE.</li>
 <li><strong>Honda e (fin de commercialisation)</strong> : la citadine électrique rétro-futuriste a été arrêtée en 2024. Son design adorable (yeux ronds, surfaces lisses, rétroviseurs caméras) et son intérieur spectaculaire (cinq écrans sur toute la largeur du tableau de bord) en faisaient un objet de collection, mais son autonomie de 222 km et son prix de plus de 35 000 € la rendaient difficile à justifier commercialement.</li>
 </ul>
 
@@ -2494,7 +2496,7 @@ export const marques: Marque[] = [
 <ul>
 <li><strong>Retard dans l'offre</strong> : avec un seul modèle 100 % électrique en Europe (le e:Ny1), Honda accuse un retard considérable par rapport à ses concurrents coréens, chinois et européens.</li>
 <li><strong>e:Ny1 peu compétitif</strong> : la charge DC limitée à 78 kW est l'une des plus lentes du marché, et l'autonomie de 412 km est correcte sans être remarquable pour le prix demandé.</li>
-<li><strong>Production chinoise</strong> : le e:Ny1 produit en Chine n'est pas éligible au bonus écologique français, un handicap commercial majeur.</li>
+<li><strong>Production chinoise</strong> : le e:Ny1 produit en Chine n'est pas éligible à la prime coup de pouce CEE, un handicap commercial majeur.</li>
 <li><strong>Image conservatrice</strong> : Honda est perçue comme un constructeur fiable mais conservateur, manquant de l'élan émotionnel que d'autres marques parviennent à insuffler dans leurs véhicules électriques.</li>
 <li><strong>Absence de modèle phare</strong> : Honda n'a pas encore de véhicule électrique emblématique capable de cristalliser l'attention du public, comme la Renault 5 ou la Tesla Model 3.</li>
 </ul>
@@ -2565,7 +2567,7 @@ export const marques: Marque[] = [
 <p><strong>Faiblesses de Nissan dans l'électrique :</strong></p>
 <ul>
 <li><strong>Charge DC limitée</strong> : les 130 kW de charge DC de l'Ariya sont en retrait par rapport à Hyundai (240 kW) et Kia (240 kW), un handicap pour les longs trajets.</li>
-<li><strong>Production hors Europe</strong> : l'Ariya est produit au Japon, ce qui peut impacter l'éligibilité au bonus écologique français selon les critères du score environnemental.</li>
+<li><strong>Production hors Europe</strong> : l'Ariya est produit au Japon, ce qui peut impacter l'éligibilité à la prime coup de pouce CEE selon les critères du score environnemental.</li>
 <li><strong>Gamme trop restreinte</strong> : avec un seul modèle électrique (l'Ariya), Nissan est très en retard par rapport aux constructeurs qui proposent 3 à 6 modèles électriques.</li>
 <li><strong>Image vieillissante</strong> : la Leaf, malgré son rôle de pionnière, est associée à une technologie datée (CHAdeMO, design sans éclat), ce qui peut nuire à la perception de la marque dans l'électrique.</li>
 <li><strong>Situation financière fragile</strong> : les difficultés financières récentes de Nissan (restructurations, baisses de ventes) limitent les investissements dans la R&D électrique.</li>
@@ -2636,7 +2638,7 @@ export const marques: Marque[] = [
 <li><strong>Prestige inégalé</strong> : aucune marque automobile n'a le pouvoir d'attraction émotionnel de Ferrari. Le simple fait de posséder une Ferrari, même électrique, est un statut social en soi.</li>
 <li><strong>Innovation technologique</strong> : les plus de 60 brevets déposés pour la Luce témoignent de l'ampleur de l'innovation, bien au-delà d'une simple conversion électrique.</li>
 <li><strong>Collaboration Jony Ive</strong> : la contribution de l'un des designers les plus influents au monde donne à la Luce une dimension culturelle qui dépasse l'automobile.</li>
-<li><strong>Production à Maranello</strong> : la production exclusivement italienne garantit l'éligibilité au bonus écologique (bien que le prix la rende hors critères) et préserve l'aura du « Made in Maranello ».</li>
+<li><strong>Production à Maranello</strong> : la production exclusivement italienne préserve l'aura du « Made in Maranello ».</li>
 <li><strong>Expertise F1</strong> : les technologies de Formule 1 (gestion de l'énergie, matériaux, aérodynamique) nourrissent directement le développement des véhicules de route.</li>
 </ul>
 <p><strong>Faiblesses de Ferrari dans l'électrique :</strong></p>
@@ -2720,7 +2722,7 @@ export const marques: Marque[] = [
 </ul>
 <p><strong>Faiblesses de Seres :</strong></p>
 <ul>
-<li><strong>Non-éligibilité au bonus écologique</strong> : les véhicules Seres produits en Chine ne bénéficient pas du bonus écologique français, annulant une partie de l'avantage prix.</li>
+<li><strong>Non-éligibilité à la prime coup de pouce CEE</strong> : les véhicules Seres produits en Chine n'ouvrent pas droit à la prime coup de pouce CEE, annulant une partie de l'avantage prix.</li>
 <li><strong>Surtaxes douanières</strong> : les droits de douane supplémentaires imposés par l'UE sur les véhicules électriques chinois pourraient augmenter les prix de Seres en Europe.</li>
 <li><strong>Charge DC très lente</strong> : les 60 kW de charge DC du Seres 3 sont parmi les plus lents du marché, rendant les longs trajets contraignants.</li>
 <li><strong>Réseau SAV limité</strong> : le réseau de concessionnaires et de garages agréés Seres en France est encore très restreint, ce qui peut poser des problèmes en cas de panne ou de besoin de maintenance.</li>
@@ -2730,7 +2732,7 @@ export const marques: Marque[] = [
 </ul>
 
 <h3>Positionnement sur le marché français</h3>
-<p>Seres occupe le créneau de l'ultra-abordable sur le marché français du véhicule électrique. La marque cible principalement les primo-accédants à l'électrique, les conducteurs à budget serré et les flottes d'entreprise à la recherche du coût total de possession le plus bas. Le Seres 3 est parfois proposé via des offres spéciales à des prix si bas qu'ils défient toute concurrence, même en tenant compte de l'absence de bonus écologique. Cependant, la marque doit surmonter le déficit de confiance lié à sa méconnaissance et à son réseau SAV limité.</p>
+<p>Seres occupe le créneau de l'ultra-abordable sur le marché français du véhicule électrique. La marque cible principalement les primo-accédants à l'électrique, les conducteurs à budget serré et les flottes d'entreprise à la recherche du coût total de possession le plus bas. Le Seres 3 est parfois proposé via des offres spéciales à des prix si bas qu'ils défient toute concurrence, même en tenant compte de l'absence de prime coup de pouce CEE. Cependant, la marque doit surmonter le déficit de confiance lié à sa méconnaissance et à son réseau SAV limité.</p>
 
 <h3>Perspectives</h3>
 <ul>

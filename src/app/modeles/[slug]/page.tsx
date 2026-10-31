@@ -105,8 +105,8 @@ function getFaqs(m: ReturnType<typeof getModeleBySlug>) {
     {
       question: `Quel est le prix de la ${m.modele} ?`,
       answer: isAVenir
-        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif reste provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""} ; les grilles définitives s'écartent souvent de quelques centaines d'euros des annonces initiales. ${m.aidesEligible ? `Ce modèle devrait être éligible au bonus écologique de 4\u00a0000\u00a0€, soit un ticket d'entrée ramené autour de ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle ne devrait pas être éligible au bonus écologique, compte tenu de son lieu de production."} S'y ajouteront l'assurance, la carte grise et, le cas échéant, l'installation d'une wallbox.`
-        : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}, soit environ ${Math.round((1 - m.prixOccasion / m.prixBase) * 100)}\u00a0% de moins.` : ""} ${m.aidesEligible ? `Ce prix ouvre droit au bonus écologique de 4\u00a0000\u00a0€, qui ramène la facture à ${euro(Math.max(0, m.prixBase - 4000))}.` : "Ce modèle n'ouvre pas droit au bonus écologique, son score environnemental ne remplissant pas les conditions fixées depuis 2024."} À ce montant s'ajoutent l'assurance, la carte grise, gratuite pour un véhicule électrique dans la plupart des régions, et l'éventuelle installation d'une wallbox, entre 1\u00a0200 et 1\u00a0800\u00a0€ posée.`,
+        ? `Le prix de la ${m.modele} est estimé à environ ${euro(m.prixBase)}. Ce tarif reste provisoire et sera confirmé à l'approche du lancement commercial${m.sortiePrevue ? `, prévu en ${m.sortiePrevue}` : ""} ; les grilles définitives s'écartent souvent de quelques centaines d'euros des annonces initiales. ${m.aidesEligible ? `Ce modèle devrait entrer dans le champ de la prime coup de pouce CEE, dont le montant n'est pas fixé par l'État : il dépend de l'offre de l'entreprise qui la verse et de vos revenus.` : "Ce modèle ne devrait pas ouvrir droit à la prime coup de pouce CEE, compte tenu de son score environnemental ou de son prix."} S'y ajouteront l'assurance, la carte grise et, le cas échéant, l'installation d'une wallbox.`
+        : `La ${m.modele} est disponible à partir de ${euro(m.prixBase)} en neuf.${m.prixOccasion ? ` En occasion, comptez à partir de ${euro(m.prixOccasion)}, soit environ ${Math.round((1 - m.prixOccasion / m.prixBase) * 100)}\u00a0% de moins.` : ""} ${m.aidesEligible ? `La prime coup de pouce CEE, qui a remplacé le bonus écologique le ${COUP_DE_POUCE.depuis}, peut venir en déduction : son montant dépend de l'offre de l'entreprise qui la verse et de vos revenus.` : "Ce modèle n'ouvre pas droit à la prime coup de pouce CEE, son score environnemental ou son prix l'en excluant."} À ce montant s'ajoutent l'assurance, la carte grise, gratuite pour un véhicule électrique dans la plupart des régions, et l'éventuelle installation d'une wallbox, entre 1\u00a0200 et 1\u00a0800\u00a0€ posée.`,
     },
     {
       question: `Quelle est l'autonomie réelle de la ${m.modele} ?`,
@@ -585,7 +585,7 @@ export default async function PageModele({ params }: Props) {
           <h2>Coût de possession (TCO)</h2>
           <p>
             Le coût total de possession (TCO) de la {m.modele} sur 4 ans / 48 000 km
-            inclut : achat (après aides), recharge, assurance (~650 €/an) et entretien
+            inclut : achat (prime CEE déduite, le cas échéant), recharge, assurance (~650 €/an) et entretien
             (~250 €/an). Utilisez le calculateur de financement ci-dessus pour obtenir
             une estimation personnalisée selon votre mode de financement (comptant, crédit,
             LOA ou LLD).

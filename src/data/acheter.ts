@@ -33,7 +33,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Pour un usage urbain et périurbain (moins de 80 km par jour, soit le cas de 95 % des Français), une citadine avec 250 à 300 km d'autonomie réelle suffit amplement. Vous ne rechargerez que tous les 3 à 5 jours, voire une fois par semaine. Si vous effectuez régulièrement des trajets de plus de 250 km dans la journée, privilégiez un modèle avec au moins 400 km d'autonomie réelle et une charge rapide supérieure à 100 kW pour pouvoir récupérer 200 km en 20 minutes lors d'une pause. Si vous faites régulièrement des allers-retours de plus de 500 km dans la journée, optez pour un modèle à très grande autonomie (500+ km WLTP) avec une architecture 800V pour une recharge ultra-rapide (Hyundai Ioniq 5, Kia EV6, Porsche Taycan).</p>
 
 <h3>Avez-vous la possibilité de recharger à domicile ?</h3>
-<p>C'est le critère le plus déterminant dans l'expérience quotidien. Un propriétaire de maison individuelle qui installe une wallbox (borne murale de 7 à 22 kW) bénéficie d'un confort incomparable : la voiture se recharge chaque nuit pendant votre sommeil, comme un smartphone, et vous partez chaque matin avec un « plein ». Le coût est de 2 à 4 euros pour 200 km, soit 15 à 30 fois moins qu'un passage à la pompe. L'installation d'une wallbox coûte 800 à 1 800 euros (matériel + pose par un électricien IRVE), partiellement compensée par un crédit d'impôt de 300 euros. En copropriété, le « droit à la prise » vous permet de demander l'installation d'une borne sur votre place de parking, et le syndic ne peut s'y opposer sans motif sérieux. Les aides ADVENIR couvrent jusqu'à 50 % du coût en copropriété. Les délais d'installation varient de 2 à 6 mois selon la complexité du raccordement électrique.</p>
+<p>C'est le critère le plus déterminant dans l'expérience quotidien. Un propriétaire de maison individuelle qui installe une wallbox (borne murale de 7 à 22 kW) bénéficie d'un confort incomparable : la voiture se recharge chaque nuit pendant votre sommeil, comme un smartphone, et vous partez chaque matin avec un « plein ». Le coût est de 2 à 4 euros pour 200 km, soit 15 à 30 fois moins qu'un passage à la pompe. L'installation d'une wallbox coûte 800 à 1 800 euros (matériel + pose par un électricien IRVE) ; le crédit d'impôt pour borne ne concerne plus que les dépenses payées jusqu'au ${CREDIT_IMPOT_BORNE.finDepenses}. En copropriété, le « droit à la prise » vous permet de demander l'installation d'une borne sur votre place de parking, et le syndic ne peut s'y opposer sans motif sérieux. Les aides ADVENIR couvrent jusqu'à 50 % du coût en copropriété. Les délais d'installation varient de 2 à 6 mois selon la complexité du raccordement électrique.</p>
 <p>Si vous n'avez aucune possibilité de recharge à domicile ni au travail (pas de garage, pas de parking, stationnement sur voirie), l'électrique reste possible mais moins confortable. Vous dépendrez des bornes publiques, qui sont de plus en plus nombreuses (plus de 135 000 points de charge en France en 2026) mais dont la disponibilité et les tarifs varient. Évaluez la densité de bornes autour de votre domicile via l'application ChargeMap avant de vous décider.</p>
 
 <h3>Quel est votre budget ?</h3>
@@ -56,7 +56,7 @@ export const pagesAcheter: PageAcheter[] = [
 </ul>
 
 <h3>Le TCO : le vrai comparatif financier</h3>
-<p>Le coût total de possession sur 4 ans pour 15 000 km par an intègre le prix d'achat (après aides), le coût de l'énergie, l'assurance, l'entretien, les taxes et la décote. Sur cette base, une voiture électrique rechargée à domicile revient en moyenne 4 000 à 7 000 euros moins cher qu'un modèle thermique équivalent sur 4 ans. Le coût de recharge à domicile (environ 2,50 à 3 euros pour 100 km) est 3 à 5 fois inférieur au coût du carburant (10 à 13 euros pour 100 km en essence). L'entretien est 2 à 3 fois moins cher (200 à 350 euros par an contre 800 à 1 200 euros). Consultez notre page détaillée sur le prix et le coût réel pour des simulations TCO personnalisées.</p>
+<p>Le coût total de possession sur 4 ans pour 15 000 km par an intègre le prix d'achat (prime CEE déduite le cas échéant), le coût de l'énergie, l'assurance, l'entretien, les taxes et la décote. Sur cette base, une voiture électrique rechargée à domicile revient en moyenne 4 000 à 7 000 euros moins cher qu'un modèle thermique équivalent sur 4 ans. Le coût de recharge à domicile (environ 2,50 à 3 euros pour 100 km) est 3 à 5 fois inférieur au coût du carburant (10 à 13 euros pour 100 km en essence). L'entretien est 2 à 3 fois moins cher (200 à 350 euros par an contre 800 à 1 200 euros). Consultez notre page détaillée sur le prix et le coût réel pour des simulations TCO personnalisées.</p>
 
 <h2>L'autonomie : comprendre les chiffres et anticiper la réalité</h2>
 
@@ -82,7 +82,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h3>Les trois niveaux de recharge</h3>
 <ul>
 <li><strong>Prise domestique classique (2,3 kW)</strong> : la solution la plus lente, comptez 20 à 35 heures pour une charge complète d'une batterie de 50 kWh. Elle dépanne mais ne convient pas comme solution principale. Utilisez-la uniquement en dernier recours et avec un câble de recharge renforcé (Green'Up ou équivalent).</li>
-<li><strong>Wallbox domestique (7,4 à 22 kW)</strong> : la solution recommandée pour 80 % de vos besoins. Une wallbox monophasée de 7,4 kW recharge une batterie de 50 kWh en 7 heures (une nuit). Une wallbox triphasée de 11 kW le fait en 5 heures, et une 22 kW en 2,5 heures. L'installation bénéficie d'un crédit d'impôt de 300 euros et coûte 800 à 1 800 euros tout compris. C'est l'investissement le plus rentable de tout l'écosystème VE.</li>
+<li><strong>Wallbox domestique (7,4 à 22 kW)</strong> : la solution recommandée pour 80 % de vos besoins. Une wallbox monophasée de 7,4 kW recharge une batterie de 50 kWh en 7 heures (une nuit). Une wallbox triphasée de 11 kW le fait en 5 heures, et une 22 kW en 2,5 heures. L'installation coûte 800 à 1 800 euros tout compris ; le crédit d'impôt pour borne a pris fin pour les dépenses payées après le ${CREDIT_IMPOT_BORNE.finDepenses}. C'est l'investissement le plus rentable de tout l'écosystème VE.</li>
 <li><strong>Borne rapide publique DC (50 à 350 kW)</strong> : la solution pour les longs trajets et les conducteurs sans borne à domicile. Un arrêt de 20 à 40 minutes suffit pour récupérer 80 % de la batterie sur les bornes les plus rapides. Le coût est plus élevé (0,40 à 0,70 euros/kWh) mais reste inférieur au carburant. Le réseau français compte plus de 135 000 points de charge en 2026, avec un objectif de 400 000 en 2030.</li>
 </ul>
 
@@ -91,15 +91,13 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Les aides financières : le levier indispensable</h2>
 
-<p>En 2026, le cumul des aides peut représenter 7 000 à 19 000 euros de réduction sur le prix d'achat :</p>
+<p>Les aides ont changé : le bonus écologique a été remplacé le ${COUP_DE_POUCE.depuis} et la prime à la conversion supprimée le ${PRIME_CONVERSION.supprimeeLe}. En 2026, il reste :</p>
 <ul>
-<li><strong>Bonus écologique</strong> : 4 000 euros (7 000 euros pour les ménages modestes) pour les véhicules de moins de 47 000 euros avec un score environnemental suffisant.</li>
-<li><strong>Prime à la conversion</strong> : jusqu'à 6 000 euros si vous mettez au rebut un véhicule polluant ancien (Crit'Air 3 et plus).</li>
-<li><strong>Leasing social</strong> : dès 54 euros par mois pour les ménages modestes (RFR/part inférieur ou égal à 15 400 euros).</li>
-<li><strong>Primes CEE</strong> : 500 à 1 500 euros selon l'opérateur énergétique.</li>
-<li><strong>Aides régionales et locales</strong> : 500 à 6 000 euros selon votre territoire (Île-de-France, Paris, Occitanie, etc.).</li>
+<li><strong>Prime coup de pouce CEE</strong> : pour une voiture électrique neuve d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC, de moins de ${COUP_DE_POUCE.masseMaxKg.toLocaleString("fr-FR")} kg et d'un score environnemental suffisant. Son montant n'est pas fixé par la réglementation : il dépend de l'entreprise qui la verse et de vos revenus.</li>
+<li><strong>Leasing social 2026</strong> : loyer de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus pour les ménages dont le revenu fiscal de référence par part ne dépasse pas ${eur(LEASING_SOCIAL.rfrParPartMax)} et qui roulent pour leur travail (non cumulable avec la prime CEE).</li>
+<li><strong>Aides locales</strong> : certaines régions, métropoles ou communes ont leur propre aide ; consultez le site de votre collectivité.</li>
 </ul>
-<p>Consultez notre guide complet des aides et bonus pour connaître les conditions précises et les démarches à suivre.</p>
+<p>Consultez notre <a href="/acheter/aides-et-bonus/">guide des aides à l'achat</a> pour connaître les conditions précises et les démarches à suivre.</p>
 
 <h2>Le financement : comptant, crédit, LOA ou LLD ?</h2>
 
@@ -131,7 +129,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h2>Notre sélection de modèles recommandés par profil</h2>
 
 <h3>Pour un usage urbain quotidien (budget serré)</h3>
-<p>La <strong>Citroën e-C3</strong> (23 300 euros) est notre recommandation numéro un. Autonomie suffisante (320 km WLTP), confort Citroën, prix imbattable après aides (16 300 euros pour un ménage modeste), et recharge rapide DC disponible. Alternative : la <strong>Dacia Spring</strong> (18 900 euros) pour un budget ultra-contraint, mais son autonomie limitée (225 km) et ses performances modestes la réservent aux petits trajets urbains.</p>
+<p>La <strong>Citroën e-C3</strong> (23 300 euros) est notre recommandation numéro un. Autonomie suffisante (320 km WLTP), confort Citroën, prix catalogue parmi les plus bas du marché, éligibilité à la prime coup de pouce CEE, et recharge rapide DC disponible. Alternative : la <strong>Dacia Spring</strong> (18 900 euros) pour un budget ultra-contraint, mais son autonomie limitée (225 km) et ses performances modestes la réservent aux petits trajets urbains.</p>
 
 <h3>Pour un usage mixte avec plaisir de conduite</h3>
 <p>La <strong>Renault 5 E-Tech</strong> (25 000 euros) combine design iconique, agrément de conduite, autonomie de 400 km et fabrication française. C'est le modèle qui donne envie de passer à l'électrique. Alternative premium : la <strong>BMW iX1</strong> (49 950 euros) pour ceux qui recherchent la qualité de fabrication allemande.</p>
@@ -143,7 +141,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Le <strong>Kia EV6</strong> (47 990 euros) avec son architecture 800V recharge de 10 à 80 % en 18 minutes, offre 528 km WLTP et bénéficie d'une garantie 7 ans transférable. Alternative : la <strong>Tesla Model 3 Grande Autonomie</strong> (49 990 euros) avec 629 km WLTP et le réseau Supercharger.</p>
 
 <h3>Pour le meilleur rapport qualité-prix</h3>
-<p>La <strong>MG4</strong> (27 990 euros) offre des prestations de segment supérieur à un prix imbattable. Attention toutefois : son assemblage chinois la rend non éligible au bonus écologique en 2026, ce qui réduit son avantage prix effectif pour les ménages qui pourraient bénéficier du bonus sur un modèle concurrent.</p>
+<p>La <strong>MG4</strong> (27 990 euros) offre des prestations de segment supérieur à un prix imbattable. Attention toutefois : son assemblage chinois la rend non éligible à la prime coup de pouce CEE, ce qui réduit son avantage prix face à un modèle concurrent qui y ouvre droit.</p>
 
 <p>Consultez notre classement complet des meilleures voitures électriques 2026 pour des fiches détaillées de chaque modèle et notre outil de comparaison interactif.</p>`,
     faq: [
@@ -164,7 +162,7 @@ export const pagesAcheter: PageAcheter[] = [
     h1: "Prix et coût réel d'une voiture électrique : le TCO expliqué",
     metaDescription:
       "Prix voiture électrique et coût réel (TCO) sur 4 ans : achat, recharge, entretien, assurance, décote. Calculateur intégré pour estimer votre budget total.",
-    contenu: `Le prix d'achat d'une voiture électrique n'est que la partie émergée de l'iceberg financier. Pour comparer objectivement avec un véhicule thermique, il faut raisonner en coût total de possession, ou TCO (Total Cost of Ownership). Ce calcul intègre l'ensemble des dépenses sur la durée de détention : prix d'achat, aides déduites, coût de l'énergie, assurance, entretien, pneumatiques, contrôle technique et décote à la revente. En 2026, cette approche globale est devenue incontournable tant les paramètres financiers se sont complexifiés avec la multiplication des offres, des aides et des modes de financement. Ce guide vous propose une analyse exhaustive de chaque poste de dépense pour vous permettre de budgéter précisément votre passage à l'électrique.
+    contenu: `Le prix d'achat d'une voiture électrique n'est que la partie émergée de l'iceberg financier. Pour comparer objectivement avec un véhicule thermique, il faut raisonner en coût total de possession, ou TCO (Total Cost of Ownership). Ce calcul intègre l'ensemble des dépenses sur la durée de détention : prix d'achat (prime CEE déduite le cas échéant), coût de l'énergie, assurance, entretien, pneumatiques, contrôle technique et décote à la revente. En 2026, cette approche globale est devenue incontournable tant les paramètres financiers se sont complexifiés avec la multiplication des offres, des aides et des modes de financement. Ce guide vous propose une analyse exhaustive de chaque poste de dépense pour vous permettre de budgéter précisément votre passage à l'électrique.
 
 <h2>Les prix du marché en 2026 : un panorama complet par segment</h2>
 
@@ -241,9 +239,9 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>La décote des voitures électriques est historiquement plus élevée que celle des thermiques, principalement en raison de l'évolution technologique rapide et de la perception du marché. Toutefois, cet écart se réduit considérablement à mesure que le marché de l'occasion se structure et que la confiance dans la durabilité des batteries se confirme.</p>
 
-<p>En 2026, la décote moyenne d'un VE sur 4 ans se situe entre 45 et 55 %, contre 35 à 45 % pour un thermique équivalent. Les disparités entre modèles sont cependant très importantes. Les Tesla conservent la meilleure valeur résiduelle parmi les VE (38 à 42 % de décote sur 4 ans), suivies des modèles Hyundai-Kia (42 à 48 %), puis des marques françaises éligibles au bonus. Les modèles chinois de première génération (MG ZS EV 2021, Aiways) et les anciennes Renault Zoe subissent les plus fortes décotes (55 à 65 %).</p>
+<p>En 2026, la décote moyenne d'un VE sur 4 ans se situe entre 45 et 55 %, contre 35 à 45 % pour un thermique équivalent. Les disparités entre modèles sont cependant très importantes. Les Tesla conservent la meilleure valeur résiduelle parmi les VE (38 à 42 % de décote sur 4 ans), suivies des modèles Hyundai-Kia (42 à 48 %), puis des marques françaises. Les modèles chinois de première génération (MG ZS EV 2021, Aiways) et les anciennes Renault Zoe subissent les plus fortes décotes (55 à 65 %).</p>
 
-<p>Plusieurs facteurs influencent directement la valeur résiduelle de votre VE : la santé de la batterie (un certificat SoH attestant de plus de 90 % de capacité rassure les acheteurs), la taille de la batterie (les versions grande autonomie décotent moins), la marque et le réseau SAV, et l'éligibilité du modèle au bonus d'occasion (1 000 euros pour les véhicules de moins de 47 000 euros).</p>
+<p>Plusieurs facteurs influencent directement la valeur résiduelle de votre VE : la santé de la batterie (un certificat SoH attestant de plus de 90 % de capacité rassure les acheteurs), la taille de la batterie (les versions grande autonomie décotent moins), la marque et le réseau SAV, et la demande pour le modèle sur le marché de l'occasion.</p>
 
 <h2>Les taxes et la fiscalité : un avantage croissant</h2>
 
@@ -261,19 +259,19 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h3>Scénario 1 : citadines, Renault 5 E-Tech vs Renault Clio TCe 100</h3>
 
-<p>Pour 15 000 km par an sur 4 ans. <strong>Renault 5 E-Tech</strong> (25 000 euros, 15 kWh/100 km) : prix après bonus de 21 000 euros, recharge domestique de 1 800 euros sur 4 ans, assurance de 2 600 euros, entretien de 1 000 euros, carte grise 14 euros, malus 0 euro, décote 11 500 euros. <strong>TCO total : 36 914 euros, soit 0,62 euro/km</strong>. <strong>Renault Clio TCe 100</strong> (20 000 euros, 6 L/100 km) : carburant de 6 480 euros, assurance de 3 000 euros, entretien de 3 600 euros, carte grise 250 euros, malus 0 euro, décote 8 500 euros. <strong>TCO total : 41 830 euros, soit 0,70 euro/km</strong>. Avantage VE : 4 916 euros sur 4 ans.</p>
+<p>Pour 15 000 km par an sur 4 ans. <strong>Renault 5 E-Tech</strong> (25 000 euros, 15 kWh/100 km) : prix catalogue de 25 000 euros, recharge domestique de 1 800 euros sur 4 ans, assurance de 2 600 euros, entretien de 1 000 euros, carte grise 14 euros, malus 0 euro, décote 11 500 euros. <strong>TCO total : 41 914 euros, soit 0,70 euro/km</strong>. <strong>Renault Clio TCe 100</strong> (20 000 euros, 6 L/100 km) : carburant de 6 480 euros, assurance de 3 000 euros, entretien de 3 600 euros, carte grise 250 euros, malus 0 euro, décote 8 500 euros. <strong>TCO total : 41 830 euros, soit 0,70 euro/km</strong>. Résultat quasi identique au prix catalogue (84 euros d'écart) : la prime coup de pouce CEE obtenue fait pencher la balance vers l'électrique.</p>
 
 <h3>Scénario 2 : SUV compacts, Tesla Model Y vs Peugeot 3008 PureTech 130</h3>
 
-<p>Pour 20 000 km par an sur 4 ans. <strong>Tesla Model Y</strong> (44 990 euros, 16 kWh/100 km) : prix après bonus 40 990 euros, recharge (70 % domicile, 30 % public) de 3 200 euros, assurance 3 400 euros, entretien 1 200 euros, carte grise 14 euros, malus 0 euro, décote 17 000 euros. <strong>TCO total : 65 804 euros, soit 0,82 euro/km</strong>. <strong>Peugeot 3008</strong> (35 000 euros, 7 L/100 km) : carburant 10 080 euros, assurance 3 800 euros, entretien 4 800 euros, carte grise 400 euros, malus 170 euros, décote 15 000 euros. <strong>TCO total : 69 250 euros, soit 0,87 euro/km</strong>. Avantage VE : 3 446 euros sur 4 ans, malgré un prix d'achat supérieur de 6 000 euros.</p>
+<p>Pour 20 000 km par an sur 4 ans. <strong>Tesla Model Y</strong> (44 990 euros, 16 kWh/100 km) (prix catalogue, la version d'entrée restant sous le plafond de la prime CEE) : recharge (70 % domicile, 30 % public) de 3 200 euros, assurance 3 400 euros, entretien 1 200 euros, carte grise 14 euros, malus 0 euro, décote 17 000 euros. <strong>TCO total : 69 804 euros, soit 0,87 euro/km</strong>. <strong>Peugeot 3008</strong> (35 000 euros, 7 L/100 km) : carburant 10 080 euros, assurance 3 800 euros, entretien 4 800 euros, carte grise 400 euros, malus 170 euros, décote 15 000 euros. <strong>TCO total : 69 250 euros, soit 0,87 euro/km</strong>. Écart de 554 euros en faveur du thermique au prix catalogue, malgré un prix d'achat supérieur de 10 000 euros pour l'électrique : la prime CEE obtenue suffit à inverser le résultat.</p>
 
 <h3>Scénario 3 : petit rouleur urbain, Citroën e-C3 vs Citroën C3 PureTech 83</h3>
 
-<p>Pour 8 000 km par an sur 4 ans. <strong>Citroën e-C3</strong> (23 300 euros, 16 kWh/100 km) : prix après bonus 19 300 euros, recharge domestique 770 euros, assurance 2 200 euros, entretien 600 euros, carte grise 14 euros, décote 10 000 euros. <strong>TCO total : 32 884 euros, soit 1,03 euro/km</strong>. <strong>Citroën C3 PureTech</strong> (17 500 euros, 5,5 L/100 km) : carburant 3 168 euros, assurance 2 500 euros, entretien 2 400 euros, carte grise 200 euros, décote 7 000 euros. <strong>TCO total : 32 768 euros, soit 1,02 euro/km</strong>. Résultat quasi identique : à faible kilométrage, l'avantage TCO de l'électrique est neutralisé par le surcoût d'achat. Le seuil de rentabilité se situe autour de 10 000 km/an.</p>
+<p>Pour 8 000 km par an sur 4 ans. <strong>Citroën e-C3</strong> (23 300 euros, 16 kWh/100 km) : prix catalogue, recharge domestique 770 euros, assurance 2 200 euros, entretien 600 euros, carte grise 14 euros, décote 10 000 euros. <strong>TCO total : 36 884 euros, soit 1,15 euro/km</strong>. <strong>Citroën C3 PureTech</strong> (17 500 euros, 5,5 L/100 km) : carburant 3 168 euros, assurance 2 500 euros, entretien 2 400 euros, carte grise 200 euros, décote 7 000 euros. <strong>TCO total : 32 768 euros, soit 1,02 euro/km</strong>. À faible kilométrage, le thermique reste moins cher de 4 116 euros au prix catalogue : l'avantage d'usage de l'électrique ne compense pas le surcoût d'achat, sauf prime CEE importante. Le seuil de rentabilité se situe au-delà de 10 000 km/an.</p>
 
 <h2>Le seuil de rentabilité : à partir de combien de kilomètres l'électrique est-il rentable ?</h2>
 
-<p>Le seuil de rentabilité TCO dépend de trois variables principales : l'écart de prix à l'achat (après aides), le mode de recharge principal, et le kilométrage annuel. Voici les seuils moyens constatés en 2026 :</p>
+<p>Le seuil de rentabilité TCO dépend de trois variables principales : l'écart de prix à l'achat (prime CEE déduite le cas échéant), le mode de recharge principal, et le kilométrage annuel. Voici les seuils moyens constatés en 2026 :</p>
 <ul>
 <li><strong>Recharge 100 % domicile</strong> : rentabilité à partir de 8 000 à 10 000 km/an</li>
 <li><strong>Recharge mixte (70 % domicile, 30 % public)</strong> : rentabilité à partir de 11 000 à 13 000 km/an</li>
@@ -287,7 +285,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Plusieurs leviers permettent d'optimiser le coût total de possession et de maximiser l'avantage financier du VE :</p>
 <ul>
 <li><strong>Maximisez la recharge à domicile en heures creuses</strong> : souscrivez un contrat HP/HC ou une offre spéciale VE. Économie potentielle : 100 à 200 euros par an.</li>
-<li><strong>Cumulez toutes les aides disponibles</strong> : bonus écologique, prime à la conversion, prime CEE, aides régionales et locales. Gain potentiel : 6 000 à 13 000 euros.</li>
+<li><strong>Faites jouer la concurrence sur la prime coup de pouce CEE</strong> : son montant varie d'une entreprise signataire à l'autre ; comparez les offres et vérifiez les aides de votre collectivité.</li>
 <li><strong>Souscrivez un abonnement de recharge publique</strong> : Ionity Passport, Tesla Supercharger membership, Fastned Gold. Économie : 20 à 30 % sur la recharge rapide.</li>
 <li><strong>Entretenez vous-même les postes simples</strong> : filtre d'habitacle (15 euros et 5 minutes), lave-glace, pression des pneus, permutation des pneus. Économie : 50 à 100 euros par an.</li>
 <li><strong>Adoptez l'éco-conduite</strong> : une conduite souple avec utilisation maximale du freinage régénératif peut réduire la consommation de 15 à 25 %. Sur 15 000 km, cela représente 70 à 120 euros d'économie annuelle.</li>
@@ -302,7 +300,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>Le mode de financement choisi influence significativement le coût total. En achat comptant, vous économisez les intérêts mais immobilisez un capital important. En crédit auto classique (taux moyen de 5 à 7 % en 2026), les intérêts ajoutent 2 000 à 5 000 euros au coût total sur 4 ans. En LOA, le coût financier est légèrement plus élevé mais la flexibilité en fin de contrat peut compenser si la technologie évolue rapidement.</p>
 
-<p>Le leasing social à 100 euros par mois pour les ménages éligibles reste l'option la plus avantageuse en TCO absolu : sur 3 ans, le coût total (loyers + assurance + recharge) se situe entre 6 500 et 9 000 euros pour un véhicule neuf, soit un coût comparable à celui d'une voiture thermique d'occasion vieillissante et coûteuse en entretien.</p>
+<p>Le leasing social 2026, à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus pour les ménages éligibles, reste l'option la plus avantageuse en TCO absolu : sur ${LEASING_SOCIAL.dureeMinAns} ans, les loyers ne dépassent pas ${eur(LEASING_SOCIAL.loyerMaxMois * 12 * LEASING_SOCIAL.dureeMinAns)}, assurance et recharge en sus, soit un coût comparable à celui d'une voiture thermique d'occasion vieillissante et coûteuse en entretien.</p>
 
 <h2>Conclusion : un calcul qui tourne à l'avantage de l'électrique</h2>
 
@@ -322,7 +320,7 @@ export const pagesAcheter: PageAcheter[] = [
   {
     slug: "aides-et-bonus",
     titreSeo: "Aides voiture électrique 2026 : montants et conditions",
-    titre: "Aides et bonus écologique voiture électrique 2026",
+    titre: "Aides à l'achat voiture électrique 2026",
     h1: "Aides voiture électrique 2026 : prime CEE, leasing social et fin du bonus",
     metaDescription:
       `Aides voiture électrique 2026 : prime coup de pouce CEE (ex-bonus), leasing social à ${LEASING_SOCIAL.loyerMaxMois} €/mois au plus, fin de la prime à la conversion. Conditions détaillées.`,
@@ -436,7 +434,7 @@ export const pagesAcheter: PageAcheter[] = [
 <li><strong>Protection contre l'obsolescence technologique</strong> : la technologie des batteries évolue rapidement. Un véhicule acheté en 2026 pourrait être significativement surpassé en autonomie et en vitesse de recharge par un modèle de 2028. Avec une LOA de 36 mois, vous pouvez passer au nouveau modèle sans être prisonnier d'un véhicule dépassé.</li>
 <li><strong>Gestion du risque de décote</strong> : la décote des VE est plus incertaine que celle des thermiques. Si un concurrent lance un modèle révolutionnaire ou si les prix du neuf baissent fortement, la valeur de marché de votre véhicule peut chuter en dessous de la VR prévue. En LOA, c'est le loueur qui assume ce risque, pas vous.</li>
 <li><strong>Accès à un véhicule plus cher</strong> : les mensualités LOA permettent de rouler dans un véhicule dont le prix d'achat total dépasserait votre capacité d'emprunt en crédit classique.</li>
-<li><strong>Le bonus écologique réduit l'apport</strong> : le bonus de 4 000 à 7 000 euros est déduit du premier loyer majoré, réduisant considérablement l'effort financier initial.</li>
+<li><strong>La prime coup de pouce CEE peut réduire l'apport</strong> : selon l'offre retenue, elle peut être déduite du premier loyer majoré, ce qui allège l'effort financier initial.</li>
 </ul>
 
 <h2>LLD : la location longue durée, la simplicité absolue</h2>
@@ -515,7 +513,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h3>Offres citadines (moins de 200 euros/mois)</h3>
 <ul>
-<li><strong>Citroën e-C3</strong> : dès 130 à 160 euros/mois en LOA sur 48 mois avec 2 000 à 3 000 euros d'apport (bonus déduit). L'offre la plus accessible du marché pour un VE complet.</li>
+<li><strong>Citroën e-C3</strong> : dès 130 à 160 euros/mois en LOA sur 48 mois avec 2 000 à 3 000 euros d'apport. L'offre la plus accessible du marché pour un VE complet.</li>
 <li><strong>Dacia Spring</strong> : dès 100 à 130 euros/mois en LOA sur 48 mois. Mensualités ultra-basses mais autonomie limitée (225 km WLTP).</li>
 <li><strong>Fiat 500e</strong> : dès 160 à 200 euros/mois en LOA sur 48 mois avec apport. Le style italien à prix contenu.</li>
 </ul>
@@ -523,7 +521,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h3>Offres compactes (200 à 350 euros/mois)</h3>
 <ul>
 <li><strong>Renault 5 E-Tech</strong> : dès 200 à 250 euros/mois en LOA sur 48 mois. Le meilleur rapport plaisir/coût du segment.</li>
-<li><strong>MG4</strong> : dès 200 à 240 euros/mois en LOA sur 48 mois. Rapport prestations/prix imbattable, mais attention au score environnemental (pas de bonus).</li>
+<li><strong>MG4</strong> : dès 200 à 240 euros/mois en LOA sur 48 mois. Rapport prestations/prix imbattable, mais attention au score environnemental (pas de prime CEE).</li>
 <li><strong>Peugeot e-208</strong> : dès 250 à 300 euros/mois en LOA sur 48 mois. Finitions et puissance supérieures à la e-C3.</li>
 <li><strong>Skoda Elroq</strong> : dès 280 à 330 euros/mois en LOA sur 48 mois. L'option familiale avec un coffre géant.</li>
 </ul>
@@ -538,9 +536,9 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>Les courtiers en leasing (JMFinance, Club Auto, LeasePlan pour particuliers) et les mandataires automobiles peuvent proposer des conditions encore plus avantageuses que les offres constructeur, en négociant les remises flotte auprès de plusieurs établissements financiers. Demandez au moins 3 devis avant de vous engager.</p>
 
-<h2>Le leasing social : 100 euros par mois</h2>
+<h2>Le leasing social 2026 : ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus</h2>
 
-<p>Le leasing social est une forme spécifique de LLD subventionnée par l'État, destinée aux ménages modestes (RFR/part inférieur ou égal à 15 400 euros). Le loyer mensuel démarre à 54 euros pour la Citroën e-C3 et à environ 100 euros pour la Renault 5 E-Tech, ce qui en fait l'offre la plus accessible du marché. Les conditions d'accès (revenus, besoin de mobilité professionnelle) sont strictes, et le nombre de places est limité à environ 50 000 à 60 000 par campagne. Consultez notre page dédiée au leasing social pour connaître tous les critères d'éligibilité et les démarches de candidature.</p>
+<p>Le leasing social est une location (LLD ou LOA) aidée par l'État, destinée aux ménages dont le revenu fiscal de référence par part ne dépasse pas ${eur(LEASING_SOCIAL.rfrParPartMax)} et qui utilisent leur voiture pour travailler. Depuis le ${LEASING_SOCIAL.ouverture}, le loyer est plafonné à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois hors assurance et options, sans apport, sur au moins ${LEASING_SOCIAL.dureeMinAns} ans, et chaque professionnel participant doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} par mois au plus. Consultez notre page dédiée au leasing social pour connaître tous les critères d'éligibilité et les démarches de candidature.</p>
 
 <div class="cta-bloc" style="margin:32px 0">
 <h3>Simulez votre financement LOA/LLD</h3>
@@ -566,11 +564,11 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h3>Le crédit auto classique</h3>
 
-<p>Un crédit auto sur 48 mois pour une Renault 5 E-Tech à 25 000 euros (après bonus de 4 000 euros, soit 21 000 euros à financer) avec un TAEG de 5,5 % donne des mensualités d'environ 490 euros sans apport. Coût total des intérêts : environ 2 500 euros. À la fin du crédit, vous êtes propriétaire du véhicule, dont la valeur résiduelle est d'environ 12 000 à 14 000 euros.</p>
+<p>Un crédit auto sur 48 mois pour une Renault 5 E-Tech à 25 000 euros (prix catalogue, sans prime déduite) avec un TAEG de 5,5 % donne des mensualités d'environ 580 euros sans apport. Coût total des intérêts : environ 2 900 euros. Une prime coup de pouce CEE obtenue réduit d'autant le montant à financer. À la fin du crédit, vous êtes propriétaire du véhicule, dont la valeur résiduelle est d'environ 12 000 à 14 000 euros.</p>
 
 <h3>La LOA</h3>
 
-<p>La même Renault 5 E-Tech en LOA 48 mois sans apport (bonus déduit) donne des mensualités d'environ 320 euros. Option d'achat : 10 000 euros. Si vous levez l'option, le coût total est de (320 x 48) + 10 000 = 25 360 euros, soit 4 360 euros de coût financier. Si vous restituez, le coût total est de 15 360 euros pour 4 ans d'utilisation.</p>
+<p>La même Renault 5 E-Tech en LOA 48 mois sans apport donne, selon les offres du moment, des mensualités d'environ 320 euros. Option d'achat : 10 000 euros. Si vous levez l'option, le coût total est de (320 x 48) + 10 000 = 25 360 euros, soit 4 360 euros de coût financier. Si vous restituez, le coût total est de 15 360 euros pour 4 ans d'utilisation.</p>
 
 <h3>Verdict</h3>
 
@@ -584,7 +582,7 @@ export const pagesAcheter: PageAcheter[] = [
 <li><strong>Comparez le TAEG, pas la mensualité</strong> : une mensualité basse avec un apport élevé peut masquer un TAEG de 8 % quand un concurrent offre 4 %.</li>
 <li><strong>Négociez le kilométrage</strong> : certains loueurs acceptent de modifier le forfait kilométrique en cours de contrat (augmentation ou diminution) moyennant un avenant.</li>
 <li><strong>Souscrivez la garantie de restitution</strong> : 5 à 15 euros par mois qui peuvent vous éviter 1 000 à 3 000 euros de frais de remise en état.</li>
-<li><strong>Profitez du bonus écologique</strong> : il est déduit de la première mensualité majorée, réduisant votre apport effectif de 4 000 à 7 000 euros.</li>
+<li><strong>Demandez la prime coup de pouce CEE</strong> : selon l'offre, elle peut être déduite de la première mensualité majorée et réduire votre apport effectif.</li>
 <li><strong>Comparez les offres de fin de trimestre</strong> : en mars, juin, septembre et décembre, les constructeurs et les loueurs ont des objectifs de volume et proposent leurs meilleures conditions.</li>
 <li><strong>Demandez l'alignement</strong> : si un concurrent fait une offre plus basse, demandez à votre loueur de s'aligner. Les captives financières ont souvent une marge de manoeuvre de 10 à 20 euros par mois.</li>
 <li><strong>Vérifiez les frais de résiliation anticipée</strong> : la vie peut changer (déménagement, perte d'emploi). Connaissez les pénalités de sortie anticipée avant de signer (généralement 3 à 6 loyers résiduels).</li>
@@ -603,8 +601,8 @@ export const pagesAcheter: PageAcheter[] = [
       { question: "Comment fonctionne la location longue durée, la simplicité absolue ?", answer: "La LLD (location longue durée) est un contrat de location pure, sans option d'achat. Vous louez le véhicule pour une durée (24 à 60 mois) et un kilométrage définis, et vous le restituez en fin de contrat. Point final. L'atout majeur de la LLD est l'inclusion de services dans la mensualité, transformant le véhicule en un « budget tout compris » prévisible : Entretien constructeur : toutes les révisions et les pièces d'usure (hors pneus le plus souvent) sont prises en charge pendant la durée du contrat." },
       { question: "Que faut-il savoir sur lOA vs LLD ?", answer: "Le choix entre LOA et LLD est une décision structurante qui dépend de votre profil, de vos habitudes et de vos objectifs financiers. Voici un comparatif point par point : Pour une Renault 5 E-Tech à 25 000 euros sur 48 mois avec 15 000 km par an : LOA avec 3 000 euros d'apport : mensualités d'environ 250 euros (hors assurance), option d'achat finale de 10 000 euros." },
       { question: "En quoi consistent les points de vigilance essentiels du leasing VE ?", answer: "Le kilométrage annuel contractuel doit correspondre à votre usage réel. Chaque kilomètre excédentaire est facturé entre 5 et 15 centimes selon le contrat et le modèle, ce qui peut représenter une somme considérable. Pour 5 000 km de dépassement à 10 centimes, la facture est de 500 euros." },
-      { question: "En quoi consistent les meilleures offres de leasing VE en 2026 ?", answer: "Les constructeurs et les captives financières (RCI Banque pour Renault, Stellantis Financial Services pour Peugeot/Citroën, BMW Financial Services, Hyundai Capital, etc.) proposent régulièrement des offres promotionnelles de leasing sur les voitures électriques, avec des mensualités particulièrement attractives pour accélérer les ventes. Citroën e-C3 : dès 130 à 160 euros/mois en LOA sur 48 mois avec 2 000 à 3 000 euros d'apport (bonus déduit)." },
-      { question: "Comment fonctionne le leasing social ?", answer: "Le leasing social est une forme spécifique de LLD subventionnée par l'État, destinée aux ménages modestes (RFR/part inférieur ou égal à 15 400 euros). Le loyer mensuel démarre à 54 euros pour la Citroën e-C3 et à environ 100 euros pour la Renault 5 E-Tech, ce qui en fait l'offre la plus accessible du marché." },
+      { question: "En quoi consistent les meilleures offres de leasing VE en 2026 ?", answer: "Les constructeurs et les captives financières (RCI Banque pour Renault, Stellantis Financial Services pour Peugeot/Citroën, BMW Financial Services, Hyundai Capital, etc.) proposent régulièrement des offres promotionnelles de leasing sur les voitures électriques, avec des mensualités particulièrement attractives pour accélérer les ventes. Citroën e-C3 : dès 130 à 160 euros/mois en LOA sur 48 mois avec 2 000 à 3 000 euros d'apport." },
+      { question: "Comment fonctionne le leasing social ?", answer: `Le leasing social est une location aidée par l'État, destinée aux ménages dont le revenu fiscal de référence par part ne dépasse pas ${eur(LEASING_SOCIAL.rfrParPartMax)} et qui roulent pour leur travail. Depuis le ${LEASING_SOCIAL.ouverture}, le loyer est de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, hors assurance et options, sans apport, sur au moins ${LEASING_SOCIAL.dureeMinAns} ans.` },
     ],
   },
 
@@ -820,13 +818,13 @@ export const pagesAcheter: PageAcheter[] = [
 <p>À modèle et finition équivalents, une voiture électrique coûte encore 3 000 à 12 000 euros de plus qu'une version thermique en 2026. L'écart varie considérablement selon le segment :</p>
 
 <h3>Segment citadines</h3>
-<p>La Citroën C3 PureTech 83 démarre à 17 490 euros ; la Citroën e-C3 est à 23 300 euros. Écart brut : 5 810 euros. Après déduction du bonus écologique de 4 000 euros (voire 7 000 euros pour les ménages modestes), l'écart tombe à 1 810 euros, voire disparaît. La Renault Clio TCe 90 est à 19 400 euros ; la Renault 5 E-Tech est à 25 000 euros. Écart brut : 5 600 euros, réduit à 1 600 euros après bonus standard. Dans ce segment, la parité de prix avant bonus est attendue d'ici 2026-2027 grâce à la baisse continue du coût des batteries.</p>
+<p>La Citroën C3 PureTech 83 démarre à 17 490 euros ; la Citroën e-C3 est à 23 300 euros. Écart brut : 5 810 euros. La prime coup de pouce CEE, à laquelle la e-C3 ouvre droit, réduit cet écart du montant de l'offre obtenue. La Renault Clio TCe 90 est à 19 400 euros ; la Renault 5 E-Tech est à 25 000 euros. Écart brut : 5 600 euros, avant prime CEE. Dans ce segment, la parité de prix catalogue est attendue d'ici 2026-2027 grâce à la baisse continue du coût des batteries.</p>
 
 <h3>Segment compactes/SUV</h3>
-<p>Le Peugeot 3008 PureTech 130 démarre à 36 000 euros ; le Peugeot E-3008 est à 44 990 euros. Écart brut : 8 990 euros. Après bonus : 4 990 euros. Le Volkswagen Tiguan 1.5 TSI est à 39 000 euros ; le Volkswagen ID.4 est à 41 990 euros. L'écart brut de 2 990 euros disparaît après bonus. Dans ce segment, l'écart est déjà marginal pour les modèles éligibles au bonus.</p>
+<p>Le Peugeot 3008 PureTech 130 démarre à 36 000 euros ; le Peugeot E-3008 est à 44 990 euros. Écart brut : 8 990 euros, avant prime CEE. Le Volkswagen Tiguan 1.5 TSI est à 39 000 euros ; le Volkswagen ID.4 est à 41 990 euros. L'écart brut de 2 990 euros peut être comblé en partie ou en totalité par la prime CEE, selon l'offre. Dans ce segment, l'écart est déjà réduit pour les modèles éligibles à la prime.</p>
 
 <h3>Segment premium</h3>
-<p>La BMW Série 3 320i est à 49 800 euros ; la BMW i4 eDrive40 est à 58 600 euros. Écart brut : 8 800 euros, sans bonus (prix supérieur à 47 000 euros). C'est dans le premium que l'écart reste le plus important en valeur absolue, car ces véhicules dépassent le plafond de prix du bonus. Toutefois, l'exonération de malus écologique (jusqu'à 60 000 euros sur les thermiques les plus puissantes) et de TVS compense partiellement cet écart pour les professionnels. La tendance de fond est claire : le coût des batteries lithium-ion est passé de 700 euros/kWh en 2010 à 140 euros/kWh en 2023 et environ 95 à 105 euros/kWh en 2025. Parallèlement, les prix des thermiques augmentent sous l'effet des normes antipollution Euro 7 (qui ajoutent 1 500 à 3 000 euros de coût de fabrication) et des pénalités CAFE que les constructeurs répercutent sur les prix catalogue. La convergence des prix bruts est inéluctable et devrait intervenir vers 2027-2028 pour les segments d'entrée et de milieu de gamme.</p>
+<p>La BMW Série 3 320i est à 49 800 euros ; la BMW i4 eDrive40 est à 58 600 euros. Écart brut : 8 800 euros, sans prime CEE (prix supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)}). C'est dans le premium que l'écart reste le plus important en valeur absolue, car ces véhicules dépassent le plafond de prix de la prime. Toutefois, l'exonération de malus écologique (jusqu'à 60 000 euros sur les thermiques les plus puissantes) et de TVS compense partiellement cet écart pour les professionnels. La tendance de fond est claire : le coût des batteries lithium-ion est passé de 700 euros/kWh en 2010 à 140 euros/kWh en 2023 et environ 95 à 105 euros/kWh en 2025. Parallèlement, les prix des thermiques augmentent sous l'effet des normes antipollution Euro 7 (qui ajoutent 1 500 à 3 000 euros de coût de fabrication) et des pénalités CAFE que les constructeurs répercutent sur les prix catalogue. La convergence des prix bruts est inéluctable et devrait intervenir vers 2027-2028 pour les segments d'entrée et de milieu de gamme.</p>
 
 <h2>Le coût d'usage : avantage électrique écrasant et structurel</h2>
 
@@ -972,7 +970,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h2>Comment un mandataire permet-il d'économiser 10 à 30 % ?</h2>
 <p>Les sources d'économie d'un mandataire sont multiples et cumulables. Premièrement, il exploite les différences de prix entre marchés européens. Grâce au marché unique, tout véhicule vendu dans l'UE peut être immatriculé dans n'importe quel État membre. Or les constructeurs pratiquent des prix différents selon les pays : la TVA varie (19 % en Allemagne, 21 % en Belgique, 20 % en France), les équipements de série diffèrent, et les remises concessionnaires sont plus ou moins généreuses. Deuxièmement, le mandataire achète en volume. En passant plusieurs dizaines voire centaines de commandes par mois chez un même concessionnaire, il obtient des remises de fleet (flotte) qui ne sont jamais proposées aux particuliers. Ces remises peuvent atteindre 18 à 22 % sur certains modèles en surstock.</p>
 <p>Troisièmement, certains mandataires se spécialisent dans les véhicules de démonstration, les km0 (voitures immatriculées au nom du concessionnaire mais jamais roulées) ou les stocks excédentaires de fin de trimestre. Ces voitures, techniquement neuves, sont vendues avec une décote immédiate de 15 à 30 % tout en conservant la garantie constructeur complète.</p>
-<p>Pour les voitures électriques spécifiquement, les économies sont amplifiées par le fait que de nombreux pays appliquent des bonus écologiques différents. Un mandataire expérimenté saura orienter vers des configurations éligibles au bonus français même sur un véhicule importé, maximisant ainsi le gain total pour le client.</p>
+<p>Pour les voitures électriques spécifiquement, les économies sont amplifiées par le fait que de nombreux pays appliquent des aides à l'achat différentes. Un mandataire expérimenté saura orienter vers des configurations éligibles à la prime coup de pouce CEE même sur un véhicule importé, maximisant ainsi le gain total pour le client.</p>
 
 <h2>Différences entre mandataire et concessionnaire</h2>
 <p>Le concessionnaire est un partenaire officiel de la marque. Il dispose d'un contrat de distribution qui lui confère l'exclusivité territoriale, l'accès aux formations constructeur, et la responsabilité du service après-vente. Son modèle économique repose sur la marge véhicule neuf (souvent modeste, 3 à 6 %), le financement (LOA/LLD avec commissions), les accessoires et l'après-vente (entretien, pièces).</p>
@@ -983,8 +981,8 @@ export const pagesAcheter: PageAcheter[] = [
 <h2>Les risques à connaître avant de passer par un mandataire</h2>
 <p>Le principal risque est de tomber sur un mandataire peu scrupuleux. Certains pratiquent des arnaques classiques : acompte encaissé sans livraison, véhicule livré avec un kilométrage supérieur à celui annoncé, options manquantes par rapport à la commande, ou véhicule accidenté maquillé en neuf.</p>
 <p>Le risque d'escroquerie pure (disparition avec l'acompte) reste rare chez les mandataires établis, mais il existe chez les structures éphémères qui apparaissent lors des pics de demande. En 2023-2024, plusieurs affaires ont défrayé la chronique avec des mandataires en ligne ayant fermé du jour au lendemain après avoir encaissé des centaines de milliers d'euros d'acomptes.</p>
-<p>Autre risque spécifique aux véhicules électriques importés : l'éligibilité au bonus écologique. Depuis 2024, le score environnemental impose que le véhicule respecte certains critères de fabrication pour être éligible au bonus de 4 000 €. Un véhicule importé qui ne figure pas sur la liste officielle des modèles éligibles publiée par l'ADEME ne donnera pas droit au bonus, même s'il est neuf et électrique.</p>
-<p>Le délai est également un facteur de risque : entre la commande et la livraison, les conditions du marché peuvent changer (évolution du bonus, augmentation de prix constructeur, modification des équipements de série). Un bon contrat de mandataire doit prévoir ces éventualités.</p>
+<p>Autre risque spécifique aux véhicules électriques importés : l'éligibilité à la prime coup de pouce CEE, qui a remplacé le bonus écologique. Elle exige un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points, qui dépend notamment du lieu de fabrication. Un véhicule importé qui ne figure pas sur la liste officielle des modèles ayant ce score ne donnera pas droit à la prime, même s'il est neuf et électrique.</p>
+<p>Le délai est également un facteur de risque : entre la commande et la livraison, les conditions du marché peuvent changer (évolution des aides, augmentation de prix constructeur, modification des équipements de série). Un bon contrat de mandataire doit prévoir ces éventualités.</p>
 
 <h2>Comment vérifier la fiabilité d'un mandataire</h2>
 <p>Plusieurs vérifications s'imposent avant de confier votre argent à un mandataire. Premièrement, vérifiez son existence légale : numéro SIRET actif sur societe.com ou infogreffe.fr, ancienneté de l'entreprise (méfiez-vous des structures créées il y a moins de 2 ans), capital social (un capital de 1 000 € pour une activité brassant des millions est un signal d'alerte).</p>
@@ -1011,7 +1009,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Les spécificités de l'achat d'un VE via mandataire</h2>
 <p>L'achat d'un véhicule électrique via mandataire comporte des particularités qui n'existent pas pour les véhicules thermiques. Voici les points de vigilance propres aux VE.</p>
-<p><strong>Le score environnemental et l'éligibilité au bonus :</strong> Depuis 2024, seuls les véhicules obtenant un score environnemental suffisant (calculé par l'ADEME sur la base du lieu de production, des matériaux utilisés et de l'empreinte carbone de la fabrication) sont éligibles au bonus écologique de 4 000 a 7 000 euros. Un véhicule importé par un mandataire est éligible au bonus SI le modèle exact (version, taille de batterie) figure sur la liste officielle publiée par l'ADEME. Exigez du mandataire une confirmation écrite de l'éligibilité au bonus avant toute commande, avec référence au numéro de la liste ADEME.</p>
+<p><strong>Le score environnemental et l'éligibilité à la prime CEE :</strong> seuls les véhicules obtenant un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points (calculé par l'ADEME sur la base du lieu de production, des matériaux utilisés et de l'empreinte carbone de la fabrication) ouvrent droit à la prime coup de pouce CEE, dont le montant dépend de l'entreprise qui la verse et de vos revenus. Un véhicule importé par un mandataire n'y ouvre droit que si le modèle exact (version, taille de batterie) figure sur la liste officielle. Exigez du mandataire une confirmation écrite avant toute commande.</p>
 <p><strong>Le certificat de conformité européen (COC) :</strong> Tout véhicule neuf vendu dans l'UE est accompagné d'un Certificat de Conformité (COC) qui atteste sa conformité aux normes européennes. Pour un VE importé d'un autre pays UE, le COC est indispensable pour l'immatriculation en France. Certains constructeurs facturent le COC séparément (100 a 300 euros) lorsque le véhicule est acheté hors du pays de commercialisation prévu. Vérifiez avec le mandataire que le COC est inclus dans le prix ou demandez-en le coût exact.</p>
 <p><strong>La garantie du câble de recharge et des accessoires :</strong> Selon le pays d'achat, le câble de recharge fourni peut avoir un connecteur ou une longueur différente. En Europe, la norme est le Type 2 (Mennekes) pour la recharge AC et le CCS Combo 2 pour la recharge DC. Vérifiez que le véhicule importé est livré avec un câble Type 2 compatible avec les bornes françaises. Certains mandataires importent des véhicules du Royaume-Uni (post-Brexit) dont les prises domestiques sont différentes. Assurez-vous que le câble de recharge domestique est au format français.</p>
 <p><strong>Les mises à jour logicielles et la connectivité :</strong> Certains constructeurs (Tesla, BMW, Mercedes) lient les services connectés (navigation en temps réel, mises à jour OTA, applications) au pays d'achat initial. Un véhicule acheté en Allemagne via mandataire pourrait avoir son interface en allemand à la livraison, nécessitant une mise à jour en concession pour passer en français. De même, les abonnements de connectivité premium (Tesla Premium Connectivity, BMW Connected Drive) peuvent nécessiter un transfert de compte entre pays. Vérifiez ces points avec le mandataire avant l'achat.</p>
@@ -1024,7 +1022,7 @@ export const pagesAcheter: PageAcheter[] = [
 <li><strong>Semaines 3 à 10 :</strong> Le mandataire source le véhicule auprès de son réseau de concessionnaires (stock disponible ou commande usine). Il vous tient informé de l'avancement par email ou via un espace client en ligne.</li>
 <li><strong>Semaine 10-12 :</strong> Le véhicule arrive en France. Le mandataire effectue le contrôle de conformité, obtient le quitus fiscal (si importation intra-UE), et prépare les documents d'immatriculation.</li>
 <li><strong>Semaine 12-13 :</strong> Livraison du véhicule. Inspection contradictoire avec le mandataire (état de la carrosserie, kilométrage, conformité des options). Solde du paiement. Remise des clés, du certificat de conformité, de la facture et du dossier d'immatriculation.</li>
-<li><strong>Semaine 13-15 :</strong> Immatriculation sur le site ANTS (si non effectuée par le mandataire). Demande de bonus écologique sur le site de l'ASP. Souscription d'assurance.</li>
+<li><strong>Semaine 13-15 :</strong> Immatriculation sur le site ANTS (si non effectuée par le mandataire). Demande de la prime coup de pouce CEE auprès de l'entreprise signataire retenue, dans les délais de son offre. Souscription d'assurance.</li>
 </ul>
 <p>Au total, comptez 8 à 15 semaines entre la commande et la mise en circulation effective. Ce délai est comparable à une commande en concession pour un véhicule non disponible en stock. Les mandataires disposant de stocks en France peuvent réduire ce délai à 2-4 semaines.</p>
 
@@ -1043,291 +1041,114 @@ export const pagesAcheter: PageAcheter[] = [
   },
   {
     slug: "prime-conversion",
-    titreSeo: "Prime à la conversion voiture : conditions et historique",
+    titreSeo: "Prime à la conversion voiture : conditions et historique",
     titre: "Prime à la conversion 2026",
-    h1: "Prime à la conversion 2026 : guide complet",
-    metaDescription: "Prime à la conversion 2026 : conditions d'éligibilité, montants jusqu'à 5 000 euros, véhicules éligibles, cumul bonus écologique. Démarches pas à pas.",
-    contenu: `<h2>Qu'est-ce que la prime à la conversion ?</h2>
-<p>La prime à la conversion est une aide financière versée par l'État français pour encourager le remplacement d'un ancien véhicule polluant par un véhicule plus propre, notamment électrique. Créée en 2015 sous le nom de « prime à la casse », elle a été rebaptisée et renforcée au fil des années pour accompagner la transition écologique du parc automobile français. Son principe est simple : vous mettez à la casse (destruction définitive) un véhicule ancien répondant à certains critères, et en contrepartie, l'État vous verse une aide pouvant atteindre 5 000 € pour l'achat ou la location longue durée d'un véhicule peu polluant. Cette prime est cumulable avec le bonus écologique, ce qui peut représenter jusqu'à 11 000 € d'aides au total pour l'acquisition d'une voiture électrique.</p>
-<p>En 2026, le dispositif a été recalibré pour cibler plus efficacement les ménages modestes et les zones à faibles émissions (ZFE), tout en maintenant une enveloppe budgétaire maîtrisée. Les montants et conditions ont évolué par rapport à 2024, rendant indispensable une mise à jour des informations pour tout acheteur potentiel.</p>
+    h1: "Prime à la conversion : supprimée, ce qui la remplace en 2026",
+    metaDescription: `Prime à la conversion : supprimée pour les voitures depuis le ${PRIME_CONVERSION.supprimeeLe}. En 2026, place à la prime coup de pouce CEE, au leasing social et au rétrofit.`,
+    contenu: `<h2>La prime à la conversion n'existe plus pour l'achat d'une voiture</h2>
+<p>La prime à la conversion, qui aidait à remplacer un vieux véhicule mis au rebut par une voiture moins polluante, a été <strong>supprimée pour les voitures à compter du ${PRIME_CONVERSION.supprimeeLe}</strong> (${PRIME_CONVERSION.decret}). Depuis cette date, faire détruire son ancienne voiture n'ouvre plus droit à aucune aide nationale lors de l'achat ou de la location d'une voiture électrique, neuve ou d'occasion. Les barèmes que l'on trouve encore en ligne (montants selon les revenus, surprime en zone à faibles émissions, cumul avec le bonus écologique) ne s'appliquent plus.</p>
+<p>Le bonus écologique a lui aussi disparu : depuis le ${COUP_DE_POUCE.depuis}, il est remplacé par la prime « coup de pouce Véhicules particuliers électriques », financée par les certificats d'économies d'énergie (CEE). Cette page explique ce qu'était la prime à la conversion et vers quelles aides se tourner aujourd'hui. Pour le détail de toutes les aides en vigueur, consultez notre <a href="/acheter/aides-et-bonus/">guide des aides à l'achat</a> ou testez votre situation avec le <a href="/outils/simulateur-aides/">simulateur d'aides</a>.</p>
 
-<h2>Conditions d'éligibilité en 2026</h2>
-<p>Pour bénéficier de la prime à la conversion en 2026, plusieurs conditions doivent être réunies simultanément, concernant à la fois l'acheteur, le véhicule mis au rebut et le véhicule acquis. <strong>Conditions relatives à l'acheteur :</strong> Être une personne physique majeure domiciliée en France, ou une personne morale (entreprise, association) justifiant d'un établissement en France. Le revenu fiscal de référence par part (RFR/part) détermine le montant de la prime : les ménages les plus modestes (RFR/part ≤ 7 100 €) bénéficient des montants maximaux, tandis que les ménages aisés (RFR/part > 24 900 €) sont exclus du dispositif depuis 2024. <strong>Conditions relatives au véhicule mis au rebut :</strong> Le véhicule à détruire doit être un véhicule particulier (VP) ou un utilitaire léger (VUL). Il doit être immatriculé en France depuis au moins un an au nom du demandeur (ou d'un membre du foyer fiscal). Il doit s'agir d'un véhicule essence immatriculé avant le 1er janvier 2006 (Crit'Air 3 et plus) ou d'un véhicule diesel immatriculé avant le 1er janvier 2011 (Crit'Air 3 et plus). Le véhicule ne doit pas être gagé, ne doit pas être déclaré sinistré, et doit être en état de rouler (assuré au moment de la demande).</p>
-<p><strong>Conditions relatives au véhicule acquis :</strong> Pour bénéficier du montant maximal, le véhicule acquis doit être électrique ou hydrogène, avec un prix d'achat ne dépassant pas 47 000 € TTC et un poids inférieur à 2 400 kg. Il doit obtenir un score environnemental suffisant (liste ADEME). L'acquisition peut être un achat ou une location de 2 ans minimum (LOA ou LLD).</p>
+<h2>Ce qu'était la prime à la conversion</h2>
+<p>Créée en 2015 sous le nom de « prime à la casse », la prime à la conversion était versée par l'État en contrepartie de la destruction, dans un centre de traitement des véhicules hors d'usage (VHU) agréé, d'une ancienne voiture essence ou diesel. Son montant dépendait des revenus du ménage et du véhicule acheté, et elle se cumulait avec le bonus écologique. Seuls les dossiers dont la facture est antérieure au ${PRIME_CONVERSION.supprimeeLe} relevaient de ce dispositif : il n'est plus possible d'en faire la demande pour un achat ou une location conclu depuis.</p>
 
-<h2>Montants de la prime en 2026</h2>
-<p>Les montants de la prime à la conversion varient selon le revenu fiscal de référence par part du demandeur et le type de véhicule acquis :</p>
-<p><strong>Pour un véhicule 100 % électrique ou hydrogène :</strong></p>
-<p>Ménages très modestes (RFR/part ≤ 7 100 €) : 5 000 €. Si le demandeur habite ou travaille dans une ZFE, un surprime de 1 000 € supplémentaire peut s'appliquer, portant le total à 6 000 €.</p>
-<p>Ménages modestes (RFR/part entre 7 100 € et 15 400 €) : 4 000 €.</p>
-<p>Ménages intermédiaires (RFR/part entre 15 400 € et 24 900 €) : 2 500 €.</p>
-<p>Ménages aisés (RFR/part > 24 900 €) : non éligibles depuis 2024.</p>
-<p><strong>Pour un véhicule hybride rechargeable (PHEV) :</strong> Depuis 2024, les PHEV ne sont plus éligibles à la prime à la conversion. Seuls les véhicules à émissions nulles (BEV, hydrogène) permettent de bénéficier de l'aide.</p>
-<p><strong>Pour un véhicule thermique Crit'Air 1 :</strong> Une prime réduite de 1 500 € maximum subsiste pour les ménages très modestes qui remplacent un véhicule Crit'Air 5 par un véhicule essence Crit'Air 1 récent, mais cette option disparaîtra progressivement.</p>
+<h2>Les aides en vigueur pour passer à l'électrique</h2>
 
-<h2>Cumul avec le bonus écologique</h2>
-<p>L'un des intérêts majeurs de la prime à la conversion est sa cumulabilité avec le bonus écologique. En 2026, le bonus écologique pour une voiture électrique neuve est de 4 000 € (et jusqu'à 7 000 € pour les ménages les plus modestes). Le cumul des deux aides peut donc atteindre :</p>
-<p>Pour un ménage très modeste : 7 000 € (bonus) + 5 000 € (prime conversion) + 1 000 € (ZFE) = <strong>13 000 €</strong> d'aides totales.</p>
-<p>Pour un ménage modeste : 4 000 € (bonus) + 4 000 € (prime conversion) = <strong>8 000 €</strong>.</p>
-<p>Pour un ménage intermédiaire : 4 000 € (bonus) + 2 500 € (prime conversion) = <strong>6 500 €</strong>.</p>
-<p>À noter que certaines collectivités locales proposent des aides complémentaires : la Métropole du Grand Paris offre jusqu'à 6 000 € pour les professionnels, la Région Île-de-France propose jusqu'à 6 000 € pour les particuliers sous conditions de ressources. Ces aides locales sont cumulables avec les aides nationales, sous réserve que le total des aides ne dépasse pas 80 % du coût d'acquisition.</p>
+<h3>La prime coup de pouce CEE</h3>
+<p>Elle concerne l'achat ou la location d'une voiture électrique neuve d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC, de moins de ${COUP_DE_POUCE.masseMaxKg.toLocaleString("fr-FR")} kg et dont le score environnemental atteint au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points. <strong>Aucune mise au rebut n'est exigée.</strong> Son montant n'est pas fixé par la réglementation : il dépend de l'entreprise signataire qui la verse et d'une bonification selon les revenus du ménage (plus forte jusqu'à ${eur(COUP_DE_POUCE.plafondModeste)} de revenu fiscal de référence par part), le profil « gros rouleur » et la fabrication européenne du véhicule et de sa batterie. Comparez les offres des entreprises signataires avant de signer : <a href="${COUP_DE_POUCE.source}" target="_blank" rel="noopener noreferrer">fiche officielle sur service-public.gouv.fr</a>.</p>
 
-<h2>Démarches pas à pas pour obtenir la prime</h2>
-<p><strong>Étape 1 : vérifier son éligibilité :</strong> Consultez votre dernier avis d'imposition pour connaître votre RFR/part. Vérifiez que votre véhicule actuel remplit les critères d'ancienneté (date de première immatriculation sur la carte grise, champ B). Utilisez le simulateur officiel sur primealaconversion.gouv.fr.</p>
-<p><strong>Étape 2 : choisir le véhicule neuf :</strong> Vérifiez que le modèle convoité figure sur la liste des véhicules éligibles au bonus écologique (liste ADEME mise à jour trimestriellement). Assurez-vous que le prix ne dépasse pas 47 000 € TTC et le poids 2 400 kg.</p>
-<p><strong>Étape 3 : faire appel à un centre VHU agréé :</strong> Pour la destruction du véhicule ancien, vous devez obligatoirement passer par un centre VHU (Véhicules Hors d'Usage) agréé par la préfecture. Le centre vous remettra un certificat de destruction, document indispensable pour la demande de prime. Important : la destruction doit intervenir dans les 3 mois précédant ou les 6 mois suivant la facturation du nouveau véhicule.</p>
-<p><strong>Étape 4 : commander le véhicule :</strong> Passez commande auprès du concessionnaire ou du mandataire. La prime peut être avancée par le vendeur (qui la déduit du prix de vente) ou demandée directement par l'acheteur après la transaction. La première option est plus simple mais tous les vendeurs ne la proposent pas.</p>
-<p><strong>Étape 5 : constituer le dossier :</strong> Rassemblez : copie de la carte grise du véhicule détruit, certificat de destruction VHU, copie de la facture d'achat ou du contrat de location du véhicule neuf, dernier avis d'imposition, RIB, copie de la carte grise du véhicule neuf, justificatif de domicile.</p>
-<p><strong>Étape 6 : déposer la demande en ligne :</strong> Rendez-vous sur primealaconversion.gouv.fr et créez votre compte. Téléversez tous les documents. Le délai de traitement est de 2 à 4 mois en moyenne. Le versement est effectué par virement bancaire sur le compte indiqué.</p>
+<h3>Le leasing social 2026</h3>
+<p>Rouvert le ${LEASING_SOCIAL.ouverture}, il permet de louer une voiture électrique neuve pour <strong>${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus</strong>, hors assurance et options, sans apport, sur au moins ${LEASING_SOCIAL.dureeMinAns} ans. Il est réservé aux ménages dont le revenu fiscal de référence par part ne dépasse pas ${eur(LEASING_SOCIAL.rfrParPartMax)} et qui utilisent leur voiture pour travailler (trajet domicile-travail de plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km, ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour leur activité). Il ne se cumule pas avec la prime coup de pouce CEE. Toutes les conditions sont détaillées sur notre <a href="/acheter/leasing-social-100-euros/">page consacrée au leasing social</a>.</p>
 
-<h2>Délais et points de vigilance</h2>
-<p>Le budget annuel de la prime à la conversion est plafonné par la loi de finances. En 2024, l'enveloppe a été consommée à 85 % dès le mois d'octobre, entraînant un resserrement des critères en fin d'année. Pour 2026, il est conseillé de déposer sa demande le plus tôt possible dans l'année pour éviter un éventuel coup de rabot budgétaire. Les premiers mois de l'année (janvier à avril) offrent la meilleure probabilité de validation dans les conditions initiales.</p>
-<p>Le délai entre la facturation du véhicule neuf et la mise à la casse est strictement encadré : maximum 3 mois avant ou 6 mois après la date de facturation. Un dépassement de ce délai, même d'un seul jour, entraîne le rejet automatique et irrévocable du dossier. Pour sécuriser votre chronologie, nous recommandons de commander le véhicule neuf en premier, puis de faire détruire l'ancien véhicule dans les semaines suivant la livraison du nouveau, pour avoir une marge de manoeuvre maximale.</p>
-<p>Attention aux véhicules importés : si vous achetez via un mandataire, assurez-vous que le modèle exact (version, motorisation, taille de batterie) figure sur la liste des véhicules éligibles au bonus écologique publiée par l'ADEME. Un modèle produit hors d'Europe peut ne pas obtenir le score environnemental requis, ce qui ferait perdre à la fois le bonus ET la prime à la conversion. Vérifiez la liste officielle à jour sur le site ecologie.gouv.fr avant tout engagement financier.</p>
-<p>Conservez impérativement votre véhicule neuf au moins un an (ou 6 000 km, c'est le premier des deux critères atteint qui s'applique) après son acquisition. Une revente avant ce délai oblige au remboursement intégral de la prime. Cette condition est vérifiable par l'administration via le fichier des cartes grises.</p>
+<h3>La prime au rétrofit</h3>
+<p>C'est la seule aide nationale encore liée à une voiture thermique existante : elle aide à faire transformer son moteur thermique en moteur électrique par un installateur habilité, au lieu de remplacer la voiture. Ses conditions et montants figurent sur la <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F36875" target="_blank" rel="noopener noreferrer">fiche F36875 de service-public.gouv.fr</a>.</p>
 
-<h2>La prime à la conversion pour les véhicules d'occasion</h2>
-<p>La prime à la conversion ne se limite pas aux véhicules neufs. Elle s'applique aussi à l'acquisition de véhicules électriques d'occasion, sous certaines conditions spécifiques :</p>
+<h3>Les aides locales</h3>
+<p>Certaines régions, métropoles ou communes versent leur propre aide à l'achat d'un véhicule propre, parfois sous condition de mise au rebut d'un ancien véhicule ou de résidence dans une zone à faibles émissions. Leurs montants et conditions changent souvent et dépendent du budget de chaque collectivité : consultez le site de votre région, de votre métropole ou de votre commune avant de compter sur l'une d'elles.</p>
+
+<h2>Que faire de son ancienne voiture ?</h2>
+<p>Sans prime nationale, la destruction n'a d'intérêt que si la voiture n'a plus de valeur marchande. Dans les autres cas, la reprise par le vendeur ou la revente entre particuliers rapporte davantage. Si vous la faites détruire, passez par un centre VHU agréé : il vous remet un certificat de destruction, qui permet d'annuler l'immatriculation et de résilier l'assurance.</p>
+
+<h2>En résumé</h2>
 <ul>
-<li>Le véhicule doit être 100 % électrique (pas d'hybride rechargeable).</li>
-<li>Il doit être immatriculé depuis moins de 2 ans (date de première mise en circulation).</li>
-<li>Son prix ne doit pas dépasser 47 000 euros TTC.</li>
-<li>Il doit avoir un kilométrage inférieur à 30 000 km.</li>
-<li>L'achat doit être effectué auprès d'un professionnel de l'automobile (pas entre particuliers).</li>
-</ul>
-<p>Les montants sont identiques à ceux prévus pour le neuf : 5 000 euros pour les ménages très modestes, 4 000 euros pour les modestes, 2 500 euros pour les intermédiaires. Cette option est particulièrement intéressante pour acquérir un véhicule premium d'occasion (Tesla Model 3, BMW i4, Kia EV6) avec un cumul d'aides significatif. Par exemple, un Tesla Model 3 d'occasion de 18 mois acheté 32 000 euros chez un concessionnaire peut bénéficier de 4 000 euros de prime à la conversion pour un ménage modeste, ramenant le prix effectif à 28 000 euros.</p>
-
-<h2>Cas particuliers et situations spécifiques</h2>
-
-<h3>La prime pour les professionnels</h3>
-<p>Les entreprises, artisans et professions libérales peuvent bénéficier de la prime à la conversion pour le remplacement de véhicules utilitaires légers (VUL). Les montants sont différents et les conditions adaptées : le véhicule acquis doit être un VUL électrique de classe I, II ou III, et le montant de la prime peut atteindre 9 000 euros pour un ménage très modeste (micro-entrepreneur) ou 5 000 euros pour une entreprise. Les véhicules mis au rebut sont évalués sur les mêmes critères d'ancienneté (essence avant 2006, diesel avant 2011).</p>
-
-<h3>Le cas des deux-roues et vélos à assistance électrique</h3>
-<p>La prime à la conversion peut également s'appliquer à l'acquisition d'un vélo à assistance électrique (VAE) ou d'un deux-roues/trois-roues électrique. Le montant est de 1 500 à 3 000 euros pour un VAE (plafonné à 40 % du prix), en remplacement d'un véhicule polluant mis au rebut. Cette option mérite considération pour les trajets urbains courts : un VAE à 2 500 euros financé à 60 % par la prime revient à 1 000 euros, une solution économique et écologique pour les trajets domicile-travail de moins de 15 km.</p>
-
-<h3>Le cas des véhicules en leasing</h3>
-<p>Le leasing (LOA ou LLD) est éligible à la prime à la conversion sous réserve que le contrat soit d'une durée minimale de 2 ans. La prime est alors déduite du premier loyer majoré (apport initial) ou répartie en réduction des mensualités, selon l'accord avec le loueur. Le leasing social à 100 euros par mois est cumulable avec la prime à la conversion, ce qui peut ramener les mensualités effectives à un niveau historiquement bas.</p>
-
-<h2>Les erreurs les plus fréquentes à éviter</h2>
-<ul>
-<li><strong>Détruire le véhicule trop tôt ou trop tard</strong> : respectez scrupuleusement la fenêtre de 3 mois avant à 6 mois après la facturation. Créez un rappel dans votre calendrier.</li>
-<li><strong>Passer par un centre VHU non agréé</strong> : seuls les centres agréés par la préfecture délivrent un certificat de destruction valide. Vérifiez l'agrément sur le site du ministère de la Transition écologique.</li>
-<li><strong>Oublier de déclarer le véhicule mis au rebut comme non gagé</strong> : un véhicule gagé (crédit en cours, opposition) ne peut pas être détruit dans le cadre de la prime. Régularisez la situation avant de lancer la procédure.</li>
-<li><strong>Ne pas vérifier l'éligibilité du véhicule neuf au score environnemental</strong> : de nombreux modèles chinois (MG4, BYD, Dacia Spring) ne sont pas éligibles au bonus, et par extension, les montants de la prime à la conversion sont réduits voire nuls sans bonus associé.</li>
-<li><strong>Dépasser le délai de 6 mois pour la demande en ligne</strong> : si le concessionnaire n'a pas avancé la prime, vous devez faire la demande sur primealaconversion.gouv.fr dans les 6 mois suivant la facturation. Passé ce délai, le droit est perdu.</li>
-<li><strong>Oublier les pièces justificatives</strong> : un dossier incomplet suspend le traitement. Numérisez tous les documents en haute résolution avant de commencer la saisie en ligne.</li>
-<li><strong>Revendre le véhicule avant le délai d'un an</strong> : même un mois avant l'échéance des 12 mois, vous devrez rembourser l'intégralité de la prime. Aucune exception.</li>
-</ul>
-
-<h2>FAQ : les questions les plus posées</h2>
-
-<h3>Peut-on bénéficier de la prime si le véhicule mis au rebut est en panne ?</h3>
-<p>Oui, tant que le véhicule est assuré au moment de la demande et qu'il est immatriculé à votre nom depuis au moins un an. Le véhicule doit pouvoir être acheminé jusqu'au centre VHU (par remorquage si nécessaire), mais il n'a pas besoin de passer un contrôle technique ni d'être en état de rouler. La condition « en état de rouler » signifie simplement « assuré et non déclaré irréparable par un expert ».</p>
-
-<h3>Peut-on mettre au rebut un véhicule appartenant à un autre membre du foyer ?</h3>
-<p>Oui, le véhicule mis au rebut peut être immatriculé au nom du conjoint, du partenaire de PACS, ou de tout autre membre du foyer fiscal du demandeur. Il doit cependant être immatriculé au nom de cette personne depuis au moins un an.</p>
-
-<h3>La prime s'applique-t-elle aux véhicules achetés à l'étranger via un mandataire ?</h3>
-<p>Oui, sous réserve que le véhicule soit éligible au bonus écologique (score environnemental ADEME) et que toutes les conditions de prix, de poids et de motorisation soient remplies. Le mandataire doit fournir une facture conforme au droit français. Le quitus fiscal (preuve de paiement de la TVA en France) est indispensable pour les véhicules importés.</p>
-
-<h3>Combien de temps faut-il pour recevoir la prime ?</h3>
-<p>Si le concessionnaire avance la prime (déduction directe sur la facture), vous n'attendez rien : l'aide est appliquée immédiatement. Si vous faites la demande en ligne vous-même, le délai moyen de traitement est de 2 à 4 mois entre le dépôt du dossier complet et le virement bancaire. En période de forte affluence (janvier à mars), les délais peuvent s'allonger à 5-6 mois.</p>
-
-<h2>Perspectives : l'avenir de la prime à la conversion</h2>
-<p>Le gouvernement a confirmé la pérennisation de la prime à la conversion au-delà de 2025, mais avec des ajustements possibles. Les tendances anticipées pour 2026 incluent : un recentrage encore plus marqué sur les ménages modestes et très modestes, une possible suppression de la prime pour les ménages intermédiaires (RFR/part supérieur à 15 400 euros), un durcissement des critères d'ancienneté des véhicules à détruire (potentiellement diesel avant 2014 et essence avant 2009 pour cibler les Crit'Air 4 et 5 uniquement), et un renforcement de la surprime ZFE à mesure que les restrictions de circulation se durcissent. Si vous êtes éligible, 2026 reste une année particulièrement favorable pour bénéficier de la prime dans ses conditions actuelles.</p>`,
+<li><strong>Prime à la conversion :</strong> supprimée pour les voitures le ${PRIME_CONVERSION.supprimeeLe}.</li>
+<li><strong>Bonus écologique :</strong> remplacé le ${COUP_DE_POUCE.depuis} par la prime coup de pouce CEE, au montant variable selon l'offre et les revenus.</li>
+<li><strong>Leasing social 2026 :</strong> ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, sous conditions de revenus et de trajet professionnel.</li>
+<li><strong>Prime au rétrofit :</strong> pour transformer une voiture thermique en électrique.</li>
+<li><strong>Aides locales :</strong> à vérifier sur le site de votre collectivité.</li>
+</ul>`,
     faq: [
-      { question: "Qu'est-ce que la prime à la conversion ?", answer: "La prime à la conversion est une aide financière versée par l'État français pour encourager le remplacement d'un ancien véhicule polluant par un véhicule plus propre, notamment électrique. Créée en 2015 sous le nom de « prime à la casse », elle a été rebaptisée et renforcée au fil des années pour accompagner la transition écologique du parc automobile français." },
-      { question: "Que faut-il savoir sur conditions d'éligibilité en 2026 ?", answer: "Pour bénéficier de la prime à la conversion en 2026, plusieurs conditions doivent être réunies simultanément, concernant à la fois l'acheteur, le véhicule mis au rebut et le véhicule acquis. Conditions relatives à l'acheteur : Être une personne physique majeure domiciliée en France, ou une personne morale (entreprise, association) justifiant d'un établissement en France." },
-      { question: "Que faut-il savoir sur montants de la prime en 2026 ?", answer: "Les montants de la prime à la conversion varient selon le revenu fiscal de référence par part du demandeur et le type de véhicule acquis : Pour un véhicule 100 % électrique ou hydrogène : Ménages très modestes (RFR/part ≤ 7 100 €) : 5 000 €." },
-      { question: "Que faut-il savoir sur cumul avec le bonus écologique ?", answer: "L'un des intérêts majeurs de la prime à la conversion est sa cumulabilité avec le bonus écologique. En 2026, le bonus écologique pour une voiture électrique neuve est de 4 000 € (et jusqu'à 7 000 € pour les ménages les plus modestes). Le cumul des deux aides peut donc atteindre : Pour un ménage très modeste : 7 000 € (bonus) + 5 000 € (prime conversion) + 1 000 € (ZFE) = 13 000 € d'aides totales." },
-      { question: "Que faut-il savoir sur démarches pas à pas pour obtenir la prime ?", answer: "Étape 1 : vérifier son éligibilité : Consultez votre dernier avis d'imposition pour connaître votre RFR/part. Vérifiez que votre véhicule actuel remplit les critères d'ancienneté (date de première immatriculation sur la carte grise, champ B). Utilisez le simulateur officiel sur primealaconversion.gouv.fr. Étape 2 : choisir le véhicule neuf : Vérifiez que le modèle convoité figure sur la liste des véhicules éligibles au bonus écologique (liste ADEME mise à jour trimestriellement)." },
-      { question: "Que faut-il savoir sur délais et points de vigilance ?", answer: "Le budget annuel de la prime à la conversion est plafonné par la loi de finances. En 2024, l'enveloppe a été consommée à 85 % dès le mois d'octobre, entraînant un resserrement des critères en fin d'année. Pour 2026, il est conseillé de déposer sa demande le plus tôt possible dans l'année pour éviter un éventuel coup de rabot budgétaire." },
+      { question: "La prime à la conversion existe-t-elle encore en 2026 ?", answer: `Non. Elle a été supprimée pour l'achat ou la location d'une voiture à compter du ${PRIME_CONVERSION.supprimeeLe} (${PRIME_CONVERSION.decret}). Mettre une ancienne voiture au rebut n'ouvre plus droit à une aide nationale à l'achat.` },
+      { question: "Qu'est-ce qui remplace la prime à la conversion et le bonus écologique ?", answer: `Depuis le ${COUP_DE_POUCE.depuis}, la prime coup de pouce CEE aide à acheter ou louer une voiture électrique neuve d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC, sans mise au rebut. Son montant dépend de l'entreprise qui la verse et de vos revenus. Les ménages modestes qui roulent pour leur travail peuvent aussi recourir au leasing social 2026, à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus.` },
+      { question: "Peut-on encore toucher une aide en faisant détruire sa vieille voiture ?", answer: "Pas au niveau national pour l'achat d'une voiture. Certaines collectivités locales conditionnent leur aide à une mise au rebut : renseignez-vous sur le site de votre région ou de votre commune. La prime au rétrofit, elle, finance la transformation de votre voiture thermique en électrique plutôt que son remplacement." },
+      { question: "La prime coup de pouce CEE exige-t-elle une mise au rebut ?", answer: "Non. Elle dépend du véhicule (prix, masse, score environnemental) et de vos revenus pour la bonification, pas de la destruction d'un ancien véhicule." },
     ],
   },
   {
     slug: "leasing-social-100-euros",
-    titreSeo: "Leasing social voiture électrique : l'offre à 100 € par mois",
-    titre: "Leasing social à 100 €/mois",
-    h1: "Leasing social à 100 €/mois : guide complet 2026",
-    metaDescription: "Leasing social voiture électrique à 100 euros/mois : critères d'éligibilité, modèles disponibles, démarches en ligne et comparaison avec la LOA classique.",
-    contenu: `<h2>Loyer mensuel par modèle et plafonds de revenus</h2>
+    titreSeo: `Leasing social 2026 : voiture électrique à ${LEASING_SOCIAL.loyerMaxMois} € par mois`,
+    titre: "Leasing social 2026",
+    h1: `Leasing social 2026 : une électrique à ${LEASING_SOCIAL.loyerMaxMois} € par mois au plus`,
+    metaDescription: `Leasing social 2026 : une voiture électrique neuve louée ${LEASING_SOCIAL.loyerMaxMois} € par mois au plus, sans apport. Revenus, trajet, modèles éligibles, démarches et pièges à éviter.`,
+    contenu: `<h2>Le leasing social 2026 en bref</h2>
+<p>Le leasing social (officiellement « location sociale de voitures électriques ») permet aux ménages modestes qui ont besoin de leur voiture pour travailler de louer une voiture électrique neuve à loyer plafonné. La campagne 2026 est ouverte depuis le <strong>${LEASING_SOCIAL.ouverture}</strong> : le loyer est de <strong>${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus</strong>, hors assurance, options et prestations annexes, sans apport. L'offre « à 100 € par mois » des campagnes précédentes n'existe plus : ce chiffre, encore souvent cité, ne correspond pas aux règles de 2026.</p>
 <table>
-<thead><tr><th>Modèle</th><th>Loyer social estimé</th><th>Autonomie WLTP</th><th>Assemblage</th></tr></thead>
+<thead><tr><th>Condition</th><th>Règle 2026</th></tr></thead>
 <tbody>
-<tr><td>Citroën ë-C3</td><td>environ 54 € / mois</td><td>320 km</td><td>Slovaquie</td></tr>
-<tr><td>Dacia Spring</td><td>environ 40 € / mois</td><td>225 km</td><td>Chine (éligibilité incertaine)</td></tr>
-<tr><td>Fiat Grande Panda</td><td>80 à 100 € / mois</td><td>320 km</td><td>Serbie</td></tr>
-<tr><td>Renault 5 E-Tech</td><td>90 à 110 € / mois</td><td>410 km</td><td>France</td></tr>
-<tr><td>Peugeot e-208</td><td>100 à 120 € / mois</td><td>400 km</td><td>Maroc</td></tr>
+<tr><td>Revenu fiscal de référence par part</td><td>${eur(LEASING_SOCIAL.rfrParPartMax)} au plus</td></tr>
+<tr><td>Usage professionnel</td><td>trajet domicile-travail de plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km avec sa voiture, ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour son activité</td></tr>
+<tr><td>Loyer mensuel</td><td>${eur(LEASING_SOCIAL.loyerMaxMois)} au plus ; chaque professionnel doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} au plus (hors Outre-mer)</td></tr>
+<tr><td>Durée du contrat</td><td>${LEASING_SOCIAL.dureeMinAns} ans ou plus, en LLD ou en LOA</td></tr>
+<tr><td>Kilométrage sans frais</td><td>au moins ${LEASING_SOCIAL.kmInclusAnMin.toLocaleString("fr-FR")} km par an</td></tr>
+<tr><td>Véhicule</td><td>électrique neuf, score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points, au plus ${eur(LEASING_SOCIAL.prixMaxTTC)} TTC hors options, moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg</td></tr>
 </tbody>
 </table>
-<table>
-<thead><tr><th>Composition du foyer</th><th>Revenu fiscal de référence maximal</th><th>Équivalent net mensuel</th></tr></thead>
-<tbody>
-<tr><td>1 part</td><td>15 400 €</td><td>environ 1 700 €</td></tr>
-<tr><td>2 parts</td><td>30 800 €</td><td>environ 2 800 €</td></tr>
-<tr><td>3 parts</td><td>46 200 €</td><td>environ 4 200 €</td></tr>
-</tbody>
-</table>
-<p>Les loyers sont ceux annoncés par les constructeurs pour la campagne en cours et dépendent du score environnemental du modèle, qui conditionne son éligibilité. À titre de comparaison, une LOA classique sur la même Renault 5 E-Tech se situe entre 250 et 350 € par mois avec un apport de 3 000 à 5 000 €.</p>
-<h2>Le leasing social : un dispositif unique au monde</h2>
-<p>Le leasing social est un dispositif gouvernemental français lancé en janvier 2024 qui permet aux ménages modestes de louer une voiture électrique neuve pour environ 100 euros par mois, sans apport initial ou avec un premier loyer très réduit. Ce programme, officiellement appelé « location longue durée à tarif social pour les véhicules à très faibles émissions », est une initiative sans précédent en Europe et dans le monde par son ampleur, son accessibilité et son impact social. Il constitue la réponse politique la plus ambitieuse au défi de la transition juste vers la mobilité électrique. Le contexte qui a motivé sa création est double. D'un côté, la transition vers l'électrique s'accélère avec plus de 25 % des véhicules neufs vendus en France en 2025 qui sont électriques, mais les prix restent prohibitifs pour une large partie de la population. De l'autre, les Zones à Faibles Émissions (ZFE) interdisent progressivement l'accès aux centres-villes aux véhicules les plus polluants (Crit'Air 3 et plus), pénalisant de facto les ménages les moins aisés qui roulent dans des véhicules anciens faute de moyens pour les remplacer. Le leasing social vise à résoudre cette équation impossible : permettre aux Français modestes de rouler en électrique sans s'endetter au-delà de leurs moyens.</p>
-<p>Le succès de la première édition (janvier 2024) a été spectaculaire et inattendu : les 50 000 dossiers prévus ont été réservés en seulement 6 semaines, avec un afflux de 90 000 candidatures éligibles, démontrant une demande bien supérieure aux prévisions gouvernementales. Ce succès a confirmé que le frein principal à l'adoption de l'électrique par les ménages modestes n'est pas culturel mais financier. Pour 2026, le gouvernement a reconduit le dispositif avec un objectif de 50 000 à 60 000 véhicules, des ajustements dans les critères d'éligibilité et un catalogue de modèles élargi.</p>
+<p>Source : <a href="${LEASING_SOCIAL.source}" target="_blank" rel="noopener noreferrer">service-public.gouv.fr, fiche F39280</a>. Vous pouvez aussi vérifier votre situation avec notre <a href="/outils/simulateur-aides/">simulateur d'aides</a>.</p>
 
-<h2>Critères d'éligibilité détaillés : qui peut en bénéficier ?</h2>
-
-<p>Les critères d'éligibilité sont stricts et cumulatifs. Chaque condition doit être remplie pour que le dossier soit accepté.</p>
-
+<h2>Qui peut en bénéficier ?</h2>
 <h3>Condition de revenus</h3>
-<p>Le revenu fiscal de référence par part (RFR/part) du foyer ne doit pas dépasser 15 400 euros. Ce seuil correspond environ au 50e percentile des revenus en France, ciblant donc la moitié la moins aisée de la population. Pour mieux comprendre ce que ce seuil signifie concrètement :</p>
-<ul>
-<li><strong>Personne seule (1 part)</strong> : RFR maximal de 15 400 euros, soit un revenu net mensuel d'environ 1 700 euros.</li>
-<li><strong>Couple sans enfant (2 parts)</strong> : RFR maximal de 30 800 euros, soit environ 2 800 euros nets par mois pour le foyer.</li>
-<li><strong>Couple avec 1 enfant (2,5 parts)</strong> : RFR maximal de 38 500 euros.</li>
-<li><strong>Couple avec 2 enfants (3 parts)</strong> : RFR maximal de 46 200 euros, soit environ 4 200 euros nets par mois pour le foyer.</li>
-<li><strong>Parent isolé avec 2 enfants (2,5 parts)</strong> : RFR maximal de 38 500 euros.</li>
-</ul>
-<p>Le RFR figure sur votre dernier avis d'imposition (ligne « Revenu fiscal de référence »). Attention : le RFR est différent du revenu imposable. Il inclut certains revenus exonérés d'impôt et peut être supérieur à votre revenu net imposable. L'ASP vérifie automatiquement votre RFR via un croisement avec les données fiscales de la DGFIP, vous n'avez pas besoin d'envoyer votre avis d'imposition.</p>
-
-<h3>Condition de mobilité professionnelle</h3>
-<p>Le demandeur doit justifier que le véhicule est nécessaire pour ses déplacements professionnels. Les situations suivantes sont éligibles :</p>
-<ul>
-<li>Salariés dont le trajet domicile-travail dépasse 15 km (aller simple) ou n'est pas desservi par les transports en commun de manière raisonnable (moins de 2 passages par heure, temps de trajet en TC supérieur au double du temps en voiture).</li>
-<li>Travailleurs indépendants (auto-entrepreneurs, professions libérales, artisans, commerçants) justifiant d'un usage professionnel du véhicule.</li>
-<li>Personnes en recherche d'emploi active inscrites à France Travail (ex-Pôle Emploi), même sans promesse d'embauche.</li>
-<li>Personnes en formation professionnelle ou en apprentissage dont le lieu de formation est éloigné du domicile.</li>
-<li>Aidants familiaux effectuant des déplacements réguliers pour accompagner une personne dépendante.</li>
-</ul>
-<p>La justification se fait par une attestation sur l'honneur accompagnée d'un justificatif (contrat de travail mentionnant le lieu, attestation France Travail, convention de formation). Les résidents en ZFE sont prioritaires dans l'attribution des dossiers, mais la résidence en ZFE n'est pas obligatoire.</p>
-
+<p>Votre revenu fiscal de référence par part, augmenté d'éventuels revenus perçus à l'étranger la même année, doit être inférieur ou égal à ${eur(LEASING_SOCIAL.rfrParPartMax)}. Pour un premier loyer versé en 2026, c'est le revenu de 2024, figurant sur l'avis d'imposition de 2025, qui compte. Le revenu fiscal de référence figure sur la première page de votre avis ; divisez-le par le nombre de parts du foyer.</p>
+<h3>Condition d'usage professionnel</h3>
+<p>Vous devez remplir l'une des deux conditions suivantes : la partie du trajet entre votre domicile et votre lieu de travail effectuée exclusivement avec votre véhicule personnel dépasse ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km, ou vous parcourez plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an dans le cadre de votre activité professionnelle avec votre véhicule personnel. Un calculateur officiel de la distance domicile-travail est proposé sur service-public.gouv.fr.</p>
 <h3>Autres conditions</h3>
-<p><strong>Résidence :</strong> Le demandeur doit résider en France métropolitaine. Les DOM-TOM bénéficient d'un dispositif adapté. <strong>Permis :</strong> Permis B valide obligatoire. <strong>Assurance :</strong> Capacité à souscrire une assurance automobile (non incluse dans le loyer). <strong>Pas de condition de véhicule ancien :</strong> Contrairement à la prime à la conversion, aucune obligation de posséder un véhicule à mettre à la casse. Les primo-accédants à la mobilité automobile sont pleinement éligibles.</p>
+<p>Il faut être majeur et domicilié en France. L'aide ne peut être obtenue qu'une seule fois. Aucune voiture ancienne à mettre au rebut n'est demandée : la prime à la conversion, qui s'y attachait autrefois, a d'ailleurs été supprimée le ${PRIME_CONVERSION.supprimeeLe}.</p>
 
-<h2>Les modèles disponibles en leasing social en 2026</h2>
+<h2>Quelles voitures sont concernées ?</h2>
+<p>Seules les voitures particulières neuves 100 % électriques figurant sur la liste officielle des véhicules éligibles au leasing social 2026 sont concernées. Elles doivent avoir un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points, coûter au plus ${eur(LEASING_SOCIAL.prixMaxTTC)} TTC hors options (batterie comprise) et peser moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg en ordre de marche. Cette limite de masse, plus stricte que celle de la prime coup de pouce CEE, écarte la plupart des SUV familiaux : le leasing social vise surtout les citadines et les compactes. La liste, avec le montant d'aide maximal de chaque modèle, est publiée par l'État et évolue au fil de la campagne : vérifiez-la avant de choisir.</p>
+<p>Les loyers effectivement proposés dépendent du modèle et du professionnel, dans la limite de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois. Demandez plusieurs devis : chaque professionnel participant doit proposer au moins un modèle dont le loyer ne dépasse pas ${eur(LEASING_SOCIAL.loyerModeleMinMois)} par mois (hors Outre-mer).</p>
 
-<p>Les véhicules proposés sont sélectionnés par l'État en concertation avec les constructeurs partenaires. Pour figurer au catalogue, un modèle doit être 100 % électrique, obtenir un score environnemental ADEME suffisant (fabrication en Europe), et afficher un prix catalogue inférieur à 47 000 euros TTC. Les constructeurs s'engagent sur des volumes dédiés et des marges réduites dans le cadre de ce partenariat public-privé.</p>
+<h2>Comment l'État finance le loyer</h2>
+<p>L'État verse une aide égale à ${Math.round(LEASING_SOCIAL.aideTaux * 100)} % du coût d'achat du véhicule hors options, plafonnée à ${eur(LEASING_SOCIAL.aidePlafond)} TTC, ou à ${eur(LEASING_SOCIAL.aidePlafondEurope)} TTC si la voiture et sa batterie sont produites dans l'Espace économique européen ; une prime complémentaire de ${eur(LEASING_SOCIAL.primeMoteurEurope)} s'ajoute si le moteur y est aussi fabriqué. Le professionnel avance cette aide et la déduit du premier loyer, qui est ainsi de 0 € hors options. Le montant doit figurer sur le contrat ou sur une attestation portant la mention « Aide à la location sociale d'une voiture particulière électrique ». L'aide n'est pas cumulable avec la prime coup de pouce CEE ni avec les autres aides financées par les certificats d'économies d'énergie.</p>
 
-<h3>Citroën e-C3 : la star du dispositif</h3>
-<p>Avec un loyer social d'environ 54 euros par mois (le plus bas du programme), la Citroën e-C3 est la voiture du leasing social par excellence. Son prix de base de 23 300 euros, combiné à une autonomie de 320 km WLTP et à un format de citadine polyvalente (4,01 m, coffre de 310 litres), en fait le choix le plus rationnel pour un usage quotidien urbain et périurbain. Le confort est surprenant pour ce niveau de prix grâce à la suspension Progressive Hydraulic Cushions héritée de Citroën. La recharge rapide DC (100 kW, 20 à 80 % en 26 minutes) la rend capable de trajets occasionnels plus longs. C'est le modèle que nous recommandons en priorité aux candidats au leasing social qui cherchent le meilleur rapport coût/utilité.</p>
+<h2>Comment en bénéficier : les démarches</h2>
+<ol>
+<li><strong>Vérifiez votre éligibilité</strong> : revenu fiscal de référence par part sur votre dernier avis d'imposition, distance domicile-travail ou kilométrage professionnel. Le test officiel est accessible depuis la fiche service-public.gouv.fr.</li>
+<li><strong>Choisissez un modèle sur la liste officielle</strong> et repérez les professionnels de l'automobile (concessionnaires, loueurs) qui le proposent en leasing social.</li>
+<li><strong>Adressez-vous au professionnel</strong> : c'est lui qui vérifie vos conditions, rassemble les justificatifs et monte le dossier. Il n'y a pas de démarche en ligne à faire vous-même pour obtenir l'aide.</li>
+<li><strong>Signez le contrat</strong> (à partir du ${LEASING_SOCIAL.ouverture}) : location de ${LEASING_SOCIAL.dureeMinAns} ans ou plus, avec ou sans option d'achat. Vous disposez de 14 jours calendaires pour vous rétracter.</li>
+</ol>
 
-<h3>Renault 5 E-Tech : le choix plaisir</h3>
-<p>Le modèle le plus désiré du catalogue. Produit à Douai (France), il obtient le score environnemental maximal et coche toutes les cases : prix contenu (environ 25 000 euros en version Évolution 40 kWh), fabrication 100 % française, autonomie de 300 à 400 km selon la batterie, design néo-rétro irrésistible, et un agrément de conduite parmi les meilleurs de sa catégorie. Loyer social estimé autour de 90 à 110 euros par mois. C'est le choix pour ceux qui veulent allier plaisir et économie. La liste d'attente est cependant plus longue que pour les autres modèles en raison de sa popularité.</p>
-
-<h3>Peugeot e-208 : le polyvalent éprouvé</h3>
-<p>Déjà proposée lors de la première édition 2024, la Peugeot e-208 reste au catalogue. Comptez environ 100 à 120 euros par mois pour la version 50 kWh offrant 400 km WLTP. Produite à Kenitra (Maroc), son score environnemental est validé par l'ADEME. Ses atouts : une puissance de 156 ch offrant un vrai punch en conduite, un design attractif, un intérieur premium avec le i-Cockpit Peugeot, et le réseau SAV Peugeot le plus dense de France. Ses limites : un coffre compact de 265 litres et un prix avant subvention plus élevé que la e-C3.</p>
-
-<h3>Fiat Grande Panda : la nouveauté familiale</h3>
-<p>Nouveauté 2026, la Fiat Grande Panda (4,07 m) est une citadine compacte au design sympathique inspiré de la Panda historique. Son prix d'environ 25 000 euros et son autonomie de 320 km WLTP en font une alternative intéressante à la e-C3. Produite à Kragujevac (Serbie), son éligibilité au score environnemental est confirmée. Loyer social estimé autour de 80 à 100 euros par mois. Son atout distinctif : un espace intérieur étonnamment généreux pour sa catégorie, avec 5 vraies places et un coffre de 361 litres, supérieur à tous ses concurrents directs.</p>
-
-<h3>Autres modèles potentiels</h3>
-<p>Le Skoda Elroq (33 900 euros, 370 à 560 km WLTP) pourrait rejoindre le catalogue si le gouvernement élargit le dispositif. La Dacia Spring (18 900 euros) figure au catalogue avec un loyer ultra-bas (environ 40 euros par mois), mais son autonomie limitée (225 km WLTP) et son assemblage chinois (éligibilité au score environnemental incertaine) la rendent moins attractive. La MG4, malgré son excellent rapport prestations/prix, reste incertaine en raison de son assemblage en Chine qui pourrait la disqualifier au score environnemental.</p>
-
-<h2>Comment faire sa demande : guide étape par étape</h2>
-
-<h3>Étape 1 : vérifier son éligibilité</h3>
-<p>Avant toute chose, consultez votre dernier avis d'imposition pour connaître votre RFR et votre nombre de parts. Calculez votre RFR/part : si le résultat est inférieur ou égal à 15 400 euros, vous êtes potentiellement éligible. Vérifiez ensuite que vous remplissez la condition de mobilité professionnelle. Le simulateur officiel sur mon-leasing-electrique.gouv.fr vous donne une réponse immédiate en quelques clics.</p>
-
-<h3>Étape 2 : pré-inscription en ligne</h3>
-<p>La plateforme officielle ouvre à une date annoncée par le gouvernement, généralement en janvier. L'ouverture est communiquée plusieurs semaines à l'avance via les médias et le site du ministère de la Transition écologique. Lors de la pré-inscription, vous renseignez votre numéro fiscal, votre situation professionnelle, votre département de résidence et vos préférences de modèle (1er et 2e choix). Un numéro de dossier vous est attribué instantanément. Conseil crucial : inscrivez-vous dans les premières heures de l'ouverture. Lors de la campagne 2024, les dossiers ont été saturés en quelques semaines. Préparez tous vos documents à l'avance.</p>
-
-<h3>Étape 3 : vérification automatique</h3>
-<p>L'ASP vérifie automatiquement votre RFR via un croisement avec les bases de données de la DGFIP (Direction Générale des Finances Publiques). Pas besoin d'envoyer votre avis d'imposition : tout est dématérialisé. Vous recevez une confirmation d'éligibilité par email sous 48 à 72 heures. En cas de rejet, le motif est indiqué (RFR trop élevé, condition de mobilité non remplie, etc.).</p>
-
-<h3>Étape 4 : choix du véhicule et du concessionnaire</h3>
-<p>Une fois éligible, vous accédez à la liste des concessionnaires partenaires dans votre département. Vous choisissez un modèle parmi ceux disponibles (la disponibilité dépend du stock et du constructeur) et prenez rendez-vous avec le concessionnaire. Celui-ci vérifie votre permis, vous présente le véhicule, et prépare le contrat de location. Vous pouvez demander un essai avant de signer.</p>
-
-<h3>Étape 5 : signature et livraison</h3>
-<p>Le contrat de LLD (location longue durée) est conclu pour une durée de 3 ans (36 mois) avec un kilométrage maximal de 30 000 à 40 000 km selon les modèles (10 000 à 13 000 km par an). Le premier loyer est de 0 à 500 euros selon le modèle choisi, puis les mensualités sont fixes pendant toute la durée du contrat. Le délai de livraison varie de 2 semaines (véhicules en stock chez le concessionnaire) à 3-4 mois (commande usine). Les loyers débutent à la livraison effective du véhicule.</p>
-
-<h2>Budget réel mensuel : ce que vous paierez vraiment</h2>
-
-<h3>Ce qui est inclus dans le loyer social</h3>
+<h2>Ce que le contrat doit prévoir</h2>
 <ul>
-<li>La mise à disposition du véhicule neuf pendant 36 mois</li>
-<li>L'entretien constructeur complet pendant toute la durée du contrat (révisions périodiques, remplacement des consommables hors pneus et hors usure accidentelle)</li>
-<li>L'assistance dépannage et remorquage 24h/24 en France et en Europe</li>
-<li>La garantie constructeur véhicule (minimum 2 ans, souvent étendue à la durée du contrat) et batterie (8 ans / 160 000 km)</li>
+<li><strong>Pas d'apport</strong> : seules les mensualités fixes sont dues, le premier loyer étant couvert par l'aide.</li>
+<li><strong>Kilométrage</strong> : au moins ${LEASING_SOCIAL.kmInclusAnMin.toLocaleString("fr-FR")} km par an sans frais ; le tarif des kilomètres supplémentaires doit être indiqué au contrat.</li>
+<li><strong>Résiliation sans frais</strong> en cas de retard de livraison de plus de 14 jours, ainsi qu'en cas de décès, d'invalidité, de perte d'emploi ou de force majeure (hors éventuels frais de remise en état).</li>
+<li><strong>Difficultés de paiement</strong> : possibilité de report ou de remboursement partiel d'échéances pendant 3 mois au plus.</li>
+<li><strong>Interdiction de sous-louer</strong> le véhicule pendant la durée du contrat.</li>
+<li><strong>Fin de contrat</strong> : selon la formule choisie, restitution du véhicule (LLD) ou possibilité de l'acheter (LOA), aux conditions fixées dès la signature.</li>
 </ul>
 
-<h3>Ce qui n'est PAS inclus dans le loyer</h3>
-<ul>
-<li><strong>L'assurance automobile</strong> (obligatoire) : comptez 50 à 80 euros par mois pour un jeune conducteur ou un profil à risque, 30 à 50 euros par mois pour un conducteur expérimenté avec un bon bonus. Comparez au moins 3 devis et optez pour une formule tous risques (obligatoire en leasing).</li>
-<li><strong>L'électricité de recharge</strong> : environ 25 à 45 euros par mois pour 10 000 km par an rechargé à domicile en heures creuses. La recharge exclusivement sur bornes publiques coûtera 50 à 80 euros par mois.</li>
-<li><strong>Les pneus</strong> : à votre charge en cas d'usure normale. Prévoir un jeu (400 à 600 euros) tous les 30 000 à 40 000 km.</li>
-<li><strong>Les amendes et contraventions</strong> : à votre charge intégrale.</li>
-<li><strong>L'installation d'une borne à domicile</strong> : optionnelle mais fortement recommandée pour le confort et les économies. Coût de 300 à 800 euros après crédit d'impôt (300 euros) et aides éventuelles.</li>
-</ul>
+<h2>Le budget réel : ce que le loyer ne couvre pas</h2>
+<p>Le loyer plafonné ne comprend ni l'assurance, obligatoire et souvent exigée en formule tous risques par le loueur, ni l'électricité, ni les options et prestations annexes (entretien, pneus, extension de garantie) que le professionnel peut proposer : vous êtes libre de les refuser. Comptez donc, en plus du loyer, l'assurance et la recharge : environ 2 à 4 € pour 100 km à domicile, deux à trois fois plus sur les bornes rapides. Si vous pouvez recharger chez vous, l'installation d'une prise renforcée ou d'une borne reste à votre charge ; le crédit d'impôt pour borne ne concerne plus que les dépenses payées jusqu'au ${CREDIT_IMPOT_BORNE.finDepenses}.</p>
 
-<h3>Estimation du budget mensuel réel par profil</h3>
-<ul>
-<li><strong>Profil économe</strong> (Citroën e-C3, recharge à domicile, conducteur expérimenté, 8 000 km/an) : 54 euros (loyer) + 35 euros (assurance) + 20 euros (recharge) = <strong>109 euros par mois</strong>.</li>
-<li><strong>Profil standard</strong> (Renault 5 E-Tech, recharge mixte, conducteur moyen, 10 000 km/an) : 100 euros (loyer) + 50 euros (assurance) + 35 euros (recharge) = <strong>185 euros par mois</strong>.</li>
-<li><strong>Profil jeune conducteur</strong> (Peugeot e-208, recharge publique majoritaire, 12 000 km/an) : 110 euros (loyer) + 75 euros (assurance) + 55 euros (recharge) = <strong>240 euros par mois</strong>.</li>
-</ul>
-<p>À comparer aux 350 à 500 euros mensuels que coûte en moyenne une voiture thermique pour un ménage modeste (crédit ou LOA, carburant, entretien, assurance). L'économie mensuelle du leasing social est de 110 à 290 euros par mois, soit 1 320 à 3 480 euros par an.</p>
-
-<h2>Comparaison détaillée avec une LOA classique</h2>
-
-<h3>L'écart de coût</h3>
-<p>En LOA classique, la même Renault 5 E-Tech serait proposée autour de 250 à 350 euros par mois (avec un apport de 3 000 à 5 000 euros) sur 36 mois. Le leasing social offre donc une économie directe de 150 à 250 euros par mois, soit 5 400 à 9 000 euros sur la durée totale du contrat de 3 ans. C'est une différence considérable pour un ménage modeste.</p>
-
-<h3>Comment l'État finance la différence</h3>
-<p>La subvention du leasing social repose sur plusieurs mécanismes combinés : le bonus écologique majoré (7 000 euros pour les ménages modestes) est intégralement appliqué en réduction du coût du contrat, réduisant la base de calcul des loyers. Le constructeur consent une marge réduite (voire nulle) sur le véhicule dans le cadre de son accord avec l'État, considérant le volume garanti comme un investissement commercial. L'établissement financier (captive du constructeur) applique un taux d'intérêt subventionné, inférieur aux conditions de marché. Le cumul de ces trois leviers permet de proposer un loyer 60 à 70 % inférieur à une LOA de marché.</p>
-
-<h3>Les différences fonctionnelles</h3>
-<ul>
-<li><strong>Option d'achat</strong> : en LOA classique, vous pouvez acheter le véhicule en fin de contrat. En leasing social (LLD), vous restituez obligatoirement le véhicule. Pas d'option d'achat. C'est la contrepartie principale du tarif avantageux.</li>
-<li><strong>Kilométrage</strong> : le leasing social impose un kilométrage annuel limité de 10 000 à 13 000 km par an selon les contrats. Chaque kilomètre excédentaire est facturé 8 à 12 centimes. En LOA classique, le kilométrage est négociable et peut monter à 20 000 ou 30 000 km par an.</li>
-<li><strong>Durée</strong> : le leasing social est fixé à 3 ans (36 mois). La LOA classique offre des durées de 24 à 60 mois.</li>
-<li><strong>Choix du modèle</strong> : le leasing social est limité aux modèles du catalogue officiel (5 à 8 modèles). La LOA classique donne accès à l'ensemble du catalogue du constructeur.</li>
-<li><strong>Restitution</strong> : les conditions de restitution du leasing social sont identiques à celles d'une LLD classique (usure normale tolérée, frais de remise en état pour les dommages excessifs).</li>
-</ul>
-
-<h2>Les questions fréquentes sur le leasing social</h2>
-
-<h3>Peut-on renouveler son leasing social après 3 ans ?</h3>
-<p>En théorie, oui, si le dispositif est reconduit par le gouvernement et si vous êtes toujours éligible (revenus, situation professionnelle). En pratique, rien ne garantit la reconduction du programme d'année en année. Le gouvernement s'est engagé sur une pérennisation du dispositif, mais les conditions et les modèles peuvent évoluer. Si vous n'êtes plus éligible (vos revenus ont augmenté, par exemple), vous devrez vous tourner vers une LOA ou un crédit classique pour votre prochain véhicule.</p>
-
-<h3>Que se passe-t-il en cas de sinistre total (véhicule détruit) ?</h3>
-<p>Votre assurance tous risques (obligatoire en leasing) prend en charge l'indemnisation. Le loueur est indemnisé directement par l'assureur. Si l'indemnisation est inférieure à la valeur résiduelle du contrat, la garantie « perte financière » (Gap Insurance), souvent incluse dans le contrat de leasing social, couvre la différence. Vous n'avez rien à payer au loueur. Vous pouvez ensuite, si le dispositif le permet, souscrire un nouveau contrat de leasing social.</p>
-
-<h3>Peut-on installer une borne à domicile quand on est locataire ?</h3>
-<p>Oui, grâce au « droit à la prise » instauré par la loi. Tout locataire peut demander l'installation d'une borne de recharge sur sa place de parking, même en copropriété. Le syndic ne peut pas refuser sans motif sérieux. Le coût de l'installation est à votre charge (ou celle du propriétaire si accord), mais bénéficie du crédit d'impôt de 300 euros et des aides ADVENIR en copropriété. Si vous n'avez pas de parking (stationnement sur voirie), vous dépendrez des bornes publiques pour la recharge.</p>
-
-<h3>Le leasing social est-il cumulable avec la prime à la conversion ?</h3>
-<p>Oui, le leasing social est cumulable avec la prime à la conversion si vous mettez au rebut un véhicule ancien éligible. La prime est alors déduite du premier loyer ou répartie en réduction des mensualités. Pour un ménage très modeste, le cumul leasing social + prime à la conversion peut ramener la mensualité effective à moins de 30 euros par mois, un tarif historiquement bas pour une voiture neuve.</p>
-
-<h3>Le véhicule peut-il être conduit par d'autres personnes du foyer ?</h3>
-<p>Oui, sous réserve que les conducteurs additionnels soient déclarés sur le contrat d'assurance. Le contrat de leasing social est au nom du demandeur éligible, mais le véhicule peut être conduit par tout membre du foyer titulaire du permis B et couvert par l'assurance.</p>
-
-<h2>Témoignages et retours d'expérience de la campagne 2024</h2>
-
-<p>Les 50 000 bénéficiaires de la première campagne constituent un échantillon précieux de retours d'expérience. Voici les tendances observées :</p>
-<ul>
-<li><strong>Satisfaction globale élevée</strong> : plus de 85 % des bénéficiaires se déclarent « satisfaits » ou « très satisfaits » de leur véhicule, selon les enquêtes menées par le ministère.</li>
-<li><strong>Économie constatée</strong> : les bénéficiaires rapportent une économie moyenne de 150 à 200 euros par mois par rapport à leur situation précédente (ancienne voiture thermique).</li>
-<li><strong>Adaptation rapide</strong> : 90 % des bénéficiaires déclarent s'être adaptés à la conduite électrique en moins d'une semaine.</li>
-<li><strong>Point de friction principal</strong> : la recharge publique pour les locataires sans borne à domicile reste le sujet de difficulté numéro un, soulignant l'importance de développer l'infrastructure de recharge dans les quartiers d'habitat collectif.</li>
-<li><strong>Modèle le plus apprécié</strong> : la Fiat 500e a obtenu les meilleures notes de satisfaction pour son design et son agrément, mais la Peugeot e-208 est plébiscitée pour sa polyvalence.</li>
-</ul>
-
-<h2>Conseils pratiques pour maximiser vos chances</h2>
-
-<ul>
-<li><strong>Préparez votre dossier en avance</strong> : consultez votre RFR, rassemblez vos justificatifs professionnels, et identifiez les concessionnaires partenaires dans votre département AVANT l'ouverture de la plateforme.</li>
-<li><strong>Inscrivez-vous dans les premières heures</strong> : le dispositif fonctionne par ordre de dépôt. Les retardataires risquent de trouver toutes les places pourvues.</li>
-<li><strong>Soyez flexible sur le modèle</strong> : si votre premier choix n'est pas disponible, acceptez votre deuxième choix plutôt que de refuser et perdre votre place.</li>
-<li><strong>Anticipez l'assurance</strong> : obtenez des devis d'assurance avant la signature du contrat de leasing. Un refus d'assurance (rare mais possible pour les jeunes conducteurs sans historique) bloquerait la livraison.</li>
-<li><strong>Renseignez-vous sur la recharge</strong> : avant de vous engager, identifiez votre solution de recharge (borne à domicile, borne au travail, borne publique proche). La recharge conditionne 80 % de la satisfaction quotidienne avec un VE.</li>
-<li><strong>Installez l'application ChargeMap</strong> : pour repérer les bornes publiques autour de votre domicile et de votre lieu de travail, et évaluer la faisabilité de votre quotidien électrique.</li>
-</ul>`,
+<h2>Leasing social ou prime coup de pouce CEE ?</h2>
+<p>Les deux aides ne se cumulent pas. Le leasing social convient si vous remplissez ses conditions de revenus et de trajet et qu'une location de ${LEASING_SOCIAL.dureeMinAns} ans ou plus vous va. Si vous préférez acheter, ou si votre revenu dépasse ${eur(LEASING_SOCIAL.rfrParPartMax)} par part, la prime coup de pouce CEE s'applique à l'achat ou à la location d'une voiture électrique neuve d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC ; son montant dépend de l'offre de l'entreprise qui la verse. Notre <a href="/acheter/aides-et-bonus/">guide des aides à l'achat</a> compare les deux en détail.</p>`,
     faq: [
-      { question: "Que faut-il savoir sur critères d'éligibilité détaillés ?", answer: "Les critères d'éligibilité sont stricts et cumulatifs. Chaque condition doit être remplie pour que le dossier soit accepté. Le revenu fiscal de référence par part (RFR/part) du foyer ne doit pas dépasser 15 400 euros. Ce seuil correspond environ au 50e percentile des revenus en France, ciblant donc la moitié la moins aisée de la population." },
-      { question: "En quoi consistent les modèles disponibles en leasing social en 2026 ?", answer: "Les véhicules proposés sont sélectionnés par l'État en concertation avec les constructeurs partenaires. Pour figurer au catalogue, un modèle doit être 100 % électrique, obtenir un score environnemental ADEME suffisant (fabrication en Europe), et afficher un prix catalogue inférieur à 47 000 euros TTC. Les constructeurs s'engagent sur des volumes dédiés et des marges réduites dans le cadre de ce partenariat public-privé." },
-      { question: "Comment faire sa demande ?", answer: "Avant toute chose, consultez votre dernier avis d'imposition pour connaître votre RFR et votre nombre de parts. Calculez votre RFR/part : si le résultat est inférieur ou égal à 15 400 euros, vous êtes potentiellement éligible. Vérifiez ensuite que vous remplissez la condition de mobilité professionnelle." },
-      { question: "Que faut-il savoir sur comparaison détaillée avec une LOA classique ?", answer: "En LOA classique, la même Renault 5 E-Tech serait proposée autour de 250 à 350 euros par mois (avec un apport de 3 000 à 5 000 euros) sur 36 mois. Le leasing social offre donc une économie directe de 150 à 250 euros par mois, soit 5 400 à 9 000 euros sur la durée totale du contrat de 3 ans." },
-      { question: "En quoi consistent les questions fréquentes sur le leasing social ?", answer: "En théorie, oui, si le dispositif est reconduit par le gouvernement et si vous êtes toujours éligible (revenus, situation professionnelle). En pratique, rien ne garantit la reconduction du programme d'année en année. Le gouvernement s'est engagé sur une pérennisation du dispositif, mais les conditions et les modèles peuvent évoluer." },
-      { question: "Que faut-il savoir sur témoignages et retours d'expérience de la campagne 2024 ?", answer: "Les 50 000 bénéficiaires de la première campagne constituent un échantillon précieux de retours d'expérience. Voici les tendances observées : Satisfaction globale élevée : plus de 85 % des bénéficiaires se déclarent « satisfaits » ou « très satisfaits » de leur véhicule, selon les enquêtes menées par le ministère." },
+      { question: "Le leasing social est-il toujours à 100 € par mois ?", answer: `Non. Pour la campagne ouverte le ${LEASING_SOCIAL.ouverture}, le loyer est de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, hors assurance, options et prestations annexes, sans apport. Chaque professionnel participant doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} par mois au plus (hors Outre-mer).` },
+      { question: "Quel revenu faut-il pour avoir droit au leasing social 2026 ?", answer: `Votre revenu fiscal de référence par part doit être inférieur ou égal à ${eur(LEASING_SOCIAL.rfrParPartMax)}. Pour un premier loyer versé en 2026, on retient le revenu de 2024 figurant sur l'avis d'imposition de 2025.` },
+      { question: "Faut-il travailler pour bénéficier du leasing social ?", answer: `Oui : votre trajet domicile-travail effectué avec votre véhicule personnel doit dépasser ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km, ou vous devez parcourir plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour votre activité professionnelle.` },
+      { question: "Le leasing social se cumule-t-il avec d'autres aides ?", answer: `Non avec la prime coup de pouce CEE ni avec les autres aides financées par les certificats d'économies d'énergie. La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}.` },
+      { question: "Comment faire la demande ?", answer: "Adressez-vous à un professionnel de l'automobile qui propose un modèle de la liste officielle : il vérifie vos conditions, monte le dossier et déduit l'aide de l'État du premier loyer." },
     ],
   },
   {
@@ -1347,17 +1168,17 @@ export const pagesAcheter: PageAcheter[] = [
 <h2>Meilleure citadine électrique : Renault 5 E-Tech</h2>
 <p>La Renault 5 E-Tech est la révélation de 2024-2025. Ce n'est pas seulement une voiture électrique compétente : c'est un modèle qui donne envie de passer à l'électrique. Son design néo-rétro irrésistible, son habitacle coloré et bien pensé, et son comportement routier vif en font la citadine électrique la plus désirable du marché.</p>
 <p>Au-delà du style, les fondamentaux sont excellents : 400 km d'autonomie WLTP en version 52 kWh (environ 320-350 km réels en ville/périphérie), recharge rapide de 15 à 80 % en 30 minutes (100 kW), et un prix d'entrée à 25 000 € (version Évolution 40 kWh) qui la place en concurrence directe avec une Peugeot 208 thermique bien équipée.</p>
-<p>Produite à Douai dans le nord de la France, elle bénéficie du score environnemental maximal et de toutes les aides (bonus + prime conversion). Pour un ménage modeste utilisant le leasing social, c'est le choix optimal en termes de rapport plaisir/coût. Sa valeur résiduelle devrait être excellente grâce à son statut iconique.</p>
+<p>Produite à Douai dans le nord de la France, elle obtient un score environnemental suffisant pour la prime coup de pouce CEE et respecte les plafonds de prix et de masse du leasing social (sous réserve de figurer sur sa liste officielle). Pour un ménage modeste utilisant le leasing social, c'est le choix optimal en termes de rapport plaisir/coût. Sa valeur résiduelle devrait être excellente grâce à son statut iconique.</p>
 
 <h2>Meilleur budget : Citroën ë-C3</h2>
-<p>Avec un prix de lancement à 23 300 € (avant bonus), la Citroën ë-C3 est la voiture électrique neuve la moins chère du marché français qui offre un espace et une autonomie véritablement utilisables au quotidien. Ses 320 km WLTP (environ 250-280 km réels) suffisent pour 95 % des trajets quotidiens des Français, et sa recharge rapide en courant continu (100 kW, 20 à 80 % en 26 minutes) la rend capable d'effectuer des trajets plus longs occasionnellement.</p>
+<p>Avec un prix de lancement à 23 300 € (prix catalogue), la Citroën ë-C3 est la voiture électrique neuve la moins chère du marché français qui offre un espace et une autonomie véritablement utilisables au quotidien. Ses 320 km WLTP (environ 250-280 km réels) suffisent pour 95 % des trajets quotidiens des Français, et sa recharge rapide en courant continu (100 kW, 20 à 80 % en 26 minutes) la rend capable d'effectuer des trajets plus longs occasionnellement.</p>
 <p>Le confort est étonnamment bon pour ce prix grâce à la suspension Progressive Hydraulic Cushions héritée de Citroën, et l'habitacle est spacieux (4,01 m de long, 310 litres de coffre). Les finitions sont modestes mais honnêtes. Citroën assume un positionnement de voiture essentielle plutôt que technologique.</p>
-<p>Après déduction du bonus (4 000 € pour les ménages modestes à 7 000 € pour les très modestes), la ë-C3 descend à 16 300 - 19 300 €, un prix historiquement bas pour une voiture électrique neuve avec garantie 8 ans sur la batterie.</p>
+<p>Elle ouvre droit à la prime coup de pouce CEE, dont le montant dépend de l'offre retenue et de vos revenus : de quoi descendre encore sous son prix catalogue, déjà historiquement bas pour une voiture électrique neuve avec garantie 8 ans sur la batterie.</p>
 
 <h2>Meilleur SUV familial : Renault Scenic E-Tech</h2>
 <p>Le Renault Scenic E-Tech electric a surpris tout le monde en 2024 en offrant une combinaison rarement vue : un espace de monospace familial (coffre de 545 litres, espace aux jambes arrière de référence), une autonomie XXL de 625 km WLTP en version Grande Autonomie (87 kWh, environ 500-530 km réels sur autoroute), et un confort de conduite exemplaire avec un châssis parfaitement calibré.</p>
 <p>Sa plateforme CMF-EV de nouvelle génération lui permet d'accepter la recharge rapide jusqu'à 150 kW (version 87 kWh), soit un 15-80 % en 37 minutes. Pour une famille parcourant 1 000 km de vacances, cela signifie seulement deux arrêts recharge de 30-35 minutes, parfaitement compatible avec les pauses enfants.</p>
-<p>À 41 700 € en version de base (Techno, 60 kWh, 420 km), il est certes plus cher qu'un Scenic thermique, mais le bonus écologique et l'économie de carburant (environ 2 000 €/an pour 15 000 km) rééquilibrent le TCO sur 5 ans. C'est notre recommandation numéro un pour les familles.</p>
+<p>À 41 700 € en version de base (Techno, 60 kWh, 420 km), il est certes plus cher qu'un Scenic thermique, mais la prime coup de pouce CEE (le Scenic reste sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)}) et l'économie de carburant (environ 2 000 €/an pour 15 000 km) rééquilibrent le TCO sur 5 ans. C'est notre recommandation numéro un pour les familles.</p>
 
 <h2>Meilleure berline premium : BMW i4</h2>
 <p>La BMW i4 est la meilleure berline électrique de son segment en 2026, surpassant la Tesla Model 3 en qualité de fabrication et en agrément de conduite. Sa version eDrive40 (340 ch, 590 km WLTP) offre un équilibre parfait entre performance, autonomie et prix (à partir de 58 600 €), tandis que la M50 (544 ch) satisfait les amateurs de sensations fortes.</p>
@@ -1393,15 +1214,15 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Tesla Model Y restylé « Juniper » :</strong> Déjà disponible depuis début 2025, le restylage du best-seller mondial corrige les défauts principaux (design intérieur, insonorisation, suspension) tout en améliorant l'autonomie de 5 à 10 %. C'est le modèle à acheter si vous hésitez entre un Model Y occasion et un neuf : le Juniper vaut la différence de prix.</p>
 
 <h2>Nos conseils avant l'achat</h2>
-<p>Avant de vous décider, nous recommandons de suivre ces étapes dans l'ordre. Premièrement, définissez votre budget réel en intégrant les aides disponibles (bonus écologique, prime à la conversion, aides régionales) et les économies d'usage sur 5 ans (carburant, entretien, stationnement, péages). Un VE à 35 000 euros avec 7 000 euros d'aides et 2 000 euros par an d'économies de carburant revient effectivement au même prix qu'un thermique à 18 000 euros sur 5 ans.</p>
+<p>Avant de vous décider, nous recommandons de suivre ces étapes dans l'ordre. Premièrement, définissez votre budget réel en intégrant les aides disponibles (prime coup de pouce CEE, dont le montant varie selon l'offre, ou leasing social si vous y avez droit, aides de votre collectivité) et les économies d'usage sur 5 ans (carburant, entretien, stationnement, péages). Un VE à 35 000 euros qui fait économiser 2 000 euros par an de carburant revient, sur 5 ans, au même prix qu'un thermique à 25 000 euros, avant toute prime.</p>
 <p>Deuxièmement, identifiez votre solution de recharge : borne à domicile (idéal), recharge au travail (très bien), ou bornes publiques exclusivement (faisable mais plus contraignant et plus coûteux). Si vous êtes locataire en copropriété, renseignez-vous sur le droit à la prise avant de vous engager.</p>
 <p>Troisièmement, essayez au minimum 2 à 3 modèles concurrents dans votre budget. Ne vous arrêtez pas à un essai concessionnaire de 15 minutes : louez le modèle qui vous attire le plus pour un week-end complet via Getaround, Virtuo ou un loueur classique. Deux jours de vie réelle avec un VE valent mieux que tous les articles et toutes les vidéos du monde.</p>
-<p>Enfin, ne précipitez pas votre achat par peur de voir les aides diminuer. Les bonus évoluent mais n'ont jamais été supprimés du jour au lendemain. Prenez le temps de faire le bon choix : une voiture que vous garderez 5 à 8 ans mérite quelques semaines de réflexion supplémentaires.</p>`,
+<p>Enfin, vérifiez les aides au moment de signer : elles changent souvent (le bonus écologique a été remplacé par la prime CEE le ${COUP_DE_POUCE.depuis}, la prime à la conversion supprimée le ${PRIME_CONVERSION.supprimeeLe}), mais une prime manquée ne justifie pas un mauvais choix de véhicule. Prenez le temps de faire le bon choix : une voiture que vous garderez 5 à 8 ans mérite quelques semaines de réflexion supplémentaires.</p>`,
     faq: [
       { question: "Que faut-il savoir sur méthodologie de notre classement ?", answer: "Établir un classement des meilleures voitures électriques est un exercice délicat tant les critères varient selon les profils d'acheteurs. Un célibataire urbain n'a pas les mêmes besoins qu'une famille de quatre personnes parcourant 50 000 km par an. C'est pourquoi nous avons adopté une approche par catégorie, en distinguant les usages et les budgets." },
       { question: "Que faut-il savoir sur meilleure voiture électrique polyvalente ?", answer: "Le Tesla Model Y conserve la première place du classement général en 2026, et ce n'est pas un hasard. Le SUV compact américain combine une autonomie réelle de 420 à 480 km selon la version (Grande Autonomie ou Performance), une recharge rapide parmi les plus efficaces du marché (15 minutes pour récupérer 200 km sur Supercharger V3), un espace intérieur remarquable pour sa catégorie, et un coût total de possession imbattable grâce à sa faible décote et ses coûts d'entretien quasi nuls." },
       { question: "Que faut-il savoir sur meilleure citadine électrique ?", answer: "La Renault 5 E-Tech est la révélation de 2024-2025. Ce n'est pas seulement une voiture électrique compétente : c'est un modèle qui donne envie de passer à l'électrique. Son design néo-rétro irrésistible, son habitacle coloré et bien pensé, et son comportement routier vif en font la citadine électrique la plus désirable du marché." },
-      { question: "Que faut-il savoir sur citroën ë-C3 ?", answer: "Avec un prix de lancement à 23 300 € (avant bonus), la Citroën ë-C3 est la voiture électrique neuve la moins chère du marché français qui offre un espace et une autonomie véritablement utilisables au quotidien. Ses 320 km WLTP (environ 250-280 km réels) suffisent pour 95 % des trajets quotidiens des Français, et sa recharge rapide en courant continu (100 kW, 20 à 80 % en 26 minutes) la rend capable d'effectuer des trajets plus longs occasionnellement." },
+      { question: "Que faut-il savoir sur citroën ë-C3 ?", answer: "Avec un prix de lancement à 23 300 € (prix catalogue), la Citroën ë-C3 est la voiture électrique neuve la moins chère du marché français qui offre un espace et une autonomie véritablement utilisables au quotidien. Ses 320 km WLTP (environ 250-280 km réels) suffisent pour 95 % des trajets quotidiens des Français, et sa recharge rapide en courant continu (100 kW, 20 à 80 % en 26 minutes) la rend capable d'effectuer des trajets plus longs occasionnellement." },
       { question: "Que faut-il savoir sur meilleur SUV familial ?", answer: "Le Renault Scenic E-Tech electric a surpris tout le monde en 2024 en offrant une combinaison rarement vue : un espace de monospace familial (coffre de 545 litres, espace aux jambes arrière de référence), une autonomie XXL de 625 km WLTP en version Grande Autonomie (87 kWh, environ 500-530 km réels sur autoroute), et un confort de conduite exemplaire avec un châssis parfaitement calibré." },
       { question: "Que faut-il savoir sur meilleure berline premium ?", answer: "La BMW i4 est la meilleure berline électrique de son segment en 2026, surpassant la Tesla Model 3 en qualité de fabrication et en agrément de conduite. Sa version eDrive40 (340 ch, 590 km WLTP) offre un équilibre parfait entre performance, autonomie et prix (à partir de 58 600 €), tandis que la M50 (544 ch) satisfait les amateurs de sensations fortes." },
     ],
@@ -1450,10 +1271,9 @@ export const pagesAcheter: PageAcheter[] = [
 <p><strong>Cas particulier, leasing (LOA/LLD) :</strong> Le véhicule est immatriculé au nom du loueur (banque, constructeur). C'est le loueur qui effectue les démarches d'immatriculation. Le locataire n'a aucune démarche à faire : la carte grise arrive directement chez le loueur qui vous la transmet.</p>
 <p><strong>Cas particulier, véhicule électrique d'occasion importé hors UE :</strong> Un véhicule importé hors UE (Tesla importée des États-Unis par exemple) nécessite une homologation individuelle par la DREAL (Direction Régionale de l'Environnement) ou un RTI (Réception à Titre Isolé). Cette procédure est coûteuse (500 à 2 000 €) et longue (1 à 3 mois). Elle est à éviter sauf pour des modèles non commercialisés en Europe.</p>
 
-<h2>Lien avec le bonus écologique et les aides</h2>
-<p>La carte grise est le document qui prouve officiellement que vous êtes propriétaire du véhicule. Elle est donc indispensable pour finaliser votre demande de bonus écologique et de prime à la conversion. Sans carte grise définitive à votre nom, votre dossier d'aide sera rejeté.</p>
-<p>La date de la carte grise (date de première mise en circulation pour un véhicule neuf, ou date de mutation pour un véhicule d'occasion) est le point de départ du délai de 6 mois pour déposer votre demande de bonus. Passé ce délai, vous perdez définitivement le droit au bonus.</p>
-<p>Pour les véhicules en LOA ou LLD, c'est la date du contrat de location (et non la date de carte grise) qui fait foi pour l'éligibilité au bonus. Le bonus est alors versé directement au loueur qui le répercute en réduction des loyers.</p>
+<h2>Lien avec les aides à l'achat</h2>
+<p>La carte grise est le document qui prouve officiellement que vous êtes titulaire du véhicule. Elle fait partie des justificatifs demandés pour la prime coup de pouce CEE, qui a remplacé le bonus écologique le ${COUP_DE_POUCE.depuis}. Les délais et pièces à fournir sont fixés par l'offre de l'entreprise signataire qui verse la prime : lisez-les avant de signer, car un dossier hors délai est refusé. La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}.</p>
+<p>En leasing social, c'est le professionnel qui monte le dossier et déduit l'aide de l'État du premier loyer : vous n'avez pas de demande à déposer vous-même.</p>
 
 <h2>Changement d'adresse et duplicata : les démarches complémentaires</h2>
 <p>Tout changement d'adresse doit être signalé dans un délai d'un mois sur le site de l'ANTS. La mise à jour est gratuite et génère l'envoi d'une étiquette autocollante à apposer sur la carte grise existante. Après trois changements d'adresse, une nouvelle carte grise est éditée automatiquement (toujours sans frais pour un véhicule électrique dans les régions avec exonération totale, seuls les 13,76 euros de frais fixes s'appliquent).</p>
@@ -1480,7 +1300,7 @@ export const pagesAcheter: PageAcheter[] = [
       { question: "Que faut-il savoir sur autres exonérations pour les VE ?", answer: "Malus écologique (taxe CO₂) : Les véhicules 100 % électriques émettant 0 g/km de CO₂ sont naturellement exemptés du malus écologique. En 2026, le malus peut atteindre 60 000 € pour les véhicules les plus émetteurs (à partir de 118 g/km), ce qui rend l'exonération particulièrement significative pour les véhicules puissants comme les SUV électriques qui auraient été lourdement taxés en version thermique." },
       { question: "Que faut-il savoir sur procédure en ligne sur le site ANTS ?", answer: "Depuis 2017, toutes les demandes de certificat d'immatriculation se font exclusivement sur le site de l'ANTS (Agence Nationale des Titres Sécurisés) à l'adresse immatriculation.ants.gouv.fr. Voici la procédure détaillée : 1. Création de compte ANTS : Si vous n'en avez pas déjà un, créez votre compte sur ants.gouv.fr." },
       { question: "Que faut-il savoir sur délais de traitement et cas particuliers ?", answer: "Le délai moyen de réception de la carte grise définitive est de 7 à 15 jours ouvrés après validation du dossier. Toutefois, des retards de 3 à 6 semaines sont fréquemment signalés lors des périodes de forte affluence (janvier, septembre). Le CPI vous permet de circuler légalement pendant ce délai." },
-      { question: "Que faut-il savoir sur lien avec le bonus écologique et les aides ?", answer: "La carte grise est le document qui prouve officiellement que vous êtes propriétaire du véhicule. Elle est donc indispensable pour finaliser votre demande de bonus écologique et de prime à la conversion. Sans carte grise définitive à votre nom, votre dossier d'aide sera rejeté. La date de la carte grise (date de première mise en circulation pour un véhicule neuf, ou date de mutation pour un véhicule d'occasion) est le point de départ du délai de 6 mois pour déposer votre demande de bonus." },
+      { question: "La carte grise est-elle utile pour obtenir une aide à l'achat ?", answer: "Oui : elle fait partie des justificatifs demandés pour la prime coup de pouce CEE, qui a remplacé le bonus écologique. Les délais et pièces à fournir dépendent de l'offre de l'entreprise qui verse la prime. En leasing social, le professionnel monte le dossier et déduit l'aide du premier loyer." },
     ],
   },
   {
@@ -1584,7 +1404,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Comment préserver votre SoH : maintenez votre charge quotidienne entre 20 et 80 % (la plage optimale pour la longévité chimique des cellules lithium-ion), évitez les recharges rapides DC quotidiennes (1 à 2 fois par semaine maximum), ne laissez pas le véhicule stationner à 100 % ou à 0 % pendant des jours, et garez en intérieur si possible car la chaleur extrême (plus de 35 degrés) est le pire ennemi des batteries. Les batteries LFP (utilisées par Tesla, BYD, certains modèles Renault) supportent mieux les charges à 100 % que les batteries NMC, mais la prudence reste recommandée.</p>
 
 <p><strong>2. L'autonomie originale et la taille de la batterie</strong></p>
-<p>Les modèles à grande autonomie (400+ km WLTP) conservent systématiquement mieux leur valeur que les versions à petite batterie. L'explication est simple : un acheteur d'occasion en 2026 hésitera à investir dans un véhicule offrant 200 km d'autonomie réelle quand les modèles neufs en proposent 350 à 500 pour un prix parfois comparable après aides. Les versions « Short Range » ou « Standard Range » subissent une décote accélérée, souvent 5 à 10 points de plus que la version « Long Range » du même modèle. Le surcoût de 2 000 à 5 000 euros à l'achat pour la grande batterie est quasi systématiquement récupéré à la revente.</p>
+<p>Les modèles à grande autonomie (400+ km WLTP) conservent systématiquement mieux leur valeur que les versions à petite batterie. L'explication est simple : un acheteur d'occasion en 2026 hésitera à investir dans un véhicule offrant 200 km d'autonomie réelle quand les modèles neufs en proposent 350 à 500 pour un prix parfois comparable. Les versions « Short Range » ou « Standard Range » subissent une décote accélérée, souvent 5 à 10 points de plus que la version « Long Range » du même modèle. Le surcoût de 2 000 à 5 000 euros à l'achat pour la grande batterie est quasi systématiquement récupéré à la revente.</p>
 
 <p><strong>3. La marque, la notoriété et le réseau SAV</strong></p>
 <p>Les marques disposant d'un réseau de vente et de service après-vente étendu, d'une notoriété établie dans l'électrique et d'un historique de fiabilité constaté conservent mieux leur valeur. Tesla bénéficie de l'effet « marque technologique premium » comparable à Apple dans la téléphonie. Hyundai-Kia capitalise sur la fiabilité reconnue du groupe et sur la garantie la plus longue du marché (7 ans chez Kia). BMW et Mercedes profitent du prestige séculaire de la marque. À l'inverse, les marques chinoises récemment arrivées en Europe (BYD, MG, Xpeng, Aiways, Seres) souffrent d'un déficit de confiance qui se traduit par une décote accélérée, malgré des produits parfois techniquement excellents.</p>
@@ -1593,7 +1413,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>C'est un facteur spécifique aux VE qui n'a pas d'équivalent dans le monde thermique. Un modèle dont la version actuelle est radicalement supérieure à l'ancienne subit une décote brutale. L'exemple le plus frappant est la Renault Zoe : sa valeur résiduelle a chuté de 15 à 20 % en quelques mois lorsque la Renault 5 E-Tech a été annoncée, offrant davantage d'autonomie, un design moderne et un prix comparable. À l'inverse, un modèle qui évolue progressivement (les Tesla, régulièrement mises à jour par OTA sans changement radical de génération) conserve mieux sa valeur car l'acheteur d'occasion ne se sent pas « dépassé ».</p>
 
 <p><strong>5. Les subventions et le prix du neuf</strong></p>
-<p>Paradoxalement, les fortes subventions à l'achat du neuf (bonus écologique, prime à la conversion) exercent une pression à la baisse sur les prix d'occasion. L'acheteur potentiel d'occasion compare systématiquement le prix avec celui du neuf APRÈS aides. Si une Citroën e-C3 neuve coûte 16 300 euros après cumul des aides pour un ménage modeste, une e-C3 d'occasion de 2 ans ne peut tout simplement pas être vendue plus de 13 000 à 14 000 euros, même en excellent état. De même, les baisses de prix constructeur sur le neuf (Tesla ajuste régulièrement ses tarifs) se répercutent immédiatement sur les cotes d'occasion.</p>
+<p>Paradoxalement, les aides à l'achat du neuf (hier le bonus écologique, aujourd'hui la prime coup de pouce CEE et le leasing social) exercent une pression à la baisse sur les prix d'occasion. L'acheteur potentiel d'occasion compare systématiquement le prix avec celui du neuf, aides déduites : une e-C3 d'occasion de 2 ans doit rester nettement sous le prix d'une neuve (23 300 euros, prime CEE déduite) pour trouver preneur. De même, les baisses de prix constructeur sur le neuf (Tesla ajuste régulièrement ses tarifs) se répercutent immédiatement sur les cotes d'occasion.</p>
 
 <p><strong>6. La vitesse de recharge rapide (DC)</strong></p>
 <p>La capacité de recharge rapide est devenue un critère discriminant pour l'acheteur d'occasion. Un véhicule capable de recharger à 150 kW ou plus (Hyundai Ioniq 5, Kia EV6, Tesla, Porsche Taycan) se vend nettement mieux qu'un modèle plafonné à 50 kW (anciens modèles Renault, Nissan Leaf) car il rend les longs trajets praticables. L'absence de port de recharge DC (charge rapide) sur certains anciens modèles est rédhibitoire pour beaucoup d'acheteurs d'occasion.</p>
@@ -1638,7 +1458,7 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p><strong>Premières générations chinoises (MG ZS EV 2021, Aiways U5, Seres 3)</strong> : 58-68 %. Obsolescence technologique rapide, incertitudes sur le SAV et les pièces détachées, absence de valeur de marque en Europe. La MG4 (sortie en 2022), nettement supérieure techniquement, devrait mieux résister (50-55 %).</p>
 
-<p><strong>Dacia Spring</strong> : 55-60 %. Le positionnement ultra-low-cost se retourne contre la valeur résiduelle : si le véhicule coûte 18 900 euros neuf (et 11 900 à 14 900 euros après aides), sa valeur d'occasion ne peut pas descendre beaucoup plus bas sans devenir dérisoire. En valeur absolue, la perte est modérée (8 000 à 10 000 euros sur 4 ans), mais en pourcentage, elle est significative.</p>
+<p><strong>Dacia Spring</strong> : 55-60 %. Le positionnement ultra-low-cost se retourne contre la valeur résiduelle : si le véhicule coûte 18 900 euros neuf, sa valeur d'occasion ne peut pas descendre beaucoup plus bas sans devenir dérisoire. En valeur absolue, la perte est modérée (8 000 à 10 000 euros sur 4 ans), mais en pourcentage, elle est significative.</p>
 
 <h2>Comment maximiser la valeur de revente de votre VE : 10 conseils pratiques</h2>
 
@@ -1800,10 +1620,10 @@ export const pagesAcheter: PageAcheter[] = [
 
 <h2>Comparaison du coût total de possession (TCO)</h2>
 <p>Le TCO (Total Cost of Ownership) intègre le prix d'achat, le carburant/électricité, l'entretien, l'assurance, la décote et les taxes sur la durée de détention. Comparons un scénario type sur 5 ans et 75 000 km (15 000 km/an) :</p>
-<p><strong>BEV (exemple : Renault Megane E-Tech, 40 000 € après bonus) :</strong></p>
-<p>Achat net : 36 000 € (après bonus 4 000 €). Électricité (80 % domicile à 0,18 €/kWh, 20 % public à 0,45 €/kWh, 17 kWh/100 km) : environ 2 500 € sur 5 ans. Entretien : environ 1 500 € sur 5 ans (pneus, freins, liquide, filtre habitacle). Assurance : environ 4 000 € sur 5 ans. Décote : environ 18 000 € (50 % sur 5 ans). <strong>TCO total : environ 62 000 €, soit 0,83 €/km.</strong></p>
+<p><strong>BEV (exemple : Renault Megane E-Tech, 40 000 €) :</strong></p>
+<p>Achat : 40 000 € (prix catalogue, avant une éventuelle prime coup de pouce CEE). Électricité (80 % domicile à 0,18 €/kWh, 20 % public à 0,45 €/kWh, 17 kWh/100 km) : environ 2 500 € sur 5 ans. Entretien : environ 1 500 € sur 5 ans (pneus, freins, liquide, filtre habitacle). Assurance : environ 4 000 € sur 5 ans. Décote : environ 18 000 € (50 % sur 5 ans). <strong>TCO total : environ 66 000 €, soit 0,88 €/km.</strong></p>
 <p><strong>PHEV (exemple : Peugeot 3008 Hybrid 225, 42 000 €) :</strong></p>
-<p>Achat : 42 000 € (pas de bonus en 2026). Carburant + électricité (50/50 si rechargé : 5 L/100 km essence + 15 kWh/100 km électrique, 50 % des km) : environ 5 500 € sur 5 ans. Entretien : environ 3 500 € sur 5 ans (vidanges, courroie, bougies, freins, filtres). Assurance : environ 4 500 € sur 5 ans. Décote : environ 23 000 € (55 % sur 5 ans). <strong>TCO total : environ 78 500 €, soit 1,05 €/km.</strong></p>
+<p>Achat : 42 000 € (aucune aide nationale pour un hybride rechargeable). Carburant + électricité (50/50 si rechargé : 5 L/100 km essence + 15 kWh/100 km électrique, 50 % des km) : environ 5 500 € sur 5 ans. Entretien : environ 3 500 € sur 5 ans (vidanges, courroie, bougies, freins, filtres). Assurance : environ 4 500 € sur 5 ans. Décote : environ 23 000 € (55 % sur 5 ans). <strong>TCO total : environ 78 500 €, soit 1,05 €/km.</strong></p>
 <p><strong>Thermique (exemple : Peugeot 3008 PureTech 130, 35 000 €) :</strong></p>
 <p>Achat : 35 000 €. Carburant (7 L/100 km, SP95 à 1,80 €/L) : environ 9 450 € sur 5 ans. Entretien : environ 4 000 € sur 5 ans. Assurance : environ 4 200 € sur 5 ans. Décote : environ 16 000 € (46 % sur 5 ans). <strong>TCO total : environ 68 650 €, soit 0,92 €/km.</strong></p>
 <p>Le BEV est le plus économique sur 5 ans malgré un prix d'achat supérieur. Le PHEV est le plus coûteux des trois solutions en TCO, principalement à cause de sa décote élevée, de sa double motorisation coûteuse en entretien, et de son prix d'achat élevé sans subvention.</p>
@@ -1849,7 +1669,7 @@ export const pagesAcheter: PageAcheter[] = [
     faq: [
       { question: "Que faut-il savoir sur bEV et PHEV ?", answer: "Le véhicule 100 % électrique (BEV, Battery Electric Vehicle) et l'hybride rechargeable (PHEV, Plug-in Hybrid Electric Vehicle) sont souvent confondus par le grand public car les deux se branchent sur une prise et roulent à l'électricité. Pourtant, ce sont deux approches radicalement différentes de la mobilité, avec des philosophies, des coûts et des usages distincts." },
       { question: "Comment fonctionne la consommation réelle des hybrides rechargeables ?", answer: "Les chiffres de consommation officiels (WLTP) des PHEV sont trompeurs car ils supposent que le véhicule roule une partie significative du temps en mode électrique. Le cycle WLTP attribue aux PHEV des consommations de 1 à 2 L/100 km et des émissions de 20 à 50 g/km de CO₂, des chiffres séduisants sur le papier." },
-      { question: "Que faut-il savoir sur comparaison du coût total de possession (TCO) ?", answer: "Le TCO (Total Cost of Ownership) intègre le prix d'achat, le carburant/électricité, l'entretien, l'assurance, la décote et les taxes sur la durée de détention. Comparons un scénario type sur 5 ans et 75 000 km (15 000 km/an) : BEV (exemple : Renault Megane E-Tech, 40 000 € après bonus) : Achat net : 36 000 € (après bonus 4 000 €)." },
+      { question: "Que faut-il savoir sur comparaison du coût total de possession (TCO) ?", answer: "Le TCO (Total Cost of Ownership) intègre le prix d'achat, le carburant/électricité, l'entretien, l'assurance, la décote et les taxes sur la durée de détention. Comparons un scénario type sur 5 ans et 75 000 km (15 000 km/an) : BEV (exemple : Renault Megane E-Tech, 40 000 €) : achat de 40 000 € au prix catalogue, avant une éventuelle prime coup de pouce CEE." },
       { question: "pour qui chaque technologie est-elle adaptée ?", answer: "Le BEV est idéal si : Vous disposez d'une solution de recharge à domicile (garage, parking avec prise) ou au travail. Vos trajets quotidiens font moins de 200 km (ce qui couvre 95 % des Français). Vous effectuez des longs trajets occasionnels (vacances) et acceptez des pauses recharge de 20-30 minutes tous les 250-300 km." },
       { question: "Que faut-il savoir sur l'horizon 2035 ?", answer: "L'Union européenne a voté l'interdiction de la vente de véhicules neufs à moteur thermique (essence, diesel, ET hybride) à partir de 2035. Cette réglementation inclut explicitement les PHEV : un véhicule disposant d'un moteur à combustion interne, même couplé à un moteur électrique, ne pourra plus être vendu neuf après cette date." },
       { question: "Que faut-il savoir sur impact environnemental réel ?", answer: "Du berceau à la tombe (analyse du cycle de vie, ACV), le BEV émet significativement moins de CO₂ qu'un PHEV : BEV : Production (batterie + véhicule) : environ 10-12 tonnes de CO₂. Usage sur 200 000 km (mix électrique français, 50 g CO₂/kWh) : environ 2 tonnes." },

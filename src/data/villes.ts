@@ -58,7 +58,7 @@ Les réseaux TotalEnergies et Izivia sont les principaux opérateurs présents �
 
 Boulogne-Billancourt est incluse dans la Zone à Faibles Émissions du Grand Paris, ce qui renforce l'intérêt du véhicule électrique pour ses résidents et les travailleurs qui s'y rendent quotidiennement. La ville accueille le siège de nombreuses entreprises du secteur des médias et du numérique, dont les salariés adoptent progressivement la mobilité électrique.
 
-Le département des Hauts-de-Seine propose une aide complémentaire au bonus écologique national pour l'achat d'un véhicule électrique. La ville de Boulogne-Billancourt facilite également l'installation de bornes dans les copropriétés grâce à un accompagnement administratif dédié.
+Pour une éventuelle aide locale à l'achat d'un véhicule électrique, en complément de la prime coup de pouce CEE nationale, consultez le site du département des Hauts-de-Seine et celui de la région. La ville de Boulogne-Billancourt facilite également l'installation de bornes dans les copropriétés grâce à un accompagnement administratif dédié.
 
 Pour les visiteurs, le parking du parc de Billancourt constitue un bon point de recharge, avec une dizaine de bornes et un cadre agréable pour patienter pendant la charge. Les bords de Seine offrent une promenade plaisante à quelques pas des stations de recharge du quartier Rives de Seine.
 
@@ -499,7 +499,7 @@ Grenoble a été l'une des premières villes françaises à instaurer une ZFE. L
 
 La métropole grenobloise est pionnière en matière de mobilité durable. Le réseau de tramway, les pistes cyclables et l'autopartage Citiz complètent l'offre de véhicules électriques. La ville accueille régulièrement des expérimentations de mobilité innovante.
 
-Grenoble propose des aides spécifiques aux ménages modestes pour l'achat de véhicules électriques, en complément du bonus national. La métropole subventionne aussi l'installation de bornes dans les copropriétés avec des montants parmi les plus élevés de France.
+Pour les aides locales à l'achat d'un véhicule électrique, qui peuvent compléter la prime coup de pouce CEE nationale, consultez le site de la métropole grenobloise et celui de la région. La métropole subventionne aussi l'installation de bornes dans les copropriétés avec des montants parmi les plus élevés de France.
 
 Pour les visiteurs, les bornes du parking du Musée de Grenoble et celles à proximité du fort de la Bastille sont les plus pratiques. L'application GEG e-mobilité permet de localiser facilement les bornes du réseau local.`,
     dateMAJ: "2026-06-22"
@@ -1280,7 +1280,7 @@ Le réseau est opéré par TotalEnergies, Ionity, et Toulouse Métropole via son
 
 Toulouse Métropole a instauré une ZFE progressive. Les véhicules Crit'Air 3 et plus sont concernés par des restrictions croissantes. Le véhicule électrique offre une liberté de circulation totale dans la métropole rose.
 
-La ville propose des aides spécifiques pour la mobilité électrique, en complément du bonus national. L'industrie aérospatiale locale, habituée à l'innovation de pointe, investit dans la mobilité électrique avec des projets d'avions électriques et de voitures volantes.
+Pour d'éventuelles aides locales à la mobilité électrique, en complément de la prime coup de pouce CEE nationale, consultez le site de la ville et celui de la région. L'industrie aérospatiale locale, habituée à l'innovation de pointe, investit dans la mobilité électrique avec des projets d'avions électriques et de voitures volantes.
 
 Le marché Victor Hugo, les halles gourmandes de Toulouse, sont entourées de bornes. La cuisine toulousaine, du cassoulet à la saucisse de Toulouse, se déguste sans empreinte carbone quand on roule en électrique. Les vignobles de Fronton, à quelques kilomètres, s'ouvrent aussi aux visiteurs en véhicule électrique.
 

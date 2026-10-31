@@ -6,18 +6,20 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorByline from "@/components/AuthorByline";
 import { buildMetadata } from "@/lib/seo";
 import { definedTermSetJsonLd } from "@/lib/jsonld";
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, CREDIT_IMPOT_BORNE, eur } from "@/data/aides-2026";
 
 export const metadata: Metadata = buildMetadata({
   title: "Glossaire voiture électrique : 30+ termes expliqués",
   description:
-    "Glossaire de la voiture électrique : kWh, WLTP, ZFE, borne de recharge, bonus écologique, prime à la conversion et plus. Tous les termes expliqués simplement.",
+    "Glossaire de la voiture électrique : kWh, WLTP, ZFE, borne de recharge, prime coup de pouce CEE, leasing social et plus. Tous les termes expliqués simplement.",
   path: "/glossaire/",
 });
 
 const glossaire = [
   { term: "Véhicule électrique (VE)", description: "Automobile propulsée exclusivement par un ou plusieurs moteurs électriques alimentés par une batterie rechargeable. Aucune émission de CO2 à l'usage." },
-  { term: "Bonus écologique", description: "Aide financière de l'État français accordée lors de l'achat ou de la location d'un véhicule neuf à faibles émissions. En 2026, il peut atteindre 4 000 euros pour un VE neuf sous conditions de revenus et de score environnemental." },
-  { term: "Prime à la conversion", description: "Aide complémentaire au bonus écologique versée en contrepartie de la mise au rebut d'un ancien véhicule polluant (Crit'Air 3 ou plus). Elle peut atteindre 5 000 euros et est cumulable avec le bonus." },
+  { term: "Bonus écologique", description: `Ancienne aide de l'État à l'achat ou à la location d'une voiture électrique neuve. Depuis le ${COUP_DE_POUCE.depuis}, elle est remplacée par la prime « coup de pouce » CEE, versée par des entreprises du secteur de l'énergie et dont le montant varie selon l'offre et les revenus du ménage.` },
+  { term: "Prime coup de pouce CEE", description: `Prime à l'achat ou à la location d'une voiture électrique neuve financée par les certificats d'économies d'énergie, en vigueur depuis le ${COUP_DE_POUCE.depuis}. Voiture d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC, de moins de ${COUP_DE_POUCE.masseMaxKg.toLocaleString("fr-FR")} kg et d'un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points. Son montant n'est pas fixé par la réglementation : il dépend de l'entreprise qui la verse et d'une bonification selon les revenus.` },
+  { term: "Prime à la conversion", description: `Ancienne aide versée en contrepartie de la mise au rebut d'un vieux véhicule. Elle a été supprimée pour l'achat d'une voiture le ${PRIME_CONVERSION.supprimeeLe} (${PRIME_CONVERSION.decret}).` },
   { term: "Borne de recharge", description: "Point de charge pour véhicules électriques, installé sur la voie publique, dans un parking ou à domicile (wallbox). Les bornes se distinguent par leur puissance : lente (3-7 kW), accélérée (11-22 kW) ou rapide (50-350 kW)." },
   { term: "Autonomie", description: "Distance maximale qu'un véhicule électrique peut parcourir avec une charge complète de batterie. L'autonomie varie selon les conditions de conduite, la température et le style de conduite." },
   { term: "kWh (kilowattheure)", description: "Unité de mesure de l'énergie stockée dans une batterie. Plus la capacité en kWh est élevée, plus l'autonomie potentielle est grande. Également utilisé pour mesurer la consommation (kWh/100 km)." },
@@ -27,7 +29,7 @@ const glossaire = [
   { term: "Crit'Air", description: "Système de vignettes classant les véhicules selon leur niveau d'émissions polluantes. Les véhicules électriques reçoivent la vignette Crit'Air 0 (la meilleure), garantissant un accès illimité aux zones à faibles émissions." },
   { term: "ZFE (Zone à Faibles Émissions)", description: "Périmètre urbain dans lequel la circulation est restreinte aux véhicules les moins polluants. En 2026, 43 agglomérations françaises de plus de 150 000 habitants appliquent des restrictions basées sur les vignettes Crit'Air." },
   { term: "Malus écologique", description: "Taxe appliquée à l'achat d'un véhicule neuf émettant du CO2, proportionnelle au niveau d'émissions. Les véhicules 100 % électriques en sont totalement exonérés." },
-  { term: "Wallbox", description: "Borne de recharge murale installée à domicile ou en entreprise, délivrant une puissance de 7 à 22 kW. Plus rapide et plus sécurisée qu'une prise domestique standard, elle bénéficie d'un crédit d'impôt de 300 euros." },
+  { term: "Wallbox", description: `Borne de recharge murale installée à domicile ou en entreprise, délivrant une puissance de 7 à 22 kW. Plus rapide et plus sécurisée qu'une prise domestique standard. Le crédit d'impôt pour son installation (${Math.round(CREDIT_IMPOT_BORNE.taux * 100)} %, ${eur(CREDIT_IMPOT_BORNE.plafond)} au plus) ne vaut que pour les dépenses payées jusqu'au ${CREDIT_IMPOT_BORNE.finDepenses}.` },
   { term: "Charge rapide (DC)", description: "Recharge en courant continu à haute puissance (50 à 350 kW) permettant de récupérer 80 % de la batterie en 20 à 40 minutes. Principalement disponible sur les aires d'autoroute et les stations dédiées." },
   { term: "Charge AC (courant alternatif)", description: "Recharge en courant alternatif, la forme standard de recharge à domicile ou sur bornes publiques de faible puissance (3 à 22 kW). Le convertisseur embarqué dans le véhicule transforme le courant alternatif en courant continu." },
   { term: "Connecteur Type 2", description: "Standard européen de connecteur pour la recharge en courant alternatif. Équipe la quasi-totalité des bornes et véhicules électriques vendus en Europe." },
@@ -40,8 +42,8 @@ const glossaire = [
   { term: "Batterie NMC (Nickel Manganèse Cobalt)", description: "Technologie de batterie offrant une densité énergétique élevée, privilégiée pour les véhicules nécessitant une grande autonomie. Plus sensible aux charges répétées à 100 % que les batteries LFP." },
   { term: "V2H (Vehicle-to-Home)", description: "Technologie permettant d'utiliser la batterie d'un véhicule électrique pour alimenter un domicile en électricité. Utile en cas de coupure de courant ou pour optimiser l'autoconsommation solaire." },
   { term: "V2G (Vehicle-to-Grid)", description: "Technologie permettant de réinjecter l'électricité stockée dans la batterie du véhicule vers le réseau électrique. Permet de participer à l'équilibrage du réseau et potentiellement de générer des revenus." },
-  { term: "Leasing social", description: "Dispositif gouvernemental permettant aux ménages modestes de louer une voiture électrique neuve à partir de 100 euros par mois. Réservé aux foyers dont le revenu fiscal de référence par part est inférieur à 15 400 euros." },
-  { term: "Score environnemental", description: "Indice attribué par l'ADEME évaluant l'empreinte carbone globale d'un véhicule, incluant la fabrication et le transport. Conditionne l'éligibilité au bonus écologique depuis 2024." },
+  { term: "Leasing social", description: `Location sociale d'une voiture électrique neuve, rouverte le ${LEASING_SOCIAL.ouverture} : loyer de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, hors assurance et options, pour au moins ${LEASING_SOCIAL.dureeMinAns} ans. Réservée aux ménages dont le revenu fiscal de référence par part ne dépasse pas ${eur(LEASING_SOCIAL.rfrParPartMax)} et qui roulent pour leur travail (plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km de trajet ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an).` },
+  { term: "Score environnemental", description: "Indice attribué par l'ADEME évaluant l'empreinte carbone globale d'un véhicule, incluant la fabrication et le transport. Conditionne l'éligibilité à la prime coup de pouce CEE et au leasing social." },
   { term: "Droit à la prise", description: "Disposition légale permettant à tout copropriétaire ou locataire de faire installer une borne de recharge sur sa place de parking en copropriété, même sans l'accord de l'assemblée générale." },
   { term: "Puissance de charge (kW)", description: "Débit d'énergie lors de la recharge, exprimé en kilowatts. Plus la puissance est élevée, plus la recharge est rapide. Dépend à la fois de la borne et de la capacité d'acceptation du véhicule." },
   { term: "Autonomie réelle", description: "Distance effectivement parcourue dans des conditions réelles de conduite, par opposition à l'autonomie WLTP mesurée en laboratoire. Généralement inférieure de 10 à 25 % à l'autonomie WLTP, selon la température, la vitesse et le dénivelé." },
@@ -90,7 +92,7 @@ export default function GlossairePage() {
         <div className="prose" style={{ maxWidth: 780, marginBottom: 40 }}>
           <p>
             Le vocabulaire de la voiture électrique mélange trois registres qui ne se recouvrent
-            pas : la physique de la batterie (kWh, kW, C-rate), le commerce (WLTP, bonus, score
+            pas : la physique de la batterie (kWh, kW, C-rate), le commerce (WLTP, prime CEE, score
             environnemental, LOA) et l&apos;infrastructure de recharge (AC, DC, CCS, badge,
             itinérance). Confondre le kilowatt et le kilowattheure, c&apos;est confondre un débit
             et une quantité : une batterie de 50 kWh rechargée à 150 kW ne met pas trois fois moins
@@ -113,12 +115,12 @@ export default function GlossairePage() {
           </p>
           <h2>Ce que le vocabulaire commercial ne dit pas</h2>
           <p>
-            Le bonus écologique dépend depuis 2024 d&apos;un score environnemental qui tient compte
+            La prime coup de pouce CEE, comme le leasing social, dépend d&apos;un score environnemental qui tient compte
             du lieu d&apos;assemblage et de l&apos;empreinte de la production de la batterie : un
             modèle assemblé hors d&apos;Europe peut en être exclu quel que soit son prix. La LOA
             n&apos;est pas un crédit : on loue, et la valeur de rachat en fin de contrat est fixée
             à l&apos;avance, ce qui transfère le risque de revente au loueur. Le leasing social,
-            lui, est une LOA subventionnée soumise à un plafond de revenu fiscal de référence. Ces
+            lui, est une location subventionnée soumise à un plafond de revenu fiscal de référence. Ces
             distinctions changent le coût total de possession de plusieurs milliers d&apos;euros,
             et ce sont elles qui rendent deux annonces apparemment identiques incomparables.
           </p>

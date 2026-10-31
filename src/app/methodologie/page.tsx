@@ -41,7 +41,7 @@ export default function MethodologiePage() {
 
           <h2>Aides à l&apos;achat</h2>
           <p>
-            Les montants et conditions du bonus écologique, de la prime à la conversion et des aides
+            Les conditions de la prime coup de pouce CEE, du leasing social et des aides
             locales suivent les textes officiels publiés sur{" "}
             <a href="https://www.service-public.fr" rel="noopener">Service-Public.fr</a>. Leur
             attribution dépend de l&apos;administration : nos simulateurs donnent une estimation.

@@ -1,3 +1,5 @@
+import { COUP_DE_POUCE, LEASING_SOCIAL, PRIME_CONVERSION, eur } from "./aides-2026";
+
 export interface Comparatif {
   slug: string;
   modele1Slug: string;
@@ -27,7 +29,7 @@ La Citroën ë-C3 adopte une approche radicalement différente. Son design est r
 
 ## Prix : l'ë-C3 en embuscade
 
-C'est le nerf de la guerre. La Citroën ë-C3 démarre à 23 300 €, soit 1 700 € de moins que la Renault 5 E-Tech (25 000 €). Les deux modèles sont éligibles au bonus écologique de 4 000 €, ce qui ramène les prix effectifs à 19 300 € pour l'ë-C3 et 21 000 € pour la R5.
+C'est le nerf de la guerre. La Citroën ë-C3 démarre à 23 300 €, soit 1 700 € de moins que la Renault 5 E-Tech (25 000 €). Les deux modèles sont éligibles à la prime coup de pouce CEE, ce qui ramène les prix effectifs à 19 300 € pour l'ë-C3 et 21 000 € pour la R5.
 
 Cependant, la comparaison à prix égal (même niveau d'équipement) nuance l'écart. La R5 en finition « évolution » est mieux équipée que l'ë-C3 d'entrée de gamme : écran central plus grand, instrumentation numérique complète, et davantage d'aides à la conduite de série.
 
@@ -71,7 +73,7 @@ La Renault 5 E-Tech privilégie le dynamisme. Son centre de gravité bas (batter
 
 ## Fabrication et aides : deux modèles éligibles
 
-La Renault 5 E-Tech est fabriquée à Douai (Hauts-de-France), au sein du pôle ElectriCity. La Citroën ë-C3 est produite à Trnava (Slovaquie). Les deux bénéficient d'un score environnemental suffisant pour le bonus écologique de 4 000 € et sont éligibles au leasing social à 100 €/mois (sous conditions de revenus).
+La Renault 5 E-Tech est fabriquée à Douai (Hauts-de-France), au sein du pôle ElectriCity. La Citroën ë-C3 est produite à Trnava (Slovaquie). Les deux obtiennent un score environnemental suffisant pour la prime coup de pouce CEE, qui a remplacé le bonus écologique, et respectent les plafonds du leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, sous conditions de revenus).
 
 La fabrication française de la R5 peut constituer un argument pour les acheteurs sensibles à l'origine de production, mais les deux véhicules sont sur un pied d'égalité en matière d'aides financières.
 
@@ -79,7 +81,7 @@ La fabrication française de la R5 peut constituer un argument pour les acheteur
 
 **Choisissez la Renault 5 E-Tech si** vous privilégiez l'autonomie, la technologie embarquée, le plaisir de conduite et un design iconique. C'est le meilleur choix pour ceux qui roulent régulièrement au-delà du strict périmètre urbain et qui veulent une expérience connectée complète.
 
-**Choisissez la Citroën ë-C3 si** votre priorité est le budget. À 23 300 € (19 300 € après bonus), c'est tout simplement la citadine électrique la moins chère produite en Europe. Son confort de suspension Citroën est un vrai atout, et son autonomie de 260 km réels suffit largement pour un usage quotidien urbain et périurbain.
+**Choisissez la Citroën ë-C3 si** votre priorité est le budget. À 23 300 € au prix catalogue, avant la prime coup de pouce CEE, c'est tout simplement la citadine électrique la moins chère produite en Europe. Son confort de suspension Citroën est un vrai atout, et son autonomie de 260 km réels suffit largement pour un usage quotidien urbain et périurbain.
 
 Au final, les deux modèles illustrent parfaitement la démocratisation de la voiture électrique en France. Qu'on choisisse la R5 ou l'ë-C3, on roule en électrique pour moins de 25 000 € (avant aides), avec des performances et un confort parfaitement adaptés à l'usage quotidien de la majorité des automobilistes français.`,
   },
@@ -98,9 +100,9 @@ La Peugeot e-208, quant à elle, adopte un design plus conventionnel mais non mo
 
 ## Prix et positionnement
 
-Le positionnement tarifaire constitue l'un des critères les plus déterminants dans le choix entre ces deux citadines électriques françaises. La Renault 5 E-Tech démarre à environ 25 000 euros dans sa version d'entrée de gamme équipée de la batterie de 40 kWh, ce qui en fait une proposition particulièrement agressive sur le marché. Grâce au bonus écologique et à d'éventuelles primes régionales, le ticket d'entrée peut descendre sous la barre des 20 000 euros pour certains ménages éligibles. La finition intermédiaire Techno, recommandée pour son rapport équipement-prix, se situe autour de 28 000 euros avec la batterie de 52 kWh.
+Le positionnement tarifaire constitue l'un des critères les plus déterminants dans le choix entre ces deux citadines électriques françaises. La Renault 5 E-Tech démarre à environ 25 000 euros dans sa version d'entrée de gamme équipée de la batterie de 40 kWh, ce qui en fait une proposition particulièrement agressive sur le marché. La prime coup de pouce CEE, dont le montant dépend de l'offre retenue et des revenus du ménage, vient en déduction pour les acheteurs éligibles. La finition intermédiaire Techno, recommandée pour son rapport équipement-prix, se situe autour de 28 000 euros avec la batterie de 52 kWh.
 
-La Peugeot e-208 affiche un tarif de départ légèrement supérieur, aux alentours de 27 500 euros en finition Active, avant déduction du bonus. Pour accéder à une dotation comparable à la R5 Techno, il faut opter pour la finition Allure ou GT, ce qui pousse le budget entre 30 000 et 35 000 euros. Malgré cet écart, la e-208 justifie en partie cette différence par un coffre plus généreux, une plateforme éprouvée et un réseau après-vente Peugeot extrêmement dense. Le coût total de possession sur cinq ans, incluant l'assurance, l'entretien et la consommation électrique, reste néanmoins assez comparable entre les deux modèles.
+La Peugeot e-208 affiche un tarif de départ légèrement supérieur, aux alentours de 27 500 euros en finition Active, au prix catalogue. Pour accéder à une dotation comparable à la R5 Techno, il faut opter pour la finition Allure ou GT, ce qui pousse le budget entre 30 000 et 35 000 euros. Malgré cet écart, la e-208 justifie en partie cette différence par un coffre plus généreux, une plateforme éprouvée et un réseau après-vente Peugeot extrêmement dense. Le coût total de possession sur cinq ans, incluant l'assurance, l'entretien et la consommation électrique, reste néanmoins assez comparable entre les deux modèles.
 
 ## Autonomie et batterie
 
@@ -134,9 +136,9 @@ La Peugeot e-208 embarque un moteur de 156 chevaux (115 kW) avec un couple de 26
 
 ## Fabrication et aides
 
-La Renault 5 E-Tech est assemblée dans l'usine Renault de Douai, dans les Hauts-de-France, au sein du pôle ElectriCity. Cette fabrication française est un argument de poids pour les acheteurs soucieux de soutenir l'industrie locale, et elle garantit l'éligibilité au bonus écologique maximal sans restriction liée au score environnemental. En 2026, le bonus écologique peut atteindre 4 000 euros pour les ménages les plus modestes, avec des compléments possibles via le leasing social à 100 euros par mois pour les foyers éligibles. Les coûts d'entretien sont réduits grâce à la simplicité mécanique du groupe motopropulseur électrique.
+La Renault 5 E-Tech est assemblée dans l'usine Renault de Douai, dans les Hauts-de-France, au sein du pôle ElectriCity. Cette fabrication française est un argument de poids pour les acheteurs soucieux de soutenir l'industrie locale, et elle lui assure le score environnemental exigé pour la prime coup de pouce CEE. Depuis le ${COUP_DE_POUCE.depuis}, le bonus écologique est remplacé par la prime coup de pouce CEE, dont le montant varie selon l'offre et les revenus, et les foyers modestes qui roulent pour leur travail peuvent recourir au leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus). Les coûts d'entretien sont réduits grâce à la simplicité mécanique du groupe motopropulseur électrique.
 
-La Peugeot e-208 est produite dans l'usine Stellantis de Kenitra, au Maroc, puis certaines versions sont assemblées à Saragosse en Espagne. Cette localisation hors Union européenne a pu poser des questions d'éligibilité au bonus écologique par le passé, mais Peugeot a ajusté sa chaîne d'approvisionnement pour maintenir un score environnemental compatible avec les aides françaises. Le bonus écologique reste donc accessible, même si les conditions évoluent régulièrement. Les deux constructeurs proposent une garantie batterie de 8 ans ou 160 000 kilomètres, ce qui rassure quant à la pérennité de l'investissement.
+La Peugeot e-208 est produite dans l'usine Stellantis de Kenitra, au Maroc, puis certaines versions sont assemblées à Saragosse en Espagne. Cette localisation hors Union européenne a pu poser des questions d'éligibilité à la prime coup de pouce CEE par le passé, mais Peugeot a ajusté sa chaîne d'approvisionnement pour maintenir un score environnemental compatible avec les aides françaises. La prime coup de pouce CEE reste donc accessible, même si les conditions évoluent régulièrement. Les deux constructeurs proposent une garantie batterie de 8 ans ou 160 000 kilomètres, ce qui rassure quant à la pérennité de l'investissement.
 
 ## Verdict : pour qui ?
 
@@ -161,7 +163,7 @@ La MG4, en revanche, adopte un gabarit nettement plus imposant avec ses 4,29 mè
 
 L'un des atouts majeurs de la MG4 réside dans son positionnement tarifaire agressif. Proposée à partir d'environ 22 000 euros dans sa version Standard de 51 kWh, elle offre un rapport prestations-prix difficilement égalable sur le marché européen. La version Comfort avec batterie de 64 kWh se négocie autour de 27 000 euros, tandis que la version Luxury avec 77 kWh dépasse les 32 000 euros. Ces tarifs incluent déjà un niveau d'équipement généreux, avec climatisation automatique, écran tactile et aide à la conduite de série.
 
-La Renault 5 E-Tech affiche un prix de départ d'environ 25 000 euros en version 40 kWh, et grimpe à environ 28 000 euros pour la version 52 kWh en finition Techno. À première vue, la MG4 apparaît donc moins chère à prestations équivalentes, surtout si l'on compare la MG4 64 kWh à la R5 52 kWh. Toutefois, l'éligibilité au bonus écologique peut rebattre les cartes : la fabrication française de la R5 garantit le bonus maximal, tandis que la MG4, assemblée en Chine, peut voir son bonus réduit voire supprimé selon les évolutions réglementaires. Le calcul final dépend donc fortement des aides applicables au moment de l'achat.
+La Renault 5 E-Tech affiche un prix de départ d'environ 25 000 euros en version 40 kWh, et grimpe à environ 28 000 euros pour la version 52 kWh en finition Techno. À première vue, la MG4 apparaît donc moins chère à prestations équivalentes, surtout si l'on compare la MG4 64 kWh à la R5 52 kWh. Toutefois, l'éligibilité à la prime coup de pouce CEE peut rebattre les cartes : la R5, fabriquée en France, y ouvre droit, tandis que la MG4, assemblée en Chine, en est exclue faute de score environnemental suffisant. Le calcul final dépend donc fortement des aides applicables au moment de l'achat.
 
 ## Autonomie et batterie
 
@@ -195,9 +197,9 @@ La MG4 affiche un caractère plus routier. Son moteur de 170 chevaux dans la ver
 
 ## Fabrication et aides
 
-La question de la fabrication est centrale dans le duel entre ces deux modèles. La Renault 5 E-Tech sort de l'usine de Douai dans les Hauts-de-France, un argument patriotique fort qui garantit en outre l'éligibilité pleine et entière au bonus écologique français. Ce bonus, pouvant atteindre 4 000 euros selon les revenus du foyer, réduit significativement l'écart de prix avec la MG4. Le programme de leasing social à 100 euros par mois, réservé aux ménages modestes, a d'ailleurs propulse la R5 en tête des demandes.
+La question de la fabrication est centrale dans le duel entre ces deux modèles. La Renault 5 E-Tech sort de l'usine de Douai dans les Hauts-de-France, un argument patriotique fort qui permet de prétendre à la prime coup de pouce CEE. Son montant, qui dépend de l'offre retenue et des revenus du foyer, réduit l'écart de prix avec la MG4. Les foyers modestes qui roulent pour leur travail peuvent aussi la louer via le leasing social 2026, à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus.
 
-La MG4 est fabriquée en Chine, dans l'usine SAIC de Shanghai. Cette origine chinoise a des implications directes sur les aides à l'achat : en fonction du score environnemental calculé par le gouvernement français, la MG4 peut se voir privée du bonus écologique ou n'y être éligible que partiellement. Les droits de douane européens supplémentaires imposés sur les véhicules électriques chinois depuis 2024 peuvent également renchérir le prix final. MG tente de contourner ces obstacles en envisageant une production européenne future, mais en 2026, l'avantage réglementaire reste clairement du côté de la Renault 5.
+La MG4 est fabriquée en Chine, dans l'usine SAIC de Shanghai. Cette origine chinoise a des implications directes sur les aides à l'achat : en fonction du score environnemental calculé par le gouvernement français, la MG4 peut se voir privée de la prime coup de pouce CEE ou n'y être éligible que partiellement. Les droits de douane européens supplémentaires imposés sur les véhicules électriques chinois depuis 2024 peuvent également renchérir le prix final. MG tente de contourner ces obstacles en envisageant une production européenne future, mais en 2026, l'avantage réglementaire reste clairement du côté de la Renault 5.
 
 ## Verdict : pour qui ?
 
@@ -222,7 +224,7 @@ La BYD Dolphin Surf, anciennement connue sous le nom de BYD Dolphin, a été reb
 
 La bataille tarifaire entre ces deux modèles est particulièrement intéressante. La BYD Dolphin Surf attaque le marché français à partir d'environ 24 000 euros en version Active de 44,9 kWh, un prix extrêmement compétitif pour un véhicule de cette taille et de cette dotation. La version Comfort de 60,4 kWh se négocie autour de 28 000 euros, offrant un rapport contenu-prix remarquable. BYD compense ses marges réduites par des volumes de production colossaux en Chine.
 
-La Renault 5 E-Tech démarre à environ 25 000 euros pour la version 40 kWh et atteint 28 000 euros pour la version 52 kWh en finition Techno. Les tarifs sont donc très proches entre les deux modèles à capacité de batterie comparable. Mais la véritable différence se fait sur le terrain des aides : la R5, assemblée en France, bénéficie sans ambiguïté du bonus écologique maximal, tandis que la Dolphin Surf, produite en Chine, voit son éligibilité au bonus fluctuer au gré des décisions gouvernementales. En 2026, la surtaxe européenne sur les véhicules électriques chinois et l'éventuelle exclusion du bonus peuvent ajouter plusieurs milliers d'euros au prix réel de la BYD. Ce contexte réglementaire mouvant rend la comparaison tarifaire délicate et susceptible d'évoluer rapidement.
+La Renault 5 E-Tech démarre à environ 25 000 euros pour la version 40 kWh et atteint 28 000 euros pour la version 52 kWh en finition Techno. Les tarifs sont donc très proches entre les deux modèles à capacité de batterie comparable. Mais la véritable différence se fait sur le terrain des aides : la R5, assemblée en France, ouvre droit à la prime coup de pouce CEE, tandis que la Dolphin Surf, produite en Chine, en est exclue faute de score environnemental suffisant. En 2026, la surtaxe européenne sur les véhicules électriques chinois et l'absence de prime CEE pèsent sur le prix réel de la BYD. Ce contexte réglementaire mouvant rend la comparaison tarifaire délicate et susceptible d'évoluer rapidement.
 
 ## Autonomie et batterie
 
@@ -256,9 +258,9 @@ La BYD Dolphin Surf propose un moteur de 150 chevaux (170 sur la version Comfort
 
 ## Fabrication et aides
 
-La fabrication constitue un enjeu stratégique majeur dans ce comparatif franco-chinois. La Renault 5 E-Tech est fièrement assemblée à Douai, garantissant un bilan carbone de fabrication maîtrisé et une éligibilité totale aux aides publiques françaises. Le bonus écologique, le leasing social et les éventuelles primes de conversion sont accessibles sans restriction, ce qui peut représenter une économie de plusieurs milliers d'euros à l'achat.
+La fabrication constitue un enjeu stratégique majeur dans ce comparatif franco-chinois. La Renault 5 E-Tech est fièrement assemblée à Douai, garantissant un bilan carbone de fabrication maîtrisé et une éligibilité totale aux aides publiques françaises. La prime coup de pouce CEE et, sous conditions de revenus, le leasing social lui sont accessibles (la prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}).
 
-La BYD Dolphin Surf est produite en Chine, ce qui l'expose aux aléas réglementaires européens et français. Les droits de douane supplémentaires imposés par l'Union européenne sur les véhicules électriques chinois depuis 2024 alourdissent le coût d'importation, un surcoût partiellement répercuté sur le prix de vente. L'éligibilité au bonus écologique français dépend du score environnemental, qui pénalise les véhicules fabriqués dans des pays dont le mix énergétique repose fortement sur le charbon. BYD a annoncé l'ouverture d'usines en Europe, mais leur mise en production effective reste incertaine à court terme. La garantie du véhicule est de 6 ans chez BYD contre 5 ans chez Renault, un léger avantage pour la marque chinoise.
+La BYD Dolphin Surf est produite en Chine, ce qui l'expose aux aléas réglementaires européens et français. Les droits de douane supplémentaires imposés par l'Union européenne sur les véhicules électriques chinois depuis 2024 alourdissent le coût d'importation, un surcoût partiellement répercuté sur le prix de vente. L'éligibilité à la prime coup de pouce CEE dépend du score environnemental, qui pénalise les véhicules fabriqués dans des pays dont le mix énergétique repose fortement sur le charbon. BYD a annoncé l'ouverture d'usines en Europe, mais leur mise en production effective reste incertaine à court terme. La garantie du véhicule est de 6 ans chez BYD contre 5 ans chez Renault, un léger avantage pour la marque chinoise.
 
 ## Verdict : pour qui ?
 
@@ -281,9 +283,9 @@ La Dacia Spring, de son côté, reste fidèle à la philosophie low-cost du grou
 
 ## Prix et positionnement
 
-Le prix est le terrain de jeu favori de ces deux modèles qui visent les budgets serrés. La Dacia Spring détient le record du véhicule électrique le moins cher du marché français, avec un tarif d'appel autour de 18 900 euros avant bonus. Après déduction du bonus écologique et des éventuelles primes, le prix peut descendre sous les 15 000 euros, un seuil psychologique important pour démocratiser l'accès à la mobilité électrique. La finition Extreme Plus, mieux équipée, se négocie autour de 20 800 euros, restant très abordable.
+Le prix est le terrain de jeu favori de ces deux modèles qui visent les budgets serrés. La Dacia Spring détient le record du véhicule électrique le moins cher du marché français, avec un tarif d'appel autour de 18 900 euros. La Spring, produite en Chine, n'ouvre pas droit à la prime coup de pouce CEE : son prix catalogue est son seul argument. La finition Extreme Plus, mieux équipée, se négocie autour de 20 800 euros, restant très abordable.
 
-La Citroën ë-C3 est positionnée un cran au-dessus, avec un tarif de lancement d'environ 23 300 euros dans sa version de base, descendant à environ 19 300 euros après bonus écologique. La version intermédiaire Max se situe autour de 25 800 euros. L'écart de prix entre les deux modèles, une fois les aides déduites, est d'environ 4 000 à 5 000 euros en faveur de la Spring. Toutefois, cet écart se justifie par des prestations significativement supérieures sur la ë-C3 en matière de dimensions, d'équipements et de performances. Pour un foyer cherchant strictement le véhicule électrique le moins cher, la Spring reste incontournable. Pour un investissement à peine supérieur avec des prestations en net progrès, la ë-C3 constitue un saut qualitatif important.
+La Citroën ë-C3 est positionnée un cran au-dessus, avec un tarif de lancement d'environ 23 300 euros dans sa version de base, avant la prime coup de pouce CEE à laquelle elle ouvre droit. La version intermédiaire Max se situe autour de 25 800 euros. L'écart de prix catalogue entre les deux modèles est d'environ 4 400 euros en faveur de la Spring ; la prime CEE de la ë-C3 le réduit d'autant. Toutefois, cet écart se justifie par des prestations significativement supérieures sur la ë-C3 en matière de dimensions, d'équipements et de performances. Pour un foyer cherchant strictement le véhicule électrique le moins cher, la Spring reste incontournable. Pour un investissement à peine supérieur avec des prestations en net progrès, la ë-C3 constitue un saut qualitatif important.
 
 ## Autonomie et batterie
 
@@ -317,9 +319,9 @@ La Dacia Spring est équipée d'un modeste moteur de 65 chevaux et 113 Nm de cou
 
 ## Fabrication et aides
 
-La Citroën ë-C3 est assemblée dans l'usine Stellantis de Trnava, en Slovaquie, en utilisant la plateforme Smart Car développée en collaboration avec la coentreprise sino-européenne Leapmotor International. Cette fabrication européenne garantit l'éligibilité au bonus écologique français, avec un score environnemental conforme aux exigences gouvernementales. Les aides peuvent atteindre 4 000 euros pour les foyers modestes, ramenant le prix effectif autour de 19 300 euros.
+La Citroën ë-C3 est assemblée dans l'usine Stellantis de Trnava, en Slovaquie, en utilisant la plateforme Smart Car développée en collaboration avec la coentreprise sino-européenne Leapmotor International. Cette fabrication européenne permet de prétendre à la prime coup de pouce CEE, avec un score environnemental conforme aux exigences gouvernementales. Le montant de la prime dépend de l'offre retenue et des revenus du foyer : le prix catalogue de 23 300 euros en est diminué d'autant.
 
-La Dacia Spring est fabriquée en Chine, dans l'usine Dongfeng de Shiyan. Cette origine chinoise a posé des problèmes d'éligibilité au bonus écologique en 2024, et la situation reste incertaine pour 2026. Même sans bonus, la Spring reste le véhicule électrique le plus abordable du marché, mais l'écart de prix avec la ë-C3 se réduit considérablement lorsque cette dernière bénéficie des aides publiques. La garantie est de 3 ans chez Dacia contre 2 ans chez Citroën pour le véhicule, mais la batterie est garantie 8 ans ou 120 000 kilomètres chez les deux constructeurs, conformément à la réglementation européenne.
+La Dacia Spring est fabriquée en Chine, dans l'usine Dongfeng de Shiyan. Cette origine chinoise a posé des problèmes d'éligibilité à la prime coup de pouce CEE en 2024, et la situation reste incertaine pour 2026. Sans prime, la Spring reste le véhicule électrique le plus abordable du marché, mais l'écart de prix avec la ë-C3 se réduit lorsque cette dernière bénéficie de la prime coup de pouce CEE. La garantie est de 3 ans chez Dacia contre 2 ans chez Citroën pour le véhicule, mais la batterie est garantie 8 ans ou 120 000 kilomètres chez les deux constructeurs, conformément à la réglementation européenne.
 
 ## Verdict : pour qui ?
 
@@ -342,9 +344,9 @@ La Leapmotor T03 est une petite citadine chinoise commercialisée en Europe par 
 
 ## Prix et positionnement
 
-Le positionnement tarifaire de la Leapmotor T03 est son principal argument de vente. Commercialisée à partir d'environ 18 900 euros avant bonus en France, elle se place en concurrence directe avec la Dacia Spring comme l'une des voitures électriques les moins chères du marché européen. Le réseau de distribution passe par les concessions Citroën et DS, grâce au partenariat Stellantis-Leapmotor, ce qui offre un maillage de points de vente et de service après-vente rassurant pour un nouvel entrant chinois.
+Le positionnement tarifaire de la Leapmotor T03 est son principal argument de vente. Commercialisée à partir d'environ 18 900 euros en France, elle se place en concurrence directe avec la Dacia Spring comme l'une des voitures électriques les moins chères du marché européen. Le réseau de distribution passe par les concessions Citroën et DS, grâce au partenariat Stellantis-Leapmotor, ce qui offre un maillage de points de vente et de service après-vente rassurant pour un nouvel entrant chinois.
 
-La Citroën ë-C3 affiche un tarif de départ d'environ 23 300 euros, soit environ 4 400 euros de plus que la T03. Cet écart de prix est significatif pour la clientèle ciblée par ces véhicules, mais il se justifie par des prestations supérieures en matière de dimensions, d'autonomie et de performances. Avec le bonus écologique, la ë-C3 descend autour de 19 300 euros, réduisant l'écart avec la T03 à environ 400 euros si cette dernière ne bénéficie pas du même niveau d'aides. Le rapport qualité-prix se joue donc sur le terrain des subventions gouvernementales et de la valeur résiduelle à la revente, un domaine où la marque Citroën dispose d'un avantage de notoriété indiscutable en France.
+La Citroën ë-C3 affiche un tarif de départ d'environ 23 300 euros, soit environ 4 400 euros de plus que la T03. Cet écart de prix est significatif pour la clientèle ciblée par ces véhicules, mais il se justifie par des prestations supérieures en matière de dimensions, d'autonomie et de performances. La prime coup de pouce CEE, à laquelle la ë-C3 ouvre droit, réduit encore cet écart selon le montant de l'offre obtenue. Le rapport qualité-prix se joue donc sur le terrain des subventions gouvernementales et de la valeur résiduelle à la revente, un domaine où la marque Citroën dispose d'un avantage de notoriété indiscutable en France.
 
 ## Autonomie et batterie
 
@@ -378,9 +380,9 @@ La Leapmotor T03 dispose d'un moteur de 95 chevaux et 158 Nm de couple, des vale
 
 ## Fabrication et aides
 
-La Citroën ë-C3 est fabriquée à Trnava en Slovaquie, au cœur de l'Union européenne, ce qui lui assure une éligibilité sans ambiguïté au bonus écologique français. Le score environnemental du véhicule, prenant en compte l'empreinte carbone de fabrication et le mix énergétique slovaque, est compatible avec les critères gouvernementaux. Les acheteurs éligibles peuvent bénéficier d'un bonus allant jusqu'à 4 000 euros, rendant la ë-C3 particulièrement attractive après déduction des aides.
+La Citroën ë-C3 est fabriquée à Trnava en Slovaquie, au cœur de l'Union européenne, ce qui lui permet d'ouvrir droit à la prime coup de pouce CEE. Le score environnemental du véhicule, prenant en compte l'empreinte carbone de fabrication et le mix énergétique slovaque, est compatible avec les critères gouvernementaux. Son montant dépend de l'entreprise qui la verse et des revenus du ménage, avec une bonification plus forte pour une voiture produite en Europe.
 
-La Leapmotor T03 est assemblée en Pologne dans l'usine Stellantis de Tychy, où elle côtoie la Fiat 500e sur les lignes de production. Cette fabrication européenne, rendue possible par le partenariat Stellantis-Leapmotor, est un atout stratégique car elle devrait garantir l'éligibilité au bonus écologique français, contrairement aux véhicules importés directement de Chine. Le service après-vente est assuré par le réseau Citroën-DS, ce qui rassure les acheteurs potentiels sur la disponibilité des pièces détachées et la compétence des techniciens. La garantie constructeur est de 3 ans pour le véhicule et 8 ans pour la batterie sur les deux modèles.
+La Leapmotor T03 est assemblée en Pologne dans l'usine Stellantis de Tychy, où elle côtoie la Fiat 500e sur les lignes de production. Cette fabrication européenne, rendue possible par le partenariat Stellantis-Leapmotor, est un atout stratégique car elle devrait prétendre à la prime coup de pouce CEE, contrairement aux véhicules importés directement de Chine. Le service après-vente est assuré par le réseau Citroën-DS, ce qui rassure les acheteurs potentiels sur la disponibilité des pièces détachées et la compétence des techniciens. La garantie constructeur est de 3 ans pour le véhicule et 8 ans pour la batterie sur les deux modèles.
 
 ## Verdict : pour qui ?
 
@@ -405,7 +407,7 @@ La Fiat 500e, plus compacte encore avec ses 3,63 mètres de longueur, est un bij
 
 Le positionnement tarifaire de la Fiat 500e a considérablement évolué depuis son lancement. Initialement perçue comme chère pour une micro-citadine, Fiat a procédé à plusieurs ajustements de prix. En 2026, la 500e Action en version 24 kWh débute à environ 23 500 euros, tandis que la version Passion en 42 kWh se négocie autour de 27 000 euros. La version cabrio ajoute un supplément de 3 000 à 4 000 euros. Ces tarifs restent supérieurs à ceux de la R5 rapportés au gabarit du véhicule, mais la 500e se positionne davantage comme un produit premium dans le segment des citadines.
 
-La Renault 5 E-Tech, avec son prix de départ d'environ 25 000 euros en version 40 kWh, offre un rapport taille-prix plus favorable. Pour environ 28 000 euros en finition Techno avec batterie de 52 kWh, elle propose un véhicule plus spacieux, plus autonome et mieux équipé que la 500e à tarif équivalent. L'écart se réduit après prise en compte des aides, les deux modèles étant assemblés en Europe et éligibles au bonus écologique. La R5 profite néanmoins de sa fabrication française pour maximiser les aides, tandis que la 500e, produite à Mirafiori en Italie, bénéficie également du bonus sans restriction liée au score environnemental.
+La Renault 5 E-Tech, avec son prix de départ d'environ 25 000 euros en version 40 kWh, offre un rapport taille-prix plus favorable. Pour environ 28 000 euros en finition Techno avec batterie de 52 kWh, elle propose un véhicule plus spacieux, plus autonome et mieux équipé que la 500e à tarif équivalent. L'écart se réduit après prise en compte des aides, les deux modèles étant assemblés en Europe et éligibles à la prime coup de pouce CEE. La R5 profite néanmoins de sa fabrication française, tandis que la 500e, produite à Mirafiori en Italie, ouvre elle aussi droit à la prime coup de pouce CEE.
 
 ## Autonomie et batterie
 
@@ -439,9 +441,9 @@ La Renault 5 E-Tech, plus puissante avec ses 150 chevaux et 245 Nm, offre des pe
 
 ## Fabrication et aides
 
-Les deux modèles bénéficient d'une fabrication européenne qui les protège des restrictions liées aux importations chinoises. La Renault 5 E-Tech est assemblée à Douai, en France, un atout patriotique et réglementaire qui maximise l'éligibilité aux aides publiques françaises. Le bonus écologique, le leasing social et les primes de conversion sont accessibles sans restriction. La chaîne d'approvisionnement locale contribue en outre à un bilan carbone de fabrication maîtrisé.
+Les deux modèles bénéficient d'une fabrication européenne qui les protège des restrictions liées aux importations chinoises. La Renault 5 E-Tech est assemblée à Douai, en France, un atout patriotique et réglementaire qui maximise l'éligibilité aux aides publiques françaises. La prime coup de pouce CEE et, sous conditions, le leasing social lui sont accessibles. La chaîne d'approvisionnement locale contribue en outre à un bilan carbone de fabrication maîtrisé.
 
-La Fiat 500e sort de l'usine historique de Mirafiori à Turin, en Italie. Cette fabrication européenne garantit l'éligibilité au bonus écologique français, et le score environnemental du véhicule est conforme aux exigences gouvernementales. Fiat a traversé une période difficile avec des arrêts de production à Mirafiori liés à la demande fluctuante, mais la cadence de production s'est stabilisée en 2026. Le réseau après-vente Fiat en France est dense et bien implanté, avec plus de 400 points de service, un maillage comparable à celui de Renault. La garantie constructeur est de 2 ans chez Fiat contre 5 ans chez Renault, un avantage notable en faveur de la marque française.
+La Fiat 500e sort de l'usine historique de Mirafiori à Turin, en Italie. Cette fabrication européenne permet de prétendre à la prime coup de pouce CEE, et le score environnemental du véhicule est conforme aux exigences gouvernementales. Fiat a traversé une période difficile avec des arrêts de production à Mirafiori liés à la demande fluctuante, mais la cadence de production s'est stabilisée en 2026. Le réseau après-vente Fiat en France est dense et bien implanté, avec plus de 400 points de service, un maillage comparable à celui de Renault. La garantie constructeur est de 2 ans chez Fiat contre 5 ans chez Renault, un avantage notable en faveur de la marque française.
 
 ## Verdict : pour qui ?
 
@@ -466,7 +468,7 @@ La Peugeot e-208 arbore un design félin caractéristique de la marque au lion, 
 
 L'Opel Corsa Electric joue traditionnellement la carte du rapport qualité-prix face à sa cousine Peugeot. Son tarif d'entrée se situe environ 1 000 à 2 000 euros en dessous de la e-208 à finition comparable, une stratégie commerciale visant à compenser la moindre aura de la marque Opel en France par rapport à Peugeot. En 2026, la Corsa Electric débute autour de 26 000 euros en finition Edition, tandis que la e-208 démarre à 27 500 euros en finition Active.
 
-Cet écart tarifaire se resserre lorsqu'on monte en gamme, les versions haut de gamme GS Line de la Corsa et GT de la e-208 affichant des prix très proches autour de 33 000 à 35 000 euros. Les promotions et offres commerciales, souvent plus généreuses chez Opel en raison de volumes de vente inférieurs en France, peuvent également modifier l'équation. Les deux véhicules bénéficient du bonus écologique dans les mêmes conditions puisqu'ils sont tous deux produits au sein de Stellantis dans des usines européennes. Le coût total de possession est quasi identique, les frais d'entretien, de consommation électrique et d'assurance étant similaires pour des véhicules techniquement jumeaux.
+Cet écart tarifaire se resserre lorsqu'on monte en gamme, les versions haut de gamme GS Line de la Corsa et GT de la e-208 affichant des prix très proches autour de 33 000 à 35 000 euros. Les promotions et offres commerciales, souvent plus généreuses chez Opel en raison de volumes de vente inférieurs en France, peuvent également modifier l'équation. Les deux véhicules ouvrent droit à la prime coup de pouce CEE dans les mêmes conditions puisqu'ils sont tous deux produits au sein de Stellantis dans des usines européennes. Le coût total de possession est quasi identique, les frais d'entretien, de consommation électrique et d'assurance étant similaires pour des véhicules techniquement jumeaux.
 
 ## Autonomie et batterie
 
@@ -500,7 +502,7 @@ L'Opel Corsa Electric privilégie un tarage de suspension légèrement plus soup
 
 ## Fabrication et aides
 
-La Peugeot e-208 est produite dans l'usine Stellantis de Kenitra au Maroc et à Saragosse en Espagne. L'Opel Corsa Electric sort de l'usine de Saragosse en Espagne, où les deux modèles cohabitent sur les mêmes lignes d'assemblage. Cette fabrication européenne garantit l'éligibilité au bonus écologique pour les deux véhicules, sans distinction. Les conditions de financement, de garantie et de service après-vente sont encadrées par les standards de Stellantis, offrant une cohérence entre les deux marques.
+La Peugeot e-208 est produite dans l'usine Stellantis de Kenitra au Maroc et à Saragosse en Espagne. L'Opel Corsa Electric sort de l'usine de Saragosse en Espagne, où les deux modèles cohabitent sur les mêmes lignes d'assemblage. Cette fabrication européenne permet de prétendre à la prime coup de pouce CEE pour les deux véhicules, sans distinction. Les conditions de financement, de garantie et de service après-vente sont encadrées par les standards de Stellantis, offrant une cohérence entre les deux marques.
 
 Le réseau Peugeot est plus dense en France avec environ 2 000 points de vente et de service, contre environ 700 pour Opel. Cette différence peut influencer le choix pour les automobilistes résidant dans des zones rurales ou semi-rurales où la présence d'un concessionnaire Opel n'est pas garantie. La valeur résiduelle à la revente est un autre facteur à considérer : la e-208, modèle de référence en France avec des ventes très supérieures à celles de la Corsa Electric, bénéficie d'une meilleure cote sur le marché de l'occasion, un avantage financier significatif pour ceux qui renouvellent leur véhicule tous les trois à quatre ans.
 
@@ -527,7 +529,7 @@ La Mini Cooper SE, dans sa version restylée de 2024, marque une rupture plus fr
 
 Le positionnement tarifaire constitue l'une des différences les plus marquées entre ces deux citadines de caractère. La Mini Cooper SE débute à environ 32 000 euros en version E avec batterie de 40,7 kWh, un tarif qui grimpe à plus de 36 000 euros en version SE avec batterie de 54,2 kWh. Les finitions Classic, Favoured et JCW ajoutent des équipements et des éléments esthétiques qui peuvent pousser la facture au-delà de 40 000 euros. Mini assume clairement un positionnement premium, légitimé par l'image de marque et la qualité de finition intérieure.
 
-La Renault 5 E-Tech, avec son prix de départ de 25 000 euros en version 40 kWh, est significativement plus accessible. Même la version haut de gamme Iconic en 52 kWh reste en dessous des 33 000 euros. L'écart peut atteindre 7 000 à 10 000 euros à équipement comparable, une somme considérable qui finance plusieurs années de recharge électrique. Les deux véhicules sont éligibles au bonus écologique, mais la R5, fabriquée en France, bénéficie potentiellement de primes complémentaires. La Mini, assemblée en Chine pour le marché européen, voit son éligibilité au bonus soumise à l'évaluation du score environnemental, avec un risque réel d'exclusion selon les politiques en vigueur.
+La Renault 5 E-Tech, avec son prix de départ de 25 000 euros en version 40 kWh, est significativement plus accessible. Même la version haut de gamme Iconic en 52 kWh reste en dessous des 33 000 euros. L'écart peut atteindre 7 000 à 10 000 euros à équipement comparable, une somme considérable qui finance plusieurs années de recharge électrique. Les deux véhicules sont éligibles à la prime coup de pouce CEE, mais la R5, fabriquée en France, bénéficie potentiellement de primes complémentaires. La Mini, assemblée en Chine pour le marché européen, risque de ne pas atteindre le score environnemental exigé pour la prime coup de pouce CEE.
 
 ## Autonomie et batterie
 
@@ -561,9 +563,9 @@ La Renault 5 E-Tech n'est pas en reste avec ses 150 chevaux et un poids inférie
 
 ## Fabrication et aides
 
-La question de la fabrication est un point sensible pour la nouvelle Mini Cooper SE. Contrairement aux générations précédentes produites à Oxford en Angleterre, la version électrique est désormais assemblée en Chine dans l'usine de la coentreprise avec Great Wall Motors. Cette délocalisation expose la Mini aux mêmes risques réglementaires que les constructeurs chinois : droits de douane européens supplémentaires, score environnemental pénalisant et éligibilité au bonus écologique incertaine. BMW, la maison mère de Mini, travaille à rapatrier une partie de la production en Europe, mais ce processus prend du temps.
+La question de la fabrication est un point sensible pour la nouvelle Mini Cooper SE. Contrairement aux générations précédentes produites à Oxford en Angleterre, la version électrique est désormais assemblée en Chine dans l'usine de la coentreprise avec Great Wall Motors. Cette délocalisation expose la Mini aux mêmes risques réglementaires que les constructeurs chinois : droits de douane européens supplémentaires, score environnemental pénalisant et éligibilité à la prime coup de pouce CEE incertaine. BMW, la maison mère de Mini, travaille à rapatrier une partie de la production en Europe, mais ce processus prend du temps.
 
-La Renault 5 E-Tech, assemblée à Douai en France, bénéficie d'un avantage réglementaire décisif. L'éligibilité pleine au bonus écologique, l'accès au leasing social et la valorisation du Made in France sont des atouts concrets qui peuvent représenter une économie de 5 000 à 7 000 euros par rapport à la Mini, en cumulant les différentes aides. La garantie est de 5 ans chez Renault contre 3 ans chez Mini, un avantage supplémentaire en faveur de la française. Le coût d'entretien est également inférieur chez Renault, le réseau Mini-BMW pratiquant des tarifs horaires plus élevés.
+La Renault 5 E-Tech, assemblée à Douai en France, bénéficie d'un avantage réglementaire décisif. L'éligibilité à la prime coup de pouce CEE, l'accès possible au leasing social et la valorisation du Made in France sont des atouts concrets face à la Mini. La garantie est de 5 ans chez Renault contre 3 ans chez Mini, un avantage supplémentaire en faveur de la française. Le coût d'entretien est également inférieur chez Renault, le réseau Mini-BMW pratiquant des tarifs horaires plus élevés.
 
 ## Verdict : pour qui ?
 
@@ -588,7 +590,7 @@ La Hyundai Inster, dérivée de la Casper vendue en Corée du Sud, est une micro
 
 La Hyundai Inster a été lancée sur le marché européen avec un positionnement tarifaire très agressif, visant directement les Dacia Spring et Citroën ë-C3. Son prix d'attaque se situe autour de 21 500 euros en version standard avec batterie de 42 kWh, un tarif remarquablement bas pour un constructeur coréen. La version Long Range avec batterie de 49 kWh se négocie autour de 24 500 euros, toujours en dessous de la ë-C3. Des finitions Cross avec éléments esthétiques baroudeurs sont proposées pour environ 2 000 euros de supplément.
 
-La Citroën ë-C3 affiche un tarif de départ d'environ 23 300 euros avec sa batterie de 44 kWh, ce qui la place environ 1 800 euros au-dessus de l'Inster standard. L'écart se réduit en considérant que la ë-C3 propose une batterie légèrement plus grosse et un gabarit supérieur. Les deux véhicules sont éligibles au bonus écologique, l'Inster étant fabriquée en Corée du Sud, un pays dont le mix énergétique est mieux évalué que celui de la Chine dans le calcul du score environnemental. Après bonus, les deux modèles peuvent descendre sous les 20 000 euros, un seuil psychologique clé pour les primo-accédants à la mobilité électrique.
+La Citroën ë-C3 affiche un tarif de départ d'environ 23 300 euros avec sa batterie de 44 kWh, ce qui la place environ 1 800 euros au-dessus de l'Inster standard. L'écart se réduit en considérant que la ë-C3 propose une batterie légèrement plus grosse et un gabarit supérieur. Les deux véhicules sont éligibles à la prime coup de pouce CEE, l'Inster étant fabriquée en Corée du Sud, un pays dont le mix énergétique est mieux évalué que celui de la Chine dans le calcul du score environnemental. Diminués de la prime coup de pouce CEE, les deux modèles se rapprochent du seuil psychologique des 20 000 euros pour les primo-accédants à la mobilité électrique.
 
 ## Autonomie et batterie
 
@@ -622,7 +624,7 @@ La Hyundai Inster propose un moteur de 97 chevaux en version standard et 115 che
 
 ## Fabrication et aides
 
-La Citroën ë-C3 est fabriquée à Trnava en Slovaquie, dans l'Union européenne. La Hyundai Inster est produite en Corée du Sud, à l'usine Hyundai de Gwangju. La fabrication européenne de la ë-C3 lui garantit un score environnemental plus favorable dans le calcul du bonus écologique français, mais la Corée du Sud, en tant que pays industrialisé avec un mix énergétique diversifié, permet à l'Inster de conserver son éligibilité au bonus, contrairement aux véhicules fabriqués en Chine.
+La Citroën ë-C3 est fabriquée à Trnava en Slovaquie, dans l'Union européenne. La Hyundai Inster est produite en Corée du Sud, à l'usine Hyundai de Gwangju. La fabrication européenne de la ë-C3 lui garantit un score environnemental favorable ; l'Inster, produite en Corée du Sud, doit figurer sur la liste officielle pour ouvrir droit à la prime coup de pouce CEE.
 
 Le réseau après-vente est un facteur différenciant : Citroën dispose d'un maillage très dense en France avec plus de 1 500 points de service, tandis que Hyundai, bien qu'en croissance, reste en deçà avec environ 400 points. La garantie Hyundai de 5 ans kilométrage illimité est cependant un argument de poids, parmi les meilleures du marché, et rassure les acheteurs potentiels sur la fiabilité du produit. La batterie est garantie 8 ans chez les deux constructeurs. Le coût d'entretien est comparable et globalement faible pour les deux véhicules, l'électrique étant par nature peu gourmand en maintenance.
 
@@ -647,9 +649,9 @@ La Dacia Spring, avec ses 3,73 mètres de long, affiche des dimensions quasi ide
 
 ## Prix et positionnement
 
-Le prix sera l'arme décisive de la Renault Twingo E-Tech. Annoncée autour de 20 000 euros en France, elle vise à proposer une voiture électrique complète et moderne à un tarif accessible au plus grand nombre, tout en étant assemblée en Europe. Après déduction du bonus écologique, le prix devrait passer sous les 17 000 euros pour les acheteurs éligibles, un positionnement qui menace directement la Dacia Spring sur son propre terrain.
+Le prix sera l'arme décisive de la Renault Twingo E-Tech. Annoncée autour de 20 000 euros en France, elle vise à proposer une voiture électrique complète et moderne à un tarif accessible au plus grand nombre, tout en étant assemblée en Europe. La prime coup de pouce CEE devrait ensuite venir en déduction pour les acheteurs éligibles, un positionnement qui menace directement la Dacia Spring sur son propre terrain.
 
-La Dacia Spring, actuellement proposée à partir de 18 900 euros avant bonus, reste le véhicule électrique le moins cher du marché. Cependant, l'arrivée de la Twingo E-Tech risque de comprimer ses marges et de forcer Dacia à des ajustements tarifaires. La différence de prix sera minime entre les deux modèles une fois les aides appliquées, rendant le rapport qualité-prix de la Twingo potentiellement dévastateur pour la Spring. Les deux véhicules ciblent la même clientèle de primo-accédants à l'électrique, de seconds véhicules urbains et de conducteurs à budget contraint. La bataille sera féroce et les promotions généreuses chez les deux constructeurs.
+La Dacia Spring, actuellement proposée à partir de 18 900 euros, reste le véhicule électrique le moins cher du marché. Cependant, l'arrivée de la Twingo E-Tech risque de comprimer ses marges et de forcer Dacia à des ajustements tarifaires. La différence de prix sera minime entre les deux modèles une fois les aides appliquées, rendant le rapport qualité-prix de la Twingo potentiellement dévastateur pour la Spring. Les deux véhicules ciblent la même clientèle de primo-accédants à l'électrique, de seconds véhicules urbains et de conducteurs à budget contraint. La bataille sera féroce et les promotions généreuses chez les deux constructeurs.
 
 ## Autonomie et batterie
 
@@ -683,9 +685,9 @@ La Renault Twingo E-Tech devrait embarquer un moteur d'environ 100 chevaux, soit
 
 ## Fabrication et aides
 
-La Renault Twingo E-Tech sera assemblée en Europe, probablement dans une usine du groupe Renault en Slovénie ou dans les Hauts-de-France. Cette fabrication européenne est un pilier de la stratégie de Renault pour garantir l'éligibilité aux aides publiques et se différencier des importations chinoises à bas coût. Le bonus écologique sera pleinement accessible, et le leasing social pourrait inclure la Twingo dans son périmètre, rendant l'électrique accessible à partir de mensualités très basses.
+La Renault Twingo E-Tech sera assemblée en Europe, probablement dans une usine du groupe Renault en Slovénie ou dans les Hauts-de-France. Cette fabrication européenne est un pilier de la stratégie de Renault pour garantir l'éligibilité aux aides publiques et se différencier des importations chinoises à bas coût. La prime coup de pouce CEE devrait lui être accessible, et le leasing social pourrait inclure la Twingo dans son périmètre (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus).
 
-La Dacia Spring, fabriquée en Chine par Dongfeng, est confrontée à un risque persistant de perte du bonus écologique en raison de son score environnemental défavorable. Si le bonus lui est retiré, l'écart de prix avec la Twingo E-Tech se réduira drastiquement, voire s'inversera en faveur de la Renault. Dacia explore des solutions pour maintenir la compétitivité de la Spring, mais l'absence de production européenne reste un handicap structurel. La garantie est de 3 ans chez Dacia contre 5 ans attendus chez Renault pour la Twingo, un argument supplémentaire en faveur de la marque au losange.
+La Dacia Spring, fabriquée en Chine par Dongfeng, n'ouvre pas droit à la prime coup de pouce CEE en raison de son score environnemental défavorable. Face à une Twingo E-Tech éligible à la prime, l'écart de prix se réduira donc, voire s'inversera en faveur de la Renault. Dacia explore des solutions pour maintenir la compétitivité de la Spring, mais l'absence de production européenne reste un handicap structurel. La garantie est de 3 ans chez Dacia contre 5 ans attendus chez Renault pour la Twingo, un argument supplémentaire en faveur de la marque au losange.
 
 ## Verdict : pour qui ?
 
@@ -710,7 +712,7 @@ La Leapmotor T03 adopte une approche plus générique dans son design. Ses ligne
 
 La Leapmotor T03 attaque le marché français avec un tarif agressif d'environ 18 900 euros, s'appuyant sur des coûts de production maîtrisés et la distribution via le réseau Stellantis. Ce prix la positionne comme une alternative directe à la Dacia Spring, avec des prestations supérieures. La finition haute, mieux équipée avec toit panoramique et sièges chauffants, reste sous la barre des 22 000 euros.
 
-La Renault Twingo E-Tech vise un prix d'environ 20 000 euros, soit environ 1 100 euros de plus que la T03 en entrée de gamme. Cet écart modéré pourrait être compensé, voire inversé, par les aides gouvernementales si la fabrication européenne de la Twingo lui garantit un bonus plus généreux que celui accordé à la T03, même si cette dernière est assemblée en Pologne chez Stellantis. Le rapport qualité-prix des deux modèles est exceptionnel pour le marché de l'électrique en 2026, et le choix se jouera davantage sur les prestations dynamiques et technologiques que sur le prix brut.
+La Renault Twingo E-Tech vise un prix d'environ 20 000 euros, soit environ 1 100 euros de plus que la T03 en entrée de gamme. Cet écart modéré pourrait être compensé, voire inversé, par la prime coup de pouce CEE si la Twingo y ouvre droit et pas la T03. Le rapport qualité-prix des deux modèles est exceptionnel pour le marché de l'électrique en 2026, et le choix se jouera davantage sur les prestations dynamiques et technologiques que sur le prix brut.
 
 ## Autonomie et batterie
 
@@ -744,9 +746,9 @@ La Leapmotor T03 propose un moteur de 95 chevaux avec 158 Nm de couple, des vale
 
 ## Fabrication et aides
 
-La Renault Twingo E-Tech sera fabriquée en Europe, probablement en Slovénie, garantissant une éligibilité pleine aux aides gouvernementales françaises. Le bonus écologique, combiné au leasing social potentiel, pourrait ramener le coût mensuel de la Twingo à des niveaux extrêmement bas, rendant la mobilité électrique accessible aux foyers les plus modestes. La marque Renault, leader historique du marché français, inspire en outre une confiance durable en matière de revente et de service après-vente.
+La Renault Twingo E-Tech sera fabriquée en Europe, probablement en Slovénie, ce qui devrait lui assurer le score environnemental exigé pour la prime coup de pouce CEE. La prime coup de pouce CEE, ou le leasing social pour les foyers éligibles (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus), pourrait ramener le coût de la Twingo à des niveaux très bas. La marque Renault, leader historique du marché français, inspire en outre une confiance durable en matière de revente et de service après-vente.
 
-La Leapmotor T03, assemblée en Pologne dans l'usine Stellantis de Tychy, bénéficie également d'une fabrication européenne qui devrait garantir son éligibilité au bonus écologique. Le réseau de distribution et de service après-vente Citroën-DS assure un maillage raisonnable sur le territoire français. La garantie constructeur Leapmotor est de 3 ans, contre 5 ans attendus chez Renault, un écart en faveur de la marque française. La valeur résiduelle à la revente sera un facteur déterminant à moyen terme : la notoriété de Renault et la cote de la Twingo sur le marché de l'occasion devraient largement surpasser celles de la méconnue Leapmotor T03.
+La Leapmotor T03, assemblée en Pologne dans l'usine Stellantis de Tychy, bénéficie également d'une fabrication européenne qui devrait garantir son éligibilité à la prime coup de pouce CEE. Le réseau de distribution et de service après-vente Citroën-DS assure un maillage raisonnable sur le territoire français. La garantie constructeur Leapmotor est de 3 ans, contre 5 ans attendus chez Renault, un écart en faveur de la marque française. La valeur résiduelle à la revente sera un facteur déterminant à moyen terme : la notoriété de Renault et la cote de la Twingo sur le marché de l'occasion devraient largement surpasser celles de la méconnue Leapmotor T03.
 
 ## Verdict : pour qui ?
 
@@ -805,9 +807,9 @@ La Fiat 500e, avec ses 118 chevaux et 220 Nm de couple, ne peut rivaliser en per
 
 ## Fabrication et aides
 
-La Fiat 500e est produite à l'usine historique de Mirafiori à Turin, en Italie. Cette fabrication européenne garantit l'éligibilité au bonus écologique français et un bilan carbone de production maîtrisé. Fiat a investi massivement dans la modernisation de Mirafiori pour la production de la 500e, témoignant de l'engagement du constructeur envers la mobilité électrique. La garantie constructeur est de 2 ans, extensible par des packs de maintenance.
+La Fiat 500e est produite à l'usine historique de Mirafiori à Turin, en Italie. Cette fabrication européenne permet de prétendre à la prime coup de pouce CEE et un bilan carbone de production maîtrisé. Fiat a investi massivement dans la modernisation de Mirafiori pour la production de la 500e, témoignant de l'engagement du constructeur envers la mobilité électrique. La garantie constructeur est de 2 ans, extensible par des packs de maintenance.
 
-La Mini Cooper SE est fabriquée en Chine par la coentreprise avec Great Wall Motors, un choix industriel qui l'expose aux mêmes risques réglementaires que les constructeurs chinois en matière de bonus écologique et de droits de douane européens. BMW explore le rapatriement de la production en Europe, mais en 2026, les exemplaires vendus en France sont d'origine chinoise. Cette situation peut peser sur l'éligibilité au bonus et ajouter plusieurs milliers d'euros au coût d'acquisition par rapport à la 500e. Le réseau Mini-BMW en France compte environ 150 points de vente et de service, contre plus de 400 pour Fiat.
+La Mini Cooper SE est fabriquée en Chine par la coentreprise avec Great Wall Motors, un choix industriel qui l'expose aux mêmes risques que les constructeurs chinois en matière de score environnemental et de droits de douane européens. BMW explore le rapatriement de la production en Europe, mais en 2026, les exemplaires vendus en France sont d'origine chinoise. Cette situation peut peser sur l'éligibilité à la prime coup de pouce CEE et ajouter plusieurs milliers d'euros au coût d'acquisition par rapport à la 500e. Le réseau Mini-BMW en France compte environ 150 points de vente et de service, contre plus de 400 pour Fiat.
 
 ## Verdict : pour qui ?
 
@@ -866,7 +868,7 @@ La Renault 5 E-Tech, avec ses 150 chevaux, ne joue pas dans la même cour en ter
 
 ## Fabrication et aides
 
-La Renault 5 E-Tech est fabriquée à Douai en France, un argument de poids pour les aides à l'achat. Le bonus écologique maximal est garanti, et l'accès au leasing social est possible. La Cupra Born est produite à l'usine Volkswagen de Zwickau en Allemagne, une fabrication européenne qui garantit également l'éligibilité au bonus écologique français. Les deux modèles bénéficient donc des mêmes conditions en matière d'aides gouvernementales.
+La Renault 5 E-Tech est fabriquée à Douai en France, un argument de poids pour les aides à l'achat. La prime coup de pouce CEE lui est accessible, et le leasing social est possible. La Cupra Born est produite à l'usine Volkswagen de Zwickau en Allemagne, une fabrication européenne qui permet de prétendre à la prime coup de pouce CEE. Les deux modèles bénéficient donc des mêmes conditions en matière d'aides gouvernementales.
 
 La différence se joue sur d'autres facteurs : le réseau Renault en France est beaucoup plus dense que celui de Cupra, qui s'appuie sur les concessions SEAT avec des espaces dédiés. La garantie Renault de 5 ans surpasse celle de Cupra limitée à 2 ans (extensible via des packs payants). La valeur résiduelle de la Born est toutefois bien orientée, soutenue par l'image sportive de Cupra et la rareté relative du modèle sur le marché de l'occasion. Les coûts d'entretien sont globalement similaires, la mécanique électrique étant par nature peu gourmande en maintenance.
 
@@ -893,7 +895,7 @@ La Fiat Grande Panda, hommage assumé à la Panda historique qui a marqué l'his
 
 La bataille tarifaire entre ces deux cousines est serrée et stratégique. La Citroën ë-C3 est commercialisée à partir d'environ 23 300 euros, avec une version Max à environ 25 800 euros. La Fiat Grande Panda électrique vise un prix d'entrée similaire, autour de 24 000 euros, avec des versions mieux équipées aux alentours de 26 000 euros. Les deux modèles profitent des économies d'échelle permises par la plateforme partagée, ce qui leur permet de proposer des tarifs compétitifs pour des véhicules électriques modernes.
 
-Après déduction du bonus écologique, les deux modèles peuvent descendre sous les 20 000 euros, les plaçant en concurrence directe avec la Dacia Spring mais avec des prestations nettement supérieures. Le rapport qualité-prix est donc excellent pour les deux véhicules, et le choix se fera davantage sur des critères de style, de réseau après-vente et de fidélité à la marque que sur des considérations tarifaires. Les deux constructeurs proposent par ailleurs des offres de financement attractives, avec des mensualités de location longue durée autour de 200 euros par mois après apport.
+Diminués de la prime coup de pouce CEE, les deux modèles se rapprochent des 20 000 euros, ce qui les place en concurrence directe avec la Dacia Spring mais avec des prestations nettement supérieures. Le rapport qualité-prix est donc excellent pour les deux véhicules, et le choix se fera davantage sur des critères de style, de réseau après-vente et de fidélité à la marque que sur des considérations tarifaires. Les deux constructeurs proposent par ailleurs des offres de financement attractives, avec des mensualités de location longue durée autour de 200 euros par mois après apport.
 
 ## Autonomie et batterie
 
@@ -927,7 +929,7 @@ La Citroën ë-C3 privilégie le confort avec des amortisseurs progressifs et un
 
 ## Fabrication et aides
 
-La Citroën ë-C3 est fabriquée à l'usine Stellantis de Trnava en Slovaquie. La Fiat Grande Panda est produite à l'usine Stellantis de Kragujevac en Serbie. Les deux sites de production sont situés en Europe, ce qui garantit un score environnemental favorable et une éligibilité au bonus écologique français pour les deux modèles. La Serbie, bien que non membre de l'Union européenne, bénéficie d'accords commerciaux qui n'impactent pas les droits de douane applicables aux véhicules Stellantis.
+La Citroën ë-C3 est fabriquée à l'usine Stellantis de Trnava en Slovaquie. La Fiat Grande Panda est produite à l'usine Stellantis de Kragujevac en Serbie. Les deux sites de production sont situés en Europe, ce qui garantit un score environnemental favorable et une éligibilité à la prime coup de pouce CEE pour les deux modèles. La Serbie, bien que non membre de l'Union européenne, bénéficie d'accords commerciaux qui n'impactent pas les droits de douane applicables aux véhicules Stellantis.
 
 Le réseau après-vente Citroën en France est nettement plus dense que celui de Fiat, avec plus de 1 500 points de service contre environ 400 pour Fiat. Cette différence est significative pour les automobilistes résidant dans des zones rurales ou éloignées des grandes agglomérations. La garantie constructeur est de 2 ans chez les deux marques, conformément à la norme Stellantis, avec la garantie batterie de 8 ans commune à toutes les voitures électriques du groupe. Le coût d'entretien est identique, les deux véhicules utilisant les mêmes composants de la chaîne de traction électrique.
 
@@ -988,7 +990,7 @@ La Renault Mégane E-Tech embarque un moteur de 220 chevaux et 300 Nm en version
 
 ## Fabrication et aides
 
-La Peugeot e-208 est produite entre l'usine de Kenitra au Maroc et Saragosse en Espagne. La Renault Mégane E-Tech est assemblée à Douai en France, au sein du pôle ElectriCity. La fabrication française de la Mégane lui confère un avantage réglementaire en matière de score environnemental et d'aides à l'achat. Le bonus écologique est garanti pour les deux modèles, mais les conditions d'éligibilité sont plus sûres pour la Mégane grâce à son ancrage français.
+La Peugeot e-208 est produite entre l'usine de Kenitra au Maroc et Saragosse en Espagne. La Renault Mégane E-Tech est assemblée à Douai en France, au sein du pôle ElectriCity. La fabrication française de la Mégane lui confère un avantage réglementaire en matière de score environnemental et d'aides à l'achat. Les deux modèles ouvrent droit à la prime coup de pouce CEE, la Mégane profitant de son ancrage français.
 
 Le réseau Peugeot en France est le plus dense du pays avec environ 2 000 points de vente et service, un maillage qui surpasse même celui de Renault en nombre de sites. La proximité d'un concessionnaire Peugeot est donc quasi garantie sur l'ensemble du territoire. La garantie est de 2 ans chez Peugeot contre 5 ans chez Renault, un avantage significatif en faveur de la Mégane qui rassure les acheteurs sur la durabilité de leur investissement.
 
@@ -1015,7 +1017,7 @@ La BYD Dolphin Surf, de dimensions très proches avec ses 4,29 mètres, emprunte
 
 Le positionnement tarifaire est l'arme principale de ces deux véhicules chinois. La MG4 est proposée à partir d'environ 22 000 euros en version Standard 51 kWh, un tarif qui a établi un nouveau standard de prix dans le segment des compactes électriques. La version Comfort 64 kWh se situe autour de 27 000 euros et la Luxury 77 kWh aux alentours de 32 000 euros. Ces prix incluent un équipement de série généreux qui rendrait jaloux bon nombre de constructeurs européens.
 
-La BYD Dolphin Surf affiche des tarifs très proches, avec un prix de départ d'environ 24 000 euros en version Active 44,9 kWh et environ 28 000 euros en version Comfort 60,4 kWh. À capacité de batterie comparable, la MG4 est généralement un peu moins chère que la Dolphin Surf, mais l'écart est modeste. Les deux véhicules sont fabriqués en Chine, ce qui les expose aux mêmes risques en matière de bonus écologique et de droits de douane européens. Les promotions commerciales sont fréquentes chez les deux constructeurs, avec des remises pouvant atteindre 3 000 à 5 000 euros en fin de trimestre pour stimuler les ventes.
+La BYD Dolphin Surf affiche des tarifs très proches, avec un prix de départ d'environ 24 000 euros en version Active 44,9 kWh et environ 28 000 euros en version Comfort 60,4 kWh. À capacité de batterie comparable, la MG4 est généralement un peu moins chère que la Dolphin Surf, mais l'écart est modeste. Les deux véhicules sont fabriqués en Chine, ce qui les exclut de la prime coup de pouce CEE et les expose aux droits de douane européens. Les promotions commerciales sont fréquentes chez les deux constructeurs, avec des remises pouvant atteindre 3 000 à 5 000 euros en fin de trimestre pour stimuler les ventes.
 
 ## Autonomie et batterie
 
@@ -1051,7 +1053,7 @@ La BYD Dolphin Surf privilégie le confort à la sportivité. Son moteur de 150 
 
 Les deux véhicules sont fabriqués en Chine, ce qui les place dans la même situation réglementaire vis-à-vis des aides européennes et françaises. La MG4 sort de l'usine SAIC de Shanghai, tandis que la Dolphin Surf est produite dans les usines BYD de Shenzhen ou Changsha. Les droits de douane européens supplémentaires sur les véhicules électriques chinois s'appliquent aux deux modèles, bien que les taux puissent varier selon les constructeurs et les négociations en cours entre l'UE et la Chine.
 
-L'éligibilité au bonus écologique français est soumise au score environnemental, qui pénalise les véhicules produits dans des pays au mix énergétique carboné. En 2026, les deux modèles sont dans une zone d'incertitude, avec un risque de réduction ou de suppression du bonus qui pèse sur leur compétitivité face aux alternatives européennes. MG dispose d'un réseau de distribution plus établi en France que BYD, avec environ 120 points de vente contre 80 pour BYD. Les deux marques investissent massivement dans l'extension de leur réseau et la formation de leurs techniciens pour rassurer les acheteurs européens.
+L'éligibilité à la prime coup de pouce CEE est soumise au score environnemental, qui pénalise les véhicules produits dans des pays au mix énergétique carboné. En 2026, les deux modèles n'ouvrent pas droit à la prime coup de pouce CEE, ce qui pèse sur leur compétitivité face aux alternatives européennes. MG dispose d'un réseau de distribution plus établi en France que BYD, avec environ 120 points de vente contre 80 pour BYD. Les deux marques investissent massivement dans l'extension de leur réseau et la formation de leurs techniciens pour rassurer les acheteurs européens.
 
 ## Verdict : pour qui ?
 
@@ -1110,15 +1112,15 @@ L'ID.3, avec son moteur de 204 chevaux en version Pro S, offre des performances 
 
 ## Fabrication et aides
 
-La Volkswagen ID.3 est produite à l'usine de Zwickau en Allemagne et à Wolfsburg. Cette fabrication allemande est un gage de qualité d'assemblage et garantit sans ambiguïté l'éligibilité au bonus écologique français. La réputation de Volkswagen, le réseau après-vente de plus de 600 points en France et la garantie de 2 ans (extensible) sont des arguments de poids pour les acheteurs recherchant la sécurité d'une marque établie.
+La Volkswagen ID.3 est produite à l'usine de Zwickau en Allemagne et à Wolfsburg. Cette fabrication allemande est un gage de qualité d'assemblage et permet de prétendre à la prime coup de pouce CEE. La réputation de Volkswagen, le réseau après-vente de plus de 600 points en France et la garantie de 2 ans (extensible) sont des arguments de poids pour les acheteurs recherchant la sécurité d'une marque établie.
 
-La MG4, fabriquée en Chine, est exposée aux aléas réglementaires européens et au risque de perte du bonus écologique. Cette incertitude peut significativement modifier l'équation économique : sans bonus, l'écart de prix réel entre la MG4 et l'ID.3 se réduit d'environ 4 000 euros. Le réseau MG en France, en croissance rapide avec environ 120 points de vente, reste moins dense que celui de Volkswagen. La garantie MG de 7 ans est cependant l'une des plus longues du marché, un argument rassurant pour compenser le moindre ancrage de la marque en Europe.
+La MG4, fabriquée en Chine, est exposée aux aléas réglementaires européens et n'ouvre pas droit à la prime coup de pouce CEE. L'écart de prix réel avec l'ID.3, qui y ouvre droit, se réduit donc du montant de la prime obtenue. Le réseau MG en France, en croissance rapide avec environ 120 points de vente, reste moins dense que celui de Volkswagen. La garantie MG de 7 ans est cependant l'une des plus longues du marché, un argument rassurant pour compenser le moindre ancrage de la marque en Europe.
 
 ## Verdict : pour qui ?
 
 La MG4 est le choix rationnel pour les conducteurs qui privilégient le rapport prestations-prix et le plaisir de conduite. À budget donné, elle offre davantage de puissance, d'autonomie et d'équipement que l'ID.3. Sa garantie de 7 ans rassure sur la durabilité, et ses performances dynamiques sont parmi les meilleures du segment. Elle conviendra aux acheteurs pragmatiques qui ne sont pas attachés au prestige de la marque et qui souhaitent maximiser ce qu'ils obtiennent pour leur argent.
 
-La Volkswagen ID.3 se justifie pour les acheteurs sensibles à l'image de marque, à la qualité d'assemblage allemande et à la pérennité du réseau après-vente. Sa fabrication européenne sécurise l'accès au bonus écologique et rassure quant à la valeur résiduelle du véhicule. Son confort de croisière et sa puissance de recharge rapide de 170 kW sont des atouts pour les grands rouleurs. C'est un choix plus cher mais plus sécurisant à long terme, qui séduira les conducteurs pour qui la confiance dans la marque compte autant que les spécifications techniques.`,
+La Volkswagen ID.3 se justifie pour les acheteurs sensibles à l'image de marque, à la qualité d'assemblage allemande et à la pérennité du réseau après-vente. Sa fabrication européenne sécurise l'accès à la prime coup de pouce CEE et rassure quant à la valeur résiduelle du véhicule. Son confort de croisière et sa puissance de recharge rapide de 170 kW sont des atouts pour les grands rouleurs. C'est un choix plus cher mais plus sécurisant à long terme, qui séduira les conducteurs pour qui la confiance dans la marque compte autant que les spécifications techniques.`,
   },
   {
     slug: "volkswagen-id3-vs-cupra-born",
@@ -1171,7 +1173,7 @@ La Born e-Boost en version 231 chevaux offre des accélérations franches et lin
 
 ## Fabrication et aides
 
-L'ID.3 est assemblée à Zwickau et Wolfsburg en Allemagne, la Born à Zwickau dans la même usine que l'ID.3. Les deux véhicules sortent donc littéralement des mêmes lignes de production, avec les mêmes standards de qualité et les mêmes processus d'assemblage. La fabrication européenne garantit l'éligibilité au bonus écologique français pour les deux modèles, sans distinction.
+L'ID.3 est assemblée à Zwickau et Wolfsburg en Allemagne, la Born à Zwickau dans la même usine que l'ID.3. Les deux véhicules sortent donc littéralement des mêmes lignes de production, avec les mêmes standards de qualité et les mêmes processus d'assemblage. La fabrication européenne permet de prétendre à la prime coup de pouce CEE pour les deux modèles, sans distinction.
 
 Le réseau après-vente Volkswagen en France est l'un des plus denses du pays, avec plus de 600 points de service. Cupra s'appuie sur les concessions SEAT avec des espaces dédiés, un maillage moins dense mais en croissance. La garantie est de 2 ans chez Volkswagen comme chez Cupra, avec des extensions payantes disponibles. La valeur résiduelle de la Born est bien orientée, soutenue par des volumes limités qui créent une relative rareté sur le marché de l'occasion. L'ID.3, vendue en plus grands volumes, affiche une décote plus prononcée.
 
@@ -1198,7 +1200,7 @@ La Volkswagen ID.3, à 4,26 mètres, adopte un design spécifique à l'électriq
 
 La Peugeot e-308 se positionne dans la partie haute du segment avec un tarif de départ d'environ 37 000 euros en finition Allure. La version GT, mieux équipée, se négocie autour de 42 000 euros et la GT Pack dépasse les 45 000 euros. Ces tarifs reflètent le positionnement premium de Peugeot et la qualité des matériaux et finitions proposés à bord. La e-308 est commercialisée comme une alternative haut de gamme aux compactes électriques, en concurrence directe avec les berlines allemandes.
 
-La Volkswagen ID.3 Pure 52 kWh démarre à environ 37 000 euros, un tarif identique à celui de la e-308. La version Pro S 77 kWh atteint 44 000 euros. À tarif comparable, les deux modèles offrent des prestations différentes : la e-308 séduit par son design, sa qualité intérieure et son agrément de conduite, tandis que l'ID.3 met en avant son autonomie supérieure et sa plateforme native électrique. Les deux véhicules bénéficient du bonus écologique, étant fabriqués en Europe. Le choix se fera donc davantage sur les qualités intrinsèques de chaque modèle que sur le prix.
+La Volkswagen ID.3 Pure 52 kWh démarre à environ 37 000 euros, un tarif identique à celui de la e-308. La version Pro S 77 kWh atteint 44 000 euros. À tarif comparable, les deux modèles offrent des prestations différentes : la e-308 séduit par son design, sa qualité intérieure et son agrément de conduite, tandis que l'ID.3 met en avant son autonomie supérieure et sa plateforme native électrique. Les deux véhicules ouvrent droit à la prime coup de pouce CEE, étant fabriqués en Europe. Le choix se fera donc davantage sur les qualités intrinsèques de chaque modèle que sur le prix.
 
 ## Autonomie et batterie
 
@@ -1232,7 +1234,7 @@ L'ID.3, avec ses 204 chevaux en version Pro S, dispose d'un avantage en puissanc
 
 ## Fabrication et aides
 
-La Peugeot e-308 est produite à l'usine Stellantis de Mulhouse en France. L'ID.3 est assemblée à Zwickau en Allemagne. Les deux véhicules bénéficient d'une fabrication européenne qui garantit l'éligibilité au bonus écologique français. La e-308, fabriquée en France, pourrait bénéficier d'un score environnemental légèrement plus favorable, mais dans la pratique les deux véhicules accèdent aux mêmes niveaux de bonus.
+La Peugeot e-308 est produite à l'usine Stellantis de Mulhouse en France. L'ID.3 est assemblée à Zwickau en Allemagne. Les deux véhicules bénéficient d'une fabrication européenne qui permet de prétendre à la prime coup de pouce CEE. La e-308, fabriquée en France, pourrait bénéficier d'un score environnemental légèrement plus favorable, mais dans la pratique les deux véhicules ouvrent droit à la prime coup de pouce CEE.
 
 Le réseau Peugeot en France est le plus dense du pays, un avantage considérable pour le service après-vente et les interventions de maintenance. Le réseau Volkswagen, avec plus de 600 points, est également très bien implanté. La garantie de 2 ans chez Peugeot est identique à celle de Volkswagen, un domaine où aucun des deux ne se distingue. La valeur résiduelle des deux modèles est bien orientée, soutenue par des images de marque fortes et une demande croissante sur le marché de l'occasion électrique.
 
@@ -1297,9 +1299,9 @@ Le Volkswagen ID.4 propose une conduite plus conventionnelle et plus confortable
 
 ## Fabrication et aides à l'achat
 
-La question de l'origine de fabrication a pris une importance considérable avec l'évolution des critères du bonus écologique en France. Le Tesla Model Y est assemblé à la Gigafactory de Berlin en Allemagne, ce qui lui permet de bénéficier du bonus écologique européen. En 2026, selon les revenus du foyer et le prix du véhicule, le bonus peut atteindre jusqu'à 4 000 euros pour le Model Y, rendant son prix d'entrée plus compétitif.
+La question de l'origine de fabrication a pris une importance considérable avec le score environnemental, qui conditionne la prime coup de pouce CEE en France. Le Tesla Model Y est assemblé à la Gigafactory de Berlin en Allemagne, ce qui lui permet d'ouvrir droit à la prime coup de pouce CEE. Sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)}, sa version d'entrée ouvre droit à la prime coup de pouce CEE, dont le montant dépend de l'offre retenue et des revenus du foyer.
 
-Le Volkswagen ID.4 est produit à Zwickau et Emden en Allemagne, et bénéficie également du bonus écologique dans les mêmes conditions. Les deux véhicules sont donc logés à la même enseigne en ce qui concerne les aides gouvernementales. Le leasing social, destiné aux ménages les plus modestes, peut s'appliquer à l'ID.4 dans certaines configurations, offrant des loyers particulièrement attractifs. Par ailleurs, la valeur résiduelle des deux modèles est un élément à considérer : le Tesla Model Y tend à mieux conserver sa valeur sur le marché de l'occasion, en partie grâce à la notoriété de la marque et à la demande soutenue.
+Le Volkswagen ID.4 est produit à Zwickau et Emden en Allemagne, et ouvre lui aussi droit à la prime coup de pouce CEE. Les deux véhicules sont donc logés à la même enseigne en ce qui concerne les aides gouvernementales. Le leasing social, lui, ne concerne que des voitures de moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg, ce qui exclut l'ID.4. Par ailleurs, la valeur résiduelle des deux modèles est un élément à considérer : le Tesla Model Y tend à mieux conserver sa valeur sur le marché de l'occasion, en partie grâce à la notoriété de la marque et à la demande soutenue.
 
 ## Verdict
 
@@ -1362,9 +1364,9 @@ L'Ioniq 5 propose une expérience de conduite différente, plus orientée vers l
 
 ## Fabrication et aides à l'achat
 
-Le Hyundai Ioniq 5 est fabriqué en Corée du Sud, à l'usine d'Ulsan, et depuis 2024 également en République tchèque pour les marchés européens. Cette production européenne lui permet de bénéficier du bonus écologique français sous réserve du respect des critères d'éco-score. Il est essentiel de vérifier la version spécifique et son lieu de fabrication lors de la commande pour s'assurer de l'éligibilité au bonus.
+Le Hyundai Ioniq 5 est fabriqué en Corée du Sud, à l'usine d'Ulsan, et depuis 2024 également en République tchèque pour les marchés européens. Cette production européenne lui permet d'ouvrir droit à la prime coup de pouce CEE sous réserve du respect des critères d'éco-score. Il est essentiel de vérifier la version spécifique et son lieu de fabrication lors de la commande pour s'assurer de l'éligibilité à la prime coup de pouce CEE.
 
-Le Tesla Model Y produit à Berlin bénéficie du bonus écologique. Les deux véhicules peuvent également être éligibles à la prime à la conversion sous certaines conditions. La garantie constitue un point de différenciation notable : Hyundai offre une garantie de 5 ans kilométrage illimité sur le véhicule et 8 ans ou 160 000 km sur la batterie, contre 4 ans ou 80 000 km pour le véhicule chez Tesla et 8 ans ou 192 000 km pour la batterie. L'avantage du réseau de concessions Hyundai, plus traditionnel et réparti sur tout le territoire, peut rassurer les acheteurs habitués au modèle classique de distribution automobile.
+Le Tesla Model Y produit à Berlin ouvre droit à la prime coup de pouce CEE. La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}. La garantie constitue un point de différenciation notable : Hyundai offre une garantie de 5 ans kilométrage illimité sur le véhicule et 8 ans ou 160 000 km sur la batterie, contre 4 ans ou 80 000 km pour le véhicule chez Tesla et 8 ans ou 192 000 km pour la batterie. L'avantage du réseau de concessions Hyundai, plus traditionnel et réparti sur tout le territoire, peut rassurer les acheteurs habitués au modèle classique de distribution automobile.
 
 ## Verdict
 
@@ -1425,9 +1427,9 @@ Le Tesla Model Y propose également une conduite plaisante, avec des accélérat
 
 ## Fabrication et aides à l'achat
 
-Le Kia EV6 est produit dans l'usine de Hwaseong en Corée du Sud, mais une partie de la production destinée au marché européen est désormais assurée par l'usine slovaque de Zilina. Pour bénéficier du bonus écologique français, il est impératif de vérifier que le véhicule commandé remplit les critères d'éco-score, ce qui peut varier selon le lieu de fabrication et les options choisies. Le bonus potentiel peut atteindre 4 000 euros sous conditions de revenus.
+Le Kia EV6 est produit dans l'usine de Hwaseong en Corée du Sud, mais une partie de la production destinée au marché européen est désormais assurée par l'usine slovaque de Zilina. Pour ouvrir droit à la prime coup de pouce CEE, il est impératif de vérifier que le véhicule commandé remplit les critères d'éco-score, ce qui peut varier selon le lieu de fabrication et les options choisies. Son montant dépend de l'offre retenue et des revenus du foyer.
 
-Le Tesla Model Y fabriqué à Berlin bénéficie du bonus écologique dans les mêmes conditions. La garantie Kia de 7 ans ou 150 000 km sur le véhicule constitue un argument de poids face aux 4 ans ou 80 000 km de Tesla. Cette garantie particulièrement longue témoigne de la confiance du constructeur coréen dans la fiabilité de ses produits et apporte une tranquillité d'esprit appréciable pour un investissement de cette importance.
+Le Tesla Model Y fabriqué à Berlin ouvre droit à la prime coup de pouce CEE dans les mêmes conditions. La garantie Kia de 7 ans ou 150 000 km sur le véhicule constitue un argument de poids face aux 4 ans ou 80 000 km de Tesla. Cette garantie particulièrement longue témoigne de la confiance du constructeur coréen dans la fiabilité de ses produits et apporte une tranquillité d'esprit appréciable pour un investissement de cette importance.
 
 ## Verdict
 
@@ -1488,9 +1490,9 @@ Le Tesla Model Y est plus dynamique et plus engageant à conduire. La direction 
 
 ## Fabrication et aides à l'achat
 
-Le Skoda Enyaq est fabriqué à l'usine de Mladá Boleslav en République tchèque, au cœur de l'Europe. Sa production européenne lui assure l'éligibilité au bonus écologique français, un avantage important qui peut réduire la facture de plusieurs milliers d'euros. Le réseau de concessions Skoda, bien implanté en France, assure un service après-vente de proximité rassurant. La garantie de 2 ans constructeur, extensible à 5 ans, est complétée par une garantie de 8 ans ou 160 000 km sur la batterie.
+Le Skoda Enyaq est fabriqué à l'usine de Mladá Boleslav en République tchèque, au cœur de l'Europe. Sa production européenne lui assure l'éligibilité à la prime coup de pouce CEE, un avantage important qui peut réduire la facture de plusieurs milliers d'euros. Le réseau de concessions Skoda, bien implanté en France, assure un service après-vente de proximité rassurant. La garantie de 2 ans constructeur, extensible à 5 ans, est complétée par une garantie de 8 ans ou 160 000 km sur la batterie.
 
-Le Tesla Model Y de Berlin est également éligible au bonus. Les deux véhicules se retrouvent donc sur un pied d'égalité en matière d'aides publiques. La valeur résiduelle du Tesla est historiquement meilleure sur le marché de l'occasion, mais le Skoda Enyaq commence à bien se tenir grâce à une demande croissante. Les coûts d'entretien sont modiques pour les deux véhicules, l'électrique nécessitant peu d'interventions mécaniques.
+Le Tesla Model Y de Berlin est également éligible à la prime coup de pouce CEE. Les deux véhicules se retrouvent donc sur un pied d'égalité en matière d'aides publiques. La valeur résiduelle du Tesla est historiquement meilleure sur le marché de l'occasion, mais le Skoda Enyaq commence à bien se tenir grâce à une demande croissante. Les coûts d'entretien sont modiques pour les deux véhicules, l'électrique nécessitant peu d'interventions mécaniques.
 
 ## Verdict
 
@@ -1551,9 +1553,9 @@ Le Tesla Model Y est plus dynamique et offre des accélérations plus percutante
 
 ## Fabrication et aides à l'achat
 
-Le Ford Explorer EV est assemblé au Cologne Electric Vehicle Center en Allemagne, ce qui lui assure l'éligibilité au bonus écologique français. Avec un prix d'entrée inférieur à 47 000 euros pour la version Extended Range, il se situe confortablement sous le plafond requis. Le bonus peut atteindre 4 000 euros, rendant le Ford Explorer particulièrement compétitif en prix final.
+Le Ford Explorer EV est assemblé au Cologne Electric Vehicle Center en Allemagne, ce qui lui assure l'éligibilité à la prime coup de pouce CEE. Avec un prix d'entrée inférieur à ${eur(COUP_DE_POUCE.prixMaxTTC)} pour la version Extended Range, il se situe confortablement sous le plafond requis. La prime coup de pouce CEE, à laquelle il ouvre droit, rend le Ford Explorer particulièrement compétitif en prix final.
 
-Le Tesla Model Y de Berlin est également éligible au bonus écologique. Ford dispose d'un réseau de concessions bien implanté en France, offrant un service après-vente de proximité que Tesla ne peut égaler avec ses seuls centres de service. La garantie Ford est de 2 ans extensible, avec 8 ans ou 160 000 km sur la batterie, comparable aux standards du marché.
+Le Tesla Model Y de Berlin est également éligible à la prime coup de pouce CEE. Ford dispose d'un réseau de concessions bien implanté en France, offrant un service après-vente de proximité que Tesla ne peut égaler avec ses seuls centres de service. La garantie Ford est de 2 ans extensible, avec 8 ans ou 160 000 km sur la batterie, comparable aux standards du marché.
 
 ## Verdict
 
@@ -1578,9 +1580,9 @@ Le Tesla Model Y, plus imposant avec ses 4,75 m, affiche un design qui fait la p
 
 ## Prix et versions disponibles
 
-Le Renault Scénic E-Tech se décline en deux versions de batterie : la Comfort Range avec 60 kWh offrant 420 kilomètres WLTP, proposée à partir d'environ 35 000 euros, et la Long Range avec 87 kWh affichant 625 kilomètres WLTP, positionnée aux alentours de 40 000 euros. La finition Iconic haut de gamme avec grande batterie atteint environ 45 000 euros, restant sous le seuil des 47 000 euros pour bénéficier du bonus écologique maximal.
+Le Renault Scénic E-Tech se décline en deux versions de batterie : la Comfort Range avec 60 kWh offrant 420 kilomètres WLTP, proposée à partir d'environ 35 000 euros, et la Long Range avec 87 kWh affichant 625 kilomètres WLTP, positionnée aux alentours de 40 000 euros. La finition Iconic haut de gamme avec grande batterie atteint environ 45 000 euros, restant sous le seuil des ${eur(COUP_DE_POUCE.prixMaxTTC)} pour ouvrir droit à la prime coup de pouce CEE.
 
-Le Tesla Model Y Propulsion débute à 42 990 euros, soit 3 000 euros de plus que le Scénic Long Range en finition intermédiaire. L'écart se creuse encore si l'on considère les aides : le Scénic, fabriqué en France à Douai, bénéficie du maximum du bonus écologique et de conditions préférentielles dans le cadre du leasing social. Pour les ménages éligibles, le Scénic peut être accessible à des loyers mensuels défiant toute concurrence. Le rapport qualité-prix du Scénic est objectivement très favorable comparé au Model Y.
+Le Tesla Model Y Propulsion débute à 42 990 euros, soit 3 000 euros de plus que le Scénic Long Range en finition intermédiaire. L'écart se creuse encore si l'on considère les aides : le Scénic, fabriqué en France à Douai, ouvre droit à la prime coup de pouce CEE avec la bonification réservée aux voitures produites en Europe. Pour les ménages éligibles, le Scénic peut être accessible à des loyers mensuels défiant toute concurrence. Le rapport qualité-prix du Scénic est objectivement très favorable comparé au Model Y.
 
 ## Autonomie et batterie
 
@@ -1614,13 +1616,13 @@ Le Tesla Model Y est plus vif et plus dynamique, avec des accélérations nettem
 
 ## Fabrication et aides à l'achat
 
-Le Renault Scénic E-Tech est fabriqué à l'usine ElectriCity de Douai dans le Nord de la France. Cette production française lui assure un éco-score maximal et l'éligibilité pleine et entière au bonus écologique, pouvant atteindre 7 000 euros pour les ménages aux revenus les plus modestes. Le Scénic est également éligible au leasing social à 100 euros par mois pour les foyers qualifiés, une offre imbattable qui rend l'accès à l'électrique possible pour un public très large. Le réseau Renault, le plus dense de France avec plus de 1 200 points de service, garantit un accompagnement de proximité rassurant.
+Le Renault Scénic E-Tech est fabriqué à l'usine ElectriCity de Douai dans le Nord de la France. Cette production française lui assure un éco-score maximal et l'éligibilité à la prime coup de pouce CEE, dont la bonification est plus forte pour les ménages modestes. Le leasing social, lui, ne concerne que des voitures de moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg, ce qui exclut le Scénic. Le réseau Renault, le plus dense de France avec plus de 1 200 points de service, garantit un accompagnement de proximité rassurant.
 
-Le Tesla Model Y, produit à Berlin, bénéficie du bonus européen standard mais ne peut pas prétendre aux mêmes avantages que le Scénic en termes d'éco-score grâce à la fabrication française. Le différentiel d'aides peut atteindre plusieurs milliers d'euros, rendant le Scénic nettement plus accessible financièrement. C'est un argument décisif pour de nombreux acheteurs français soucieux de leur budget.
+Le Tesla Model Y, produit à Berlin, ouvre lui aussi droit à la prime coup de pouce CEE dans sa version d'entrée. Le différentiel d'aides peut atteindre plusieurs milliers d'euros, rendant le Scénic nettement plus accessible financièrement. C'est un argument décisif pour de nombreux acheteurs français soucieux de leur budget.
 
 ## Verdict
 
-Le choix entre le Tesla Model Y et le Renault Scénic E-Tech se résume à une question de priorités et de budget. Le Scénic E-Tech offre le meilleur rapport qualité-prix du segment, une autonomie record, une fabrication française ouvrant droit aux aides maximales, et un habitacle optimisé avec intelligence. Le Tesla Model Y répond par une technologie de pointe, un réseau de recharge supérieur, un coffre plus vaste et un dynamisme de conduite supérieur. Pour les familles françaises avec un budget contenu, le Scénic E-Tech est un choix évident et patriotique qui ne sacrifie rien sur l'essentiel. Pour les technophiles prêts à investir davantage dans l'écosystème Tesla, le Model Y reste une valeur sûre. Les deux véhicules sont d'excellentes voitures électriques qui honorent leur catégorie.`,
+Le choix entre le Tesla Model Y et le Renault Scénic E-Tech se résume à une question de priorités et de budget. Le Scénic E-Tech offre le meilleur rapport qualité-prix du segment, une autonomie record, une fabrication française qui lui ouvre la prime coup de pouce CEE, et un habitacle optimisé avec intelligence. Le Tesla Model Y répond par une technologie de pointe, un réseau de recharge supérieur, un coffre plus vaste et un dynamisme de conduite supérieur. Pour les familles françaises avec un budget contenu, le Scénic E-Tech est un choix évident et patriotique qui ne sacrifie rien sur l'essentiel. Pour les technophiles prêts à investir davantage dans l'écosystème Tesla, le Model Y reste une valeur sûre. Les deux véhicules sont d'excellentes voitures électriques qui honorent leur catégorie.`,
   },
   {
     slug: "tesla-model-y-vs-peugeot-e-3008",
@@ -1677,13 +1679,13 @@ Le Tesla Model Y est nettement plus performant en accélération et plus dynamiq
 
 ## Fabrication et aides à l'achat
 
-Le Peugeot e-3008 est fabriqué à l'usine de Sochaux en France, sur la nouvelle ligne de production dédiée à la plateforme STLA Medium. Cette production française est un atout majeur pour l'éco-score et l'éligibilité au bonus écologique maximal. Le bonus peut atteindre 7 000 euros pour les foyers les plus modestes, réduisant significativement le prix final. Le leasing social peut également s'appliquer, rendant le e-3008 exceptionnellement accessible.
+Le Peugeot e-3008 est fabriqué à l'usine de Sochaux en France, sur la nouvelle ligne de production dédiée à la plateforme STLA Medium. Cette production française est un atout majeur pour l'éco-score et l'éligibilité à la prime coup de pouce CEE. Son montant dépend de l'offre retenue et des revenus du foyer, avec une bonification plus forte pour les ménages modestes. Le leasing social, lui, ne concerne que des voitures de moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg, ce qui exclut le e-3008.
 
-Le réseau Peugeot, l'un des plus denses de France, assure un service après-vente de proximité. La garantie constructeur est de 2 ans extensible, avec 8 ans ou 160 000 km sur la batterie. Le Tesla Model Y de Berlin bénéficie d'aides moindres en raison de son éco-score inférieur. Le différentiel peut atteindre 3 000 à 4 000 euros en aides, ce qui avantage considérablement le Peugeot pour les acheteurs français.
+Le réseau Peugeot, l'un des plus denses de France, assure un service après-vente de proximité. La garantie constructeur est de 2 ans extensible, avec 8 ans ou 160 000 km sur la batterie. Le Tesla Model Y de Berlin ouvre lui aussi droit à la prime coup de pouce CEE dans sa version d'entrée : c'est donc surtout sur le prix catalogue, l'équipement et le réseau que se joue la comparaison.
 
 ## Verdict
 
-Le Peugeot e-3008 et le Tesla Model Y sont deux excellents SUV électriques qui s'adressent à des profils d'acheteurs différents. Le e-3008 séduit par son design spectaculaire, son autonomie impressionnante, sa fabrication française donnant accès aux aides maximales, et son Panoramic i-Cockpit unique. Le Model Y répond par sa technologie éprouvée, son coffre géant, sa vitesse de recharge, son réseau Superchargeurs et son dynamisme de conduite. Pour un acheteur français sensible au style, à l'autonomie et au soutien de l'industrie nationale, le e-3008 est un choix de cœur et de raison. Pour un technophile en quête de la meilleure expérience électrique globale, le Model Y demeure la référence du marché. Le duel est serré, et c'est une excellente nouvelle pour le consommateur.`,
+Le Peugeot e-3008 et le Tesla Model Y sont deux excellents SUV électriques qui s'adressent à des profils d'acheteurs différents. Le e-3008 séduit par son design spectaculaire, son autonomie impressionnante, sa fabrication française qui lui ouvre la prime coup de pouce CEE, et son Panoramic i-Cockpit unique. Le Model Y répond par sa technologie éprouvée, son coffre géant, sa vitesse de recharge, son réseau Superchargeurs et son dynamisme de conduite. Pour un acheteur français sensible au style, à l'autonomie et au soutien de l'industrie nationale, le e-3008 est un choix de cœur et de raison. Pour un technophile en quête de la meilleure expérience électrique globale, le Model Y demeure la référence du marché. Le duel est serré, et c'est une excellente nouvelle pour le consommateur.`,
   },
   {
     slug: "tesla-model-y-vs-xpeng-g6",
@@ -1740,9 +1742,9 @@ Le Tesla Model Y Performance avec ses 534 ch et son 0 à 100 en 3,7 secondes con
 
 ## Fabrication et aides à l'achat
 
-C'est sur la question des aides à l'achat que le Xpeng G6 rencontre son principal obstacle sur le marché français. Fabriqué en Chine, à l'usine de Zhaoqing, le G6 est potentiellement exclu du bonus écologique français en raison de son éco-score défavorable lié au transport longue distance et à l'empreinte carbone de la production. L'absence de bonus peut représenter un manque à gagner de 4 000 à 7 000 euros par rapport à un véhicule produit en Europe, annulant partiellement voire totalement l'avantage tarifaire initial du G6.
+C'est sur la question des aides à l'achat que le Xpeng G6 rencontre son principal obstacle sur le marché français. Fabriqué en Chine, à l'usine de Zhaoqing, le G6 est potentiellement exclu de la prime coup de pouce CEE français en raison de son éco-score défavorable lié au transport longue distance et à l'empreinte carbone de la production. L'absence de prime coup de pouce CEE peut annuler partiellement, voire totalement, l'avantage tarifaire initial du G6 face à un véhicule produit en Europe.
 
-Le Tesla Model Y de Berlin bénéficie du bonus écologique, ce qui rétablit l'équilibre des prix nets une fois les aides déduites. De plus, la valeur résiduelle du Tesla est nettement mieux établie que celle du Xpeng, une marque encore peu connue en France. Le réseau de service après-vente Xpeng en France est embryonnaire comparé à l'infrastructure Tesla. La garantie Xpeng de 3 ans ou 120 000 km est correcte sans être exceptionnelle.
+Le Tesla Model Y de Berlin ouvre droit à la prime coup de pouce CEE, ce qui rétablit l'équilibre des prix nets une fois la prime déduite. De plus, la valeur résiduelle du Tesla est nettement mieux établie que celle du Xpeng, une marque encore peu connue en France. Le réseau de service après-vente Xpeng en France est embryonnaire comparé à l'infrastructure Tesla. La garantie Xpeng de 3 ans ou 120 000 km est correcte sans être exceptionnelle.
 
 ## Verdict
 
@@ -1803,13 +1805,13 @@ Le Peugeot e-3008 propose une conduite un peu plus dynamique, avec le petit vola
 
 ## Fabrication et aides à l'achat
 
-Les deux véhicules sont fabriqués en France, ce qui leur assure un éco-score optimal et l'éligibilité au bonus écologique maximal. Le Scénic E-Tech est produit à l'usine ElectriCity de Douai, le e-3008 à l'usine de Sochaux. Les deux bénéficient donc des mêmes avantages en termes d'aides à l'achat, avec un bonus pouvant atteindre 7 000 euros pour les foyers les plus modestes et l'éligibilité au leasing social.
+Les deux véhicules sont fabriqués en France, ce qui leur assure un éco-score optimal et l'éligibilité à la prime coup de pouce CEE. Le Scénic E-Tech est produit à l'usine ElectriCity de Douai, le e-3008 à l'usine de Sochaux. Les deux ouvrent donc droit à la prime coup de pouce CEE, dont la bonification est plus forte pour les foyers modestes.
 
-C'est sur le prix catalogue que la différence se fait : le Scénic étant significativement moins cher, le coût final après aides est encore plus avantageux. Les deux constructeurs disposent de réseaux de concessions très denses en France, assurant un service après-vente de proximité. La garantie est de 2 ans chez les deux marques, extensible, avec 8 ans ou 160 000 km sur la batterie. Les deux véhicules bénéficient de la fierté d'un achat made in France, un argument émotionnel non négligeable pour de nombreux acheteurs.
+C'est sur le prix catalogue que la différence se fait : le Scénic étant significativement moins cher, il reste plus avantageux une fois la prime déduite. Les deux constructeurs disposent de réseaux de concessions très denses en France, assurant un service après-vente de proximité. La garantie est de 2 ans chez les deux marques, extensible, avec 8 ans ou 160 000 km sur la batterie. Les deux véhicules bénéficient de la fierté d'un achat made in France, un argument émotionnel non négligeable pour de nombreux acheteurs.
 
 ## Verdict
 
-Le choix entre le Renault Scénic E-Tech et le Peugeot e-3008 est l'un des plus agréables dilemmes du marché automobile français en 2026. Les deux véhicules sont excellents, fabriqués en France, éligibles aux aides maximales et parfaitement adaptés aux besoins des familles françaises. Le Scénic E-Tech séduit par son prix plus accessible, son habitabilité héritée du monospace, son autonomie généreuse et son système multimédia Google performant. Le e-3008 répond par son design spectaculaire, son Panoramic i-Cockpit unique, son autonomie record avec la batterie de 98 kWh et une qualité perçue légèrement supérieure. Pour l'acheteur rationnel, le Scénic offre le meilleur rapport qualité-prix. Pour celui qui cherche le coup de cœur et accepte de payer un peu plus, le e-3008 apporte une touche de prestige et d'émotion supplémentaire. Dans les deux cas, c'est un beau succès pour l'industrie automobile française.`,
+Le choix entre le Renault Scénic E-Tech et le Peugeot e-3008 est l'un des plus agréables dilemmes du marché automobile français en 2026. Les deux véhicules sont excellents, fabriqués en France, éligibles à la prime coup de pouce CEE et parfaitement adaptés aux besoins des familles françaises. Le Scénic E-Tech séduit par son prix plus accessible, son habitabilité héritée du monospace, son autonomie généreuse et son système multimédia Google performant. Le e-3008 répond par son design spectaculaire, son Panoramic i-Cockpit unique, son autonomie record avec la batterie de 98 kWh et une qualité perçue légèrement supérieure. Pour l'acheteur rationnel, le Scénic offre le meilleur rapport qualité-prix. Pour celui qui cherche le coup de cœur et accepte de payer un peu plus, le e-3008 apporte une touche de prestige et d'émotion supplémentaire. Dans les deux cas, c'est un beau succès pour l'industrie automobile française.`,
   },
   {
     slug: "renault-scenic-e-tech-vs-skoda-enyaq",
@@ -1866,13 +1868,13 @@ L'Enyaq propose une expérience de conduite similaire dans son esprit : confort
 
 ## Fabrication et aides à l'achat
 
-Le Renault Scénic E-Tech est fabriqué à Douai en France, ce qui lui assure l'éco-score maximal et l'éligibilité au bonus écologique le plus généreux, pouvant atteindre 7 000 euros. L'éligibilité au leasing social à 100 euros par mois est un argument décisif pour les foyers modestes. Le réseau Renault, le plus dense de France, garantit un service après-vente de proximité accessible partout dans l'Hexagone.
+Le Renault Scénic E-Tech est fabriqué à Douai en France, ce qui lui assure l'éco-score maximal et l'éligibilité à la prime coup de pouce CEE, dont le montant dépend de l'offre et des revenus. Le leasing social, lui, ne concerne que des voitures de moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg, ce qui exclut le Scénic. Le réseau Renault, le plus dense de France, garantit un service après-vente de proximité accessible partout dans l'Hexagone.
 
-Le Skoda Enyaq est fabriqué en République tchèque, ce qui lui assure aussi une bonne performance en éco-score mais potentiellement un bonus légèrement inférieur à celui du Scénic produit en France. L'écart peut atteindre 1 000 à 2 000 euros selon les barèmes en vigueur. Le réseau Skoda en France est moins dense que celui de Renault, mais le constructeur tchèque bénéficie de la logistique du groupe Volkswagen. La garantie est comparable entre les deux marques.
+Le Skoda Enyaq est fabriqué en République tchèque, ce qui lui assure aussi une bonne performance en éco-score et l'accès à la prime coup de pouce CEE. L'écart peut atteindre 1 000 à 2 000 euros selon les barèmes en vigueur. Le réseau Skoda en France est moins dense que celui de Renault, mais le constructeur tchèque bénéficie de la logistique du groupe Volkswagen. La garantie est comparable entre les deux marques.
 
 ## Verdict
 
-Le Renault Scénic E-Tech s'impose comme le choix le plus rationnel de ce comparatif. Son prix inférieur de 5 000 à 6 000 euros, son autonomie supérieure, sa fabrication française ouvrant droit aux aides maximales et son excellent système multimédia Google en font la proposition la plus complète du segment pour les familles françaises. Le Skoda Enyaq reste un très bon véhicule qui séduit par son coffre légèrement plus grand, sa vitesse de recharge supérieure et son sens pratique légendaire. Pour un achat purement rationnel, le Scénic est difficile à battre. Pour les aficionados de la marque Skoda ou ceux qui privilégient la recharge rapide et la modularité du coffre, l'Enyaq demeure un choix pertinent et fiable.`,
+Le Renault Scénic E-Tech s'impose comme le choix le plus rationnel de ce comparatif. Son prix inférieur de 5 000 à 6 000 euros, son autonomie supérieure, sa fabrication française qui lui ouvre la prime coup de pouce CEE et son excellent système multimédia Google en font la proposition la plus complète du segment pour les familles françaises. Le Skoda Enyaq reste un très bon véhicule qui séduit par son coffre légèrement plus grand, sa vitesse de recharge supérieure et son sens pratique légendaire. Pour un achat purement rationnel, le Scénic est difficile à battre. Pour les aficionados de la marque Skoda ou ceux qui privilégient la recharge rapide et la modularité du coffre, l'Enyaq demeure un choix pertinent et fiable.`,
   },
   {
     slug: "skoda-elroq-vs-volkswagen-id4",
@@ -1929,9 +1931,9 @@ L'ID.4 Pro avec 286 ch abat le 0 à 100 km/h en 6,7 secondes, très proche de l'
 
 ## Fabrication et aides à l'achat
 
-Le Skoda Elroq est fabriqué à l'usine de Mladá Boleslav en République tchèque, au cœur de l'Europe. Sa production européenne et son prix contenu le rendent éligible au bonus écologique français. Avec un prix d'entrée à 33 900 euros, il bénéficie pleinement du bonus maximal pour les véhicules sous le plafond de 47 000 euros, ce qui peut réduire la facture de manière substantielle.
+Le Skoda Elroq est fabriqué à l'usine de Mladá Boleslav en République tchèque, au cœur de l'Europe. Sa production européenne et son prix contenu le rendent éligible à la prime coup de pouce CEE. Avec un prix d'entrée à 33 900 euros, sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)}, il ouvre droit à la prime coup de pouce CEE, ce qui peut réduire la facture.
 
-Le Volkswagen ID.4 est produit à Zwickau et Emden en Allemagne, bénéficiant également du bonus écologique. Cependant, son prix plus élevé signifie que les versions haut de gamme peuvent dépasser le plafond requis pour certaines aides. La garantie est comparable : 2 ans constructeur extensible pour les deux marques, avec 8 ans ou 160 000 km sur la batterie. L'avantage réseau de Volkswagen avec ses concessions plus nombreuses peut jouer pour certains acheteurs, mais Skoda offre un service équivalent dans la plupart des régions.
+Le Volkswagen ID.4 est produit à Zwickau et Emden en Allemagne, et ouvre également droit à la prime coup de pouce CEE. Cependant, son prix plus élevé signifie que les versions haut de gamme peuvent dépasser le plafond requis pour certaines aides. La garantie est comparable : 2 ans constructeur extensible pour les deux marques, avec 8 ans ou 160 000 km sur la batterie. L'avantage réseau de Volkswagen avec ses concessions plus nombreuses peut jouer pour certains acheteurs, mais Skoda offre un service équivalent dans la plupart des régions.
 
 ## Verdict
 
@@ -1992,13 +1994,13 @@ Le Skoda Elroq propose une conduite confortable et sans surprise, dans la tradit
 
 ## Fabrication et aides à l'achat
 
-Le Skoda Elroq est fabriqué en République tchèque, en Europe, ce qui lui assure un bon éco-score et l'éligibilité au bonus écologique français sans restriction. Son prix d'entrée sous les 34 000 euros le rend particulièrement accessible avec le bonus, pouvant descendre à moins de 30 000 euros pour certains foyers.
+Le Skoda Elroq est fabriqué en République tchèque, en Europe, ce qui lui assure un bon éco-score et l'éligibilité à la prime coup de pouce CEE. Son prix d'entrée sous les 34 000 euros le rend particulièrement accessible, avant même la prime coup de pouce CEE.
 
-Le Kia EV3 est fabriqué en Corée du Sud. Son éligibilité au bonus écologique dépend de l'éco-score calculé par le gouvernement français, qui prend en compte l'empreinte carbone du transport depuis l'Asie. Les résultats peuvent varier selon les évaluations en cours. La garantie Kia de 7 ans ou 150 000 km reste un argument de poids, offrant une tranquillité d'esprit incomparable dans cette gamme de prix, face aux 2 ans du Skoda. Pour un achat sur le long terme, cette garantie peut compenser une éventuelle absence de bonus.
+Le Kia EV3 est fabriqué en Corée du Sud. Son éligibilité à la prime coup de pouce CEE dépend de l'éco-score calculé par le gouvernement français, qui prend en compte l'empreinte carbone du transport depuis l'Asie. Les résultats peuvent varier selon les évaluations en cours. La garantie Kia de 7 ans ou 150 000 km reste un argument de poids, offrant une tranquillité d'esprit incomparable dans cette gamme de prix, face aux 2 ans du Skoda. Pour un achat sur le long terme, cette garantie peut compenser une éventuelle absence de prime.
 
 ## Verdict
 
-Le Skoda Elroq et le Kia EV3 représentent deux des meilleures propositions du marché pour accéder à un SUV électrique compact de qualité à prix contenu. L'Elroq séduit par son prix d'entrée imbattable, sa recharge rapide efficace, sa fabrication européenne garantissant le bonus et le sens pratique légendaire de Skoda. Le Kia EV3 impressionne par son autonomie exceptionnelle, son design audacieux, sa garantie de 7 ans et sa fonctionnalité V2L. Le choix dépendra des priorités : budget et aides à l'achat pour l'Elroq, autonomie et garantie pour l'EV3. Les deux constituent un excellent premier pas dans la mobilité électrique.`,
+Le Skoda Elroq et le Kia EV3 représentent deux des meilleures propositions du marché pour accéder à un SUV électrique compact de qualité à prix contenu. L'Elroq séduit par son prix d'entrée imbattable, sa recharge rapide efficace, sa fabrication européenne qui lui ouvre la prime coup de pouce CEE et le sens pratique légendaire de Skoda. Le Kia EV3 impressionne par son autonomie exceptionnelle, son design audacieux, sa garantie de 7 ans et sa fonctionnalité V2L. Le choix dépendra des priorités : budget et aides à l'achat pour l'Elroq, autonomie et garantie pour l'EV3. Les deux constituent un excellent premier pas dans la mobilité électrique.`,
   },
   {
     slug: "kia-ev3-vs-hyundai-kona-electric",
@@ -2055,7 +2057,7 @@ Le Hyundai Kona Electric, avec son moteur de 218 ch dans la version 65,4 kWh, es
 
 ## Fabrication et aides à l'achat
 
-Les deux véhicules sont fabriqués en Corée du Sud, ce qui pose la même question d'éligibilité au bonus écologique français. L'éco-score dépend de l'évaluation de l'empreinte carbone totale, incluant le transport depuis l'Asie. Les deux modèles sont dans la même situation et devraient donc bénéficier des mêmes conditions d'aide.
+Les deux véhicules sont fabriqués en Corée du Sud, ce qui pose la même question d'éligibilité à la prime coup de pouce CEE. L'éco-score dépend de l'évaluation de l'empreinte carbone totale, incluant le transport depuis l'Asie. Les deux modèles sont dans la même situation et devraient donc bénéficier des mêmes conditions d'aide.
 
 La grande différence réside dans la garantie : Kia offre 7 ans ou 150 000 km, contre 5 ans kilométrage illimité chez Hyundai. Les deux garanties sont parmi les meilleures du marché et constituent un argument de poids pour les acheteurs inquiets de la fiabilité à long terme. La batterie est couverte 8 ans ou 160 000 km chez les deux constructeurs. Le réseau de concessions est bien développé en France pour les deux marques, avec un maillage territorial satisfaisant pour le service après-vente.
 
@@ -2084,7 +2086,7 @@ Le Renault Scénic E-Tech adopte une approche plus harmonieuse et équilibrée. 
 
 Le Kia EV3 Air avec batterie de 58,3 kWh est proposé à environ 36 990 euros, et la version Long Range avec 81,4 kWh à environ 40 990 euros. La finition GT-Line haut de gamme avec grande batterie monte à environ 44 990 euros, s'approchant du territoire du Scénic.
 
-Le Renault Scénic E-Tech Comfort Range 60 kWh démarre à environ 35 000 euros, soit 2 000 euros de moins que le Kia. La version Long Range 87 kWh débute aux alentours de 40 000 euros, là encore environ 1 000 euros de moins que le Kia Long Range. La finition Iconic haut de gamme avec grande batterie atteint environ 45 000 euros. Le Scénic est donc légèrement moins cher sur toute la gamme, un avantage renforcé par sa fabrication française qui lui assure un bonus écologique potentiellement supérieur.
+Le Renault Scénic E-Tech Comfort Range 60 kWh démarre à environ 35 000 euros, soit 2 000 euros de moins que le Kia. La version Long Range 87 kWh débute aux alentours de 40 000 euros, là encore environ 1 000 euros de moins que le Kia Long Range. La finition Iconic haut de gamme avec grande batterie atteint environ 45 000 euros. Le Scénic est donc légèrement moins cher sur toute la gamme, un avantage renforcé par sa fabrication française.
 
 ## Autonomie et batterie
 
@@ -2118,13 +2120,13 @@ Le Scénic E-Tech, avec son moteur de 220 ch, est un peu plus puissant mais auss
 
 ## Fabrication et aides à l'achat
 
-Le Renault Scénic E-Tech est fabriqué en France à Douai, ce qui lui assure l'éco-score maximal et l'éligibilité au bonus écologique le plus généreux. Le bonus peut atteindre 7 000 euros pour les ménages modestes, et le leasing social à 100 euros par mois est accessible. Le réseau Renault, le plus dense de France, garantit un service de proximité incomparable.
+Le Renault Scénic E-Tech est fabriqué en France à Douai, ce qui lui assure l'éco-score maximal et l'éligibilité à la prime coup de pouce CEE. Sa fabrication française lui ouvre la prime coup de pouce CEE, avec la bonification réservée aux voitures produites en Europe. Le réseau Renault, le plus dense de France, garantit un service de proximité incomparable.
 
-Le Kia EV3, produit en Corée du Sud, pourrait voir son éligibilité au bonus réduite ou annulée selon l'éco-score attribué. Même sans bonus, la garantie Kia de 7 ans ou 150 000 km représente un avantage considérable en termes de coût total de possession. Sur la durée, cette garantie étendue peut compenser l'absence d'aide à l'achat. Le choix dépendra de l'importance accordée au prix d'achat immédiat versus la tranquillité à long terme.
+Le Kia EV3, produit en Corée du Sud, ne bénéficie pas de la bonification réservée aux voitures produites en Europe, et son éligibilité dépend de son score environnemental. Même sans prime, la garantie Kia de 7 ans ou 150 000 km représente un avantage considérable en termes de coût total de possession. Sur la durée, cette garantie étendue peut compenser l'absence d'aide à l'achat. Le choix dépendra de l'importance accordée au prix d'achat immédiat versus la tranquillité à long terme.
 
 ## Verdict
 
-Le Renault Scénic E-Tech et le Kia EV3 sont deux excellents choix dans le segment des SUV électriques compacts. Le Scénic l'emporte par son espace supérieur, son prix légèrement inférieur, sa fabrication française garantissant le bonus maximal et son système Google intégré. Le Kia EV3 riposte avec son autonomie impressionnante dans un gabarit ultra-compact, sa fonctionnalité V2L, sa garantie de 7 ans et son design audacieux. Pour les familles françaises cherchant l'optimum économique avec les aides, le Scénic est le choix logique. Pour les conducteurs urbains qui veulent le maximum de technologie et d'autonomie dans le minimum d'encombrement, le Kia EV3 est une proposition fascinante.`,
+Le Renault Scénic E-Tech et le Kia EV3 sont deux excellents choix dans le segment des SUV électriques compacts. Le Scénic l'emporte par son espace supérieur, son prix légèrement inférieur, sa fabrication française qui lui ouvre la prime coup de pouce CEE et son système Google intégré. Le Kia EV3 riposte avec son autonomie impressionnante dans un gabarit ultra-compact, sa fonctionnalité V2L, sa garantie de 7 ans et son design audacieux. Pour les familles françaises cherchant l'optimum économique avec les aides, le Scénic est le choix logique. Pour les conducteurs urbains qui veulent le maximum de technologie et d'autonomie dans le minimum d'encombrement, le Kia EV3 est une proposition fascinante.`,
   },
   {
     slug: "kia-ev6-vs-hyundai-ioniq-5",
@@ -2181,7 +2183,7 @@ Le Hyundai Ioniq 5 privilégie le confort et la sérénité de conduite. La susp
 
 ## Fabrication et aides à l'achat
 
-Les deux véhicules sont principalement fabriqués en Corée du Sud, à l'usine de Hwaseong pour l'EV6 et d'Ulsan pour l'Ioniq 5. Une partie de la production européenne est désormais assurée par des usines en République tchèque et en Slovaquie. L'éligibilité au bonus écologique français dépend du lieu de production exact du véhicule commandé, il est donc essentiel de vérifier ce point lors de la commande.
+Les deux véhicules sont principalement fabriqués en Corée du Sud, à l'usine de Hwaseong pour l'EV6 et d'Ulsan pour l'Ioniq 5. Une partie de la production européenne est désormais assurée par des usines en République tchèque et en Slovaquie. L'éligibilité à la prime coup de pouce CEE dépend du lieu de production exact du véhicule commandé, il est donc essentiel de vérifier ce point lors de la commande.
 
 La différence majeure entre les deux constructeurs réside dans la garantie : 7 ans ou 150 000 km chez Kia contre 5 ans kilométrage illimité chez Hyundai. La batterie est couverte 8 ans ou 160 000 km dans les deux cas. La garantie Kia de 7 ans est l'une des plus longues du marché et représente un argument tangible pour les acheteurs qui conservent leur véhicule longtemps.
 
@@ -2244,7 +2246,7 @@ Les différences sont subtiles mais perceptibles. L'ID.4, légèrement plus comp
 
 ## Fabrication et aides à l'achat
 
-L'ID.4 est produit aux usines de Zwickau et Emden en Allemagne. L'Enyaq est fabriqué à Mladá Boleslav en République tchèque. Les deux bénéficient d'une production européenne assurant l'éligibilité au bonus écologique français. Les conditions d'aide sont identiques puisque les deux constructeurs appartiennent au même groupe et les véhicules ont des empreintes carbone de production comparables.
+L'ID.4 est produit aux usines de Zwickau et Emden en Allemagne. L'Enyaq est fabriqué à Mladá Boleslav en République tchèque. Les deux bénéficient d'une production européenne assurant l'éligibilité à la prime coup de pouce CEE. Les conditions d'aide sont identiques puisque les deux constructeurs appartiennent au même groupe et les véhicules ont des empreintes carbone de production comparables.
 
 La garantie est comparable : 2 ans constructeur extensible pour les deux marques, avec 8 ans ou 160 000 km sur la batterie. Le réseau de concessions Volkswagen est plus étendu que celui de Skoda en France, mais les deux bénéficient de la logistique du groupe. La valeur résiduelle de l'ID.4 est légèrement supérieure sur le marché de l'occasion grâce au prestige du badge Volkswagen, un facteur à considérer pour la revente.
 
@@ -2307,7 +2309,7 @@ Le Ford Explorer, plus court et plus léger, est légèrement plus agile en vill
 
 ## Fabrication et aides à l'achat
 
-L'ID.4 est produit à Zwickau et Emden en Allemagne. Le Ford Explorer est assemblé au Cologne Electric Vehicle Center en Allemagne. Les deux véhicules bénéficient donc d'une fabrication européenne assurant l'éligibilité au bonus écologique français. Avec son prix d'entrée à 36 900 euros, le Ford Explorer est nettement sous le plafond de 47 000 euros, bénéficiant pleinement des aides.
+L'ID.4 est produit à Zwickau et Emden en Allemagne. Le Ford Explorer est assemblé au Cologne Electric Vehicle Center en Allemagne. Les deux véhicules bénéficient donc d'une fabrication européenne assurant l'éligibilité à la prime coup de pouce CEE. Avec son prix d'entrée à 36 900 euros, le Ford Explorer est nettement sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE.
 
 La garantie Ford est de 2 ans extensible avec 8 ans sur la batterie, identique à celle de Volkswagen. Le réseau Ford est bien implanté en France avec de nombreux concessionnaires, comparable au réseau Volkswagen. La valeur résiduelle de l'ID.4 est potentiellement meilleure grâce à l'ancienneté et à la notoriété du modèle, mais le Ford Explorer bénéficie d'un intérêt croissant sur le marché de l'occasion.
 
@@ -2370,7 +2372,7 @@ Le Hyundai Ioniq 5 est plus posé et plus confortable. La position de conduite p
 
 ## Fabrication et aides à l'achat
 
-L'Ioniq 5 est fabriqué principalement à l'usine d'Ulsan en Corée du Sud, avec une production européenne complémentaire en République tchèque. L'EV6 est produit à Hwaseong en Corée du Sud et partiellement en Slovaquie. Les conditions d'éligibilité au bonus écologique français sont similaires pour les deux, dépendant du lieu exact de fabrication du véhicule commandé.
+L'Ioniq 5 est fabriqué principalement à l'usine d'Ulsan en Corée du Sud, avec une production européenne complémentaire en République tchèque. L'EV6 est produit à Hwaseong en Corée du Sud et partiellement en Slovaquie. Les conditions d'éligibilité à la prime coup de pouce CEE sont similaires pour les deux, dépendant du lieu exact de fabrication du véhicule commandé.
 
 La garantie différencie nettement les deux marques : 7 ans ou 150 000 km chez Kia contre 5 ans kilométrage illimité chez Hyundai. La batterie est garantie 8 ans ou 160 000 km chez les deux. Les deux marques disposent de réseaux de concessions bien implantés en France, avec un service après-vente de qualité reconnue. La valeur résiduelle est comparable entre les deux modèles sur le marché de l'occasion.
 
@@ -2433,9 +2435,9 @@ Le Ford Explorer, avec son moteur de 286 ch en version Extended Range, est plus 
 
 ## Fabrication et aides à l'achat
 
-Le Peugeot e-3008 est fabriqué à Sochaux en France, ce qui lui assure un éco-score optimal et l'éligibilité au bonus écologique maximal. Le bonus peut atteindre 7 000 euros pour les foyers les plus modestes, réduisant considérablement le prix final et compensant partiellement l'écart tarifaire avec le Ford. Le leasing social est également accessible pour le e-3008, rendant ce véhicule premium étonnamment abordable pour les ménages éligibles.
+Le Peugeot e-3008 est fabriqué à Sochaux en France, ce qui lui assure un éco-score optimal et l'éligibilité à la prime coup de pouce CEE. La prime coup de pouce CEE, dont la bonification est plus forte pour les foyers modestes, compense partiellement l'écart tarifaire avec le Ford. Le leasing social, lui, ne concerne que des voitures de moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg, ce qui exclut le e-3008.
 
-Le Ford Explorer est produit à Cologne en Allemagne, bénéficiant du bonus écologique européen standard qui peut atteindre 4 000 euros. L'écart de bonus en faveur du Peugeot peut atteindre 3 000 euros, réduisant significativement la différence de prix catalogue entre les deux véhicules. Après déduction de toutes les aides, l'écart réel peut descendre à 2 000 à 3 000 euros en faveur du Ford, contre 7 000 euros avant aides.
+Le Ford Explorer est produit à Cologne en Allemagne et ouvre lui aussi droit à la prime coup de pouce CEE. Les deux étant éligibles, la prime ne modifie guère l'écart de prix catalogue entre les deux véhicules. L'écart de prix catalogue, de 7 000 euros environ en faveur du Ford, reste donc l'essentiel de la différence.
 
 ## Verdict
 
@@ -2496,9 +2498,9 @@ Le Mercedes EQB 250+ développe 190 ch et réalise le 0 à 100 km/h en 9,2 secon
 
 ## Fabrication et aides à l'achat
 
-Le Peugeot e-5008 est fabriqué en France à Sochaux, assurant un éco-score optimal et l'éligibilité au bonus écologique maximal. Toutefois, avec un prix de départ de 47 990 euros, seule la version Allure 73 kWh reste sous le plafond de 47 000 euros requis pour le bonus standard. Les versions plus équipées dépassent ce seuil. Malgré tout, la fabrication française offre les meilleures conditions d'aide pour les acheteurs éligibles.
+Le Peugeot e-5008 est fabriqué en France à Sochaux, assurant un éco-score optimal et l'éligibilité à la prime coup de pouce CEE. Toutefois, avec un prix de départ de 47 990 euros, il dépasse le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE. Les versions plus équipées dépassent ce seuil. Malgré tout, la fabrication française offre les meilleures conditions d'aide pour les acheteurs éligibles.
 
-Le Mercedes EQB est fabriqué en Hongrie, en Europe, ce qui lui assure une bonne performance en éco-score. Cependant, son prix de départ supérieur à 52 000 euros le place au-delà du plafond de bonus pour la quasi-totalité des versions. Le coût d'acquisition du Mercedes est donc significativement plus élevé, avant et après aides. La garantie Mercedes est de 2 ans extensible, avec 8 ans sur la batterie, comparable aux standards du marché.
+Le Mercedes EQB est fabriqué en Hongrie, en Europe, ce qui lui assure une bonne performance en éco-score. Cependant, son prix de départ supérieur à 52 000 euros le place au-delà du plafond de la prime coup de pouce CEE. Le coût d'acquisition du Mercedes est donc significativement plus élevé. La garantie Mercedes est de 2 ans extensible, avec 8 ans sur la batterie, comparable aux standards du marché.
 
 ## Verdict
 
@@ -2529,7 +2531,7 @@ C'est sans doute le critère le plus déterminant pour ces deux modèles. La Cit
 
 La Renault 4 E-Tech se positionne légèrement au-dessus, avec un prix de départ avoisinant les 28 400 euros. L'écart de cinq mille euros environ peut sembler significatif, mais il se justifie par un équipement de série plus généreux et une batterie de plus grande capacité. En version bien équipée, les deux modèles se rapprochent davantage en termes de tarif.
 
-Après application du bonus écologique, les deux véhicules deviennent encore plus accessibles. La ë-C3 bénéficie du bonus maximal grâce à son assemblage européen, tout comme la Renault 4 E-Tech produite à Maubeuge. Le leasing social, lorsqu'il est disponible, peut également rendre ces deux modèles particulièrement attractifs pour les ménages modestes.
+La prime coup de pouce CEE rend ensuite les deux véhicules encore plus accessibles. La ë-C3 y ouvre droit grâce à son assemblage européen, tout comme la Renault 4 E-Tech produite à Maubeuge. Le leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus) peut également rendre ces deux modèles particulièrement attractifs pour les ménages modestes qui roulent pour leur travail.
 
 ## Autonomie et batterie
 
@@ -2573,11 +2575,11 @@ La Renault 4 E-Tech est plus polyvalente et plus performante, tandis que la ë-C
 
 ## Fabrication et aides à l'achat
 
-Les deux véhicules sont assemblés en Europe, ce qui leur permet de bénéficier du bonus écologique français sans restriction. La Renault 4 E-Tech est produite dans l'usine historique de Maubeuge, dans le nord de la France, ce qui en fait un choix patriotique pour les acheteurs sensibles à l'emploi local. La ë-C3 est assemblée en Slovaquie dans l'usine Stellantis de Trnava, mais bénéficie d'un score environnemental favorable.
+Les deux véhicules sont assemblés en Europe, ce qui leur permet d'ouvrir droit à la prime coup de pouce CEE. La Renault 4 E-Tech est produite dans l'usine historique de Maubeuge, dans le nord de la France, ce qui en fait un choix patriotique pour les acheteurs sensibles à l'emploi local. La ë-C3 est assemblée en Slovaquie dans l'usine Stellantis de Trnava, mais bénéficie d'un score environnemental favorable.
 
-Le bonus écologique de 4 000 euros s'applique aux deux modèles pour les ménages dont le revenu fiscal de référence ne dépasse pas un certain seuil. La prime à la conversion peut venir compléter cette aide si vous mettez au rebut un ancien véhicule thermique. Certaines régions et collectivités proposent des aides complémentaires qui peuvent encore réduire la facture.
+La prime coup de pouce CEE s'applique aux deux modèles, avec une bonification plus forte pour les ménages modestes. La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}. Certaines régions et collectivités proposent des aides complémentaires qui peuvent encore réduire la facture.
 
-Le leasing social à 100 euros par mois, lorsqu'il est proposé, concerne en priorité ces deux modèles. La ë-C3, avec son prix catalogue inférieur, offre potentiellement des mensualités plus basses en leasing classique. Cependant, la valeur résiduelle potentiellement supérieure de la Renault 4 E-Tech, portée par son capital sympathie, pourrait équilibrer l'équation financière sur la durée.
+Le leasing social 2026, à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, peut concerner ces deux modèles s'ils figurent sur sa liste officielle. La ë-C3, avec son prix catalogue inférieur, offre potentiellement des mensualités plus basses en leasing classique. Cependant, la valeur résiduelle potentiellement supérieure de la Renault 4 E-Tech, portée par son capital sympathie, pourrait équilibrer l'équation financière sur la durée.
 
 ## Verdict
 
@@ -2612,7 +2614,7 @@ Le Volvo EX30 démarre à environ 36 500 euros en version Single Motor, ce qui 
 
 Le Mini Countryman SE s'affiche à partir d'environ 42 600 euros, un tarif sensiblement plus élevé que celui de l'EX30 d'entrée de gamme. En ajoutant les options populaires comme le pack confort, le toit panoramique ou la peinture métallisée, la facture peut facilement dépasser les 48 000 euros. L'écart de prix avec l'EX30 peut atteindre six mille euros à équipement comparable, ce qui constitue un désavantage non négligeable pour le modèle anglais.
 
-Côté financement, les deux véhicules sont éligibles au bonus écologique dans certaines configurations, bien que les récentes évolutions réglementaires concernant le score environnemental puissent affecter l'EX30 selon son lieu de production. Les offres de leasing professionnel sont particulièrement attractives pour ces deux modèles grâce à des valeurs résiduelles solides.
+Côté financement, les deux véhicules sont éligibles à la prime coup de pouce CEE dans certaines configurations, bien que les récentes évolutions réglementaires concernant le score environnemental puissent affecter l'EX30 selon son lieu de production. Les offres de leasing professionnel sont particulièrement attractives pour ces deux modèles grâce à des valeurs résiduelles solides.
 
 ## Autonomie et batterie
 
@@ -2656,11 +2658,11 @@ En termes de dynamisme pur, l'EX30 surpasse le Countryman SE grâce à sa puissa
 
 ## Fabrication et aides à l'achat
 
-Le Mini Countryman SE est assemblé à Leipzig en Allemagne, dans l'usine BMW. Cette production européenne lui garantit l'éligibilité au bonus écologique français et un bon score environnemental. La qualité de fabrication est au rendez-vous, avec des matériaux soigneusement choisis et des assemblages précis qui justifient le positionnement premium.
+Le Mini Countryman SE est assemblé à Leipzig en Allemagne, dans l'usine BMW. Cette production européenne lui permet de prétendre à la prime coup de pouce CEE et un bon score environnemental. La qualité de fabrication est au rendez-vous, avec des matériaux soigneusement choisis et des assemblages précis qui justifient le positionnement premium.
 
-Le Volvo EX30 est produit en Chine dans l'usine de Taizhou par Geely, propriétaire de Volvo. Cette origine peut poser question pour l'éligibilité au bonus écologique, selon les critères environnementaux en vigueur. Volvo a toutefois annoncé le transfert partiel de la production vers son usine belge de Gand pour contourner cette problématique et les éventuels droits de douane européens.
+Le Volvo EX30 est produit en Chine dans l'usine de Taizhou par Geely, propriétaire de Volvo. Cette origine peut poser question pour l'éligibilité à la prime coup de pouce CEE, selon les critères environnementaux en vigueur. Volvo a toutefois annoncé le transfert partiel de la production vers son usine belge de Gand pour contourner cette problématique et les éventuels droits de douane européens.
 
-Pour les acheteurs français, la situation est claire : le Countryman SE bénéficie sans ambiguïté du bonus écologique, tandis que l'EX30 peut être soumis à des restrictions selon son lieu de production. Il est conseillé de vérifier la situation au moment de l'achat.
+Pour les acheteurs français, la situation est claire : le Countryman SE ouvre droit à la prime coup de pouce CEE, tandis que l'EX30 dépend de son lieu de production. Il est conseillé de vérifier la situation au moment de l'achat.
 
 ## Verdict
 
@@ -2739,11 +2741,11 @@ Les deux véhicules sont agréables à conduire au quotidien, mais le Kona offre
 
 ## Fabrication et aides à l'achat
 
-Le Honda e:Ny1 est fabriqué en Chine avant d'être importé en Europe. Cette origine de fabrication peut affecter son éligibilité au bonus écologique français selon les critères en vigueur liés au score environnemental. Honda argue que ses standards de qualité sont identiques quel que soit le lieu de production, et la finition du véhicule ne souffre d'aucun reproche.
+Le Honda e:Ny1 est fabriqué en Chine avant d'être importé en Europe. Cette origine de fabrication peut affecter son éligibilité à la prime coup de pouce CEE selon les critères en vigueur liés au score environnemental. Honda argue que ses standards de qualité sont identiques quel que soit le lieu de production, et la finition du véhicule ne souffre d'aucun reproche.
 
-Le Hyundai Kona Electric est assemblé en République tchèque dans l'usine HMMC de Nosovice, ce qui lui garantit l'éligibilité au bonus écologique français. Hyundai a stratégiquement localisé sa production en Europe pour bénéficier pleinement des incitations gouvernementales et éviter les surcoûts liés aux droits de douane.
+Le Hyundai Kona Electric est assemblé en République tchèque dans l'usine HMMC de Nosovice, ce qui lui permet de prétendre à la prime coup de pouce CEE. Hyundai a stratégiquement localisé sa production en Europe pour bénéficier pleinement des incitations gouvernementales et éviter les surcoûts liés aux droits de douane.
 
-En termes d'aides, le Kona Electric bénéficie pleinement du bonus de 4 000 euros et est éligible à la prime à la conversion. La garantie Hyundai de cinq ans constitue un argument supplémentaire qui réduit le risque financier pour l'acheteur. Honda propose une garantie de trois ans, complétée par une garantie batterie de huit ans.
+En termes d'aides, le Kona Electric ouvre droit à la prime coup de pouce CEE. La garantie Hyundai de cinq ans constitue un argument supplémentaire qui réduit le risque financier pour l'acheteur. Honda propose une garantie de trois ans, complétée par une garantie batterie de huit ans.
 
 ## Verdict
 
@@ -2774,7 +2776,7 @@ La Renault Mégane E-Tech est proposée à partir d'environ 35 200 euros en ver
 
 La Volkswagen ID.3 démarre à environ 36 990 euros en finition Pure avec la batterie de 58 kWh. La version Pro S avec batterie de 77 kWh se négocie autour de 42 500 euros. La finition Max, richement équipée, dépasse les 46 000 euros. L'ID.3 est donc globalement plus chère que la Mégane, surtout si l'on compare les versions d'entrée de gamme. En revanche, la version grande autonomie de l'ID.3 n'a pas d'équivalent chez Renault.
 
-En tenant compte du bonus écologique et des éventuelles primes à la conversion, l'écart se resserre, mais la Mégane E-Tech conserve un léger avantage tarifaire sur l'ensemble de la gamme. Les offres en leasing social, quand elles existent, peuvent aussi bouleverser l'équation financière.
+En tenant compte de la prime coup de pouce CEE, l'écart se resserre, mais la Mégane E-Tech conserve un léger avantage tarifaire sur l'ensemble de la gamme. Le leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus), pour les foyers éligibles, peut aussi bouleverser l'équation financière.
 
 ## Autonomie et batterie
 
@@ -2816,11 +2818,11 @@ Les deux voitures offrent un freinage régénératif paramétrable, avec un mode
 
 ## Fabrication et aides à l'achat
 
-La Renault Mégane E-Tech est assemblée à l'usine de Douai dans les Hauts-de-France, sur la plateforme CMF-EV de l'Alliance Renault-Nissan-Mitsubishi. Sa fabrication française est un argument de poids pour bénéficier pleinement du bonus écologique et du score environnemental favorable. Elle est éligible au bonus maximal et aux différentes aides régionales.
+La Renault Mégane E-Tech est assemblée à l'usine de Douai dans les Hauts-de-France, sur la plateforme CMF-EV de l'Alliance Renault-Nissan-Mitsubishi. Sa fabrication française est un argument de poids pour son score environnemental et la prime coup de pouce CEE. Elle ouvre droit à la prime coup de pouce CEE, avec la bonification réservée aux voitures produites en Europe.
 
-La Volkswagen ID.3 est produite à l'usine de Zwickau en Allemagne et également à Dresde. Fabriquée en Europe, elle bénéficie du bonus écologique français, bien que son score environnemental soit légèrement moins favorable que celui de la Mégane en raison de l'origine de certains composants. Le montant du bonus peut donc varier.
+La Volkswagen ID.3 est produite à l'usine de Zwickau en Allemagne et également à Dresde. Fabriquée en Europe, elle ouvre droit à la prime coup de pouce CEE, bien que son score environnemental soit légèrement moins favorable que celui de la Mégane en raison de l'origine de certains composants. Le montant de la prime peut donc varier.
 
-Les deux véhicules sont éligibles à la prime à la conversion sous conditions de revenus et de mise au rebut d'un ancien véhicule. Le leasing social, lorsqu'il est proposé, peut rendre ces deux modèles accessibles à moins de 150 euros par mois, ce qui change radicalement le rapport de force.
+La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}. Le leasing social 2026, à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, peut concerner ces deux modèles s'ils figurent sur sa liste officielle, ce qui change radicalement le rapport de force.
 
 ## Verdict : Mégane E-Tech ou ID.3 ?
 
@@ -2845,7 +2847,7 @@ La Nissan Leaf, dans sa deuxième génération lancée en 2017, affiche un desig
 
 ## Prix et versions disponibles
 
-Le prix constitue le premier argument de la MG4. Elle est proposée à partir d'environ 27 990 euros en version Standard avec batterie de 51 kWh, avant bonus écologique. La version Comfort avec batterie de 64 kWh s'affiche aux alentours de 31 990 euros, tandis que la Luxury culmine à environ 35 990 euros. Il existe aussi une version Extended Range de 77 kWh pour les gros rouleurs. Avec le bonus écologique, quand elle y était éligible, la MG4 est descendue sous la barre des 25 000 euros, un tarif imbattable pour une compacte électrique de cette qualité.
+Le prix constitue le premier argument de la MG4. Elle est proposée à partir d'environ 27 990 euros en version Standard avec batterie de 51 kWh, écologique. La version Comfort avec batterie de 64 kWh s'affiche aux alentours de 31 990 euros, tandis que la Luxury culmine à environ 35 990 euros. Il existe aussi une version Extended Range de 77 kWh pour les gros rouleurs. Avant l'instauration du score environnemental, quand elle était éligible au bonus écologique, la MG4 descendait sous la barre des 25 000 euros.
 
 La Nissan Leaf débute à environ 33 900 euros en finition Acenta avec la batterie de 40 kWh. La version e+ avec batterie de 62 kWh démarre autour de 38 400 euros. La finition Tekna la mieux équipée dépasse les 40 000 euros. L'écart de prix est donc considérable en faveur de la MG4, qui offre plus de batterie pour moins d'argent. Même en prenant en compte les promotions régulières que Nissan propose sur la Leaf, le rapport contenance batterie par euro investi reste nettement favorable à la MG4.
 
@@ -2891,17 +2893,17 @@ Pour les amateurs de conduite, la MG4 est clairement plus amusante et plus impli
 
 ## Fabrication et aides à l'achat
 
-La MG4 est fabriquée en Chine par SAIC Motor, le propriétaire de la marque MG. Cette origine de fabrication a des conséquences directes sur l'éligibilité au bonus écologique en France. Suite à l'introduction du score environnemental, la MG4 a perdu son éligibilité au bonus écologique maximal. Cependant, MG a mis en place des offres commerciales agressives pour compenser cette perte, avec des remises concessionnaires importantes.
+La MG4 est fabriquée en Chine par SAIC Motor, le propriétaire de la marque MG. Cette origine de fabrication a des conséquences directes sur l'éligibilité à la prime coup de pouce CEE en France. Suite à l'introduction du score environnemental, la MG4 a perdu son éligibilité au bonus écologique, et elle n'ouvre pas droit non plus à la prime coup de pouce CEE qui l'a remplacé. Cependant, MG a mis en place des offres commerciales agressives pour compenser cette perte, avec des remises concessionnaires importantes.
 
-La Nissan Leaf est assemblée à l'usine de Sunderland au Royaume-Uni. Sa fabrication européenne lui permet de bénéficier d'un score environnemental favorable et de l'éligibilité au bonus écologique français. La Leaf peut ainsi prétendre au bonus maximal, ce qui réduit significativement l'écart de prix avec la MG4.
+La Nissan Leaf est assemblée à l'usine de Sunderland au Royaume-Uni. Sa fabrication européenne lui permet de bénéficier d'un score environnemental favorable et de l'éligibilité à la prime coup de pouce CEE. La Leaf peut ainsi prétendre à la prime coup de pouce CEE, ce qui réduit l'écart de prix avec la MG4.
 
-Les deux véhicules peuvent bénéficier de la prime à la conversion et des aides régionales. Le calcul final dépend de votre situation personnelle, mais il est important de vérifier l'éligibilité au bonus au moment de l'achat, car les règles évoluent régulièrement.
+La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe} ; renseignez-vous sur les aides de votre collectivité. Le calcul final dépend de votre situation personnelle, mais il est important de vérifier l'éligibilité à la prime coup de pouce CEE au moment de l'achat, car les règles évoluent régulièrement.
 
 ## Verdict : MG4 ou Nissan Leaf ?
 
 La MG4 l'emporte sur la majorité des critères objectifs : prix facial plus bas, meilleure autonomie, recharge plus rapide et plus compatible avec le réseau actuel, design plus moderne, conduite plus dynamique et technologie plus récente. La Nissan Leaf conserve des atouts comme un coffre plus spacieux, le système e-Pedal apprécié des utilisateurs, une fabrication européenne favorable aux aides, et une fiabilité démontrée par des années de commercialisation.
 
-Pour un acheteur pragmatique en 2026, la MG4 représente le meilleur rapport qualité-prix du segment électrique. Sa modernité technique et son agrément de conduite en font un choix difficile à contester. La Leaf reste une option valable pour ceux qui privilégient la fiabilité éprouvée, le coffre généreux et les aides maximales, mais elle montre son âge face à la concurrence et attend impatiemment sa remplaçante.`,
+Pour un acheteur pragmatique en 2026, la MG4 représente le meilleur rapport qualité-prix du segment électrique. Sa modernité technique et son agrément de conduite en font un choix difficile à contester. La Leaf reste une option valable pour ceux qui privilégient la fiabilité éprouvée, le coffre généreux et l'éligibilité à la prime coup de pouce CEE, mais elle montre son âge face à la concurrence et attend impatiemment sa remplaçante.`,
   },
   {
     slug: "peugeot-e-308-vs-renault-megane-e-tech",
@@ -2966,11 +2968,11 @@ Les amateurs de conduite sportive choisiront la Mégane sans hésiter. Ceux qui 
 
 ## Fabrication et aides à l'achat
 
-La Peugeot e-308 est fabriquée à l'usine de Mulhouse en France. Cette production hexagonale garantit un excellent score environnemental et une éligibilité complète au bonus écologique français. Les batteries sont fournies par ACC, la co-entreprise de Stellantis, Mercedes et TotalEnergies, dont la gigafactory de Billy-Berclau dans le Pas-de-Calais produit des cellules de plus en plus localisées.
+La Peugeot e-308 est fabriquée à l'usine de Mulhouse en France. Cette production hexagonale garantit un excellent score environnemental et l'éligibilité à la prime coup de pouce CEE. Les batteries sont fournies par ACC, la co-entreprise de Stellantis, Mercedes et TotalEnergies, dont la gigafactory de Billy-Berclau dans le Pas-de-Calais produit des cellules de plus en plus localisées.
 
-La Renault Mégane E-Tech est assemblée à Douai dans les Hauts-de-France, également en France. Elle bénéficie du même avantage en termes de score environnemental et d'éligibilité au bonus. Les deux véhicules sont donc à égalité sur ce critère, ce qui est logique puisqu'ils sont tous deux des produits de constructeurs français fabriqués sur le sol national.
+La Renault Mégane E-Tech est assemblée à Douai dans les Hauts-de-France, également en France. Elle bénéficie du même avantage en termes de score environnemental et d'éligibilité à la prime. Les deux véhicules sont donc à égalité sur ce critère, ce qui est logique puisqu'ils sont tous deux des produits de constructeurs français fabriqués sur le sol national.
 
-Les deux modèles sont éligibles au bonus écologique, à la prime à la conversion et aux aides régionales. Le montant final des aides dépend du prix catalogue et des revenus du foyer fiscal. Avec des prix d'entrée inférieurs à 47 000 euros, les deux voitures restent dans la fourchette d'éligibilité au bonus maximal.
+Les deux modèles sont éligibles à la prime coup de pouce CEE ; la prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}. Le montant final des aides dépend du prix catalogue et des revenus du foyer fiscal. Avec des prix d'entrée inférieurs à ${eur(COUP_DE_POUCE.prixMaxTTC)}, les deux voitures restent sous le plafond de la prime.
 
 ## Verdict : e-308 ou Mégane E-Tech ?
 
@@ -3045,9 +3047,9 @@ La MG4 est plus fun à conduire, l'Astra Electric est plus confortable. Ce sont 
 
 ## Fabrication et aides à l'achat
 
-La MG4 est produite en Chine par SAIC Motor. Suite à l'introduction du score environnemental européen, son éligibilité au bonus écologique français a été remise en question. Les droits de douane supplémentaires imposés par l'Union européenne sur les véhicules électriques chinois ont également impacté le prix final. Cependant, MG compense par des remises commerciales régulières et des offres de financement attractives.
+La MG4 est produite en Chine par SAIC Motor. Suite à l'introduction du score environnemental européen, son éligibilité à la prime coup de pouce CEE a été remise en question. Les droits de douane supplémentaires imposés par l'Union européenne sur les véhicules électriques chinois ont également impacté le prix final. Cependant, MG compense par des remises commerciales régulières et des offres de financement attractives.
 
-L'Opel Astra Electric est fabriquée à l'usine de Rüsselsheim en Allemagne. Sa production européenne lui garantit un score environnemental favorable et une pleine éligibilité au bonus écologique français. L'Astra peut ainsi prétendre à l'intégralité des aides disponibles, ce qui réduit sensiblement l'écart de prix avec la MG4. En ajoutant le bonus maximal et la prime à la conversion, l'Astra Electric peut devenir plus compétitive qu'il n'y paraît au premier abord.
+L'Opel Astra Electric est fabriquée à l'usine de Rüsselsheim en Allemagne. Sa production européenne lui garantit un score environnemental favorable et une pleine éligibilité à la prime coup de pouce CEE. L'Astra peut ainsi prétendre à l'intégralité des aides disponibles, ce qui réduit sensiblement l'écart de prix avec la MG4. En ajoutant la prime coup de pouce CEE, l'Astra Electric peut devenir plus compétitive qu'il n'y paraît au premier abord.
 
 Les acheteurs soucieux de l'empreinte carbone totale du véhicule, incluant la fabrication et le transport, pourront préférer l'Astra pour son bilan environnemental plus favorable lié à sa production locale.
 
@@ -3124,9 +3126,9 @@ La Born est la gagnante incontestable en agrément de conduite. C'est l'une des 
 
 La BYD Dolphin Surf est fabriquée en Chine, ce qui a des implications sur son éligibilité aux aides françaises. Avec l'introduction du score environnemental et les droits de douane européens sur les véhicules chinois, BYD fait face à des obstacles réglementaires qui peuvent augmenter le prix final ou réduire les subventions disponibles. BYD a cependant annoncé la construction d'une usine en Hongrie qui pourrait à terme produire des véhicules éligibles aux aides européennes.
 
-La Cupra Born est produite à l'usine Volkswagen de Zwickau en Allemagne. Sa fabrication européenne lui garantit une éligibilité complète au bonus écologique français et un score environnemental favorable. La Born bénéficie ainsi du bonus maximal et des différentes primes disponibles, ce qui peut réduire significativement l'écart de prix avec la Dolphin Surf.
+La Cupra Born est produite à l'usine Volkswagen de Zwickau en Allemagne. Sa fabrication européenne lui ouvre la prime coup de pouce CEE et lui assure un score environnemental favorable. La prime peut réduire significativement l'écart de prix avec la Dolphin Surf, qui n'y ouvre pas droit.
 
-L'éligibilité aux aides est un facteur déterminant dans ce comparatif. Après application du bonus écologique sur la Born et son absence sur la Dolphin Surf, les deux voitures peuvent se retrouver au même prix, voire la Born peut devenir moins chère dans certaines configurations.
+L'éligibilité aux aides est un facteur déterminant dans ce comparatif. Une fois la prime déduite sur la Born, et en son absence sur la Dolphin Surf, les deux voitures peuvent se retrouver au même prix, voire la Born peut devenir moins chère selon l'offre obtenue.
 
 ## Verdict : BYD Dolphin Surf ou Cupra Born ?
 
@@ -3203,7 +3205,7 @@ La MG4 plaira aux conducteurs qui recherchent le plaisir de conduite, l'EV3 conv
 
 La MG4 est fabriquée en Chine, ce qui pénalise son éligibilité aux aides françaises depuis l'introduction du score environnemental. Les droits de douane européens supplémentaires peuvent aussi impacter le prix. MG compense par des offres commerciales régulières.
 
-La Kia EV3 est produite en Corée du Sud. Son score environnemental est plus favorable que celui des véhicules chinois, mais moins avantageux que celui des véhicules fabriqués en Europe. L'éligibilité au bonus écologique dépend des évolutions réglementaires en cours. La garantie de 7 ans constitue un filet de sécurité remarquable qui pèse dans l'équation financière globale.
+La Kia EV3 est produite en Corée du Sud. Son score environnemental est plus favorable que celui des véhicules chinois, mais moins avantageux que celui des véhicules fabriqués en Europe. L'éligibilité à la prime coup de pouce CEE dépend des évolutions réglementaires en cours. La garantie de 7 ans constitue un filet de sécurité remarquable qui pèse dans l'équation financière globale.
 
 Les deux véhicules naviguent dans un environnement réglementaire incertain concernant les aides. Il est essentiel de vérifier l'éligibilité au moment de l'achat.
 
@@ -3278,11 +3280,11 @@ La Renault 4 est plus vive et plus dynamique, la ë-C3 Aircross est plus confort
 
 ## Fabrication et aides à l'achat
 
-La Renault 4 E-Tech est assemblée à l'usine de Maubeuge dans les Hauts-de-France. Cette production française garantit un excellent score environnemental et une éligibilité totale aux aides françaises. Le bonus écologique s'applique pleinement, ce qui peut faire descendre le prix d'entrée sous la barre des 25 000 euros, un seuil psychologique important.
+La Renault 4 E-Tech est assemblée à l'usine de Maubeuge dans les Hauts-de-France. Cette production française garantit un excellent score environnemental et une éligibilité totale aux aides françaises. La prime coup de pouce CEE s'applique, ce qui rapproche le prix d'entrée de la barre des 25 000 euros, un seuil psychologique important.
 
-La Citroën ë-C3 Aircross est produite à l'usine de Trnava en Slovaquie, au sein de l'Union européenne. Sa fabrication européenne lui assure un bon score environnemental et l'éligibilité au bonus écologique. Certains composants, notamment les batteries, peuvent provenir de fournisseurs hors Europe, ce qui pourrait affecter le score mais sans remettre en cause l'éligibilité au bonus.
+La Citroën ë-C3 Aircross est produite à l'usine de Trnava en Slovaquie, au sein de l'Union européenne. Sa fabrication européenne lui assure un bon score environnemental et l'éligibilité à la prime coup de pouce CEE. Certains composants, notamment les batteries, peuvent provenir de fournisseurs hors Europe, ce qui pourrait affecter le score mais sans remettre en cause l'éligibilité à la prime coup de pouce CEE.
 
-Les deux véhicules fabriqués en Europe bénéficient des aides maximales, ce qui les rend encore plus compétitifs face aux alternatives chinoises. Le leasing social, quand il est proposé, peut rendre ces modèles accessibles à des mensualités très basses, favorisant la démocratisation de l'électrique.
+Les deux véhicules fabriqués en Europe ouvrent droit à la prime coup de pouce CEE, ce qui les rend encore plus compétitifs face aux alternatives chinoises. Le leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus), pour les modèles de sa liste, peut aussi favoriser la démocratisation de l'électrique.
 
 ## Verdict : Renault 4 E-Tech ou Citroën ë-C3 Aircross ?
 
@@ -3357,11 +3359,11 @@ L'EX30 est légèrement plus dynamique que le Smart #1 grâce à son poids infé
 
 ## Fabrication et aides à l'achat
 
-Le Volvo EX30 est fabriqué en Chine, à l'usine de Geely à Taizhou. Malgré la marque suédoise, cette origine de production a des conséquences sur le score environnemental et l'éligibilité aux aides françaises. Volvo a annoncé le transfert progressif de la production en Belgique, à l'usine de Gand, ce qui pourrait améliorer la situation à terme. En attendant, l'éligibilité au bonus est incertaine et dépend des évolutions réglementaires.
+Le Volvo EX30 est fabriqué en Chine, à l'usine de Geely à Taizhou. Malgré la marque suédoise, cette origine de production a des conséquences sur le score environnemental et l'éligibilité aux aides françaises. Volvo a annoncé le transfert progressif de la production en Belgique, à l'usine de Gand, ce qui pourrait améliorer la situation à terme. En attendant, l'éligibilité à la prime coup de pouce CEE est incertaine et dépend des évolutions réglementaires.
 
-Le Smart #1 est également fabriqué en Chine, dans l'usine de la coentreprise Geely-Mercedes à Xian. Il rencontre les mêmes problématiques d'éligibilité aux aides que l'EX30. Les deux véhicules sont donc à égalité sur ce critère, ce qui signifie que le bonus écologique pourrait ne pas s'appliquer pleinement à aucun des deux.
+Le Smart #1 est également fabriqué en Chine, dans l'usine de la coentreprise Geely-Mercedes à Xian. Il rencontre les mêmes problématiques d'éligibilité aux aides que l'EX30. Les deux véhicules sont donc à égalité sur ce critère, ce qui signifie qu'aucun des deux n'ouvre droit à la prime coup de pouce CEE.
 
-L'absence potentielle de bonus écologique est un point commun qui pénalise ces deux véhicules face à des alternatives européennes. Il est indispensable de se renseigner sur l'éligibilité exacte au moment de l'achat.
+L'absence de prime coup de pouce CEE est un point commun qui pénalise ces deux véhicules face à des alternatives européennes. Il est indispensable de se renseigner sur l'éligibilité exacte au moment de l'achat.
 
 ## Verdict : Volvo EX30 ou Smart #1 ?
 
@@ -3434,17 +3436,17 @@ L'EX30 est nettement plus performant et plus dynamique que le Kona. Pour les con
 
 ## Fabrication et aides à l'achat
 
-Le Volvo EX30 est actuellement fabriqué en Chine chez Geely. Cette origine de production compromet son éligibilité au bonus écologique français. Volvo a annoncé le transfert de la production vers l'usine de Gand en Belgique, mais le calendrier exact reste à confirmer. En attendant, les acheteurs français peuvent se retrouver sans bonus.
+Le Volvo EX30 est actuellement fabriqué en Chine chez Geely. Cette origine de production compromet son éligibilité à la prime coup de pouce CEE. Volvo a annoncé le transfert de la production vers l'usine de Gand en Belgique, mais le calendrier exact reste à confirmer. En attendant, les acheteurs français ne peuvent pas compter sur la prime coup de pouce CEE.
 
-Le Hyundai Kona Electric est assemblé en République tchèque, à l'usine de Nosovice. Cette fabrication européenne garantit un bon score environnemental et l'éligibilité au bonus écologique français. Le Kona peut ainsi prétendre au bonus maximal et aux différentes aides locales. La garantie de 5 ans du véhicule et 8 ans sur la batterie est un filet de sécurité appréciable.
+Le Hyundai Kona Electric est assemblé en République tchèque, à l'usine de Nosovice. Cette fabrication européenne garantit un bon score environnemental et l'éligibilité à la prime coup de pouce CEE. Le Kona peut ainsi prétendre à la prime coup de pouce CEE. La garantie de 5 ans du véhicule et 8 ans sur la batterie est un filet de sécurité appréciable.
 
-L'éligibilité du Kona au bonus écologique est un avantage financier majeur qui peut réduire l'écart de prix avec l'EX30 ou même inverser le rapport de force. C'est un facteur décisif à prendre en compte dans le calcul du coût total.
+L'éligibilité du Kona à la prime coup de pouce CEE est un avantage financier qui peut réduire l'écart de prix avec l'EX30 ou même inverser le rapport de force. C'est un facteur décisif à prendre en compte dans le calcul du coût total.
 
 ## Verdict : Volvo EX30 ou Hyundai Kona Electric ?
 
-Ce comparatif met en lumière deux approches très différentes du SUV compact électrique. Le Volvo EX30 offre une expérience premium avec un design iconique, des performances impressionnantes, une recharge rapide efficace et une sécurité de référence. Le Hyundai Kona Electric répond avec un espace intérieur largement supérieur, un coffre de 466 litres, une meilleure autonomie maximale, le V2L et surtout l'éligibilité au bonus écologique grâce à sa fabrication européenne.
+Ce comparatif met en lumière deux approches très différentes du SUV compact électrique. Le Volvo EX30 offre une expérience premium avec un design iconique, des performances impressionnantes, une recharge rapide efficace et une sécurité de référence. Le Hyundai Kona Electric répond avec un espace intérieur largement supérieur, un coffre de 466 litres, une meilleure autonomie maximale, le V2L et surtout l'éligibilité à la prime coup de pouce CEE grâce à sa fabrication européenne.
 
-Pour un couple sans enfants qui cherche un véhicule premium compact et performant, l'EX30 est un bijou de design et d'agrément de conduite. Pour une famille qui a besoin d'espace et de polyvalence, le Kona Electric est le choix rationnel et financièrement plus avantageux. En prenant en compte le bonus écologique, le Kona peut devenir sensiblement moins cher que l'EX30 tout en offrant plus d'espace et d'autonomie, un rapport qualité-prix difficile à battre.`,
+Pour un couple sans enfants qui cherche un véhicule premium compact et performant, l'EX30 est un bijou de design et d'agrément de conduite. Pour une famille qui a besoin d'espace et de polyvalence, le Kona Electric est le choix rationnel et financièrement plus avantageux. Une fois la prime déduite, le Kona peut devenir sensiblement moins cher que l'EX30 tout en offrant plus d'espace et d'autonomie, un rapport qualité-prix difficile à battre.`,
   },
   {
     slug: "toyota-bz4x-vs-nissan-ariya",
@@ -3511,11 +3513,11 @@ Les deux véhicules sont confortables et sécurisants sans être passionnants. L
 
 ## Fabrication et aides à l'achat
 
-Le Toyota bZ4X est fabriqué au Japon, à l'usine de Motomachi. Sa fabrication japonaise lui assure un score environnemental favorable pour l'éligibilité au bonus écologique en France. Cependant, le prix élevé du véhicule peut limiter l'accès au bonus maximal si le seuil de prix est dépassé sur certaines finitions. Toyota propose des offres de leasing qui incluent la maintenance et l'assurance batterie.
+Le Toyota bZ4X est fabriqué au Japon, à l'usine de Motomachi. Sa fabrication japonaise lui assure un score environnemental favorable pour l'éligibilité à la prime coup de pouce CEE en France. Cependant, le prix élevé du véhicule peut l'exclure de la prime coup de pouce CEE si le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} est dépassé sur certaines finitions. Toyota propose des offres de leasing qui incluent la maintenance et l'assurance batterie.
 
-Le Nissan Ariya est produit à l'usine de Tochigi au Japon. Les mêmes conditions d'éligibilité s'appliquent : fabrication hors Europe mais dans un pays à haut niveau environnemental, ce qui assure un score correct. Les versions à plus de 47 000 euros perdent l'éligibilité au bonus maximal. Nissan propose une garantie de 5 ans ou 100 000 km et une garantie spécifique batterie de 8 ans ou 160 000 km.
+Le Nissan Ariya est produit à l'usine de Tochigi au Japon. Les mêmes conditions d'éligibilité s'appliquent : fabrication hors Europe mais dans un pays à haut niveau environnemental, ce qui assure un score correct. Les versions à plus de ${eur(COUP_DE_POUCE.prixMaxTTC)} n'ouvrent pas droit à la prime coup de pouce CEE. Nissan propose une garantie de 5 ans ou 100 000 km et une garantie spécifique batterie de 8 ans ou 160 000 km.
 
-Les deux véhicules sont dans une situation comparable en termes d'aides. Leur positionnement tarifaire élevé les pénalise par rapport aux compactes électriques moins chères qui bénéficient pleinement du bonus.
+Les deux véhicules sont dans une situation comparable en termes d'aides. Leur positionnement tarifaire élevé les pénalise par rapport aux compactes électriques moins chères qui ouvrent droit à la prime coup de pouce CEE.
 
 ## Verdict : Toyota bZ4X ou Nissan Ariya ?
 
@@ -3588,7 +3590,7 @@ L'Ioniq 5 offre une palette plus large de comportements grâce à ses multiples 
 
 ## Fabrication et aides à l'achat
 
-Le Nissan Ariya est fabriqué au Japon, à l'usine de Tochigi. Sa fabrication japonaise lui assure un score environnemental correct mais pas optimal par rapport aux véhicules produits en Europe. L'éligibilité au bonus dépend du prix de la version choisie. La garantie Nissan est de 5 ans ou 100 000 km avec 8 ans ou 160 000 km sur la batterie.
+Le Nissan Ariya est fabriqué au Japon, à l'usine de Tochigi. Sa fabrication japonaise lui assure un score environnemental correct mais pas optimal par rapport aux véhicules produits en Europe. L'éligibilité à la prime coup de pouce CEE dépend du prix de la version choisie. La garantie Nissan est de 5 ans ou 100 000 km avec 8 ans ou 160 000 km sur la batterie.
 
 Le Hyundai Ioniq 5 est assemblé en Corée du Sud et également en République tchèque pour le marché européen. La production européenne à Nosovice assure un bon score environnemental et une meilleure éligibilité aux aides. La garantie Hyundai de 5 ans kilométrage illimité est l'une des plus généreuses du marché, complétée par 8 ans ou 160 000 km sur la batterie.
 
@@ -3665,7 +3667,7 @@ Le Mokka est légèrement plus dynamique, le DS 3 est légèrement plus conforta
 
 ## Fabrication et aides à l'achat
 
-L'Opel Mokka Electric est fabriqué à l'usine PSA de Poissy en France. Cette production française garantit un excellent score environnemental et une éligibilité maximale au bonus écologique. Le Mokka peut prétendre à toutes les aides disponibles, du bonus à la prime à la conversion en passant par les aides régionales.
+L'Opel Mokka Electric est fabriqué à l'usine PSA de Poissy en France. Cette production garantit un excellent score environnemental et l'éligibilité à la prime coup de pouce CEE. Le Mokka peut prétendre à la prime coup de pouce CEE et aux éventuelles aides de votre collectivité.
 
 Le DS 3 E-Tense est également produit à l'usine de Poissy en France, la même usine que le Mokka. Les conditions d'éligibilité aux aides sont donc strictement identiques. Les deux véhicules bénéficient du même score environnemental et des mêmes avantages en termes de subventions.
 
@@ -3740,11 +3742,11 @@ Le MG S5 EV est légèrement plus dynamique et offre plus de choix de motorisati
 
 ## Fabrication et aides à l'achat
 
-Le MG S5 EV est fabriqué en Chine par SAIC Motor. Cette origine de production l'expose aux droits de douane européens sur les véhicules électriques chinois et peut compromettre son éligibilité au bonus écologique français. MG travaille sur des solutions pour contourner ces obstacles, incluant l'assemblage possible en Europe à terme. En attendant, les offres commerciales et les remises compensent partiellement l'absence de bonus.
+Le MG S5 EV est fabriqué en Chine par SAIC Motor. Cette origine de production l'expose aux droits de douane européens sur les véhicules électriques chinois et peut compromettre son éligibilité à la prime coup de pouce CEE. MG travaille sur des solutions pour contourner ces obstacles, incluant l'assemblage possible en Europe à terme. En attendant, les offres commerciales et les remises compensent partiellement l'absence de prime.
 
 Le Leapmotor B10 est également fabriqué en Chine, mais le partenariat avec Stellantis pourrait permettre un assemblage en Europe à moyen terme. Stellantis a annoncé la possibilité de produire des véhicules Leapmotor dans ses usines européennes, ce qui résoudrait la question du score environnemental. En attendant, le B10 fait face aux mêmes défis que le MG S5 EV en termes d'éligibilité aux aides.
 
-Les deux véhicules sont dans la même situation vis-à-vis des aides. Le prix de base très agressif des deux modèles compense en partie l'absence potentielle de bonus, mais il est crucial de vérifier les conditions au moment de l'achat.
+Les deux véhicules sont dans la même situation vis-à-vis des aides. Le prix de base très agressif des deux modèles compense en partie l'absence de prime CEE, mais il est crucial de vérifier les conditions au moment de l'achat.
 
 ## Verdict : MG S5 EV ou Leapmotor B10 ?
 
@@ -3817,11 +3819,11 @@ L'Atto 3 offre des performances supérieures et un comportement routier légère
 
 ## Fabrication et aides à l'achat
 
-Le BYD Atto 3 est fabriqué en Chine, dans l'une des gigafactories de BYD. Sa fabrication chinoise l'expose aux droits de douane européens et peut compromettre son éligibilité au bonus écologique français selon le score environnemental en vigueur. BYD travaille à l'installation de capacités de production en Europe pour contourner ces obstacles.
+Le BYD Atto 3 est fabriqué en Chine, dans l'une des gigafactories de BYD. Sa fabrication chinoise l'expose aux droits de douane européens et peut compromettre son éligibilité à la prime coup de pouce CEE selon le score environnemental en vigueur. BYD travaille à l'installation de capacités de production en Europe pour contourner ces obstacles.
 
 Le MG ZS EV est également fabriqué en Chine par SAIC Motor. Il fait face aux mêmes défis réglementaires que l'Atto 3. L'avantage de MG réside dans son implantation plus ancienne sur le marché européen et un réseau de distribution plus développé, ce qui facilite le service après-vente et la gestion des garanties.
 
-Les deux véhicules sont dans la même situation pour les aides. Le prix facial inférieur du ZS EV compense potentiellement l'absence de bonus, tandis que l'Atto 3 a plus besoin du bonus pour être compétitif.
+Les deux véhicules sont dans la même situation pour les aides. Le prix facial inférieur du ZS EV compense potentiellement l'absence de prime, que ni l'un ni l'autre ne perçoit.
 
 ## Verdict : BYD Atto 3 ou MG ZS EV ?
 
@@ -3894,11 +3896,11 @@ Le BMW est le choix des conducteurs engagés qui apprécient le plaisir de condu
 
 ## Fabrication et aides à l'achat
 
-Le Volvo EX40 est fabriqué à l'usine de Gand en Belgique, au sein de l'Union européenne. Cette production européenne garantit un excellent score environnemental et une éligibilité complète au bonus écologique français. La fabrication belge est un argument solide pour les acheteurs soucieux de l'empreinte environnementale et de l'éligibilité aux aides.
+Le Volvo EX40 est fabriqué à l'usine de Gand en Belgique, au sein de l'Union européenne. Cette production européenne garantit un excellent score environnemental et l'éligibilité à la prime coup de pouce CEE. La fabrication belge est un argument solide pour les acheteurs soucieux de l'empreinte environnementale et de l'éligibilité aux aides.
 
 Le BMW iX1 est produit à l'usine de Regensburg en Allemagne. Sa fabrication allemande assure également un excellent score environnemental et une éligibilité totale aux aides françaises. BMW est aussi réputé pour la qualité de fabrication de ses usines allemandes.
 
-Les deux véhicules sont fabriqués en Europe et bénéficient des mêmes avantages en termes d'aides. Cependant, leur prix de base supérieur à 45 000 euros peut limiter l'accès au bonus écologique si le seuil est abaissé. Vérifiez les conditions en vigueur au moment de l'achat.
+Les deux véhicules sont fabriqués en Europe et bénéficient des mêmes avantages en termes d'aides. Cependant, leur prix de base supérieur à 45 000 euros peut limiter l'accès à la prime coup de pouce CEE si le seuil est abaissé. Vérifiez les conditions en vigueur au moment de l'achat.
 
 ## Verdict : Volvo EX40 ou BMW iX1 ?
 
@@ -3971,11 +3973,11 @@ Le BMW est plus sportif et plus engageant, l'Audi est plus confortable et plus p
 
 ## Fabrication et aides à l'achat
 
-Le BMW iX1 est fabriqué à Regensburg en Allemagne. Sa production européenne garantit un bon score environnemental et l'éligibilité au bonus écologique français, sous réserve de respecter le plafond de prix en vigueur. Les finitions haut de gamme fortement optionnées peuvent dépasser le seuil d'éligibilité.
+Le BMW iX1 est fabriqué à Regensburg en Allemagne. Sa production européenne garantit un bon score environnemental et l'éligibilité à la prime coup de pouce CEE, sous réserve de respecter le plafond de prix en vigueur. Les finitions haut de gamme fortement optionnées peuvent dépasser le seuil d'éligibilité.
 
-L'Audi Q4 e-tron est produit à l'usine Volkswagen de Zwickau en Allemagne, la même qui fabrique l'ID.3 et l'ID.4. Sa fabrication allemande assure les mêmes avantages en termes de score environnemental. Le prix de base de la version 35 e-tron inférieur à 47 000 euros est compatible avec le bonus écologique, un avantage sur le BMW dont le prix de base est plus élevé.
+L'Audi Q4 e-tron est produit à l'usine Volkswagen de Zwickau en Allemagne, la même qui fabrique l'ID.3 et l'ID.4. Sa fabrication allemande assure les mêmes avantages en termes de score environnemental. Le prix de base de la version 35 e-tron, s'il reste sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)}, est compatible avec la prime coup de pouce CEE, un avantage sur le BMW dont le prix de base est plus élevé.
 
-L'Audi Q4 35 e-tron est mieux positionnée pour bénéficier du bonus écologique grâce à son prix d'entrée plus bas. C'est un avantage financier qui peut représenter plusieurs milliers d'euros d'économie.
+L'Audi Q4 35 e-tron est mieux positionnée pour ouvrir droit à la prime coup de pouce CEE grâce à son prix d'entrée plus bas. C'est un avantage financier qui peut représenter plusieurs milliers d'euros d'économie.
 
 ## Verdict : BMW iX1 ou Audi Q4 e-tron ?
 
@@ -4050,11 +4052,11 @@ Le BMW est indéniablement plus sportif et plus plaisant à conduire de manière
 
 ## Fabrication et aides à l'achat
 
-Le BMW iX1 est fabriqué à Regensburg en Allemagne. Sa production allemande garantit un excellent score environnemental et l'éligibilité au bonus écologique français, sous réserve de respecter le plafond de prix. Avec un prix de base de 46 750 euros, il entre dans la fourchette d'éligibilité.
+Le BMW iX1 est fabriqué à Regensburg en Allemagne. Sa production allemande garantit un excellent score environnemental et l'éligibilité à la prime coup de pouce CEE, sous réserve de respecter le plafond de prix. Avec un prix de base de 46 750 euros, il entre dans la fourchette d'éligibilité.
 
-Le Mercedes EQA est assemblé à l'usine de Rastatt en Allemagne. Les mêmes conditions d'éligibilité s'appliquent. Le prix de base du EQA à 49 950 euros est plus proche du plafond, ce qui peut limiter le bonus disponible selon les critères en vigueur. Mercedes propose le programme Mercedes me Charge qui simplifie l'accès à plus de 300 000 bornes en Europe.
+Le Mercedes EQA est assemblé à l'usine de Rastatt en Allemagne. Les mêmes conditions d'éligibilité s'appliquent. Le prix de base du EQA à 49 950 euros dépasse le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE. Mercedes propose le programme Mercedes me Charge qui simplifie l'accès à plus de 300 000 bornes en Europe.
 
-Les deux véhicules sont fabriqués en Allemagne et éligibles aux aides dans des conditions similaires. Le prix inférieur du BMW lui donne un avantage marginal pour maximiser le bénéfice du bonus.
+Les deux véhicules sont fabriqués en Allemagne et éligibles aux aides dans des conditions similaires. Les deux dépassant le plafond de la prime, aucun ne prend l'avantage sur ce point.
 
 ## Verdict : BMW iX1 ou Mercedes EQA ?
 
@@ -4127,15 +4129,15 @@ Le Smart #1 est plus puissant en version de base et offre des performances brute
 
 ## Fabrication et aides à l'achat
 
-Le Smart #1 est fabriqué en Chine, dans l'usine de la coentreprise Geely-Mercedes à Xian. Cette origine de production peut compromettre son éligibilité au bonus écologique français. Le score environnemental est pénalisé par la fabrication hors Europe et l'acheminement par bateau.
+Le Smart #1 est fabriqué en Chine, dans l'usine de la coentreprise Geely-Mercedes à Xian. Cette origine de production peut compromettre son éligibilité à la prime coup de pouce CEE. Le score environnemental est pénalisé par la fabrication hors Europe et l'acheminement par bateau.
 
-Le Mini Countryman SE est fabriqué à l'usine BMW de Leipzig en Allemagne. Sa production européenne garantit un excellent score environnemental et une éligibilité complète au bonus écologique. C'est un avantage financier majeur qui peut représenter plusieurs milliers d'euros d'économie par rapport au Smart #1.
+Le Mini Countryman SE est fabriqué à l'usine BMW de Leipzig en Allemagne. Sa production européenne garantit un excellent score environnemental et l'éligibilité à la prime coup de pouce CEE. C'est un avantage financier majeur qui peut représenter plusieurs milliers d'euros d'économie par rapport au Smart #1.
 
-L'éligibilité du Countryman au bonus alors que le Smart #1 en est potentiellement exclu est un facteur déterminant. Après application du bonus, le Countryman peut se retrouver au même prix, voire moins cher que le Smart #1, ce qui change radicalement le rapport de force.
+L'éligibilité du Countryman à la prime coup de pouce CEE, alors que le Smart #1 en est exclu, est un facteur déterminant. Une fois la prime déduite, le Countryman peut se retrouver au même prix, voire moins cher que le Smart #1, selon l'offre obtenue.
 
 ## Verdict : Smart #1 ou Mini Countryman SE ?
 
-Ce comparatif entre deux SUV compacts à forte personnalité aboutit à un verdict en faveur du Mini Countryman SE pour la majorité des acheteurs. Son coffre considérablement plus grand, son habitabilité supérieure, son agrément de conduite typé go-kart, sa fabrication européenne éligible au bonus et la force de l'écosystème BMW constituent un ensemble d'arguments massif.
+Ce comparatif entre deux SUV compacts à forte personnalité aboutit à un verdict en faveur du Mini Countryman SE pour la majorité des acheteurs. Son coffre considérablement plus grand, son habitabilité supérieure, son agrément de conduite typé go-kart, sa fabrication européenne éligible à la prime coup de pouce CEE et la force de l'écosystème BMW constituent un ensemble d'arguments massif.
 
 Le Smart #1 conserve des atouts séduisants : un prix facial inférieur, une puissance moteur supérieure en version de base, des performances de pointe avec la version Brabus et un design futuriste original. Mais son coffre de 313 litres et sa fabrication chinoise le pénalisent lourdement. Le Smart #1 est le choix du coeur pour les amateurs de design et de performances, le Mini Countryman SE est le choix de la raison pour ceux qui veulent un véhicule complet et polyvalent avec le charme unique de Mini.`,
   },
@@ -4206,17 +4208,17 @@ Les conducteurs sportifs préféreront la Tesla, tandis que ceux qui privilégie
 
 ## Fabrication et aides à l'achat
 
-La Tesla Model 3 est fabriquée à l'usine de Shanghai pour le marché européen. Cette provenance chinoise a des implications sur les aides à l'achat en France. En 2026, les véhicules produits en Chine sont exclus du bonus écologique en raison du score environnemental insuffisant. La Model 3 ne bénéficie donc plus du bonus de 4 000 euros, ce qui augmente son coût effectif pour les acheteurs français. Elle reste éligible à la prime à la conversion sous conditions de revenus.
+La Tesla Model 3 est fabriquée à l'usine de Shanghai pour le marché européen. Cette provenance chinoise a des implications sur les aides à l'achat en France. En 2026, les véhicules produits en Chine sont exclus de la prime coup de pouce CEE en raison du score environnemental insuffisant. La Model 3 n'ouvre donc pas droit à la prime coup de pouce CEE, ce qui augmente son coût effectif pour les acheteurs français. La prime à la conversion, elle, a été supprimée le ${PRIME_CONVERSION.supprimeeLe}.
 
-La Hyundai Ioniq 6 est assemblée à l'usine d'Asan en Corée du Sud. Elle est éligible au bonus écologique de 4 000 euros en France en 2026, ce qui réduit significativement le prix d'achat. Cette éligibilité constitue un avantage financier concret qui rend la comparaison tarifaire plus favorable à la coréenne. La Ioniq 6 bénéficie également de la garantie 5 ans kilométrage illimité de Hyundai, contre 4 ans chez Tesla, et d'une garantie batterie de 8 ans ou 160 000 km.
+La Hyundai Ioniq 6 est assemblée à l'usine d'Asan en Corée du Sud. Elle est éligible à la prime coup de pouce CEE en France en 2026, ce qui réduit significativement le prix d'achat. Cette éligibilité constitue un avantage financier concret qui rend la comparaison tarifaire plus favorable à la coréenne. La Ioniq 6 bénéficie également de la garantie 5 ans kilométrage illimité de Hyundai, contre 4 ans chez Tesla, et d'une garantie batterie de 8 ans ou 160 000 km.
 
-L'avantage financier lié au bonus écologique et la garantie plus étendue font pencher la balance en faveur de l'Ioniq 6 pour les acheteurs soucieux du coût total de possession.
+L'avantage financier lié à la prime coup de pouce CEE et la garantie plus étendue font pencher la balance en faveur de l'Ioniq 6 pour les acheteurs soucieux du coût total de possession.
 
 ## Verdict : Tesla Model 3 ou Hyundai Ioniq 6 ?
 
 Le choix entre ces deux berlines électriques dépend fondamentalement de vos priorités. La Tesla Model 3 s'impose si vous recherchez un réseau de recharge irréprochable, un volume de coffre généreux, une conduite dynamique et l'écosystème logiciel le plus avancé du marché. Elle convient particulièrement aux technophiles et aux conducteurs qui parcourent régulièrement de longues distances.
 
-La Hyundai Ioniq 6 est le meilleur choix si vous valorisez la vitesse de recharge record, le confort de roulement, un design distinctif, l'éligibilité au bonus écologique et une garantie constructeur étendue. Elle séduira les conducteurs qui recherchent une voiture confortable et technologique sans compromis sur l'autonomie.
+La Hyundai Ioniq 6 est le meilleur choix si vous valorisez la vitesse de recharge record, le confort de roulement, un design distinctif, l'éligibilité à la prime coup de pouce CEE et une garantie constructeur étendue. Elle séduira les conducteurs qui recherchent une voiture confortable et technologique sans compromis sur l'autonomie.
 
 En définitive, ces deux véhicules sont d'excellentes berlines électriques qui méritent chacune l'attention des acheteurs. La Tesla reste la référence établie, mais la Hyundai Ioniq 6 prouve que la concurrence a rattrapé son retard et propose désormais des alternatives tout aussi convaincantes, voire supérieures sur certains aspects. Nous vous recommandons d'essayer les deux modèles avant de faire votre choix final, car l'expérience de conduite et l'ergonomie intérieure sont des critères très personnels qui ne se résument pas à des chiffres.`,
   },
@@ -4287,9 +4289,9 @@ Pour les passionnés de conduite, la BMW i4 reste la référence dans ce duel. L
 
 ## Fabrication et aides à l'achat
 
-La Tesla Model 3 destinée à l'Europe sort de l'usine de Shanghai, en Chine. Cette provenance l'exclut du bonus écologique français en 2026, qui exige un score environnemental minimal lié au bilan carbone de fabrication. L'acheteur français ne peut donc pas bénéficier des 4 000 euros de bonus, ce qui renchérit le coût effectif de la voiture.
+La Tesla Model 3 destinée à l'Europe sort de l'usine de Shanghai, en Chine. Cette provenance l'exclut de la prime coup de pouce CEE, qui exige un score environnemental minimal lié au bilan carbone de fabrication. L'acheteur français ne peut donc pas en bénéficier, ce qui renchérit le coût effectif de la voiture.
 
-La BMW i4 est fabriquée à l'usine de Munich, en Allemagne. Elle est éligible au bonus écologique en France, mais son prix catalogue dépasse le seuil de 47 000 euros pour la plupart des versions, ce qui limite voire annule l'éligibilité selon la configuration choisie. La garantie BMW est de 3 ans (souvent étendue à 5 ans via des offres promotionnelles), avec 8 ans pour la batterie haute tension. BMW propose également des contrats de leasing et des offres de location longue durée compétitives.
+La BMW i4 est fabriquée à l'usine de Munich, en Allemagne. Elle est éligible à la prime coup de pouce CEE en France, mais son prix catalogue dépasse le seuil de ${eur(COUP_DE_POUCE.prixMaxTTC)} pour la plupart des versions, ce qui limite voire annule l'éligibilité selon la configuration choisie. La garantie BMW est de 3 ans (souvent étendue à 5 ans via des offres promotionnelles), avec 8 ans pour la batterie haute tension. BMW propose également des contrats de leasing et des offres de location longue durée compétitives.
 
 Au final, ni la Tesla ni la BMW ne bénéficient pleinement des aides à l'achat dans leurs configurations les plus populaires, ce qui place les deux véhicules sur un pied d'égalité relative en matière de coût d'acquisition aidé.
 
@@ -4368,11 +4370,11 @@ La BYD Seal est plus dynamique et performante dans ses versions haut de gamme, t
 
 ## Fabrication et aides à l'achat
 
-La BYD Seal est fabriquée en Chine, à l'usine de Shenzhen. En raison du score environnemental établi par le gouvernement français, elle est exclue du bonus écologique de 4 000 euros en 2026. Cette exclusion pénalise son positionnement tarifaire agressif et réduit son avantage de prix par rapport aux concurrentes éligibles. BYD offre une garantie de 6 ans ou 150 000 km sur le véhicule et 8 ans ou 200 000 km sur la batterie, l'une des plus généreuses du marché.
+La BYD Seal est fabriquée en Chine, à l'usine de Shenzhen. En raison du score environnemental établi par le gouvernement français, elle est exclue de la prime coup de pouce CEE en 2026. Cette exclusion pénalise son positionnement tarifaire agressif et réduit son avantage de prix par rapport aux concurrentes éligibles. BYD offre une garantie de 6 ans ou 150 000 km sur le véhicule et 8 ans ou 200 000 km sur la batterie, l'une des plus généreuses du marché.
 
-La Hyundai Ioniq 6 est produite en Corée du Sud à l'usine d'Asan. Elle bénéficie du bonus écologique de 4 000 euros en France, ce qui ramène son prix d'entrée effectif sous les 43 000 euros et annule l'avantage tarifaire de la BYD. La garantie Hyundai de 5 ans kilométrage illimité est également très compétitive, avec 8 ans ou 160 000 km pour la batterie.
+La Hyundai Ioniq 6 est produite en Corée du Sud à l'usine d'Asan. Elle ouvre droit à la prime coup de pouce CEE en France, ce qui ramène son prix d'entrée effectif sous les 43 000 euros et annule l'avantage tarifaire de la BYD. La garantie Hyundai de 5 ans kilométrage illimité est également très compétitive, avec 8 ans ou 160 000 km pour la batterie.
 
-Avec le bonus écologique, l'Ioniq 6 revient au même prix que la BYD Seal, neutralisant l'argument principal de la chinoise. Ce facteur modifie significativement l'équation financière en faveur de la coréenne.
+Une fois la prime coup de pouce CEE déduite, l'Ioniq 6 se rapproche du prix de la BYD Seal, neutralisant une partie de l'argument principal de la chinoise. Ce facteur modifie significativement l'équation financière en faveur de la coréenne.
 
 ## Verdict : BYD Seal ou Hyundai Ioniq 6 ?
 
@@ -4380,7 +4382,7 @@ Ce duel entre les deux berlines asiatiques tourne à l'avantage de la Hyundai Io
 
 La BYD Seal conserve néanmoins des arguments solides : des performances dynamiques supérieures en version AWD, un design consensuel séduisant, une batterie LFP d'une grande durabilité et un prix catalogue attractif. Elle constitue un choix pertinent pour les conducteurs qui privilégient la performance et qui n'effectuent pas de très longs trajets réguliers.
 
-Pour la majorité des acheteurs français, la Hyundai Ioniq 6 nous semble le choix le plus rationnel grâce à sa meilleure autonomie, sa recharge ultra-rapide, son éligibilité au bonus et la solidité du réseau Hyundai en France. La BYD Seal mérite cependant l'essai, car elle offre un rapport prestations/prix remarquable qui pourrait faire pencher la balance pour certains profils d'utilisateurs.`,
+Pour la majorité des acheteurs français, la Hyundai Ioniq 6 nous semble le choix le plus rationnel grâce à sa meilleure autonomie, sa recharge ultra-rapide, son éligibilité à la prime coup de pouce CEE et la solidité du réseau Hyundai en France. La BYD Seal mérite cependant l'essai, car elle offre un rapport prestations/prix remarquable qui pourrait faire pencher la balance pour certains profils d'utilisateurs.`,
   },
   {
     slug: "bmw-i4-vs-polestar-2",
@@ -4449,9 +4451,9 @@ Les amateurs de conduite sportive pencheront naturellement vers la BMW i4, et pl
 
 ## Fabrication et aides à l'achat
 
-La BMW i4 est fabriquée à l'usine historique de Munich, en Allemagne. En théorie éligible au bonus écologique français, son prix catalogue dépasse le seuil de 47 000 euros dans la plupart des configurations, ce qui exclut de fait les versions les plus populaires du bénéfice de cette aide. La garantie BMW est de 3 ans, extensible via des contrats de service, avec 8 ans pour la batterie.
+La BMW i4 est fabriquée à l'usine historique de Munich, en Allemagne. En théorie éligible à la prime coup de pouce CEE, son prix catalogue dépasse le seuil de ${eur(COUP_DE_POUCE.prixMaxTTC)} dans la plupart des configurations, ce qui exclut de fait les versions les plus populaires du bénéfice de cette aide. La garantie BMW est de 3 ans, extensible via des contrats de service, avec 8 ans pour la batterie.
 
-La Polestar 2 est assemblée dans l'usine de Luqiao, en Chine. Cette production chinoise l'expose aux mêmes restrictions que d'autres véhicules produits dans ce pays concernant le score environnemental français. La Polestar 2 pourrait donc être exclue du bonus écologique de 4 000 euros, selon les évaluations en vigueur. La garantie Polestar est de 3 ans ou 100 000 km, avec la même durée de 8 ans pour la batterie.
+La Polestar 2 est assemblée dans l'usine de Luqiao, en Chine. Cette production chinoise l'expose aux mêmes restrictions que d'autres véhicules produits dans ce pays concernant le score environnemental français. La Polestar 2 pourrait donc être exclue de la prime coup de pouce CEE, selon les évaluations en vigueur. La garantie Polestar est de 3 ans ou 100 000 km, avec la même durée de 8 ans pour la batterie.
 
 Aucune des deux berlines ne bénéficie pleinement des aides à l'achat françaises, que ce soit en raison du prix (BMW) ou de l'origine de fabrication (Polestar). L'impact financier des aides est donc neutre dans ce comparatif.
 
@@ -4530,11 +4532,11 @@ Le choix entre ces deux approches est fondamental : BMW pour la sportivité et 
 
 ## Fabrication et aides à l'achat
 
-La BMW i4 sort de l'usine historique de Munich, en Allemagne. Son prix supérieur à 47 000 euros la prive du bonus écologique dans la majorité des configurations. La garantie constructeur est de 3 ans, 8 ans pour la batterie.
+La BMW i4 sort de l'usine historique de Munich, en Allemagne. Son prix supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)} la prive de la prime coup de pouce CEE dans la majorité des configurations. La garantie constructeur est de 3 ans, 8 ans pour la batterie.
 
-La Mercedes EQE est produite à l'usine de Brême, en Allemagne. Son tarif largement supérieur à 47 000 euros l'exclut totalement du bonus écologique. La garantie Mercedes est de 2 ans légale (souvent étendue via Mercedes-Benz Certified), avec 8 ans ou 160 000 km pour la batterie haute tension.
+La Mercedes EQE est produite à l'usine de Brême, en Allemagne. Son tarif largement supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)} l'exclut de la prime coup de pouce CEE. La garantie Mercedes est de 2 ans légale (souvent étendue via Mercedes-Benz Certified), avec 8 ans ou 160 000 km pour la batterie haute tension.
 
-Aucune des deux berlines ne bénéficie du bonus écologique en raison de leur positionnement tarifaire élevé. La question des aides à l'achat n'est pas déterminante dans ce comparatif haut de gamme, où les acheteurs sont moins sensibles à ces considérations.
+Aucune des deux berlines ne ouvre droit à la prime coup de pouce CEE en raison de leur positionnement tarifaire élevé. La question des aides à l'achat n'est pas déterminante dans ce comparatif haut de gamme, où les acheteurs sont moins sensibles à ces considérations.
 
 ## Verdict : BMW i4 ou Mercedes EQE ?
 
@@ -4611,11 +4613,11 @@ Les deux berlines offrent des prestations dynamiques de haut niveau. La Tesla a 
 
 ## Fabrication et aides à l'achat
 
-La NIO ET5 est fabriquée en Chine, à l'usine de Hefei. Comme tous les véhicules produits en Chine, elle est exclue du bonus écologique français de 4 000 euros en raison du score environnemental. Le modèle BaaS pose également des questions d'éligibilité aux aides, car la batterie louée n'est pas la propriété de l'acheteur. NIO offre une garantie de 5 ans pour le véhicule, avec des conditions spécifiques pour la batterie selon le mode d'acquisition choisi.
+La NIO ET5 est fabriquée en Chine, à l'usine de Hefei. Comme tous les véhicules produits en Chine, elle est exclue de la prime coup de pouce CEE français en raison du score environnemental. Le modèle BaaS pose également des questions d'éligibilité aux aides, car la batterie louée n'est pas la propriété de l'acheteur. NIO offre une garantie de 5 ans pour le véhicule, avec des conditions spécifiques pour la batterie selon le mode d'acquisition choisi.
 
-La Tesla Model 3, également produite en Chine à l'usine de Shanghai pour le marché européen, est elle aussi exclue du bonus écologique. Les deux véhicules sont donc logés à la même enseigne. Tesla offre une garantie de 4 ans ou 80 000 km, et 8 ans ou 192 000 km pour la batterie.
+La Tesla Model 3, également produite en Chine à l'usine de Shanghai pour le marché européen, est elle aussi exclue de la prime coup de pouce CEE. Les deux véhicules sont donc logés à la même enseigne. Tesla offre une garantie de 4 ans ou 80 000 km, et 8 ans ou 192 000 km pour la batterie.
 
-Les deux véhicules étant fabriqués en Chine, aucun ne bénéficie du bonus écologique. La décision d'achat doit se faire sur les mérites intrinsèques de chaque modèle, sans considération d'aides gouvernementales.
+Les deux véhicules étant fabriqués en Chine, aucun ne ouvre droit à la prime coup de pouce CEE. La décision d'achat doit se faire sur les mérites intrinsèques de chaque modèle, sans considération d'aides gouvernementales.
 
 ## Verdict : NIO ET5 ou Tesla Model 3 ?
 
@@ -4692,9 +4694,9 @@ La BMW i4 reste la référence absolue en matière de plaisir de conduite dans c
 
 ## Fabrication et aides à l'achat
 
-La NIO ET5 est produite en Chine, à l'usine de Hefei. Elle est exclue du bonus écologique français en raison du score environnemental insuffisant. NIO offre une garantie de 5 ans sur le véhicule, avec des conditions spécifiques pour la batterie selon le mode d'acquisition (propriété ou BaaS). Le réseau de service après-vente NIO en France est encore en développement, avec des centres de service et des unités mobiles.
+La NIO ET5 est produite en Chine, à l'usine de Hefei. Elle est exclue de la prime coup de pouce CEE français en raison du score environnemental insuffisant. NIO offre une garantie de 5 ans sur le véhicule, avec des conditions spécifiques pour la batterie selon le mode d'acquisition (propriété ou BaaS). Le réseau de service après-vente NIO en France est encore en développement, avec des centres de service et des unités mobiles.
 
-La BMW i4 est assemblée à Munich, en Allemagne. Son prix catalogue supérieur à 47 000 euros la rend généralement inéligible au bonus écologique. La garantie BMW standard est de 3 ans, extensible via des programmes de service. Le réseau de concessionnaires et de service BMW en France est dense et bien établi, offrant une tranquillité d'esprit incomparable pour un acheteur.
+La BMW i4 est assemblée à Munich, en Allemagne. Son prix catalogue supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)} la rend généralement inéligible à la prime coup de pouce CEE. La garantie BMW standard est de 3 ans, extensible via des programmes de service. Le réseau de concessionnaires et de service BMW en France est dense et bien établi, offrant une tranquillité d'esprit incomparable pour un acheteur.
 
 Le réseau après-vente est un avantage déterminant de BMW : des centaines de concessionnaires et ateliers agréés contre un réseau NIO encore naissant en France. Pour la sérénité d'entretien, BMW est sans égal.
 
@@ -4773,11 +4775,11 @@ Les deux berlines s'adressent à des profils de conducteurs différents : l'ID.
 
 ## Fabrication et aides à l'achat
 
-La Volkswagen ID.7 est fabriquée à l'usine d'Emden, en Allemagne. Son prix catalogue supérieur à 47 000 euros la place au-delà du seuil d'éligibilité au bonus écologique pour la plupart des configurations. Cependant, des versions d'entrée de gamme pourraient potentiellement y prétendre selon les ajustements tarifaires de Volkswagen. La garantie constructeur est de 2 ans, extensible, avec 8 ans pour la batterie.
+La Volkswagen ID.7 est fabriquée à l'usine d'Emden, en Allemagne. Son prix catalogue supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)} la place au-delà du seuil d'éligibilité à la prime coup de pouce CEE pour la plupart des configurations. Cependant, des versions d'entrée de gamme pourraient potentiellement y prétendre selon les ajustements tarifaires de Volkswagen. La garantie constructeur est de 2 ans, extensible, avec 8 ans pour la batterie.
 
-La Polestar 2 est assemblée à Luqiao, en Chine. Cette provenance l'expose à l'exclusion du bonus écologique français liée au score environnemental. La garantie Polestar est de 3 ans ou 100 000 km, avec 8 ans pour la batterie. Polestar développe son réseau de service en France via les Polestar Spaces et les ateliers Volvo agréés.
+La Polestar 2 est assemblée à Luqiao, en Chine. Cette provenance l'expose à l'exclusion de la prime coup de pouce CEE liée au score environnemental. La garantie Polestar est de 3 ans ou 100 000 km, avec 8 ans pour la batterie. Polestar développe son réseau de service en France via les Polestar Spaces et les ateliers Volvo agréés.
 
-L'ID.7 bénéficie de l'avantage de la fabrication européenne mais pâtit d'un prix trop élevé pour le bonus. La Polestar 2, produite en Chine, est pénalisée par le score environnemental. Les deux véhicules sont globalement à égalité sur ce critère avec un avantage réseau après-vente pour Volkswagen grâce à son maillage de concessionnaires.
+L'ID.7 bénéficie de l'avantage de la fabrication européenne mais pâtit d'un prix trop élevé pour la prime coup de pouce CEE. La Polestar 2, produite en Chine, est pénalisée par le score environnemental. Les deux véhicules sont globalement à égalité sur ce critère avec un avantage réseau après-vente pour Volkswagen grâce à son maillage de concessionnaires.
 
 ## Verdict : Volkswagen ID.7 ou Polestar 2 ?
 
@@ -4856,7 +4858,7 @@ Le Porsche Taycan est la référence absolue en plaisir de conduite parmi les vo
 
 Le Porsche Taycan est fabriqué à l'usine dédiée de Zuffenhausen, en Allemagne, avec un processus de production qui vise la neutralité carbone. Son prix le place très largement au-dessus du seuil de toute aide à l'achat. La garantie Porsche est de 2 ans, extensible via Porsche Approved Warranty, avec une couverture batterie de 8 ans ou 160 000 km. Le réseau Porsche en France compte environ 35 centres et offre un service irréprochable.
 
-La Tesla Model S est fabriquée à l'usine de Fremont, aux États-Unis. Son prix élevé l'exclut également de tout bonus écologique. La garantie Tesla est de 4 ans ou 80 000 km, avec 8 ans ou 240 000 km pour la batterie. Le réseau de service Tesla en France se développe mais reste plus limité que celui de Porsche.
+La Tesla Model S est fabriquée à l'usine de Fremont, aux États-Unis. Son prix élevé l'exclut également de la prime coup de pouce CEE. La garantie Tesla est de 4 ans ou 80 000 km, avec 8 ans ou 240 000 km pour la batterie. Le réseau de service Tesla en France se développe mais reste plus limité que celui de Porsche.
 
 À ce niveau de prix, les aides à l'achat ne sont pas un facteur de décision. Le choix se fait sur les mérites propres des véhicules et l'expérience de marque associée.
 
@@ -4937,7 +4939,7 @@ Le Porsche Taycan est objectivement supérieur en conduite sportive. La question
 
 Le Porsche Taycan est fabriqué à Zuffenhausen, en Allemagne, dans une usine dédiée fonctionnant en grande partie à l'énergie renouvelable. Son prix l'exclut naturellement de toute aide à l'achat. La garantie Porsche est de 2 ans, extensible, avec 8 ans pour la batterie. Le réseau Porsche en France, avec ses centres exclusifs, offre un service premium.
 
-La BMW i4 sort de l'usine de Munich. Son prix catalogue supérieur à 47 000 euros la prive du bonus écologique. La garantie BMW est de 3 ans, 8 ans pour la batterie. Le réseau BMW, plus dense que celui de Porsche, assure un accès plus facile au service et à l'entretien.
+La BMW i4 sort de l'usine de Munich. Son prix catalogue supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)} la prive de la prime coup de pouce CEE. La garantie BMW est de 3 ans, 8 ans pour la batterie. Le réseau BMW, plus dense que celui de Porsche, assure un accès plus facile au service et à l'entretien.
 
 Aucun des deux véhicules ne bénéficie d'aides à l'achat. Le réseau BMW est plus étendu, mais le service Porsche est plus exclusif. En matière de valeur résiduelle, le Taycan tend à bien se maintenir sur le marché de l'occasion.
 
@@ -5018,7 +5020,7 @@ Le Porsche Macan Electric domine sans conteste en dynamisme et plaisir de condui
 
 Le Porsche Macan Electric est fabriqué à l'usine de Leipzig, en Allemagne. Son prix élevé l'exclut de toute aide à l'achat. La garantie Porsche est de 2 ans, extensible, avec 8 ans pour la batterie. Le service après-vente Porsche est irréprochable.
 
-Le BMW iX est produit à l'usine de Dingolfing, en Allemagne. Son tarif le place également au-delà de tout bonus écologique. La garantie BMW est de 3 ans standard, 8 ans pour la batterie. Le réseau BMW en France est plus étendu que celui de Porsche.
+Le BMW iX est produit à l'usine de Dingolfing, en Allemagne. Son tarif le place également au-delà du plafond de la prime coup de pouce CEE. La garantie BMW est de 3 ans standard, 8 ans pour la batterie. Le réseau BMW en France est plus étendu que celui de Porsche.
 
 Les deux SUV sont fabriqués en Allemagne et exclus des aides à l'achat. BMW offre un avantage en termes de réseau de service, Porsche en termes d'exclusivité.
 
@@ -5049,7 +5051,7 @@ Le Volkswagen ID.5, de son côté, reprend la silhouette de l'ID.4 en y ajoutant
 
 Le Ford Capri EV débute autour de 46 000 euros en version Standard Range à propulsion. La version Extended Range avec batterie de 77 kWh nets grimpe vers 49 000 euros, tandis que la finition Premium ajoute encore quelques milliers d'euros. Ford propose aussi une version à transmission intégrale AWD au-delà de 53 000 euros. La stratégie tarifaire de Ford vise à se positionner légèrement en dessous de la concurrence directe tout en offrant un équipement de série généreux.
 
-Chez Volkswagen, l'ID.5 Pro démarre aux alentours de 48 000 euros avec la batterie de 77 kWh. La version GTX, dotée de deux moteurs et de la transmission intégrale, franchit aisément la barre des 55 000 euros. L'ID.5 est donc globalement un peu plus cher que le Capri EV à équipement comparable. Cependant, Volkswagen compense parfois par des offres promotionnelles ou des avantages en leasing. Dans tous les cas, les deux modèles restent éligibles au bonus écologique sous conditions de revenus, ce qui peut réduire sensiblement la facture finale.
+Chez Volkswagen, l'ID.5 Pro démarre aux alentours de 48 000 euros avec la batterie de 77 kWh. La version GTX, dotée de deux moteurs et de la transmission intégrale, franchit aisément la barre des 55 000 euros. L'ID.5 est donc globalement un peu plus cher que le Capri EV à équipement comparable. Cependant, Volkswagen compense parfois par des offres promotionnelles ou des avantages en leasing. Dans tous les cas, les deux modèles restent éligibles à la prime coup de pouce CEE sous conditions de revenus, ce qui peut réduire sensiblement la facture finale.
 
 ## Autonomie et batterie
 
@@ -5083,9 +5085,9 @@ Le Ford Capri EV se distingue par un châssis un peu plus sportif, avec des susp
 
 ## Fabrication et aides à l'achat
 
-Le Ford Capri EV est assemblé à l'usine de Cologne en Allemagne, sur les mêmes lignes que l'Explorer électrique. Cette production européenne lui assure l'éligibilité au bonus écologique français, actuellement fixé à 4 000 euros pour les ménages aux revenus intermédiaires. Le Volkswagen ID.5 est fabriqué à Zwickau, en Allemagne, et bénéficie naturellement des mêmes avantages.
+Le Ford Capri EV est assemblé à l'usine de Cologne en Allemagne, sur les mêmes lignes que l'Explorer électrique. Cette production européenne lui assure l'éligibilité à la prime coup de pouce CEE, dont le montant dépend de l'offre retenue et des revenus du foyer. Le Volkswagen ID.5 est fabriqué à Zwickau, en Allemagne, mais son prix dépasse le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime.
 
-Les deux véhicules sont également éligibles aux primes régionales et aux avantages fiscaux pour les professionnels (exonération de TVS, amortissement majoré). Le leasing social, mis en place par le gouvernement français, peut concerner ces modèles sous certaines conditions de prix et de revenus. Il est recommandé de vérifier les conditions en vigueur au moment de l'achat, car les barèmes évoluent régulièrement. Les deux constructeurs proposent par ailleurs des offres de financement compétitives avec des loyers mensuels attractifs.
+Les deux véhicules bénéficient aussi d'avantages fiscaux pour les professionnels (exonération de TVS, amortissement majoré) ; pour d'éventuelles aides locales, consultez le site de votre région. Le leasing social 2026, lui, ne concerne que des voitures d'au plus ${eur(LEASING_SOCIAL.prixMaxTTC)} et de moins de ${LEASING_SOCIAL.masseMaxKg.toLocaleString("fr-FR")} kg, sous conditions de revenus. Il est recommandé de vérifier les conditions en vigueur au moment de l'achat, car les barèmes évoluent régulièrement. Les deux constructeurs proposent par ailleurs des offres de financement compétitives avec des loyers mensuels attractifs.
 
 ## Verdict : Ford Capri EV ou Volkswagen ID.5 ?
 
@@ -5148,9 +5150,9 @@ Le Peugeot e-5008 offre une expérience de conduite plus conventionnelle et plus
 
 ## Fabrication et aides à l'achat
 
-Le Volkswagen ID. Buzz est fabriqué à Hanovre, en Allemagne, garantissant une qualité de production élevée et l'éligibilité au bonus écologique français. Son prix élevé limite cependant le montant du bonus accessible, et les ménages les plus aisés n'y auront pas droit. Le leasing social n'est généralement pas applicable à ce modèle compte tenu de son positionnement tarifaire.
+Le Volkswagen ID. Buzz est fabriqué à Hanovre, en Allemagne, garantissant une qualité de production élevée et l'éligibilité à la prime coup de pouce CEE. Son prix élevé peut l'exclure de la prime coup de pouce CEE, réservée aux voitures d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)}. Le leasing social n'est pas applicable à ce modèle compte tenu de son prix et de sa masse.
 
-Le Peugeot e-5008 est assemblé à Sochaux, en France, ce qui lui confère un avantage supplémentaire en termes d'éco-score et d'éligibilité aux aides. Sa fabrication française est un argument fort pour les acheteurs soucieux de soutenir l'industrie nationale. Le prix plus contenu du e-5008 le rend potentiellement éligible à davantage d'aides, y compris certaines primes régionales. Les entreprises bénéficieront également d'avantages fiscaux significatifs avec les deux modèles : exonération de taxe sur les véhicules de société et amortissement majoré.
+Le Peugeot e-5008 est assemblé à Sochaux, en France, ce qui lui confère un avantage supplémentaire en termes d'éco-score et d'éligibilité aux aides. Sa fabrication française est un argument fort pour les acheteurs soucieux de soutenir l'industrie nationale. Le prix plus contenu du e-5008 le rapproche du plafond de la prime coup de pouce CEE, sans le passer pour autant à 50 000 euros. Les entreprises bénéficieront également d'avantages fiscaux significatifs avec les deux modèles : exonération de taxe sur les véhicules de société et amortissement majoré.
 
 ## Verdict : Volkswagen ID. Buzz ou Peugeot e-5008 ?
 
@@ -5211,9 +5213,9 @@ Le BMW iX1 xDrive30 développe 313 ch grâce à ses deux moteurs électriques, a
 
 ## Fabrication et aides à l'achat
 
-L'Audi Q6 e-tron est fabriqué à Ingolstadt, en Allemagne, berceau historique de la marque. Sa production européenne garantit l'éligibilité au bonus écologique français, même si son prix élevé peut réduire le montant de l'aide accessible selon les conditions de revenus. L'avantage fiscal pour les flottes d'entreprise est néanmoins significatif, avec une exonération totale de TVS et un plafond d'amortissement majoré.
+L'Audi Q6 e-tron est fabriqué à Ingolstadt, en Allemagne, berceau historique de la marque. Sa production européenne permet de prétendre à la prime coup de pouce CEE, même si son prix élevé peut réduire le montant de l'aide accessible selon les conditions de revenus. L'avantage fiscal pour les flottes d'entreprise est néanmoins significatif, avec une exonération totale de TVS et un plafond d'amortissement majoré.
 
-Le BMW iX1 est produit à Regensburg, en Allemagne. Son prix d'entrée plus accessible le rend éligible à un bonus écologique potentiellement plus généreux. Les deux véhicules bénéficient de la TVA récupérable pour les professionnels et d'avantages en nature réduits pour les collaborateurs utilisant un véhicule de fonction. Les offres de leasing sont particulièrement compétitives chez BMW, qui propose régulièrement des loyers attractifs pour l'iX1 en LLD.
+Le BMW iX1 est produit à Regensburg, en Allemagne. Son prix d'entrée plus accessible le place sous le plafond de la prime coup de pouce CEE. Les deux véhicules bénéficient de la TVA récupérable pour les professionnels et d'avantages en nature réduits pour les collaborateurs utilisant un véhicule de fonction. Les offres de leasing sont particulièrement compétitives chez BMW, qui propose régulièrement des loyers attractifs pour l'iX1 en LLD.
 
 ## Verdict : Audi Q6 e-tron ou BMW iX1 ?
 
@@ -5274,9 +5276,9 @@ Le Mercedes EQA 250+ délivre 190 ch, ce qui est plus modeste. Le 0 à 100 km/h 
 
 ## Fabrication et aides à l'achat
 
-L'Audi Q4 e-tron est fabriqué à Zwickau, en Allemagne, sur les lignes de production partagées de la plateforme MEB. Cette fabrication européenne assure son éligibilité au bonus écologique français. Son positionnement tarifaire compétitif le rend accessible au plus grand nombre de bénéficiaires des aides. Les offres de leasing proposées par Audi sont régulièrement parmi les plus attractives du segment premium.
+L'Audi Q4 e-tron est fabriqué à Zwickau, en Allemagne, sur les lignes de production partagées de la plateforme MEB. Cette fabrication européenne assure son éligibilité à la prime coup de pouce CEE. Son positionnement tarifaire compétitif le rend accessible au plus grand nombre de bénéficiaires des aides. Les offres de leasing proposées par Audi sont régulièrement parmi les plus attractives du segment premium.
 
-Le Mercedes EQA est assemblé à Rastatt, en Allemagne, garantissant lui aussi l'éligibilité aux aides françaises. Cependant, son prix supérieur peut limiter l'accès aux bonus les plus généreux. Mercedes propose néanmoins des formules de financement souples et des contrats d'entretien intégrés qui réduisent le coût total de possession. Les deux constructeurs offrent des garanties longues sur les batteries (8 ans ou 160 000 kilomètres), un élément rassurant pour les acheteurs.
+Le Mercedes EQA est assemblé à Rastatt, en Allemagne, garantissant lui aussi l'éligibilité aux aides françaises. Cependant, son prix supérieur peut l'exclure de la prime coup de pouce CEE. Mercedes propose néanmoins des formules de financement souples et des contrats d'entretien intégrés qui réduisent le coût total de possession. Les deux constructeurs offrent des garanties longues sur les batteries (8 ans ou 160 000 kilomètres), un élément rassurant pour les acheteurs.
 
 ## Verdict : Audi Q4 e-tron ou Mercedes EQA ?
 
@@ -5337,15 +5339,15 @@ La Renault 5 E-Tech développe 150 ch en version 52 kWh, suffisant pour un 0 à 
 
 ## Fabrication et aides à l'achat
 
-La BYD Dolphin Surf est actuellement fabriquée en Chine, ce qui la pénalise au niveau de l'éco-score français et peut limiter son éligibilité au bonus écologique. Les droits de douane européens supplémentaires imposés aux véhicules électriques chinois affectent également son positionnement tarifaire. BYD envisage la construction d'usines en Europe, ce qui pourrait changer la donne dans les années à venir. En attendant, les aides gouvernementales peuvent être réduites voire inexistantes pour ce modèle.
+La BYD Dolphin Surf est actuellement fabriquée en Chine, ce qui la pénalise au niveau de l'éco-score français et peut limiter son éligibilité à la prime coup de pouce CEE. Les droits de douane européens supplémentaires imposés aux véhicules électriques chinois affectent également son positionnement tarifaire. BYD envisage la construction d'usines en Europe, ce qui pourrait changer la donne dans les années à venir. En attendant, les aides gouvernementales peuvent être réduites voire inexistantes pour ce modèle.
 
-La Renault 5 E-Tech bénéficie d'un avantage décisif sur ce point. Fabriquée à Douai, dans le nord de la France, elle obtient un excellent éco-score et est pleinement éligible au bonus écologique de 4 000 euros ainsi qu'au leasing social à 100 euros par mois sous conditions de revenus. Cette fabrication française est un argument massif qui peut réduire le prix effectif de la Renault 5 de manière spectaculaire, la rendant accessible à des budgets très modestes.
+La Renault 5 E-Tech bénéficie d'un avantage décisif sur ce point. Fabriquée à Douai, dans le nord de la France, elle obtient un excellent éco-score et ouvre droit à la prime coup de pouce CEE ; elle respecte aussi les plafonds du leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, sous conditions de revenus). Cette fabrication française est un argument massif qui peut réduire le prix effectif de la Renault 5 de manière spectaculaire, la rendant accessible à des budgets très modestes.
 
 ## Verdict : BYD Dolphin Surf ou Renault 5 E-Tech ?
 
 Ce comparatif illustre parfaitement le duel entre le rapport qualité-prix brut et l'écosystème local. La BYD Dolphin Surf offre objectivement plus d'espace, plus de technologie et une batterie plus grande pour un prix similaire en haut de gamme. C'est un choix rationnel pour ceux qui privilégient les prestations pures et qui n'ont pas besoin des aides gouvernementales pour boucler leur budget.
 
-La Renault 5 E-Tech gagne sur l'émotion, le design, la fabrication française, l'éligibilité aux aides et l'agilité urbaine. Avec le bonus écologique et potentiellement le leasing social, elle devient imbattable en prix réel. Pour un usage principalement urbain et périurbain, c'est le choix le plus pertinent en 2026. La bataille se joue finalement sur le terrain des aides et de la fabrication locale, où Renault dispose d'un avantage structurel que BYD aura du mal à combler à court terme.`,
+La Renault 5 E-Tech gagne sur l'émotion, le design, la fabrication française, l'éligibilité aux aides et l'agilité urbaine. Avec la prime coup de pouce CEE, ou le leasing social pour les foyers éligibles, elle devient imbattable en prix réel. Pour un usage principalement urbain et périurbain, c'est le choix le plus pertinent en 2026. La bataille se joue finalement sur le terrain des aides et de la fabrication locale, où Renault dispose d'un avantage structurel que BYD aura du mal à combler à court terme.`,
   },
   {
     slug: "xpeng-g6-vs-tesla-model-y",
@@ -5400,13 +5402,13 @@ Le Tesla Model Y Juniper Grande Autonomie développe environ 350 ch avec un 0 à
 
 ## Fabrication et aides à l'achat
 
-Le Xpeng G6 est fabriqué en Chine, ce qui pose la question des droits de douane européens et de l'éligibilité au bonus écologique français. Les surtaxes douanières imposées par l'Union européenne aux véhicules électriques chinois augmentent le prix final et réduisent les aides disponibles. Le score environnemental du G6 est pénalisé par le transport maritime et l'empreinte carbone de la production. Xpeng explore la possibilité d'une production européenne mais aucune usine n'est encore confirmée.
+Le Xpeng G6 est fabriqué en Chine, ce qui pose la question des droits de douane européens et de l'éligibilité à la prime coup de pouce CEE. Les surtaxes douanières imposées par l'Union européenne aux véhicules électriques chinois augmentent le prix final et réduisent les aides disponibles. Le score environnemental du G6 est pénalisé par le transport maritime et l'empreinte carbone de la production. Xpeng explore la possibilité d'une production européenne mais aucune usine n'est encore confirmée.
 
-Le Tesla Model Y vendu en Europe est fabriqué à la Gigafactory de Berlin-Brandebourg, en Allemagne, ce qui lui assure un excellent éco-score et l'éligibilité pleine au bonus écologique français. Cette fabrication locale est un avantage compétitif majeur face aux concurrents chinois. Le réseau de service après-vente Tesla, bien que principalement basé sur un modèle mobile et en ligne, s'est densifié en France ces dernières années. Le bonus écologique et les primes régionales peuvent réduire significativement le prix du Model Y.
+Le Tesla Model Y vendu en Europe est fabriqué à la Gigafactory de Berlin-Brandebourg, en Allemagne, ce qui lui assure un excellent éco-score et l'éligibilité à la prime coup de pouce CEE. Cette fabrication locale est un avantage compétitif majeur face aux concurrents chinois. Le réseau de service après-vente Tesla, bien que principalement basé sur un modèle mobile et en ligne, s'est densifié en France ces dernières années. La prime coup de pouce CEE peut réduire le prix du Model Y dans sa version d'entrée, sous le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)}.
 
 ## Verdict : Xpeng G6 ou Tesla Model Y ?
 
-Le Xpeng G6 impressionne par sa technologie de recharge 800 volts, son prix attractif avant aides et son équipement de série pléthorique. C'est un concurrent crédible qui démontre la maturité technologique des constructeurs chinois. Pour les acheteurs qui n'ont pas besoin du bonus écologique, c'est une proposition de grande valeur.
+Le Xpeng G6 impressionne par sa technologie de recharge 800 volts, son prix attractif avant aides et son équipement de série pléthorique. C'est un concurrent crédible qui démontre la maturité technologique des constructeurs chinois. Pour les acheteurs qui ne comptent pas sur une prime, c'est une proposition de grande valeur.
 
 Le Tesla Model Y conserve des avantages structurels considérables : fabrication européenne ouvrant droit aux aides, réseau de Superchargeurs inégalé, écosystème logiciel éprouvé, valeur résiduelle supérieure et notoriété de marque établie. Le restylage Juniper corrige les faiblesses esthétiques et qualitatives. Pour la majorité des acheteurs français, le Model Y reste le choix le plus sûr, mais le Xpeng G6 mérite absolument un essai pour quiconque privilégie la performance technique pure.`,
   },
@@ -5463,9 +5465,9 @@ Le Skoda Enyaq 85 développe 286 ch via son moteur arrière, avec un 0 à 100 km
 
 ## Fabrication et aides à l'achat
 
-Le Leapmotor C10 vendu en Europe est assemblé en Pologne à l'usine Stellantis de Tychy, à partir de kits provenant de Chine. Ce montage européen lui permet d'éviter les surtaxes douanières et d'obtenir un éco-score favorable pour l'éligibilité au bonus écologique français. C'est un avantage stratégique majeur par rapport aux véhicules importés directement de Chine. Le bonus de 4 000 euros peut réduire le prix à environ 32 400 euros, un tarif sensationnel.
+Le Leapmotor C10 vendu en Europe est assemblé en Pologne à l'usine Stellantis de Tychy, à partir de kits provenant de Chine. Ce montage européen lui permet d'éviter les surtaxes douanières et d'obtenir un éco-score favorable pour l'éligibilité à la prime coup de pouce CEE. C'est un avantage stratégique majeur par rapport aux véhicules importés directement de Chine. La prime coup de pouce CEE peut encore réduire ce prix, selon l'offre obtenue.
 
-Le Skoda Enyaq est fabriqué à Mlada Boleslav, en République tchèque, et bénéficie également d'un bon éco-score européen. Il est éligible au bonus écologique, mais son prix plus élevé peut limiter les aides accessibles selon les tranches de revenus. Les deux véhicules profitent des avantages fiscaux pour les entreprises. Skoda propose des offres de leasing compétitives et un réseau après-vente très développé en France, un point important pour la sérénité des propriétaires à long terme.
+Le Skoda Enyaq est fabriqué à Mlada Boleslav, en République tchèque, et bénéficie également d'un bon éco-score européen. Il est éligible à la prime coup de pouce CEE, mais son prix plus élevé peut limiter les aides accessibles selon les tranches de revenus. Les deux véhicules profitent des avantages fiscaux pour les entreprises. Skoda propose des offres de leasing compétitives et un réseau après-vente très développé en France, un point important pour la sérénité des propriétaires à long terme.
 
 ## Verdict : Leapmotor C10 ou Skoda Enyaq ?
 
@@ -5526,15 +5528,15 @@ La Renault 5 E-Tech de 52 kWh développe 150 ch, ce qui est suffisant pour une c
 
 ## Fabrication et aides à l'achat
 
-La MG4 est fabriquée en Chine, ce qui la pénalise lourdement au niveau des aides françaises. Les droits de douane supplémentaires et un éco-score défavorable réduisent voire suppriment son éligibilité au bonus écologique. Sans cette aide, le prix effectif de la MG4 est nettement plus élevé que celui affiché. MG envisage une production européenne mais aucun calendrier précis n'est annoncé. C'est un handicap structurel qui érode l'avantage prix apparent du véhicule.
+La MG4 est fabriquée en Chine, ce qui la pénalise lourdement au niveau des aides françaises. Les droits de douane supplémentaires et un éco-score défavorable réduisent voire suppriment son éligibilité à la prime coup de pouce CEE. Sans cette aide, le prix effectif de la MG4 est nettement plus élevé que celui affiché. MG envisage une production européenne mais aucun calendrier précis n'est annoncé. C'est un handicap structurel qui érode l'avantage prix apparent du véhicule.
 
-La Renault 5 E-Tech, fabriquée à Douai en France, bénéficie du meilleur éco-score possible et de l'éligibilité complète au bonus écologique de 4 000 euros. Elle est également éligible au leasing social à 100 euros par mois sous conditions de revenus. Avec ces aides cumulées, le prix réel de la Renault 5 peut descendre à 21 000 euros en entrée de gamme, un tarif extraordinairement compétitif pour une voiture neuve. Cette fabrication locale est l'avantage décisif de Renault dans ce comparatif.
+La Renault 5 E-Tech, fabriquée à Douai en France, bénéficie du meilleur éco-score possible et de l'éligibilité à la prime coup de pouce CEE. Elle respecte également les plafonds du leasing social 2026 (${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, sous conditions de revenus). Avec ces aides cumulées, le prix réel de la Renault 5 peut descendre à 21 000 euros en entrée de gamme, un tarif extraordinairement compétitif pour une voiture neuve. Cette fabrication locale est l'avantage décisif de Renault dans ce comparatif.
 
 ## Verdict : MG4 ou Renault 5 E-Tech ?
 
 Sur le papier, la MG4 offre plus d'espace, plus d'autonomie et plus de puissance pour un prix catalogue comparable à la Renault 5 en milieu de gamme. C'est objectivement un véhicule plus polyvalent qui convient mieux aux familles ayant besoin d'espace et aux conducteurs parcourant régulièrement de longues distances.
 
-Mais le prix catalogue n'est plus le seul critère en 2026. Les aides gouvernementales et le lieu de fabrication sont devenus déterminants. Avec le bonus écologique et le leasing social, la Renault 5 E-Tech devient imbattable en prix réel. Elle ajoute un design irrésistible, un système multimédia supérieur et une agilité urbaine sans pareille. Pour la majorité des acheteurs français, en particulier ceux éligibles aux aides, la Renault 5 est le choix le plus intelligent en 2026. La MG4 reste pertinente pour ceux qui ne bénéficient pas des aides ou qui ont besoin impérativement de plus d'espace.`,
+Mais le prix catalogue n'est plus le seul critère en 2026. Les aides gouvernementales et le lieu de fabrication sont devenus déterminants. Avec la prime coup de pouce CEE, ou le leasing social pour les foyers éligibles, la Renault 5 E-Tech devient imbattable en prix réel. Elle ajoute un design irrésistible, un système multimédia supérieur et une agilité urbaine sans pareille. Pour la majorité des acheteurs français, en particulier ceux éligibles aux aides, la Renault 5 est le choix le plus intelligent en 2026. La MG4 reste pertinente pour ceux qui ne bénéficient pas des aides ou qui ont besoin impérativement de plus d'espace.`,
   },
   {
     slug: "byd-atto-3-vs-kia-ev3",
@@ -5589,15 +5591,15 @@ Le Kia EV3 développe 204 ch via son moteur avant également, avec un 0 à 100 k
 
 ## Fabrication et aides à l'achat
 
-Le BYD Atto 3 est fabriqué en Chine et souffre des mêmes contraintes que les autres véhicules chinois en matière d'éco-score et de droits de douane européens. Son éligibilité au bonus écologique français est compromise, ce qui augmente son coût effectif de plusieurs milliers d'euros. BYD n'a pas encore annoncé de production européenne pour l'Atto 3, ce qui limite ses perspectives de compétitivité tarifaire en France à moyen terme.
+Le BYD Atto 3 est fabriqué en Chine et souffre des mêmes contraintes que les autres véhicules chinois en matière d'éco-score et de droits de douane européens. Son éligibilité à la prime coup de pouce CEE est compromise, ce qui augmente son coût effectif de plusieurs milliers d'euros. BYD n'a pas encore annoncé de production européenne pour l'Atto 3, ce qui limite ses perspectives de compétitivité tarifaire en France à moyen terme.
 
-Le Kia EV3 est fabriqué en Corée du Sud, ce qui lui assure un meilleur éco-score que les véhicules chinois et une éligibilité au bonus écologique sous certaines conditions. La Corée bénéficie d'accords commerciaux avec l'Union européenne qui limitent les droits de douane. Kia dispose en outre d'un réseau de concessions très développé en France, avec un service après-vente éprouvé et une garantie de 7 ans (ou 150 000 kilomètres) qui est la plus généreuse du marché. Cet avantage de garantie est un argument massif pour la sérénité des acheteurs.
+Le Kia EV3 est fabriqué en Corée du Sud, ce qui lui assure un meilleur éco-score que les véhicules chinois et une éligibilité à la prime coup de pouce CEE sous certaines conditions. La Corée bénéficie d'accords commerciaux avec l'Union européenne qui limitent les droits de douane. Kia dispose en outre d'un réseau de concessions très développé en France, avec un service après-vente éprouvé et une garantie de 7 ans (ou 150 000 kilomètres) qui est la plus généreuse du marché. Cet avantage de garantie est un argument massif pour la sérénité des acheteurs.
 
 ## Verdict : BYD Atto 3 ou Kia EV3 ?
 
 Le Kia EV3 l'emporte dans ce comparatif sur la quasi-totalité des critères. Son autonomie exceptionnelle en version Long Range, sa technologie embarquée supérieure, son coffre plus grand malgré un gabarit plus compact, sa garantie de 7 ans et son éligibilité aux aides françaises en font le choix le plus pertinent pour les acheteurs européens. Le design distinctif et l'ergonomie soignée ajoutent à son attractivité.
 
-Le BYD Atto 3 reste un véhicule honnête qui offre un bon rapport équipement-prix, mais il souffre de handicaps structurels en Europe : recharge lente, fabrication chinoise pénalisante pour les aides, et une image de marque encore en construction. Pour les acheteurs qui ne sont pas éligibles au bonus écologique et qui apprécient la technologie de batterie Blade LFP, l'Atto 3 conserve un certain intérêt, mais le Kia EV3 est objectivement le meilleur achat dans ce duel en 2026.`,
+Le BYD Atto 3 reste un véhicule honnête qui offre un bon rapport équipement-prix, mais il souffre de handicaps structurels en Europe : recharge lente, fabrication chinoise pénalisante pour les aides, et une image de marque encore en construction. Pour les acheteurs qui ne sont pas éligibles à la prime coup de pouce CEE et qui apprécient la technologie de batterie Blade LFP, l'Atto 3 conserve un certain intérêt, mais le Kia EV3 est objectivement le meilleur achat dans ce duel en 2026.`,
   },
   {
     slug: "leapmotor-b10-vs-skoda-elroq",
@@ -5652,13 +5654,13 @@ Le Skoda Elroq 85 développe 286 ch avec son moteur arrière, réalisant le 0 à
 
 ## Fabrication et aides à l'achat
 
-Le Leapmotor B10 devrait être assemblé en Europe à l'usine Stellantis de Tychy, en Pologne, comme le C10. Ce montage européen est stratégique pour l'éligibilité au bonus écologique français et l'évitement des surtaxes douanières. Avec un prix de base d'environ 28 900 euros et un bonus de 4 000 euros, le B10 pourrait atteindre un prix effectif de moins de 25 000 euros, un seuil psychologique important qui le rendrait accessible au leasing social.
+Le Leapmotor B10 devrait être assemblé en Europe à l'usine Stellantis de Tychy, en Pologne, comme le C10. Ce montage européen est stratégique pour l'éligibilité à la prime coup de pouce CEE et l'évitement des surtaxes douanières. Avec un prix de base d'environ 28 900 euros, le B10 se place sous le plafond de la prime coup de pouce CEE, mais n'y ouvrira droit que s'il obtient le score environnemental requis.
 
-Le Skoda Elroq est fabriqué à Mlada Boleslav, en République tchèque, garantissant un éco-score favorable. Son prix de base de 33 500 euros le rend éligible au bonus écologique standard. Le réseau Skoda est bien implanté en France avec un service après-vente fiable et des coûts d'entretien maîtrisés. La garantie de 2 ans du constructeur, extensible, est complétée par la garantie batterie de 8 ans ou 160 000 kilomètres. Les offres de leasing Skoda sont traditionnellement parmi les plus compétitives du marché.
+Le Skoda Elroq est fabriqué à Mlada Boleslav, en République tchèque, garantissant un éco-score favorable. Son prix de base de 33 500 euros le rend éligible à la prime coup de pouce CEE standard. Le réseau Skoda est bien implanté en France avec un service après-vente fiable et des coûts d'entretien maîtrisés. La garantie de 2 ans du constructeur, extensible, est complétée par la garantie batterie de 8 ans ou 160 000 kilomètres. Les offres de leasing Skoda sont traditionnellement parmi les plus compétitives du marché.
 
 ## Verdict : Leapmotor B10 ou Skoda Elroq ?
 
-Le Leapmotor B10 est une proposition tarifaire agressive qui rend le SUV électrique accessible à un plus grand nombre de ménages. Son prix sous les 29 000 euros, combiné à l'assemblage européen et au bonus écologique, en fait potentiellement l'un des véhicules électriques les plus abordables du marché. Pour les acheteurs au budget serré qui effectuent principalement des trajets urbains et périurbains, c'est une option très attractive.
+Le Leapmotor B10 est une proposition tarifaire agressive qui rend le SUV électrique accessible à un plus grand nombre de ménages. Son prix sous les 29 000 euros, combiné à un éventuel assemblage européen, en fait potentiellement l'un des véhicules électriques les plus abordables du marché. Pour les acheteurs au budget serré qui effectuent principalement des trajets urbains et périurbains, c'est une option très attractive.
 
 Le Skoda Elroq l'emporte sur tous les autres critères : autonomie, recharge rapide, volume de coffre, qualité de finition, technologie embarquée et comportement routier. Le surcoût de 5 000 euros est largement justifié par des prestations supérieures à tous les niveaux. Pour ceux qui ont le budget, l'Elroq est le meilleur SUV compact électrique populaire de 2026. Le choix entre les deux dépend en fin de compte de la sensibilité au prix : si chaque euro compte, le B10 est remarquable ; si vous pouvez vous le permettre, l'Elroq vaut l'investissement.`,
   },
@@ -5715,7 +5717,7 @@ Le Porsche Taycan GTS développe 598 ch avec le mode overboost, abattant le 0 à
 
 ## Fabrication et aides à l'achat
 
-Le Zeekr 001 est fabriqué en Chine, ce qui le soumet aux surtaxes douanières européennes et lui attribue un éco-score défavorable pour les aides françaises. Le bonus écologique peut être réduit voire supprimé. Toutefois, même sans aide, le prix du Zeekr reste nettement inférieur à celui du Taycan, ce qui relativisé l'impact de l'absence de bonus. Zeekr développe son réseau de distribution en Europe, avec des showrooms et des centres de service qui se multiplient progressivement.
+Le Zeekr 001 est fabriqué en Chine, ce qui le soumet aux surtaxes douanières européennes et lui attribue un éco-score défavorable pour les aides françaises. Il n'ouvre pas droit à la prime coup de pouce CEE. Toutefois, même sans aide, le prix du Zeekr reste nettement inférieur à celui du Taycan, ce qui relativise l'impact de l'absence de prime. Zeekr développe son réseau de distribution en Europe, avec des showrooms et des centres de service qui se multiplient progressivement.
 
 Le Porsche Taycan est assemblé à Zuffenhausen, en Allemagne, berceau historique de la marque. Son éco-score est excellent, mais son prix élevé exclut de fait la plupart des aides gouvernementales pour les particuliers. Pour les entreprises, le Taycan reste avantageux fiscalement grâce à l'exonération de TVS et au plafond d'amortissement majoré. Le réseau Porsche en France est dense et offre un service après-vente d'exception. La valeur résiduelle du Taycan est nettement supérieure à celle du Zeekr, un facteur important en LLD ou en cas de revente.
 
@@ -5778,9 +5780,9 @@ La Cupra Born V3 développe 326 ch avec un 0 à 100 km/h en 5,6 secondes. La ver
 
 ## Fabrication et aides à l'achat
 
-Le Smart #3 est fabriqué en Chine par la coentreprise entre Geely et Mercedes-Benz. Cette production chinoise le pénalise pour l'éco-score français et les droits de douane européens. Son éligibilité au bonus écologique peut être réduite ou supprimée selon les évolutions réglementaires. Smart travaille sur une possible production européenne mais aucun calendrier n'est confirmé. Le réseau de distribution Smart en France est adossé à Mercedes-Benz, ce qui garantit un service après-vente de qualité.
+Le Smart #3 est fabriqué en Chine par la coentreprise entre Geely et Mercedes-Benz. Cette production chinoise le pénalise pour l'éco-score français et les droits de douane européens. Son éligibilité à la prime coup de pouce CEE peut être réduite ou supprimée selon les évolutions réglementaires. Smart travaille sur une possible production européenne mais aucun calendrier n'est confirmé. Le réseau de distribution Smart en France est adossé à Mercedes-Benz, ce qui garantit un service après-vente de qualité.
 
-La Cupra Born est fabriquée à Zwickau, en Allemagne, sur les lignes de la plateforme MEB. Cette production européenne lui assure une éligibilité complète au bonus écologique français et un éco-score favorable. Cupra dispose d'un réseau de distribution en expansion en France, avec des concessions partagées avec SEAT. La garantie est de 2 ans extensible, complétée par une garantie batterie de 8 ans. L'avantage de la fabrication européenne est significatif pour le coût total d'acquisition.
+La Cupra Born est fabriquée à Zwickau, en Allemagne, sur les lignes de la plateforme MEB. Cette production européenne lui assure l'éligibilité à la prime coup de pouce CEE et un éco-score favorable. Cupra dispose d'un réseau de distribution en expansion en France, avec des concessions partagées avec SEAT. La garantie est de 2 ans extensible, complétée par une garantie batterie de 8 ans. L'avantage de la fabrication européenne est significatif pour le coût total d'acquisition.
 
 ## Verdict : Smart #3 ou Cupra Born ?
 
@@ -5841,7 +5843,7 @@ Le MG ZS EV développe 177 ch en version Long Range, avec un 0 à 100 km/h en 8,
 
 ## Fabrication et aides à l'achat
 
-Le Seres 5 est fabriqué en Chine, ce qui l'expose aux surtaxes douanières européennes et à un éco-score défavorable pour les aides françaises. Son éligibilité au bonus écologique est incertaine et dépend des évolutions réglementaires. Le réseau de distribution Seres en France est encore embryonnaire, ce qui peut susciter des inquiétudes légitimes sur le service après-vente et la disponibilité des pièces détachées.
+Le Seres 5 est fabriqué en Chine, ce qui l'expose aux surtaxes douanières européennes et à un éco-score défavorable pour les aides françaises. Son éligibilité à la prime coup de pouce CEE est incertaine et dépend des évolutions réglementaires. Le réseau de distribution Seres en France est encore embryonnaire, ce qui peut susciter des inquiétudes légitimes sur le service après-vente et la disponibilité des pièces détachées.
 
 Le MG ZS EV est également fabriqué en Chine et souffre des mêmes contraintes. Cependant, MG bénéficie d'une présence plus ancienne et plus structurée en Europe, avec un réseau de concessions en croissance et des centres de service agréés répartis sur le territoire. La garantie de 7 ans offerte par MG est un argument de poids qui compense partiellement les inquiétudes liées à la fiabilité et à l'après-vente. Les deux véhicules sont dans la même situation vis-à-vis des aides, mais MG offre une meilleure infrastructure de support.
 
@@ -5870,7 +5872,7 @@ La Dacia Spring est la plus petite voiture électrique du marché à 3,70 mètre
 
 Le Seres 3 est proposé à partir d'environ 25 000 euros en version unique. Pour ce prix, il offre un SUV électrique avec une batterie de 53,6 kWh, un moteur de 163 ch, un écran central tactile, la climatisation automatique, les vitres électriques, les rétroviseurs réglables électriquement et les aides à la conduite de base. L'équipement est honnête pour le prix sans être pléthorique. Le positionnement du Seres 3 vise les acheteurs qui veulent un véhicule électrique de taille correcte à un prix contenu.
 
-La Dacia Spring est la championne incontestée du prix bas. La version Essential débute à environ 18 900 euros, tandis que la version Extreme mieux équipée atteint 20 800 euros. Avec le bonus écologique, le prix peut descendre bien en dessous de 15 000 euros, et le leasing social permet d'accéder à la Spring pour environ 50 euros par mois. C'est tout simplement la voiture électrique neuve la moins chère d'Europe. L'écart de prix avec le Seres 3 est d'environ 5 000 à 6 000 euros, un montant significatif pour cette clientèle sensible au budget.
+La Dacia Spring est la championne incontestée du prix bas. La version Essential débute à environ 18 900 euros, tandis que la version Extreme mieux équipée atteint 20 800 euros. Produite en Chine, elle n'ouvre droit ni à la prime coup de pouce CEE ni au leasing social : son prix catalogue reste son principal argument. C'est tout simplement la voiture électrique neuve la moins chère d'Europe. L'écart de prix avec le Seres 3 est d'environ 5 000 à 6 000 euros, un montant significatif pour cette clientèle sensible au budget.
 
 ## Autonomie et batterie
 
@@ -5904,9 +5906,9 @@ La Dacia Spring développe 65 ch, un chiffre modeste qui la destine clairement �
 
 ## Fabrication et aides à l'achat
 
-Le Seres 3 est fabriqué en Chine et souffre des problèmes habituels d'éco-score et de droits de douane pour le marché français. Son éligibilité au bonus écologique est limitée ou nulle, ce qui réduit son avantage prix apparent. Le réseau de distribution Seres en France est encore restreint, ce qui soulève des questions légitimes sur le service après-vente et la disponibilité des pièces.
+Le Seres 3 est fabriqué en Chine et souffre des problèmes habituels d'éco-score et de droits de douane pour le marché français. Son éligibilité à la prime coup de pouce CEE est limitée ou nulle, ce qui réduit son avantage prix apparent. Le réseau de distribution Seres en France est encore restreint, ce qui soulève des questions légitimes sur le service après-vente et la disponibilité des pièces.
 
-La Dacia Spring est fabriquée en Chine également, mais Dacia travaille activement pour améliorer son éco-score. Le réseau Renault-Dacia en France est l'un des plus denses du pays, avec des milliers de points de service. La Spring est éligible au leasing social et au bonus écologique sous certaines conditions, ce qui peut abaisser son coût d'accès à des niveaux remarquablement bas. La garantie constructeur de 3 ans et la garantie batterie de 8 ans offrent une tranquillité d'esprit appréciable. L'écosystème Dacia est incomparablement plus solide que celui de Seres en France.
+La Dacia Spring est fabriquée en Chine également, mais Dacia travaille activement pour améliorer son éco-score. Le réseau Renault-Dacia en France est l'un des plus denses du pays, avec des milliers de points de service. La Spring, produite en Chine, n'est éligible ni au leasing social ni à la prime coup de pouce CEE, ce qui limite ses leviers face à la concurrence européenne. La garantie constructeur de 3 ans et la garantie batterie de 8 ans offrent une tranquillité d'esprit appréciable. L'écosystème Dacia est incomparablement plus solide que celui de Seres en France.
 
 ## Verdict : Seres 3 ou Dacia Spring ?
 
@@ -5967,7 +5969,7 @@ Le BMW iX1 xDrive30 développe 313 ch et abat le 0 à 100 km/h en 5,7 secondes, 
 
 ## Fabrication et aides à l'achat
 
-Le Tesla Model Y vendu en Europe est produit à la Gigafactory de Berlin, en Allemagne. Cette production locale garantit un excellent éco-score et une éligibilité complète au bonus écologique français. Le réseau de service Tesla s'est densifié avec des centres de service et des interventions mobiles. La valeur résiduelle du Model Y est parmi les meilleures du segment, un avantage pour le coût total de possession.
+Le Tesla Model Y vendu en Europe est produit à la Gigafactory de Berlin, en Allemagne. Cette production locale garantit un excellent éco-score et l'éligibilité à la prime coup de pouce CEE. Le réseau de service Tesla s'est densifié avec des centres de service et des interventions mobiles. La valeur résiduelle du Model Y est parmi les meilleures du segment, un avantage pour le coût total de possession.
 
 Le BMW iX1 est fabriqué à Regensburg, en Allemagne, avec la même éligibilité aux aides françaises. Le réseau de concessionnaires BMW est l'un des plus développés de France, offrant un service après-vente premium et des options de maintenance flexibles. La valeur résiduelle du iX1 est également solide grâce à la réputation de la marque. Les offres de leasing BMW sont fréquemment parmi les plus attractives du segment, avec des loyers compétitifs en LLD professionnelle.
 
@@ -6030,7 +6032,7 @@ L'Audi Q4 e-tron 40 développe 286 ch avec un 0 à 100 km/h en 6,7 secondes. Le 
 
 ## Fabrication et aides à l'achat
 
-Le Tesla Model Y européen est fabriqué à Berlin, en Allemagne. L'Audi Q4 e-tron sort des lignes de Zwickau, également en Allemagne. Les deux véhicules bénéficient donc des mêmes avantages en termes d'éco-score et d'éligibilité au bonus écologique français. Les deux marques offrent des avantages fiscaux similaires pour les flottes d'entreprise. La valeur résiduelle est forte pour les deux modèles. Tesla est légèrement avantagé par sa politique de prix fixes et sa distribution directe sans intermédiaire, tandis qu'Audi offre la possibilité de négocier en concession.
+Le Tesla Model Y européen est fabriqué à Berlin, en Allemagne. L'Audi Q4 e-tron sort des lignes de Zwickau, également en Allemagne. Les deux véhicules bénéficient donc des mêmes avantages en termes d'éco-score et d'éligibilité à la prime coup de pouce CEE. Les deux marques offrent des avantages fiscaux similaires pour les flottes d'entreprise. La valeur résiduelle est forte pour les deux modèles. Tesla est légèrement avantagé par sa politique de prix fixes et sa distribution directe sans intermédiaire, tandis qu'Audi offre la possibilité de négocier en concession.
 
 Les offres de leasing sont compétitives des deux côtés. Tesla propose des mensualités prévisibles via son site, tandis qu'Audi offre une plus grande flexibilité dans la structuration du financement via son réseau de concessionnaires. Pour les entreprises, le coût total de possession (TCO) est similaire entre les deux modèles, avec un léger avantage pour Tesla en raison de coûts de maintenance inférieurs grâce à l'absence de pièces d'usure traditionnelles.
 
@@ -6093,7 +6095,7 @@ Le Mercedes EQA 250+ développe 190 ch avec un 0 à 100 km/h en 8,6 secondes, ne
 
 ## Fabrication et aides à l'achat
 
-Le Tesla Model Y est fabriqué à Berlin, en Allemagne, tandis que le Mercedes EQA sort des lignes de Rastatt, également en Allemagne. Les deux véhicules jouissent donc du même statut vis-à-vis des aides françaises, avec un éco-score favorable et une éligibilité au bonus écologique. L'avantage fiscal pour les entreprises est similaire. La distribution directe de Tesla et la distribution en concession de Mercedes offrent des expériences d'achat différentes mais les deux sont efficaces.
+Le Tesla Model Y est fabriqué à Berlin, en Allemagne, tandis que le Mercedes EQA sort des lignes de Rastatt, également en Allemagne. Les deux véhicules jouissent donc du même statut vis-à-vis des aides françaises, avec un éco-score favorable et une éligibilité à la prime coup de pouce CEE. L'avantage fiscal pour les entreprises est similaire. La distribution directe de Tesla et la distribution en concession de Mercedes offrent des expériences d'achat différentes mais les deux sont efficaces.
 
 Tesla se distingue par sa politique de prix fixes et transparents, sans négociation possible. Mercedes offre la possibilité de négocier en concession et propose des offres spéciales régulières. Les coûts de maintenance sont inférieurs chez Tesla grâce à l'absence de boîte de vitesses complexe et de pièces d'usure traditionnelles. Mercedes compense par la qualité de son réseau de concessionnaires et la disponibilité de véhicules de prêt pendant les interventions.
 
@@ -6271,8 +6273,8 @@ La Polestar 2 séduit par sa qualité de fabrication supérieure, son design sca
 <p>L'Hyperscreen est une option à environ 7 000 euros qui transforme radicalement l'ambiance intérieure. La triple dalle de 1,41 m de large est un spectacle visuel impressionnant. En termes de fonctionnalité, elle ajoute un écran dédié au passager avant qui peut naviguer sur internet, regarder des vidéos ou paramétrer la navigation pendant que le conducteur conduit. Si vous transportez souvent un passager avant, c'est un atout indéniable. Si vous conduisez souvent seul, l'investissement est plus discutable.</p>
 <h3>Quelle est la meilleure option pour un usage autoroutier fréquent ?</h3>
 <p>Pour un usage principalement autoroutier, la Mercedes EQE prend l'avantage grâce à son autonomie supérieure (625 km WLTP contre 590 km), son confort de suspension plus moelleux, son silence de fonctionnement exceptionnel et son système DRIVE PILOT de niveau 3 qui permet de relâcher l'attention dans les bouchons. La BMW i4 reste néanmoins très compétente sur autoroute, avec une stabilité à haute vitesse remarquable et une recharge rapide légèrement plus efficace.</p>
-<h3>Les deux modèles sont-ils éligibles au bonus écologique en France ?</h3>
-<p>Les deux véhicules sont fabriqués en Europe (Allemagne) et sont éligibles au bonus écologique sans restriction de score environnemental. Cependant, leur prix élevé (supérieur à 47 000 euros) les exclut du bonus maximal réservé aux véhicules moins chers. Selon les conditions en vigueur, un bonus réduit peut néanmoins s'appliquer. Vérifiez les conditions actuelles avant l'achat, car les plafonds de prix évoluent régulièrement.</p>
+<h3>Les deux modèles sont-ils éligibles à la prime coup de pouce CEE en France ?</h3>
+<p>Les deux véhicules sont fabriqués en Europe (Allemagne), ce qui leur assure un score environnemental favorable. Cependant, leur prix élevé (supérieur à ${eur(COUP_DE_POUCE.prixMaxTTC)}) les exclut de la prime coup de pouce CEE. Vérifiez les conditions actuelles avant l'achat, car les plafonds de prix évoluent régulièrement.</p>
 
 <h2>Prix et verdict</h2>
 <p>BMW i4 eDrive40 : à partir de 58 600 €. Mercedes EQE 350+ : à partir de 67 050 €. L'écart de 8 450 € en faveur de BMW se réduit à options équivalentes (l'EQE est mieux équipée de série), mais la BMW reste moins chère à finitions comparables.</p>
@@ -6608,7 +6610,7 @@ La Polestar 2 séduit par sa qualité de fabrication supérieure, son design sca
 <h2>Prix et verdict final</h2>
 <p>Seres 5 (68 kWh, 450 km) : 33 990 €. MG ZS EV (72 kWh, 440 km) : 33 990 €. MG ZS EV (51 kWh, 320 km) : 29 990 €.</p>
 <p>À prix identique pour les versions « grande batterie », le choix dépend de vos priorités. Le Seres 5 offre plus d'espace (c'est un vrai SUV familial vs un SUV compact) et convient mieux aux familles nombreuses ou aux grands gabarits. Le MG ZS EV offre un meilleur réseau SAV, une garantie plus longue, une recharge plus rapide, et une revente probablement plus facile grâce à la meilleure notoriété de MG.</p>
-<p>Notre recommandation : pour un premier véhicule électrique familial avec un budget serré, le MG ZS EV 72 kWh est le choix le plus sûr grâce à sa garantie 7 ans et son réseau. Le Seres 5 peut convenir si vous avez besoin de l'espace supplémentaire et acceptez le risque d'un réseau SAV moins étoffé. Dans les deux cas, vérifiez l'éligibilité au bonus écologique (score environnemental) avant de vous engager : les modèles chinois peuvent perdre cette éligibilité d'une année sur l'autre.</p>`,
+<p>Notre recommandation : pour un premier véhicule électrique familial avec un budget serré, le MG ZS EV 72 kWh est le choix le plus sûr grâce à sa garantie 7 ans et son réseau. Le Seres 5 peut convenir si vous avez besoin de l'espace supplémentaire et acceptez le risque d'un réseau SAV moins étoffé. Dans les deux cas, vérifiez l'éligibilité à la prime coup de pouce CEE (score environnemental) avant de vous engager : les modèles chinois peuvent perdre cette éligibilité d'une année sur l'autre.</p>`,
   },
   {
     slug: "seres-3-vs-dacia-spring",
@@ -6618,7 +6620,7 @@ La Polestar 2 séduit par sa qualité de fabrication supérieure, son design sca
     h1: "Seres 3 vs Dacia Spring : comparatif complet 2026",
     metaDescription: "Seres 3 vs Dacia Spring : deux voitures électriques à moins de 27 000 €. Mini-SUV vs citadine, autonomie, finitions et usage quotidien comparés.",
     contenu: `<h2>Les voitures électriques les moins chères du marché</h2>
-<p>Le segment de l'entrée de gamme électrique est crucial pour la démocratisation de la mobilité zéro émission. La Seres 3 (DFSK) et la Dacia Spring représentent deux des options les plus abordables du marché français en 2026, toutes deux disponibles sous les 27 000 € avant bonus écologique. Mais à ce niveau de prix, les compromis sont nombreux et les deux véhicules font des choix très différents. Ce comparatif détaille leurs forces et faiblesses respectives pour vous aider à faire le bon choix.</p>
+<p>Le segment de l'entrée de gamme électrique est crucial pour la démocratisation de la mobilité zéro émission. La Seres 3 (DFSK) et la Dacia Spring représentent deux des options les plus abordables du marché français en 2026, toutes deux disponibles sous les 27 000 € écologique. Mais à ce niveau de prix, les compromis sont nombreux et les deux véhicules font des choix très différents. Ce comparatif détaille leurs forces et faiblesses respectives pour vous aider à faire le bon choix.</p>
 <p>La Seres 3 est un petit SUV crossover de 4,39 m, positionné comme un véhicule familial compact à prix cassé. La Dacia Spring est une mini-citadine de 3,73 m, la plus petite voiture électrique du marché, pensée pour un usage exclusivement urbain et périurbain. Deux formats, deux usages. Le choix dépend fondamentalement de vos besoins quotidiens.</p>
 
 <h2>Format et espace</h2>

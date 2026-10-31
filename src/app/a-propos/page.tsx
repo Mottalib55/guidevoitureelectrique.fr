@@ -183,8 +183,8 @@ export default function AProposPage() {
             d&apos;utilisation d&apos;un véhicule électrique : comprendre les
             différents types de motorisation, décrypter les normes de recharge
             (Type 2, CCS, CHAdeMO), installer une borne à domicile, optimiser
-            ses trajets longue distance, bénéficier du bonus écologique et de la
-            prime à la conversion, négocier un contrat de leasing avantageux, et
+            ses trajets longue distance, connaître les aides en vigueur (prime
+            coup de pouce CEE, leasing social), négocier un contrat de leasing avantageux, et
             bien plus encore.
           </p>
 
@@ -192,7 +192,7 @@ export default function AProposPage() {
           <p>
             Notre simulateur de financement permet de comparer en quelques clics
             le coût d&apos;un achat comptant, d&apos;une LOA et d&apos;une LLD en
-            intégrant le bonus écologique, les frais d&apos;assurance et le coût
+            intégrant l&apos;aide à l&apos;achat obtenue, les frais d&apos;assurance et le coût
             de la recharge. Notre calculateur de coût de recharge estime votre
             dépense mensuelle en fonction de votre kilométrage, du prix de
             l&apos;électricité à domicile et des tarifs des bornes publiques.

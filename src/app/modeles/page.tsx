@@ -124,7 +124,7 @@ export default function ModèlesIndexPage() {
           <ul>
             <li><strong>Les spécifications techniques completes :</strong> dimensions, poids, capacité batterie (brute et nette), puissance moteur, couple, performances (0-100 km/h, vitesse max), autonomie WLTP et estimée réelle.</li>
             <li><strong>Les informations de recharge :</strong> puissance maximale AC et DC, temps de charge 10-80 %, km récupéres en 10 minutes de charge rapide, type de connecteur.</li>
-            <li><strong>Le prix et les aides :</strong> prix catalogue, éligibilité au bonus écologique, prix après bonus, estimation des loyers LOA/LLD.</li>
+            <li><strong>Le prix et les aides :</strong> prix catalogue, éligibilité à la prime coup de pouce CEE, estimation des loyers LOA/LLD.</li>
             <li><strong>Le calculateur de financement intégre :</strong> simulez votre financement (comptant, crédit, LOA, LLD) directement sur la fiche du modèle qui vous intéresse.</li>
             <li><strong>Notre analyse :</strong> points forts, points faibles, profil d&apos;acheteur recommande et verdict.</li>
           </ul>

@@ -248,7 +248,7 @@ export default async function PageGuide({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Prime coup de pouce CEE : service-public.fr
               </a>
             </li>
             <li>

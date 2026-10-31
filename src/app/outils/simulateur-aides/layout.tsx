@@ -4,8 +4,7 @@ import { webApplicationJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
   title: "Aides voiture électrique 2026 : simulateur des primes",
-  description:
-    "Estimez vos aides pour l'achat d'une voiture électrique : bonus écologique, prime à la conversion, leasing social. Calculez le prix après aides en 30 secondes.",
+  description:    "Prime coup de pouce CEE, leasing social 2026 : vérifiez en 30 secondes votre éligibilité aux aides pour une voiture électrique, selon le prix et vos revenus.",
   path: "/outils/simulateur-aides/",
 });
 

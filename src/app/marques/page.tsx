@@ -110,7 +110,7 @@ export default function MarquesIndexPage() {
 
           <h3>Citroen : la démocratisation de l&apos;électrique</h3>
           <p>
-            Citroen a choisi le positionnement de la mobilité accessible et inclusive. La e-C3, lancée a moins de 24 000 euros (avant bonus), est l&apos;un des véhicules électriques les plus abordables du marché tout en offrant une autonomie et un espace intérieur très compétitifs pour le segment. La philosophie Citroën (confort, simplicité, accessibilité) se traduit par des véhicules électriques pensés pour le plus grand nombre, sans concession sur le confort de suspension (grâce au système Advanced Comfort) ni sur la praticité quotidienne.
+            Citroen a choisi le positionnement de la mobilité accessible et inclusive. La e-C3, lancée à moins de 24 000 euros (prix catalogue), est l&apos;un des véhicules électriques les plus abordables du marché tout en offrant une autonomie et un espace intérieur très compétitifs pour le segment. La philosophie Citroën (confort, simplicité, accessibilité) se traduit par des véhicules électriques pensés pour le plus grand nombre, sans concession sur le confort de suspension (grâce au système Advanced Comfort) ni sur la praticité quotidienne.
           </p>
 
           <h3>Dacia : l&apos;électrique au prix plancher</h3>
@@ -147,7 +147,7 @@ export default function MarquesIndexPage() {
             BYD (Build Your Dreams) est devenu en 2023 le premier constructeur mondial de véhicules électriques en volume, dépassant Tesla. Son offensive sur le marché européen s&apos;est accéléree en 2024-2025 avec le déploiement d&apos;un réseau de concessions et l&apos;arrivée de modèles adaptés aux goûts européens. La gamme BYD en France comprend la Dolphin (citadine polyvalente), la Dolphin Surf (SUV compact), l&apos;Atto 3 (SUV familial), la Seal (berline sportive) et le Tang (grand SUV). BYD se distingue par sa maîtrise complète de la chaîne de valeur, de la cellule de batterie (Blade Battery LFP) au véhicule fini, ce qui lui confère un avantage de coût significatif.
           </p>
           <p>
-            La question de l&apos;éligibilité au bonus écologique est cruciale pour les modèles BYD. Certains véhicules assemblés en Europe (ou en cours de localisation de la production) pourront bénéficier du bonus, tandis que ceux importés directement de Chine risquent d&apos;en être exclus en raison du score environnemental. C&apos;est un paramètre à vérifier systématiquement avant l&apos;achat.
+            La question de l&apos;éligibilité à la prime coup de pouce CEE, qui a remplacé le bonus écologique, est cruciale pour les modèles BYD. Certains véhicules assemblés en Europe (ou en cours de localisation de la production) pourront y ouvrir droit, tandis que ceux importés directement de Chine risquent d&apos;en être exclus en raison du score environnemental. C&apos;est un paramètre à vérifier systématiquement avant l&apos;achat.
           </p>
 
           <h3>MG : le retour de la marque britannique, version chinoise</h3>
@@ -182,7 +182,7 @@ export default function MarquesIndexPage() {
           <ul>
             <li><strong>Le réseau de distribution et le SAV :</strong> une marque avec un réseau de concessions dense vous garantit un service de proximité pour l&apos;entretien et les réparations. C&apos;est un avantage des marques établies (Renault, Peugeot, Volkswagen) par rapport aux nouveaux entrants.</li>
             <li><strong>La garantie :</strong> comparez les durées et les conditions de garantie, notamment celle de la batterie (généralement 8 ans / 160 000 km, mais avec des conditions variables).</li>
-            <li><strong>L&apos;éligibilité aux aides :</strong> le bonus écologique et le score environnemental excluent certains modèles importés de pays a forte empreinte carbone de fabrication. Vérifiez l&apos;éligibilité avant de vous engager.</li>
+            <li><strong>L&apos;éligibilité aux aides :</strong> la prime coup de pouce CEE et le leasing social exigent un score environnemental qui exclut certains modèles importés de pays a forte empreinte carbone de fabrication. Vérifiez l&apos;éligibilité avant de vous engager.</li>
             <li><strong>La valeur de revente :</strong> les marques établies et reconnues conservent généralement une meilleure valeur résiduelle. Tesla et les marques premium européennes affichent les meilleures decotes.</li>
             <li><strong>Les mises à jour logicielles :</strong> certaines marques (Tesla, BMW, Mercedes) proposent des mises à jour OTA régulières qui améliorent le véhicule dans le temps. D&apos;autres ne proposent que des mises à jour ponctuelles en concession.</li>
           </ul>

@@ -41,7 +41,7 @@ export default function ComparatifsIndexPage() {
             kWh au tarif réglementé, quinze kWh aux 100 km reviennent à moins de quatre euros, soit
             trois à quatre fois moins qu&apos;un plein d&apos;essence sur la même distance. Chacun
             des {comparatifs.length} duels ci-dessous donne ces chiffres côte à côte, avec le
-            coffre, le poids, l&apos;éligibilité au bonus écologique et le prix d&apos;occasion
+            coffre, le poids, l&apos;éligibilité à la prime coup de pouce CEE et le prix d&apos;occasion
             quand le modèle est assez ancien pour qu&apos;un marché se soit formé.
           </p>
         </div>
@@ -127,10 +127,10 @@ export default function ComparatifsIndexPage() {
 
           <h3>Le prix : comparer ce qui est comparable</h3>
           <p>
-            Le prix catalogue ne suffit pas pour comparer objectivement deux véhicules électriques. Plusieurs éléments doivent être pris en compte pour établir un comparatif financier pertinent. Le prix après bonus écologique est le premier ajustement nécessaire : certains modèles sont éligibles au bonus maximal, d&apos;autres non (en raison de leur prix ou de leur score environnemental). Le coût de la recharge au quotidien est un deuxième facteur : un véhicule plus efficace permettra d&apos;économiser plusieurs centaines d&apos;euros par an en énergie.
+            Le prix catalogue ne suffit pas pour comparer objectivement deux véhicules électriques. Plusieurs éléments doivent être pris en compte pour établir un comparatif financier pertinent. L&apos;éligibilité à la prime coup de pouce CEE, qui a remplacé le bonus écologique, est le premier élément à vérifier : certains modèles y ouvrent droit, d&apos;autres non (en raison de leur prix ou de leur score environnemental), et son montant varie selon l&apos;offre retenue. Nos comparatifs raisonnent donc sur le prix catalogue. Le coût de la recharge au quotidien est un deuxième facteur : un véhicule plus efficace permettra d&apos;économiser plusieurs centaines d&apos;euros par an en énergie.
           </p>
           <p>
-            Nos comparatifs intégrent systématiquement une analyse du coût total de possession (TCO) sur 5 ans, incluant le prix d&apos;achat (après aides), le coût énergétique, l&apos;entretien, l&apos;assurance et la valeur résiduelle estimée. Ce calcul global peut inverser la hiérarchie de prix par rapport au simple prix catalogue : un véhicule plus cher a l&apos;achat mais plus efficient et mieux valorisé à la revente peut s&apos;avérer plus économique sur la durée de possession.
+            Nos comparatifs intégrent systématiquement une analyse du coût total de possession (TCO) sur 5 ans, incluant le prix d&apos;achat, le coût énergétique, l&apos;entretien, l&apos;assurance et la valeur résiduelle estimée. Ce calcul global peut inverser la hiérarchie de prix par rapport au simple prix catalogue : un véhicule plus cher a l&apos;achat mais plus efficient et mieux valorisé à la revente peut s&apos;avérer plus économique sur la durée de possession.
           </p>
 
           <h3>L&apos;espace intérieur et la modularité</h3>
@@ -177,7 +177,7 @@ export default function ComparatifsIndexPage() {
 
           <h2>Les tendances des comparatifs en 2026</h2>
           <p>
-            L&apos;année 2026 est marquée par plusieurs tendances fortes dans le paysage des comparatifs de voitures électriques. La montée en puissance des constructeurs chinois créé de nouvelles confrontations passionnantes : les BYD Atto 3 et Dolphin s&apos;attaquent frontalement aux modèles européens et coreens de même segment, souvent avec un avantage tarifaire significatif mais des interrogations sur le réseau de service après-vente et la valeur de revente. Les constructeurs français ripostent avec des modèles au rapport qualité-prix amélioré, comme la Renault 5 E-Tech ou la Citroen e-C3, qui bénéficient en outre de l&apos;éligibilité au bonus écologique maximal.
+            L&apos;année 2026 est marquée par plusieurs tendances fortes dans le paysage des comparatifs de voitures électriques. La montée en puissance des constructeurs chinois créé de nouvelles confrontations passionnantes : les BYD Atto 3 et Dolphin s&apos;attaquent frontalement aux modèles européens et coreens de même segment, souvent avec un avantage tarifaire significatif mais des interrogations sur le réseau de service après-vente et la valeur de revente. Les constructeurs français ripostent avec des modèles au rapport qualité-prix amélioré, comme la Renault 5 E-Tech ou la Citroen e-C3, qui ouvrent en outre droit à la prime coup de pouce CEE.
           </p>
           <p>
             L&apos;arrivée de batteries plus performantes et moins coûteuses entraine une compression des écarts de spécifications entre les segments. Certaines citadines électriques offrent désormais des autonomies supérieures a 300 km WLTP et des puissances de recharge rapide supérieures a 100 kW, des chiffres qui étaient l&apos;apanage des berlines et SUV haut de gamme il y a seulement deux ans. Cette convergence complique les comparaisons mais enrichit les possibilités de choix pour le consommateur, qui peut désormais trouver un excellent rapport qualité-prix-autonomie dans presque tous les segments du marché.

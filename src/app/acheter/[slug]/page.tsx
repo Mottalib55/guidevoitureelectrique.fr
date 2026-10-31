@@ -284,16 +284,16 @@ export default async function PageAcheter({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Prime coup de pouce CEE : service-public.fr
               </a>
             </li>
             <li>
               <a
-                href="https://www.primealaconversion.gouv.fr"
+                href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39280"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prime à la conversion : primealaconversion.gouv.fr
+                Leasing social 2026 : service-public.fr
               </a>
             </li>
             <li>

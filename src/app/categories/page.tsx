@@ -77,7 +77,7 @@ export default function CategoriesIndexPage() {
 
           <h3>Pour qui ?</h3>
           <p>
-            La catégorie des voitures électriques pas chères (moins de 25 000 euros, bonus déduit) s&apos;adresse aux conducteurs qui souhaitent accéder à la mobilité électrique sans grever leur budget. C&apos;est le segment qui connaît la plus forte croissance en 2026, porte par l&apos;arrivée de modèles concurrentiels des constructeurs français et chinois. Les acheteurs typiques sont les urbains et periurbains, les menages avec un budget automobile modere, les jeunes conducteurs ou les familles cherchant un deuxième véhicule pour les trajets quotidiens.
+            La catégorie des voitures électriques pas chères (moins de 25 000 euros au prix catalogue) s&apos;adresse aux conducteurs qui souhaitent accéder à la mobilité électrique sans grever leur budget. C&apos;est le segment qui connaît la plus forte croissance en 2026, porte par l&apos;arrivée de modèles concurrentiels des constructeurs français et chinois. Les acheteurs typiques sont les urbains et periurbains, les menages avec un budget automobile modere, les jeunes conducteurs ou les familles cherchant un deuxième véhicule pour les trajets quotidiens.
           </p>
 
           <h3>Ce qu&apos;il faut savoir</h3>
@@ -95,7 +95,7 @@ export default function CategoriesIndexPage() {
             Les constructeurs chinois comme BYD, MG, Leapmotor ou Xpeng proposent souvent des véhicules généreusement équipes (écrans grands formats, systèmes d&apos;aide à la conduite avances, sellerie de qualité) a des prix 15 a 25 % inférieurs a ceux des constructeurs européens pour des spécifications comparables. La qualité de fabrication s&apos;est considérablement améliorée et rivalise désormais avec les standards européens sur les modèles récents.
           </p>
           <p>
-            Les points de vigilance concernent principalement le réseau de service après-vente (encore en phase de déploiement pour certaines marques), l&apos;éligibilité au bonus écologique (variable selon les modèles et leur lieu de fabrication), et la valeur de revente (encore difficile à estimer pour des marques récemment arrivées sur le marché français). Nos fiches détaillées par marque chinoise abordent chacun de ces aspects pour vous permettre d&apos;acheter en toute connaissance de cause.
+            Les points de vigilance concernent principalement le réseau de service après-vente (encore en phase de déploiement pour certaines marques), l&apos;éligibilité à la prime coup de pouce CEE (variable selon les modèles et leur lieu de fabrication), et la valeur de revente (encore difficile à estimer pour des marques récemment arrivées sur le marché français). Nos fiches détaillées par marque chinoise abordent chacun de ces aspects pour vous permettre d&apos;acheter en toute connaissance de cause.
           </p>
 
           <h2>Les voitures électriques sans permis : la mobilité des 14 ans et plus</h2>
@@ -164,7 +164,7 @@ export default function CategoriesIndexPage() {
             <li><strong>Vous roulez principalement en ville ?</strong> Les petites voitures et les sans permis sont vos meilleures options.</li>
             <li><strong>Vous avez une famille avec enfants ?</strong> Privilégiez les SUV familiaux et les compactes spacieuses.</li>
             <li><strong>Vous faites régulièrement de longs trajets ?</strong> Visez la catégorie grande autonomie.</li>
-            <li><strong>Vous cherchez le meilleur rapport qualité-prix ?</strong> Explorez les marques chinoises en vérifiant l&apos;éligibilité au bonus.</li>
+            <li><strong>Vous cherchez le meilleur rapport qualité-prix ?</strong> Explorez les marques chinoises en vérifiant l&apos;éligibilité à la prime coup de pouce CEE.</li>
             <li><strong>Vous n&apos;avez pas le permis B ?</strong> Les voitures sans permis électriques sont faites pour vous.</li>
           </ul>
           <p>

@@ -8,6 +8,7 @@ import { modeles, type Modele } from "@/data/modeles";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { dec } from "@/lib/format";
+import { COUP_DE_POUCE, eur } from "@/data/aides-2026";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -59,7 +60,7 @@ export default function ComparateurModeles() {
     { label: "Longueur", render: (m) => `${(m.longueur / 1000).toFixed(2).replace('.', ',')} m` },
     { label: "Segment", render: (m) => m.segment },
     { label: "Origine", render: (m) => m.origine },
-    { label: "Bonus écologique", render: (m) => m.aidesEligible ? "Éligible" : "Non éligible" },
+    { label: "Prime coup de pouce CEE", render: (m) => m.aidesEligible ? "Éligible" : "Non éligible" },
     { label: "Recharge / an (12 000 km)", render: (m) => euro(Math.round((12000 / 100) * m.conso * 0.2)) },
     { label: "Note", render: (m) => `${m.note}/10` },
   ];
@@ -246,15 +247,15 @@ export default function ComparateurModeles() {
             <li><strong>Grands SUV (plus de 4,70 m) :</strong> Tesla Model Y, Mercedes EQE SUV, BMW iX, Audi Q8 e-tron. Espace maximal, équipement premium. Batterie 75-110 kWh.</li>
           </ul>
 
-          <h2>L&apos;éligibilité au bonus écologique : un critère financier majeur</h2>
+          <h2>L&apos;éligibilité à la prime coup de pouce CEE : un critère financier</h2>
           <p>
-            Le <strong>bonus écologique</strong> est une aide de l&apos;État français qui réduit directement le prix d&apos;achat d&apos;un véhicule électrique neuf. En 2026, le bonus s&apos;eleve a <strong>4 000 euros</strong> pour les véhicules de moins de 47 000 euros, et peut atteindre <strong>7 000 euros</strong> pour les menages les plus modestes (revenu fiscal de référence par part inférieur a 15 400 euros).
+            Le <strong>bonus écologique</strong> n&apos;existe plus : depuis le {COUP_DE_POUCE.depuis}, il est remplacé par la <strong>prime « coup de pouce » CEE</strong>, financée par les certificats d&apos;économies d&apos;énergie. Elle concerne les voitures électriques neuves d&apos;au plus {eur(COUP_DE_POUCE.prixMaxTTC)} TTC et de moins de {COUP_DE_POUCE.masseMaxKg.toLocaleString("fr-FR")} kg. Son montant n&apos;est pas fixé par la réglementation : il dépend de l&apos;entreprise qui la verse et d&apos;une bonification selon les revenus du ménage. Le comparateur indique donc l&apos;éligibilité, pas un montant.
           </p>
           <p>
-            Mais depuis 2024, l&apos;éligibilité au bonus est conditionnée a un <strong>score environnemental</strong> qui prend en compte l&apos;empreinte carbone de fabrication du véhicule. Ce score penalise les véhicules fabriques dans des pays au mix énergétique fortement carbone (comme la Chine). En conséquence, de nombreux modèles chinois importes (BYD Atto 3, MG4 version standard, Xpeng G6) ne sont pas éligibles au bonus, ce qui renchérit leur prix réel de 4 000 a 7 000 euros par rapport aux véhicules éligibles.
+            Comme l&apos;ancien bonus, la prime est conditionnée à un <strong>score environnemental</strong> d&apos;au moins {COUP_DE_POUCE.scoreEnvironnementalMin} points, qui prend en compte l&apos;empreinte carbone de fabrication du véhicule. Ce score penalise les véhicules fabriques dans des pays au mix énergétique fortement carbone (comme la Chine). En conséquence, de nombreux modèles chinois importes (BYD Atto 3, MG4 version standard, Xpeng G6) ne sont pas éligibles à la prime, ce qui renchérit leur prix réel par rapport aux véhicules éligibles.
           </p>
           <p>
-            Certains constructeurs chinois ont réagi en assemblant leurs véhicules en Europe. Le Leapmotor T03, assemble en Pologne par Stellantis, est éligible au bonus. BYD a ouvert des usines en Hongrie et en Turquie. MG envisage une production en Europe. Cette stratégie devrait progressivement élargir le nombre de modèles chinois éligibles au bonus.
+            Certains constructeurs chinois ont réagi en assemblant leurs véhicules en Europe. Le Leapmotor T03, assemblé en Pologne par Stellantis, figure parmi les modèles éligibles. BYD a ouvert des usines en Hongrie et en Turquie. MG envisage une production en Europe. Cette stratégie devrait progressivement élargir le nombre de modèles chinois éligibles à la prime.
           </p>
 
           <h2>Le coût de recharge annuel : la surprise du calcul</h2>
@@ -270,7 +271,7 @@ export default function ComparateurModeles() {
             Notre note sur 10 attribuée à chaque véhicule est le résultat d&apos;une évaluation multicritères pondérée, prenant en compte :
           </p>
           <ul>
-            <li><strong>Rapport qualité-prix (25 %)</strong> : prix d&apos;achat après aides rapporté aux prestations offertes</li>
+            <li><strong>Rapport qualité-prix (25 %)</strong> : prix d&apos;achat catalogue rapporté aux prestations offertes</li>
             <li><strong>Autonomie et efficacité (20 %)</strong> : autonomie réelle et consommation aux 100 km</li>
             <li><strong>Performance de charge (15 %)</strong> : temps de charge rapide 10-80 % et puissance AC</li>
             <li><strong>Habitabilité et coffre (15 %)</strong> : espace aux places arrière, volume de coffre, modularité</li>
@@ -286,7 +287,7 @@ export default function ComparateurModeles() {
             Pour tirer le meilleur parti de notre outil de comparaison, nous vous recommandons la démarche suivante :
           </p>
           <ul>
-            <li><strong>Définissez votre budget maximal</strong> (après déduction du bonus écologique et des aides éventuelles) et filtrez les modèles en conséquence.</li>
+            <li><strong>Définissez votre budget maximal</strong> (prix catalogue, moins la prime CEE que vous aurez obtenue le cas échéant) et filtrez les modèles en conséquence.</li>
             <li><strong>Identifiez votre besoin en autonomie</strong> : calculez votre trajet quotidien moyen et ajoutez une marge de sécurité de 30 %. Ce sera votre autonomie réelle minimale.</li>
             <li><strong>Comparez des véhicules du même segment</strong> : comparer une citadine et un SUV n&apos;a pas de sens. Restez dans la même catégorie de taille et d&apos;usage.</li>
             <li><strong>Regardez le coût total, pas seulement le prix d&apos;achat</strong> : un véhicule plus cher mais plus efficient peut revenir moins cher sur 5 ans grâce aux économies de recharge.</li>

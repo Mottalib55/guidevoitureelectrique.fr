@@ -1,3 +1,5 @@
+import { COUP_DE_POUCE, eur } from "./aides-2026";
+
 export type Origine = "FR" | "EU" | "Chine" | "US";
 export type StatutModele = "dispo" | "a-venir";
 
@@ -22,6 +24,8 @@ export interface Modele {
   longueur: number; // mm
   segment: string;
   origine: Origine;
+  /** Score environnemental suffisant pour la prime coup de pouce CEE (liste officielle).
+   *  Le plafond de prix et de masse est appliqué en plus, depuis aides-2026.ts. */
   aidesEligible: boolean;
   note: number; // /10
   tags: string[];
@@ -42,7 +46,7 @@ export interface Modele {
 // leapmotor.eu, xpeng.com, zeekr.com, bmw.fr, audi.fr, mercedes-benz.fr).
 // Dernière vérification : juin 2026.
 
-export const modeles: Modele[] = [
+const catalogue: Modele[] = [
   // ─── RENAULT 5 E-TECH ─────────────────────────────────────────────
   {
     slug: "renault-5-e-tech",
@@ -71,7 +75,7 @@ export const modeles: Modele[] = [
     annee: 2024,
     description: `La Renault 5 E-Tech marque le grand retour d'une icône française sous forme 100 % électrique. Produite à Douai (Hauts-de-France) sur la plateforme AmpR Small, elle incarne la stratégie de Renault pour démocratiser la voiture électrique en Europe. Avec un design néo-rétro signé Gilles Vidal, elle séduit autant par son style que par sa fiche technique équilibrée.
 
-Disponible en deux niveaux de batterie (40 kWh / 300 km WLTP et 52 kWh / 400 km WLTP), la Renault 5 E-Tech cible les conducteurs urbains et périurbains qui souhaitent passer à l'électrique sans compromis sur le budget. Son prix d'entrée à 25 000 € avant bonus en fait l'une des citadines électriques les plus compétitives du marché français.
+Disponible en deux niveaux de batterie (40 kWh / 300 km WLTP et 52 kWh / 400 km WLTP), la Renault 5 E-Tech cible les conducteurs urbains et périurbains qui souhaitent passer à l'électrique sans compromis sur le budget. Son prix d'entrée à 25 000 € en fait l'une des citadines électriques les plus compétitives du marché français.
 
 Côté recharge, la plateforme AmpR Small accepte la charge rapide DC jusqu'à 100 kW, permettant de récupérer 200 km d'autonomie en environ 30 minutes. En courant alternatif, le chargeur embarqué de 11 kW permet une recharge complète en moins de 4 heures sur une borne domestique ou publique adaptée.
 
@@ -83,10 +87,10 @@ Le coffre de 326 litres est correct pour le segment des citadines, et l'habitabi
 
 Renault propose la 5 E-Tech en plusieurs finitions (évolution, techno, iconic cinq) avec des options de personnalisation extérieure et intérieure variées, incluant un toit bicolore et des inserts colorés.
 
-Produite en France et éligible au bonus écologique de 4 000 €, la Renault 5 E-Tech peut descendre à 21 000 € après aides, ce qui la positionne comme une alternative sérieuse à la Peugeot e-208, à la Citroën ë-C3 et aux modèles chinois comme la BYD Dolphin Surf ou la MG4.`,
+Produite en France et éligible à la prime coup de pouce CEE, dont le montant dépend de l'offre retenue et des revenus du ménage, la Renault 5 E-Tech se positionne comme une alternative sérieuse à la Peugeot e-208, à la Citroën ë-C3 et aux modèles chinois comme la BYD Dolphin Surf ou la MG4.`,
     pointsForts: [
       "Design néo-rétro réussi et identité forte",
-      "Fabrication française (Douai), éligible au bonus",
+      "Fabrication française (Douai), éligible à la prime coup de pouce CEE",
       "Rapport prix/autonomie parmi les meilleurs du marché",
       "Charge rapide 100 kW (30 min 15-80 %)",
       "Système multimédia openR link (Google intégré)",
@@ -133,7 +137,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Coffre spacieux de 420 litres",
       "Garde au sol surélevée, style crossover",
       "Même plateforme éprouvée que la R5 E-Tech",
-      "Fabrication française, éligible bonus",
+      "Fabrication française, éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Plus lourde que la R5, consommation légèrement supérieure",
@@ -465,7 +469,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
     note: 6,
     tags: ["pas-cher", "petite-voiture", "citadine"],
     annee: 2024,
-    description: `La Dacia Spring est la voiture électrique la moins chère du marché français. Restylée en 2024, elle gagne en modernité mais reste limitée en performances et en autonomie. Son poids plume (1 073 kg) en fait une citadine agile, mais la charge rapide bridée à 30 kW et l'absence de bonus écologique (production en Chine) limitent son intérêt face à la concurrence.`,
+    description: `La Dacia Spring est la voiture électrique la moins chère du marché français. Restylée en 2024, elle gagne en modernité mais reste limitée en performances et en autonomie. Son poids plume (1 073 kg) en fait une citadine agile, mais la charge rapide bridée à 30 kW et l'absence de prime coup de pouce CEE (production en Chine) limitent son intérêt face à la concurrence.`,
     pointsForts: [
       "Prix le plus bas du marché (18 900 €)",
       "Poids plume (1 073 kg)",
@@ -474,7 +478,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
     ],
     pointsFaibles: [
       "Charge rapide limitée à 30 kW",
-      "Non éligible au bonus (produite en Chine)",
+      "Non éligible à la prime coup de pouce CEE (produite en Chine)",
       "Autonomie réelle ~170 km seulement",
       "Finitions basiques, équipement limité",
     ],
@@ -772,7 +776,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Équipement riche de série",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique (fabriquée en Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabriquée en Chine)",
       "Réseau de distribution BYD encore limité en France",
       "Image de marque encore méconnue",
       "Charge rapide plafonnée à 88 kW",
@@ -815,7 +819,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Prix compétitif",
     ],
     pointsFaibles: [
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Réseau BYD limité en France",
       "Qualité perçue perfectible",
       "Charge rapide limitée à 88 kW",
@@ -858,7 +862,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Performances élevées (313 ch)",
     ],
     pointsFaibles: [
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Prix comparable à la Tesla Model 3",
       "Réseau BYD limité",
       "Valeur de revente incertaine",
@@ -901,7 +905,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Prix compétitif pour un SUV",
     ],
     pointsFaibles: [
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Charge rapide limitée (88 kW)",
       "Consommation un peu élevée",
       "Qualité de finition inégale",
@@ -944,7 +948,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Charge rapide 135 kW",
     ],
     pointsFaibles: [
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Qualité intérieure perfectible",
       "Réseau SAV MG en développement",
       "Infodivertissement basique",
@@ -990,7 +994,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Consommation élevée (17,8 kWh/100 km)",
       "Charge rapide limitée à 92 kW",
       "Plateforme non dédiée à l'électrique",
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
     ],
     source: "https://www.mgmotor.fr",
     dateMAJ: "2026-06-22",
@@ -1031,7 +1035,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
     ],
     pointsFaibles: [
       "Modèle tout juste lancé, peu de retours",
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Image MG encore en construction",
     ],
     source: "https://www.mgmotor.fr",
@@ -1117,7 +1121,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
     pointsFaibles: [
       "Charge rapide limitée à 84 kW",
       "Marque encore inconnue",
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Design intérieur quelconque",
     ],
     source: "https://www.leapmotor.eu",
@@ -1160,7 +1164,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
     pointsFaibles: [
       "Modèle très récent, peu de recul",
       "Charge rapide limitée (80 kW)",
-      "Non éligible au bonus",
+      "Non éligible à la prime coup de pouce CEE",
       "Marque encore à prouver",
     ],
     source: "https://www.leapmotor.eu",
@@ -1201,7 +1205,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Grand coffre (571 L)",
     ],
     pointsFaibles: [
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Réseau Xpeng quasi inexistant en France",
       "SAV à construire en Europe",
       "Image de marque inconnue",
@@ -1247,7 +1251,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Prix élevé (53 000 €)",
       "Poids très élevé (2 320 kg)",
       "Réseau Xpeng inexistant en France",
-      "Non éligible au bonus",
+      "Non éligible à la prime coup de pouce CEE",
     ],
     source: "https://www.xpeng.com",
     dateMAJ: "2026-06-22",
@@ -1287,7 +1291,7 @@ Produite en France et éligible au bonus écologique de 4 000 €, la Renault 
       "Charge rapide 200 kW",
     ],
     pointsFaibles: [
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Réseau Zeekr embryonnaire en Europe",
       "Poids très élevé (2 310 kg)",
       "SAV et pièces à construire",
@@ -1604,7 +1608,7 @@ Avec un prix d'entrée à 45 900 € (avec batterie) ou environ 35 000 € e
       "Grande autonomie avec batterie 100 kWh (>700 km WLTP)",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Réseau Nio encore absent en France",
       "Charge rapide DC limitée à 130 kW",
       "Stations Battery Swap à déployer en France",
@@ -1663,7 +1667,7 @@ En France, la Nio ET7 s'adressera à une clientèle recherchant une alternative 
     ],
     pointsFaibles: [
       "Prix élevé (81 900 € avec batterie)",
-      "Non éligible au bonus (Chine)",
+      "Non éligible à la prime coup de pouce CEE (Chine)",
       "Poids très élevé (2 379 kg)",
       "Coffre modeste pour le segment (363 L)",
       "Réseau Nio inexistant en France pour l'instant",
@@ -1708,14 +1712,14 @@ La batterie de 87 kWh promet une autonomie d'environ 550 km WLTP, avec une charg
 
 À l'intérieur, le concept A390 préfigure un habitacle futuriste avec un bandeau lumineux traversant le tableau de bord, un volant inspiré de la compétition et des sièges baquets sport. Le système d'infodivertissement devrait reprendre la base openR link (Google intégré) avec une surcouche Alpine spécifique, incluant un mode « piste » avec télémétrie en temps réel.
 
-Avec un prix estimé autour de 46 000 € pour la version d'entrée, l'Alpine A390 se positionnerait entre le Renault Scénic E-Tech et les SUV premium allemands (BMW iX1, Audi Q4 e-tron). La production est prévue à l'usine de Douai (Hauts-de-France), garantissant l'éligibilité au bonus écologique.
+Avec un prix estimé autour de 46 000 € pour la version d'entrée, l'Alpine A390 se positionnerait entre le Renault Scénic E-Tech et les SUV premium allemands (BMW iX1, Audi Q4 e-tron). La production est prévue à l'usine de Douai (Hauts-de-France), ce qui permet de prétendre à la prime coup de pouce CEE.
 
 L'A390 est un modèle stratégique pour Alpine, qui vise à devenir une marque 100 % électrique et sportive à part entière, au-delà de son héritage de constructeur de voitures de sport. Il représente le segment le plus porteur (SUV) avec la touche dynamique qui fait l'ADN d'Alpine depuis 1955.
 
 Les données techniques présentées ici sont provisoires et basées sur les informations communiquées par Alpine lors de la présentation du concept. Les spécifications définitives seront confirmées à l'approche du lancement commercial, prévu au second semestre 2026.`,
     pointsForts: [
       "ADN sportif Alpine (suspensions pilotées, différentiel actif)",
-      "Production française (Douai), éligible au bonus",
+      "Production française (Douai), éligible à la prime coup de pouce CEE",
       "Plateforme AmpR Medium éprouvée (base Scénic E-Tech)",
       "Design distinctif inspiré de la F1 Alpine",
       "Version haute performance annoncée (~500 ch)",
@@ -1926,9 +1930,9 @@ Le Kona Electric se positionne comme le choix intelligent pour les familles cher
     origine: "EU",
     aidesEligible: true,
     note: 8,
-    tags: ["citadine", "abordable", "compact", "urbain", "bonus-écologique"],
+    tags: ["citadine", "abordable", "compact", "urbain"],
     annee: 2024,
-    description: `Le Hyundai Inster débarque sur le marché européen avec une ambition claire : démocratiser la voiture électrique en proposant une mini-citadine à la fois abordable, bien équipée et dotée d'une autonomie surprenante pour sa catégorie. Dans un segment dominé par la Dacia Spring d'un côté et les Fiat 500e et Renault 5 de l'autre, l'Inster se positionne comme un compromis idéal entre prix contenu et prestations généreuses. Avec un tarif de base autour de 25 000 euros, éligible au bonus écologique, ce petit gabarit promet de séduire un public large à la recherche d'une mobilité électrique sans compromis excessif.
+    description: `Le Hyundai Inster débarque sur le marché européen avec une ambition claire : démocratiser la voiture électrique en proposant une mini-citadine à la fois abordable, bien équipée et dotée d'une autonomie surprenante pour sa catégorie. Dans un segment dominé par la Dacia Spring d'un côté et les Fiat 500e et Renault 5 de l'autre, l'Inster se positionne comme un compromis idéal entre prix contenu et prestations généreuses. Avec un tarif de base autour de 25 000 euros, éligible à la prime coup de pouce CEE, ce petit gabarit promet de séduire un public large à la recherche d'une mobilité électrique sans compromis excessif.
 
 Le design de l'Inster joue la carte de la sympathie et de la modernité. Ses formes cubiques et ses lignes épurées rappellent les kei cars japonais, ces petites voitures urbaines optimisées pour l'espace. Les feux à LED aux motifs circulaires, les protections de bas de caisse contrastées et les barres de toit de série confèrent au véhicule un look aventurier inattendu pour une citadine. Malgré ses 3 825 mm de longueur compacts, l'Inster parvient à dégager une présence visuelle étonnante grâce à ses proportions bien étudiées, avec un toit haut et des porte-à-faux réduits au minimum.
 
@@ -1947,7 +1951,7 @@ L'Inster embarque également la fonction Vehicle-to-Load (V2L) héritée des Ion
 Le Hyundai Inster se positionne comme la citadine électrique la plus rationnelle du marché, combinant un prix d'accès contenu, une autonomie généreuse et un équipement complet dans un format urbain facile à vivre au quotidien.`,
     pointsForts: [
       "Autonomie de 370 km WLTP exceptionnelle pour une mini-citadine à ce prix",
-      "Prix attractif autour de 25 000 euros, éligible au bonus écologique",
+      "Prix attractif autour de 25 000 euros, éligible à la prime coup de pouce CEE",
       "Équipement technologique complet avec double écran 10,25 pouces et V2L",
       "Modularité intérieure remarquable avec banquette arrière coulissante",
       "Consommation très contenue de 14,6 kWh/100 km",
@@ -1986,7 +1990,7 @@ Le Hyundai Inster se positionne comme la citadine électrique la plus rationnell
     note: 8,
     tags: ["SUV-urbain", "premium", "compact", "design-scandinave", "performant"],
     annee: 2024,
-    description: `Le Volvo EX30 représente l'entrée de gamme la plus accessible de la marque suédoise dans l'univers 100 % électrique, et il ne déçoit pas. Ce SUV urbain compact de 4 233 mm concentre tout le savoir-faire scandinave en matière de design, de sécurité et de durabilité dans un format citadin agile. Malgré son prix d'attaque compétitif de 36 500 euros, l'EX30 ne fait aucun compromis sur la qualité de finition ni sur les performances, offrant une expérience premium dans un gabarit réduit. Il convient toutefois de noter que sa fabrication en Chine le rend inéligible au bonus écologique français, un facteur important dans le calcul du coût total d'acquisition.
+    description: `Le Volvo EX30 représente l'entrée de gamme la plus accessible de la marque suédoise dans l'univers 100 % électrique, et il ne déçoit pas. Ce SUV urbain compact de 4 233 mm concentre tout le savoir-faire scandinave en matière de design, de sécurité et de durabilité dans un format citadin agile. Malgré son prix d'attaque compétitif de 36 500 euros, l'EX30 ne fait aucun compromis sur la qualité de finition ni sur les performances, offrant une expérience premium dans un gabarit réduit. Il convient toutefois de noter que sa fabrication en Chine le rend inéligible à la prime coup de pouce CEE, un facteur important dans le calcul du coût total d'acquisition.
 
 Le design extérieur de l'EX30 est un condensé de l'esthétique Volvo contemporaine. Les lignes sont nettes, tendues, avec le fameux marteau de Thor réinterprété en signature lumineuse LED. La silhouette compacte mais musclée dégage une impression de robustesse et de modernité. Les poignées de porte affleurantes, le toit contrasté en option et les jantes aérodynamiques de 19 pouces renforcent le caractère premium du véhicule. Le noir et le blanc dominent les options de couleur, mais Volvo propose également des teintes vives comme le jaune Moss qui affirment le caractère distinctif du modèle.
 
@@ -2002,7 +2006,7 @@ Le coffre de 318 litres est le principal compromis imposé par le gabarit compac
 
 La suite de sécurité de l'EX30 est à la hauteur de la réputation de Volvo, avec un ensemble complet d'aides à la conduite incluant le Pilot Assist, la détection des piétons, des cyclistes et des grands animaux, le freinage automatique aux intersections et le système de surveillance de l'attention du conducteur. Le véhicule a obtenu cinq étoiles Euro NCAP malgré son gabarit compact.
 
-Le Volvo EX30 se positionne comme la porte d'entrée premium vers la mobilité électrique, offrant un concentré de technologie scandinave dans un format urbain séduisant, bien que l'inéligibilité au bonus écologique en raison de sa fabrication chinoise puisse freiner certains acheteurs français.`,
+Le Volvo EX30 se positionne comme la porte d'entrée premium vers la mobilité électrique, offrant un concentré de technologie scandinave dans un format urbain séduisant, bien que l'inéligibilité à la prime coup de pouce CEE en raison de sa fabrication chinoise puisse freiner certains acheteurs français.`,
     pointsForts: [
       "Performances remarquables avec 272 ch et un 0-100 km/h en 5,3 secondes",
       "Design scandinave premium et matériaux durables recyclés de haute qualité",
@@ -2011,7 +2015,7 @@ Le Volvo EX30 se positionne comme la porte d'entrée premium vers la mobilité �
       "Format compact de 4,2 mètres idéal pour la ville",
     ],
     pointsFaibles: [
-      "Inéligible au bonus écologique en raison de sa fabrication en Chine",
+      "Inéligible à la prime coup de pouce CEE en raison de sa fabrication en Chine",
       "Coffre limité à 318 litres, insuffisant pour un usage familial chargé",
       "Absence de combiné d'instruments derrière le volant, tout passe par l'écran central",
       "Places arrière étroites pour trois passagers adultes",
@@ -2044,7 +2048,7 @@ Le Volvo EX30 se positionne comme la porte d'entrée premium vers la mobilité �
     note: 8,
     tags: ["SUV-compact", "premium", "sécurité", "familial", "assemblé-en-Europe"],
     annee: 2024,
-    description: `Le Volvo EX40, successeur du populaire XC40 Recharge, marque l'aboutissement de la transformation électrique du SUV compact suédois. Assemblé à Gand en Belgique, ce modèle bénéficie de l'éligibilité au bonus écologique français, un avantage compétitif significatif face aux concurrents fabriqués hors d'Europe. Fort d'une batterie de 82 kWh et d'une autonomie de 500 km WLTP, l'EX40 se positionne comme un choix premium et rationnel pour les familles recherchant un SUV électrique spacieux, sûr et bien équipé.
+    description: `Le Volvo EX40, successeur du populaire XC40 Recharge, marque l'aboutissement de la transformation électrique du SUV compact suédois. Assemblé à Gand en Belgique, ce modèle obtient un meilleur score environnemental que les concurrents fabriqués hors d'Europe, mais son prix d'entrée dépasse le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE. Fort d'une batterie de 82 kWh et d'une autonomie de 500 km WLTP, l'EX40 se positionne comme un choix premium et rationnel pour les familles recherchant un SUV électrique spacieux, sûr et bien équipé.
 
 Le design de l'EX40 reprend les lignes reconnaissables du XC40, affinées pour la nouvelle ère électrique. La calandre pleine au motif Shield, encadrée par la signature lumineuse en marteau de Thor à technologie full LED, affirme immédiatement l'identité Volvo. Les proportions équilibrées, les épaules marquées et la ligne de toit légèrement plongeante confèrent au véhicule une allure dynamique et urbaine. Le traitement aérodynamique a été optimisé par rapport au XC40, avec des poignées de porte affleurantes et un soubassement carené qui contribuent à réduire la traînée et améliorer l'autonomie.
 
@@ -2060,9 +2064,9 @@ La recharge rapide en courant continu accepte jusqu'à 150 kW, permettant de pas
 
 La sécurité constitue naturellement un pilier fondamental de l'EX40. Le véhicule intègre l'ensemble des technologies Volvo de dernière génération, incluant le freinage automatique d'urgence avec détection de véhicules, piétons, cyclistes et grands animaux, le Pilot Assist combinant régulateur adaptatif et maintien dans la voie, le Cross Traffic Alert avec freinage automatique, et le système de surveillance de l'angle mort avec intervention corrective. La structure renforcée et les multiples airbags assurent une protection maximale en cas de collision.
 
-Le Volvo EX40 se distingue comme le SUV compact électrique premium de référence pour les acheteurs européens, combinant l'excellence sécuritaire de Volvo, l'éligibilité au bonus écologique et un confort scandinave raffiné dans un format familial polyvalent.`,
+Le Volvo EX40 se distingue comme le SUV compact électrique premium de référence pour les acheteurs européens, combinant l'excellence sécuritaire de Volvo, une fabrication européenne et un confort scandinave raffiné dans un format familial polyvalent.`,
     pointsForts: [
-      "Assemblé en Belgique, éligible au bonus écologique français",
+      "Assemblé en Belgique (fabrication européenne)",
       "Autonomie solide de 500 km WLTP avec une batterie de 82 kWh",
       "Système Google Built-in avec mises à jour OTA et planification d'itinéraire intégrée",
       "Sécurité de référence avec suite complète d'aides à la conduite Volvo",
@@ -2072,7 +2076,7 @@ Le Volvo EX40 se distingue comme le SUV compact électrique premium de référen
       "Poids élevé de 2 100 kg pénalisant la consommation autoroutière",
       "Recharge rapide limitée à 150 kW, en retrait face aux architectures 800V",
       "Écran central de 9 pouces un peu petit par rapport à la concurrence",
-      "Prix de base de 48 000 euros élevé avant déduction du bonus",
+      "Prix de base de 48 000 euros, au-dessus du plafond de la prime coup de pouce CEE",
     ],
     source: "https://www.volvocars.com/fr",
     dateMAJ: "2026-06-22",
@@ -2128,7 +2132,7 @@ Le Volvo EX90 s'impose comme le grand SUV électrique le plus abouti pour les fa
       "Système audio Bowers & Wilkins à 25 haut-parleurs en option",
     ],
     pointsFaibles: [
-      "Prix élevé de 83 000 euros et inéligible au bonus écologique (fabriqué en Chine)",
+      "Prix élevé de 83 000 euros et inéligible à la prime coup de pouce CEE (fabriqué en Chine)",
       "Poids massif de 2 818 kg impactant la consommation et l'agilité",
       "Encombrement important de 5,03 mètres limitant la maniabilité urbaine",
       "Consommation autoroutière élevée réduisant significativement l'autonomie réelle",
@@ -2186,7 +2190,7 @@ La Polestar 2 s'affirme comme la berline électrique des conducteurs exigeants, 
       "Design scandinave distinctif et matériaux durables de haute qualité",
     ],
     pointsFaibles: [
-      "Inéligible au bonus écologique en raison de la fabrication en Chine",
+      "Inéligible à la prime coup de pouce CEE en raison de la fabrication en Chine",
       "Garde au toit arrière limitée par la ligne de toit plongeante de type fastback",
       "Poids de 2 045 kg perceptible dans les enchaînements de virages serrés",
       "Réseau de concessionnaires et service après-vente encore limité en France",
@@ -2246,7 +2250,7 @@ Le Polestar 3 s'impose comme le grand SUV électrique pour les passionnés d'aut
       "Habitacle luxueux avec matériaux premium et système audio Bowers & Wilkins en option",
     ],
     pointsFaibles: [
-      "Prix élevé de 86 000 euros, non éligible au bonus écologique (fabrication en Chine)",
+      "Prix élevé de 86 000 euros, non éligible à la prime coup de pouce CEE (fabrication en Chine)",
       "Poids massif de 2 584 kg impactant la consommation et l'agilité",
       "Coffre de 484 litres en retrait par rapport à certains concurrents du segment",
       "Réseau de service après-vente Polestar encore peu développé en France",
@@ -2306,7 +2310,7 @@ Le Polestar 4 s'impose comme le choix des non-conformistes du premium électriqu
     ],
     pointsFaibles: [
       "Absence de lunette arrière nécessitant un temps d'adaptation pour la rétrovision par caméra",
-      "Inéligible au bonus écologique en raison de la fabrication en Chine",
+      "Inéligible à la prime coup de pouce CEE en raison de la fabrication en Chine",
       "Recharge rapide limitée à 200 kW, en retrait face aux architectures 800V",
       "Réseau de service après-vente Polestar limité sur le territoire français",
     ],
@@ -2352,13 +2356,13 @@ L'habitacle du Skoda Epiq promet de reprendre les fondamentaux qui ont fait le s
 
 En termes de comportement routier, le Skoda Epiq devrait offrir une conduite agile et maniable en milieu urbain grâce à ses dimensions compactes, tout en assurant un confort appréciable sur route grâce à son empattement optimisé. Le poids contenu d'environ 1 590 kilogrammes pour un véhicule électrique de cette catégorie contribue à des prestations dynamiques équilibrées et à une consommation maîtrisée.
 
-Le positionnement tarifaire du Skoda Epiq, autour de 25 000 euros, en fait l'un des véhicules électriques les plus accessibles du marché européen. Éligible au bonus écologique en France, il pourrait voir son prix d'acquisition descendre significativement, rendant l'électrique enfin accessible au plus grand nombre. Face à la concurrence des Citroën ë-C3, Renault 5 E-Tech et autres Volkswagen ID.2, le Skoda Epiq se positionne comme une alternative crédible misant sur l'espace, l'autonomie et l'équipement pour séduire les familles à la recherche d'une première voiture électrique abordable sans compromis.
+Le positionnement tarifaire du Skoda Epiq, autour de 25 000 euros, en fait l'un des véhicules électriques les plus accessibles du marché européen. Éligible à la prime coup de pouce CEE en France, il pourrait voir son prix d'acquisition descendre significativement, rendant l'électrique enfin accessible au plus grand nombre. Face à la concurrence des Citroën ë-C3, Renault 5 E-Tech et autres Volkswagen ID.2, le Skoda Epiq se positionne comme une alternative crédible misant sur l'espace, l'autonomie et l'équipement pour séduire les familles à la recherche d'une première voiture électrique abordable sans compromis.
 
 Le Skoda Epiq s'inscrit dans le plan stratégique de la marque qui prévoit le lancement de plusieurs modèles électriques d'ici la fin de la décennie. Il constitue la pierre angulaire de cette offensive, ciblant le volume de ventes le plus important du marché. Son arrivée en 2026 est attendue avec impatience par les observateurs du marché automobile, qui voient en lui un potentiel best-seller capable de convertir massivement les automobilistes à la mobilité électrique.`,
     pointsForts: [
       "Prix très attractif sous les 25 000 euros, rendant l'électrique accessible au plus grand nombre",
       "Autonomie WLTP de 400 km remarquable pour une citadine à ce tarif",
-      "Éligibilité au bonus écologique français réduisant encore le coût d'acquisition",
+      "Éligibilité à la prime coup de pouce CEE réduisant encore le coût d'acquisition",
       "Coffre de 360 litres généreux pour le segment des citadines",
       "Philosophie Simply Clever de Skoda garantissant des rangements astucieux et une habitabilité optimisée",
     ],
@@ -2407,7 +2411,7 @@ L'habitacle du BMW iX2 reflète le niveau de qualité attendu d'un véhicule pre
 
 Le comportement routier constitue le point fort majeur du BMW iX2. La répartition des masses optimisée par la position basse de la batterie, associée à une direction précise et à un châssis finement calibré, procure des sensations de conduite enthousiasmantes. Le centre de gravité abaissé limite efficacement le roulis en virage et confère au véhicule une agilité remarquable pour un SUV. Les différents modes de conduite permettent d'adapter le caractère du véhicule, du mode Efficient privilégiant l'autonomie au mode Sport libérant toute la puissance du moteur électrique.
 
-Face à ses concurrents directs comme le Volvo EX40 ou l'Audi Q4 e-tron Sportback, le BMW iX2 joue la carte de l'émotion et du plaisir de conduite. Son tarif de 52 000 euros le positionne dans le haut du segment, mais l'équipement de série généreux et les prestations dynamiques justifient cet investissement pour les amateurs de la marque. Non éligible au bonus écologique en raison de son prix, il reste néanmoins compétitif face à la concurrence premium et constitue une porte d'entrée séduisante dans l'univers électrique de BMW pour les amateurs de SUV au profil sportif.`,
+Face à ses concurrents directs comme le Volvo EX40 ou l'Audi Q4 e-tron Sportback, le BMW iX2 joue la carte de l'émotion et du plaisir de conduite. Son tarif de 52 000 euros le positionne dans le haut du segment, mais l'équipement de série généreux et les prestations dynamiques justifient cet investissement pour les amateurs de la marque. Non éligible à la prime coup de pouce CEE en raison de son prix, il reste néanmoins compétitif face à la concurrence premium et constitue une porte d'entrée séduisante dans l'univers électrique de BMW pour les amateurs de SUV au profil sportif.`,
     pointsForts: [
       "Comportement routier dynamique et précis, fidèle à l'ADN sportif de BMW",
       "Autonomie WLTP de 449 km confortable pour un SUV compact premium",
@@ -2416,7 +2420,7 @@ Face à ses concurrents directs comme le Volvo EX40 ou l'Audi Q4 e-tron Sportbac
       "Design coupé distinctif alliant élégance et sportivité",
     ],
     pointsFaibles: [
-      "Prix de 52 000 euros élevé et non éligible au bonus écologique",
+      "Prix de 52 000 euros élevé et non éligible à la prime coup de pouce CEE",
       "Puissance de charge rapide limitée à 130 kW, inférieure à certains rivaux",
       "Garde au toit arrière réduite par la ligne coupé pour les grands gabarits",
       "Poids de près de 2 tonnes impactant la consommation sur autoroute",
@@ -2461,7 +2465,7 @@ L'intérieur du EQE SUV constitue un véritable salon roulant. L'option phare es
 
 Sur la route, le Mercedes EQE SUV brille par son confort de roulement exemplaire. La suspension pneumatique AIRMATIC absorbe les imperfections de la chaussée avec une aisance déconcertante, tandis que la direction douce et progressive inspire confiance en toutes circonstances. Le couple instantané du moteur électrique assure des reprises vigoureuses pour les dépassements, malgré un poids conséquent de 2 590 kilogrammes. Les aides à la conduite de niveau 2+ incluent un système de conduite semi-autonome sur autoroute particulièrement abouti.
 
-Au tarif de 89 000 euros, le Mercedes EQE SUV se positionne clairement dans le haut de gamme et n'est pas éligible au bonus écologique. Il affronte directement le BMW iX xDrive40 et l'Audi Q8 e-tron, face auxquels il fait valoir une autonomie supérieure et un raffinement technologique à la pointe. Pour les acheteurs qui cherchent le summum du confort électrique dans un format SUV spacieux et statutaire, le EQE SUV constitue une proposition difficilement contestable sur le marché européen.`,
+Au tarif de 89 000 euros, le Mercedes EQE SUV se positionne clairement dans le haut de gamme et n'est pas éligible à la prime coup de pouce CEE. Il affronte directement le BMW iX xDrive40 et l'Audi Q8 e-tron, face auxquels il fait valoir une autonomie supérieure et un raffinement technologique à la pointe. Pour les acheteurs qui cherchent le summum du confort électrique dans un format SUV spacieux et statutaire, le EQE SUV constitue une proposition difficilement contestable sur le marché européen.`,
     pointsForts: [
       "Autonomie WLTP exceptionnelle de 590 km pour un grand SUV premium",
       "Confort de roulement exemplaire grâce à la suspension pneumatique AIRMATIC de série",
@@ -2570,11 +2574,11 @@ L'habitacle du Kangoo E-Tech exploite magistralement chaque centimètre cube dis
 
 Le comportement routier du Kangoo E-Tech bénéficie de la position basse de la batterie dans le plancher, qui abaisse le centre de gravité et améliore la stabilité par rapport à la version thermique. La conduite se montre souple et prévisible, parfaitement adaptée aux manœuvres urbaines et au confort sur route. Le rayon de braquage contenu facilite les créneaux et les demi-tours dans les rues étroites.
 
-Au tarif de 38 000 euros, le Kangoo E-Tech bénéficie de l'éligibilité au bonus écologique français grâce à sa fabrication hexagonale. Ce coup de pouce financier le rend plus accessible face aux alternatives thermiques et aux concurrents comme le Citroën ë-Berlingo ou le Peugeot e-Rifter. Pour les familles nombreuses cherchant un véhicule électrique spacieux et pratique fabriqué en France, ou les professionnels souhaitant verdir leur flotte sans sacrifier l'espace de chargement, le Kangoo E-Tech constitue un choix rationnel et patriotique.`,
+Au tarif de 38 000 euros, le Kangoo E-Tech bénéficie de l'éligibilité à la prime coup de pouce CEE grâce à sa fabrication hexagonale. Ce coup de pouce financier le rend plus accessible face aux alternatives thermiques et aux concurrents comme le Citroën ë-Berlingo ou le Peugeot e-Rifter. Pour les familles nombreuses cherchant un véhicule électrique spacieux et pratique fabriqué en France, ou les professionnels souhaitant verdir leur flotte sans sacrifier l'espace de chargement, le Kangoo E-Tech constitue un choix rationnel et patriotique.`,
     pointsForts: [
       "Volume de coffre exceptionnel de 775 litres, idéal pour les familles et les professionnels",
       "Portes coulissantes arrière facilitant l'accès dans les espaces restreints",
-      "Fabrication française à Maubeuge, éligible au bonus écologique",
+      "Fabrication française à Maubeuge, éligible à la prime coup de pouce CEE",
       "Charge complète sur wallbox en seulement 4h30, pratique pour la recharge nocturne",
       "Nombreux rangements et modularité de l'habitacle héritée du Kangoo thermique",
     ],
@@ -2624,12 +2628,12 @@ L'habitacle de l'Opel Combo Electric brille par son sens du pratique. Le coffre 
 
 Le confort de conduite de l'Opel Combo Electric satisfait pleinement pour un usage familial quotidien. La position de conduite surélevée offre une excellente visibilité sur l'environnement, tandis que l'insonorisation travaillée permet des conversations à bord sans élever la voix. La suspension, calibrée pour absorber les défauts de chaussée avec un véhicule chargé, se montre confortable bien que ferme à vide. Le système de récupération d'énergie au freinage contribue à maximiser l'autonomie en milieu urbain.
 
-À 37 000 euros, l'Opel Combo Electric se positionne de manière compétitive face au Peugeot e-Rifter et au Citroën ë-Berlingo. Éligible au bonus écologique, il devient encore plus attractif pour les familles soucieuses de leur budget. Le Combo Electric prouve qu'il est possible de rouler en électrique au quotidien avec une famille nombreuse, sans sacrifier ni l'espace, ni la praticité, ni le portefeuille. Un choix de raison qui ne manque pas de bon sens.`,
+À 37 000 euros, l'Opel Combo Electric se positionne de manière compétitive face au Peugeot e-Rifter et au Citroën ë-Berlingo. Éligible à la prime coup de pouce CEE, il devient encore plus attractif pour les familles soucieuses de leur budget. Le Combo Electric prouve qu'il est possible de rouler en électrique au quotidien avec une famille nombreuse, sans sacrifier ni l'espace, ni la praticité, ni le portefeuille. Un choix de raison qui ne manque pas de bon sens.`,
     pointsForts: [
       "Portes coulissantes des deux côtés de série, extrêmement pratiques au quotidien",
       "Autonomie WLTP de 329 km suffisante pour un usage familial et périurbain",
       "Charge rapide jusqu'à 100 kW avec passage 10-80 % en 26 minutes",
-      "Éligible au bonus écologique, rendant l'acquisition plus abordable",
+      "Éligible à la prime coup de pouce CEE, rendant l'acquisition plus abordable",
       "Chargeur embarqué triphasé 11 kW inclus de série",
     ],
     pointsFaibles: [
@@ -2666,7 +2670,7 @@ Le confort de conduite de l'Opel Combo Electric satisfait pleinement pour un usa
     note: 7,
     tags: ["ludospace", "familial", "pratique", "made-in-france", "portes-coulissantes"],
     annee: 2024,
-    description: `Le Peugeot e-Rifter représente la vision du ludospace électrique selon le constructeur sochalien, alliant le sens du style propre à la marque au Lion avec la fonctionnalité sans compromis attendue dans cette catégorie de véhicules. Partageant sa base technique avec l'Opel Combo Electric et le Citroën ë-Berlingo au sein du groupe Stellantis, le e-Rifter se distingue par son identité visuelle plus affirmée et son i-Cockpit caractéristique qui apportent une touche de modernité bienvenue dans un segment traditionnellement dominé par le pragmatisme. Fabriqué en France, il bénéficie de l'éligibilité au bonus écologique, un argument de poids face à la concurrence.
+    description: `Le Peugeot e-Rifter représente la vision du ludospace électrique selon le constructeur sochalien, alliant le sens du style propre à la marque au Lion avec la fonctionnalité sans compromis attendue dans cette catégorie de véhicules. Partageant sa base technique avec l'Opel Combo Electric et le Citroën ë-Berlingo au sein du groupe Stellantis, le e-Rifter se distingue par son identité visuelle plus affirmée et son i-Cockpit caractéristique qui apportent une touche de modernité bienvenue dans un segment traditionnellement dominé par le pragmatisme. Fabriqué en France, il bénéficie de l'éligibilité à la prime coup de pouce CEE, un argument de poids face à la concurrence.
 
 Le design du Peugeot e-Rifter tranche avec l'image austère habituellement associée aux ludospaces. La face avant reprend les codes stylistiques de la gamme Peugeot avec les crocs lumineux verticaux caractéristiques, le logo central proéminent et une calandre fermée spécifique à la version électrique. La carrosserie bicolore disponible avec un toit contrastant ajoute une touche de personnalisation appréciable. Les protections latérales robustes et les barres de toit intégrées renforcent le caractère aventurier du modèle, qui mesure 4 403 millimètres de longueur. Les portes coulissantes arrière, indispensables dans ce segment, offrent un accès facilité aux places arrière.
 
@@ -2678,10 +2682,10 @@ L'intérieur du e-Rifter se démarque de ses cousins Stellantis par l'adoption d
 
 Sur la route, le e-Rifter bénéficie du centre de gravité abaissé par la batterie positionnée dans le plancher, ce qui améliore la tenue de route par rapport à l'ancien modèle thermique. La direction assistée électrique se montre légère et facile en manœuvre, tandis que le confort de suspension reste globalement satisfaisant. La suite d'aides à la conduite de niveau 2 comprend le freinage automatique d'urgence, la surveillance d'angle mort et l'aide au maintien dans la voie, assurant une sécurité active complète pour toute la famille.
 
-Au tarif de 38 000 euros, le Peugeot e-Rifter se positionne légèrement au-dessus de l'Opel Combo Electric, mais compense par une présentation intérieure plus valorisante grâce au i-Cockpit et une image de marque plus désirable. Éligible au bonus écologique grâce à sa fabrication française, il constitue un choix pertinent pour les familles qui souhaitent combiner conscience écologique, praticité au quotidien et un minimum de plaisir visuel dans un véhicule capable de tout transporter.`,
+Au tarif de 38 000 euros, le Peugeot e-Rifter se positionne légèrement au-dessus de l'Opel Combo Electric, mais compense par une présentation intérieure plus valorisante grâce au i-Cockpit et une image de marque plus désirable. Éligible à la prime coup de pouce CEE grâce à sa fabrication française, il constitue un choix pertinent pour les familles qui souhaitent combiner conscience écologique, praticité au quotidien et un minimum de plaisir visuel dans un véhicule capable de tout transporter.`,
     pointsForts: [
       "i-Cockpit Peugeot offrant une expérience de conduite plus moderne et engageante que la concurrence",
-      "Fabrication française garantissant l'éligibilité au bonus écologique",
+      "Fabrication française ce qui permet de prétendre à la prime coup de pouce CEE",
       "Charge rapide jusqu'à 100 kW avec 10-80 % en 26 minutes, un progrès notable",
       "Portes coulissantes et modularité intérieure exemplaires pour les familles",
       "Design plus soigné et désirable que les ludospaces traditionnels",
@@ -2741,7 +2745,7 @@ L'intérieur du IONIQ 5 N reçoit des sièges baquets sport à réglages électr
       "Praticité quotidienne préservée avec 527 litres de coffre et 448 km d'autonomie WLTP",
     ],
     pointsFaibles: [
-      "Prix de 74 000 euros élevé et non éligible au bonus écologique",
+      "Prix de 74 000 euros élevé et non éligible à la prime coup de pouce CEE",
       "Consommation importante d'environ 20 kWh/100 km en conduite dynamique",
       "Poids de 2 190 kg se ressentant dans les enchaînements de virages serrés",
       "Autonomie réelle chutant significativement en usage sportif sur circuit",
@@ -2786,7 +2790,7 @@ L'habitacle du MG Cyberster enveloppe ses deux occupants dans un cockpit résolu
 
 Le comportement routier du MG Cyberster constitue sa raison d'être. Le châssis rigide, la direction précise et le centre de gravité bas procurent des sensations de conduite grisantes, que ce soit sur les routes sinueuses de campagne ou sur les voies rapides. La transmission intégrale assure une motricité infaillible, tandis que les modes de conduite permettent de moduler le caractère du véhicule entre confort et sport extrême. La conduite cheveux au vent, avec le couple instantané des moteurs électriques et le silence troublant rompu uniquement par le sifflement du vent, crée une expérience sensorielle véritablement unique.
 
-À 45 000 euros pour la version d'entrée de gamme, le MG Cyberster propose un rapport prix-prestations spectaculaire dans l'univers des roadsters. Non éligible au bonus écologique en raison de sa fabrication chinoise, il reste néanmoins bien plus accessible qu'un Tesla Roadster ou un Porsche Boxster électrique. Pour les passionnés d'automobile qui rêvent d'un cabriolet électrique alliant performances, autonomie et design spectaculaire, le MG Cyberster constitue une proposition unique sur le marché, une invitation au plaisir de conduire réinventé pour l'ère électrique.`,
+À 45 000 euros pour la version d'entrée de gamme, le MG Cyberster propose un rapport prix-prestations spectaculaire dans l'univers des roadsters. Non éligible à la prime coup de pouce CEE en raison de sa fabrication chinoise, il reste néanmoins bien plus accessible qu'un Tesla Roadster ou un Porsche Boxster électrique. Pour les passionnés d'automobile qui rêvent d'un cabriolet électrique alliant performances, autonomie et design spectaculaire, le MG Cyberster constitue une proposition unique sur le marché, une invitation au plaisir de conduire réinventé pour l'ère électrique.`,
     pointsForts: [
       "Design spectaculaire de roadster avec portes en ciseaux, unique sur le marché électrique",
       "Puissance de 510 chevaux et 0-100 km/h en moins de 3,2 secondes",
@@ -2796,7 +2800,7 @@ Le comportement routier du MG Cyberster constitue sa raison d'être. Le châssis
     ],
     pointsFaibles: [
       "Coffre de 249 litres très limité, restreignant les capacités de voyage",
-      "Non éligible au bonus écologique en raison de la fabrication chinoise",
+      "Non éligible à la prime coup de pouce CEE en raison de la fabrication chinoise",
       "Puissance de charge rapide de 140 kW en retrait face aux concurrents les plus performants",
       "Habitacle strictement deux places limitant la polyvalence au quotidien",
       "Poids de près de 2 tonnes élevé pour un roadster, impactant l'agilité",
@@ -2841,11 +2845,11 @@ L'habitacle de l'Alpine A290 mêle habilement l'esprit sportif et la technologie
 
 Le comportement routier constitue le coeur de la proposition de l'Alpine A290. Le châssis a été intégralement retravaillé par rapport à la Renault 5 : ressorts et amortisseurs spécifiques, barres antiroulis renforcées, voie élargie et direction recalibrée pour offrir une précision et un feedback supérieurs. Le train avant directif permet de placer le véhicule avec une exactitude chirurgicale, tandis que l'arrière joueuse autorise de légères glissades contrôlées. Les différents modes de conduite (Normal, Sport et Track) modifient la cartographie moteur, la direction, la récupération d'énergie et la réponse de l'accélérateur pour s'adapter à chaque situation.
 
-Au tarif de 38 000 euros, l'Alpine A290 se positionne comme la voiture de sport électrique la plus accessible du marché. Éligible au bonus écologique grâce à sa fabrication française à Douai, elle devient encore plus attrayante après déduction des aides. Face aux MINI Cooper SE ou Abarth 500e, elle offre des performances et un châssis d'un tout autre calibre. L'A290 prouve brillamment qu'il est possible de conjuguer plaisir de conduite intense, conscience environnementale et budget maîtrisé, ouvrant une nouvelle page passionnante de l'histoire centenaire d'Alpine.`,
+Au tarif de 38 000 euros, l'Alpine A290 se positionne comme la voiture de sport électrique la plus accessible du marché. Éligible à la prime coup de pouce CEE grâce à sa fabrication française à Douai, elle devient encore plus attrayante une fois la prime déduite. Face aux MINI Cooper SE ou Abarth 500e, elle offre des performances et un châssis d'un tout autre calibre. L'A290 prouve brillamment qu'il est possible de conjuguer plaisir de conduite intense, conscience environnementale et budget maîtrisé, ouvrant une nouvelle page passionnante de l'histoire centenaire d'Alpine.`,
     pointsForts: [
       "Poids plume de 1 479 kg offrant un rapport poids-puissance exceptionnel pour une électrique",
       "Châssis intégralement retravaillé par Alpine pour un plaisir de conduite sans concession",
-      "Prix de 38 000 euros en faisant la sportive électrique la plus accessible, éligible au bonus écologique",
+      "Prix de 38 000 euros en faisant la sportive électrique la plus accessible, éligible à la prime coup de pouce CEE",
       "Bouton OV hérité de la compétition pour un surplus de puissance instantané",
       "Consommation de seulement 14,6 kWh/100 km, parmi les plus basses du marché",
       "Design distinctif avec quatre projecteurs ronds et élargisseurs d'ailes marquant l'identité Alpine",
@@ -2898,13 +2902,13 @@ En conduite, la e-308 affiche un comportement routier précis et agréable, hér
 
 Côté sécurité et aides à la conduite, la e-308 embarque de série le freinage automatique d'urgence avec détection des piétons et cyclistes, le maintien actif dans la voie, la reconnaissance des panneaux de signalisation et le régulateur de vitesse adaptatif avec Stop & Go. La conduite semi-autonome de niveau 2 est disponible sur les finitions supérieures.
 
-Fabriquée en France à l'usine de Mulhouse, la Peugeot e-308 est éligible au bonus écologique, ce qui permet de réduire significativement son prix d'achat. Avec un tarif de base à 37 000 € avant aides, elle se positionne face à la Renault Mégane E-Tech, la Volkswagen ID.3 et la MG4. Son positionnement mise sur la qualité de finition, le style et l'agrément de conduite typiquement français pour se démarquer dans un segment de plus en plus concurrentiel.
+Fabriquée en France à l'usine de Mulhouse, la Peugeot e-308 est éligible à la prime coup de pouce CEE, ce qui permet de réduire significativement son prix d'achat. Avec un tarif de base à 37 000 € avant aides, elle se positionne face à la Renault Mégane E-Tech, la Volkswagen ID.3 et la MG4. Son positionnement mise sur la qualité de finition, le style et l'agrément de conduite typiquement français pour se démarquer dans un segment de plus en plus concurrentiel.
 
 La garantie constructeur couvre 8 ans ou 160 000 km pour la batterie, et 2 ans sans limitation de kilométrage pour le véhicule. Peugeot propose également des offres de leasing social et de location longue durée pour faciliter l'accès à la mobilité électrique.`,
     pointsForts: [
       "Coffre généreux de 412 litres, parmi les meilleurs du segment",
       "i-Cockpit dernière génération avec instrumentation numérique en hauteur",
-      "Fabrication française (Mulhouse), éligible au bonus écologique",
+      "Fabrication française (Mulhouse), éligible à la prime coup de pouce CEE",
       "Consommation contenue de 15,2 kWh/100 km",
       "Comportement routier précis et dynamique hérité de la 308 thermique",
     ],
@@ -2960,13 +2964,13 @@ En matière de conduite, le e-3008 offre un comportement rassurant et confortabl
 
 En matière de sécurité, le e-3008 propose de série le freinage automatique d'urgence avec détection des piétons et cyclistes, le maintien actif dans la voie et le régulateur de vitesse adaptatif avec Stop & Go. La conduite semi-autonome de niveau 2 est intégrée dans les finitions GT, combinant le contrôle longitudinal et latéral du véhicule. La caméra 360° et les capteurs à ultrasons facilitent les manœuvres de stationnement.
 
-Fabriqué à Sochaux, le Peugeot e-3008 est éligible au bonus écologique. Avec un prix de départ de 44 800 €, il se positionne comme un SUV électrique familial premium accessible, combinant technologie de pointe, autonomie généreuse et fabrication française. La garantie batterie de 8 ans ou 160 000 km rassure quant à la pérennité de l'investissement. Le e-3008 est proposé en finitions Allure, GT et GT Pack, avec des options de personnalisation extérieure et intérieure variées.`,
+Fabriqué à Sochaux, le Peugeot e-3008 est éligible à la prime coup de pouce CEE. Avec un prix de départ de 44 800 €, il se positionne comme un SUV électrique familial premium accessible, combinant technologie de pointe, autonomie généreuse et fabrication française. La garantie batterie de 8 ans ou 160 000 km rassure quant à la pérennité de l'investissement. Le e-3008 est proposé en finitions Allure, GT et GT Pack, avec des options de personnalisation extérieure et intérieure variées.`,
     pointsForts: [
       "Plateforme STLA Medium native électrique, autonomie jusqu'à 700 km (version 98 kWh)",
       "Panoramic i-Cockpit avec écran incurvé de 21 pouces",
       "Coffre de 520 L avec banquette arrière coulissante",
       "Charge rapide DC jusqu'à 160 kW",
-      "Fabrication française (Sochaux), éligible au bonus écologique",
+      "Fabrication française (Sochaux), éligible à la prime coup de pouce CEE",
       "Design spectaculaire et aérodynamique optimisée",
     ],
     pointsFaibles: [
@@ -3021,13 +3025,13 @@ Le comportement routier du e-5008 est étonnamment confortable pour un véhicule
 
 Les aides à la conduite comprennent le freinage automatique d'urgence, le régulateur adaptatif avec Stop & Go, le maintien actif dans la voie et la vision nocturne infrarouge en option. Le système de stationnement automatique avec mémorisation de manœuvres est disponible sur les finitions supérieures, un atout pour un véhicule de ce gabarit.
 
-Fabriqué à Sochaux aux côtés du e-3008, le Peugeot e-5008 est éligible au bonus écologique. À 50 000 €, il se positionne comme l'un des seuls SUV électriques 7 places accessibles sur le marché, loin devant le Tesla Model X ou le Mercedes EQB en termes de rapport prestations/prix. Il constitue une proposition unique pour les familles nombreuses souhaitant passer à l'électrique sans renoncer à la troisième rangée de sièges. La garantie batterie de 8 ans ou 160 000 km apporte la sérénité nécessaire pour un investissement familial de long terme.`,
+Fabriqué à Sochaux aux côtés du e-3008, le Peugeot e-5008 dépasse toutefois le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE. À 50 000 €, il se positionne comme l'un des seuls SUV électriques 7 places accessibles sur le marché, loin devant le Tesla Model X ou le Mercedes EQB en termes de rapport prestations/prix. Il constitue une proposition unique pour les familles nombreuses souhaitant passer à l'électrique sans renoncer à la troisième rangée de sièges. La garantie batterie de 8 ans ou 160 000 km apporte la sérénité nécessaire pour un investissement familial de long terme.`,
     pointsForts: [
       "Sept vraies places, l'un des rares SUV électriques 7 places du marché",
       "Plateforme STLA Medium native électrique avec 502 km WLTP",
       "Panoramic i-Cockpit avec écran incurvé de 21 pouces",
       "Modularité intérieure remarquable (348 à 1 800 litres de coffre)",
-      "Fabrication française (Sochaux), éligible au bonus écologique",
+      "Fabrication française (Sochaux)",
     ],
     pointsFaibles: [
       "Coffre limité à 348 litres en configuration 7 places",
@@ -3080,12 +3084,12 @@ Le coffre de 380 litres est correct pour la catégorie, bien que légèrement in
 
 Côté équipement, la ë-C4 offre de série la climatisation automatique bi-zone, le chargeur de smartphone par induction, la caméra de recul et un pack de sécurité incluant le freinage automatique d'urgence et le régulateur de vitesse adaptatif. Les finitions supérieures ajoutent le toit panoramique fixe, la navigation connectée et les sièges chauffants.
 
-Fabriquée en Espagne (Madrid) sous label européen, la Citroën ë-C4 est éligible au bonus écologique. Son positionnement tarifaire à 36 000 € avant aides la rend compétitive, d'autant plus qu'elle se trouve régulièrement en promotion ou en offre de leasing avantageuse. Elle constitue un excellent choix pour les conducteurs privilégiant le confort absolu et un style distinctif, même si son autonomie et sa puissance de charge restent en retrait face aux compactes électriques les plus récentes.`,
+Fabriquée en Espagne (Madrid) sous label européen, la Citroën ë-C4 est éligible à la prime coup de pouce CEE. Son positionnement tarifaire à 36 000 € avant aides la rend compétitive, d'autant plus qu'elle se trouve régulièrement en promotion ou en offre de leasing avantageuse. Elle constitue un excellent choix pour les conducteurs privilégiant le confort absolu et un style distinctif, même si son autonomie et sa puissance de charge restent en retrait face aux compactes électriques les plus récentes.`,
     pointsForts: [
       "Confort de référence grâce aux sièges Advanced Comfort et suspension hydraulique",
       "Design distinctif mi-berline mi-crossover",
       "Prix compétitif avec des offres de leasing attractives",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
       "Équipement de série généreux",
     ],
     pointsFaibles: [
@@ -3140,13 +3144,13 @@ L'habitabilité aux places arrière bénéficie également de l'empattement allo
 
 En matière d'aides à la conduite, la ë-C4 X dispose de série du Highway Driver Assist combinant le régulateur de vitesse adaptatif et le centrage dans la voie, du freinage automatique d'urgence et de l'alerte de franchissement involontaire de ligne. La caméra de recul avec guidelines dynamiques facilite les manœuvres.
 
-Éligible au bonus écologique et positionnée à 38 000 € avant aides, la Citroën ë-C4 X s'adresse aux conducteurs qui recherchent avant tout le confort, l'espace et la praticité d'un grand coffre dans un format compact. Elle constitue une alternative originale et pertinente aux berlines compactes électriques plus conventionnelles comme la Peugeot e-308 ou la Volkswagen ID.3.`,
+Éligible à la prime coup de pouce CEE et positionnée à 38 000 € avant aides, la Citroën ë-C4 X s'adresse aux conducteurs qui recherchent avant tout le confort, l'espace et la praticité d'un grand coffre dans un format compact. Elle constitue une alternative originale et pertinente aux berlines compactes électriques plus conventionnelles comme la Peugeot e-308 ou la Volkswagen ID.3.`,
     pointsForts: [
       "Coffre de 510 litres, parmi les plus grands du segment compact électrique",
       "Confort de suspension et de sièges de référence (ADN Citroën)",
       "Aérodynamique optimisée par la forme berline (consommation réduite)",
       "Habitabilité arrière en progrès par rapport à la ë-C4",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Puissance modeste de 136 ch (dépassements moins aisés)",
@@ -3200,7 +3204,7 @@ Citroën a fait le choix du confort avec sa suspension améliorée et ses siège
 
 En matière d'équipement, le ë-C3 Aircross propose de série le freinage automatique d'urgence, l'aide au maintien dans la voie, le régulateur de vitesse, la climatisation et les vitres électriques avant et arrière. Les finitions supérieures ajoutent le toit ouvrant, les sièges chauffants et le pack de stationnement avec caméra 180°.
 
-Fabriqué en Slovaquie, le ë-C3 Aircross est éligible au bonus écologique. À 27 000 € avant aides, il est le SUV familial électrique le moins cher d'Europe, une proposition unique qui le positionne comme l'outil de démocratisation de la mobilité électrique pour les familles à budget maîtrisé. Il concurrence directement la Dacia Spring en termes de prix, tout en offrant nettement plus d'espace et d'autonomie.`,
+Fabriqué en Slovaquie, le ë-C3 Aircross est éligible à la prime coup de pouce CEE. À 27 000 € avant aides, il est le SUV familial électrique le moins cher d'Europe, une proposition unique qui le positionne comme l'outil de démocratisation de la mobilité électrique pour les familles à budget maîtrisé. Il concurrence directement la Dacia Spring en termes de prix, tout en offrant nettement plus d'espace et d'autonomie.`,
     pointsForts: [
       "Prix imbattable pour un SUV électrique familial (27 000 €)",
       "Configuration 5+2 places en option, rare à ce prix",
@@ -3259,7 +3263,7 @@ Le comportement routier de l'ID.3 est caractérisé par un confort de suspension
 
 En matière de sécurité, l'ID.3 a obtenu 5 étoiles Euro NCAP et propose de série le freinage automatique d'urgence, le maintien dans la voie, le régulateur adaptatif ACC et la détection de fatigue. Le Travel Assist (conduite semi-autonome niveau 2) est disponible en option.
 
-Fabriquée à Zwickau en Allemagne, l'ID.3 est éligible au bonus écologique en France. À 38 000 € (version 77 kWh), elle offre un rapport autonomie/prix très compétitif et représente une valeur sûre pour les conducteurs souhaitant passer à l'électrique sans compromis sur l'autonomie.`,
+Fabriquée à Zwickau en Allemagne, l'ID.3 est éligible à la prime coup de pouce CEE en France. À 38 000 € (version 77 kWh), elle offre un rapport autonomie/prix très compétitif et représente une valeur sûre pour les conducteurs souhaitant passer à l'électrique sans compromis sur l'autonomie.`,
     pointsForts: [
       "Grande autonomie de 560 km WLTP (77 kWh), parmi les meilleures du segment",
       "Charge rapide DC jusqu'à 170 kW",
@@ -3319,7 +3323,7 @@ Le comportement routier de l'ID.5 GTX est l'un de ses atouts. La transmission in
 
 En matière d'équipement de sécurité, l'ID.5 propose le Travel Assist avec changement de voie semi-automatique, le Park Assist Plus avec mémorisation de manœuvre, le freinage autonome d'urgence et la détection d'angle mort. La structure MEB offre une rigidité élevée et une protection optimale de la batterie en cas de choc.
 
-Fabriqué à Zwickau en Allemagne, le Volkswagen ID.5 est éligible au bonus écologique (dans ses versions sous 47 000 €). À partir de 48 000 €, il constitue une alternative premium à l'ID.4 pour les conducteurs sensibles au style et au dynamisme, tout en conservant la polyvalence et l'espace d'un SUV familial.`,
+Fabriqué à Zwickau en Allemagne, le Volkswagen ID.5 dépasse, à partir de 48 000 €, le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE. À partir de 48 000 €, il constitue une alternative premium à l'ID.4 pour les conducteurs sensibles au style et au dynamisme, tout en conservant la polyvalence et l'espace d'un SUV familial.`,
     pointsForts: [
       "Design SUV-coupé élégant avec aérodynamique optimisée (Cx 0,26)",
       "Transmission intégrale GTX dynamique et sûre (286 ch)",
@@ -3379,7 +3383,7 @@ Le coffre de 532 litres est vaste et parfaitement exploitable, avec un seuil de 
 
 Le comportement routier de l'ID.7 est celui d'une grande routière : confortable, stable et silencieuse à haute vitesse. La suspension adaptative DCC de série ajuste la fermeté en temps réel, et l'isolation phonique est de haut niveau, faisant de l'ID.7 une compagne idéale pour les longs trajets autoroutiers.
 
-À 55 000 €, l'ID.7 n'est pas éligible au bonus écologique en France (prix supérieur au plafond de 47 000 €). Elle se positionne toutefois comme une alternative significativement moins chère que les BMW i5 et Mercedes EQE, tout en offrant une autonomie comparable voire supérieure. C'est la grande routière électrique de la gamme Volkswagen, pensée pour les conducteurs parcourant de longues distances au quotidien.`,
+À 55 000 €, l'ID.7 n'est pas éligible à la prime coup de pouce CEE en France (prix supérieur au plafond de 47 000 €). Elle se positionne toutefois comme une alternative significativement moins chère que les BMW i5 et Mercedes EQE, tout en offrant une autonomie comparable voire supérieure. C'est la grande routière électrique de la gamme Volkswagen, pensée pour les conducteurs parcourant de longues distances au quotidien.`,
     pointsForts: [
       "Autonomie exceptionnelle de 621 km WLTP grâce à un Cx de 0,23",
       "Consommation record de 14,1 kWh/100 km pour une grande berline",
@@ -3389,7 +3393,7 @@ Le comportement routier de l'ID.7 est celui d'une grande routière : confortabl
       "Prix contenu face aux concurrentes premium (BMW i5, Mercedes EQE)",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique (prix > 47 000 €)",
+      "Non éligible à la prime coup de pouce CEE (prix > 47 000 €)",
       "Pas de version break au lancement",
       "Image de marque généraliste face à BMW/Mercedes/Audi",
       "Poids élevé de 2 150 kg",
@@ -3440,7 +3444,7 @@ L'aménagement intérieur est modulable et ludique, avec des rangements astucieu
 
 Le comportement routier de l'ID. Buzz est étonnamment bon pour un van. La batterie dans le plancher abaisse le centre de gravité, ce qui limite le roulis en courbe et donne une stabilité inattendue. La direction est légère et le rayon de braquage de 11,1 m est contenu pour un véhicule de cette longueur. Les suspensions sont confortables et filtrent bien les défauts de la route.
 
-L'ID. Buzz est proposé à partir de 56 000 €, un prix qui le rend non éligible au bonus écologique. Il se positionne comme un véhicule de loisirs et familial haut de gamme, concurrent du Mercedes EQV et du Hyundai Staria. Son charme rétro, son habitabilité exceptionnelle et son statut d'icône automobile en font un véhicule profondément attachant et unique sur le marché.`,
+L'ID. Buzz est proposé à partir de 56 000 €, un prix qui le rend non éligible à la prime coup de pouce CEE. Il se positionne comme un véhicule de loisirs et familial haut de gamme, concurrent du Mercedes EQV et du Hyundai Staria. Son charme rétro, son habitabilité exceptionnelle et son statut d'icône automobile en font un véhicule profondément attachant et unique sur le marché.`,
     pointsForts: [
       "Design iconique, réinterprétation moderne du Combi VW",
       "Espace intérieur et coffre monumentaux (1 121 L en 7 places)",
@@ -3452,7 +3456,7 @@ L'ID. Buzz est proposé à partir de 56 000 €, un prix qui le rend non élig
     pointsFaibles: [
       "Consommation élevée de 21,7 kWh/100 km (surface frontale)",
       "Autonomie réelle limitée à environ 340 km",
-      "Prix élevé (56 000 €), non éligible au bonus écologique",
+      "Prix élevé (56 000 €), non éligible à la prime coup de pouce CEE",
       "Poids très élevé de 2 469 kg",
       "Gabarit imposant peu adapté aux centres-villes étroits",
     ],
@@ -3502,7 +3506,7 @@ Le confort acoustique de l'iX est exceptionnel. BMW a développé un système d'
 
 La conduite de l'iX est remarquablement agile pour un véhicule de 2,5 tonnes. La direction est précise et communicative (ADN BMW), la suspension pneumatique adaptative absorbe parfaitement les imperfections, et les quatre roues directrices réduisent le rayon de braquage en manœuvre.
 
-À 77 000 € pour la version xDrive50, le BMW iX n'est pas éligible au bonus écologique. Il se positionne face au Mercedes EQS SUV et au Tesla Model X, offrant un compromis unique entre performances, autonomie, technologie et raffinement premium à la bavaroise.`,
+À 77 000 € pour la version xDrive50, le BMW iX n'est pas éligible à la prime coup de pouce CEE. Il se positionne face au Mercedes EQS SUV et au Tesla Model X, offrant un compromis unique entre performances, autonomie, technologie et raffinement premium à la bavaroise.`,
     pointsForts: [
       "Autonomie de 630 km WLTP, parmi les meilleures des SUV électriques",
       "Finition intérieure exceptionnelle avec matériaux nobles",
@@ -3515,7 +3519,7 @@ La conduite de l'iX est remarquablement agile pour un véhicule de 2,5 tonnes. L
       "Design extérieur controversé (calandre surdimensionnée)",
       "Poids élevé de 2 510 kg",
       "Options onéreuses qui font vite grimper l'addition",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
     ],
     source: "https://www.bmw.fr/fr/all-models/bmw-i/ix/overview.html",
     dateMAJ: "2026-06-22",
@@ -3563,7 +3567,7 @@ Le comportement routier de la i5 est le point fort incontestable du véhicule. B
 
 L'équipement de série est complet : la conduite semi-autonome Highway Assistant (niveau 2+), le stationnement automatique à distance, le système audio Harman Kardon et la sellerie cuir. La version Touring (break) est également disponible, une rareté dans le monde des berlines électriques.
 
-À 70 000 €, la BMW i5 n'est pas éligible au bonus écologique. Elle rivalise directement avec la Mercedes EQE et la Tesla Model S, offrant un dynamisme de conduite supérieur et une finition premium typiquement bavaroise qui la distinguent dans ce segment très concurrentiel.`,
+À 70 000 €, la BMW i5 n'est pas éligible à la prime coup de pouce CEE. Elle rivalise directement avec la Mercedes EQE et la Tesla Model S, offrant un dynamisme de conduite supérieur et une finition premium typiquement bavaroise qui la distinguent dans ce segment très concurrentiel.`,
     pointsForts: [
       "Comportement routier de référence, plaisir de conduite BMW intact",
       "Charge rapide DC jusqu'à 205 kW avec courbe stable",
@@ -3573,7 +3577,7 @@ L'équipement de série est complet : la conduite semi-autonome Highway Assista
       "Conduite semi-autonome Highway Assistant de série",
     ],
     pointsFaibles: [
-      "Prix élevé (à partir de 70 000 €), non éligible au bonus",
+      "Prix élevé (à partir de 70 000 €), non éligible à la prime coup de pouce CEE",
       "Plateforme partagée avec les versions thermiques (pas native EV)",
       "Poids conséquent de 2 215 kg",
       "Options très onéreuses (facture peut dépasser 100 000 €)",
@@ -3624,7 +3628,7 @@ L'habitabilité de l'EQE est généreuse à l'avant comme à l'arrière, bien qu
 
 Le confort de roulement de l'EQE est de très haut niveau. La suspension pneumatique Airmatic, disponible en option, offre un filtrage exceptionnel des imperfections routières. Le silence de fonctionnement est remarquable, avec une isolation phonique multicouche et des vitrages feuilletés qui créent une bulle de sérénité. Le système audio Burmester 3D surround est l'un des meilleurs de l'industrie automobile.
 
-À 67 000 €, la Mercedes EQE n'est pas éligible au bonus écologique. Elle rivalise avec la BMW i5 et la Tesla Model S, en se distinguant par son confort de roulement souverain, sa technologie MBUX de pointe et l'aura de prestige de l'étoile Mercedes.`,
+À 67 000 €, la Mercedes EQE n'est pas éligible à la prime coup de pouce CEE. Elle rivalise avec la BMW i5 et la Tesla Model S, en se distinguant par son confort de roulement souverain, sa technologie MBUX de pointe et l'aura de prestige de l'étoile Mercedes.`,
     pointsForts: [
       "Autonomie de 625 km WLTP grâce à un Cx exceptionnel de 0,22",
       "Hyperscreen MBUX avec trois écrans OLED (option spectaculaire)",
@@ -3635,7 +3639,7 @@ Le confort de roulement de l'EQE est de très haut niveau. La suspension pneumat
     pointsFaibles: [
       "Charge rapide limitée à 170 kW (en retrait face à BMW i5)",
       "Coffre de 430 litres seulement (ouverture de malle classique)",
-      "Prix élevé (67 000 €), non éligible au bonus écologique",
+      "Prix élevé (67 000 €), non éligible à la prime coup de pouce CEE",
       "Garde au toit arrière réduite par la ligne de toit « one-bow »",
       "Options très chères (Hyperscreen à plus de 5 000 €)",
     ],
@@ -3748,7 +3752,7 @@ Le coffre de 526 litres est complété par un frunk (coffre avant) de 64 litres,
 
 Le comportement routier du Q6 e-tron bénéficie de la suspension pneumatique adaptative de série, qui offre un compromis remarquable entre confort et dynamisme. Le système quattro électrique répartit instantanément le couple entre les essieux, offrant une motricité exemplaire en toutes circonstances.
 
-À 65 000 €, l'Audi Q6 e-tron n'est pas éligible au bonus écologique. Il se positionne face au BMW iX1, au Mercedes EQC et au Porsche Macan Electric, avec l'avantage décisif de la charge ultra-rapide 800 V et d'une autonomie de premier plan. C'est le SUV électrique le plus technologiquement avancé d'Audi.`,
+À 65 000 €, l'Audi Q6 e-tron n'est pas éligible à la prime coup de pouce CEE. Il se positionne face au BMW iX1, au Mercedes EQC et au Porsche Macan Electric, avec l'avantage décisif de la charge ultra-rapide 800 V et d'une autonomie de premier plan. C'est le SUV électrique le plus technologiquement avancé d'Audi.`,
     pointsForts: [
       "Charge ultra-rapide 270 kW grâce à l'architecture 800 V (10-80 % en 21 min)",
       "Plateforme PPE native électrique développée avec Porsche",
@@ -3758,7 +3762,7 @@ Le comportement routier du Q6 e-tron bénéficie de la suspension pneumatique ad
       "Transmission intégrale quattro électrique instantanée",
     ],
     pointsFaibles: [
-      "Prix élevé (65 000 €), non éligible au bonus écologique",
+      "Prix élevé (65 000 €), non éligible à la prime coup de pouce CEE",
       "Poids conséquent de 2 325 kg",
       "Options coûteuses qui font grimper la facture",
       "Consommation réelle sur autoroute pouvant dépasser 22 kWh/100 km",
@@ -3809,7 +3813,7 @@ Le système de suspension pneumatique adaptative est de série. Il ajuste automa
 
 L'équipement de sécurité comprend la conduite semi-autonome adaptive, le freinage autonome d'urgence avec détection des piétons et cyclistes, la surveillance des angles morts et l'avertisseur de trafic transversal arrière. Le système de stationnement automatique avec télécommande depuis le smartphone est disponible en option.
 
-À 74 000 €, l'Audi Q8 e-tron n'est pas éligible au bonus écologique. Bien que sa plateforme MLB evo ne soit pas native électrique, elle a été optimisée au fil des années pour offrir des prestations de haut niveau. Le Q8 e-tron reste un choix pertinent pour les amateurs de grands SUV de luxe, en attendant l'arrivée du futur Q8 e-tron sur plateforme PPE.`,
+À 74 000 €, l'Audi Q8 e-tron n'est pas éligible à la prime coup de pouce CEE. Bien que sa plateforme MLB evo ne soit pas native électrique, elle a été optimisée au fil des années pour offrir des prestations de haut niveau. Le Q8 e-tron reste un choix pertinent pour les amateurs de grands SUV de luxe, en attendant l'arrivée du futur Q8 e-tron sur plateforme PPE.`,
     pointsForts: [
       "Finition intérieure luxueuse, parmi les meilleures du segment",
       "Grande batterie de 106 kWh pour une autonomie confortable",
@@ -3822,7 +3826,7 @@ L'équipement de sécurité comprend la conduite semi-autonome adaptive, le frei
       "Charge rapide limitée à 170 kW (pas de 800 V)",
       "Consommation élevée de 20,1 kWh/100 km",
       "Poids très élevé de 2 595 kg",
-      "Prix élevé (74 000 €), non éligible au bonus",
+      "Prix élevé (74 000 €), non éligible à la prime coup de pouce CEE",
     ],
     source: "https://www.audi.fr",
     dateMAJ: "2026-06-22",
@@ -3930,7 +3934,7 @@ Le comportement routier du EV6 est dynamique et engageant. La direction est pré
 
 La garantie Kia de 7 ans ou 150 000 km (et 7 ans pour la batterie) est l'une des plus généreuses du marché et constitue un argument de poids face aux concurrents européens.
 
-À 47 990 €, le Kia EV6 est éligible au bonus écologique (fabrication en Corée puis assemblage en Europe pour certaines versions). Il offre un rapport prestations/prix exceptionnel, combinant charge ultra-rapide 800 V, autonomie généreuse, design distinctif et garantie de 7 ans. C'est l'un des meilleurs véhicules électriques du marché, tous segments confondus.`,
+À 47 990 €, le Kia EV6 dépasse de peu le plafond de ${eur(COUP_DE_POUCE.prixMaxTTC)} de la prime coup de pouce CEE. Il offre un rapport prestations/prix exceptionnel, combinant charge ultra-rapide 800 V, autonomie généreuse, design distinctif et garantie de 7 ans. C'est l'un des meilleurs véhicules électriques du marché, tous segments confondus.`,
     pointsForts: [
       "Charge ultra-rapide 800 V jusqu'à 240 kW (10-80 % en 18 min)",
       "Fonction Vehicle-to-Load (V2L), prise 220 V intégrée",
@@ -3987,12 +3991,12 @@ La recharge rapide en courant continu accepte jusqu'à 135 kW, permettant de ré
 
 Sur le plan technologique, la Born embarque une suite complète d'aides à la conduite incluant le régulateur de vitesse adaptatif prédictif, l'assistant de maintien dans la voie et le freinage d'urgence autonome. Le système de navigation intègre la planification d'itinéraire avec prise en compte des arrêts de recharge, optimisant ainsi les trajets longue distance.
 
-Positionnée à partir de 37 000 euros, la Cupra Born se situe dans une gamme de prix compétitive pour une compacte électrique offrant cette combinaison de performances, d'autonomie et d'agrément de conduite. Son éligibilité au bonus écologique en France renforce encore son attractivité économique. Elle constitue un choix de premier plan pour les conducteurs recherchant une alternative électrique sans compromis sur le plaisir de conduire, tout en restant dans un budget maîtrisé par rapport à des concurrentes premium comme la BMW i4 ou la Tesla Model 3.`,
+Positionnée à partir de 37 000 euros, la Cupra Born se situe dans une gamme de prix compétitive pour une compacte électrique offrant cette combinaison de performances, d'autonomie et d'agrément de conduite. Son éligibilité à la prime coup de pouce CEE en France renforce encore son attractivité économique. Elle constitue un choix de premier plan pour les conducteurs recherchant une alternative électrique sans compromis sur le plaisir de conduire, tout en restant dans un budget maîtrisé par rapport à des concurrentes premium comme la BMW i4 ou la Tesla Model 3.`,
     pointsForts: [
       "Autonomie généreuse de 548 km WLTP grâce à la batterie 77 kWh",
       "Comportement routier sportif et châssis dynamique typé Cupra",
       "Consommation très contenue de 16,8 kWh/100 km en usage réel",
-      "Éligible au bonus écologique avec fabrication européenne",
+      "Éligible à la prime coup de pouce CEE avec fabrication européenne",
       "Design distinctif et finitions premium avec matériaux recyclés",
     ],
     pointsFaibles: [
@@ -4043,7 +4047,7 @@ Côté recharge, le Tavascan accepte jusqu'à 135 kW en courant continu, permett
 
 Le Tavascan embarque une suite complète d'aides à la conduite de niveau 2, incluant le Travel Assist qui combine le régulateur de vitesse adaptatif et le maintien actif dans la voie, permettant une conduite semi-autonome sur autoroute. Le système audio Sennheiser immersif et la connectivité smartphone sans fil complètent un équipement technologique de haut niveau.
 
-Point d'attention majeur : fabriqué en Chine, le Cupra Tavascan n'est pas éligible au bonus écologique français, ce qui pénalise significativement son positionnement tarifaire à 52 000 euros. Cette absence de subvention le place en compétition directe avec des modèles mieux subventionnés, un handicap commercial non négligeable sur le marché français.`,
+Point d'attention majeur : fabriqué en Chine, le Cupra Tavascan n'est pas éligible à la prime coup de pouce CEE, ce qui pénalise significativement son positionnement tarifaire à 52 000 euros. Cette absence de subvention le place en compétition directe avec des modèles mieux subventionnés, un handicap commercial non négligeable sur le marché français.`,
     pointsForts: [
       "Performances sportives remarquables avec 340 ch et transmission intégrale",
       "Autonomie de référence dans le segment avec 568 km WLTP",
@@ -4052,7 +4056,7 @@ Point d'attention majeur : fabriqué en Chine, le Cupra Tavascan n'est pas éli
       "Suite technologique complète avec conduite semi-autonome",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique car fabriqué en Chine",
+      "Non éligible à la prime coup de pouce CEE car fabriqué en Chine",
       "Prix élevé à 52 000 € sans aide gouvernementale",
       "Poids conséquent de 2 198 kg impactant la maniabilité",
       "Chargeur embarqué AC limité à 11 kW",
@@ -4099,7 +4103,7 @@ L'équipement technologique inclut un système audio Beats, la compatibilité Ap
 
 Le coffre de 313 litres constitue cependant le talon d'Achille de la Smart #1. Ce volume, modeste pour un SUV de cette taille, limite les capacités de chargement lors des vacances familiales. L'absence de frunk (coffre avant) accentue cette contrainte.
 
-Fabriquée en Chine, la Smart #1 ne bénéficie pas du bonus écologique français, ce qui majore sensiblement son coût d'acquisition par rapport à des concurrentes éligibles comme la Peugeot e-2008. Malgré ce handicap tarifaire, elle séduit par son originalité, sa puissance généreuse et son chargeur AC 22 kW qui simplifie considérablement la recharge au quotidien, un argument de poids pour les utilisateurs disposant d'une borne adaptée.`,
+Fabriquée en Chine, la Smart #1 ne ouvre pas droit à la prime coup de pouce CEE, ce qui majore sensiblement son coût d'acquisition par rapport à des concurrentes éligibles comme la Peugeot e-2008. Malgré ce handicap tarifaire, elle séduit par son originalité, sa puissance généreuse et son chargeur AC 22 kW qui simplifie considérablement la recharge au quotidien, un argument de poids pour les utilisateurs disposant d'une borne adaptée.`,
     pointsForts: [
       "Chargeur embarqué 22 kW AC permettant une recharge complète en 3h30",
       "Puissance généreuse de 272 ch pour un SUV urbain compact",
@@ -4108,7 +4112,7 @@ Fabriquée en Chine, la Smart #1 ne bénéficie pas du bonus écologique frança
     ],
     pointsFaibles: [
       "Volume de coffre limité à 313 litres",
-      "Non éligible au bonus écologique (fabrication chinoise)",
+      "Non éligible à la prime coup de pouce CEE (fabrication chinoise)",
       "Consommation réelle supérieure aux meilleurs du segment",
       "Poids élevé de 1 875 kg pour le gabarit",
     ],
@@ -4154,7 +4158,7 @@ La batterie de 66 kWh confère à la Smart #3 une autonomie WLTP de 455 km, en l
 
 L'équipement de série se montre généreux, avec le stationnement automatique, la caméra 360 degrés, le régulateur de vitesse adaptatif et le système multimédia complet avec navigation connectée. L'application smartphone permet de contrôler à distance la climatisation, le niveau de charge et la localisation du véhicule.
 
-Vendue à partir de 38 000 euros, la Smart #3 souffre comme sa sœur de l'absence de bonus écologique en raison de sa fabrication chinoise. Ce positionnement tarifaire la place en concurrence frontale avec des modèles subventionnés qui deviennent mécaniquement plus accessibles. Néanmoins, son style distinctif, ses performances relevées et surtout son chargeur AC 22 kW constituent des arguments solides pour les acheteurs qui valorisent ces critères techniques au-delà du simple prix catalogue.`,
+Vendue à partir de 38 000 euros, la Smart #3 souffre comme sa sœur de l'absence de prime coup de pouce CEE en raison de sa fabrication chinoise. Ce positionnement tarifaire la place en concurrence frontale avec des modèles subventionnés qui deviennent mécaniquement plus accessibles. Néanmoins, son style distinctif, ses performances relevées et surtout son chargeur AC 22 kW constituent des arguments solides pour les acheteurs qui valorisent ces critères techniques au-delà du simple prix catalogue.`,
     pointsForts: [
       "Silhouette coupé-SUV élégante et aérodynamique",
       "Chargeur embarqué 22 kW triphasé pour recharge rapide en AC",
@@ -4163,7 +4167,7 @@ Vendue à partir de 38 000 euros, la Smart #3 souffre comme sa sœur de l'absen
       "Équipement de série très complet avec caméra 360°",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique français",
+      "Non éligible à la prime coup de pouce CEE",
       "Garde au toit arrière pénalisée par la ligne de toit coupé",
       "Tarif élevé sans subvention face aux concurrentes européennes",
     ],
@@ -4209,12 +4213,12 @@ La charge rapide en courant continu atteint 95 kW, un chiffre modeste par rappor
 
 Le coffre de 200 litres constitue la contrainte majeure de la Cooper SE, une limitation inhérente au format citadin du véhicule. Ce volume, réduit par rapport à certaines concurrentes, impose des compromis pour les bagages. Toutefois, la banquette rabattable permet de tripler pratiquement le volume disponible pour les transports occasionnels d'objets encombrants.
 
-Éligible au bonus écologique grâce à sa fabrication européenne, la Mini Cooper SE se positionne à partir de 33 000 euros, un tarif compétitif pour une citadine premium électrique. Elle s'adresse aux conducteurs urbains qui recherchent une voiture à forte personnalité, efficiente et plaisante à conduire, sans sacrifier l'élégance ni la modernité technologique.`,
+Éligible à la prime coup de pouce CEE grâce à sa fabrication européenne, la Mini Cooper SE se positionne à partir de 33 000 euros, un tarif compétitif pour une citadine premium électrique. Elle s'adresse aux conducteurs urbains qui recherchent une voiture à forte personnalité, efficiente et plaisante à conduire, sans sacrifier l'élégance ni la modernité technologique.`,
     pointsForts: [
       "Consommation exemplaire de 14,7 kWh/100 km parmi les meilleures du marché",
       "Plaisir de conduite intact avec le légendaire go-kart feeling",
       "Interface OLED circulaire innovante et design intérieur avant-gardiste",
-      "Éligible au bonus écologique avec fabrication européenne",
+      "Éligible à la prime coup de pouce CEE avec fabrication européenne",
       "Compacité idéale pour la ville avec 3 862 mm de longueur",
     ],
     pointsFaibles: [
@@ -4264,11 +4268,11 @@ La batterie de 66,5 kWh assure une autonomie WLTP de 462 km, un chiffre très co
 
 La recharge rapide DC accepte jusqu'à 130 kW, permettant de récupérer de 10 à 80 % en environ 29 minutes, un temps très raisonnable pour les pauses autoroutières. En courant alternatif sur wallbox de 11 kW, la charge complète demande 6 heures 30, parfaitement adapté à la recharge nocturne résidentielle.
 
-Éligible au bonus écologique français grâce à sa fabrication européenne à Leipzig, le Mini Countryman SE se positionne à 44 000 euros. Ce tarif, certes élevé, se justifie par le positionnement premium, l'équipement généreux et la qualité de fabrication héritée du partenariat avec BMW. Il constitue une alternative crédible au BMW iX1 et au Volvo EX30 pour les familles recherchant un SUV électrique distinctif et bien équipé.`,
+Éligible à la prime coup de pouce CEE grâce à sa fabrication européenne à Leipzig, le Mini Countryman SE se positionne à 44 000 euros. Ce tarif, certes élevé, se justifie par le positionnement premium, l'équipement généreux et la qualité de fabrication héritée du partenariat avec BMW. Il constitue une alternative crédible au BMW iX1 et au Volvo EX30 pour les familles recherchant un SUV électrique distinctif et bien équipé.`,
     pointsForts: [
       "Habitabilité et coffre de 460 litres remarquables pour un Mini",
       "Autonomie confortable de 462 km WLTP pour les trajets familiaux",
-      "Éligible au bonus écologique avec fabrication à Leipzig",
+      "Éligible à la prime coup de pouce CEE avec fabrication à Leipzig",
       "Identité Mini préservée avec modernité technologique",
       "Charge rapide DC efficace à 130 kW",
     ],
@@ -4304,7 +4308,7 @@ La recharge rapide DC accepte jusqu'à 130 kW, permettant de récupérer de 10 �
     origine: "EU",
     aidesEligible: true,
     note: 7,
-    tags: ["citadine", "polyvalente", "plateforme-e-CMP2", "bonus-écologique"],
+    tags: ["citadine", "polyvalente", "plateforme-e-CMP2"],
     annee: 2024,
     description: `L'Opel Corsa Electric incarne la démocratisation de la mobilité électrique dans le segment des citadines polyvalentes. Quatrième modèle le plus vendu en Europe dans sa catégorie, la Corsa bénéficie avec cette motorisation 100 % électrique d'une mise à jour technique significative basée sur la plateforme e-CMP2 de Stellantis, qui améliore sensiblement l'autonomie et les performances par rapport à la génération précédente.
 
@@ -4320,10 +4324,10 @@ L'autonomie WLTP de 402 km constitue un progrès considérable qui repositionne 
 
 La recharge rapide DC accepte jusqu'à 100 kW, permettant de récupérer de 20 à 80 % en seulement 27 minutes. Sur wallbox domestique de 11 kW, une charge complète nécessite environ 5 heures 15. Le chargeur embarqué de 11 kW en triphasé constitue un équipement de série bienvenu qui optimise la recharge à domicile ou au bureau.
 
-Avec un prix de départ de 34 000 euros et son éligibilité au bonus écologique, l'Opel Corsa Electric se positionne comme l'une des portes d'entrée les plus accessibles vers la mobilité électrique premium en Europe. Sa fabrication européenne et son appartenance au groupe Stellantis garantissent un réseau de distribution dense et un service après-vente rassurant pour les automobilistes qui effectuent leur transition vers l'électrique.`,
+Avec un prix de départ de 34 000 euros et son éligibilité à la prime coup de pouce CEE, l'Opel Corsa Electric se positionne comme l'une des portes d'entrée les plus accessibles vers la mobilité électrique premium en Europe. Sa fabrication européenne et son appartenance au groupe Stellantis garantissent un réseau de distribution dense et un service après-vente rassurant pour les automobilistes qui effectuent leur transition vers l'électrique.`,
     pointsForts: [
       "Autonomie en progression majeure à 402 km WLTP",
-      "Éligible au bonus écologique avec production européenne",
+      "Éligible à la prime coup de pouce CEE avec production européenne",
       "Sièges certifiés AGR pour le confort ergonomique",
       "Dimensions urbaines idéales avec 4 060 mm de longueur",
       "Consommation contenue de 15,2 kWh/100 km",
@@ -4360,7 +4364,7 @@ Avec un prix de départ de 34 000 euros et son éligibilité au bonus écologiq
     origine: "EU",
     aidesEligible: true,
     note: 7,
-    tags: ["SUV-urbain", "design-audacieux", "Vizor", "bonus-écologique"],
+    tags: ["SUV-urbain", "design-audacieux", "Vizor"],
     annee: 2024,
     description: `L'Opel Mokka Electric s'impose comme le fer de lance stylistique de la marque au blitz dans le segment très concurrentiel des SUV urbains électriques. Avec son design extérieur audacieux qui a marqué le renouveau esthétique d'Opel lors de son lancement, le Mokka Electric continue de séduire par sa personnalité visuelle forte, désormais associée à une motorisation électrique actualisée offrant une autonomie nettement améliorée.
 
@@ -4376,12 +4380,12 @@ L'autonomie WLTP de 406 km marque un progrès décisif par rapport aux 322 km de
 
 La recharge rapide DC à 100 kW permet de récupérer de 20 à 80 % en 27 minutes, tandis que la recharge sur wallbox de 11 kW nécessite environ 5 heures 15 pour une charge intégrale. Ces temps de recharge, sans être exceptionnels, s'avèrent tout à fait compatibles avec les usages quotidiens et les pauses autoroutières.
 
-Proposé à partir de 39 000 euros et éligible au bonus écologique, le Mokka Electric se positionne comme un choix rationnel pour les acheteurs souhaitant un SUV urbain électrique au style distinctif, fabriqué en Europe et bénéficiant du réseau étendu de concessionnaires Opel. Sa principale concurrence vient de son cousin technique, le Peugeot e-2008, avec lequel il partage la plateforme mais pas le caractère stylistique.`,
+Proposé à partir de 39 000 euros et éligible à la prime coup de pouce CEE, le Mokka Electric se positionne comme un choix rationnel pour les acheteurs souhaitant un SUV urbain électrique au style distinctif, fabriqué en Europe et bénéficiant du réseau étendu de concessionnaires Opel. Sa principale concurrence vient de son cousin technique, le Peugeot e-2008, avec lequel il partage la plateforme mais pas le caractère stylistique.`,
     pointsForts: [
       "Design extérieur Vizor distinctif et premium",
       "Pure Panel numérique avec double écran 12 pouces",
       "Autonomie améliorée à 406 km WLTP",
-      "Éligible au bonus écologique avec fabrication européenne",
+      "Éligible à la prime coup de pouce CEE avec fabrication européenne",
     ],
     pointsFaibles: [
       "Coffre de 310 litres en retrait face aux concurrents directs",
@@ -4431,12 +4435,12 @@ L'autonomie WLTP de 413 km positionne l'Astra Electric dans une fourchette comp�
 
 La recharge rapide DC à 100 kW autorise un passage de 10 à 80 % en 28 minutes, tandis que la recharge AC sur wallbox de 11 kW demande environ 5 heures 30 pour une charge complète. Le système de navigation Opel intègre un planificateur d'itinéraire intelligent prenant en compte les arrêts de recharge nécessaires.
 
-À 40 000 euros et éligible au bonus écologique, l'Astra Electric cible les conducteurs de compactes traditionnelles prêts à franchir le pas de l'électrique sans bouleverser leurs habitudes. Sa fabrication allemande et son allure sobre et professionnelle en font également un choix pertinent pour les flottes d'entreprise soucieuses d'électrifier leur parc automobile.`,
+À 40 000 euros et éligible à la prime coup de pouce CEE, l'Astra Electric cible les conducteurs de compactes traditionnelles prêts à franchir le pas de l'électrique sans bouleverser leurs habitudes. Sa fabrication allemande et son allure sobre et professionnelle en font également un choix pertinent pour les flottes d'entreprise soucieuses d'électrifier leur parc automobile.`,
     pointsForts: [
       "Fabrication allemande à Rüsselsheim garantissant la qualité d'assemblage",
       "Éclairage Intelli-Lux LED Pixel adaptatif de 168 éléments",
       "Confort de roulement et insonorisation soignés",
-      "Éligible au bonus écologique français",
+      "Éligible à la prime coup de pouce CEE",
       "Ergonomie intérieure bien pensée avec commandes physiques conservées",
     ],
     pointsFaibles: [
@@ -4487,11 +4491,11 @@ L'autonomie WLTP de 402 km permet d'envisager la majorité des déplacements quo
 
 La recharge rapide DC jusqu'à 100 kW autorise un passage de 10 à 80 % en environ 28 minutes. Le chargeur embarqué triphasé de 11 kW permet une recharge complète en 5 heures 15 sur une wallbox adaptée. Le système DS Iris intègre un planificateur d'itinéraire avec gestion intelligente des arrêts recharge.
 
-Fabriquée en France à Poissy, la DS 3 E-Tense bénéficie du bonus écologique et arbore fièrement son origine française. À 40 000 euros, elle se positionne comme le SUV urbain électrique le plus raffiné du catalogue Stellantis, ciblant une clientèle qui place l'élégance, le confort et le savoir-faire français au sommet de ses critères de choix automobile.`,
+Fabriquée en France à Poissy, la DS 3 E-Tense ouvre droit à la prime coup de pouce CEE et arbore fièrement son origine française. À 40 000 euros, elle se positionne comme le SUV urbain électrique le plus raffiné du catalogue Stellantis, ciblant une clientèle qui place l'élégance, le confort et le savoir-faire français au sommet de ses critères de choix automobile.`,
     pointsForts: [
       "Finitions et matériaux de niveau premium avec sellerie cuir Nappa",
       "Suspension pilotée DS Active Scan pour un confort remarquable",
-      "Fabrication française à Poissy, éligible au bonus écologique",
+      "Fabrication française à Poissy, éligible à la prime coup de pouce CEE",
       "Design extérieur raffiné avec détails inspirés de la haute joaillerie",
       "Coffre de 350 litres bien agencé avec plancher réglable",
     ],
@@ -4546,11 +4550,11 @@ Le coffre de 390 litres offre un volume de chargement raisonnable pour le segmen
 
 En matière de sécurité et d'aides à la conduite, la DS 4 E-Tense intègre le DS Drive Assist 2.0 avec régulateur de vitesse adaptatif, maintien actif dans la voie, freinage automatique d'urgence avec détection des piétons et des cyclistes, et surveillance des angles morts. La conduite semi-autonome de niveau 2 facilite les trajets autoroutiers.
 
-Éligible au bonus écologique grâce à sa production européenne, la DS 4 E-Tense s'adresse aux conducteurs qui recherchent une alternative française et premium aux modèles allemands. Elle prouve que le luxe électrique n'est pas l'apanage exclusif des constructeurs outre-Rhin et propose une expérience sensorielle unique dans le paysage automobile européen.`,
+Éligible à la prime coup de pouce CEE grâce à sa production européenne, la DS 4 E-Tense s'adresse aux conducteurs qui recherchent une alternative française et premium aux modèles allemands. Elle prouve que le luxe électrique n'est pas l'apanage exclusif des constructeurs outre-Rhin et propose une expérience sensorielle unique dans le paysage automobile européen.`,
     pointsForts: [
       "Qualité de finition et matériaux haut de gamme (cuir Nappa, surpiqûres horlogères)",
       "Suspension DS Active Scan pour un confort remarquable",
-      "Éligible au bonus écologique (production européenne)",
+      "Éligible à la prime coup de pouce CEE (production européenne)",
       "Habitacle raffiné avec ambiance lumineuse personnalisable",
       "Aides à la conduite avancées (DS Drive Assist 2.0)",
     ],
@@ -4606,12 +4610,12 @@ Ford a également soigné l'expérience de conduite avec un châssis spécifique
 
 En termes de sécurité, le Ford Explorer EV embarque le pack BlueCruise 1.5 avec conduite semi-autonome de niveau 2 sur autoroute, un freinage automatique d'urgence avec détection des piétons et cyclistes, ainsi qu'un système d'évitement des collisions latérales. L'Euro NCAP lui a attribué la note maximale de 5 étoiles.
 
-Éligible au bonus écologique grâce à sa fabrication à Cologne, le Ford Explorer EV se positionne comme une alternative sérieuse et séduisante face au Tesla Model Y et au Hyundai Ioniq 5, avec l'avantage d'un réseau de concessionnaires Ford dense et bien établi à travers toute la France.`,
+Éligible à la prime coup de pouce CEE grâce à sa fabrication à Cologne, le Ford Explorer EV se positionne comme une alternative sérieuse et séduisante face au Tesla Model Y et au Hyundai Ioniq 5, avec l'avantage d'un réseau de concessionnaires Ford dense et bien établi à travers toute la France.`,
     pointsForts: [
       "Autonomie exceptionnelle de 602 km WLTP",
       "Recharge rapide à 185 kW (10-80 % en 25 min)",
       "Coffre spacieux de 536 litres avec banquette coulissante",
-      "Fabrication européenne (Cologne), éligible au bonus",
+      "Fabrication européenne (Cologne), éligible à la prime coup de pouce CEE",
       "Écran SYNC Move de 14,6 pouces coulissant et intuitif",
     ],
     pointsFaibles: [
@@ -4666,13 +4670,13 @@ Le coffre de 572 litres constitue une excellente surprise pour un SUV-coupé. Le
 
 La dotation en aides à la conduite est identique à celle de l'Explorer, avec le système BlueCruise 1.5, le freinage automatique d'urgence et la surveillance des angles morts. Le Ford Capri EV a obtenu 5 étoiles Euro NCAP, confirmant l'excellence de la plateforme MEB en matière de sécurité passive et active.
 
-Fabriqué en Allemagne et éligible au bonus écologique, le Ford Capri EV s'adresse aux conducteurs qui désirent conjuguer style, performance et autonomie dans un format SUV-coupé. Il rivalise directement avec le Tesla Model Y, le Volkswagen ID.5 et le BMW iX1, mais se distingue par une identité visuelle forte et un agrément de conduite soigné qui font honneur à la légende Capri.`,
+Fabriqué en Allemagne et éligible à la prime coup de pouce CEE, le Ford Capri EV s'adresse aux conducteurs qui désirent conjuguer style, performance et autonomie dans un format SUV-coupé. Il rivalise directement avec le Tesla Model Y, le Volkswagen ID.5 et le BMW iX1, mais se distingue par une identité visuelle forte et un agrément de conduite soigné qui font honneur à la légende Capri.`,
     pointsForts: [
       "Autonomie remarquable de 627 km WLTP",
       "Design coupé sportif à forte identité",
       "Coffre étonnamment spacieux (572 L) pour un SUV-coupé",
       "Recharge rapide 185 kW avec préconditionnement batterie",
-      "Fabrication européenne (Cologne), éligible au bonus",
+      "Fabrication européenne (Cologne), éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Espace arrière réduit par le toit plongeant",
@@ -4724,7 +4728,7 @@ Le coffre de 407 litres (arrière) est complété par un frunk de 84 litres, off
 
 En matière de sécurité, le Taycan est équipé de série d'un ensemble complet d'aides à la conduite incluant le régulateur de vitesse adaptatif avec fonction Stop & Go, le maintien de voie actif, le freinage d'urgence avec détection des piétons et la vision nocturne en option. Les freins PSCB (Porsche Surface Coated Brake) à revêtement carbure de tungstène offrent des distances d'arrêt réduites et une résistance à l'usure remarquable.
 
-Non éligible au bonus écologique en raison de son prix, le Porsche Taycan s'adresse à une clientèle exigeante pour laquelle le plaisir de conduite et le prestige de la marque sont des critères déterminants. Il démontre brillamment qu'une voiture électrique peut être passionnante à conduire et reste, à ce jour, la berline sportive électrique de référence.`,
+Non éligible à la prime coup de pouce CEE en raison de son prix, le Porsche Taycan s'adresse à une clientèle exigeante pour laquelle le plaisir de conduite et le prestige de la marque sont des critères déterminants. Il démontre brillamment qu'une voiture électrique peut être passionnante à conduire et reste, à ce jour, la berline sportive électrique de référence.`,
     pointsForts: [
       "Architecture 800V et recharge ultra-rapide à 270 kW",
       "Plaisir de conduite et dynamisme de référence dans le segment",
@@ -4733,7 +4737,7 @@ Non éligible au bonus écologique en raison de son prix, le Porsche Taycan s'ad
       "Gestion thermique exemplaire (performances stables sur circuit)",
     ],
     pointsFaibles: [
-      "Prix d'entrée de 95 000 € (non éligible au bonus)",
+      "Prix d'entrée de 95 000 € (non éligible à la prime coup de pouce CEE)",
       "Consommation élevée sur autoroute (environ 22 kWh/100 km)",
       "Coffre arrière limité à 407 litres",
       "Options onéreuses qui font grimper la facture",
@@ -4782,7 +4786,7 @@ L'intérieur du Macan Electric reprend les standards de qualité Porsche avec un
 
 Les aides à la conduite incluent le régulateur de vitesse adaptatif, le maintien de voie actif, le freinage d'urgence automatique et un système de stationnement automatisé. Le Porsche Macan Electric a obtenu la note maximale de 5 étoiles aux tests Euro NCAP 2024.
 
-Non éligible au bonus écologique du fait de son tarif premium, le Macan Electric cible une clientèle fortunée et passionnée qui souhaite conjuguer le dynamisme Porsche avec une conscience environnementale. Il s'impose comme le SUV électrique le plus plaisant à conduire du marché, devant le BMW iX et le Mercedes EQE SUV, tout en offrant une autonomie et une vitesse de recharge de premier plan.`,
+Non éligible à la prime coup de pouce CEE du fait de son tarif premium, le Macan Electric cible une clientèle fortunée et passionnée qui souhaite conjuguer le dynamisme Porsche avec une conscience environnementale. Il s'impose comme le SUV électrique le plus plaisant à conduire du marché, devant le BMW iX et le Mercedes EQE SUV, tout en offrant une autonomie et une vitesse de recharge de premier plan.`,
     pointsForts: [
       "Architecture 800V avec recharge ultra-rapide à 270 kW",
       "Autonomie généreuse de 591 km WLTP (batterie 100 kWh)",
@@ -4791,7 +4795,7 @@ Non éligible au bonus écologique du fait de son tarif premium, le Macan Electr
       "5 étoiles Euro NCAP et équipement de sécurité complet",
     ],
     pointsFaibles: [
-      "Prix élevé de 85 000 € avant options (non éligible au bonus)",
+      "Prix élevé de 85 000 € avant options (non éligible à la prime coup de pouce CEE)",
       "Poids conséquent de 2 230 kg",
       "Consommation importante sur autoroute",
       "Options coûteuses qui alourdissent considérablement la facture",
@@ -4842,12 +4846,12 @@ Le coffre de 452 litres est suffisant pour un usage familial quotidien, et la ba
 
 Toyota a équipé le bZ4X d'un ensemble complet d'aides à la conduite regroupées sous l'appellation Toyota Safety Sense 3. Cela inclut le freinage d'urgence avec détection des piétons et cyclistes de jour comme de nuit, le régulateur de vitesse adaptatif avec Stop & Go, le maintien de voie actif et l'alerte de franchissement de ligne. Le système de stationnement automatique Toyota Teammate facilite les manoeuvres en ville.
 
-Éligible au bonus écologique grâce à son assemblage européen, le Toyota bZ4X bénéficie également de la réputation de fiabilité légendaire de Toyota et de son vaste réseau de concessionnaires. Il constitue un choix rassurant pour les conducteurs qui souhaitent passer à l'électrique avec un constructeur de confiance, même si sa fiche technique est un cran en dessous des meilleurs du segment en termes de vitesse de recharge et d'efficience.`,
+Éligible à la prime coup de pouce CEE grâce à son assemblage européen, le Toyota bZ4X bénéficie également de la réputation de fiabilité légendaire de Toyota et de son vaste réseau de concessionnaires. Il constitue un choix rassurant pour les conducteurs qui souhaitent passer à l'électrique avec un constructeur de confiance, même si sa fiche technique est un cran en dessous des meilleurs du segment en termes de vitesse de recharge et d'efficience.`,
     pointsForts: [
       "Garantie batterie exceptionnelle (90 % de capacité à 10 ans / 240 000 km)",
       "Fiabilité Toyota et réseau de concessionnaires très dense",
       "Transmission intégrale disponible avec deux moteurs",
-      "Éligible au bonus écologique (assemblage européen)",
+      "Éligible à la prime coup de pouce CEE (assemblage européen)",
       "Toyota Safety Sense 3 complet de série",
     ],
     pointsFaibles: [
@@ -4900,7 +4904,7 @@ Le coffre de 344 litres est le point faible notable du e:Ny1 en termes de pratic
 
 La conduite du Honda e:Ny1 mise sur le confort plutôt que le dynamisme. La suspension absorbe bien les imperfections de la route, la direction est légère et précise à basse vitesse, et l'insonorisation est soignée. Honda propose trois modes de conduite (Sport, Normal, Eco) et un sélecteur de récupération d'énergie au volant qui permet d'ajuster le freinage régénératif. Le système Honda Sensing de série inclut le freinage automatique d'urgence, le régulateur adaptatif et le maintien de voie.
 
-Non éligible au bonus écologique en raison de sa fabrication en Chine, le Honda e:Ny1 souffre d'un handicap prix sur le marché français. Il reste néanmoins un choix pertinent pour les fidèles de Honda qui apprécient la fiabilité et la qualité de finition de la marque, en attendant la prochaine génération de véhicules électriques Honda développés sur la plateforme dédiée Honda e:Architecture.`,
+Non éligible à la prime coup de pouce CEE en raison de sa fabrication en Chine, le Honda e:Ny1 souffre d'un handicap prix sur le marché français. Il reste néanmoins un choix pertinent pour les fidèles de Honda qui apprécient la fiabilité et la qualité de finition de la marque, en attendant la prochaine génération de véhicules électriques Honda développés sur la plateforme dédiée Honda e:Architecture.`,
     pointsForts: [
       "Qualité de fabrication et fiabilité Honda reconnues",
       "Grand écran central de 15,1 pouces avec Google intégré",
@@ -4909,7 +4913,7 @@ Non éligible au bonus écologique en raison de sa fabrication en Chine, le Hond
     ],
     pointsFaibles: [
       "Charge rapide DC limitée à 78 kW (lent pour le segment)",
-      "Non éligible au bonus écologique (fabrication en Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabrication en Chine)",
       "Coffre modeste de 344 litres",
       "Consommation élevée (18,5 kWh/100 km)",
       "Autonomie réelle en retrait face aux concurrents directs",
@@ -4960,7 +4964,7 @@ La Leaf propose une fonctionnalité unique : l'e-Pedal, qui permet de conduire 
 
 En matière de sécurité, le Nissan ProPILOT de série combine régulateur de vitesse adaptatif et maintien de voie pour une assistance à la conduite sur autoroute. Le freinage automatique d'urgence, la détection des angles morts et l'alerte de franchissement de ligne complètent la dotation.
 
-La Nissan Leaf est un choix particulièrement pertinent en occasion, où elle représente l'une des meilleures affaires du marché électrique avec des prix à partir de 16 000 euros pour des exemplaires récents. Éligible au bonus écologique grâce à sa fabrication à Sunderland (Royaume-Uni, avec dérogation), elle reste une valeur sûre pour une première voiture électrique, portée par l'immense réseau Nissan et une fiabilité éprouvée par des millions de kilomètres parcourus à travers le monde.`,
+La Nissan Leaf est un choix particulièrement pertinent en occasion, où elle représente l'une des meilleures affaires du marché électrique avec des prix à partir de 16 000 euros pour des exemplaires récents. Éligible à la prime coup de pouce CEE grâce à sa fabrication à Sunderland (Royaume-Uni, avec dérogation), elle reste une valeur sûre pour une première voiture électrique, portée par l'immense réseau Nissan et une fiabilité éprouvée par des millions de kilomètres parcourus à travers le monde.`,
     pointsForts: [
       "Pionnière de l'électrique, fiabilité éprouvée sur plus d'une décennie",
       "Excellent rapport qualité/prix en occasion (à partir de 16 000 €)",
@@ -5019,13 +5023,13 @@ Le coffre de 468 litres est bien dimensionné pour un usage familial, avec un se
 
 Le système de conduite assistée ProPILOT 2.0 offre une assistance semi-autonome sur autoroute avec navigation, permettant de changer de voie automatiquement et de gérer les entrées et sorties d'autoroute. Le freinage automatique d'urgence, la détection des piétons et cyclistes, et le système d'aide au stationnement ProPILOT Park complètent l'arsenal technologique.
 
-Éligible au bonus écologique, le Nissan Ariya représente une alternative crédible et raffinée aux Volkswagen ID.4, Hyundai Ioniq 5 et Ford Explorer EV. Son ambiance intérieure zen, sa grande autonomie et la solidité du réseau Nissan en France en font un choix judicieux pour les familles qui souhaitent passer à l'électrique avec un constructeur éprouvé et une technologie de pointe.`,
+Éligible à la prime coup de pouce CEE, le Nissan Ariya représente une alternative crédible et raffinée aux Volkswagen ID.4, Hyundai Ioniq 5 et Ford Explorer EV. Son ambiance intérieure zen, sa grande autonomie et la solidité du réseau Nissan en France en font un choix judicieux pour les familles qui souhaitent passer à l'électrique avec un constructeur éprouvé et une technologie de pointe.`,
     pointsForts: [
       "Grande autonomie de 530 km WLTP (batterie 87 kWh)",
       "Design intérieur minimaliste et moderne avec console coulissante",
       "ProPILOT 2.0 pour la conduite semi-autonome sur autoroute",
       "Habitabilité arrière remarquable (plancher plat, empattement long)",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Consommation élevée sur autoroute (environ 22 kWh/100 km)",
@@ -5077,7 +5081,7 @@ Le coffre de 420 litres est bien dimensionné pour le segment et constitue un ar
 
 La conduite du Seres 3 est orientée confort avec une suspension souple qui filtre bien les petites imperfections mais peut devenir flottante sur route dégradée. La direction manque de remontée d'informations et le freinage régénératif n'est pas très modulable. Les aides à la conduite incluent le freinage d'urgence, l'alerte de franchissement de ligne et l'aide au stationnement, un équipement basique mais fonctionnel.
 
-Non éligible au bonus écologique en raison de sa fabrication en Chine, le Seres 3 voit son avantage prix partiellement neutralisé sur le marché français. Il reste néanmoins une option économique intéressante pour les conducteurs au budget serré qui recherchent un SUV électrique sans prétention, à condition d'accepter ses limitations en matière de recharge rapide et d'autonomie. Le réseau de distribution et le service après-vente en développement constituent un facteur à évaluer attentivement avant l'achat.`,
+Non éligible à la prime coup de pouce CEE en raison de sa fabrication en Chine, le Seres 3 voit son avantage prix partiellement neutralisé sur le marché français. Il reste néanmoins une option économique intéressante pour les conducteurs au budget serré qui recherchent un SUV électrique sans prétention, à condition d'accepter ses limitations en matière de recharge rapide et d'autonomie. Le réseau de distribution et le service après-vente en développement constituent un facteur à évaluer attentivement avant l'achat.`,
     pointsForts: [
       "Prix très attractif à partir de 26 000 €",
       "Coffre spacieux de 420 litres pour le segment",
@@ -5087,7 +5091,7 @@ Non éligible au bonus écologique en raison de sa fabrication en Chine, le Sere
     pointsFaibles: [
       "Charge rapide très lente (60 kW max)",
       "Autonomie modeste de 329 km WLTP",
-      "Non éligible au bonus écologique (fabrication Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabrication Chine)",
       "Réseau de distribution et SAV encore embryonnaire en France",
       "Consommation élevée (18 kWh/100 km)",
     ],
@@ -5135,7 +5139,7 @@ Le coffre de 510 litres est spacieux et représente l'un des points forts du Ser
 
 La conduite du Seres 5 privilégie le confort avec une suspension bien calibrée qui absorbe efficacement les défauts de la route. L'insonorisation est correcte et le moteur électrique offre des reprises franches en dépassement. Le freinage régénératif est réglable sur plusieurs niveaux via des palettes au volant, une fonctionnalité appréciable. Les aides à la conduite incluent le régulateur de vitesse adaptatif, le freinage d'urgence avec détection des piétons, le maintien de voie actif et la caméra 360 degrés.
 
-Non éligible au bonus écologique, le Seres 5 reste malgré tout compétitif à 35 000 euros pour un SUV électrique aussi bien équipé et aussi spacieux. Il constitue une alternative intéressante pour les conducteurs pragmatiques qui privilégient l'espace et l'équipement au prestige de la marque, à condition d'accepter la lenteur de la recharge rapide et la jeunesse du réseau de distribution Seres en France.`,
+Non éligible à la prime coup de pouce CEE, le Seres 5 reste malgré tout compétitif à 35 000 euros pour un SUV électrique aussi bien équipé et aussi spacieux. Il constitue une alternative intéressante pour les conducteurs pragmatiques qui privilégient l'espace et l'équipement au prestige de la marque, à condition d'accepter la lenteur de la recharge rapide et la jeunesse du réseau de distribution Seres en France.`,
     pointsForts: [
       "Rapport équipement/prix excellent pour un SUV de cette taille",
       "Coffre spacieux de 510 litres avec bonne modularité",
@@ -5145,7 +5149,7 @@ Non éligible au bonus écologique, le Seres 5 reste malgré tout compétitif à
     ],
     pointsFaibles: [
       "Charge rapide DC limitée à 80 kW (en dessous du standard actuel)",
-      "Non éligible au bonus écologique (fabrication Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabrication Chine)",
       "Image de marque encore inconnue en France",
       "Poids élevé de 1 930 kg pour un SUV de ce segment",
     ],
@@ -5193,7 +5197,7 @@ Le coffre total de 793 litres (avant et arrière combinés) est remarquable pour
 
 Le système Autopilot de série offre un régulateur de vitesse adaptatif et un maintien de voie sur autoroute. L'option Full Self-Driving (FSD), controversée en Europe, ajoute des fonctionnalités de conduite autonome supervisée sur routes urbaines et péri-urbaines, bien que sa disponibilité reste limitée par les réglementations européennes.
 
-Non éligible au bonus écologique en raison de sa fabrication américaine et de son prix, la Tesla Model S représente néanmoins une excellente affaire en occasion avec des exemplaires disponibles à partir de 45 000 euros. Elle reste la berline électrique de référence pour les conducteurs qui exigent l'alliance de la performance, de l'autonomie et de l'accès au réseau de recharge le plus fiable d'Europe. Son système de mises à jour over-the-air garantit que le véhicule continue de s'améliorer même après l'achat.`,
+Non éligible à la prime coup de pouce CEE en raison de sa fabrication américaine et de son prix, la Tesla Model S représente néanmoins une excellente affaire en occasion avec des exemplaires disponibles à partir de 45 000 euros. Elle reste la berline électrique de référence pour les conducteurs qui exigent l'alliance de la performance, de l'autonomie et de l'accès au réseau de recharge le plus fiable d'Europe. Son système de mises à jour over-the-air garantit que le véhicule continue de s'améliorer même après l'achat.`,
     pointsForts: [
       "Autonomie de référence (634 km WLTP) et performances exceptionnelles (670 ch)",
       "Réseau Supercharger Tesla dense et fiable en France et en Europe",
@@ -5202,7 +5206,7 @@ Non éligible au bonus écologique en raison de sa fabrication américaine et de
       "Excellente valeur en occasion à partir de 45 000 €",
     ],
     pointsFaibles: [
-      "Prix neuf élevé (94 990 €), non éligible au bonus",
+      "Prix neuf élevé (94 990 €), non éligible à la prime coup de pouce CEE",
       "Volant yoke controversé (volant rond disponible en option)",
       "Qualité d'assemblage inégale selon les lots de production",
       "Interface 100 % écran tactile peu ergonomique pour certaines commandes courantes",
@@ -5237,7 +5241,7 @@ Non éligible au bonus écologique en raison de sa fabrication américaine et de
     note: 8,
     tags: ["SUV", "familiale", "made-in-europe"],
     annee: 2024,
-    description: `Le Kia Niro EV deuxième génération est un crossover compact entièrement électrique qui incarne la philosophie de Kia : offrir un véhicule polyvalent, bien équipé et doté d'une garantie imbattable. Lancé en 2022, il succède au premier Niro EV qui avait contribué à faire connaître la marque coréenne dans le monde de l'électrique. Assemblé en Corée du Sud mais homologué comme véhicule européen grâce aux accords commerciaux, il est éligible au bonus écologique en France.
+    description: `Le Kia Niro EV deuxième génération est un crossover compact entièrement électrique qui incarne la philosophie de Kia : offrir un véhicule polyvalent, bien équipé et doté d'une garantie imbattable. Lancé en 2022, il succède au premier Niro EV qui avait contribué à faire connaître la marque coréenne dans le monde de l'électrique. Assemblé en Corée du Sud mais homologué comme véhicule européen grâce aux accords commerciaux, il est éligible à la prime coup de pouce CEE en France.
 
 Le design du Niro EV deuxième génération rompt avec le style sage de son prédécesseur. La face avant adopte le nouveau langage stylistique Kia avec des phares diurnes en forme de boomerang et un bouclier sculptural qui intègre subtilement le port de recharge. L'élément de design le plus distinctif est le traitement bicolore du montant C, baptisé "Aero Blade", qui crée une rupture visuelle entre la carrosserie et le toit, donnant l'impression d'un toit flottant. Avec ses 4 420 mm de longueur, le Niro EV reste compact et facile à manoeuvrer en ville.
 
@@ -5251,13 +5255,13 @@ Le coffre de 475 litres est l'un des plus généreux du segment des crossovers c
 
 La dotation en aides à la conduite est complète avec le Highway Driving Assist 2 (HDA 2) qui combine le régulateur de vitesse adaptatif avec le centrage dans la voie et la gestion des changements de voie sur autoroute. Le freinage automatique d'urgence avec détection des piétons, cyclistes et véhicules en intersection, ainsi que l'alerte de trafic arrière lors des marches arrière sont de série.
 
-La garantie Kia de 7 ans ou 150 000 km reste l'argument commercial le plus puissant du Niro EV. Elle couvre l'ensemble du véhicule, y compris la batterie, et offre une tranquillité d'esprit inégalée dans le segment. Éligible au bonus écologique, le Kia Niro EV s'adresse aux familles et aux conducteurs pragmatiques qui recherchent un crossover électrique fiable, spacieux et bien équipé, sans payer le prix d'un modèle premium.`,
+La garantie Kia de 7 ans ou 150 000 km reste l'argument commercial le plus puissant du Niro EV. Elle couvre l'ensemble du véhicule, y compris la batterie, et offre une tranquillité d'esprit inégalée dans le segment. Éligible à la prime coup de pouce CEE, le Kia Niro EV s'adresse aux familles et aux conducteurs pragmatiques qui recherchent un crossover électrique fiable, spacieux et bien équipé, sans payer le prix d'un modèle premium.`,
     pointsForts: [
       "Garantie 7 ans / 150 000 km (batterie incluse)",
       "Coffre spacieux de 475 litres pour le segment",
       "Excellente efficience énergétique (16,2 kWh/100 km)",
       "Matériaux recyclés et biosourcés dans l'habitacle",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Charge rapide DC limitée à 80 kW (45 min pour 10-80 %)",
@@ -5309,7 +5313,7 @@ La configuration à sept places est le principal argument différenciant du Tang
 
 Les aides à la conduite incluent le système DiPilot de BYD avec régulateur adaptatif, maintien de voie, freinage d'urgence automatique et surveillance des angles morts. Le système de caméras 360 degrés avec vue transparente du châssis facilite les manoeuvres de ce véhicule imposant.
 
-Non éligible au bonus écologique en raison de sa fabrication en Chine et de son prix élevé de 70 000 euros, le BYD Tang se heurte à une concurrence premium européenne bien établie. Il reste cependant l'une des très rares options sept places entièrement électriques sur le marché, un créneau dans lequel il ne rencontre que très peu de rivaux directs, ce qui en fait un choix pertinent pour les grandes familles qui veulent une mobilité zéro émission.`,
+Non éligible à la prime coup de pouce CEE en raison de sa fabrication en Chine et de son prix élevé de 70 000 euros, le BYD Tang se heurte à une concurrence premium européenne bien établie. Il reste cependant l'une des très rares options sept places entièrement électriques sur le marché, un créneau dans lequel il ne rencontre que très peu de rivaux directs, ce qui en fait un choix pertinent pour les grandes familles qui veulent une mobilité zéro émission.`,
     pointsForts: [
       "Configuration 7 places rare dans le segment électrique",
       "Puissance impressionnante (517 ch) et transmission intégrale de série",
@@ -5322,7 +5326,7 @@ Non éligible au bonus écologique en raison de sa fabrication en Chine et de so
       "Autonomie modeste au regard de la capacité batterie (400 km WLTP)",
       "Consommation élevée (24 kWh/100 km en moyenne, 28+ sur autoroute)",
       "Charge rapide limitée à 120 kW pour une si grosse batterie",
-      "Non éligible au bonus, prix de 70 000 € en Chine",
+      "Non éligible à la prime coup de pouce CEE, prix de 70 000 € en Chine",
     ],
     source: "https://www.byd.com/fr",
     dateMAJ: "2026-06-22",
@@ -5368,11 +5372,11 @@ Le coffre de 360 litres est honnête pour le segment des SUV urbains et supérie
 
 En matière de sécurité, la Fiat 600e est bien dotée avec le freinage automatique d'urgence avec détection des piétons et cyclistes, le maintien de voie actif, le régulateur de vitesse adaptatif, les capteurs de stationnement avec caméra de recul et la surveillance des angles morts. Le système de stationnement semi-automatique facilite les créneaux en milieu urbain.
 
-Éligible au bonus écologique grâce à sa fabrication en Europe, la Fiat 600e s'adresse aux conducteurs urbains et périurbains qui recherchent un petit SUV électrique au caractère italien, polyvalent et bien dimensionné pour la vie citadine. Elle rivalise avec la Peugeot e-2008 et l'Opel Mokka Electric au sein même du groupe Stellantis, mais se distingue par son style plus expressif et son positionnement prix légèrement inférieur.`,
+Éligible à la prime coup de pouce CEE grâce à sa fabrication en Europe, la Fiat 600e s'adresse aux conducteurs urbains et périurbains qui recherchent un petit SUV électrique au caractère italien, polyvalent et bien dimensionné pour la vie citadine. Elle rivalise avec la Peugeot e-2008 et l'Opel Mokka Electric au sein même du groupe Stellantis, mais se distingue par son style plus expressif et son positionnement prix légèrement inférieur.`,
     pointsForts: [
       "Design italien chaleureux et gabarit urbain idéal (4 171 mm)",
       "Autonomie de 409 km WLTP sur la plateforme eCMP2 éprouvée",
-      "Éligible au bonus écologique (production européenne en Pologne)",
+      "Éligible à la prime coup de pouce CEE (production européenne en Pologne)",
       "Bonne charge rapide 100 kW (27 min pour 20-80 %)",
       "Habitacle joyeux avec matériaux recyclés",
     ],
@@ -5426,9 +5430,9 @@ Le coffre de 361 litres est remarquable pour une citadine de moins de 4 mètres,
 
 La Grande Panda est bien dotée en aides à la conduite pour son segment : freinage automatique d'urgence avec détection des piétons, maintien de voie, régulateur de vitesse avec limiteur, capteurs de stationnement arrière et caméra de recul. L'ensemble est fonctionnel et non intrusif.
 
-Éligible au bonus écologique grâce à sa production européenne, la Fiat Grande Panda se positionne comme l'une des citadines électriques les plus accessibles du marché avec un prix de départ à 25 000 euros avant aides. Elle cible les primo-accédants à l'électrique et les conducteurs urbains qui souhaitent un véhicule pratique, abordable et au caractère attachant. Son design distinctif et son nom chargé d'histoire lui confèrent une identité forte qui la distingue de la Citroën ë-C3 avec laquelle elle partage pourtant sa base technique.`,
+Éligible à la prime coup de pouce CEE grâce à sa production européenne, la Fiat Grande Panda se positionne comme l'une des citadines électriques les plus accessibles du marché avec un prix de départ à 25 000 euros avant aides. Elle cible les primo-accédants à l'électrique et les conducteurs urbains qui souhaitent un véhicule pratique, abordable et au caractère attachant. Son design distinctif et son nom chargé d'histoire lui confèrent une identité forte qui la distingue de la Citroën ë-C3 avec laquelle elle partage pourtant sa base technique.`,
     pointsForts: [
-      "Prix attractif à 25 000 €, éligible au bonus écologique",
+      "Prix attractif à 25 000 €, éligible à la prime coup de pouce CEE",
       "Coffre étonnamment spacieux (361 L) pour une citadine de 3,99 m",
       "Design rétro-moderne distinctif inspiré de la Panda originale",
       "Charge rapide 100 kW efficace (27 min 20-80 %)",
@@ -5486,7 +5490,7 @@ Le coffre de 362 litres est le point faible du Zeekr X en termes de praticité. 
 
 En matière de sécurité et d'aides à la conduite, le Zeekr X embarque 12 radars ultrasons, 5 radars millimétriques et 7 caméras haute définition. Le système de conduite assistée Zeekr Pilot offre un régulateur adaptatif, le maintien de voie actif, le freinage d'urgence avec détection des piétons et cyclistes, le stationnement automatique et l'alerte de trafic arrière.
 
-Non éligible au bonus écologique en raison de sa fabrication en Chine, le Zeekr X doit convaincre par ses qualités intrinsèques plutôt que par un prix subventionné. Il y parvient brillamment grâce à un niveau d'équipement, de performances et de finition qui surclassent la concurrence à tarif équivalent. C'est le véhicule qui illustre le mieux la capacité des constructeurs chinois premium à rivaliser avec les marques européennes établies.`,
+Non éligible à la prime coup de pouce CEE en raison de sa fabrication en Chine, le Zeekr X doit convaincre par ses qualités intrinsèques plutôt que par un prix subventionné. Il y parvient brillamment grâce à un niveau d'équipement, de performances et de finition qui surclassent la concurrence à tarif équivalent. C'est le véhicule qui illustre le mieux la capacité des constructeurs chinois premium à rivaliser avec les marques européennes établies.`,
     pointsForts: [
       "Niveau d'équipement exceptionnel de série (toit électrochrome, sièges massants)",
       "Performances sportives (272 ch, 0-100 en 5,8 s en propulsion)",
@@ -5495,7 +5499,7 @@ Non éligible au bonus écologique en raison de sa fabrication en Chine, le Zeek
       "Charge rapide efficace à 150 kW",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique (fabrication Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabrication Chine)",
       "Coffre limité à 362 litres pour un SUV compact",
       "Réseau de distribution Zeekr embryonnaire en France",
       "Image de marque encore inconnue du grand public",
@@ -5558,7 +5562,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     pointsFaibles: [
       "Prix extrêmement élevé : 550 000 €, 2 à 5× plus cher que ses rivaux directs",
       "Poids de 2 260 kg, le plus lourd véhicule Ferrari de l'histoire",
-      "Non éligible au bonus écologique (prix > 47 000 €)",
+      "Non éligible à la prime coup de pouce CEE (prix > 47 000 €)",
       "Consommation élevée de 22,1 kWh/100 km en cycle mixte",
       "Coût d'entretien et d'assurance Ferrari (réseau de concessionnaires restreint)",
       "Délais de livraison longs et disponibilité limitée (allocation sur liste d'attente)",
@@ -5593,7 +5597,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     origine: "EU",
     aidesEligible: true,
     note: 8,
-    tags: ["SUV", "compact", "bonus-ecologique"],
+    tags: ["SUV", "compact"],
     annee: 2024,
     description: `Le Peugeot e-2008 est la version 100 % électrique du SUV urbain compact de Peugeot. Restylé en 2024 avec le nouveau design de la marque, il bénéficie du i-Cockpit avec un combiné d'instrumentation numérique compact et un écran central de 10 pouces. Équipé d'un moteur de 156 ch et d'une batterie de 54 kWh, il offre jusqu'à 406 km d'autonomie WLTP. La charge rapide 100 kW permet de passer de 20 à 80 % en 30 minutes. Son coffre de 434 litres et son gabarit compact (4,30 m) en font un SUV polyvalent pour la ville et les trajets périurbains. Il partage sa plateforme e-CMP avec les Opel Mokka Electric et DS 3 E-Tense.`,
     pointsForts: [
@@ -5601,7 +5605,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Autonomie correcte de 406 km WLTP pour un SUV compact",
       "Coffre généreux de 434 litres",
       "i-Cockpit ergonomique et intérieur soigné",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Charge rapide limitée à 100 kW",
@@ -5649,7 +5653,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     ],
     pointsFaibles: [
       "Prix très élevé : à partir de 99 990 €",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Poids de 2 352 kg pénalisant la consommation",
       "Qualité de finition inégale selon les lots de production",
       "Portes Falcon Wing fragiles et coûteuses en réparation",
@@ -5682,14 +5686,14 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     origine: "EU",
     aidesEligible: true,
     note: 7,
-    tags: ["SUV", "compact", "bonus-ecologique"],
+    tags: ["SUV", "compact"],
     annee: 2024,
     description: `Le Jeep Avenger Electric est le premier SUV 100 % électrique de Jeep, élu Voiture européenne de l'année 2023. Construit sur la plateforme e-CMP de Stellantis, il adopte un style baroudeur typiquement Jeep avec une garde au sol rehaussée et des protections de carrosserie. Son moteur de 156 ch et sa batterie de 54 kWh offrent 400 km d'autonomie WLTP. Compact (4,08 m), il se faufile facilement en ville tout en proposant un look aventurier. La charge rapide à 100 kW permet de récupérer 20 à 80 % en 24 minutes. L'intérieur propose un écran central de 10,25 pouces et de nombreux rangements.`,
     pointsForts: [
       "Design baroudeur séduisant et identité Jeep forte",
       "Gabarit compact idéal pour la ville (4,08 m)",
       "Charge rapide efficace (24 min pour 20-80 %)",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
       "Garde au sol rehaussée par rapport aux concurrents",
     ],
     pointsFaibles: [
@@ -5738,7 +5742,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     ],
     pointsFaibles: [
       "Prix élevé à partir de 73 990 €",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Poids de 2 614 kg pénalisant l'efficience",
       "Consommation élevée de 20,6 kWh/100 km",
       "Gabarit imposant peu adapté à la ville",
@@ -5782,7 +5786,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Écran rotatif 15,6 pouces impressionnant",
     ],
     pointsFaibles: [
-      "Non éligible au bonus écologique (fabrication Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabrication Chine)",
       "Charge rapide limitée à 140 kW",
       "Réseau de concessionnaires BYD encore limité en France",
       "Coffre un peu juste pour le gabarit (425 L)",
@@ -5828,7 +5832,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     ],
     pointsFaibles: [
       "Charge rapide limitée à 120 kW, en retrait face à la concurrence",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Réseau après-vente BYD encore restreint",
       "Poids élevé de 2 200 kg",
       "Image de marque encore en construction en France",
@@ -5875,7 +5879,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Autonomie réelle en retrait (370 km)",
       "Charge rapide limitée à 150 kW",
       "Prix élevé pour la capacité de batterie proposée",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Interface multimédia moins intuitive que la concurrence",
     ],
     source: "https://www.lexus.fr/modeles/rz",
@@ -5914,7 +5918,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Performances enthousiasmantes (240-280 ch, 0-100 en 5,9 s)",
       "Design compact et sportif distinctif",
       "Freinage performant (disques 380 mm monoblocs)",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Autonomie limitée à 334 km WLTP (260 km réels)",
@@ -5959,7 +5963,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Plaisir de conduite, châssis et direction Mazda",
       "Design original avec portes freestyle",
       "Poids contenu grâce à la petite batterie",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Autonomie très limitée : 200 km WLTP (160 km réels)",
@@ -6004,7 +6008,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Confort de suspension Advanced Comfort remarquable",
       "Coffre spacieux de 580 litres",
       "Charge rapide 160 kW efficace (27 min 10-80 %)",
-      "Éligible au bonus écologique, fabriqué en France",
+      "Éligible à la prime coup de pouce CEE, fabriqué en France",
     ],
     pointsFaibles: [
       "Design clivant, en rupture avec le C5 Aircross précédent",
@@ -6054,7 +6058,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     ],
     pointsFaibles: [
       "Prix estimé élevé (75 000 € et plus)",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Poids massif de 2 665 kg",
       "Consommation importante (19,4 kWh/100 km)",
       "Gabarit difficile en ville et en parking",
@@ -6089,7 +6093,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     origine: "EU",
     aidesEligible: true,
     note: 8,
-    tags: ["pas-cher", "citadine", "bonus-ecologique"],
+    tags: ["pas-cher", "citadine"],
     annee: 2026,
     description: `La Volkswagen ID.2 est la citadine électrique tant attendue de Volkswagen, annoncée à un prix cible inférieur à 25 000 €. Construite sur la nouvelle plateforme MEB Small Entry, elle promet 450 km d'autonomie WLTP avec une batterie de 56 kWh et un moteur de 226 ch. Sa charge rapide à 175 kW permettra de récupérer 10 à 80 % en seulement 20 minutes. Avec un coffre de 490 litres et une longueur de 4,05 m, l'ID.2 vise directement la Renault 5 E-Tech et la Citroën ë-C3. Son design inspiré du concept ID.2all mêle rondeurs néo-rétro et modernité.`,
     pointsForts: [
@@ -6135,7 +6139,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     origine: "EU",
     aidesEligible: true,
     note: 7,
-    tags: ["SUV", "compact", "4x4", "bonus-ecologique"],
+    tags: ["SUV", "compact", "4x4"],
     annee: 2025,
     description: `Le Suzuki eVitara est le premier véhicule 100 % électrique de Suzuki, développé en partenariat avec Toyota sur la plateforme 27PL. Ce SUV compact de 4,27 m adopte la batterie LFP (lithium fer phosphate) de 61 kWh pour une autonomie de 400 km WLTP. Disponible en propulsion (174 ch) et en transmission intégrale AllGrip-e (184 ch avec deux moteurs), il propose un vrai mode 4x4, une rareté dans le segment. La charge rapide à 150 kW permet de récupérer 10 à 80 % en 28 minutes. Assemblé dans l'usine Suzuki de Gujarat en Inde, il vise le segment des SUV compacts accessibles face aux Kia EV3, Skoda Elroq et Hyundai Kona Electric.`,
     pointsForts: [
@@ -6143,7 +6147,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Batterie LFP robuste et durable",
       "Prix compétitif pour un SUV compact",
       "Charge rapide correcte à 150 kW",
-      "Éligible au bonus écologique",
+      "Éligible à la prime coup de pouce CEE",
     ],
     pointsFaibles: [
       "Marque peu connue dans l'électrique",
@@ -6247,7 +6251,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
       "Propulsion uniquement, pas de transmission intégrale",
       "Charge rapide limitée à 150 kW",
       "Prix élevé en neuf (69 950 €)",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Design extérieur conservateur pour un VE",
     ],
     source: "https://www.bmw.fr",
@@ -6293,7 +6297,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     ],
     pointsFaibles: [
       "Prix très élevé (à partir de 99 540 €)",
-      "Non éligible au bonus écologique",
+      "Non éligible à la prime coup de pouce CEE",
       "Consommation élevée (21,4 kWh/100 km)",
       "Poids de 2 320 kg",
       "Coffre limité à 446 L malgré le format break",
@@ -6339,7 +6343,7 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     pointsFaibles: [
       "Charge rapide très lente à 65 kW seulement",
       "Autonomie limitée à 312 km WLTP (240 km réels)",
-      "Non éligible au bonus écologique (fabrication Chine)",
+      "Non éligible à la prime coup de pouce CEE (fabrication Chine)",
       "Réseau de concessionnaires BYD encore restreint en France",
       "Valeur de revente incertaine, marque récente en France",
     ],
@@ -6347,6 +6351,16 @@ La Luce est aussi le tout premier modèle Ferrari à 5 places, avec un coffre de
     dateMAJ: "2026-06-22",
   },
 ];
+
+/** Éligibilité à la prime coup de pouce CEE : score environnemental (donnée du modèle), prix
+ *  d'entrée au plus égal au plafond TTC et masse sous le plafond (service-public F39188). */
+export const modeles: Modele[] = catalogue.map((m) => ({
+  ...m,
+  aidesEligible:
+    m.aidesEligible &&
+    m.prixBase <= COUP_DE_POUCE.prixMaxTTC &&
+    m.poids < COUP_DE_POUCE.masseMaxKg,
+}));
 
 // Helpers
 export function getModeleBySlug(slug: string): Modele | undefined {

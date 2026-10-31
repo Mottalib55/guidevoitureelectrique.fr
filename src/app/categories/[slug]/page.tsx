@@ -82,7 +82,7 @@ export default async function PageCategorie({ params }: Props) {
                 <th>Autonomie réelle</th>
                 <th>Batterie</th>
                 <th>Charge rapide</th>
-                <th>Bonus</th>
+                <th>Prime CEE</th>
                 <th>Note</th>
               </tr>
             </thead>
@@ -138,7 +138,7 @@ export default async function PageCategorie({ params }: Props) {
           <ul style={{ fontSize: 13, color: "var(--muted)", lineHeight: 1.8, margin: 0, paddingLeft: 18 }}>
             <li>Avere-France : Baromètre des immatriculations de véhicules électriques par segment</li>
             <li>AAA Data : Parts de marché par catégorie de véhicule en France, 2025-2026</li>
-            <li>Ministère de la Transition écologique : Barème du bonus écologique et score environnemental 2026</li>
+            <li>Service-Public.gouv.fr : prime coup de pouce CEE (F39188) et score environnemental</li>
             <li>Euro NCAP : Résultats de sécurité par modèle, protocole 2024-2025</li>
             <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs</li>
           </ul>

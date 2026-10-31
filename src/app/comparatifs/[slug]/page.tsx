@@ -72,7 +72,7 @@ function getFaqs(
   return [
     {
       question: `Quelle est la moins chère entre la ${m1.modele} et la ${m2.modele} ?`,
-      answer: `La ${moinsCher.modele} est la moins chère à ${euro(moinsCher.prixBase)}, contre ${euro(moinsCher === m1 ? m2.prixBase : m1.prixBase)} pour la ${moinsCher === m1 ? m2.modele : m1.modele}, soit un écart de ${euro(Math.abs(m1.prixBase - m2.prixBase))}. ${m1.aidesEligible && m2.aidesEligible ? "Les deux modèles sont éligibles au bonus écologique de 4\u00a0000\u00a0€, qui ne change donc pas le classement." : m1.aidesEligible || m2.aidesEligible ? `Seule la ${m1.aidesEligible ? m1.modele : m2.modele} ouvre droit au bonus écologique de 4\u00a0000\u00a0€, ce qui peut inverser l'écart.` : "Aucun des deux n'ouvre droit au bonus écologique."} À l'achat, pensez aussi à la carte grise, gratuite pour un véhicule électrique dans la plupart des régions.`,
+      answer: `La ${moinsCher.modele} est la moins chère à ${euro(moinsCher.prixBase)}, contre ${euro(moinsCher === m1 ? m2.prixBase : m1.prixBase)} pour la ${moinsCher === m1 ? m2.modele : m1.modele}, soit un écart de ${euro(Math.abs(m1.prixBase - m2.prixBase))}. ${m1.aidesEligible && m2.aidesEligible ? "Les deux modèles ouvrent droit à la prime coup de pouce CEE, qui a remplacé le bonus écologique ; son montant dépend de l'offre de l'entreprise qui la verse et de vos revenus." : m1.aidesEligible || m2.aidesEligible ? `Seule la ${m1.aidesEligible ? m1.modele : m2.modele} ouvre droit à la prime coup de pouce CEE, qui a remplacé le bonus écologique, ce qui peut réduire voire inverser l'écart selon le montant de l'offre obtenue.` : "Aucun des deux n'ouvre droit à la prime coup de pouce CEE, qui a remplacé le bonus écologique."} À l'achat, pensez aussi à la carte grise, gratuite pour un véhicule électrique dans la plupart des régions.`,
     },
     {
       question: `Laquelle à la meilleure autonomie : ${m1.modele} ou ${m2.modele} ?`,
@@ -105,13 +105,7 @@ export default async function PageComparatif({ params }: Props) {
   const faqs = getFaqs(m1, m2);
 
   const specs: { label: string; v1: string; v2: string }[] = [
-    { label: "Prix neuf", v1: euro(m1.prixBase), v2: euro(m2.prixBase) },
-    {
-      label: "Prix après bonus",
-      v1: m1.aidesEligible ? euro(m1.prixBase - 4000) : "Non éligible",
-      v2: m2.aidesEligible ? euro(m2.prixBase - 4000) : "Non éligible",
-    },
-    {
+    { label: "Prix neuf", v1: euro(m1.prixBase), v2: euro(m2.prixBase) },{
       label: "Autonomie WLTP",
       v1: `${m1.autonomieWLTP} km`,
       v2: `${m2.autonomieWLTP} km`,
@@ -160,10 +154,9 @@ export default async function PageComparatif({ params }: Props) {
     },
     { label: "Segment", v1: m1.segment, v2: m2.segment },
     { label: "Origine", v1: m1.origine, v2: m2.origine },
-    {
-      label: "Bonus écologique",
-      v1: m1.aidesEligible ? "Éligible" : "Non éligible",
-      v2: m2.aidesEligible ? "Éligible" : "Non éligible",
+    {      label: "Prime coup de pouce CEE",
+      v1: m1.aidesEligible ? "Éligible (montant selon l'offre)" : "Non éligible",
+      v2: m2.aidesEligible ? "Éligible (montant selon l'offre)" : "Non éligible",
     },
     { label: "Note", v1: `${m1.note}/10`, v2: `${m2.note}/10` },
   ];
@@ -405,7 +398,7 @@ export default async function PageComparatif({ params }: Props) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Bonus écologique : service-public.fr
+                Prime coup de pouce CEE : service-public.fr
               </a>
             </li>
           </ul>

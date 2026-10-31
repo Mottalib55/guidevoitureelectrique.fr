@@ -9,11 +9,12 @@ import Breadcrumb from "@/components/Breadcrumb";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
 import { dec } from "@/lib/format";
+import { COUP_DE_POUCE } from "@/data/aides-2026";
 
 export const metadata: Metadata = buildMetadata({
   title: "Voitures électriques chinoises 2026 : guide complet",
   description:
-    "BYD, MG, Leapmotor, Xpeng, Zeekr : tous les modèles chinois vendus en France. Comparatif prix, autonomie, qualité, éligibilité bonus et fiabilité réelle.",
+    "BYD, MG, Leapmotor, Xpeng, Zeekr : tous les modèles chinois vendus en France. Comparatif prix, autonomie, qualité, éligibilité à la prime CEE et fiabilité.",
   path: "/marques/voitures-chinoises/",
 });
 
@@ -64,7 +65,7 @@ export default function PageMarquesChinoises() {
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 700, lineHeight: 1.5 }}>
             Guide complet des constructeurs chinois de véhicules électriques disponibles
             sur le marché français : BYD, MG, Leapmotor, Xpeng, Zeekr. Prix, qualité,
-            fiabilité et éligibilité au bonus écologique.
+            fiabilité et éligibilité à la prime coup de pouce CEE.
           </p>
         </header>
 
@@ -87,13 +88,14 @@ export default function PageMarquesChinoises() {
             électriques.
           </p>
 
-          <h2>Le bonus écologique : le frein principal</h2>
-          <p>Le principal obstacle pour les acheteurs français est l&apos;éligibilité au bonus
-            écologique. La France a mis en place un score environnemental qui prend en compte
+          <h2>La prime coup de pouce CEE : le frein principal</h2>
+          <p>Le principal obstacle pour les acheteurs français est l&apos;éligibilité à la prime
+            coup de pouce CEE, qui a remplacé le bonus écologique le {COUP_DE_POUCE.depuis}. Comme
+            l&apos;ancien bonus, elle exige un score environnemental qui prend en compte
             l&apos;empreinte carbone de fabrication du véhicule. Les modèles fabriqués en Chine
             sont pénalisés par le mix énergétique chinois (fortement carboné) et le transport
             maritime. En conséquence, la quasi-totalité des véhicules chinois importés ne sont
-            pas éligibles au bonus de 4 000 €, ce qui renchérit leur prix effectif par rapport
+            pas éligibles à cette prime (ni au leasing social), ce qui renchérit leur prix effectif par rapport
             aux alternatives européennes éligibles. Certains constructeurs contournent cet obstacle en assemblant leurs véhicules en
             Europe. Leapmotor, via sa joint-venture avec Stellantis, assemble le T03 en Pologne.
             BYD a annoncé une usine en Hongrie et une en Turquie. MG (SAIC) envisage une
@@ -185,7 +187,7 @@ export default function PageMarquesChinoises() {
                   <th>Prix</th>
                   <th>Autonomie réelle</th>
                   <th>Charge rapide</th>
-                  <th>Bonus</th>
+                  <th>Prime CEE</th>
                   <th>Note</th>
                 </tr>
               </thead>
@@ -243,7 +245,7 @@ export default function PageMarquesChinoises() {
             En France, BYD propose en 2026 plusieurs modèles couvrant du segment B au segment D : le <strong>BYD Dolphin</strong> (citadine, à partir de 27 990 euros), le <strong>BYD Atto 3</strong> (SUV compact, à partir de 33 990 euros), le <strong>BYD Seal</strong> (berline sportive, à partir de 42 990 euros), et le <strong>BYD Tang</strong> (grand SUV, à partir de 69 990 euros). La marque a également lancé la <strong>BYD Seagull</strong> sous le nom BYD Dolphin Mini en Europe, une micro-citadine a un prix extrêmement compétitif.
           </p>
           <p>
-            Le principal obstacle pour BYD en France reste le <strong>bonus écologique</strong>. Les modèles actuellement importés de Chine ne bénéficient pas du bonus de 4 000 euros, ce qui renchérit leur prix réel face aux concurrents européens éligibles. BYD répond a ce défi en construisant deux usines en Europe : une en <strong>Hongrie</strong> (ouverture prévue fin 2026) et une en <strong>Turquie</strong> (2027). Ces usines permettront aux véhicules BYD d&apos;obtenir le score environnemental nécessaire pour l&apos;éligibilité au bonus.
+            Le principal obstacle pour BYD en France reste la <strong>prime coup de pouce CEE</strong>, qui a remplacé le bonus écologique. Les modèles actuellement importés de Chine n&apos;y ouvrent pas droit, ce qui renchérit leur prix réel face aux concurrents européens éligibles. BYD répond a ce défi en construisant deux usines en Europe : une en <strong>Hongrie</strong> (ouverture prévue fin 2026) et une en <strong>Turquie</strong> (2027). Ces usines permettront aux véhicules BYD d&apos;obtenir le score environnemental nécessaire pour l&apos;éligibilité à la prime.
           </p>
 
           <h2>MG (SAIC Motor) : le plus implante en France</h2>
@@ -257,7 +259,7 @@ export default function PageMarquesChinoises() {
             Le produit phare de MG en France est la <strong>MG4</strong>, une compacte électrique lancée en 2022 qui a immédiatement bouscule le segment par son rapport prestations/prix imbattable. À partir de 27 990 euros (version Standard 51 kWh, 350 km d&apos;autonomie WLTP), la MG4 offre un châssis dynamique et bien équilibré, un espace intérieur généreux, et une garantie de 7 ans. La version Extended Range (64 kWh, 450 km WLTP) reste sous les 33 000 euros, un tarif difficilement égalable par la concurrence européenne.
           </p>
           <p>
-            En 2026, la gamme MG s&apos;est élargie avec la <strong>MG3 Hybrid+</strong> (hybride, pas 100 % électrique), le <strong>MG ZS EV</strong> (SUV compact électrique), le <strong>MG Marvel R</strong> (SUV familial), et le <strong>MG Cyberster</strong> (roadster électrique sportif, un clin d&apos;oeil aux racines de la marque). MG explore également l&apos;assemblage en Europe pour contourner les droits de douane supplémentaires imposes par l&apos;UE et retrouver l&apos;éligibilité au bonus écologique français.
+            En 2026, la gamme MG s&apos;est élargie avec la <strong>MG3 Hybrid+</strong> (hybride, pas 100 % électrique), le <strong>MG ZS EV</strong> (SUV compact électrique), le <strong>MG Marvel R</strong> (SUV familial), et le <strong>MG Cyberster</strong> (roadster électrique sportif, un clin d&apos;oeil aux racines de la marque). MG explore également l&apos;assemblage en Europe pour contourner les droits de douane supplémentaires imposes par l&apos;UE et rendre ses modèles éligibles à la prime coup de pouce CEE.
           </p>
 
           <h2>Leapmotor : le pari Stellantis</h2>
@@ -265,10 +267,10 @@ export default function PageMarquesChinoises() {
             Leapmotor est un constructeur fondé en 2015 a Hangzhou, dans la province du Zhejiang. Ce qui distingue Leapmotor de ses concurrents chinois en Europe, c&apos;est sa <strong>joint-venture avec Stellantis</strong> (maison mère de Peugeot, Citroen, Fiat, Opel). Stellantis a pris une participation de 21 % dans Leapmotor et a créé la coentreprise <strong>Leapmotor International</strong>, détenue a 51 % par Stellantis, pour distribuer les véhicules Leapmotor en dehors de la Chine.
           </p>
           <p>
-            Cette alliance stratégique offre a Leapmotor des avantages considérables : l&apos;accès au réseau de distribution de Stellantis (le plus vaste d&apos;Europe), l&apos;utilisation des usines Stellantis en Europe pour l&apos;assemblage local, et la crédibilité d&apos;un partenaire européen établi. Le <strong>Leapmotor T03</strong>, une micro-citadine électrique à partir de 18 900 euros, est déjà assemblé dans l&apos;usine Stellantis de Tychy, en Pologne, ce qui le rend <strong>éligible au bonus écologique</strong> français.
+            Cette alliance stratégique offre a Leapmotor des avantages considérables : l&apos;accès au réseau de distribution de Stellantis (le plus vaste d&apos;Europe), l&apos;utilisation des usines Stellantis en Europe pour l&apos;assemblage local, et la crédibilité d&apos;un partenaire européen établi. Le <strong>Leapmotor T03</strong>, une micro-citadine électrique à partir de 18 900 euros, est déjà assemblé dans l&apos;usine Stellantis de Tychy, en Pologne, ce qui devait lui permettre d&apos;obtenir le score environnemental exigé ; vérifiez sa présence sur la liste officielle avant de compter sur la <strong>prime coup de pouce CEE</strong>.
           </p>
           <p>
-            Le <strong>Leapmotor C10</strong>, un SUV familial à partir de 36 400 euros, est l&apos;autre modèle phare de la marque. Plus spacieux qu&apos;un Peugeot e-2008 et moins cher, il propose une batterie de 69 kWh et une autonomie réelle d&apos;environ 340 km. L&apos;assemblage européen du C10 est prévu pour 2026, ce qui devrait le rendre éligible au bonus écologique.
+            Le <strong>Leapmotor C10</strong>, un SUV familial à partir de 36 400 euros, est l&apos;autre modèle phare de la marque. Plus spacieux qu&apos;un Peugeot e-2008 et moins cher, il propose une batterie de 69 kWh et une autonomie réelle d&apos;environ 340 km. L&apos;assemblage européen du C10 est prévu pour 2026, ce qui pourrait le rendre éligible à la prime coup de pouce CEE.
           </p>
 
           <h2>Xpeng : la technologie au service de la conduite</h2>
@@ -279,7 +281,7 @@ export default function PageMarquesChinoises() {
             En France, Xpeng propose le <strong>G6</strong>, un SUV coupe électrique positionne face au Tesla Model Y. À partir de 42 990 euros, le G6 offre une architecture 800V permettant une charge de 10 a 80 % en seulement 20 minutes, une autonomie WLTP de 570 km (version Grande Autonomie), et un équipement technologique de premier plan : écran central de 14,96 pouces, système audio de 18 haut-parleurs, et une suite ADAS complète.
           </p>
           <p>
-            La présence de Xpeng en France reste cependant limitée. La marque dispose de quelques showrooms dans les grandes villes (Paris, Lyon, Marseille) et d&apos;un réseau de service après-vente en construction. L&apos;absence d&apos;éligibilité au bonus écologique (les véhicules sont importés de Chine) et un prix positionne en face de concurrents européens bien établis rendent la conquête du marché français plus difficile.
+            La présence de Xpeng en France reste cependant limitée. La marque dispose de quelques showrooms dans les grandes villes (Paris, Lyon, Marseille) et d&apos;un réseau de service après-vente en construction. L&apos;absence d&apos;éligibilité à la prime coup de pouce CEE (les véhicules sont importés de Chine) et un prix positionne en face de concurrents européens bien établis rendent la conquête du marché français plus difficile.
           </p>
 
           <h2>Zeekr : le premium selon Geely</h2>
@@ -349,13 +351,13 @@ export default function PageMarquesChinoises() {
             En conclusion de cette analyse, voici notre grille de décision pour 2026 :
           </p>
           <ul>
-            <li><strong>Achetez chinois si :</strong> vous cherchez le meilleur rapport équipement/prix, vous êtes prêt à supporter une décote potentiellement plus forte, vous n&apos;avez pas besoin du bonus écologique (ou le modèle est éligible), et vous êtes a l&apos;aise avec un réseau SAV en construction.</li>
+            <li><strong>Achetez chinois si :</strong> vous cherchez le meilleur rapport équipement/prix, vous êtes prêt à supporter une décote potentiellement plus forte, vous pouvez vous passer de la prime coup de pouce CEE (ou le modèle y est éligible), et vous êtes a l&apos;aise avec un réseau SAV en construction.</li>
             <li><strong>Privilégiez les marques avec le meilleur réseau en France :</strong> MG (plus de 130 points de vente), Leapmotor (via Stellantis), puis BYD (réseau en expansion rapide).</li>
-            <li><strong>Privilégiez les modèles assemblés en Europe :</strong> Leapmotor T03 (Pologne), et bientôt les BYD d&apos;usines hongroise et turque. Ces modèles bénéficient du bonus écologique et échappent aux surtaxes douanières.</li>
-            <li><strong>En premium, comparez soigneusement :</strong> le Zeekr 001 et le Xpeng G6 offrent des prestations remarquables, mais face a un Tesla Model 3 Highland (assemblée a Berlin, éligible au bonus) ou un Hyundai Ioniq 5 (excellent réseau SAV), l&apos;avantage financier est moins évident une fois les aides prises en compte.</li>
+            <li><strong>Privilégiez les modèles assemblés en Europe :</strong> Leapmotor T03 (Pologne), et bientôt les BYD d&apos;usines hongroise et turque. Un assemblage européen échappe aux surtaxes douanières et peut ouvrir droit à la prime coup de pouce CEE, à vérifier sur la liste officielle.</li>
+            <li><strong>En premium, comparez soigneusement :</strong> le Zeekr 001 et le Xpeng G6 offrent des prestations remarquables, mais face à un Tesla Model Y (assemblé à Berlin) ou un Hyundai Ioniq 5 (excellent réseau SAV), l&apos;avantage financier est moins évident une fois la prime CEE prise en compte.</li>
           </ul>
           <p>
-            Le marché évolué très rapidement. Les décisions d&apos;implantation industrielle en cours (usines BYD, potentielle usine MG, extension Leapmotor) pourraient transformer l&apos;équation d&apos;ici 2027-2028, en rendant les véhicules chinois éligibles au bonus et en renforçant les réseaux de distribution et de service.
+            Le marché évolué très rapidement. Les décisions d&apos;implantation industrielle en cours (usines BYD, potentielle usine MG, extension Leapmotor) pourraient transformer l&apos;équation d&apos;ici 2027-2028, en rendant les véhicules chinois éligibles à la prime coup de pouce CEE et en renforçant les réseaux de distribution et de service.
           </p>
         </div>
 
@@ -379,7 +381,7 @@ export default function PageMarquesChinoises() {
             </li>
             <li>
               <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F39188" target="_blank" rel="noopener noreferrer">
-                Bonus écologique : service-public.fr
+                Prime coup de pouce CEE : service-public.fr
               </a>
             </li>
           </ul>

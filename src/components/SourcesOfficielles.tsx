@@ -6,13 +6,11 @@
 type Lien = { url: string; libelle: string };
 
 const PAR_DEFAUT: Lien[] = [
-  {
-    url: 'https://www.service-public.fr/particuliers/vosdroits/F35634',
-    libelle: 'Service-Public.fr, Bonus écologique pour un véhicule électrique',
+  {    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F39188',
+    libelle: 'Service-Public.fr, Prime coup de pouce Véhicules particuliers électriques',
   },
-  {
-    url: 'https://www.economie.gouv.fr/particuliers/prime-conversion-vehicule',
-    libelle: 'Ministère de l’Économie, Prime à la conversion',
+  {    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F39280',
+    libelle: 'Service-Public.fr, Location sociale de voitures électriques (leasing social 2026)',
   },
   {
     url: 'https://www.ecologie.gouv.fr/politiques-publiques/vehicules-electriques',

@@ -11,6 +11,7 @@ import FaqSection from "@/components/FaqSection";
 import CarteModele from "@/components/CarteModele";
 import AuteurBio from "@/components/AuteurBio";
 import { dec } from "@/lib/format";
+import { COUP_DE_POUCE, eur } from "@/data/aides-2026";
 
 export function generateStaticParams() {
   return marques.map((m) => ({ slug: m.slug }));
@@ -44,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 /**
  * FAQ de la page marque, construite sur le catalogue réel de la marque : nombre de
- * modèles, fourchette de prix et d'autonomie, éligibilité au bonus (RECETTE §12).
+ * modèles, fourchette de prix et d'autonomie, éligibilité à la prime coup de pouce CEE (RECETTE §12).
  */
 function getFaqs(
   marque: NonNullable<ReturnType<typeof getMarqueBySlug>>,
@@ -68,19 +69,19 @@ function getFaqs(
     },
     {
       question: `Quelle est la ${marque.nom} \u00e9lectrique la moins ch\u00e8re ?`,
-      answer: `La ${moinsCher.modele} ouvre la gamme \u00e0 ${euro(moinsCher.prixBase)}, avec ${moinsCher.autonomieReelle} km d'autonomie r\u00e9elle et une batterie de ${dec(moinsCher.batterieKwh)} kWh.${moinsCher.aidesEligible ? ` Elle ouvre droit au bonus \u00e9cologique de 4 000 \u20ac, soit ${euro(Math.max(0, moinsCher.prixBase - 4000))} apr\u00e8s aide.` : " Elle n'ouvre pas droit au bonus \u00e9cologique."} \u00c0 ce prix s'ajoutent l'assurance et, le cas \u00e9ch\u00e9ant, l'installation d'une wallbox.`,
+      answer: `La ${moinsCher.modele} ouvre la gamme \u00e0 ${euro(moinsCher.prixBase)}, avec ${moinsCher.autonomieReelle} km d'autonomie r\u00e9elle et une batterie de ${dec(moinsCher.batterieKwh)} kWh.${moinsCher.aidesEligible ? " Elle ouvre droit \u00e0 la prime coup de pouce CEE, qui a remplac\u00e9 le bonus \u00e9cologique et dont le montant d\u00e9pend de l'offre retenue et de vos revenus." : " Elle n'ouvre pas droit \u00e0 la prime coup de pouce CEE, qui a remplac\u00e9 le bonus \u00e9cologique."} \u00c0 ce prix s'ajoutent l'assurance et, le cas \u00e9ch\u00e9ant, l'installation d'une wallbox.`,
     },
     {
       question: `Quelle ${marque.nom} a la meilleure autonomie ?`,
       answer: `La ${plusEndurant.modele} affiche la meilleure autonomie r\u00e9elle de la gamme, ${plusEndurant.autonomieReelle} km, pour ${plusEndurant.autonomieWLTP} km annonc\u00e9s en cycle WLTP. Sur autoroute \u00e0 130 km/h, comptez 20 \u00e0 30 % de moins, et davantage par temps froid. Sa batterie de ${dec(plusEndurant.batterieKwh)} kWh et sa consommation de ${dec(plusEndurant.conso)} kWh/100 km expliquent ce r\u00e9sultat.`,
     },
     {
-      question: `Les ${marque.nom} \u00e9lectriques sont-elles \u00e9ligibles au bonus \u00e9cologique ?`,
+      question: `Les ${marque.nom} \u00e9lectriques sont-elles \u00e9ligibles \u00e0 la prime coup de pouce CEE ?`,
       answer: eligibles.length === modeles.length
-        ? `Oui, les ${modeles.length} mod\u00e8les ${marque.nom} que nous suivons ouvrent droit au bonus \u00e9cologique de 4 000 \u20ac en 2026. Le bonus d\u00e9pend du score environnemental, qui tient compte du lieu de production et du transport, et d'un prix catalogue inf\u00e9rieur \u00e0 47 000 \u20ac. Les aides r\u00e9gionales et le leasing social peuvent s'y ajouter selon vos revenus.`
+        ? `Oui, les ${modeles.length} mod\u00e8les ${marque.nom} que nous suivons ouvrent droit \u00e0 la prime coup de pouce CEE, qui a remplac\u00e9 le bonus \u00e9cologique le ${COUP_DE_POUCE.depuis}. Elle d\u00e9pend du score environnemental, qui tient compte du lieu de production et du transport, et d'un prix d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC ; son montant varie selon l'entreprise qui la verse et vos revenus. Selon vos revenus, le leasing social peut aussi \u00eatre une option si le mod\u00e8le figure sur sa liste.`
         : eligibles.length === 0
-        ? `Non. Aucun des ${modeles.length} mod\u00e8les ${marque.nom} que nous suivons n'atteint le score environnemental exig\u00e9 depuis 2024, principalement en raison du lieu de production (${marque.pays}). Le leasing social et les aides locales, qui ne d\u00e9pendent pas de ce score, restent en revanche accessibles selon votre r\u00e9gion et vos revenus.`
-        : `En partie : ${eligibles.length} mod\u00e8le${eligibles.length > 1 ? "s" : ""} sur ${modeles.length} ouvre${eligibles.length > 1 ? "nt" : ""} droit au bonus \u00e9cologique de 4 000 \u20ac, \u00e0 savoir ${eligibles.slice(0, 3).map((m) => m.modele).join(", ")}. Le crit\u00e8re d\u00e9cisif est le score environnemental, qui p\u00e9nalise les v\u00e9hicules produits loin de l'Europe, et non la marque elle-m\u00eame.`,
+        ? `Non. Aucun des ${modeles.length} mod\u00e8les ${marque.nom} que nous suivons n'atteint le score environnemental exig\u00e9 depuis 2024, principalement en raison du lieu de production (${marque.pays}). Le leasing social exige le m\u00eame score ; seules certaines aides locales peuvent rester accessibles, selon votre commune ou votre r\u00e9gion.`
+        : `En partie : ${eligibles.length} mod\u00e8le${eligibles.length > 1 ? "s" : ""} sur ${modeles.length} ouvre${eligibles.length > 1 ? "nt" : ""} droit \u00e0 la prime coup de pouce CEE, \u00e0 savoir ${eligibles.slice(0, 3).map((m) => m.modele).join(", ")}. Le crit\u00e8re d\u00e9cisif est le score environnemental, qui p\u00e9nalise les v\u00e9hicules produits loin de l'Europe, et non la marque elle-m\u00eame.`,
     },
     {
       question: `Combien co\u00fbte la recharge d'une ${marque.nom} \u00e9lectrique ?`,
@@ -88,7 +89,7 @@ function getFaqs(
     },
     {
       question: `O\u00f9 sont fabriqu\u00e9es les ${marque.nom} \u00e9lectriques ?`,
-      answer: `${marque.nom} est une marque ${marque.pays === "France" ? "fran\u00e7aise" : `bas\u00e9e en ${marque.pays}`}, fond\u00e9e en ${marque.anneeCreation}. Le lieu d'assemblage varie selon les mod\u00e8les et compte directement dans le score environnemental qui conditionne le bonus \u00e9cologique : un m\u00eame mod\u00e8le peut y ouvrir droit ou non selon l'usine qui le produit. Les fiches mod\u00e8le pr\u00e9cisent l'origine retenue pour le calcul.`,
+      answer: `${marque.nom} est une marque ${marque.pays === "France" ? "fran\u00e7aise" : `bas\u00e9e en ${marque.pays}`}, fond\u00e9e en ${marque.anneeCreation}. Le lieu d'assemblage varie selon les mod\u00e8les et compte directement dans le score environnemental qui conditionne la prime coup de pouce CEE : un m\u00eame mod\u00e8le peut y ouvrir droit ou non selon l'usine qui le produit. Les fiches mod\u00e8le pr\u00e9cisent l'origine retenue pour le calcul.`,
     },
   ];
 }

@@ -8,6 +8,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuteurBio from "@/components/AuteurBio";
 import { safeParseNumber } from "@/lib/parseNumericInput";
 import BarreResultat from "@/components/BarreResultat";
+import { COUP_DE_POUCE } from "@/data/aides-2026";
 
 const euro = (n: number) =>
   new Intl.NumberFormat("fr-FR", {
@@ -19,7 +20,7 @@ const euro = (n: number) =>
 export default function ComparateurElecThermique() {
   // Électrique
   const [prixElec, setPrixElec] = useState(25000);
-  const [bonusElec, setBonusElec] = useState(4000);
+  const [bonusElec, setBonusElec] = useState(0); // prime CEE : pas de montant réglementaire, à saisir
   const [consoElec, setConsoElec] = useState(15); // kWh/100km
   const [prixKwh, setPrixKwh] = useState(0.2);
   const [assurElec, setAssurElec] = useState(650);
@@ -133,7 +134,7 @@ export default function ComparateurElecThermique() {
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
               <div><label style={labelStyle}>Prix neuf</label><input type="text" inputMode="decimal" value={prixElec} onChange={(e) => setPrixElec(safeParseNumber(e.target.value, prixElec))} step={1000} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Bonus</label><input type="text" inputMode="decimal" value={bonusElec} onChange={(e) => setBonusElec(safeParseNumber(e.target.value, bonusElec))} step={500} style={inputStyle} /></div>
+              <div><label style={labelStyle}>Prime CEE obtenue</label><input type="text" inputMode="decimal" value={bonusElec} onChange={(e) => setBonusElec(safeParseNumber(e.target.value, bonusElec))} step={500} style={inputStyle} /></div>
               <div><label style={labelStyle}>Conso (kWh/100)</label><input type="text" inputMode="decimal" value={consoElec} onChange={(e) => setConsoElec(safeParseNumber(e.target.value, consoElec))} step={0.5} style={inputStyle} /></div>
               <div><label style={labelStyle}>€/kWh</label><input type="text" inputMode="decimal" value={prixKwh} onChange={(e) => setPrixKwh(safeParseNumber(e.target.value, prixKwh))} step={0.01} style={inputStyle} /></div>
               <div><label style={labelStyle}>Assurance / an</label><input type="text" inputMode="decimal" value={assurElec} onChange={(e) => setAssurElec(safeParseNumber(e.target.value, assurElec))} step={50} style={inputStyle} /></div>
@@ -149,7 +150,7 @@ export default function ComparateurElecThermique() {
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
               <div><label style={labelStyle}>Prix neuf</label><input type="text" inputMode="decimal" value={prixTherm} onChange={(e) => setPrixTherm(safeParseNumber(e.target.value, prixTherm))} step={1000} style={inputStyle} /></div>
-              <div><label style={labelStyle}>Bonus</label><input type="text" value="Pas de bonus" disabled style={{ ...inputStyle, color: "var(--faint)", background: "var(--wash)" }} /></div>
+              <div><label style={labelStyle}>Prime CEE</label><input type="text" value="Aucune" disabled style={{ ...inputStyle, color: "var(--faint)", background: "var(--wash)" }} /></div>
               <div><label style={labelStyle}>Conso (L/100)</label><input type="text" inputMode="decimal" value={consoTherm} onChange={(e) => setConsoTherm(safeParseNumber(e.target.value, consoTherm))} step={0.5} style={inputStyle} /></div>
               <div><label style={labelStyle}>€/litre</label><input type="text" inputMode="decimal" value={prixLitre} onChange={(e) => setPrixLitre(safeParseNumber(e.target.value, prixLitre))} step={0.05} style={inputStyle} /></div>
               <div><label style={labelStyle}>Assurance / an</label><input type="text" inputMode="decimal" value={assurTherm} onChange={(e) => setAssurTherm(safeParseNumber(e.target.value, assurTherm))} step={50} style={inputStyle} /></div>
@@ -175,7 +176,7 @@ export default function ComparateurElecThermique() {
                 </tr>
               </thead>
               <tbody>
-                <tr><td>Achat (après aides)</td><td>{euro(calc.elec.achat)}</td><td>{euro(calc.therm.achat)}</td><td>{euro(calc.elec.achat - calc.therm.achat)}</td></tr>
+                <tr><td>Achat (prime CEE déduite)</td><td>{euro(calc.elec.achat)}</td><td>{euro(calc.therm.achat)}</td><td>{euro(calc.elec.achat - calc.therm.achat)}</td></tr>
                 <tr><td>Énergie ({duree} ans)</td><td>{euro(calc.elec.energie)}</td><td>{euro(calc.therm.energie)}</td><td style={{ color: "var(--accent-deep)" }}>{euro(calc.elec.energie - calc.therm.energie)}</td></tr>
                 <tr><td>Assurance ({duree} ans)</td><td>{euro(calc.elec.assur)}</td><td>{euro(calc.therm.assur)}</td><td>{euro(calc.elec.assur - calc.therm.assur)}</td></tr>
                 <tr><td>Entretien ({duree} ans)</td><td>{euro(calc.elec.entretien)}</td><td>{euro(calc.therm.entretien)}</td><td style={{ color: "var(--accent-deep)" }}>{euro(calc.elec.entretien - calc.therm.entretien)}</td></tr>
@@ -218,24 +219,24 @@ export default function ComparateurElecThermique() {
         <div className="prose" style={{ marginTop: 48 }}>
           <h2>Voiture électrique vs thermique : le grand duel du coût total de possession en 2026</h2>
           <p>
-            Le débat entre voiture électrique et voiture thermique se cristallise souvent autour du prix d&apos;achat. C&apos;est le mauvais chiffre : ce qui décide, c&apos;est le coût total de possession sur la durée de détention, qui additionne l&apos;achat après aides, l&apos;énergie, l&apos;entretien, l&apos;assurance et la valeur de revente. À l&apos;usage, une électrique consomme environ quinze kWh aux 100 km, soit moins de quatre euros au tarif réglementé, contre sept à neuf euros de carburant pour une thermique équivalente ; l&apos;entretien est allégé d&apos;un tiers à la moitié, faute de vidange, de courroie et d&apos;embrayage. La revente reste le poste le plus incertain. &quot;C&apos;est trop cher&quot;, entend-on fréquemment. Mais ce raisonnement est incomplet et parfois trompeur. Le prix d&apos;achat ne représente qu&apos;une fraction du coût total de possession (TCO, Total Cost of Ownership), qui englobe l&apos;ensemble des dépenses sur toute la durée de vie du véhicule : acquisition, énergie, entretien, assurance, décote et même les éventuels avantages fiscaux. Notre comparateur ci-dessus vous permet de visualiser ces coûts en détail, mais ce guide approfondi va démystifier chaque poste de dépense et combattre les idées reçues avec des données concrètes.
+            Le débat entre voiture électrique et voiture thermique se cristallise souvent autour du prix d&apos;achat. C&apos;est le mauvais chiffre : ce qui décide, c&apos;est le coût total de possession sur la durée de détention, qui additionne l&apos;achat (déduction faite d&apos;une éventuelle prime), l&apos;énergie, l&apos;entretien, l&apos;assurance et la valeur de revente. À l&apos;usage, une électrique consomme environ quinze kWh aux 100 km, soit moins de quatre euros au tarif réglementé, contre sept à neuf euros de carburant pour une thermique équivalente ; l&apos;entretien est allégé d&apos;un tiers à la moitié, faute de vidange, de courroie et d&apos;embrayage. La revente reste le poste le plus incertain. &quot;C&apos;est trop cher&quot;, entend-on fréquemment. Mais ce raisonnement est incomplet et parfois trompeur. Le prix d&apos;achat ne représente qu&apos;une fraction du coût total de possession (TCO, Total Cost of Ownership), qui englobe l&apos;ensemble des dépenses sur toute la durée de vie du véhicule : acquisition, énergie, entretien, assurance, décote et même les éventuels avantages fiscaux. Notre comparateur ci-dessus vous permet de visualiser ces coûts en détail, mais ce guide approfondi va démystifier chaque poste de dépense et combattre les idées reçues avec des données concrètes.
           </p>
 
           <h2>Mythe n°1 : &quot;L&apos;électrique coute beaucoup plus cher a l&apos;achat&quot;</h2>
           <p>
-            <strong>Verdict : De moins en moins vrai.</strong> En 2020, l&apos;écart de prix entre un VE et son équivalent thermique était en moyenne de 10 000 a 15 000 euros. En 2026, cet écart s&apos;est considérablement réduit grâce à la baisse du coût des batteries (qui est passé de 150 euros/kWh en 2020 a environ 100 euros/kWh en 2026), a l&apos;arrivée de modèles d&apos;entrée de gamme abordables, et aux aides a l&apos;achat.
+            <strong>Verdict : De moins en moins vrai.</strong> En 2020, l&apos;écart de prix entre un VE et son équivalent thermique était en moyenne de 10 000 a 15 000 euros. En 2026, cet écart s&apos;est considérablement réduit grâce à la baisse du coût des batteries (qui est passé de 150 euros/kWh en 2020 a environ 100 euros/kWh en 2026), et à l&apos;arrivée de modèles d&apos;entrée de gamme abordables. Le bonus écologique a laissé place le {COUP_DE_POUCE.depuis} à la prime coup de pouce CEE, dont le montant dépend de l&apos;offre retenue : les écarts ci-dessous sont donc donnés au prix catalogue, avant toute prime.
           </p>
           <p>
             Prenons des exemples concrets de paires comparables en 2026 :
           </p>
           <ul>
-            <li><strong>Citroen C3 thermique (17 400 euros) vs Citroen e-C3 (23 300 euros) :</strong> écart de 5 900 euros avant bonus. Après bonus écologique de 4 000 euros : écart de seulement <strong>1 900 euros</strong>.</li>
-            <li><strong>Renault Clio TCe (19 500 euros) vs Renault 5 E-Tech (25 000 euros) :</strong> écart de 5 500 euros avant bonus. Après bonus : <strong>1 500 euros d&apos;écart</strong>.</li>
-            <li><strong>Peugeot 308 PureTech (28 500 euros) vs Peugeot e-308 (37 000 euros) :</strong> écart de 8 500 euros. Après bonus : <strong>4 500 euros</strong>. L&apos;écart reste significatif dans les segments supérieurs.</li>
-            <li><strong>Volkswagen Golf 1.5 TSI (30 000 euros) vs Volkswagen ID.3 (35 000 euros) :</strong> écart de 5 000 euros. Après bonus : <strong>1 000 euros</strong>.</li>
+            <li><strong>Citroen C3 thermique (17 400 euros) vs Citroen e-C3 (23 300 euros) :</strong> écart de <strong>5 900 euros</strong>.</li>
+            <li><strong>Renault Clio TCe (19 500 euros) vs Renault 5 E-Tech (25 000 euros) :</strong> écart de <strong>5 500 euros</strong>.</li>
+            <li><strong>Peugeot 308 PureTech (28 500 euros) vs Peugeot e-308 (37 000 euros) :</strong> écart de <strong>8 500 euros</strong>. L&apos;écart reste significatif dans les segments supérieurs.</li>
+            <li><strong>Volkswagen Golf 1.5 TSI (30 000 euros) vs Volkswagen ID.3 (35 000 euros) :</strong> écart de <strong>5 000 euros</strong>.</li>
           </ul>
           <p>
-            Le point de bascule est clair : dans les segments des citadines et compactes, l&apos;écart de prix après aides est devenu marginal. Il sera comblé par les économies d&apos;usage des la première ou deuxième année.
+            Dans les segments des citadines et compactes, l&apos;écart à l&apos;achat se chiffre en quelques milliers d&apos;euros, que la prime CEE réduit selon l&apos;offre obtenue et que les économies d&apos;usage (énergie, entretien) comblent ensuite en quelques années selon le kilométrage.
           </p>
 
           <h2>Mythe n°2 : &quot;L&apos;électricité coute presque autant que l&apos;essence&quot;</h2>
@@ -368,7 +369,7 @@ export default function ComparateurElecThermique() {
           </p>
           <ul>
             <li><strong>Prix d&apos;achat :</strong> prix catalogue du véhicule neuf (hors options).</li>
-            <li><strong>Bonus écologique :</strong> 4 000 euros par défaut (barème standard 2026). Modifiable selon votre éligibilité et vos revenus.</li>
+            <li><strong>Prime coup de pouce CEE :</strong> 0 euro par défaut, car son montant n&apos;est pas fixé par la réglementation (il dépend de l&apos;entreprise qui la verse et de vos revenus). Saisissez le montant de l&apos;offre que vous avez obtenue.</li>
             <li><strong>Consommation électrique :</strong> 15 kWh/100 km par défaut (moyenne du marché). Ajustez selon le véhicule considéré.</li>
             <li><strong>Prix de l&apos;électricité :</strong> 0,20 euro/kWh par défaut (tarif mixte domicile HC + bornes publiques). Ajustez selon vos habitudes de recharge.</li>
             <li><strong>Prix du carburant :</strong> 1,75 euro/L par défaut (prix moyen de l&apos;essence en France en 2026).</li>
