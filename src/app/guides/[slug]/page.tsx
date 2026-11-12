@@ -113,7 +113,7 @@ export default async function PageGuide({ params }: Props) {
               lineHeight: 1.5,
             }}
           >
-            {page.metaDescription}
+            {page.intro ?? page.metaDescription}
           </p>
         </header>
 
@@ -262,7 +262,7 @@ export default async function PageGuide({ params }: Props) {
             </li>
           </ul>
         </div>
-        <FaqSection items={page.faq} />
+        <FaqSection items={page.faq} titre={page.faqTitre} />
       </article>
     </>
   );

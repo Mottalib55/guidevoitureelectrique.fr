@@ -63,7 +63,7 @@ export default function PageMarquesChinoises() {
             Voitures électriques chinoises en France
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 700, lineHeight: 1.5 }}>
-            Guide complet des constructeurs chinois de véhicules électriques disponibles
+            Guide complet des constructeurs chinois de voitures électriques disponibles
             sur le marché français : BYD, MG, Leapmotor, Xpeng, Zeekr. Prix, qualité,
             fiabilité et éligibilité à la prime coup de pouce CEE.
           </p>

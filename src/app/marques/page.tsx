@@ -39,8 +39,8 @@ export default function MarquesIndexPage() {
           Toutes les marques électriques ({marques.length})
         </h1>
         <p className="section-sub">
-          {marques.length} constructeurs référencés avec leurs modèles
-          électriques disponibles en France.
+          {marques.length} marques de voitures électriques référencées avec leurs
+          modèles disponibles en France.
         </p>
 
         {origines.map((origine) => {

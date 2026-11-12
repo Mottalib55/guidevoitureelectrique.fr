@@ -27,7 +27,7 @@ export default function AcheterIndexPage() {
           Acheter une voiture électrique ({pagesAcheter.length} guides)
         </h1>
         <p className="section-sub">
-          Guides complets pour réussir votre achat : financement, aides,
+          Guides complets pour réussir votre achat de voiture électrique : financement, aides,
           assurance, occasion et bonnes pratiques.
         </p>
 

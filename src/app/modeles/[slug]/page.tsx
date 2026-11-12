@@ -208,7 +208,7 @@ export default async function PageModele({ params }: Props) {
               lineHeight: 1.5,
             }}
           >
-            À partir de <strong>{euro(m.prixBase)}</strong>, {m.autonomieReelle} km
+            {m.modele} : à partir de <strong>{euro(m.prixBase)}</strong>, {m.autonomieReelle} km
             d&apos;autonomie réelle, batterie {dec(m.batterieKwh)} kWh, note{" "}
             <strong>{m.note}/10</strong>
           </p>

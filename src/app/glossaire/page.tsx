@@ -82,7 +82,7 @@ export default function GlossairePage() {
             Glossaire de la voiture électrique
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
-            {glossaire.length} termes essentiels pour comprendre la mobilité électrique,
+            {glossaire.length} termes essentiels pour comprendre la voiture électrique,
             les aides à l&apos;achat, la recharge et les technologies de batterie.
           </p>
           {/* Signature sous le titre : au-dessus, elle laissait 170 px de blanc (RECETTE §10.3). */}
@@ -113,7 +113,7 @@ export default function GlossairePage() {
             charge acceptée, en kilowatts, décide enfin du temps passé sur une aire
             d&apos;autoroute, et elle est toujours annoncée à son maximum, jamais en moyenne.
           </p>
-          <h2>Ce que le vocabulaire commercial ne dit pas</h2>
+          <h2>Ce que le vocabulaire commercial de la voiture électrique ne dit pas</h2>
           <p>
             La prime coup de pouce CEE, comme le leasing social, dépend d&apos;un score environnemental qui tient compte
             du lieu d&apos;assemblage et de l&apos;empreinte de la production de la batterie : un

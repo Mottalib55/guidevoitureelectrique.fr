@@ -142,8 +142,8 @@ export default function SimulateurCoutRecharge() {
             Combien coûte la recharge d&apos;une voiture électrique ?
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
-            Répondez à 3 questions et découvrez votre budget recharge mensuel
-            comparé à l&apos;essence.
+            Répondez à 3 questions et découvrez le coût de recharge mensuel de votre
+            voiture électrique, comparé à l&apos;essence.
           </p>
         </header>
 

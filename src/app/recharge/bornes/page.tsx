@@ -258,7 +258,7 @@ export default function BornesIndexPage() {
           </div>
         </div>
       </section>
-      <FaqSection items={faqParPage["/recharge/bornes/"]} />
+      <FaqSection items={faqParPage["/recharge/bornes/"]} titre="Questions fréquentes sur les bornes de recharge par ville" />
     </>
   );
 }

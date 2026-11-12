@@ -29,6 +29,23 @@ export default async function PageRecharge({ params }: Props) {
   const page = getPageRechargeBySlug(slug);
   if (!page) notFound();
 
+  const renderContenu = (contenu: string) => {
+    const blocks = contenu.split("\n\n");
+    return blocks.map((block, i) => {
+      const trimmed = block.trim();
+      if (!trimmed) return null;
+      if (trimmed.startsWith("<")) {
+        return (
+          <div
+            key={i}
+            dangerouslySetInnerHTML={{ __html: trimmed }}
+          />
+        );
+      }
+      return <p key={i}>{trimmed}</p>;
+    });
+  };
+
   return (
     <>
       <Breadcrumb
@@ -51,13 +68,14 @@ export default async function PageRecharge({ params }: Props) {
           >
             {page.h1}
           </h1>
+          <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
+            {page.intro ?? page.metaDescription}
+          </p>
         </header>
 
         {/* Contenu rédactionnel */}
         <div className="prose">
-          {page.contenu.split("\n\n").map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
+          {renderContenu(page.contenu)}
         </div>
 
         {/* CTA */}
@@ -84,7 +102,7 @@ export default async function PageRecharge({ params }: Props) {
             <li>Données constructeurs : Spécifications de recharge par modèle</li>
           </ul>
         </div>
-        <FaqSection items={page.faq} />
+        <FaqSection items={page.faq} titre={page.faqTitre} />
       </article>
     </>
   );

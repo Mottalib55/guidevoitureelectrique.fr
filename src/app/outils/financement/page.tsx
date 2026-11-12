@@ -37,7 +37,7 @@ export default function PageFinancement() {
             Calculateur de financement voiture électrique
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
-            Sélectionnez votre modèle et comparez instantanément comptant, crédit, LOA et LLD.
+            Sélectionnez votre voiture électrique et comparez instantanément comptant, crédit, LOA et LLD.
             Tous les calculs utilisent les données du marché français 2026.
           </p>
         </header>

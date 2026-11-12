@@ -153,7 +153,7 @@ export default async function PageMarque({ params }: Props) {
               lineHeight: 1.5,
             }}
           >
-            {modelesMarque.length} modèle{modelesMarque.length > 1 ? "s" : ""}{" "}
+            {marque.nom} : {modelesMarque.length} modèle{modelesMarque.length > 1 ? "s" : ""}{" "}
             électrique{modelesMarque.length > 1 ? "s" : ""} référencé
             {modelesMarque.length > 1 ? "s" : ""}, à partir de{" "}
             {euro(Math.min(...modelesMarque.map((m) => m.prixBase)))}

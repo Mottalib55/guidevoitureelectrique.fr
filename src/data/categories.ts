@@ -12,6 +12,8 @@ export interface Categorie {
   filtreCustom?: (m: import("./modeles").Modele) => boolean;
   contenu: string; // contenu rédactionnel
   faq?: { question: string; answer: string }[];
+  /** Titre du bloc FAQ quand il doit porter le terme-clé de la page (MASTERFACTORY §13). */
+  faqTitre?: string;
 }
 
 export const categories: Categorie[] = [
@@ -103,7 +105,7 @@ export const categories: Categorie[] = [
     titreSeo: "Petite voiture électrique 2026 : citadines, prix, autonomie",
     titre: "Petite voiture électrique",
     h1: "Les meilleures petites voitures électriques en 2026",
-    description: "Comparatif des citadines et mini-citadines électriques. Compactes, agiles, idéales pour la ville.",
+    description: "Comparatif des petites voitures électriques, citadines et mini-citadines. Compactes, agiles, idéales pour la ville.",
     metaDescription: "Petite voiture électrique : les meilleures citadines compactes en 2026. Comparatif prix, autonomie, consommation et facilité de stationnement en ville.",
     tag: "petite-voiture",
     contenu: `<h2>Introduction : pourquoi choisir une petite voiture électrique en 2026 ?</h2>
@@ -438,7 +440,7 @@ export const categories: Categorie[] = [
     titreSeo: "Voiture électrique familiale 2026 : 5 places, coffre et prix",
     titre: "Voiture électrique familiale",
     h1: "Les meilleures voitures électriques familiales en 2026",
-    description: "SUV et berlines électriques familiaux : grands coffres, 5-7 places, grande autonomie. Comparatif complet.",
+    description: "Voiture électrique familiale : SUV et berlines aux grands coffres, 5-7 places, grande autonomie. Comparatif complet.",
     metaDescription: "Voiture électrique familiale : meilleurs SUV et berlines 5-7 places. Grand coffre, 400+ km d'autonomie réelle, prix. Comparatif des modèles familiaux 2026.",
     tag: "familiale",
     contenu: `<h2>Introduction : l'électrique est-il fait pour les familles ?</h2>
@@ -524,7 +526,7 @@ export const categories: Categorie[] = [
     titreSeo: "Voiture électrique grande autonomie 2026 : le classement",
     titre: "Voiture électrique grande autonomie",
     h1: "Voitures électriques grande autonomie (+500 km) en 2026",
-    description: "Les véhicules électriques offrant plus de 500 km d'autonomie WLTP. Comparatif des champions de l'endurance.",
+    description: "Les voitures électriques grande autonomie, offrant plus de 500 km d'autonomie WLTP. Comparatif des champions de l'endurance.",
     metaDescription: "Voiture électrique grande autonomie : les modèles à 500+ km WLTP. Classement par autonomie réelle, efficience en kWh/100 km et vitesse de recharge rapide.",
     tag: "grande-autonomie",
     contenu: `<h2>Introduction : l'autonomie, critère décisif de l'achat électrique</h2>
@@ -627,6 +629,7 @@ export const categories: Categorie[] = [
 <p>Les <strong>batteries sodium-ion</strong>, moins denses en énergie que les lithium-ion mais nettement moins coûteuses et fabriquées à partir de matériaux abondants, devraient apparaître dans les véhicules d'entrée de gamme dès 2026. CATL et BYD développent des cellules sodium-ion offrant 160 Wh/kg, ce qui permettrait d'atteindre 400 km d'autonomie dans un véhicule compact à un coût de batterie réduit de 30 %.</p>
 <p>L'amélioration continue de l'<strong>aérodynamisme</strong>, avec des véhicules atteignant des Cx de 0,18 voire moins grâce aux rétroviseurs caméra, aux carénages actifs et aux formes de carrosserie optimisées par intelligence artificielle, contribuera également à augmenter l'autonomie sans augmenter la capacité de la batterie.</p>
 <p>En conclusion, le choix d'un véhicule électrique à grande autonomie en 2026 est un investissement dans la liberté de mouvement. Que vous soyez un grand rouleur professionnel, un voyageur régulier ou simplement un conducteur qui refuse de se soucier de son niveau de batterie, l'offre actuelle est suffisamment riche pour trouver le modèle qui combine l'autonomie nécessaire, l'efficience optimale et la vitesse de recharge adaptée à vos besoins. Les modèles offrant plus de 600 km WLTP rendent les trajets longue distance aussi simples et confortables qu'en véhicule thermique, avec des coûts de fonctionnement nettement inférieurs et une expérience de conduite supérieure.</p>`,
+    faqTitre: "Questions fréquentes sur les voitures électriques grande autonomie",
     faq: [
       { question: "Que faut-il savoir sur l'autonomie, critère décisif de l'achat électrique ?", answer: "L'autonomie est, étude après étude, le critère numéro un cité par les acheteurs potentiels de voitures électriques. Et cette préoccupation est légitime : contrairement à un véhicule thermique qui se ravitaille en cinq minutes dans n'importe quelle station-service, un véhicule électrique nécessite une planification minimale de la recharge, surtout lors des trajets longue distance." },
       { question: "Que faut-il savoir sur wLTP vs réalité ?", answer: "Avant de comparer les modèles, il est indispensable de comprendre ce que signifie réellement l'autonomie annoncée et pourquoi l'autonomie réelle diffère souvent significativement des chiffres officiels. Le cycle WLTP (Worldwide Harmonized Light Vehicles Test Procédure) est le protocole de test normalisé utilisé en Europe depuis 2018 pour mesurer la consommation et l'autonomie des véhicules." },
@@ -838,7 +841,7 @@ export const categories: Categorie[] = [
     titreSeo: "Voiture électrique fabriquée en France 2026 : les modèles",
     titre: "VE fabriquées en France",
     h1: "Voitures électriques fabriquées en France : guide complet des modèles produits sur le territoire",
-    description: "Guide des véhicules électriques fabriqués en France : usines, modèles, emplois et enjeux industriels.",
+    description: "Guide des voitures électriques fabriquées en France : usines, modèles, emplois et enjeux industriels.",
     metaDescription: "Voiture électrique fabriquée en France : tous les modèles produits en France, usines (Douai, Sochaux), emplois et gigafactories. Renault, Stellantis, Toyota.",
     tag: "made-in-france",
     contenu: `<h2>Introduction : l'industrie automobile française à l'heure de l'électrique</h2>
@@ -894,6 +897,7 @@ export const categories: Categorie[] = [
 
 <h2>Conclusion : la France, acteur majeur de l'électromobilité européenne</h2>
 <p>La production de véhicules électriques en France est une réalité industrielle en pleine expansion. Avec Renault et Stellantis qui accélèrent l'électrification de leurs gammes, Toyota qui investit dans la transformation de son usine du Nord, et les gigafactories de batteries qui sortent de terre dans les Hauts-de-France, la France se positionne comme un acteur central de l'électromobilité européenne. Les défis sont réels, compétitivité, compétences, approvisionnement, mais les atouts sont considérables : un mix électrique décarboné, un tissu industriel dense, des compétences d'ingénierie reconnues et un marché domestique dynamique. Choisir un véhicule électrique fabriqué en France, c'est soutenir l'emploi industriel local, ouvrir droit à la prime coup de pouce CEE et contribuer à la réduction de l'empreinte carbone de la mobilité. En 2026, l'offre de véhicules électriques made in France est suffisamment riche et diversifiée pour répondre aux besoins de la grande majorité des conducteurs français.</p>`,
+    faqTitre: "Questions fréquentes sur les voitures électriques fabriquées en France",
     faq: [
       { question: "Que faut-il savoir sur l'industrie automobile française à l'heure de l'électrique ?", answer: "La France est le deuxième marché automobile européen et dispose d'un tissu industriel riche avec de nombreuses usines d'assemblage et d'équipementiers répartis sur l'ensemble du territoire. La transition vers la mobilité électrique représente un défi et une opportunité considérables pour cette industrie qui emploie directement et indirectement plus de 400 000 personnes en France." },
       { question: "Comment fonctionne le fer de lance de l'électrique français ?", answer: "Renault est le constructeur français le plus engagé dans la mobilité électrique, avec une stratégie claire et des investissements massifs dans la production sur le territoire national. Le groupe a créé Ampere, une entité dédiée aux véhicules électriques et aux logiciels, qui regroupe les activités de développement et de production des modèles 100 % électriques." },

@@ -316,7 +316,7 @@ export default async function PageAcheter({ params }: Props) {
             </li>
           </ul>
         </div>
-        <FaqSection items={page.faq} />
+        <FaqSection items={page.faq} titre={page.faqTitre} />
       </article>
     </>
   );

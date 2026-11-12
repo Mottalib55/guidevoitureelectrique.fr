@@ -80,7 +80,7 @@ export default function ComparateurModeles() {
             Comparateur de modèles électriques
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
-            Mettez jusqu&apos;à 3 modèles côte à côte : prix, autonomie, recharge, coût
+            Mettez jusqu&apos;à 3 voitures électriques côte à côte : prix, autonomie, recharge, coût
             d&apos;usage et note.
           </p>
         </header>

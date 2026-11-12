@@ -25,8 +25,8 @@ export default function ModèlesIndexPage() {
           Tous les modèles électriques ({modeles.length})
         </h1>
         <p className="section-sub">
-          Fiches complètes avec prix, autonomie réelle, recharge et calculateur
-          de financement intégré.
+          Fiches complètes de toutes les voitures électriques : prix, autonomie réelle,
+          recharge et calculateur de financement intégré.
         </p>
 
         <ModelesFiltres modeles={modeles} />

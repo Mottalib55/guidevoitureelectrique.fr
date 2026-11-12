@@ -36,6 +36,23 @@ export default async function PageCategorie({ params }: Props) {
     ? modeles.filter(cat.filtreCustom)
     : getModelesByTag(cat.tag);
 
+  const renderContenu = (contenu: string) => {
+    const blocks = contenu.split("\n\n");
+    return blocks.map((block, i) => {
+      const trimmed = block.trim();
+      if (!trimmed) return null;
+      if (trimmed.startsWith("<")) {
+        return (
+          <div
+            key={i}
+            dangerouslySetInnerHTML={{ __html: trimmed }}
+          />
+        );
+      }
+      return <p key={i}>{trimmed}</p>;
+    });
+  };
+
   return (
     <>
       <Breadcrumb
@@ -116,9 +133,7 @@ export default async function PageCategorie({ params }: Props) {
 
         {/* Contenu rédactionnel */}
         <div className="prose">
-          {cat.contenu.split("\n\n").map((p, i) => (
-            <p key={i}>{p}</p>
-          ))}
+          {renderContenu(cat.contenu)}
         </div>
 
         {/* CTA */}
@@ -143,7 +158,7 @@ export default async function PageCategorie({ params }: Props) {
             <li>Données constructeurs : Fiches techniques officielles, prix catalogue et configurateurs</li>
           </ul>
         </div>
-        <FaqSection items={cat.faq} />
+        <FaqSection items={cat.faq} titre={cat.faqTitre} />
       </article>
     </>
   );

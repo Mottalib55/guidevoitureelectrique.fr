@@ -24,8 +24,8 @@ export default function ComparatifsIndexPage() {
       <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">Comparatifs voitures électriques</h1>
         <p className="section-sub">
-          Comparez n&apos;importe quels modèles ou consultez nos{" "}
-          {comparatifs.length} duels détaillés.
+          Comparez n&apos;importe quelles voitures électriques ou consultez nos{" "}
+          {comparatifs.length} comparatifs détaillés.
         </p>
 
         {/* Comparateur interactif */}

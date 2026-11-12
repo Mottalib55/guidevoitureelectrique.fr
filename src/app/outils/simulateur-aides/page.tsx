@@ -100,7 +100,7 @@ export default function SimulateurAides() {
             Simulateur d&apos;aides voiture électrique
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
-            Vérifiez à quelles aides vous avez droit en 2026 : prime « coup de pouce » CEE
+            Vérifiez à quelles aides vous avez droit en 2026 pour une voiture électrique : prime « coup de pouce » CEE
             (qui remplace le bonus écologique) et leasing social.
           </p>
         </header>

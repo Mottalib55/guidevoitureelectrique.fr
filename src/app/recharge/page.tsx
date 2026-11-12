@@ -31,7 +31,7 @@ export default function RechargeIndexPage() {
       <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">Recharge voiture électrique</h1>
         <p className="section-sub">
-          Guides complets sur la recharge et annuaire des bornes dans{" "}
+          Guides complets sur la recharge de voiture électrique et annuaire des bornes dans{" "}
           {villes.length} villes de France.
         </p>
 

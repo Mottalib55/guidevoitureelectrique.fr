@@ -9,6 +9,8 @@ export interface PageAcheter {
   metaDescription: string;
   contenu: string; // long editorial content
   faq?: { question: string; answer: string }[];
+  /** Titre du bloc FAQ quand il doit porter le terme-clé de la page (MASTERFACTORY §13). */
+  faqTitre?: string;
 }
 
 export const pagesAcheter: PageAcheter[] = [
@@ -144,6 +146,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>La <strong>MG4</strong> (27 990 euros) offre des prestations de segment supérieur à un prix imbattable. Attention toutefois : son assemblage chinois la rend non éligible à la prime coup de pouce CEE, ce qui réduit son avantage prix face à un modèle concurrent qui y ouvre droit.</p>
 
 <p>Consultez notre classement complet des meilleures voitures électriques 2026 pour des fiches détaillées de chaque modèle et notre outil de comparaison interactif.</p>`,
+    faqTitre: "Questions fréquentes sur l'achat d'une voiture électrique",
     faq: [
       { question: "Que faut-il savoir sur définir ses besoins ?", answer: "Avant de comparer les fiches techniques et les prix, prenez le temps de répondre honnêtement à cinq questions fondamentales qui détermineront le véhicule idéal pour votre situation. Si vous parcourez moins de 15 000 km par an (la moyenne française est de 12 200 km selon le ministère de la Transition écologique), la quasi-totalité des modèles électriques actuels conviendront parfaitement." },
       { question: "Que faut-il savoir sur raisonner en coût total de possession ?", answer: "Le prix catalogue d'une voiture électrique reste supérieur à celui d'un modèle thermique équivalent, mais l'écart se réduit chaque année et les aides le compensent souvent intégralement pour les ménages modestes. Micro-citadines et quadricycles (moins de 20 000 euros) : Citroën Ami (7 990 euros), Dacia Spring (18 900 euros), Leapmotor T03 (18 900 euros)." },
@@ -305,6 +308,7 @@ export const pagesAcheter: PageAcheter[] = [
 <h2>Conclusion : un calcul qui tourne à l'avantage de l'électrique</h2>
 
 <p>En 2026, le TCO d'une voiture électrique est inférieur à celui d'un véhicule thermique équivalent dans la grande majorité des scénarios d'utilisation. L'écart se creuse avec le kilométrage : plus vous roulez, plus l'électrique est économique. Pour un conducteur moyen parcourant 12 000 à 15 000 km par an avec une recharge à domicile, l'économie cumulée sur 4 ans se situe entre 4 000 et 7 000 euros par rapport à un thermique équivalent. Cette économie augmente chaque année avec la hausse tendancielle des prix du carburant et la baisse des prix des véhicules électriques neufs et de l'électricité en heures creuses. Le passage à l'électrique n'est plus seulement un choix écologique : c'est devenu un choix financièrement rationnel pour la majorité des automobilistes français.</p>`,
+    faqTitre: "Questions fréquentes sur le prix d'une voiture électrique",
     faq: [
       { question: "En quoi consistent les prix du marché en 2026 ?", answer: "Le marché de la voiture électrique en France s'étend aujourd'hui de 7 990 euros (Citroën Ami, quadricycle sans permis) à plus de 100 000 euros (Tesla Model S, Porsche Taycan, Mercedes EQS). Les segments les plus dynamiques se concentrent entre 20 000 et 45 000 euros, où se trouvent les modèles les plus populaires et les plus vendus." },
       { question: "Comment fonctionne le coût de l'énergie ?", answer: "Le poste énergie est celui où la voiture électrique creuse l'écart le plus significatif avec le thermique. C'est aussi le poste qui rend le calcul de TCO si favorable au VE, car l'économie est récurrente et s'accumule année après année. En recharge domestique au tarif réglementé EDF en heures creuses (environ 0,18 à 0,20 euro/kWh en 2026), un véhicule consommant 15 kWh/100 km coûte seulement 2,70 à 3,00 euros pour 100 km parcourus." },
@@ -391,6 +395,7 @@ export const pagesAcheter: PageAcheter[] = [
 </ul>
 
 <p>Sources : service-public.gouv.fr, fiches F39188 (prime coup de pouce, vérifiée le 9 octobre 2026), F39280 (leasing social 2026, vérifiée le 31 juillet 2026) et F35578 (crédit d'impôt borne, vérifiée le 15 avril 2026) ; economie.gouv.fr (prime à la conversion).</p>`,
+    faqTitre: "Questions fréquentes sur les aides voiture électrique",
     faq: [
       { question: "Le bonus écologique existe-t-il encore en 2026 ?", answer: `Non. Depuis le ${COUP_DE_POUCE.depuis}, il est remplacé par la prime coup de pouce Véhicules particuliers électriques, financée par les certificats d'économies d'énergie. Elle concerne les voitures neuves 100 % électriques d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC ayant un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points. Son montant n'est pas fixé par l'État : il dépend de l'offre de l'entreprise qui la verse.` },
       { question: "Combien coûte le leasing social en 2026 ?", answer: `Le loyer est de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, hors assurance et options, sans apport, sur au moins ${LEASING_SOCIAL.dureeMinAns} ans. Chaque professionnel doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} ou moins. Il faut un revenu fiscal de référence par part d'au plus ${eur(LEASING_SOCIAL.rfrParPartMax)} et un trajet domicile-travail de plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km, ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour le travail.` },
@@ -596,6 +601,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Pour les entreprises, la voiture électrique en leasing cumule les avantages fiscaux : déductibilité intégrale des loyers (pas de plafond d'amortissement comme pour l'achat), exonération de TVS (Taxe sur les Véhicules de Société) qui peut représenter 1 000 à 4 000 euros par an et par véhicule thermique, avantage en nature réduit pour le salarié (abattement de 50 % sur la valeur de l'avantage en nature, plafonnée à 1 800 euros par an, et la recharge est exclue de l'assiette).</p>
 
 <p>Les entreprises bénéficient également de conditions de leasing plus avantageuses que les particuliers grâce aux volumes négociés et à la TVA récupérable sur les loyers. Un gestionnaire de flotte avisé peut économiser 200 à 400 euros par mois et par véhicule en passant d'une flotte thermique en achat à une flotte électrique en LLD.</p>`,
+    faqTitre: "Questions fréquentes sur la LOA et la LLD voiture électrique",
     faq: [
       { question: "Comment fonctionne la location avec option d'achat, le leasing préféré des Français ?", answer: "La LOA (location avec option d'achat), aussi appelée leasing avec option d'achat, est un contrat de location d'une durée de 24 à 60 mois avec la possibilité d'acquérir le véhicule en fin de contrat en payant la valeur résiduelle (VR). C'est la formule la plus populaire auprès des particuliers car elle combine la flexibilité d'une location avec la liberté de devenir propriétaire." },
       { question: "Comment fonctionne la location longue durée, la simplicité absolue ?", answer: "La LLD (location longue durée) est un contrat de location pure, sans option d'achat. Vous louez le véhicule pour une durée (24 à 60 mois) et un kilométrage définis, et vous le restituez en fin de contrat. Point final. L'atout majeur de la LLD est l'inclusion de services dans la mensualité, transformant le véhicule en un « budget tout compris » prévisible : Entretien constructeur : toutes les révisions et les pièces d'usure (hors pneus le plus souvent) sont prises en charge pendant la durée du contrat." },
@@ -948,6 +954,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Le thermique reste pertinent dans des cas de plus en plus spécifiques : très gros rouleurs professionnels (plus de 60 000 km/an) sans accès à la recharge, résidence en zone rurale très isolée sans borne publique à moins de 30 km, budget d'achat extrêmement contraint (moins de 10 000 euros) sans éligibilité aux aides, besoin de tracter régulièrement des charges lourdes sur de longues distances, ou passion assumée pour la mécanique thermique (un choix émotionnel, pas rationnel).</p>
 
 <p>La question n'est plus vraiment « faut-il passer à l'électrique ? » mais « quand est le meilleur moment pour passer à l'électrique ? ». Et la réponse, pour la plupart des profils, est : maintenant. Les aides sont généreuses, les modèles sont matures, le réseau de recharge est suffisant, et les prix ne feront que baisser dans les années à venir. Attendre, c'est continuer à payer plus cher en carburant, en entretien et en fiscalité chaque mois qui passe.</p>`,
+    faqTitre: "Questions fréquentes : voiture électrique vs thermique",
     faq: [
       { question: "Comment fonctionne le prix d'achat ?", answer: "À modèle et finition équivalents, une voiture électrique coûte encore 3 000 à 12 000 euros de plus qu'une version thermique en 2026. L'écart varie considérablement selon le segment : La Citroën C3 PureTech 83 démarre à 17 490 euros ; la Citroën e-C3 est à 23 300 euros." },
       { question: "Comment fonctionne le coût d'usage ?", answer: "C'est sur le coût d'usage au quotidien que l'électrique renverse le rapport de force. L'avantage est structurel, récurrent et s'accumule année après année. Voici la comparaison détaillée pour un conducteur parcourant 15 000 km par an. Un véhicule électrique consommant 15 kWh/100 km rechargé à domicile en heures creuses (0,18 à 0,20 euro/kWh) coûte 405 à 450 euros par an en énergie." },
@@ -1379,6 +1386,7 @@ export const pagesAcheter: PageAcheter[] = [
 <li><strong>BMW/Mercedes</strong> : véhicule de remplacement de gamme équivalente dans le réseau Premium, un service apprécié par les clients de ces marques.</li>
 </ul>
 <p>En cas de réparation prolongée (plus de 15 jours, fréquent pour les problèmes de batterie nécessitant une expertise approfondie), insistez pour obtenir un véhicule de remplacement à titre gracieux. La plupart des constructeurs y consentent pour préserver la relation client, même si ce n'est pas contractuellement obligatoire.</p>`,
+    faqTitre: "Questions fréquentes sur la garantie voiture électrique",
     faq: [
       { question: "Comment fonctionne la garantie constructeur ?", answer: "La garantie d'une voiture électrique se décompose en deux éléments fondamentaux qui obéissent à des durées et des conditions différentes : la garantie véhicule (carrosserie, châssis, électronique, habitacle) et la garantie batterie de traction (le composant le plus coûteux, représentant 30 à 40 % du prix du véhicule)." },
       { question: "Que faut-il savoir sur garantie véhicule par marque ?", answer: "Tesla : 4 ans ou 80 000 km (ce qui survient en premier). Couvre tous les défauts de matériaux et de fabrication. Les pièces d'usure (plaquettes, essuie-glaces, pneus) sont exclues. La peinture est garantie séparément : 4 ans anticorrosion, mais seulement 1 an pour les défauts de peinture cosmétiques, un point souvent critiqué par les propriétaires." },

@@ -106,7 +106,7 @@ export default function ComparateurElecThermique() {
             Comparateur électrique vs thermique
           </h1>
           <p style={{ fontSize: 16, color: "var(--muted)", maxWidth: 640, lineHeight: 1.5 }}>
-            Comparez le coût total de possession (TCO) sur {duree} ans : achat, énergie,
+            Comparez le coût total de possession (TCO) d&apos;une électrique et d&apos;une thermique sur {duree} ans : achat, énergie,
             entretien, assurance et décote.
           </p>
         </header>

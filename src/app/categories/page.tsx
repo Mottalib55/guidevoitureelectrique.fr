@@ -23,7 +23,7 @@ export default function CategoriesIndexPage() {
       <Breadcrumb items={[{ name: "Catégories", href: "/categories/" }]} />
       <section className="section" style={{ paddingTop: 24, paddingBottom: 48 }}>
         <h1 className="section-title">
-          Explorer par catégorie ({categories.length})
+          Voitures électriques par catégorie ({categories.length})
         </h1>
         <p className="section-sub">
           Trouvez la voiture électrique adaptée à votre usage et votre budget.

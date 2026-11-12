@@ -48,7 +48,7 @@ export default function HomePage() {
           Le guide de référence de la voiture électrique en France
         </h1>
         <p className="hero-sub">
-          Comparez prix, autonomie réelle, recharge et coût de possession.
+          Voiture électrique : comparez prix, autonomie réelle, recharge et coût de possession.
           Calculez votre financement LOA/LLD. Trouvez le modèle qu&apos;il vous
           faut.
         </p>
