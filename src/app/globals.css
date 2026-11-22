@@ -326,9 +326,14 @@ body {
   padding: 0 24px;
 }
 
-/* Page de lecture (texte seul) : la colonne de 780 px est centrée, titre compris (check-layout). */
+/* Page de lecture (texte seul : méthodologie, pages légales, glossaire, listes) : la colonne
+   occupe au moins 75 % du conteneur de l'en-tête (MASTERFACTORY §10.2, check-layout point 3) ;
+   à 828 px elle laissait 780 px de texte dans 1 200. Même largeur que .section-medium. */
 .section-narrow {
-  max-width: 828px;
+  max-width: 1008px;
+}
+.section-narrow .prose {
+  max-width: none;
 }
 
 .section-medium {
