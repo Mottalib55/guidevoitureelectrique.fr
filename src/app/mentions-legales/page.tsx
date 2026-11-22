@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/mentions-legales/" },
   title: "Mentions légales du Guide Voiture Électrique : éditeur",
   description:
-    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, cookies de mesure d'audience Google Analytics et conditions générales d'utilisation du site.",
+    "Mentions légales du site Guide Voiture Électrique : éditeur, hébergeur, cookies de mesure d'audience Google Analytics et conditions d'utilisation du site.",
 };
 
 export default function MentionsLegalesPage() {

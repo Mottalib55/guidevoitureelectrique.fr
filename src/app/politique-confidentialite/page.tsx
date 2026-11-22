@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "Confidentialité du Guide Voiture Électrique : Google Analytics",
+  title: "Confidentialité du Guide Voiture Électrique : Analytics",
   description:
-    "Le Guide Voiture Électrique mesure son audience avec Google Analytics (cookies de 13 mois au plus, sans publicité) et ne garde rien de vos simulations de recharge ou d'aides.",
+    "Le Guide Voiture Électrique mesure son audience avec Google Analytics (cookies de 13 mois au plus, sans publicité) et ne garde rien de vos simulations.",
   alternates: { canonical: "/politique-confidentialite/" },
 };
 

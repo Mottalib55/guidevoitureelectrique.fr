@@ -323,11 +323,11 @@ export const pagesAcheter: PageAcheter[] = [
   // Valeurs tirées de data/aides-2026.ts (sources officielles et date de relevé).
   {
     slug: "aides-et-bonus",
-    titreSeo: "Aides voiture électrique 2026 : montants et conditions",
+    titreSeo: "Aides voiture électrique 2026 et 2027 : montants, conditions",
     titre: "Aides à l'achat voiture électrique 2026",
     h1: "Aides voiture électrique 2026 : prime CEE, leasing social et fin du bonus",
     metaDescription:
-      `Aides voiture électrique 2026 : prime coup de pouce CEE (ex-bonus), leasing social à ${LEASING_SOCIAL.loyerMaxMois} €/mois au plus, fin de la prime à la conversion. Conditions détaillées.`,
+      `Aides voiture électrique 2026 et 2027 : prime coup de pouce CEE (ex-bonus), leasing social à ${LEASING_SOCIAL.loyerMaxMois} €/mois au plus, ce qui change dès le 1er janvier 2027.`,
     contenu: `<p>Les aides à l'achat d'une voiture électrique ont profondément changé. Le bonus écologique versé par l'État n'existe plus : depuis le ${COUP_DE_POUCE.depuis}, il est remplacé par la <strong>prime « coup de pouce Véhicules particuliers électriques »</strong>, financée par les certificats d'économies d'énergie (CEE). La prime à la conversion a été supprimée le ${PRIME_CONVERSION.supprimeeLe}. Le leasing social a rouvert le ${LEASING_SOCIAL.ouverture} avec un loyer plafonné à ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois. Et le crédit d'impôt pour l'installation d'une borne ne vaut plus que pour les dépenses payées jusqu'au ${CREDIT_IMPOT_BORNE.finDepenses}. Ce guide fait le point, source officielle à l'appui, sur ce que vous pouvez réellement obtenir fin 2026.</p>
 
 <h2>La prime coup de pouce CEE : l'aide qui remplace le bonus écologique</h2>
@@ -377,6 +377,23 @@ export const pagesAcheter: PageAcheter[] = [
 
 <p>Le crédit d'impôt pour l'installation d'un système de charge (${Math.round(CREDIT_IMPOT_BORNE.taux * 100)} % des dépenses, au plus ${eur(CREDIT_IMPOT_BORNE.plafond)} par système pilotable) ne concerne plus que les dépenses payées au plus tard le ${CREDIT_IMPOT_BORNE.finDepenses}, à déclarer en 2026. Il est supprimé pour les dépenses payées à partir du 1er janvier 2026. En copropriété, le programme ADVENIR peut financer une partie de l'installation : vérifiez ses conditions en vigueur avant les travaux.</p>
 
+<h2>Aides voiture électrique 2027 : ce qui est déjà décidé</h2>
+
+<p>Rien n'annonce pour l'instant le retour d'un bonus versé par l'État en 2027. Les deux aides nationales restent la prime coup de pouce CEE et le leasing social, avec un changement déjà daté pour la première. Le projet de loi de finances pour 2027 est encore en discussion au Parlement : il peut modifier la fiscalité des voitures, et nous mettrons cette page à jour après son vote, fin décembre.</p>
+
+<table>
+<thead><tr><th>Aide</th><th>En 2026</th><th>Au 1er janvier 2027</th></tr></thead>
+<tbody>
+<tr><td>Prime coup de pouce CEE</td><td>Ouverte, montant fixé par chaque entreprise signataire</td><td>Toujours ouverte : engagement possible jusqu'au ${COUP_DE_POUCE.dateLimiteEngagement}</td></tr>
+<tr><td>Bonification « gros rouleurs » (déciles 6 à 8, plus de 12 000 km par an)</td><td>Applicable</td><td>Réservée aux achats ou locations engagés avant le 1er janvier 2027 et achevés avant le 1er juillet 2027</td></tr>
+<tr><td>Leasing social</td><td>Contrats signés depuis le ${LEASING_SOCIAL.ouverture}, ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus</td><td>Aucune date de fin de signature publiée ; un contrat peut courir jusqu'au 31 décembre 2031</td></tr>
+<tr><td>Crédit d'impôt borne de recharge</td><td>Supprimé pour les dépenses payées depuis le 1er janvier 2026</td><td>Toujours supprimé</td></tr>
+<tr><td>Malus CO2</td><td>Ne s'applique pas aux voitures 100 % électriques</td><td>Même règle tant que la loi de finances 2027 ne la change pas</td></tr>
+</tbody>
+</table>
+
+<p>Le point qui compte pour un ménage des déciles 6 à 8 qui roule beaucoup pour son travail : pour garder la bonification de 20 (voiture produite en Europe) ou de 15 (autre voiture), le bon de commande ou le contrat de location doit être signé avant le 1er janvier 2027, et la voiture livrée avant le 1er juillet 2027. Une commande passée en janvier reste éligible à la prime, mais avec le coefficient ordinaire de sa catégorie de revenus. Sources : service-public.gouv.fr, fiche F39188 (prime coup de pouce, vérifiée le 20 novembre 2026), fiche F39280 (leasing social, vérifiée le 31 juillet 2026) et fiche F35947 (malus CO2, vérifiée le 21 février 2026), relues le 21 novembre 2026.</p>
+
 <h2>Les démarches dans l'ordre</h2>
 <ul>
 <li>Relevez votre revenu fiscal de référence et votre nombre de parts sur votre dernier avis d'imposition ;</li>
@@ -397,6 +414,7 @@ export const pagesAcheter: PageAcheter[] = [
 <p>Sources : service-public.gouv.fr, fiches F39188 (prime coup de pouce, vérifiée le 9 octobre 2026), F39280 (leasing social 2026, vérifiée le 31 juillet 2026) et F35578 (crédit d'impôt borne, vérifiée le 15 avril 2026) ; economie.gouv.fr (prime à la conversion).</p>`,
     faqTitre: "Questions fréquentes sur les aides voiture électrique",
     faq: [
+      { question: "Quelles aides pour une voiture électrique en 2027 ?", answer: `Au 21 novembre 2026, aucun bonus de l'État n'est annoncé pour 2027. La prime coup de pouce CEE reste ouverte (engagement jusqu'au ${COUP_DE_POUCE.dateLimiteEngagement}), mais la bonification des « gros rouleurs » des déciles 6 à 8 ne vaut que pour une commande signée avant le 1er janvier 2027 et livrée avant le 1er juillet 2027. Le leasing social n'a pas de date de fin de signature publiée. La loi de finances 2027, encore en discussion, peut changer la fiscalité.` },
       { question: "Le bonus écologique existe-t-il encore en 2026 ?", answer: `Non. Depuis le ${COUP_DE_POUCE.depuis}, il est remplacé par la prime coup de pouce Véhicules particuliers électriques, financée par les certificats d'économies d'énergie. Elle concerne les voitures neuves 100 % électriques d'au plus ${eur(COUP_DE_POUCE.prixMaxTTC)} TTC ayant un score environnemental d'au moins ${COUP_DE_POUCE.scoreEnvironnementalMin} points. Son montant n'est pas fixé par l'État : il dépend de l'offre de l'entreprise qui la verse.` },
       { question: "Combien coûte le leasing social en 2026 ?", answer: `Le loyer est de ${eur(LEASING_SOCIAL.loyerMaxMois)} par mois au plus, hors assurance et options, sans apport, sur au moins ${LEASING_SOCIAL.dureeMinAns} ans. Chaque professionnel doit proposer au moins un modèle à ${eur(LEASING_SOCIAL.loyerModeleMinMois)} ou moins. Il faut un revenu fiscal de référence par part d'au plus ${eur(LEASING_SOCIAL.rfrParPartMax)} et un trajet domicile-travail de plus de ${LEASING_SOCIAL.distanceDomicileTravailMinKm} km, ou plus de ${LEASING_SOCIAL.kmProAnMin.toLocaleString("fr-FR")} km par an pour le travail.` },
       { question: "La prime à la conversion existe-t-elle encore ?", answer: `Non pour l'achat d'une voiture : elle a été supprimée le ${PRIME_CONVERSION.supprimeeLe} par le ${PRIME_CONVERSION.decret}. Mettre au rebut un ancien véhicule n'ouvre plus d'aide nationale. Seule la prime au rétrofit subsiste, pour transformer un véhicule thermique en électrique. Quelques collectivités gardent une aide liée à la mise au rebut.` },
