@@ -362,6 +362,18 @@ export default function HomePage() {
             <li><strong>Aides locales :</strong> certaines régions, départements et métropoles complètent les aides nationales ; leurs montants et conditions changent souvent.</li>
           </ul>
 
+          <h2>Voiture électrique en 2027 : ce qui est daté et ce qui reste à publier</h2>
+          <p>
+            Au 23 novembre 2026, voici où en sont les règles de 2027 et qui doit encore publier quoi :
+          </p>
+          <ul>
+            <li><strong>Déjà daté :</strong> la bonification « gros rouleurs » de la prime coup de pouce CEE (déciles 6 à 8, plus de 12 000 km par an) n&apos;est accordée que pour un achat ou une location engagé avant le 1er janvier 2027 et achevé avant le 1er juillet 2027 ; la prime elle-même reste ouverte jusqu&apos;au {COUP_DE_POUCE.dateLimiteEngagement} (service-public.gouv.fr, fiche F39188).</li>
+            <li><strong>Loi de finances pour 2027 :</strong> malus, fiscalité des voitures de société et éventuel nouveau bonus dépendent du projet de loi de finances examiné par le Parlement ; la loi est votée et publiée au Journal officiel avant le 1er janvier 2027, et cette page sera mise à jour dès sa publication.</li>
+            <li><strong>Montant de la prime coup de pouce :</strong> aucun barème national ; chaque entreprise signataire de la charte du ministère de la Transition écologique publie et modifie son offre quand elle veut.</li>
+            <li><strong>Leasing social :</strong> les contrats de la vague 2026 courent jusqu&apos;au 31 décembre 2031 ; aucune date de fin de signature ni nouvelle vague 2027 n&apos;a été publiée à ce jour (service-public.gouv.fr, fiche F39280).</li>
+            <li><strong>Prix de l&apos;électricité :</strong> le tarif réglementé évolue au 1er février sur proposition de la Commission de régulation de l&apos;énergie (CRE), publiée en janvier ; le tarif 2027 sera connu à ce moment-là.</li>
+          </ul>
+
           <h2>Les zones a faibles émissions (ZFE) : un accélérateur de la transition</h2>
           <p>
             Les zones a faibles émissions (ZFE) constituent un levier réglementaire majeur dans la transition vers la mobilité électrique. En 2026, 43 agglomérations françaises de plus de 150 000 habitants appliquent des restrictions de circulation basées sur les vignettes Crit&apos;Air. Dans les métropoles les plus avancées comme Paris, Lyon, Grenoble ou Strasbourg, les véhicules Crit&apos;Air 3 et plus sont déjà interdits de circulation. Les véhicules Crit&apos;Air 2 seront progressivement exclus dans les années a venir.

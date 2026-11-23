@@ -277,6 +277,18 @@ export default function SimulateurAides() {
             Le crédit d&apos;impôt ne couvre plus les dépenses payées en 2026. En copropriété, le programme ADVENIR finance une partie de certaines installations : vérifiez ses conditions en vigueur avant les travaux, auprès d&apos;un installateur qualifié IRVE.
           </p>
 
+          <h2>Aides voiture électrique 2027 : ce qui est daté et ce qui reste à publier</h2>
+          <p>
+            Au 23 novembre 2026, voici où en sont les aides de 2027. Le simulateur passera aux règles de 2027 dès leur publication officielle ; d&apos;ici là, il applique celles de 2026.
+          </p>
+          <ul>
+            <li><strong>Déjà daté :</strong> la bonification « gros rouleurs » de la prime coup de pouce CEE (déciles 6 à 8, plus de 12 000 km par an) n&apos;est accordée que pour un achat ou une location engagé avant le 1er janvier 2027 et achevé avant le 1er juillet 2027 ; la prime elle-même reste ouverte jusqu&apos;au {COUP_DE_POUCE.dateLimiteEngagement} (service-public.gouv.fr, fiche F39188).</li>
+            <li><strong>Loi de finances pour 2027 :</strong> malus, fiscalité des voitures de société et éventuel nouveau bonus dépendent du projet de loi de finances examiné par le Parlement ; la loi est votée et publiée au Journal officiel avant le 1er janvier 2027, et cette page sera mise à jour dès sa publication.</li>
+            <li><strong>Montant de la prime coup de pouce :</strong> aucun barème national ; chaque entreprise signataire de la charte du ministère de la Transition écologique publie et modifie son offre quand elle veut.</li>
+            <li><strong>Leasing social :</strong> les contrats de la vague 2026 courent jusqu&apos;au 31 décembre 2031 ; aucune date de fin de signature ni nouvelle vague 2027 n&apos;a été publiée à ce jour (service-public.gouv.fr, fiche F39280).</li>
+            <li><strong>Prix de l&apos;électricité :</strong> le tarif réglementé évolue au 1er février sur proposition de la Commission de régulation de l&apos;énergie (CRE), publiée en janvier ; le tarif 2027 sera connu à ce moment-là.</li>
+          </ul>
+
           <h2>Démarches : dans quel ordre ?</h2>
           <ul>
             <li>Vérifiez votre revenu fiscal de référence par part sur votre dernier avis d&apos;imposition et votre catégorie dans le simulateur.</li>

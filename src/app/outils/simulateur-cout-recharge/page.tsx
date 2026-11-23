@@ -912,6 +912,11 @@ export default function SimulateurCoutRecharge() {
               L&apos;alternative pour les copropriétés est la mise en place d&apos;une <strong>infrastructure collective</strong>, ou chaque résident peut brancher une borne individuelle sur un réseau électrique partagé. Les opérateurs comme Zeplug ou Waat proposent des solutions clé en main avec un modèle d&apos;abonnement mensuel, sans investissement initial pour la copropriété.
             </p>
 
+            <h2>Coût de recharge en 2027 : quand les prix changeront</h2>
+            <p>
+              Le prix du kilowattheure de 2027 n&apos;est pas encore publié. Le tarif réglementé de vente d&apos;électricité évolue au 1er février, sur proposition de la Commission de régulation de l&apos;énergie (CRE) publiée en janvier, et la loi de finances pour 2027, publiée au Journal officiel avant le 1er janvier, fixe l&apos;accise sur l&apos;électricité. Dès la publication du tarif 2027, les prix d&apos;exemple de ce simulateur seront mis à jour ; en attendant, saisissez le prix de votre propre contrat.
+            </p>
+
             <h2>Recharge au travail : un avantage non négligeable</h2>
             <p>
               De plus en plus d&apos;employeurs installent des bornes de recharge sur leur parking d&apos;entreprise. C&apos;est un avantage considérable : la recharge au travail est généralement gratuite ou a un tarif très réduit (l&apos;employeur bénéficie de tarifs pro sur l&apos;électricité), et elle se fait pendant vos heures de travail, sans immobilisation supplémentaire du véhicule.
